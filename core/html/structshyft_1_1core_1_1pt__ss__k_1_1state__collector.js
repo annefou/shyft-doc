@@ -3,7 +3,7 @@ var structshyft_1_1core_1_1pt__ss__k_1_1state__collector =
     [ "state_collector", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#ac628f61a50e4640488ca4d8d23b70006", null ],
     [ "state_collector", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#a1c5b1cabc79e9691aadf905dd1d7baac", null ],
     [ "collect", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#a1bddb706090d40d3e2018cf4287bc7e4", null ],
-    [ "initialize", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#adc4d5bcfafee88ee7c86f3d0e98d3ab9", null ],
+    [ "initialize", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#aa44c467f903ec9b917653136e00446da", null ],
     [ "collect_state", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#afb6477c1396fe2f06f5bbb494fa92f09", null ],
     [ "destination_area", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#a286747beab04bae561e957cfa70a8ce0", null ],
     [ "kirchner_discharge", "structshyft_1_1core_1_1pt__ss__k_1_1state__collector.html#aa548d27e919c2083663fba2995dc921c", null ],

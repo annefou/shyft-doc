@@ -4,6 +4,7 @@ var structshyft_1_1core_1_1pt__gs__k_1_1state =
     [ "kirchner_state_t", "structshyft_1_1core_1_1pt__gs__k_1_1state.html#a536b446c8589b208f81ff2b3e062b934", null ],
     [ "state", "structshyft_1_1core_1_1pt__gs__k_1_1state.html#ac8930f92fd10e3212c38d23498064eb7", null ],
     [ "state", "structshyft_1_1core_1_1pt__gs__k_1_1state.html#a3ff011ffb4af19d66b2ae56355beebea", null ],
+    [ "operator==", "structshyft_1_1core_1_1pt__gs__k_1_1state.html#a29a0ebe921cd2c3ea6fad4622b7b23c3", null ],
     [ "gs", "structshyft_1_1core_1_1pt__gs__k_1_1state.html#a8da308c73c14f860bf31398f61bc01a5", null ],
     [ "kirchner", "structshyft_1_1core_1_1pt__gs__k_1_1state.html#a807bd7d4af2c1f70957e1d88c59ada30", null ]
 ];

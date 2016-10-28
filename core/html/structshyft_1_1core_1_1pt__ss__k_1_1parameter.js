@@ -17,5 +17,5 @@ var structshyft_1_1core_1_1pt__ss__k_1_1parameter =
     [ "kirchner", "structshyft_1_1core_1_1pt__ss__k_1_1parameter.html#ae9e4199fc635b28da049ec641f17faf1", null ],
     [ "p_corr", "structshyft_1_1core_1_1pt__ss__k_1_1parameter.html#a3e29d001401ac90851bf54ac9c3021e3", null ],
     [ "pt", "structshyft_1_1core_1_1pt__ss__k_1_1parameter.html#a8bf09fe2d250d2e4e51624fa842e30be", null ],
-    [ "snow", "structshyft_1_1core_1_1pt__ss__k_1_1parameter.html#ad55345074a557fe343d49d5d5a53477f", null ]
+    [ "ss", "structshyft_1_1core_1_1pt__ss__k_1_1parameter.html#a5209ac1e6d34ce82da700a988c9e5012", null ]
 ];

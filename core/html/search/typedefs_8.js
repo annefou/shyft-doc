@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['multi_5fpoint',['multi_point',['../namespaceshyft_1_1experimental.html#ac9bfdaa03776ad20656aefde796a46d1',1,'shyft::experimental']]],
-  ['multi_5fpoint_5f',['multi_point_',['../namespaceshyft_1_1experimental.html#a9a040dc8707ed99c897a289aa0c2d4ca',1,'shyft::experimental']]],
-  ['multi_5fpolygon',['multi_polygon',['../namespaceshyft_1_1experimental.html#ad4e1d347849eab005c8b30f83840766f',1,'shyft::experimental']]],
-  ['multi_5fpolygon_5f',['multi_polygon_',['../namespaceshyft_1_1experimental.html#a21a760fe412d5193359664c0b8ce8055',1,'shyft::experimental']]]
+  ['idw_5fparameter_5ft',['idw_parameter_t',['../structshyft_1_1core_1_1interpolation__parameter.html#aa52a67e42cd230a066bec74798870a62',1,'shyft::core::interpolation_parameter']]],
+  ['idw_5fprecipitation_5fparameter_5ft',['idw_precipitation_parameter_t',['../structshyft_1_1core_1_1interpolation__parameter.html#a395d68f46c82c73eba7a73b2fe0bd12f',1,'shyft::core::interpolation_parameter']]],
+  ['idw_5ftemperature_5fparameter_5ft',['idw_temperature_parameter_t',['../structshyft_1_1core_1_1interpolation__parameter.html#aeec27ce6168798fd967b5b84b7987a14',1,'shyft::core::interpolation_parameter']]],
+  ['interval_5ftype',['interval_type',['../classshyft_1_1core_1_1kirchner_1_1calculator.html#a2b66d890dcd68939b0edca239b70fd5c',1,'shyft::core::kirchner::calculator']]],
+  ['iop_5ft',['iop_t',['../namespaceshyft_1_1api.html#a7795e26fc222e2240350b547aff518ad',1,'shyft::api']]]
 ];

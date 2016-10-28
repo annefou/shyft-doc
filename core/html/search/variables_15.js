@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['w',['W',['../structshyft_1_1core_1_1kalman_1_1state.html#ae1cf11da352d46341d7aec238977de55',1,'shyft::core::kalman::state']]],
   ['week',['WEEK',['../structshyft_1_1core_1_1calendar.html#af3811f81d07079145c5d405f9b434c80',1,'shyft::core::calendar']]],
   ['wind_5fconst',['wind_const',['../structshyft_1_1core_1_1gamma__snow_1_1parameter.html#ade1777a7835ed834fb591c13d5b77453',1,'shyft::core::gamma_snow::parameter']]],
   ['wind_5fscale',['wind_scale',['../structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a58a2ec2840fa80780b3d04f3d9cecfd2',1,'shyft::core::gamma_snow::parameter']]],

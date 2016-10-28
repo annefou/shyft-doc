@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['operator_3c_3c',['operator&lt;&lt;',['../structshyft_1_1timeseries_1_1point.html#ab0b9dc5d28e78bb001b1859de41b630f',1,'shyft::timeseries::point::operator&lt;&lt;()'],['../structshyft_1_1core_1_1utcperiod.html#a38c14075602e0c3cfc307c9af9bce4cc',1,'shyft::core::utcperiod::operator&lt;&lt;()']]]
+  ['accumulate_5fts',['accumulate_ts',['../classshyft_1_1api_1_1apoint__ts.html#a11793663c1c55964c54b7a7f400a8fab',1,'shyft::api::apoint_ts']]],
+  ['average_5fts',['average_ts',['../classshyft_1_1api_1_1apoint__ts.html#a4ba76f4c5a963b2f97ad4ffa44336d4e',1,'shyft::api::apoint_ts']]]
 ];

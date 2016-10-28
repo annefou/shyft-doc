@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['observation_5flocation',['observation_location',['../structshyft_1_1experimental_1_1observation__location.html',1,'shyft::experimental']]],
-  ['optimizer',['optimizer',['../classshyft_1_1core_1_1model__calibration_1_1optimizer.html',1,'shyft::core::model_calibration']]]
+  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1pt__hs__k_1_1null__collector.html',1,'shyft::core::pt_hs_k']]],
+  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1pt__ss__k_1_1null__collector.html',1,'shyft::core::pt_ss_k']]],
+  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html',1,'shyft::core::pt_gs_k']]],
+  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1hbv__stack_1_1null__collector.html',1,'shyft::core::hbv_stack']]]
 ];

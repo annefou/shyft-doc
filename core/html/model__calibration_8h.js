@@ -4,7 +4,18 @@ var model__calibration_8h =
     [ "sceua_fx", "structshyft_1_1core_1_1model__calibration_1_1sceua__fx.html", "structshyft_1_1core_1_1model__calibration_1_1sceua__fx" ],
     [ "ts_transform", "structshyft_1_1core_1_1model__calibration_1_1ts__transform.html", "structshyft_1_1core_1_1model__calibration_1_1ts__transform" ],
     [ "target_specification", "structshyft_1_1core_1_1model__calibration_1_1target__specification.html", "structshyft_1_1core_1_1model__calibration_1_1target__specification" ],
+    [ "detect_snow_sca", "structshyft_1_1core_1_1model__calibration_1_1detect__snow__sca.html", null ],
+    [ "detect_snow_sca< T, decltype(T::snow_sca, void())>", "structshyft_1_1core_1_1model__calibration_1_1detect__snow__sca_3_01_t_00_01decltype_07_t_1_1snow__sca_00_01void_07_08_08_4.html", null ],
+    [ "detect_snow_swe", "structshyft_1_1core_1_1model__calibration_1_1detect__snow__swe.html", null ],
+    [ "detect_snow_swe< T, decltype(T::snow_swe, void())>", "structshyft_1_1core_1_1model__calibration_1_1detect__snow__swe_3_01_t_00_01decltype_07_t_1_1snow__swe_00_01void_07_08_08_4.html", null ],
+    [ "area_ts", "structshyft_1_1core_1_1model__calibration_1_1area__ts.html", "structshyft_1_1core_1_1model__calibration_1_1area__ts" ],
     [ "optimizer", "classshyft_1_1core_1_1model__calibration_1_1optimizer.html", "classshyft_1_1core_1_1model__calibration_1_1optimizer" ],
+    [ "enable_if_tx", "model__calibration_8h.html#adcd89ab052593045e6ce5c0fb061cfee", null ],
+    [ "catchment_property_type", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756", [
+      [ "DISCHARGE", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756aa948a33766c00e5ed6144fc0451c303d", null ],
+      [ "SNOW_COVERED_AREA", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756a3b51a4a7d6566b611f89b8e6d6e76412", null ],
+      [ "SNOW_WATER_EQUIVALENT", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756a48dacfdcfa0a727aa9f9cb4ff028c7ed", null ]
+    ] ],
     [ "target_spec_calc_type", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36e", [
       [ "NASH_SUTCLIFFE", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36eab41aca78a12a708091116416ba16e6a7", null ],
       [ "KLING_GUPTA", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36ea89b599e43debedc2cdf4ad2184bede20", null ]

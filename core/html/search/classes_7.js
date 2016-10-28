@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['idw_5fcompliant_5fgeo_5fpoint_5fts',['idw_compliant_geo_point_ts',['../classshyft_1_1core_1_1idw__compliant__geo__point__ts.html',1,'shyft::core']]],
-  ['idw_5ftimeaxis',['idw_timeaxis',['../classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis.html',1,'shyft::core::inverse_distance']]],
-  ['ifx',['ifx',['../structshyft_1_1core_1_1optimizer_1_1ifx.html',1,'shyft::core::optimizer']]],
-  ['interpolation_5fparameter',['interpolation_parameter',['../structshyft_1_1core_1_1interpolation__parameter.html',1,'shyft::core']]],
-  ['itimeseriesofpoints',['ITimeSeriesOfPoints',['../classshyft_1_1api_1_1_i_time_series_of_points.html',1,'shyft::api']]]
+  ['hbv_5factual_5fevapotranspiration_5fcell_5fresponse_5fstatistics',['hbv_actual_evapotranspiration_cell_response_statistics',['../structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics.html',1,'shyft::api']]],
+  ['hbv_5fsnow_5fcell_5fresponse_5fstatistics',['hbv_snow_cell_response_statistics',['../structshyft_1_1api_1_1hbv__snow__cell__response__statistics.html',1,'shyft::api']]],
+  ['hbv_5fsnow_5fcell_5fstate_5fstatistics',['hbv_snow_cell_state_statistics',['../structshyft_1_1api_1_1hbv__snow__cell__state__statistics.html',1,'shyft::api']]],
+  ['hbv_5fsoil_5fcell_5fresponse_5fstatistics',['hbv_soil_cell_response_statistics',['../structshyft_1_1api_1_1hbv__soil__cell__response__statistics.html',1,'shyft::api']]],
+  ['hbv_5fsoil_5fcell_5fstate_5fstatistics',['hbv_soil_cell_state_statistics',['../structshyft_1_1api_1_1hbv__soil__cell__state__statistics.html',1,'shyft::api']]],
+  ['hbv_5fstack_5fstate_5fio',['hbv_stack_state_io',['../structshyft_1_1api_1_1hbv__stack__state__io.html',1,'shyft::api']]],
+  ['hbv_5ftank_5fcell_5fstate_5fstatistics',['hbv_tank_cell_state_statistics',['../structshyft_1_1api_1_1hbv__tank__cell__state__statistics.html',1,'shyft::api']]]
 ];

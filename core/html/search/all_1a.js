@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7eitimeseriesofpoints',['~ITimeSeriesOfPoints',['../classshyft_1_1api_1_1_i_time_series_of_points.html#a3178a00244ac9258a3b47d700f7be89d',1,'shyft::api::ITimeSeriesOfPoints']]]
+  ['_7eipoint_5fts',['~ipoint_ts',['../structshyft_1_1api_1_1ipoint__ts.html#a223c013c82a80b458e97666f7da03ec7',1,'shyft::api::ipoint_ts']]]
 ];

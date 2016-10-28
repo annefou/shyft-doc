@@ -22,11 +22,11 @@ var experimental_8h =
     [ "multi_polygon_", "experimental_8h.html#a21a760fe412d5193359664c0b8ce8055", null ],
     [ "point_xy", "experimental_8h.html#a80acf4e636820763739fe6ece53aa14d", null ],
     [ "polygon", "experimental_8h.html#ae9bafc2bb9e1595c2c8b85fedad51c80", null ],
-    [ "pts_t", "experimental_8h.html#acab68ddbedfb3eef4f1652e0b23c9a9e", null ],
+    [ "pts_t", "experimental_8h.html#a399a697573fa1c26082425e1a5cf91c6", null ],
     [ "region_environment_t", "experimental_8h.html#a6e2699bb930e0f3a26ecbe3f18641e72", null ],
-    [ "xts_t", "experimental_8h.html#afd5564d5007eb719786f1737562bead2", null ],
+    [ "xts_t", "experimental_8h.html#a2d6686b46c3888e9853212ff43abc0c6", null ],
     [ "find", "experimental_8h.html#a93692cd20b6eabf36411f3ba1745c1d2", null ],
     [ "load_from_directory", "experimental_8h.html#a6c4b93ba693c34d028eb587f31a76e46", null ],
     [ "slurp", "experimental_8h.html#a573391d66e7e416b83dab1aa4bc52172", null ],
-    [ "test_path", "experimental_8h.html#a09769bfdbfc57ced0f7e2eba66a330ee", null ]
+    [ "test_path", "experimental_8h.html#a632eb309b4e9b65f058437e506eb0936", null ]
 ];

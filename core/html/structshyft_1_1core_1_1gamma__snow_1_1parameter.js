@@ -1,6 +1,7 @@
 var structshyft_1_1core_1_1gamma__snow_1_1parameter =
 [
-    [ "parameter", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a190523d2d6ea45eaf65208135e293ef0", null ],
+    [ "parameter", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a282ab613db8fa33df9d6e428498c9e54", null ],
+    [ "effective_snow_cv", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a300bccec4785d26ee32f8749cc734c87", null ],
     [ "is_snow_season", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a965fc06c13d5b46a884459fd6375cdd4", null ],
     [ "is_start_melt_season", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a8aa7cac671c059dc09d2cf9680e39241", null ],
     [ "cal", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a29b7ac99474d45a301690320c1ad8838", null ],
@@ -13,6 +14,8 @@ var structshyft_1_1core_1_1gamma__snow_1_1parameter =
     [ "min_albedo", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a084dea5f99604e83121828b6513e64ed", null ],
     [ "slow_albedo_decay_rate", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#ab3d2b8949a61f4e7f04b101fd5966664", null ],
     [ "snow_cv", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#ad9a5c296f0cebd450e89bcfd795187b9", null ],
+    [ "snow_cv_altitude_factor", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a930e0e63f01d18732bccf0cb02de7ede", null ],
+    [ "snow_cv_forest_factor", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a54692e72a6c84c62bac3bdbaa98fb2e3", null ],
     [ "snowfall_reset_depth", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a071706ebd1d4e02add02762b4d05390f", null ],
     [ "surface_magnitude", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a9b781d66932ebe7f086b10010f2c4681", null ],
     [ "tx", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a98377abf74058a158acfc17e28c74d0f", null ],

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html',1,'shyft::core::pt_gs_k']]],
-  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1pt__ss__k_1_1null__collector.html',1,'shyft::core::pt_ss_k']]],
-  ['null_5fcollector',['null_collector',['../structshyft_1_1core_1_1pt__hs__k_1_1null__collector.html',1,'shyft::core::pt_hs_k']]]
+  ['mass_5fbalance_5ferror',['mass_balance_error',['../classshyft_1_1core_1_1skaugen_1_1mass__balance__error.html',1,'shyft::core::skaugen']]],
+  ['matern_5fmodel',['matern_model',['../structshyft_1_1core_1_1grf_1_1matern__model.html',1,'shyft::core::grf']]]
 ];

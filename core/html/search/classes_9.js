@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['land_5ftype_5ffractions',['land_type_fractions',['../structshyft_1_1core_1_1land__type__fractions.html',1,'shyft::core']]]
+  ['kirchner_5fcell_5fstate_5fstatistics',['kirchner_cell_state_statistics',['../structshyft_1_1api_1_1kirchner__cell__state__statistics.html',1,'shyft::api']]]
 ];
