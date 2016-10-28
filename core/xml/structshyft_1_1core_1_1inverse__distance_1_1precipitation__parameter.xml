@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter" kind="struct" prot="public">
+    <compoundname>shyft::core::inverse_distance::precipitation_parameter</compoundname>
+    <basecompoundref refid="structshyft_1_1core_1_1inverse__distance_1_1parameter" prot="public" virt="non-virtual">shyft::core::inverse_distance::parameter</basecompoundref>
+    <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter_1a1b56af2ec4795d6ae88bd90abedb9a47" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::inverse_distance::precipitation_parameter::scale_factor</definition>
+        <argsstring></argsstring>
+        <name>scale_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="61" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter_1a5706c2de63c4570dfaad1166e339a988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::inverse_distance::precipitation_parameter::precipitation_parameter</definition>
+        <argsstring>(double scale_factor=1.02, size_t max_members=20, double max_distance=200000.0)</argsstring>
+        <name>precipitation_parameter</name>
+        <param>
+          <type>double</type>
+          <declname>scale_factor</declname>
+          <defval>1.02</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_members</declname>
+          <defval>20</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_distance</declname>
+          <defval>200000.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="62" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="62" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter_1ab56d55812e0f9508450c09cd89024d9c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::inverse_distance::precipitation_parameter::precipitation_scale_factor</definition>
+        <argsstring>() const </argsstring>
+        <name>precipitation_scale_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="64" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1249">
+        <label>shyft::core::inverse_distance::precipitation_parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter"/>
+        <childnode refid="1250" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>shyft::core::inverse_distance::parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1parameter"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1251">
+        <label>shyft::core::inverse_distance::precipitation_parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter"/>
+        <childnode refid="1252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>shyft::core::inverse_distance::parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1parameter"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="60" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="60" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1ac2c567f9a0aa7890abbee6c95623f0fb" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>distance_measure_factor</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a571a974f54f69d0fb74b18dca9378b65" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>max_distance</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a442114bbdccc3b0c45af04cdec45af64" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>max_members</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1af5aab22af82afd34b5dcc157e8152834" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter_1a5706c2de63c4570dfaad1166e339a988" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>precipitation_parameter</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter_1ab56d55812e0f9508450c09cd89024d9c" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>precipitation_scale_factor</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter_1a1b56af2ec4795d6ae88bd90abedb9a47" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>scale_factor</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1aa7d0f88227114fec039687ecb1304729" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_parameter</scope><name>zscale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

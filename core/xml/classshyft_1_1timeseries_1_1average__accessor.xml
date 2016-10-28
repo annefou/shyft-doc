@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1timeseries_1_1average__accessor" kind="class" prot="public">
+    <compoundname>shyft::timeseries::average_accessor</compoundname>
+    <includes refid="core_2timeseries_8h" local="no">timeseries.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>S</declname>
+        <defname>S</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>TA</declname>
+        <defname>TA</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1a653ab44e25e63a2f9b34d56ad855432d" prot="private" static="yes" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t shyft::timeseries::average_accessor&lt; S, TA &gt;::npos</definition>
+        <argsstring></argsstring>
+        <name>npos</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="980" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="980" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1a8dca3716dfcbd72e2e9a5c6f9a85e04a" prot="private" static="no" mutable="yes">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::average_accessor&lt; S, TA &gt;::last_idx</definition>
+        <argsstring></argsstring>
+        <name>last_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="981" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1a6a959992632b682c72bc07f7183ff824" prot="private" static="no" mutable="yes">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::average_accessor&lt; S, TA &gt;::q_idx</definition>
+        <argsstring></argsstring>
+        <name>q_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="982" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1aaa313d0dc61a2f683da559c20d13bb45" prot="private" static="no" mutable="yes">
+        <type>double</type>
+        <definition>double shyft::timeseries::average_accessor&lt; S, TA &gt;::q_value</definition>
+        <argsstring></argsstring>
+        <name>q_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="983" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1a42ab4f6b9fe8da9396cfaefa0717946f" prot="private" static="no" mutable="no">
+        <type>const TA &amp;</type>
+        <definition>const TA&amp; shyft::timeseries::average_accessor&lt; S, TA &gt;::time_axis</definition>
+        <argsstring></argsstring>
+        <name>time_axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="984" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1a219c281d690b0d9ca889d54d776a88c0" prot="private" static="no" mutable="no">
+        <type>const S &amp;</type>
+        <definition>const S&amp; shyft::timeseries::average_accessor&lt; S, TA &gt;::source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="985" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1average__accessor_1a9697fbe4a11efa2a3efa448b224149d0" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; S &gt;</type>
+        <definition>std::shared_ptr&lt;S&gt; shyft::timeseries::average_accessor&lt; S, TA &gt;::source_ref</definition>
+        <argsstring></argsstring>
+        <name>source_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="986" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="986" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1average__accessor_1af0cffec63463d41d76ffba7998d9fd35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::timeseries::average_accessor&lt; S, TA &gt;::average_accessor</definition>
+        <argsstring>(const S &amp;source, const TA &amp;time_axis)</argsstring>
+        <name>average_accessor</name>
+        <param>
+          <type>const S &amp;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const TA &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="988" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="988" bodyend="989"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1average__accessor_1a2e6319c3f66e7eba8a86c7c061b8abb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::timeseries::average_accessor&lt; S, TA &gt;::average_accessor</definition>
+        <argsstring>(std::shared_ptr&lt; S &gt; source, const TA &amp;time_axis)</argsstring>
+        <name>average_accessor</name>
+        <param>
+          <type>std::shared_ptr&lt; S &gt;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const TA &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="990" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="990" bodyend="991"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1average__accessor_1a3c3f0685f04ff9af33c8369d83ea1171" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::average_accessor&lt; S, TA &gt;::get_last_index</definition>
+        <argsstring>() const </argsstring>
+        <name>get_last_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="993" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="993" bodyend="993"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1average__accessor_1a2500b93ac15478aa6857fa8dc2729d91" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::timeseries::average_accessor&lt; S, TA &gt;::value</definition>
+        <argsstring>(const size_t i) const </argsstring>
+        <name>value</name>
+        <param>
+          <type>const size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="995" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="995" bodyend="1000"/>
+        <references refid="namespaceshyft_1_1timeseries_1a0d651da5f6e3bc99dabe237a36c6e66c" compoundref="core_2timeseries_8h" startline="908" endline="912">shyft::timeseries::average_value</references>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa2ba877b0fea2668327cdcdb24c59a34b" compoundref="core_2timeseries_8h" startline="60">shyft::timeseries::POINT_INSTANT_VALUE</references>
+        <referencedby refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a2964e0d74b45e32273878329a79b324f" compoundref="kalman_8h" startline="151" endline="161">shyft::core::kalman::bias_predictor::update_with_forecast</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1ts__transform_1a227bf627cd34db1751e68dd60edfa49b" compoundref="model__calibration_8h" startline="139" endline="146">shyft::core::model_calibration::ts_transform::to_average</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1average__accessor_1abf76b88739d55f564dd3f0e4a2e68df1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::average_accessor&lt; S, TA &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="1002" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="1002" bodyend="1002"/>
+        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1ts__transform_1a227bf627cd34db1751e68dd60edfa49b" compoundref="model__calibration_8h" startline="139" endline="146">shyft::core::model_calibration::ts_transform::to_average</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classshyft_1_1timeseries_1_1average__accessor" kindref="compound">average_accessor</ref> provides a projection/interpretation of the values of a point source on to a time-axis as provided with semantics as needed/practical for this project. </para>    </briefdescription>
+    <detaileddescription>
+<para>This includes interpolation and true average, <simplesect kind="note"><para>point interpretation: We try to interpret the points as f(t), using either stair-case (start of step) or linear between points interpretations.</para><simplesectsep/><para>stair-case is ideal for timeseries where each period on the timeaxis contains a value that represents the average value for that timestep. E.g. average discharge, precipitation etc.</para><simplesectsep/><para>linear-between points is ideal/better when the time-value points represents an instantaneous value, observed at(or around) that particular timepoints and where the signal is assumed to follow &apos;natural&apos; changes. eg. temperature: observed 12 degC at 8am, 16 degC at 10am, then a linear approximation is used to calculate f(t) in that interval</para><simplesectsep/><para>nan-handling semantics: when a nan point is introduced at to, then f(t) is Nan from that point until next non-nan point.</para><simplesectsep/><para>Computation of true average true-average = 1/(t1-t0) * integral (t0..t1) f(t) dt</para></simplesect>
+Only non-nan parts of the time-axis contributes to the area, integrated time distance. e.g.: if half the interval have nan values, and remaining is 10.0, then true average is 10.0 (not 5.0).</para><para>TODO: maybe this approach fits for some cases, but not all? Then introduce parameters to get what we want ?</para><para>In addition the accessor allows fast sequential access to these values using clever caching of the last position used in the underlying point source. <ref refid="namespace_the" kindref="compound">The</ref> time axis and point source can be of any type as listed above as long as the basic type requirement as described below are satisfied. This is typically the case for observed time-series point sources, where values could be missing, bad, or just irregularly sampled.</para><para><simplesect kind="note"><para>Notice that the S and T objects are const referenced and not owned by Accessor, the intention is that accessor is low-cost/light-weight class, to be created and used in tight(closed) local (thread)scopes. <ref refid="namespace_the" kindref="compound">The</ref> variables it wrapped should have a lifetime longer than accessor. TODO: consider to leave the lifetime-stuff to the user, by spec types..</para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>point source, must provide:<orderedlist>
+<listitem><para>.<ref refid="classshyft_1_1timeseries_1_1average__accessor_1abf76b88739d55f564dd3f0e4a2e68df1" kindref="member">size() const </ref> -&gt; number of points in the source</para></listitem><listitem><para>.index_of(utctime tx) const -&gt; return lower bound index or -1 for the supplied tx</para></listitem><listitem><para>.get(size_t i) const  -&gt; return the i&apos;th point (t,v)</para></listitem><listitem><para>.point_fx const -&gt; point_interpretation(POINT_INSTANT_VALUE|POINT_AVERAGE_VALUE) </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time axis, must provide:<orderedlist>
+<listitem><para>operator()(size_t i) const <ndash/>&gt; return the i&apos;th period of timeaxis</para></listitem><listitem></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Accessor that provides:<orderedlist>
+<listitem><para><ref refid="classshyft_1_1timeseries_1_1average__accessor_1a2500b93ac15478aa6857fa8dc2729d91" kindref="member">value(size_t i) const </ref>-&gt; double, the value at the i&apos;th interval of the supplied time-axis </para></listitem></orderedlist>
+</para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="978" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="978" bodyend="1003"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1af0cffec63463d41d76ffba7998d9fd35" prot="public" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>average_accessor</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a2e6319c3f66e7eba8a86c7c061b8abb0" prot="public" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>average_accessor</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a3c3f0685f04ff9af33c8369d83ea1171" prot="public" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>get_last_index</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a8dca3716dfcbd72e2e9a5c6f9a85e04a" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>last_idx</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a653ab44e25e63a2f9b34d56ad855432d" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>npos</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a6a959992632b682c72bc07f7183ff824" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>q_idx</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1aaa313d0dc61a2f683da559c20d13bb45" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>q_value</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1abf76b88739d55f564dd3f0e4a2e68df1" prot="public" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>size</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a219c281d690b0d9ca889d54d776a88c0" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>source</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a9697fbe4a11efa2a3efa448b224149d0" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>source_ref</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a42ab4f6b9fe8da9396cfaefa0717946f" prot="private" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>time_axis</name></member>
+      <member refid="classshyft_1_1timeseries_1_1average__accessor_1a2500b93ac15478aa6857fa8dc2729d91" prot="public" virt="non-virtual"><scope>shyft::timeseries::average_accessor</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

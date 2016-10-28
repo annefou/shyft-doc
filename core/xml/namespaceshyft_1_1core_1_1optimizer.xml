@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1optimizer" kind="namespace">
+    <compoundname>shyft::core::optimizer</compoundname>
+    <innerclass refid="classshyft_1_1core_1_1optimizer_1_1dream" prot="public">shyft::core::optimizer::dream</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1optimizer_1_1ifx" prot="public">shyft::core::optimizer::ifx</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc" prot="public">shyft::core::optimizer::sort_by_value_asc</innerclass>
+    <innerclass refid="classshyft_1_1core_1_1optimizer_1_1sceua" prot="public">shyft::core::optimizer::sceua</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cd" prot="public" static="no">
+        <name>OptimizerState</name>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda473c4822be66c91de921fddfc224e88e" prot="public">
+          <name>NotStarted</name>
+          <initializer>=-1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaef035f962372852c7d5311056c4d9220" prot="public">
+          <name>Searching</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda81d68d9ca3c686ab5b8281c848e4b895" prot="public">
+          <name>FinishedFxConvergence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdac7c88fac2a9aa0013d4176be2fea4062" prot="public">
+          <name>FinishedXconvergence</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaaf3746175bb57d02e1ec7d45c12766f0" prot="public">
+          <name>FinishedMaxIterations</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda9bf0571b54dffc88e58c2603d7ddfd29" prot="public">
+          <name>FinishedUserRequest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdad5d61d952d59fb4b1963cda3d1e98959" prot="public">
+          <name>FinishedMaxTime</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdab5609382f29d91d9d13ee2be0b0228ab" prot="public">
+          <name>SavingTimeSeries</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda52dfecd1ac84babd140fd5fccbe233f1" prot="public">
+          <name>ProcessTerminated</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="47" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1optimizer_1af3ece70d73f000b99773ca570959a4ff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::optimizer::fastcopy</definition>
+        <argsstring>(T *dst, const T *src, size_t n)</argsstring>
+        <name>fastcopy</name>
+        <param>
+          <type>T *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" line="47" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1optimizer_1adc68affcaefd545235e6755e388ed728" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::optimizer::construct_sorted_pivot_table</definition>
+        <argsstring>(const double *v, size_t *ix, size_t n)</argsstring>
+        <name>construct_sorted_pivot_table</name>
+        <param>
+          <type>const double *</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>ix</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="42" bodyend="45"/>
+        <referencedby refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a8cfa9bcb3fe1ea15ef548c360bd123a7" compoundref="sceua__optimizer_8cpp" startline="10" endline="107">shyft::core::optimizer::sceua::find_min</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/dream_optimizer.cpp" line="7" column="1"/>
+  </compounddef>
+</doxygen>

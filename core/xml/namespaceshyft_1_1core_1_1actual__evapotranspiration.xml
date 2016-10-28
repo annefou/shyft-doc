@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1actual__evapotranspiration" kind="namespace">
+    <compoundname>shyft::core::actual_evapotranspiration</compoundname>
+    <innerclass refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" prot="public">shyft::core::actual_evapotranspiration::parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response" prot="public">shyft::core::actual_evapotranspiration::response</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1actual__evapotranspiration_1a3395072b5006785f07a0e371c84a1650" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::actual_evapotranspiration::calculate_step</definition>
+        <argsstring>(const double water_level, const double potential_evapotranspiration, const double scale_factor, const double snow_fraction, const utctime dt)</argsstring>
+        <name>calculate_step</name>
+        <param>
+          <type>const double</type>
+          <declname>water_level</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>potential_evapotranspiration</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>scale_factor</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>snow_fraction</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="namespaceshyft_1_1core_1_1actual__evapotranspiration" kindref="compound">actual_evapotranspiration</ref> calculates actual evapotranspiration based on supplied parameters </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>water_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>potential_evapotranspiration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scale_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>typically 1.5 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>snow_fraction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>0..1 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>calculated actual evapotranspiration </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" bodystart="50" bodyend="56"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__gs__k_1a4ef4369324700b0b99c28335e63a5ebc" compoundref="core_2pt__gs__k_8h" startline="245" endline="334">shyft::core::pt_gs_k::run_pt_gs_k</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="142" endline="221">shyft::core::pt_hs_k::run</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="152" endline="237">shyft::core::pt_ss_k::run</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" line="27" column="1"/>
+  </compounddef>
+</doxygen>

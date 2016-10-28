@@ -1,0 +1,1347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1region__model" kind="class" prot="public">
+    <compoundname>shyft::core::region_model</compoundname>
+    <includes refid="region__model_8h" local="no">region_model.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class C</type>
+      </param>
+      <param>
+        <type>class RE</type>
+        <defval><ref refid="structshyft_1_1core_1_1region__environment" kindref="compound">region_environment</ref>&lt;<ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>,<ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>,<ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>,<ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>,<ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>&gt;</defval>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1ade47f813473ea7c82e8d7c177a0455cb" prot="public" static="no">
+        <type>C</type>
+        <definition>typedef C shyft::core::region_model&lt; C, RE &gt;::cell_t</definition>
+        <argsstring></argsstring>
+        <name>cell_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="192" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1a7c3551b5c2de31c4b2043c55262037a5" prot="public" static="no">
+        <type>C::state_t</type>
+        <definition>typedef C::state_t shyft::core::region_model&lt; C, RE &gt;::state_t</definition>
+        <argsstring></argsstring>
+        <name>state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="193" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" prot="public" static="no">
+        <type>C::parameter_t</type>
+        <definition>typedef C::parameter_t shyft::core::region_model&lt; C, RE &gt;::parameter_t</definition>
+        <argsstring></argsstring>
+        <name>parameter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="194" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" prot="public" static="no">
+        <type>C::timeaxis_t</type>
+        <definition>typedef C::timeaxis_t shyft::core::region_model&lt; C, RE &gt;::timeaxis_t</definition>
+        <argsstring></argsstring>
+        <name>timeaxis_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="195" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1aaee85dc06f4831b972d0ca6b10c4ace0" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classshyft_1_1core_1_1region__model_1ade47f813473ea7c82e8d7c177a0455cb" kindref="member">cell_t</ref> &gt;</type>
+        <definition>typedef std::vector&lt;cell_t&gt; shyft::core::region_model&lt; C, RE &gt;::cell_vec_t</definition>
+        <argsstring></argsstring>
+        <name>cell_vec_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="196" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1a235f5fb30a5bfa243da8e4393cd95518" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classshyft_1_1core_1_1region__model_1aaee85dc06f4831b972d0ca6b10c4ace0" kindref="member">cell_vec_t</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;cell_vec_t &gt; shyft::core::region_model&lt; C, RE &gt;::cell_vec_t_</definition>
+        <argsstring></argsstring>
+        <name>cell_vec_t_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="197" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1a6aa0dbf869732b15a60d7ce83643a6e4" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;parameter_t&gt; shyft::core::region_model&lt; C, RE &gt;::parameter_t_</definition>
+        <argsstring></argsstring>
+        <name>parameter_t_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="198" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1a0c4f1ad910577a13260845b1f9fc3dac" prot="public" static="no">
+        <type>cell_vec_t::iterator</type>
+        <definition>typedef cell_vec_t::iterator shyft::core::region_model&lt; C, RE &gt;::cell_iterator</definition>
+        <argsstring></argsstring>
+        <name>cell_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="199" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1region__model_1a1fdec71710db7940aec82c3296019605" prot="public" static="no">
+        <type>RE</type>
+        <definition>typedef RE shyft::core::region_model&lt; C, RE &gt;::region_env_t</definition>
+        <argsstring></argsstring>
+        <name>region_env_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="200" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ae6d8d0fc2bd2fd704e3167bb885fbc4b" prot="protected" static="no" mutable="no">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1a235f5fb30a5bfa243da8e4393cd95518" kindref="member">cell_vec_t_</ref></type>
+        <definition>cell_vec_t_ shyft::core::region_model&lt; C, RE &gt;::cells</definition>
+        <argsstring></argsstring>
+        <name>cells</name>
+        <briefdescription>
+<para>a region consists of cells that orchestrate the distributed correlation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="203" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="203" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ab0532d2fa23818127f902927dd64d5d5" prot="protected" static="no" mutable="no">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1a6aa0dbf869732b15a60d7ce83643a6e4" kindref="member">parameter_t_</ref></type>
+        <definition>parameter_t_ shyft::core::region_model&lt; C, RE &gt;::region_parameter</definition>
+        <argsstring></argsstring>
+        <name>region_parameter</name>
+        <briefdescription>
+<para>applies to all cells, except those with catchment override </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="204" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="204" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1a0f167f1070d32bdea9ad885eb9d5d61b" prot="protected" static="no" mutable="no">
+        <type>std::map&lt; int, <ref refid="classshyft_1_1core_1_1region__model_1a6aa0dbf869732b15a60d7ce83643a6e4" kindref="member">parameter_t_</ref> &gt;</type>
+        <definition>std::map&lt;int, parameter_t_&gt; shyft::core::region_model&lt; C, RE &gt;::catchment_parameters</definition>
+        <argsstring></argsstring>
+        <name>catchment_parameters</name>
+        <briefdescription>
+<para>for each catchment (with cid) parameter is possible </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="205" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="205" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ada95b49d7d4ca35ba7a561c9595e3fff" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; shyft::core::region_model&lt; C, RE &gt;::catchment_filter</definition>
+        <argsstring></argsstring>
+        <name>catchment_filter</name>
+        <briefdescription>
+<para>if active (alias .<ref refid="classshyft_1_1core_1_1region__model_1a0dbedff4f5c9f2f7a92681ad8d72d832" kindref="member">size()</ref>&gt;0), only calc if catchment_filter[catchment_id] is true. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="207" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="207" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1a44edd4d8cb58b57bbea4ac094dd04950" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; shyft::core::region_model&lt; C, RE &gt;::cix_to_cid</definition>
+        <argsstring></argsstring>
+        <name>cix_to_cid</name>
+        <briefdescription>
+<para>maps internal zero-based catchment index ix to externally supplied catchment id. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="208" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="208" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ac51e72d6c48005bc588730431cd4b9b3" prot="protected" static="no" mutable="no">
+        <type>std::map&lt; int, int &gt;</type>
+        <definition>std::map&lt;int,int&gt; shyft::core::region_model&lt; C, RE &gt;::cid_to_cix</definition>
+        <argsstring></argsstring>
+        <name>cid_to_cix</name>
+        <briefdescription>
+<para>map external catchment id to internal index </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="209" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="209" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1abae2995dc32f5ff1945feb8dfc47bdbd" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::core::region_model&lt; C, RE &gt;::n_catchments</definition>
+        <argsstring></argsstring>
+        <name>n_catchments</name>
+        <briefdescription>
+<para>optimized//extracted as max(cell.geo.catchment_id())+1 in run interpolate </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="229" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="229" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1aef46bfbe262cfe71aae246d83c34f9a4" prot="public" static="no" mutable="no">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" kindref="member">timeaxis_t</ref></type>
+        <definition>timeaxis_t shyft::core::region_model&lt; C, RE &gt;::time_axis</definition>
+        <argsstring></argsstring>
+        <name>time_axis</name>
+        <briefdescription>
+<para><ndash/> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="289" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="289" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1aa79737778f903ae7bbbb48619e65e3fb" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::core::region_model&lt; C, RE &gt;::ncore</definition>
+        <argsstring></argsstring>
+        <name>ncore</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>&lt; defaults to 4x hardware concurrency, controls number of threads used for cell processing </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="290" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="290" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ad9304e1161aa44c8a63327467f586c52" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1interpolation__parameter" kindref="compound">interpolation_parameter</ref></type>
+        <definition>interpolation_parameter shyft::core::region_model&lt; C, RE &gt;::ip_parameter</definition>
+        <argsstring></argsstring>
+        <name>ip_parameter</name>
+        <briefdescription>
+<para>the interpolation parameter as passed to interpolate/run_interpolation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="291" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="291" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ac588af973bcb69a92a9b6778fcf14dd2" prot="public" static="no" mutable="no">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1a1fdec71710db7940aec82c3296019605" kindref="member">region_env_t</ref></type>
+        <definition>region_env_t shyft::core::region_model&lt; C, RE &gt;::region_env</definition>
+        <argsstring></argsstring>
+        <name>region_env</name>
+        <briefdescription>
+<para>the region environment (shallow-copy?) as passed to the interpolation/run_interpolation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="292" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="292" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1region__model_1ab6e30f034a20faa24149bcc08b5eef1d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classshyft_1_1core_1_1region__model_1a7c3551b5c2de31c4b2043c55262037a5" kindref="member">state_t</ref> &gt;</type>
+        <definition>std::vector&lt;state_t&gt; shyft::core::region_model&lt; C, RE &gt;::initial_state</definition>
+        <argsstring></argsstring>
+        <name>initial_state</name>
+        <briefdescription>
+<para>the initial state, set explicit, or by the first call to .set_states(..) or <ref refid="classshyft_1_1core_1_1region__model_1a2a2cfd5a4c03dd1e2f1cc8ad8b8eb1d4" kindref="member">run_cells()</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="293" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="293" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" compoundref="region__model_8h" startline="231" endline="248">shyft::core::region_model&lt; C, RE &gt;::clone</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a99b7d24a42dd51a96cd2dfecb209e40b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::update_ix_to_id_mapping</definition>
+        <argsstring>()</argsstring>
+        <name>update_ix_to_id_mapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="211" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="211" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::clone</definition>
+        <argsstring>(const region_model &amp;c)</argsstring>
+        <name>clone</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="231" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="231" bodyend="248"/>
+        <references refid="classshyft_1_1core_1_1region__model_1aa79737778f903ae7bbbb48619e65e3fb" compoundref="region__model_8h" startline="290">shyft::core::region_model&lt; C, RE &gt;::ncore</references>
+        <references refid="classshyft_1_1core_1_1region__model_1aef46bfbe262cfe71aae246d83c34f9a4" compoundref="region__model_8h" startline="289">shyft::core::region_model&lt; C, RE &gt;::time_axis</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ada95b49d7d4ca35ba7a561c9595e3fff" compoundref="region__model_8h" startline="207">shyft::core::region_model&lt; C, RE &gt;::catchment_filter</references>
+        <references refid="classshyft_1_1core_1_1region__model_1abae2995dc32f5ff1945feb8dfc47bdbd" compoundref="region__model_8h" startline="229">shyft::core::region_model&lt; C, RE &gt;::n_catchments</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ad9304e1161aa44c8a63327467f586c52" compoundref="region__model_8h" startline="291">shyft::core::region_model&lt; C, RE &gt;::ip_parameter</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ac588af973bcb69a92a9b6778fcf14dd2" compoundref="region__model_8h" startline="292">shyft::core::region_model&lt; C, RE &gt;::region_env</references>
+        <references refid="classshyft_1_1core_1_1region__model_1a44edd4d8cb58b57bbea4ac094dd04950" compoundref="region__model_8h" startline="208">shyft::core::region_model&lt; C, RE &gt;::cix_to_cid</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ac51e72d6c48005bc588730431cd4b9b3" compoundref="region__model_8h" startline="209">shyft::core::region_model&lt; C, RE &gt;::cid_to_cix</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ab6e30f034a20faa24149bcc08b5eef1d" compoundref="region__model_8h" startline="293">shyft::core::region_model&lt; C, RE &gt;::initial_state</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ae6d8d0fc2bd2fd704e3167bb885fbc4b" compoundref="region__model_8h" startline="203">shyft::core::region_model&lt; C, RE &gt;::cells</references>
+        <references refid="classshyft_1_1core_1_1region__model_1ab0532d2fa23818127f902927dd64d5d5" compoundref="region__model_8h" startline="204">shyft::core::region_model&lt; C, RE &gt;::region_parameter</references>
+        <references refid="classshyft_1_1core_1_1region__model_1a0f167f1070d32bdea9ad885eb9d5d61b" compoundref="region__model_8h" startline="205">shyft::core::region_model&lt; C, RE &gt;::catchment_parameters</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a9b3f84742552b02f4ae97f925591cf80" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::single_run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps, cell_iterator beg, cell_iterator endc)</argsstring>
+        <name>single_run</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1region__model_1a0c4f1ad910577a13260845b1f9fc3dac" kindref="member">cell_iterator</ref></type>
+          <declname>beg</declname>
+        </param>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1region__model_1a0c4f1ad910577a13260845b1f9fc3dac" kindref="member">cell_iterator</ref></type>
+          <declname>endc</declname>
+        </param>
+        <briefdescription>
+<para>parallell_run using a mid-point split + async to engange multicore execution </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>forwarded to the cell.run(time_axis) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator to first cell in range </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator to end cell in range (one past last element) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="696" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="696" bodyend="701"/>
+        <references refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" compoundref="cell__model_8h" startline="102">shyft::core::cell&lt; P, E, S, SC, RC &gt;::geo</references>
+        <references refid="structshyft_1_1core_1_1geo__cell__data_1afd5e15a2cf82ee8aecffcc54ac13e69d" compoundref="geo__cell__data_8h" startline="101">shyft::core::geo_cell_data::catchment_ix</references>
+        <references refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" compoundref="cell__model_8h" startline="137">shyft::core::cell&lt; P, E, S, SC, RC &gt;::run</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a49d67f0f1d808028195e498cb8e85002" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::parallel_run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps, cell_iterator beg, cell_iterator endc, size_t thread_cell_count)</argsstring>
+        <name>parallel_run</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1region__model_1a0c4f1ad910577a13260845b1f9fc3dac" kindref="member">cell_iterator</ref></type>
+          <declname>beg</declname>
+        </param>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1region__model_1a0c4f1ad910577a13260845b1f9fc3dac" kindref="member">cell_iterator</ref></type>
+          <declname>endc</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>thread_cell_count</declname>
+        </param>
+        <briefdescription>
+<para>uses async to execute the single_run, partitioning the cell range into thread-cell count </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if thread_cell_count is zero </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>when all cells calculated </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time-axis to use </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start of cell range </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of cell range </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thread_cell_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of cells given to each async thread </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="711" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="711" bodyend="733"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a5a7759fadf4e5abad488f3e7e9df9284" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::region_model&lt; C, RE &gt;::region_model</definition>
+        <argsstring>(std::shared_ptr&lt; std::vector&lt; C &gt; &gt; &amp;cells, const parameter_t &amp;region_param)</argsstring>
+        <name>region_model</name>
+        <param>
+          <type>std::shared_ptr&lt; std::vector&lt; C &gt; &gt; &amp;</type>
+          <declname>cells</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+          <declname>region_param</declname>
+        </param>
+        <briefdescription>
+<para>construct a region model, by supplying the following minimum set of parameters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ref to parameters to apply to all cells, the constructor loops over cells and implants a ref to a copy of this param. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cells</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a shared pointer to a vector of cells, notice, we do share the cell-vector! </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="257" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="257" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1ab2502b156bcacd1325e72c543e2ed063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::region_model&lt; C, RE &gt;::region_model</definition>
+        <argsstring>(const std::vector&lt; geo_cell_data &gt; &amp;geov, const parameter_t &amp;region_param)</argsstring>
+        <name>region_model</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref> &gt; &amp;</type>
+          <declname>geov</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+          <declname>region_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="263" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="263" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1ae9a42eaca45e4f4f11664bbf10142a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::region_model&lt; C, RE &gt;::region_model</definition>
+        <argsstring>(std::shared_ptr&lt; std::vector&lt; C &gt; &gt; &amp;cells, const parameter_t &amp;region_param, const std::map&lt; int, parameter_t &gt; &amp;catchment_parameters)</argsstring>
+        <name>region_model</name>
+        <param>
+          <type>std::shared_ptr&lt; std::vector&lt; C &gt; &gt; &amp;</type>
+          <declname>cells</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+          <declname>region_param</declname>
+        </param>
+        <param>
+          <type>const std::map&lt; int, <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &gt; &amp;</type>
+          <declname>catchment_parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="272" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="272" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a9fad3c75d46cf3518d85b375d90476be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::region_model&lt; C, RE &gt;::region_model</definition>
+        <argsstring>(const region_model &amp;model)</argsstring>
+        <name>region_model</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="282" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="282" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a0c9b4340bf32056d0dd4387983ac0b4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> &amp;</type>
+        <definition>region_model&amp; shyft::core::region_model&lt; C, RE &gt;::operator=</definition>
+        <argsstring>(const region_model &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="283" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="283" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a6fb5278c937ac90f083d9d94d09f4463" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::core::region_model&lt; C, RE &gt;::number_of_catchments</definition>
+        <argsstring>() const </argsstring>
+        <name>number_of_catchments</name>
+        <briefdescription>
+<para>compute and return number of catchments inspecting call cells.geo.catchment_id() </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="296" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a1a47b7c6ca6345aa113364ed74008f99" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref> &gt;</type>
+        <definition>std::vector&lt;geo_cell_data&gt; shyft::core::region_model&lt; C, RE &gt;::extract_geo_cell_data</definition>
+        <argsstring>() const </argsstring>
+        <name>extract_geo_cell_data</name>
+        <briefdescription>
+<para>extracts the geo-cell data part out from the cells </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="299" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="299" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a735718766c4c66ae0463480f623c60e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::initialize_cell_environment</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis)</argsstring>
+        <name>initialize_cell_environment</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the cell enviroment (cell.env.ts* ) </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> initializes the cell environment, that keeps temperature, precipitation etc that is local to the cell. <ref refid="namespace_the" kindref="compound">The</ref> intial values of these time-series is set to zero. <ref refid="namespace_the" kindref="compound">The</ref> region-model time-axis is set to the supplied time-axis, so that the any calculation steps will use the supplied time-axis. This call is needed prior to call to <ref refid="classshyft_1_1core_1_1region__model_1ad7d133392e51cb02b4895ce4aa56d1ef" kindref="member">interpolate()</ref> or <ref refid="classshyft_1_1core_1_1region__model_1a2a2cfd5a4c03dd1e2f1cc8ad8b8eb1d4" kindref="member">run_cells()</ref>. <ref refid="namespace_the" kindref="compound">The</ref> call ensures that all cells.env ts are reset to zero, with a time-axis and value-vectors according to the supplied <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref>. Also note that the <ref refid="classshyft_1_1core_1_1region__model_1aef46bfbe262cfe71aae246d83c34f9a4" kindref="member">region_model.time_axis</ref> is set to the supplied time-axis.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies the time-axis for the region-model, and thus the cells. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="318" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="318" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1ad7d133392e51cb02b4895ce4aa56d1ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::interpolate</definition>
+        <argsstring>(const interpolation_parameter &amp;ip_parameter, const region_env_t &amp;env)</argsstring>
+        <name>interpolate</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1interpolation__parameter" kindref="compound">interpolation_parameter</ref> &amp;</type>
+          <declname>ip_parameter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a1fdec71710db7940aec82c3296019605" kindref="member">region_env_t</ref> &amp;</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+<para>interpolate the supplied <ref refid="structshyft_1_1core_1_1region__environment" kindref="compound">region_environment</ref> to the cells </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>initialize_cell_environment should be called prior to this</para></simplesect>
+Only supplied vectors of temp, precipitation etc. are interpolated, thus the user of the class can choose to put in place distributed series in stead.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>RE</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structshyft_1_1core_1_1region__environment" kindref="compound">region_environment</ref> type</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains wanted parameters for the interpolation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>env</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains the <ref refid="structshyft_1_1core_1_1region__environment" kindref="compound">region_environment</ref> type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="341" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="341" bodyend="442"/>
+        <references refid="structshyft_1_1core_1_1interpolation__parameter_1a98d117580312e9922564cd538eecd403" compoundref="region__model_8h" startline="52">shyft::core::interpolation_parameter::use_idw_for_temperature</references>
+        <references refid="structshyft_1_1core_1_1interpolation__parameter_1a30a49f365433cd2255daf807dd63870f" compoundref="region__model_8h" startline="53">shyft::core::interpolation_parameter::temperature_idw</references>
+        <references refid="structshyft_1_1core_1_1interpolation__parameter_1ab6ceefb81900ae313e5fd0d5f46bda5b" compoundref="region__model_8h" startline="51">shyft::core::interpolation_parameter::temperature</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a68efa98a56f827204d35a81153df7c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::run_interpolation</definition>
+        <argsstring>(const interpolation_parameter &amp;ip_parameter, const timeaxis_t &amp;time_axis, const region_env_t &amp;env)</argsstring>
+        <name>run_interpolation</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1interpolation__parameter" kindref="compound">interpolation_parameter</ref> &amp;</type>
+          <declname>ip_parameter</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a1fdec71710db7940aec82c3296019605" kindref="member">region_env_t</ref> &amp;</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+<para>initializes cell.env and project region env. timeseries to cells. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Prior to running all cell.env_ts.xxx are reset to zero, and have a length of time_axis.size().</para></simplesect>
+Only supplied vectors of temp, precip etc. are interpolated, thus the user of the class can choose to put in place distributed series in stead.</para><para>This call simply calls <ref refid="classshyft_1_1core_1_1region__model_1a735718766c4c66ae0463480f623c60e4" kindref="member">initialize_cell_environment()</ref> followed by <ref refid="classshyft_1_1core_1_1region__model_1ad7d133392e51cb02b4895ce4aa56d1ef" kindref="member">interpolate&lt;..&gt;</ref>(..)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ip_parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains wanted parameters for the interpolation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be equal to the timeaxis the <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> is prepared running for. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>env</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains the <ref refid="structshyft_1_1core_1_1region__environment" kindref="compound">region_environment</ref> type </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="460" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="460" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a2a2cfd5a4c03dd1e2f1cc8ad8b8eb1d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::run_cells</definition>
+        <argsstring>(size_t thread_cell_count=0, int start_step=0, int n_steps=0)</argsstring>
+        <name>run_cells</name>
+        <param>
+          <type>size_t</type>
+          <declname>thread_cell_count</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>run_cells calculations over specified <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref> the cell method stack is invoked for all the cells, using multicore up to a maximum number of tasks/cores. Notice that this implies that executing the cell method stack should have no side-effects except for invocation of the cell state_collector, response_collector. No thread should run simultaneously on the same cell, and the collectors must be carefully written to avoid any race-condition or memory contention (lock-free code). </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="pre"><para>cells should be prepared by prior calls so that<orderedlist>
+<listitem><para>all cells have env_ts intialized with env. precip,temp,rad etc.</para></listitem><listitem><para>all cells have state set to the initial values</para></listitem><listitem><para>catchment_parameters should be set (and applied to the matching cells) </para></listitem></orderedlist>
+</para></simplesect>
+<simplesect kind="post"><para>:<orderedlist>
+<listitem><para>all cells have updated state variables</para></listitem><listitem></listitem></orderedlist>
+</para></simplesect>
+<simplesect kind="note"><para>the call </para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time-axis, <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">shyft::timeseries::timeaxis</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of type TA </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="485" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="485" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a123b6a706b005d9851c8799bef01e976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::set_region_parameter</definition>
+        <argsstring>(const parameter_t &amp;p)</argsstring>
+        <name>set_region_parameter</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>set the region parameter, apply it to all cells that do not have catchment specific parameters. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>that if there already exist a region parameter then the values of the supplied parameter is just copied into the region parameter-set. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the wanted region parameter set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="510" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="510" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1aab74bafd36d6933253418804498a91ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+        <definition>parameter_t&amp; shyft::core::region_model&lt; C, RE &gt;::get_region_parameter</definition>
+        <argsstring>() const </argsstring>
+        <name>get_region_parameter</name>
+        <briefdescription>
+<para>provide access to current region parameter-set </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a ref to region_parameter (non-const by intention) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="524" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="524" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1ad8a94331e1da0e87e4c5dcc1da901a34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::set_catchment_parameter</definition>
+        <argsstring>(int catchment_id, const parameter_t &amp;p)</argsstring>
+        <name>set_catchment_parameter</name>
+        <param>
+          <type>int</type>
+          <declname>catchment_id</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>creates/modifies a pr catchment override parameter </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>catchment_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the 0 based catchment_id that correlates to the cells catchment_id </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference to the parameter that will be kept for those cells </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="532" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="532" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a38c6d54b1900983ac39a918fa6ad09d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::remove_catchment_parameter</definition>
+        <argsstring>(int catchment_id)</argsstring>
+        <name>remove_catchment_parameter</name>
+        <param>
+          <type>int</type>
+          <declname>catchment_id</declname>
+        </param>
+        <briefdescription>
+<para>remove a catchment specific parameter override, if it exists. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="547" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="547" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a51f0e3f32fd8f677a64cfbfd00baeb7f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::region_model&lt; C, RE &gt;::has_catchment_parameter</definition>
+        <argsstring>(int catchment_id) const </argsstring>
+        <name>has_catchment_parameter</name>
+        <param>
+          <type>int</type>
+          <declname>catchment_id</declname>
+        </param>
+        <briefdescription>
+<para>returns true if there exist a specific parameter override for the specified 0-based catchment_id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="557" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="557" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a98c5346a75bd5b13b5fca00374bb68f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" kindref="member">parameter_t</ref> &amp;</type>
+        <definition>parameter_t&amp; shyft::core::region_model&lt; C, RE &gt;::get_catchment_parameter</definition>
+        <argsstring>(int catchment_id) const </argsstring>
+        <name>get_catchment_parameter</name>
+        <param>
+          <type>int</type>
+          <declname>catchment_id</declname>
+        </param>
+        <briefdescription>
+<para>return the parameter valid for specified catchment_id, or global parameter if not found. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Be aware that if you change the returned parameter, it will affect the related cells. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>catchment_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>0 based catchment id as placed on each cell </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>reference to the real parameter structure for the catchment_id if exists, otherwise the global parameters </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="566" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="566" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1ae971803650e50f33b8cf36677007ee50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::set_catchment_calculation_filter</definition>
+        <argsstring>(const std::vector&lt; int &gt; &amp;catchment_id_list)</argsstring>
+        <name>set_catchment_calculation_filter</name>
+        <param>
+          <type>const std::vector&lt; int &gt; &amp;</type>
+          <declname>catchment_id_list</declname>
+        </param>
+        <briefdescription>
+<para>set/reset the catchment based calculation filter. This affects what get simulate/calculated during the run command. Pass an empty list to reset/clear the filter (i.e. no filter). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>catchment_id_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a (zero-based) catchment id vector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="579" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="579" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a8a2eb963e09307423ce9b302cafbdbfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::region_model&lt; C, RE &gt;::is_calculated</definition>
+        <argsstring>(size_t cid) const </argsstring>
+        <name>is_calculated</name>
+        <param>
+          <type>size_t</type>
+          <declname>cid</declname>
+        </param>
+        <briefdescription>
+<para>using the catchment_calculation_filter to decide if discharge etc. are calculated. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cid</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>catchment id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if catchment id is calculated during runs </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="598" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="598" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a973b769e63058096a0068e80beaee126" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::region_model&lt; C, RE &gt;::is_calculated_by_catchment_ix</definition>
+        <argsstring>(size_t cix) const </argsstring>
+        <name>is_calculated_by_catchment_ix</name>
+        <param>
+          <type>size_t</type>
+          <declname>cix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="602" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="602" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a8747f2867c1df3b0cfd74a65b0e72173" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::core::region_model&lt; C, RE &gt;::cix_from_cid</definition>
+        <argsstring>(size_t cid) const </argsstring>
+        <name>cix_from_cid</name>
+        <param>
+          <type>size_t</type>
+          <declname>cid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="604" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="604" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a3dd424d788908eb0bab60b8f191c613b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::get_states</definition>
+        <argsstring>(std::vector&lt; state_t &gt; &amp;end_states) const </argsstring>
+        <name>get_states</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classshyft_1_1core_1_1region__model_1a7c3551b5c2de31c4b2043c55262037a5" kindref="member">state_t</ref> &gt; &amp;</type>
+          <declname>end_states</declname>
+        </param>
+        <briefdescription>
+<para>collects current state from all the cells </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>that catchment filter can influence which states are calculated/updated. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>end_states</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference to the vector&lt;state_t&gt; that are filled with cell state, in order of appearance. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="614" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="614" bodyend="617"/>
+        <references refid="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::state</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1acbe824cfe25c81f44013a80ffeeb57b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::set_states</definition>
+        <argsstring>(const std::vector&lt; state_t &gt; &amp;states)</argsstring>
+        <name>set_states</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="classshyft_1_1core_1_1region__model_1a7c3551b5c2de31c4b2043c55262037a5" kindref="member">state_t</ref> &gt; &amp;</type>
+          <declname>states</declname>
+        </param>
+        <briefdescription>
+<para>set current state for all the cells in the model. </para>        </briefdescription>
+        <detaileddescription>
+<para>If this is the first &apos;<ref refid="classshyft_1_1core_1_1region__model_1acbe824cfe25c81f44013a80ffeeb57b1" kindref="member">set_states()</ref>&apos;, initial_state is copied from the supplied vector. <ref refid="namespace_the" kindref="compound">The</ref> purpose of this is to ease scripting so that one always get back the initial state if needed.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>states</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a vector&lt;state_t&gt; of all states, must match size/order of cells. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>throws runtime-error if states.size is different from cells.size </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="628" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="628" bodyend="635"/>
+        <references refid="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" compoundref="cell__model_8h" startline="131" endline="130">shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_state</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a3b3d8c471dbb9d0be0b360eea84181f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::revert_to_initial_state</definition>
+        <argsstring>()</argsstring>
+        <name>revert_to_initial_state</name>
+        <briefdescription>
+<para>revert cell states to the initial state (if it exists) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="638" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="638" bodyend="642"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a207310ec09ab0741847b136f7f09724a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::set_state_collection</definition>
+        <argsstring>(int catchment_id, bool on_or_off)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>int</type>
+          <declname>catchment_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+<para>enable state collection for specified or all cells </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>that this only works if the underlying cell is configured to do state collection. THis is typically not the case for cell-types that are used during calibration/optimization </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="648" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="648" bodyend="652"/>
+        <references refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" compoundref="cell__model_8h" startline="102">shyft::core::cell&lt; P, E, S, SC, RC &gt;::geo</references>
+        <references refid="structshyft_1_1core_1_1geo__cell__data_1a1f6cff6eeb1d00c61d1db153ccbb220b" compoundref="geo__cell__data_8h" startline="95" endline="95">shyft::core::geo_cell_data::catchment_id</references>
+        <references refid="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" compoundref="cell__model_8h" startline="133" endline="132">shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_state_collection</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a491c98711397fcb73ace1dc771198035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::set_snow_sca_swe_collection</definition>
+        <argsstring>(int catchment_id, bool on_or_off)</argsstring>
+        <name>set_snow_sca_swe_collection</name>
+        <param>
+          <type>int</type>
+          <declname>catchment_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+<para>enable/disable collection of snow sca|sca for calibration purposes </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cachment_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to enable snow calibration for, -1 means turn on/off for all </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>on_or_off</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true|or false. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>if the underlying cell do not support snow sca|swe collection, this </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="658" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="658" bodyend="662"/>
+        <references refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" compoundref="cell__model_8h" startline="102">shyft::core::cell&lt; P, E, S, SC, RC &gt;::geo</references>
+        <references refid="structshyft_1_1core_1_1geo__cell__data_1a1f6cff6eeb1d00c61d1db153ccbb220b" compoundref="geo__cell__data_8h" startline="95" endline="95">shyft::core::geo_cell_data::catchment_id</references>
+        <references refid="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" compoundref="cell__model_8h" startline="135" endline="135">shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_snow_sca_swe_collection</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1aa2e70c56ec17b510c9180034c5a9d9f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1core_1_1region__model_1a235f5fb30a5bfa243da8e4393cd95518" kindref="member">cell_vec_t_</ref></type>
+        <definition>cell_vec_t_ shyft::core::region_model&lt; C, RE &gt;::get_cells</definition>
+        <argsstring>() const </argsstring>
+        <name>get_cells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>cells as shared_ptr&lt;vector&lt;cell_t&gt;&gt; </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="664" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="664" bodyend="664"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a0dbedff4f5c9f2f7a92681ad8d72d832" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::core::region_model&lt; C, RE &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of cells </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="667" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="667" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1region__model_1a88db30b369276a20db099a30793c686e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TSV</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::region_model&lt; C, RE &gt;::catchment_discharges</definition>
+        <argsstring>(TSV &amp;cr) const </argsstring>
+        <name>catchment_discharges</name>
+        <param>
+          <type>TSV &amp;</type>
+          <declname>cr</declname>
+        </param>
+        <briefdescription>
+<para>catchment_discharges, vital for calibration </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TSV</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a vector&lt;timeseries&gt; type, where timeseries supports:<orderedlist>
+<listitem><para>.ct(timeaxis_t, double) fills a series with 0.0 for all <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref> elements</para></listitem><listitem><para>.add( const some_ts &amp; ts) </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>the ts type should have proper move/copy etc. semantics  filled in cr, dimensioned to number of catchments, where the i&apos;th entry correspond to cid using cix_to_cid(i) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="677" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="677" bodyend="688"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> is the calculation model for a region, where we can have one or more catchments. <ref refid="namespace_the" kindref="compound">The</ref> role of the <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref> is to describe region, so that we can run the region computational model efficiently for a number of type of cells, interpolation and catchment level algorihtms. </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> region model keeps a list of cells, of specified type C</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>C</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> type parameter, describes the distributed <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> calculation stack. </para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>RE</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>region environment class <ref refid="namespace_the" kindref="compound">The</ref> cell-type must provide the following types:<orderedlist>
+<listitem><para>parameter_t parameter type for the cell calculation stack</para></listitem><listitem><para>state_t state type for the cell</para></listitem><listitem><para>response_t response type for cell</para></listitem><listitem><para>timeaxis_t timeaxis type for the cell environment input/result ts. and following members/methods must be available</para></listitem><listitem><para>.run(time_axis) executes the method stack for the cell, (must be thread-safe!)</para></listitem><listitem><para>.env_ts with env. parameters </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1287">
+        <label>shyft::core::interpolation_parameter</label>
+        <link refid="structshyft_1_1core_1_1interpolation__parameter"/>
+        <childnode refid="1288" relation="usage">
+          <edgelabel>temperature_idw</edgelabel>
+        </childnode>
+        <childnode refid="1290" relation="usage">
+          <edgelabel>precipitation</edgelabel>
+        </childnode>
+        <childnode refid="1289" relation="usage">
+          <edgelabel>rel_hum</edgelabel>
+          <edgelabel>wind_speed</edgelabel>
+          <edgelabel>radiation</edgelabel>
+        </childnode>
+        <childnode refid="1291" relation="usage">
+          <edgelabel>temperature</edgelabel>
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>shyft::core::bayesian_kriging::parameter</label>
+        <link refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter"/>
+      </node>
+      <node id="1290">
+        <label>shyft::core::inverse_distance::precipitation_parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter"/>
+        <childnode refid="1289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>shyft::core::inverse_distance::temperature_parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__parameter"/>
+        <childnode refid="1289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>shyft::core::inverse_distance::parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1parameter"/>
+      </node>
+      <node id="1286">
+        <label>shyft::core::region_model&lt; C, RE &gt;</label>
+        <link refid="classshyft_1_1core_1_1region__model"/>
+        <childnode refid="1287" relation="usage">
+          <edgelabel>ip_parameter</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="190" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="190" bodyend="734"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1region__model_1a88db30b369276a20db099a30793c686e" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>catchment_discharges</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ada95b49d7d4ca35ba7a561c9595e3fff" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>catchment_filter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a0f167f1070d32bdea9ad885eb9d5d61b" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>catchment_parameters</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a0c4f1ad910577a13260845b1f9fc3dac" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cell_iterator</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ade47f813473ea7c82e8d7c177a0455cb" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cell_t</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1aaee85dc06f4831b972d0ca6b10c4ace0" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cell_vec_t</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a235f5fb30a5bfa243da8e4393cd95518" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cell_vec_t_</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ae6d8d0fc2bd2fd704e3167bb885fbc4b" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cells</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ac51e72d6c48005bc588730431cd4b9b3" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cid_to_cix</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a8747f2867c1df3b0cfd74a65b0e72173" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cix_from_cid</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a44edd4d8cb58b57bbea4ac094dd04950" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>cix_to_cid</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ae4e34d66358a583539c9659ce5323d61" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>clone</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a1a47b7c6ca6345aa113364ed74008f99" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>extract_geo_cell_data</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a98c5346a75bd5b13b5fca00374bb68f3" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>get_catchment_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1aa2e70c56ec17b510c9180034c5a9d9f4" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>get_cells</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1aab74bafd36d6933253418804498a91ad" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>get_region_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a3dd424d788908eb0bab60b8f191c613b" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>get_states</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a51f0e3f32fd8f677a64cfbfd00baeb7f" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>has_catchment_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ab6e30f034a20faa24149bcc08b5eef1d" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>initial_state</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a735718766c4c66ae0463480f623c60e4" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>initialize_cell_environment</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ad7d133392e51cb02b4895ce4aa56d1ef" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>interpolate</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ad9304e1161aa44c8a63327467f586c52" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>ip_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a8a2eb963e09307423ce9b302cafbdbfe" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>is_calculated</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a973b769e63058096a0068e80beaee126" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>is_calculated_by_catchment_ix</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1abae2995dc32f5ff1945feb8dfc47bdbd" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>n_catchments</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1aa79737778f903ae7bbbb48619e65e3fb" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>ncore</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a6fb5278c937ac90f083d9d94d09f4463" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>number_of_catchments</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a0c9b4340bf32056d0dd4387983ac0b4c" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>operator=</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a49d67f0f1d808028195e498cb8e85002" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>parallel_run</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a6fa4958c05d9f54615c909636c4e5914" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>parameter_t</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a6aa0dbf869732b15a60d7ce83643a6e4" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>parameter_t_</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ac588af973bcb69a92a9b6778fcf14dd2" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_env</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a1fdec71710db7940aec82c3296019605" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_env_t</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a5a7759fadf4e5abad488f3e7e9df9284" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_model</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ab2502b156bcacd1325e72c543e2ed063" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_model</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ae9a42eaca45e4f4f11664bbf10142a0b" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_model</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a9fad3c75d46cf3518d85b375d90476be" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_model</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ab0532d2fa23818127f902927dd64d5d5" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>region_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a38c6d54b1900983ac39a918fa6ad09d3" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>remove_catchment_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a3b3d8c471dbb9d0be0b360eea84181f9" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>revert_to_initial_state</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a2a2cfd5a4c03dd1e2f1cc8ad8b8eb1d4" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>run_cells</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a68efa98a56f827204d35a81153df7c85" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>run_interpolation</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ae971803650e50f33b8cf36677007ee50" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>set_catchment_calculation_filter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ad8a94331e1da0e87e4c5dcc1da901a34" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>set_catchment_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a123b6a706b005d9851c8799bef01e976" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>set_region_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a491c98711397fcb73ace1dc771198035" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>set_snow_sca_swe_collection</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a207310ec09ab0741847b136f7f09724a" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>set_state_collection</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1acbe824cfe25c81f44013a80ffeeb57b1" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>set_states</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a9b3f84742552b02f4ae97f925591cf80" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>single_run</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a0dbedff4f5c9f2f7a92681ad8d72d832" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>size</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a7c3551b5c2de31c4b2043c55262037a5" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>state_t</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1aef46bfbe262cfe71aae246d83c34f9a4" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>time_axis</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1ace9cf90e809bb9cf139989a351dfeb2a" prot="public" virt="non-virtual"><scope>shyft::core::region_model</scope><name>timeaxis_t</name></member>
+      <member refid="classshyft_1_1core_1_1region__model_1a99b7d24a42dd51a96cd2dfecb209e40b" prot="protected" virt="non-virtual"><scope>shyft::core::region_model</scope><name>update_ix_to_id_mapping</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

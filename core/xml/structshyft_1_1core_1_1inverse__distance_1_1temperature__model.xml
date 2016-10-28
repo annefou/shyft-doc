@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1temperature__model" kind="struct" prot="public">
+    <compoundname>shyft::core::inverse_distance::temperature_model</compoundname>
+    <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class S</type>
+      </param>
+      <param>
+        <type>class D</type>
+      </param>
+      <param>
+        <type>class P</type>
+      </param>
+      <param>
+        <type>class G</type>
+      </param>
+      <param>
+        <type>class SC</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1ad94e0ce75dd365797b513a3e8e56a6e4" prot="public" static="no">
+        <type>SC</type>
+        <definition>typedef SC shyft::core::inverse_distance::temperature_model&lt; S, D, P, G, SC &gt;::scale_computer</definition>
+        <argsstring></argsstring>
+        <name>scale_computer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="360" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1ad28b8d3dbca238f8db0080b7c6ef08cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::inverse_distance::temperature_model&lt; S, D, P, G, SC &gt;::distance_measure</definition>
+        <argsstring>(const G &amp;a, const G &amp;b, double f, double zscale)</argsstring>
+        <name>distance_measure</name>
+        <param>
+          <type>const G &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const G &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zscale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="361" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="361" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1a84f9289d022a79a4f11d2336c0cb24eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::inverse_distance::temperature_model&lt; S, D, P, G, SC &gt;::transform</definition>
+        <argsstring>(double sourceValue, double gradient, const S &amp;s, const D &amp;d)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>double</type>
+          <declname>sourceValue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gradient</declname>
+        </param>
+        <param>
+          <type>const S &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="364" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="364" bodyend="366"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provide a minimal temperature model for the IDW algorithm, providing functionality for transformation of source temperature to destination location using computed temperature gradient, based on nearby sources for that temperature location. TODO: Add more robust handling for source stations, value range etc. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source ref. IDWInterpolation template parameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination ref. IDWInterpolation template parameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Configuration Parameters, here we just need the default_gradient (C/m):<orderedlist>
+<listitem><para>.default_gradient() const; </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>G</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GeoPoint type that supports:<orderedlist>
+<listitem><para>static member G::distance_measure(a,b,p)</para></listitem><listitem><para>.z (todo maybe use .height()const instead</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Implemented IDW required members are:<orderedlist>
+<listitem><para>class scale_computer with .add(S,t) and .compute(), including default gradient if to few points</para></listitem><listitem><para>static method .distance_measure(GeoPointType, GeoPointType, double, double)</para></listitem><listitem><para>static method .<ref refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1a84f9289d022a79a4f11d2336c0cb24eb" kindref="member">transform(double sourceValue,double scale,const S&amp;source,const D&amp; destination)</ref> <simplesect kind="see"><para>IDWTemperatureParameter for how to provide parameters to the IDW using this model </para></simplesect>
+</para></listitem></orderedlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="359" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="359" bodyend="367"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1ad28b8d3dbca238f8db0080b7c6ef08cd" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_model</scope><name>distance_measure</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1ad94e0ce75dd365797b513a3e8e56a6e4" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_model</scope><name>scale_computer</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__model_1a84f9289d022a79a4f11d2336c0cb24eb" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_model</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

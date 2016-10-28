@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1grf_1_1spherical__model" kind="struct" prot="public">
+    <compoundname>shyft::core::grf::spherical_model</compoundname>
+    <includes refid="gaussian__random__field_8h" local="no">gaussian_random_field.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1spherical__model_1acf54a86b1162384006dfd081a76dcc0f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::grf::spherical_model::covariance</definition>
+        <argsstring>(const arma::mat &amp;distances, const P &amp;semi_var, arma::mat &amp;covariances)</argsstring>
+        <name>covariance</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>covariances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="168" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="168" bodyend="172"/>
+        <referencedby refid="structshyft_1_1core_1_1grf_1_1spherical__model_1a7779757264e12d7c6a4a54050bd660d8" compoundref="gaussian__random__field_8h" startline="175" endline="178">semivariance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1spherical__model_1a7779757264e12d7c6a4a54050bd660d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::grf::spherical_model::semivariance</definition>
+        <argsstring>(const arma::mat &amp;distances, const P &amp;semi_var, arma::mat &amp;semivariances)</argsstring>
+        <name>semivariance</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>semivariances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="175" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="175" bodyend="178"/>
+        <references refid="structshyft_1_1core_1_1grf_1_1spherical__model_1acf54a86b1162384006dfd081a76dcc0f" compoundref="gaussian__random__field_8h" startline="168" endline="172">covariance</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1spherical__model_1ae609d23618bcd80cc907567fa87cf323" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::grf::spherical_model::semivariogram</definition>
+        <argsstring>(const arma::mat &amp;distances, const P &amp;semi_var, arma::mat &amp;gammas)</argsstring>
+        <name>semivariogram</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>gammas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="181" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1spherical__model_1a53dc135e2bc14ce0b7b0de328a37ef3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::grf::spherical_model::range_correction</definition>
+        <argsstring>(double range, double shape)</argsstring>
+        <name>range_correction</name>
+        <param>
+          <type>double</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="186" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="186" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1spherical__model_1adb0c2b064189b140b2ddf451244db717" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* shyft::core::grf::spherical_model::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="190" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="190" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1spherical__model_1a28f51125e9dff333eeff7aac0b38728b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SV</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; double &gt;</type>
+        <definition>static std::vector&lt;double&gt; shyft::core::grf::spherical_model::parameter</definition>
+        <argsstring>(const SV &amp;semi_var)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>const SV &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="193" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="193" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="165" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="165" bodyend="197"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1acf54a86b1162384006dfd081a76dcc0f" prot="public" virt="non-virtual"><scope>shyft::core::grf::spherical_model</scope><name>covariance</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1adb0c2b064189b140b2ddf451244db717" prot="public" virt="non-virtual"><scope>shyft::core::grf::spherical_model</scope><name>name</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1a28f51125e9dff333eeff7aac0b38728b" prot="public" virt="non-virtual"><scope>shyft::core::grf::spherical_model</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1a53dc135e2bc14ce0b7b0de328a37ef3d" prot="public" virt="non-virtual"><scope>shyft::core::grf::spherical_model</scope><name>range_correction</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1a7779757264e12d7c6a4a54050bd660d8" prot="public" virt="non-virtual"><scope>shyft::core::grf::spherical_model</scope><name>semivariance</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1ae609d23618bcd80cc907567fa87cf323" prot="public" virt="non-virtual"><scope>shyft::core::grf::spherical_model</scope><name>semivariogram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

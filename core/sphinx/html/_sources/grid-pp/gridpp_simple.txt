@@ -1,0 +1,259 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "collapsed": true
+   },
+   "source": [
+    "Grid post-processing of Met.no data using SHyFT API\n",
+    "=========\n",
+    "\n",
+    "### This notebook gives an example of Met.no data post-processing to correct temperature forecasts based on comparison to observations. The following steps are described:\n",
+    "1. **Loading required python modules and setting path to SHyFT installation**\n",
+    "2. **Generate synthetic data for temperature observations and forecasts time-series**\n",
+    "3. **Calculate the bias time-series using Kalman filter**\n",
+    "4. **Apply bias to forecasts**\n",
+    "5. **Plot the results**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 1. Loading required python modules and setting path to SHyFT installation"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# first you should import the third-party python modules which you'll use later on\n",
+    "# the first line enables that figures are shown inline, directly in the notebook\n",
+    "%pylab inline\n",
+    "import os\n",
+    "from os import path\n",
+    "import sys\n",
+    "from matplotlib import pyplot as plt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# set the path for your shyft build\n",
+    "# this should point to the directory that is created\n",
+    "# when you clone shyft, assuming you have built shyft\n",
+    "# there and not installed it to your system python\n",
+    "shyft_path = os.path.abspath(\"../../../shyft\")\n",
+    "sys.path.insert(0, shyft_path)\n",
+    "\n",
+    "# you could achieve the same by setting a PYTHONPATH"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# once the shyft_path is set correctly, you should be able to import shyft modules\n",
+    "import shyft\n",
+    "from shyft import shyftdata_dir\n",
+    "\n",
+    "# if you have problems here, it may be related to having your LD_LIBRARY_PATH\n",
+    "# pointing to the appropriate libboost_python libraries (.so files)\n",
+    "from shyft.repository.default_state_repository import DefaultStateRepository\n",
+    "from shyft.orchestration.configuration import yaml_configs\n",
+    "from shyft.orchestration.simulators.config_simulator import ConfigSimulator\n",
+    "from shyft import api"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# now you can access the api of shyft with tab completion and help, try this:\n",
+    "\n",
+    "#help(api.GeoPoint) # remove the hashtag and run the cell to print the documentation of the api.GeoPoint class\n",
+    "#api. # remove the hashtag, set the pointer behind the dot and use \n",
+    "      # tab completion to see the available attributes of the shyft api"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 2. Generate synthetic data for temperature observations and forecasts time-series"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# Create a time-axis\n",
+    "t0 = api.Calendar().time(2016, 1, 1)\n",
+    "ta = api.Timeaxis2(t0, api.deltahours(1), 240)\n",
+    "\n",
+    "# Create a TemperatureSourceVector to hold the set of observation time-series\n",
+    "obs_set = api.TemperatureSourceVector()\n",
+    "\n",
+    "# Create a time-series having a constant temperature of 15 at a GeoPoint(100, 100, 100)\n",
+    "ts = api.Timeseries(ta, fill_value=15.0)\n",
+    "geo_ts = api.TemperatureSource(api.GeoPoint(100, 100, 100), ts)\n",
+    "obs_set.append(geo_ts)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# Create a TemperatureSourceVector to hold the set of forecast time-series\n",
+    "fc_set = api.TemperatureSourceVector()\n",
+    "\n",
+    "# Create a time-series having constant offset of 2 and add it to the set of observation time-series\n",
+    "off_ts = api.Timeseries(ta, fill_value=2.0)\n",
+    "for obs in obs_set:\n",
+    "    fc_ts = api.TemperatureSource(obs.mid_point(), obs.ts + off_ts)\n",
+    "    fc_set.append(fc_ts)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 3. Calculate the bias time-series using Kalman filter"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# Create a TemperatureSourceVector to hold the set of bias time-series\n",
+    "bias_set = api.TemperatureSourceVector()\n",
+    "\n",
+    "# Create the Kalman filter having 8 samples spaced every 3 hours to represent a daily periodic pattern\n",
+    "kf = api.KalmanFilter()\n",
+    "kbp = api.KalmanBiasPredictor(kf)\n",
+    "kta = api.Timeaxis2(t0, api.deltahours(3), 8)\n",
+    "\n",
+    "# Calculate the coefficients of Kalman filter and \n",
+    "# Create bias time-series based on the daily periodic pattern\n",
+    "for obs in obs_set:\n",
+    "    kbp.update_with_forecast(fc_set, obs.ts, kta)\n",
+    "    pattern = api.KalmanState.get_x(kbp.state) * np.array(-1.0) # By convention, inverse sign of pattern values\n",
+    "    bias_ts = api.create_periodic_pattern_ts(pattern, api.deltahours(3), ta.time(0), ta)\n",
+    "    bias_set.append(api.TemperatureSource(obs.mid_point(), bias_ts))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 4. Apply bias to forecasts"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# Correct the set of forecasts by applying the set of bias time-series\n",
+    "for i in range(len(fc_set)):\n",
+    "    fc_set[i].ts += bias_set[i].ts # By convention, add bias time-series"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [],
+   "source": [
+    "# Check the last value of the time-series. It should be around 15\n",
+    "print(fc_set[0].ts.value(239))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 5. Plot the results"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "fig, ax = plt.subplots(figsize=(20,15))\n",
+    "for i in range(len(bias_set)):\n",
+    "    obs = obs_set[i]\n",
+    "    fc = fc_set[i]\n",
+    "    bias = bias_set[i]\n",
+    "    timestamps = [datetime.datetime.utcfromtimestamp(p.start) for p in obs.ts.time_axis]\n",
+    "    ax.plot(timestamps, obs.ts.values, label = 'Observation')\n",
+    "    ax.plot(timestamps, fc.ts.values, label = 'Forecast')\n",
+    "    ax.plot(timestamps, bias.ts.values, label = 'Bias')\n",
+    "fig.autofmt_xdate()\n",
+    "ax.legend(title='Temperature')\n",
+    "ax.set_ylabel('Temp ($^\\circ$C)')"
+   ]
+  }
+ ],
+ "metadata": {
+  "anaconda-cloud": {},
+  "kernelspec": {
+   "display_name": "Python [default]",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.4.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

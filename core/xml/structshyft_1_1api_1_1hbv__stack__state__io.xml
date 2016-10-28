@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1api_1_1hbv__stack__state__io" kind="struct" prot="public">
+    <compoundname>shyft::api::hbv_stack_state_io</compoundname>
+    <includes refid="api_2hbv__stack_8h" local="no">hbv_stack.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__stack__state__io_1a34337da1161f609d533d8b65c5a9dc5f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::api::hbv_stack_state_io::from_string</definition>
+        <argsstring>(const std::string &amp;str, hbv_stack_state_t &amp;s) const </argsstring>
+        <name>from_string</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" kindref="member">hbv_stack_state_t</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" line="10" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" bodystart="10" bodyend="12"/>
+        <references refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" compoundref="api_2hbv__stack_8h" startline="14" endline="23">from_raw_string</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::api::hbv_stack_state_io::from_raw_string</definition>
+        <argsstring>(const char *str, hbv_stack_state_t &amp;s) const </argsstring>
+        <name>from_raw_string</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" kindref="member">hbv_stack_state_t</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" line="14" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" bodystart="14" bodyend="23"/>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1state_1ac85f0b841f456f37d747f3e05c33de93" compoundref="core_2hbv__stack_8h" startline="146">shyft::core::hbv_stack::state::snow</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" compoundref="hbv__snow_8h" startline="106">shyft::core::hbv_snow::state::sca</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" compoundref="hbv__snow_8h" startline="105">shyft::core::hbv_snow::state::swe</references>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1state_1a1ffd44b0b935bb30137b6dabacfd2422" compoundref="core_2hbv__stack_8h" startline="147">shyft::core::hbv_stack::state::soil</references>
+        <references refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" compoundref="hbv__soil_8h" startline="20">shyft::core::hbv_soil::state::sm</references>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1state_1aee045d0c3126ef900d3a13505ccb9d94" compoundref="core_2hbv__stack_8h" startline="148">shyft::core::hbv_stack::state::tank</references>
+        <references refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a10a927f3a4f63d303b826f2b5afaa2c8" compoundref="hbv__tank_8h" startline="24">shyft::core::hbv_tank::state::uz</references>
+        <references refid="structshyft_1_1core_1_1hbv__tank_1_1state_1adc9808369317b8d26e48e44cd06ff2eb" compoundref="hbv__tank_8h" startline="25">shyft::core::hbv_tank::state::lz</references>
+        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a34337da1161f609d533d8b65c5a9dc5f" compoundref="api_2hbv__stack_8h" startline="10" endline="12">from_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a4a1489cd536112840d90b90eb3112576" compoundref="api_2hbv__stack_8h" startline="42" endline="57">vector_from_string</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__stack__state__io_1aa4bae403e85fd1ffa46d487989d7df78" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string shyft::api::hbv_stack_state_io::to_string</definition>
+        <argsstring>(const hbv_stack_state_t &amp;s) const </argsstring>
+        <name>to_string</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" kindref="member">hbv_stack_state_t</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" line="25" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" bodystart="25" bodyend="32"/>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1state_1ac85f0b841f456f37d747f3e05c33de93" compoundref="core_2hbv__stack_8h" startline="146">shyft::core::hbv_stack::state::snow</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" compoundref="hbv__snow_8h" startline="106">shyft::core::hbv_snow::state::sca</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" compoundref="hbv__snow_8h" startline="105">shyft::core::hbv_snow::state::swe</references>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1state_1a1ffd44b0b935bb30137b6dabacfd2422" compoundref="core_2hbv__stack_8h" startline="147">shyft::core::hbv_stack::state::soil</references>
+        <references refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" compoundref="hbv__soil_8h" startline="20">shyft::core::hbv_soil::state::sm</references>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1state_1aee045d0c3126ef900d3a13505ccb9d94" compoundref="core_2hbv__stack_8h" startline="148">shyft::core::hbv_stack::state::tank</references>
+        <references refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a10a927f3a4f63d303b826f2b5afaa2c8" compoundref="hbv__tank_8h" startline="24">shyft::core::hbv_tank::state::uz</references>
+        <references refid="structshyft_1_1core_1_1hbv__tank_1_1state_1adc9808369317b8d26e48e44cd06ff2eb" compoundref="hbv__tank_8h" startline="25">shyft::core::hbv_tank::state::lz</references>
+        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a51fc5389ad5769934689f5e8c007993f" compoundref="api_2hbv__stack_8h" startline="34" endline="40">to_string</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__stack__state__io_1a51fc5389ad5769934689f5e8c007993f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string shyft::api::hbv_stack_state_io::to_string</definition>
+        <argsstring>(const std::vector&lt; hbv_stack_state_t &gt; &amp;sv) const </argsstring>
+        <name>to_string</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" kindref="member">hbv_stack_state_t</ref> &gt; &amp;</type>
+          <declname>sv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" line="34" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" bodystart="34" bodyend="40"/>
+        <references refid="structshyft_1_1api_1_1hbv__stack__state__io_1aa4bae403e85fd1ffa46d487989d7df78" compoundref="api_2hbv__stack_8h" startline="25" endline="32">to_string</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__stack__state__io_1a4a1489cd536112840d90b90eb3112576" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" kindref="member">hbv_stack_state_t</ref> &gt;</type>
+        <definition>std::vector&lt;hbv_stack_state_t&gt; shyft::api::hbv_stack_state_io::vector_from_string</definition>
+        <argsstring>(const std::string &amp;s) const </argsstring>
+        <name>vector_from_string</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" bodystart="42" bodyend="57"/>
+        <references refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" compoundref="api_2hbv__stack_8h" startline="14" endline="23">from_raw_string</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" line="9" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h" bodystart="9" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" prot="public" virt="non-virtual"><scope>shyft::api::hbv_stack_state_io</scope><name>from_raw_string</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__stack__state__io_1a34337da1161f609d533d8b65c5a9dc5f" prot="public" virt="non-virtual"><scope>shyft::api::hbv_stack_state_io</scope><name>from_string</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__stack__state__io_1aa4bae403e85fd1ffa46d487989d7df78" prot="public" virt="non-virtual"><scope>shyft::api::hbv_stack_state_io</scope><name>to_string</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__stack__state__io_1a51fc5389ad5769934689f5e8c007993f" prot="public" virt="non-virtual"><scope>shyft::api::hbv_stack_state_io</scope><name>to_string</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__stack__state__io_1a4a1489cd536112840d90b90eb3112576" prot="public" virt="non-virtual"><scope>shyft::api::hbv_stack_state_io</scope><name>vector_from_string</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

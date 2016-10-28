@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="hbv__soil_8h" kind="file">
+    <compoundname>hbv_soil.h</compoundname>
+    <includes refid="utctime__utilities_8h" local="yes">utctime_utilities.h</includes>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h</includedby>
+    <incdepgraph>
+      <node id="1952">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="1953" relation="include">
+        </childnode>
+        <childnode refid="1954" relation="include">
+        </childnode>
+        <childnode refid="1955" relation="include">
+        </childnode>
+        <childnode refid="1956" relation="include">
+        </childnode>
+        <childnode refid="1957" relation="include">
+        </childnode>
+        <childnode refid="1958" relation="include">
+        </childnode>
+      </node>
+      <node id="1955">
+        <label>cmath</label>
+      </node>
+      <node id="1951">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_soil.h</label>
+        <link refid="hbv_soil.h"/>
+        <childnode refid="1952" relation="include">
+        </childnode>
+      </node>
+      <node id="1953">
+        <label>string</label>
+      </node>
+      <node id="1957">
+        <label>map</label>
+      </node>
+      <node id="1956">
+        <label>vector</label>
+      </node>
+      <node id="1954">
+        <label>time.h</label>
+      </node>
+      <node id="1958">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1959">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_soil.h</label>
+        <link refid="hbv_soil.h"/>
+        <childnode refid="1960" relation="include">
+        </childnode>
+      </node>
+      <node id="1964">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+      </node>
+      <node id="1962">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1963" relation="include">
+        </childnode>
+      </node>
+      <node id="1961">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="1962" relation="include">
+        </childnode>
+      </node>
+      <node id="1960">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+      </node>
+      <node id="1963">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structshyft_1_1core_1_1hbv__soil_1_1parameter" prot="public">shyft::core::hbv_soil::parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__soil_1_1state" prot="public">shyft::core::hbv_soil::state</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__soil_1_1response" prot="public">shyft::core::hbv_soil::response</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__soil_1_1calculator" prot="public">shyft::core::hbv_soil::calculator</innerclass>
+    <innernamespace refid="namespaceshyft">shyft</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1core">shyft::core</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1core_1_1hbv__soil">shyft::core::hbv_soil</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utctime__utilities_8h" kindref="compound">utctime_utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="5" refid="namespaceshyft_1_1core_1_1hbv__soil" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">hbv_soil<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="structshyft_1_1core_1_1hbv__soil_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__soil_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
+<codeline lineno="9" refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1aa85c2c0e87e776b8d117b43841b77560" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1aa85c2c0e87e776b8d117b43841b77560" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fc<sp/>=<sp/>300.0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>beta<sp/>=<sp/>2.0)<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:fc(fc),<sp/>beta(beta)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fc<sp/>&lt;<sp/>.0)<sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;fc<sp/>should<sp/>be<sp/>&gt;<sp/>0.0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14" refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1ac1a1ce16dfb9e9fe80e29dbff9f39d6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fc=300;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1a99623dab82535fa00a4a0bfb6d04bebb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>beta=2.0;</highlight><highlight class="comment">//<sp/>unit-less</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structshyft_1_1core_1_1hbv__soil_1_1state" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__soil_1_1state" kindref="compound">state</ref><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac8a2427b31ddf6fe0ad165181d077c9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac8a2427b31ddf6fe0ad165181d077c9c" kindref="member">state</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sm<sp/>=<sp/>0.0)<sp/>:sm(sm)<sp/>{}</highlight></codeline>
+<codeline lineno="20" refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sm=50.0;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ae12e262e3ca69a6da9c4318bc5f8e66a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ae12e262e3ca69a6da9c4318bc5f8e66a" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1state" kindref="compound">state</ref>&amp;x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>1e-6;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fabs(sm<sp/>-<sp/>x.<ref refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" kindref="member">sm</ref>)&lt;eps;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structshyft_1_1core_1_1hbv__soil_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__soil_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
+<codeline lineno="28" refid="structshyft_1_1core_1_1hbv__soil_1_1response_1a4bca4f1a38f2142301721d93d6864963" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>outflow<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>P&gt;</highlight></codeline>
+<codeline lineno="41" refid="structshyft_1_1core_1_1hbv__soil_1_1calculator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__soil_1_1calculator" kindref="compound">calculator</ref><sp/>{</highlight></codeline>
+<codeline lineno="42" refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1a3c0fcbd5b71e6015159dfaf11c4c4fbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P<sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1a3c0fcbd5b71e6015159dfaf11c4c4fbe" kindref="member">param</ref>;</highlight></codeline>
+<codeline lineno="43" refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1aa277f72cd1ab56cd8df66c7d6aea5cf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1aa277f72cd1ab56cd8df66c7d6aea5cf2" kindref="member">calculator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/>p):param(p)<sp/>{}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>R,</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S&gt;<sp/></highlight></codeline>
+<codeline lineno="45" refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1af7d4079a8de3586825c799a43e0694ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1af7d4079a8de3586825c799a43e0694ac" kindref="member">step</ref>(S&amp;<sp/>s,<sp/>R&amp;<sp/>r,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref><sp/>t0,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref><sp/>t1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>insoil,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>act_evap)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>s.sm<sp/>+<sp/>insoil;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//compute<sp/>fraction<sp/>at<sp/>end<sp/>of<sp/>time<sp/>after<sp/>adding<sp/>insoil</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fraction<sp/>=<sp/>pow(temp/param.fc,<sp/>param.beta);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.outflow<sp/>=<sp/>fraction*insoil;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.sm<sp/>=<sp/>s.sm<sp/>+<sp/>insoil<sp/>-<sp/>r.outflow<sp/>-<sp/>act_evap;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>core</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight></codeline>
+    </programlisting>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_soil.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Grid post-processing of Met.no data using SHyFT API &#8212; Shyft 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="Shyft 0.1 documentation" href="../../index.html" />
+    <link rel="up" title="Notebooks" href="../../notebooks.html" />
+    <link rel="next" title="Grid post-processing of Met.no data using SHyFT API" href="gridpp_geopoints.html" />
+    <link rel="prev" title="Notebooks" href="../../notebooks.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="gridpp_geopoints.html" title="Grid post-processing of Met.no data using SHyFT API"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../../notebooks.html" title="Notebooks"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../introduction.html" >What&#8217;s SHyFT?</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../notebooks.html" accesskey="U">Notebooks</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput,
+div.nbinput > div,
+div.nbinput div[class^=highlight],
+div.nbinput div[class^=highlight] pre,
+div.nboutput,
+div.nboutput > div,
+div.nboutput div[class^=highlight],
+div.nboutput div[class^=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput div[class^=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput,
+div.nboutput {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+/* input container */
+div.nbinput {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput > :first-child pre {
+    color: #303F9F;
+}
+
+/* output prompt */
+div.nboutput > :first-child pre {
+    color: #D84315;
+}
+
+/* all prompts */
+div.nbinput > :first-child[class^=highlight],
+div.nboutput > :first-child[class^=highlight],
+div.nboutput > :first-child {
+    min-width: 8ex;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
+    text-align: right;
+    flex: 0;
+}
+
+/* input/output area */
+div.nbinput > :nth-child(2)[class^=highlight],
+div.nboutput > :nth-child(2),
+div.nboutput > :nth-child(2)[class^=highlight] {
+    padding: 0.4em;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+/* input area */
+div.nbinput > :nth-child(2)[class^=highlight] {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    background: #f7f7f7;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.pngmath center alignment in output cells */
+div.nboutput div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput  > :nth-child(2).stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="section" id="Grid-post-processing-of-Met.no-data-using-SHyFT-API">
+<h1>Grid post-processing of Met.no data using SHyFT API<a class="headerlink" href="#Grid-post-processing-of-Met.no-data-using-SHyFT-API" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="This-notebook-gives-an-example-of-Met.no-data-post-processing-to-correct-temperature-forecasts-based-on-comparison-to-observations.-The-following-steps-are-described:">
+<h2>This notebook gives an example of Met.no data post-processing to correct temperature forecasts based on comparison to observations. The following steps are described:<a class="headerlink" href="#This-notebook-gives-an-example-of-Met.no-data-post-processing-to-correct-temperature-forecasts-based-on-comparison-to-observations.-The-following-steps-are-described:" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><strong>Loading required python modules and setting path to SHyFT
+installation</strong></li>
+<li><strong>Generate synthetic data for temperature observations and forecasts
+time-series</strong></li>
+<li><strong>Calculate the bias time-series using Kalman filter</strong></li>
+<li><strong>Apply bias to forecasts</strong></li>
+<li><strong>Plot the results</strong></li>
+</ol>
+</div>
+<div class="section" id="1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">
+<h2>1. Loading required python modules and setting path to SHyFT installation<a class="headerlink" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># first you should import the third-party python modules which you&#39;ll use later on
+# the first line enables that figures are shown inline, directly in the notebook
+%pylab inline
+import os
+from os import path
+import sys
+from matplotlib import pyplot as plt
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># set the path for your shyft build
+# this should point to the directory that is created
+# when you clone shyft, assuming you have built shyft
+# there and not installed it to your system python
+shyft_path = os.path.abspath(&quot;../../../shyft&quot;)
+sys.path.insert(0, shyft_path)
+
+# you could achieve the same by setting a PYTHONPATH
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># once the shyft_path is set correctly, you should be able to import shyft modules
+import shyft
+from shyft import shyftdata_dir
+
+# if you have problems here, it may be related to having your LD_LIBRARY_PATH
+# pointing to the appropriate libboost_python libraries (.so files)
+from shyft.repository.default_state_repository import DefaultStateRepository
+from shyft.orchestration.configuration import yaml_configs
+from shyft.orchestration.simulators.config_simulator import ConfigSimulator
+from shyft import api
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># now you can access the api of shyft with tab completion and help, try this:
+
+#help(api.GeoPoint) # remove the hashtag and run the cell to print the documentation of the api.GeoPoint class
+#api. # remove the hashtag, set the pointer behind the dot and use
+      # tab completion to see the available attributes of the shyft api
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="2.-Generate-synthetic-data-for-temperature-observations-and-forecasts-time-series">
+<h2>2. Generate synthetic data for temperature observations and forecasts time-series<a class="headerlink" href="#2.-Generate-synthetic-data-for-temperature-observations-and-forecasts-time-series" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Create a time-axis
+t0 = api.Calendar().time(2016, 1, 1)
+ta = api.Timeaxis2(t0, api.deltahours(1), 240)
+
+# Create a TemperatureSourceVector to hold the set of observation time-series
+obs_set = api.TemperatureSourceVector()
+
+# Create a time-series having a constant temperature of 15 at a GeoPoint(100, 100, 100)
+ts = api.Timeseries(ta, fill_value=15.0)
+geo_ts = api.TemperatureSource(api.GeoPoint(100, 100, 100), ts)
+obs_set.append(geo_ts)
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Create a TemperatureSourceVector to hold the set of forecast time-series
+fc_set = api.TemperatureSourceVector()
+
+# Create a time-series having constant offset of 2 and add it to the set of observation time-series
+off_ts = api.Timeseries(ta, fill_value=2.0)
+for obs in obs_set:
+    fc_ts = api.TemperatureSource(obs.mid_point(), obs.ts + off_ts)
+    fc_set.append(fc_ts)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="3.-Calculate-the-bias-time-series-using-Kalman-filter">
+<h2>3. Calculate the bias time-series using Kalman filter<a class="headerlink" href="#3.-Calculate-the-bias-time-series-using-Kalman-filter" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Create a TemperatureSourceVector to hold the set of bias time-series
+bias_set = api.TemperatureSourceVector()
+
+# Create the Kalman filter having 8 samples spaced every 3 hours to represent a daily periodic pattern
+kf = api.KalmanFilter()
+kbp = api.KalmanBiasPredictor(kf)
+kta = api.Timeaxis2(t0, api.deltahours(3), 8)
+
+# Calculate the coefficients of Kalman filter and
+# Create bias time-series based on the daily periodic pattern
+for obs in obs_set:
+    kbp.update_with_forecast(fc_set, obs.ts, kta)
+    pattern = api.KalmanState.get_x(kbp.state) * np.array(-1.0) # By convention, inverse sign of pattern values
+    bias_ts = api.create_periodic_pattern_ts(pattern, api.deltahours(3), ta.time(0), ta)
+    bias_set.append(api.TemperatureSource(obs.mid_point(), bias_ts))
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="4.-Apply-bias-to-forecasts">
+<h2>4. Apply bias to forecasts<a class="headerlink" href="#4.-Apply-bias-to-forecasts" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Correct the set of forecasts by applying the set of bias time-series
+for i in range(len(fc_set)):
+    fc_set[i].ts += bias_set[i].ts # By convention, add bias time-series
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Check the last value of the time-series. It should be around 15
+print(fc_set[0].ts.value(239))
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="5.-Plot-the-results">
+<h2>5. Plot the results<a class="headerlink" href="#5.-Plot-the-results" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span>fig, ax = plt.subplots(figsize=(20,15))
+for i in range(len(bias_set)):
+    obs = obs_set[i]
+    fc = fc_set[i]
+    bias = bias_set[i]
+    timestamps = [datetime.datetime.utcfromtimestamp(p.start) for p in obs.ts.time_axis]
+    ax.plot(timestamps, obs.ts.values, label = &#39;Observation&#39;)
+    ax.plot(timestamps, fc.ts.values, label = &#39;Forecast&#39;)
+    ax.plot(timestamps, bias.ts.values, label = &#39;Bias&#39;)
+fig.autofmt_xdate()
+ax.legend(title=&#39;Temperature&#39;)
+ax.set_ylabel(&#39;Temp ($^\circ$C)&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Grid post-processing of Met.no data using SHyFT API</a><ul>
+<li><a class="reference internal" href="#This-notebook-gives-an-example-of-Met.no-data-post-processing-to-correct-temperature-forecasts-based-on-comparison-to-observations.-The-following-steps-are-described:">This notebook gives an example of Met.no data post-processing to correct temperature forecasts based on comparison to observations. The following steps are described:</a></li>
+<li><a class="reference internal" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">1. Loading required python modules and setting path to SHyFT installation</a></li>
+<li><a class="reference internal" href="#2.-Generate-synthetic-data-for-temperature-observations-and-forecasts-time-series">2. Generate synthetic data for temperature observations and forecasts time-series</a></li>
+<li><a class="reference internal" href="#3.-Calculate-the-bias-time-series-using-Kalman-filter">3. Calculate the bias time-series using Kalman filter</a></li>
+<li><a class="reference internal" href="#4.-Apply-bias-to-forecasts">4. Apply bias to forecasts</a></li>
+<li><a class="reference internal" href="#5.-Plot-the-results">5. Plot the results</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../../notebooks.html"
+                        title="previous chapter">Notebooks</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="gridpp_geopoints.html"
+                        title="next chapter">Grid post-processing of Met.no data using SHyFT API</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/notebooks/grid-pp/gridpp_simple.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="gridpp_geopoints.html" title="Grid post-processing of Met.no data using SHyFT API"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../../notebooks.html" title="Notebooks"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../introduction.html" >What&#8217;s SHyFT?</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../notebooks.html" >Notebooks</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>

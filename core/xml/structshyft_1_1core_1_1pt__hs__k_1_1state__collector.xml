@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector" kind="struct" prot="public">
+    <compoundname>shyft::core::pt_hs_k::state_collector</compoundname>
+    <includes refid="pt__hs__k__cell__model_8h" local="no">pt_hs_k_cell_model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1ab3aaf1dfc8fb9111db4b6a163575b080" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool shyft::core::pt_hs_k::state_collector::collect_state</definition>
+        <argsstring></argsstring>
+        <name>collect_state</name>
+        <briefdescription>
+<para>if true, collect state, otherwise ignore (and the state of time-series are undefined/zero) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="123" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1af021dcbd972fdc47d6741b4771ca535c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::pt_hs_k::state_collector::destination_area</definition>
+        <argsstring></argsstring>
+        <name>destination_area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="125" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a2d93541f31fa82c1c9ac6feaa2633378" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::pt_hs_k::state_collector::kirchner_discharge</definition>
+        <argsstring></argsstring>
+        <name>kirchner_discharge</name>
+        <briefdescription>
+<para>Kirchner state instant Discharge given in m^3/s. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="126" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a3288f60d97240af9cecc08e849bd582e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::pt_hs_k::state_collector::snow_swe</definition>
+        <argsstring></argsstring>
+        <name>snow_swe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="127" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a362d9d15f2aba373de9faafae7a2f1fc" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::pt_hs_k::state_collector::snow_sca</definition>
+        <argsstring></argsstring>
+        <name>snow_sca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="128" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a085f43c37c6fd5e252098474eb786037" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_hs_k::state_collector::state_collector</definition>
+        <argsstring>()</argsstring>
+        <name>state_collector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="130" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a7050c6d4ac60874e818f4165272a3a09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_hs_k::state_collector::state_collector</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis)</argsstring>
+        <name>state_collector</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="131" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a398c2af6e3907e4da69585512c4e3a68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::pt_hs_k::state_collector::initialize</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps, double area)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>area</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>brief called before run, prepares state time-series</para><para>with preallocated room for the supplied time-axis.</para><para><simplesect kind="note"><para>if collect_state is false, a zero length time-axis is used to ensure data is wiped/out. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="140" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="140" bodyend="146"/>
+        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1a5b7cbf71b6773d69081d06f2853a55d7" compoundref="time__axis_8h" startline="54" endline="54">shyft::time_axis::fixed_dt::start</references>
+        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1ad53b61d4d12ce3f5cc3433be0131bf80" compoundref="time__axis_8h" startline="53" endline="53">shyft::time_axis::fixed_dt::delta</references>
+        <references refid="namespaceshyft_1_1core_1a79f174cb1b8a95ba06a8959b412b423a" compoundref="cell__model_8h" startline="145" endline="151">shyft::core::ts_init</references>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa2ba877b0fea2668327cdcdb24c59a34b" compoundref="core_2timeseries_8h" startline="60">shyft::timeseries::POINT_INSTANT_VALUE</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a91fa97622220707f7e5ca2e319a62477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::pt_hs_k::state_collector::collect</definition>
+        <argsstring>(size_t idx, const state_t &amp;state)</argsstring>
+        <name>collect</name>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1_1pt__hs__k_1a4f493ee77684fbf195d031749ee29d14" kindref="member">state_t</ref> &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called by the <ref refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" kindref="member">cell.run</ref> for each new state </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="148" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="148" bodyend="154"/>
+        <references refid="namespaceshyft_1_1core_1a447aaa684a628f435f1af5a4c568b819" compoundref="cell__model_8h" startline="17" endline="20">shyft::core::mmh_to_m3s</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1a629a73d11e03f3e6493c38b0f247c622" compoundref="core_2pt__hs__k_8h" startline="116">shyft::core::pt_hs_k::state::kirchner</references>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" compoundref="kirchner_8h" startline="133">shyft::core::kirchner::state::q</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1a95bde7958a1c6745ba6cd31e07cb3214" compoundref="core_2pt__hs__k_8h" startline="115">shyft::core::pt_hs_k::state::snow</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" compoundref="hbv__snow_8h" startline="106">shyft::core::hbv_snow::state::sca</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" compoundref="hbv__snow_8h" startline="105">shyft::core::hbv_snow::state::swe</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>the <ref refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector" kindref="compound">state_collector</ref> collects all state if enabled </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>that the state collected is instant in time, valid at the beginning of period </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1411">
+        <label>shyft::timeseries::point_ts&lt; timeaxis &gt;</label>
+        <link refid="structshyft_1_1timeseries_1_1point__ts"/>
+        <childnode refid="1412" relation="usage">
+          <edgelabel>ta</edgelabel>
+        </childnode>
+      </node>
+      <node id="1410">
+        <label>shyft::core::pt_hs_k::state_collector</label>
+        <link refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector"/>
+        <childnode refid="1411" relation="usage">
+          <edgelabel>snow_swe</edgelabel>
+          <edgelabel>snow_sca</edgelabel>
+          <edgelabel>kirchner_discharge</edgelabel>
+        </childnode>
+      </node>
+      <node id="1413">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="1412">
+        <label>shyft::time_axis::fixed_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
+        <childnode refid="1413" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="122" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="122" bodyend="155"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a91fa97622220707f7e5ca2e319a62477" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>collect</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1ab3aaf1dfc8fb9111db4b6a163575b080" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>collect_state</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1af021dcbd972fdc47d6741b4771ca535c" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>destination_area</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a398c2af6e3907e4da69585512c4e3a68" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>initialize</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a2d93541f31fa82c1c9ac6feaa2633378" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>kirchner_discharge</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a362d9d15f2aba373de9faafae7a2f1fc" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>snow_sca</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a3288f60d97240af9cecc08e849bd582e" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>snow_swe</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a085f43c37c6fd5e252098474eb786037" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>state_collector</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a7050c6d4ac60874e818f4165272a3a09" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::state_collector</scope><name>state_collector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

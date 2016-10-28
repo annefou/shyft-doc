@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model" kind="struct" prot="public">
+    <compoundname>shyft::core::inverse_distance::wind_speed_model</compoundname>
+    <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model_1_1scale__computer" prot="public">shyft::core::inverse_distance::wind_speed_model::scale_computer</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class S</type>
+      </param>
+      <param>
+        <type>class D</type>
+      </param>
+      <param>
+        <type>class P</type>
+      </param>
+      <param>
+        <type>class G</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model_1a6ca64cd0d9b15700597dc3342b0030a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::inverse_distance::wind_speed_model&lt; S, D, P, G &gt;::distance_measure</definition>
+        <argsstring>(const G &amp;a, const G &amp;b, double f, double zscale)</argsstring>
+        <name>distance_measure</name>
+        <param>
+          <type>const G &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const G &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zscale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="440" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="440" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model_1af3b3b983ee9b0d54253cee22032c91d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::inverse_distance::wind_speed_model&lt; S, D, P, G &gt;::transform</definition>
+        <argsstring>(double sourceValue, double gradient, const S &amp;s, const D &amp;d)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>double</type>
+          <declname>sourceValue</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gradient</declname>
+        </param>
+        <param>
+          <type>const S &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="443" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="443" bodyend="445"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provide a minimal model for IDW, WindSpeedModel::scale_computer does nothing(returns 1.0) the WindSpeedModel::transform returns sourceValue ;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="430" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="430" bodyend="446"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model_1a6ca64cd0d9b15700597dc3342b0030a7" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::wind_speed_model</scope><name>distance_measure</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model_1af3b3b983ee9b0d54253cee22032c91d1" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::wind_speed_model</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1kalman_1_1filter" kind="struct" prot="public">
+    <compoundname>shyft::core::kalman::filter</compoundname>
+    <includes refid="kalman_8h" local="no">kalman.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1filter_1a9123c603c6d63f6e0de39e2248bce5cc" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1kalman_1_1parameter" kindref="compound">parameter</ref></type>
+        <definition>parameter shyft::core::kalman::filter::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+<para>&lt; filter parameters determining number of daily points, plus kalman-parameters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="85" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1a5348b7b92165d26295ad939dfbe0dc5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::filter::filter</definition>
+        <argsstring>()</argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="86" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1a67dd8b5e4198fb9d492e36c8923e049e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::filter::filter</definition>
+        <argsstring>(parameter p)</argsstring>
+        <name>filter</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1kalman_1_1parameter" kindref="compound">parameter</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>return a <ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">kalman::state</ref> initialized with the filter parameters, &apos;s0&apos;- startstate </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="87" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1a12a050b7c02e96c0486c8d93aa0326c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">state</ref></type>
+        <definition>state shyft::core::kalman::filter::create_initial_state</definition>
+        <argsstring>() const </argsstring>
+        <name>create_initial_state</name>
+        <briefdescription>
+<para>given any time, fold it into the &apos;day&apos; and part (index) of day. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="90" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="90" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1a3b5114d4c627f05a4dbc330221665855" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int shyft::core::kalman::filter::fold_to_daily_observation</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>fold_to_daily_observation</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="95" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="95" bodyend="97"/>
+        <references refid="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" compoundref="utctime__utilities_8h" startline="36" endline="36">shyft::core::deltahours</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1adb2c50b6cfcc7ba1206170ca3059cc60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::kalman::filter::update</definition>
+        <argsstring>(double observed_bias, utctime t, state &amp;s) const </argsstring>
+        <name>update</name>
+        <param>
+          <type>double</type>
+          <declname>observed_bias</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>update the <ref refid="structshyft_1_1core_1_1kalman_1_1filter" kindref="compound">kalman::filter</ref> p with the observed_bias for a specific period starting with utctime t. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>observed_bias</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nan if no observation is available otherwise obs-fc </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>utctime of observation, this filter utilizes daily solar patterns, so time in day-cycle is the only important aspect. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains the kalman state x,k and P, updated at exit </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Compute Pt|t-1. This increases the covariance.</para><para>compute Kt</para><para>compute Pt|t</para><para>compute xt|t</para><para>Missing obs or forecast. P has already been increased, do not update x. TODO: Does the kalman gain need to be updated? </para>        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="108" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="108" bodyend="123"/>
+        <references refid="structshyft_1_1core_1_1kalman_1_1state_1ab374afb978809b08d3326ab4337cb330" compoundref="kalman_8h" startline="18">shyft::core::kalman::state::P</references>
+        <references refid="structshyft_1_1core_1_1kalman_1_1state_1ae1cf11da352d46341d7aec238977de55" compoundref="kalman_8h" startline="19">shyft::core::kalman::state::W</references>
+        <references refid="structshyft_1_1core_1_1kalman_1_1state_1ada5f9683db70a257a7724d69832dc8d5" compoundref="kalman_8h" startline="17">shyft::core::kalman::state::k</references>
+        <references refid="structshyft_1_1core_1_1kalman_1_1state_1a2a05a2b248bc845163cd9829a0277adf" compoundref="kalman_8h" startline="16">shyft::core::kalman::state::x</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Specialized kalman filter for temperature (e.g.:solar-driven bias patterns) </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> observation point (t,v) is folded on to corresponding period of the day (number of periods in a day is parameterized, typically 8). A simplified kalman filter algorithm using the forecast bias as the state-variable. Observed bias (fc-obs) is feed into the filter and establishes the kalman best predicted estimates (x) for the bias. This bias can then be used as a correction to forecast in the future to compensate for systematic forecast errors.</para><para>Credits: Thanks to met.no for providing the original source for this algorithm.</para><para><simplesect kind="see"><para><ulink url="https://en.wikipedia.org/wiki/Kalman_filter">https://en.wikipedia.org/wiki/Kalman_filter</ulink> </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1017">
+        <label>shyft::core::kalman::parameter</label>
+        <link refid="structshyft_1_1core_1_1kalman_1_1parameter"/>
+      </node>
+      <node id="1016">
+        <label>shyft::core::kalman::filter</label>
+        <link refid="structshyft_1_1core_1_1kalman_1_1filter"/>
+        <childnode refid="1017" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="84" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="84" bodyend="124"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a12a050b7c02e96c0486c8d93aa0326c8" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>create_initial_state</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a5348b7b92165d26295ad939dfbe0dc5e" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>filter</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a67dd8b5e4198fb9d492e36c8923e049e" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>filter</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a3b5114d4c627f05a4dbc330221665855" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>fold_to_daily_observation</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a9123c603c6d63f6e0de39e2248bce5cc" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>p</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1filter_1adb2c50b6cfcc7ba1206170ca3059cc60" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

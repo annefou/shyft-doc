@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1model__calibration_1_1area__ts" kind="struct" prot="public">
+    <compoundname>shyft::core::model_calibration::area_ts</compoundname>
+    <includes refid="model__calibration_8h" local="no">model_calibration.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a8360a0741b02cae6ca56272419d374fa" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::model_calibration::area_ts::area</definition>
+        <argsstring></argsstring>
+        <name>area</name>
+        <briefdescription>
+<para>area in m^2 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="267" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="267" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1ae3caa21ad4cb0540d1136ce6efaaa474" compoundref="model__calibration_8h" startline="273" endline="279">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a2123460a412cbf64db098bb8524ab7d0" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::model_calibration::area_ts::ts</definition>
+        <argsstring></argsstring>
+        <name>ts</name>
+        <briefdescription>
+<para>ts representing the property for the area, e.g. sca, swe </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="268" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="268" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1ae3caa21ad4cb0540d1136ce6efaaa474" compoundref="model__calibration_8h" startline="273" endline="279">operator=</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a99d5468dc5f316fab30ba93362b50934" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::model_calibration::area_ts::area_ts</definition>
+        <argsstring>(double area_m2, pts_t ts)</argsstring>
+        <name>area_ts</name>
+        <param>
+          <type>double</type>
+          <declname>area_m2</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+          <declname>ts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="269" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="269" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a0d14f135c462a9209a6b0a276e72218a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::model_calibration::area_ts::area_ts</definition>
+        <argsstring>()</argsstring>
+        <name>area_ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="270" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="270" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a110ffac4331f20ac62dc2eb419cde10e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::model_calibration::area_ts::area_ts</definition>
+        <argsstring>(area_ts &amp;&amp;c)</argsstring>
+        <name>area_ts</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="271" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="271" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a6a62364f1e40fd69b79e08835614bf9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::model_calibration::area_ts::area_ts</definition>
+        <argsstring>(const area_ts &amp;c)</argsstring>
+        <name>area_ts</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="272" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="272" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1ae3caa21ad4cb0540d1136ce6efaaa474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &amp;</type>
+        <definition>area_ts&amp; shyft::core::model_calibration::area_ts::operator=</definition>
+        <argsstring>(const area_ts &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="273" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="273" bodyend="279"/>
+        <references refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a8360a0741b02cae6ca56272419d374fa" compoundref="model__calibration_8h" startline="267">area</references>
+        <references refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a2123460a412cbf64db098bb8524ab7d0" compoundref="model__calibration_8h" startline="268">ts</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a3ab6ee2c47be0095c68cfe1a6882c705" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &amp;</type>
+        <definition>area_ts&amp; shyft::core::model_calibration::area_ts::operator=</definition>
+        <argsstring>(area_ts &amp;&amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="280" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="280" bodyend="286"/>
+        <references refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a2123460a412cbf64db098bb8524ab7d0" compoundref="model__calibration_8h" startline="268">ts</references>
+        <references refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a8360a0741b02cae6ca56272419d374fa" compoundref="model__calibration_8h" startline="267">area</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>when doing catchment area related optimization, e.g. snow sca/swe we need to keep track of the area of each catchment so that we get true average values </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="844">
+        <label>shyft::timeseries::point_ts&lt; timeaxis &gt;</label>
+        <link refid="structshyft_1_1timeseries_1_1point__ts"/>
+        <childnode refid="845" relation="usage">
+          <edgelabel>ta</edgelabel>
+        </childnode>
+      </node>
+      <node id="843">
+        <label>shyft::core::model_calibration::area_ts</label>
+        <link refid="structshyft_1_1core_1_1model__calibration_1_1area__ts"/>
+        <childnode refid="844" relation="usage">
+          <edgelabel>ts</edgelabel>
+        </childnode>
+      </node>
+      <node id="846">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="845">
+        <label>shyft::time_axis::fixed_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
+        <childnode refid="846" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="266" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="266" bodyend="287"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a8360a0741b02cae6ca56272419d374fa" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>area</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a99d5468dc5f316fab30ba93362b50934" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>area_ts</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a0d14f135c462a9209a6b0a276e72218a" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>area_ts</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a110ffac4331f20ac62dc2eb419cde10e" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>area_ts</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a6a62364f1e40fd69b79e08835614bf9b" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>area_ts</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1ae3caa21ad4cb0540d1136ce6efaaa474" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a3ab6ee2c47be0095c68cfe1a6882c705" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1area__ts_1a2123460a412cbf64db098bb8524ab7d0" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::area_ts</scope><name>ts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

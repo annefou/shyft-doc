@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1time__axis_1_1calendar__dt" kind="struct" prot="public">
+    <compoundname>shyft::time_axis::calendar_dt</compoundname>
+    <basecompoundref refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4" prot="public" virt="non-virtual">shyft::time_axis::continuous&lt; true &gt;</basecompoundref>
+    <includes refid="time__axis_8h" local="no">time_axis.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1calendar__dt_1afc7b65d41f2dc466dc1db26932609fbb" prot="public" static="yes" mutable="no">
+        <type>constexpr <ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+        <definition>constexpr utctimespan shyft::time_axis::calendar_dt::dt_h</definition>
+        <argsstring></argsstring>
+        <name>dt_h</name>
+        <initializer>= 3600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="89" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1calendar__dt_1a702301b60bb66b1d920a8eb59ad2179f" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; const <ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref> &gt;</type>
+        <definition>shared_ptr&lt;const calendar&gt; shyft::time_axis::calendar_dt::cal</definition>
+        <argsstring></argsstring>
+        <name>cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="90" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="90" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1time__axis_1_1calendar__dt_1aaab393e3bcb86ca96f0e7b4968d52f02" compoundref="time__axis_8h" startline="106" endline="114">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1calendar__dt_1a46174b8b5e42ddbcc512542fd40715b1" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>utctime shyft::time_axis::calendar_dt::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="91" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1time__axis_1_1calendar__dt_1aaab393e3bcb86ca96f0e7b4968d52f02" compoundref="time__axis_8h" startline="106" endline="114">operator=</referencedby>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a3ba8d90d911007c2f32f253f4e50fe9e" compoundref="time__axis_8h" startline="284" endline="288">shyft::time_axis::time_shift</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1calendar__dt_1a0e365b95213429239680006e4043f591" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+        <definition>utctimespan shyft::time_axis::calendar_dt::dt</definition>
+        <argsstring></argsstring>
+        <name>dt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="92" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="92" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1time__axis_1_1calendar__dt_1aaab393e3bcb86ca96f0e7b4968d52f02" compoundref="time__axis_8h" startline="106" endline="114">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1calendar__dt_1acad03a9d9bc46fead736dde5b572fa4a" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::calendar_dt::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="93" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="93" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1time__axis_1_1calendar__dt_1aaab393e3bcb86ca96f0e7b4968d52f02" compoundref="time__axis_8h" startline="106" endline="114">operator=</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1a2d32620077677ee28c480b56a9347bd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::calendar_dt::calendar_dt</definition>
+        <argsstring>()</argsstring>
+        <name>calendar_dt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="95" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1ad36e598f7057e21173e99a66645469d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::calendar_dt::calendar_dt</definition>
+        <argsstring>(const shared_ptr&lt; const calendar &gt; &amp;cal, utctime t, utctimespan dt, size_t n)</argsstring>
+        <name>calendar_dt</name>
+        <param>
+          <type>const shared_ptr&lt; const <ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref> &gt; &amp;</type>
+          <declname>cal</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="96" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1a10cab7f88e6dadad8b6c019be28a6659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::calendar_dt::calendar_dt</definition>
+        <argsstring>(const calendar_dt &amp;c)</argsstring>
+        <name>calendar_dt</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="97" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1a738b5fd195c469da96bc382604db97ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::calendar_dt::calendar_dt</definition>
+        <argsstring>(calendar_dt &amp;&amp;c)</argsstring>
+        <name>calendar_dt</name>
+        <param>
+          <type><ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="98" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1abca16e7a234f87c968940b718690b154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;</type>
+        <definition>calendar_dt&amp; shyft::time_axis::calendar_dt::operator=</definition>
+        <argsstring>(calendar_dt &amp;&amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="99" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="99" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1aaab393e3bcb86ca96f0e7b4968d52f02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;</type>
+        <definition>calendar_dt&amp; shyft::time_axis::calendar_dt::operator=</definition>
+        <argsstring>(const calendar_dt &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="106" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="106" bodyend="114"/>
+        <references refid="structshyft_1_1time__axis_1_1calendar__dt_1a702301b60bb66b1d920a8eb59ad2179f" compoundref="time__axis_8h" startline="90">cal</references>
+        <references refid="structshyft_1_1time__axis_1_1calendar__dt_1a46174b8b5e42ddbcc512542fd40715b1" compoundref="time__axis_8h" startline="91">t</references>
+        <references refid="structshyft_1_1time__axis_1_1calendar__dt_1a0e365b95213429239680006e4043f591" compoundref="time__axis_8h" startline="92">dt</references>
+        <references refid="structshyft_1_1time__axis_1_1calendar__dt_1acad03a9d9bc46fead736dde5b572fa4a" compoundref="time__axis_8h" startline="93">n</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1a4bb09a4d61155ad48e4275c8384807d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::calendar_dt::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="116" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1a6a59f69db65e3852b048cf9586be7e66" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+        <definition>utcperiod shyft::time_axis::calendar_dt::total_period</definition>
+        <argsstring>() const </argsstring>
+        <name>total_period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="118" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="118" bodyend="122"/>
+        <references refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" compoundref="utctime__utilities_8h" startline="50">shyft::core::min_utctime</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1acb36481917ff99cd17e2c3b03ecf06e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>utctime shyft::time_axis::calendar_dt::time</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>time</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="124" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1af88923762d36129d7465d1575f00d5f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+        <definition>utcperiod shyft::time_axis::calendar_dt::period</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>period</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1abcd84a5d4231d4ec3fb1b0f0894a5b7d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::calendar_dt::index_of</definition>
+        <argsstring>(utctime tx) const </argsstring>
+        <name>index_of</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>tx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="134" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1calendar__dt_1a41d78e7576268a610eb3de7f9d985b49" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::calendar_dt::open_range_index_of</definition>
+        <argsstring>(utctime tx) const </argsstring>
+        <name>open_range_index_of</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>tx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="142" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A variant of <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref> that adheres to calendar periods, possibly including DST handling e.g.: a calendar day might be 23,24 or 25 hour long in a DST calendar. If delta-t is less or equal to one hour, it&apos;s close to as efficient as <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="895">
+        <label>shyft::time_axis::calendar_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1calendar__dt"/>
+        <childnode refid="896" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="897">
+        <label>shyft::time_axis::calendar_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1calendar__dt"/>
+        <childnode refid="898" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="898">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="88" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="88" bodyend="144"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a702301b60bb66b1d920a8eb59ad2179f" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>cal</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a2d32620077677ee28c480b56a9347bd3" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>calendar_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1ad36e598f7057e21173e99a66645469d6" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>calendar_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a10cab7f88e6dadad8b6c019be28a6659" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>calendar_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a738b5fd195c469da96bc382604db97ef" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>calendar_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a0e365b95213429239680006e4043f591" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1afc7b65d41f2dc466dc1db26932609fbb" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>dt_h</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1abcd84a5d4231d4ec3fb1b0f0894a5b7d" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>index_of</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1acad03a9d9bc46fead736dde5b572fa4a" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>n</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a41d78e7576268a610eb3de7f9d985b49" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>open_range_index_of</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1abca16e7a234f87c968940b718690b154" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1aaab393e3bcb86ca96f0e7b4968d52f02" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1af88923762d36129d7465d1575f00d5f4" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>period</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a4bb09a4d61155ad48e4275c8384807d3" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>size</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a46174b8b5e42ddbcc512542fd40715b1" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>t</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1acb36481917ff99cd17e2c3b03ecf06e1" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>time</name></member>
+      <member refid="structshyft_1_1time__axis_1_1calendar__dt_1a6a59f69db65e3852b048cf9586be7e66" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>total_period</name></member>
+      <member refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4_1ad44db8ccec4b1b8cd1a9dc72d6fc485d" prot="public" virt="non-virtual"><scope>shyft::time_axis::calendar_dt</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

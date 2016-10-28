@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1optimizer_1_1sceua" kind="class" prot="public">
+    <compoundname>shyft::core::optimizer::sceua</compoundname>
+    <includes refid="sceua__optimizer_8h" local="no">sceua_optimizer.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1optimizer_1_1sceua_1a1716743a194289d7d251bc088ad92c88" prot="private" static="no" mutable="yes">
+        <type>default_random_engine</type>
+        <definition>default_random_engine shyft::core::optimizer::sceua::generator</definition>
+        <argsstring></argsstring>
+        <name>generator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="57" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1optimizer_1_1sceua_1af5e99cc71eb4c13ae5faa01f965ad6a8" prot="private" static="no" mutable="yes">
+        <type>uniform_real_distribution&lt; double &gt;</type>
+        <definition>uniform_real_distribution&lt;double&gt; shyft::core::optimizer::sceua::distribution</definition>
+        <argsstring></argsstring>
+        <name>distribution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="59" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1optimizer_1_1sceua_1adc7f5882b8b259863e466d83be5529c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::optimizer::sceua::sceua</definition>
+        <argsstring>()</argsstring>
+        <name>sceua</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="62" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1optimizer_1_1sceua_1a8cfa9bcb3fe1ea15ef548c360bd123a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cd" kindref="member">OptimizerState</ref></type>
+        <definition>OptimizerState shyft::core::optimizer::sceua::find_min</definition>
+        <argsstring>(const size_t n, const double x_min[], const double x_max[], double x[], double &amp;fx_optimum_found, ifx &amp;fx, double fx_epsilon, double fx_solution_min, double fx_solution_max, const double x_epsilon[], size_t max_iterations) const </argsstring>
+        <name>find_min</name>
+        <param>
+          <type>const size_t</type>
+          <declname>n</declname>
+          <briefdescription><para>Number of active parameters </para></briefdescription>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_min</declname>
+          <array>[]</array>
+          <briefdescription><para>Lower limit of all n parameters </para></briefdescription>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_max</declname>
+          <array>[]</array>
+          <briefdescription><para>Upper limit of all n parameters </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[]</array>
+          <briefdescription><para>x_min &lt; x &lt; x_max. <ref refid="namespace_the" kindref="compound">The</ref> [input]initial/[output]current/optimal n parameter values </para></briefdescription>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>fx_optimum_found</declname>
+          <briefdescription><para><ref refid="namespace_the" kindref="compound">The</ref> optimal value found </para></briefdescription>
+        </param>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1optimizer_1_1ifx" kindref="compound">ifx</ref> &amp;</type>
+          <declname>fx</declname>
+          <briefdescription><para>fx(x1..xn) <ref refid="namespace_the" kindref="compound">The</ref> function that takes x[n] parameters </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fx_epsilon</declname>
+          <briefdescription><para><orderedlist>
+<listitem><para>Stop when diff of 5 last samples: 2x(Fmax-Fmin)/(Fmax+Fmin)&lt;FxEpsilon </para></listitem></orderedlist>
+</para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fx_solution_min</declname>
+          <briefdescription><para><orderedlist>
+<listitem><para>Stop when fx is within fx_solution_min..fx_solution_max </para></listitem></orderedlist>
+</para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fx_solution_max</declname>
+          <briefdescription><para>(to disable, set fx_solution_min &gt; fx_solution_max) </para></briefdescription>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_epsilon</declname>
+          <array>[]</array>
+          <briefdescription><para><orderedlist>
+<listitem><para>Stop when all x[] are just moving within x_epsilon range </para></listitem></orderedlist>
+</para></briefdescription>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_iterations</declname>
+          <briefdescription><para><orderedlist>
+<listitem><para>Stop when max_iterations/invocations are reached </para></listitem></orderedlist>
+</para></briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="63" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp" bodystart="10" bodyend="107"/>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaef035f962372852c7d5311056c4d9220" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::Searching</references>
+        <references refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" compoundref="optimizer__utils_8h" startline="41">__autoalloc__</references>
+        <references refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abbe9820f1f104074fd8372126138ea35">shyft::core::optimizer::ifx::evaluate</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1adc68affcaefd545235e6755e388ed728" compoundref="sceua__optimizer_8h" startline="42" endline="45">shyft::core::optimizer::construct_sorted_pivot_table</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda81d68d9ca3c686ab5b8281c848e4b895" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedFxConvergence</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdac7c88fac2a9aa0013d4176be2fea4062" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedXconvergence</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaaf3746175bb57d02e1ec7d45c12766f0" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedMaxIterations</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda9bf0571b54dffc88e58c2603d7ddfd29" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedUserRequest</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1model__calibration_1a382ab7d062b7bfa5337fd166f81c83e6" compoundref="model__calibration_8h" startline="106" endline="127">shyft::core::model_calibration::min_sceua</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1optimizer_1_1sceua_1a26ec497689ae16e484ad1abf712e3f8c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::optimizer::sceua::evolve</definition>
+        <argsstring>(double *ax[], double af[], size_t m, size_t n, ifx &amp;fn, const double x_min[], const double x_max[], double x[], size_t &amp;evaluations, size_t complexno) const </argsstring>
+        <name>evolve</name>
+        <param>
+          <type>double *</type>
+          <declname>ax</declname>
+          <array>[]</array>
+          <briefdescription><para>ax[m][n] are the parameter values of complex to be evolved. </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>af</declname>
+          <array>[]</array>
+          <briefdescription><para>af[m] is the objective function value of the sub-complex. </para></briefdescription>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>m</declname>
+          <briefdescription><para>m is the size of the complex. </para></briefdescription>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+          <briefdescription><para>n is number of parameters to be optimized. </para></briefdescription>
+        </param>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1optimizer_1_1ifx" kindref="compound">ifx</ref> &amp;</type>
+          <declname>fn</declname>
+          <briefdescription><para><ref refid="namespace_the" kindref="compound">The</ref> function (hydrological model) to be evaluated </para></briefdescription>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_min</declname>
+          <array>[]</array>
+          <briefdescription><para>x_min[n] are the minimum values of the parameters to be optimized. </para></briefdescription>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_max</declname>
+          <array>[]</array>
+          <briefdescription><para>x_max[n] are the maximum values of the parameters to be optimized. </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+          <array>[]</array>
+          <briefdescription><para>x[n] is all the parameter vector required by the model. <ref refid="namespace_the" kindref="compound">The</ref> actual length of this vector is not required in this subroutine. </para></briefdescription>
+        </param>
+        <param>
+          <type>size_t &amp;</type>
+          <declname>evaluations</declname>
+          <briefdescription><para>evaluations is a counter for how many times the model is called. </para></briefdescription>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>complexno</declname>
+          <briefdescription><para>For diagnostics: <ref refid="namespace_the" kindref="compound">The</ref> number of this complex. </para></briefdescription>
+        </param>
+        <briefdescription>
+<para>Evolve .. Function evolve corresponds to the competitive complex evolution (CCE), fig. 2 in Duan et. al (1993). It is called from sceua. </para>        </briefdescription>
+        <detaileddescription>
+<para>Function evolve corresponds to the competitive complex evolution (CCE), fig. 2 in Duan et. al (1993). It is called from sceua. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="82" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp" bodystart="111" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1optimizer_1_1sceua_1a0970f898ac3793a9196d4c047e59f0c8" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::optimizer::sceua::mutate</definition>
+        <argsstring>(double *x_alternatives[], double x_new[], size_t na, size_t nprm) const </argsstring>
+        <name>mutate</name>
+        <param>
+          <type>double *</type>
+          <declname>x_alternatives</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x_new</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nprm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="96" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp" bodystart="262" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1optimizer_1_1sceua_1abd515448f6a0520f41730f82082cef39" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::optimizer::sceua::random_generate_x</definition>
+        <argsstring>(size_t n, double x_new[], const double x_min[], const double x_max[]) const </argsstring>
+        <name>random_generate_x</name>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x_new</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_min</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>x_max</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="97" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp" bodystart="279" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1optimizer_1_1sceua_1a4e3f5af5b9c56696abee9560ac32334f" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::optimizer::sceua::random01</definition>
+        <argsstring>() const </argsstring>
+        <name>random01</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="98" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> sceua implements the Shuffle Complex Evolution University of Arizona variant of sce published by Duan et. al (1993) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" line="53" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h" bodystart="53" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1af5e99cc71eb4c13ae5faa01f965ad6a8" prot="private" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>distribution</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a26ec497689ae16e484ad1abf712e3f8c" prot="private" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>evolve</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a8cfa9bcb3fe1ea15ef548c360bd123a7" prot="public" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>find_min</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a1716743a194289d7d251bc088ad92c88" prot="private" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>generator</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a0970f898ac3793a9196d4c047e59f0c8" prot="private" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>mutate</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a4e3f5af5b9c56696abee9560ac32334f" prot="private" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>random01</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1abd515448f6a0520f41730f82082cef39" prot="private" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>random_generate_x</name></member>
+      <member refid="classshyft_1_1core_1_1optimizer_1_1sceua_1adc7f5882b8b259863e466d83be5529c0" prot="public" virt="non-virtual"><scope>shyft::core::optimizer::sceua</scope><name>sceua</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

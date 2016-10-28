@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model" kind="struct" prot="public">
+    <compoundname>shyft::core::inverse_distance::precipitation_model</compoundname>
+    <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1_1scale__computer" prot="public">shyft::core::inverse_distance::precipitation_model::scale_computer</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class S</type>
+      </param>
+      <param>
+        <type>class D</type>
+      </param>
+      <param>
+        <type>class P</type>
+      </param>
+      <param>
+        <type>class G</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1a433d52e71ee85c85a911329f558e4149" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::inverse_distance::precipitation_model&lt; S, D, P, G &gt;::distance_measure</definition>
+        <argsstring>(const G &amp;a, const G &amp;b, double f, double zscale)</argsstring>
+        <name>distance_measure</name>
+        <param>
+          <type>const G &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const G &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zscale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="415" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="415" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1a1100bfd26b9124645d9674a8a2d09b32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::inverse_distance::precipitation_model&lt; S, D, P, G &gt;::transform</definition>
+        <argsstring>(double precipitation, double scalefactor, const S &amp;s, const D &amp;d)</argsstring>
+        <name>transform</name>
+        <param>
+          <type>double</type>
+          <declname>precipitation</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>scalefactor</declname>
+        </param>
+        <param>
+          <type>const S &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="418" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="418" bodyend="422"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provide a minimal precipitation model for IDW, PrecipitationModel::scale_computer provides the constant precipitation_gradient relaying it to the transform function through the compute() result. the PrecipitationModel::transform returns sourceValue (precip) + gradient*(d.z-s.z), that is, it tries to translate the precipitation at source into the destination, taking into account the precipitation gradient. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>IDWPrecipitationParameter </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="403" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="403" bodyend="423"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1a433d52e71ee85c85a911329f558e4149" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_model</scope><name>distance_measure</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1a1100bfd26b9124645d9674a8a2d09b32" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::precipitation_model</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

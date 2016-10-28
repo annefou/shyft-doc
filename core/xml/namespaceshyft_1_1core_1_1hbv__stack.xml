@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1hbv__stack" kind="namespace">
+    <compoundname>shyft::core::hbv_stack</compoundname>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1parameter" prot="public">shyft::core::hbv_stack::parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1state" prot="public">shyft::core::hbv_stack::state</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1response" prot="public">shyft::core::hbv_stack::response</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1all__response__collector" prot="public">shyft::core::hbv_stack::all_response_collector</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector" prot="public">shyft::core::hbv_stack::discharge_collector</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector" prot="public">shyft::core::hbv_stack::null_collector</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector" prot="public">shyft::core::hbv_stack::state_collector</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1a391dd5ccaeea9bdf6270ade16a3ee7f5" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1hbv__stack_1_1parameter" kindref="compound">parameter</ref></type>
+        <definition>typedef parameter shyft::core::hbv_stack::parameter_t</definition>
+        <argsstring></argsstring>
+        <name>parameter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="11" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1a5961678f808e4e22299024db4a1f024d" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1hbv__stack_1_1state" kindref="compound">state</ref></type>
+        <definition>typedef state shyft::core::hbv_stack::state_t</definition>
+        <argsstring></argsstring>
+        <name>state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="12" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1aa7ae8e746f92f63bab63ec9a8cf0afd9" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1hbv__stack_1_1response" kindref="compound">response</ref></type>
+        <definition>typedef response shyft::core::hbv_stack::response_t</definition>
+        <argsstring></argsstring>
+        <name>response_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="13" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1a2fac02430b60b9d09627c5e235a8d72a" prot="public" static="no">
+        <type>shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a391dd5ccaeea9bdf6270ade16a3ee7f5" kindref="member">parameter_t</ref> &gt;</type>
+        <definition>typedef shared_ptr&lt;parameter_t&gt; shyft::core::hbv_stack::parameter_t_</definition>
+        <argsstring></argsstring>
+        <name>parameter_t_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="14" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1aef4b225621b43e98078fbcec1a34ba91" prot="public" static="no">
+        <type>shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a5961678f808e4e22299024db4a1f024d" kindref="member">state_t</ref> &gt;</type>
+        <definition>typedef shared_ptr&lt;state_t&gt; shyft::core::hbv_stack::state_t_</definition>
+        <argsstring></argsstring>
+        <name>state_t_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="15" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1ab3f1d16e98175c2348a03ee42ff718b9" prot="public" static="no">
+        <type>shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1aa7ae8e746f92f63bab63ec9a8cf0afd9" kindref="member">response_t</ref> &gt;</type>
+        <definition>typedef shared_ptr&lt;response_t&gt; shyft::core::hbv_stack::response_t_</definition>
+        <argsstring></argsstring>
+        <name>response_t_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="16" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1a9a9c3609118fdf8e5786443a9c245718" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref>&lt; <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a391dd5ccaeea9bdf6270ade16a3ee7f5" kindref="member">parameter_t</ref>, <ref refid="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" kindref="member">environment_t</ref>, <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a5961678f808e4e22299024db4a1f024d" kindref="member">state_t</ref>, <ref refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector" kindref="compound">state_collector</ref>, <ref refid="structshyft_1_1core_1_1hbv__stack_1_1all__response__collector" kindref="compound">all_response_collector</ref> &gt;</type>
+        <definition>typedef cell&lt;parameter_t, environment_t, state_t, state_collector, all_response_collector&gt; shyft::core::hbv_stack::cell_complete_response_t</definition>
+        <argsstring></argsstring>
+        <name>cell_complete_response_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="169" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1hbv__stack_1abe43eccb4c2afc1e102ce3575931bf90" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref>&lt; <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a391dd5ccaeea9bdf6270ade16a3ee7f5" kindref="member">parameter_t</ref>, <ref refid="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" kindref="member">environment_t</ref>, <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a5961678f808e4e22299024db4a1f024d" kindref="member">state_t</ref>, <ref refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector" kindref="compound">null_collector</ref>, <ref refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector" kindref="compound">discharge_collector</ref> &gt;</type>
+        <definition>typedef cell&lt;parameter_t, environment_t, state_t, null_collector, discharge_collector&gt; shyft::core::hbv_stack::cell_discharge_response_t</definition>
+        <argsstring></argsstring>
+        <name>cell_discharge_response_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="170" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>template&lt; typename, typename &gt; class</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+          <param>
+            <type>class R</type>
+          </param>
+          <param>
+            <type>class T_TS</type>
+          </param>
+          <param>
+            <type>class P_TS</type>
+          </param>
+          <param>
+            <type>class WS_TS</type>
+          </param>
+          <param>
+            <type>class RH_TS</type>
+          </param>
+          <param>
+            <type>class RAD_TS</type>
+          </param>
+          <param>
+            <type>class T</type>
+          </param>
+          <param>
+            <type>class S</type>
+          </param>
+          <param>
+            <type>class GCD</type>
+          </param>
+          <param>
+            <type>class P</type>
+          </param>
+          <param>
+            <type>class SC</type>
+          </param>
+          <param>
+            <type>class RC</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::hbv_stack::run_hbv_stack</definition>
+        <argsstring>(const GCD &amp;geo_cell_data, const P &amp;parameter, const T &amp;time_axis, int start_step, int n_steps, const T_TS &amp;temp, const P_TS &amp;prec, const WS_TS &amp;wind_speed, const RH_TS &amp;rel_hum, const RAD_TS &amp;rad, S &amp;state, SC &amp;state_collector, RC &amp;response_collector)</argsstring>
+        <name>run_hbv_stack</name>
+        <param>
+          <type>const GCD &amp;</type>
+          <declname>geo_cell_data</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <param>
+          <type>const T_TS &amp;</type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>const P_TS &amp;</type>
+          <declname>prec</declname>
+        </param>
+        <param>
+          <type>const WS_TS &amp;</type>
+          <declname>wind_speed</declname>
+        </param>
+        <param>
+          <type>const RH_TS &amp;</type>
+          <declname>rel_hum</declname>
+        </param>
+        <param>
+          <type>const RAD_TS &amp;</type>
+          <declname>rad</declname>
+        </param>
+        <param>
+          <type>S &amp;</type>
+          <declname>state</declname>
+        </param>
+        <param>
+          <type>SC &amp;</type>
+          <declname>state_collector</declname>
+        </param>
+        <param>
+          <type>RC &amp;</type>
+          <declname>response_collector</declname>
+        </param>
+        <briefdescription>
+<para>Calculation Model using assembly of PriestleyTaylor, GammaSnow, Soil and <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>This model first uses PriestleyTaylor for calculating the potential evapotranspiration based on time series data for temperature, radiation and relative humidity. Then it uses the GammaSnow method to calculate the snow/ice adjusted runoff using time series data for precipitation and wind speed in addition to the time series used in the PriestleyTaylor method. <ref refid="namespace_the" kindref="compound">The</ref> PriestleyTaylor potential evaporation is is used to calculate the actual evapotranspiration that is passed on to the last step, <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref>. <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref> is run with the gamma snow output and actual evaporation response from the two methods above to calculate the discharge.</para><para>TODO: This method should construct an internal time stepping <ref refid="namespaceshyft_1_1core_1_1hbv__stack" kindref="compound">hbv_stack</ref> struct. This stepper should be used as an iterator in time integration loops. This paves the way for inter-cell communication (e.g. snow transport) without touching this simple interface.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time series type that implements:<itemizedlist>
+<listitem><para>TS::source_accessor_type <ndash/>&gt; Type of accessor used to retrieve time series data.</para></listitem><listitem><para>TS.accessor(const T&amp; time_axis) const <ndash/>&gt; TS::source_accessor_type. Accessor object for this time series.</para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TS::source_accessor_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time series source accessor type that implements:<itemizedlist>
+<listitem><para>TS::source_accessor_type(const TS&amp; time_series, const T&amp; time_axis) <ndash/>&gt; Construct accessor for the given time series and time axis.</para></listitem><listitem><para>TS::source_accessor_type.value(size_t i) <ndash/>&gt; double, -value of the time series for period i in the time axis. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time axis type that implements:<itemizedlist>
+<listitem><para>T.size() const <ndash/>&gt; Number of periods in the time axis.</para></listitem><listitem><para>T(size_t i) const <ndash/>&gt; <ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">shyft::core::utcperiod</ref>, - Start and end as <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref> of the i&apos;th period. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>State type that implements:<itemizedlist>
+<listitem><para>S::snow_state_type <ndash/>&gt; State type for the GammaSnow method.</para></listitem><listitem><para>S::hbv_tank_state_type <ndash/>&gt; State type for the <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref> method.</para></listitem><listitem><para>S.snow <ndash/>&gt; S::snow_state_type, - State variables for the GammaSnow method</para></listitem><listitem><para>S.hbv_tank <ndash/>&gt; S::hbv_tank_state_type, - State variables for the <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref> method </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>R</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Response type that implements:<itemizedlist>
+<listitem><para>R::snow_response_type <ndash/>&gt; Response type for the GammaSnow routine.</para></listitem><listitem><para>R.snow <ndash/>&gt; R::snow_response_type, -Response object passed to the GammaSnow routine. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter type that implements:<itemizedlist>
+<listitem><para>P::pt_parameter_type <ndash/>&gt; Parameter type for the PriestleyTaylor method</para></listitem><listitem><para>P::snow_parameter_type <ndash/>&gt; Parameter type for the GammaSnow method.</para></listitem><listitem><para>P::ae_parameter_type <ndash/>&gt; Parameter type for the ActualEvapotranspiration method.</para></listitem><listitem><para>P::tank_parameter_type <ndash/>&gt; Parameter type for the <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref> method.</para></listitem><listitem><para>P.pt <ndash/>&gt; P::pt_parameter_type <ndash/>&gt; Parameters for the PriestleyTaylor method.</para></listitem><listitem><para>P.snow <ndash/>&gt; P::snow_parameter_type <ndash/>&gt; Parameters for thge GammaSnow method.</para></listitem><listitem><para>P.ae <ndash/>&gt; P::ae_parameter_type <ndash/>&gt; Parameters for thge ActualEvapotranspiration method.</para></listitem><listitem><para>P.tank <ndash/>&gt; P::hbv_tank_parameter_type <ndash/>&gt; Parameters for the <ref refid="namespaceshyft_1_1core_1_1hbv__tank" kindref="compound">hbv_tank</ref> method. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SC</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>State collector type that implements:<itemizedlist>
+<listitem><para>SC.collect(utctime t, const S&amp; state) <ndash/>&gt; Possibly save some states at time t. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RC</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Response collector type that implements:<itemizedlist>
+<listitem><para>RC.collect(utctime t, const R&amp; response) <ndash/>&gt; Possibly save some responses at time t. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>&lt; <simplesect kind="note"><para>collect the state at the beginning of each period (the end state is saved anyway)</para></simplesect>
+&lt; <simplesect kind="note"><para>collect the response valid for the i&apos;th period (current state is now at the end of period)</para></simplesect>
+&lt; <simplesect kind="note"><para>last iteration,collect the final state as well. </para></simplesect>
+</para>        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h" line="232" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h" bodystart="232" bodyend="340"/>
+        <references refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" compoundref="precipitation__correction_8h" startline="37" endline="39">shyft::core::precipitation_correction::calculator::calc</references>
+        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a3c764b67a4b123cdce39b556e41a000c" compoundref="priestley__taylor_8h" startline="70" endline="81">shyft::core::priestley_taylor::calculator::potential_evapotranspiration</references>
+        <references refid="structshyft_1_1core_1_1calendar_1a0ae2bdc312a85aa2f0bb6c7b8443d440" compoundref="utctime__utilities_8h" startline="260">shyft::core::calendar::HOUR</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1calculator_1a29b2d89d26ea325e00acfb7eee6f5639" compoundref="hbv__snow_8h" startline="222" endline="300">shyft::core::hbv_snow::calculator&lt; P, S &gt;::step</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" compoundref="utctime__utilities_8h" startline="79">shyft::core::utcperiod::start</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" compoundref="utctime__utilities_8h" startline="80">shyft::core::utcperiod::end</references>
+        <references refid="namespaceshyft_1_1core_1_1hbv__actual__evapotranspiration_1aa35011d4c7c4f00edb3eb615d01257b1" compoundref="hbv__actual__evapotranspiration_8h" startline="32" endline="40">shyft::core::hbv_actual_evapotranspiration::calculate_step</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a3aabb6cc1736f3b4c678efb7da0226e2" compoundref="utctime__utilities_8h" startline="71" endline="71">shyft::core::utcperiod::timespan</references>
+        <references refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1af7d4079a8de3586825c799a43e0694ac" compoundref="hbv__soil_8h" startline="45" endline="50">shyft::core::hbv_soil::calculator&lt; P &gt;::step</references>
+        <references refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a4d67a673b33ea9c4d22853c3e8393fe2" compoundref="hbv__tank_8h" startline="54" endline="64">shyft::core::hbv_tank::calculator&lt; P &gt;::step</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h" line="13" column="1"/>
+  </compounddef>
+</doxygen>

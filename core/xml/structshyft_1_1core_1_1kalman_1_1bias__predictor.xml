@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1kalman_1_1bias__predictor" kind="struct" prot="public">
+    <compoundname>shyft::core::kalman::bias_predictor</compoundname>
+    <includes refid="kalman_8h" local="no">kalman.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a7ff341b40a1146cd5d20e3f45b2a7aeb" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1kalman_1_1filter" kindref="compound">filter</ref></type>
+        <definition>filter shyft::core::kalman::bias_predictor::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+<para>&lt; the filter we are using </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="133" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a03f54ceda671d8e264e00e37616cf766" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">state</ref></type>
+        <definition>state shyft::core::kalman::bias_predictor::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <briefdescription>
+<para>&lt; the current state of the filter </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="134" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a686bc8a372437bd5aace85dc4d65d8a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::bias_predictor::bias_predictor</definition>
+        <argsstring>()</argsstring>
+        <name>bias_predictor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="136" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a5fc9cae5d9cb6db72fa727a9fe9de2e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::bias_predictor::bias_predictor</definition>
+        <argsstring>(const filter &amp;f)</argsstring>
+        <name>bias_predictor</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1kalman_1_1filter" kindref="compound">filter</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="137" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1bias__predictor_1abf3e2d6ca8ad2e06d51393dbf2a7c4f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::bias_predictor::bias_predictor</definition>
+        <argsstring>(const filter &amp;f, const state &amp;s)</argsstring>
+        <name>bias_predictor</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1kalman_1_1filter" kindref="compound">filter</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="138" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a2964e0d74b45e32273878329a79b324f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class fc_ts</type>
+          </param>
+          <param>
+            <type>class obs_ts</type>
+          </param>
+          <param>
+            <type>class ta</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::kalman::bias_predictor::update_with_forecast</definition>
+        <argsstring>(const std::vector&lt; fc_ts &gt; &amp;fc_ts_set, const obs_ts &amp;observation_ts, const ta &amp;time_axis)</argsstring>
+        <name>update_with_forecast</name>
+        <param>
+          <type>const std::vector&lt; fc_ts &gt; &amp;</type>
+          <declname>fc_ts_set</declname>
+        </param>
+        <param>
+          <type>const obs_ts &amp;</type>
+          <declname>observation_ts</declname>
+        </param>
+        <param>
+          <type>const ta &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updates the state s, that includes the predicted bias(.x), using forecasts and observation time-series.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>fc_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a template class for forecast time-series </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>obs_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a template class for the observation time-series </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>timeaxis type, e.g. fixed_dt, should(but don&apos;t need to) match filter-timestep </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fc_ts_set</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of type const vector&lt;fc_ts&gt;&amp; contains the forecast time-series </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>observation_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of type obs_ts with the observations </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of type ta, time-axis that can be used for average_accessors </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="151" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="151" bodyend="161"/>
+        <references refid="classshyft_1_1timeseries_1_1average__accessor_1a2500b93ac15478aa6857fa8dc2729d91" compoundref="core_2timeseries_8h" startline="995" endline="1000">shyft::timeseries::average_accessor&lt; S, TA &gt;::value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structshyft_1_1core_1_1kalman_1_1bias__predictor" kindref="compound">bias_predictor</ref> for forecast-observation for solar-influenced signals </para>    </briefdescription>
+    <detaileddescription>
+<para>Using a kalman filter technique developed by met.no/gridpp to predict daily bias for solar driven signals (temperature) </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="865">
+        <label>shyft::core::kalman::state</label>
+        <link refid="structshyft_1_1core_1_1kalman_1_1state"/>
+      </node>
+      <node id="867">
+        <label>shyft::core::kalman::parameter</label>
+        <link refid="structshyft_1_1core_1_1kalman_1_1parameter"/>
+      </node>
+      <node id="866">
+        <label>shyft::core::kalman::filter</label>
+        <link refid="structshyft_1_1core_1_1kalman_1_1filter"/>
+        <childnode refid="867" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+      </node>
+      <node id="864">
+        <label>shyft::core::kalman::bias_predictor</label>
+        <link refid="structshyft_1_1core_1_1kalman_1_1bias__predictor"/>
+        <childnode refid="865" relation="usage">
+          <edgelabel>s</edgelabel>
+        </childnode>
+        <childnode refid="866" relation="usage">
+          <edgelabel>f</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="132" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="132" bodyend="163"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a686bc8a372437bd5aace85dc4d65d8a2" prot="public" virt="non-virtual"><scope>shyft::core::kalman::bias_predictor</scope><name>bias_predictor</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a5fc9cae5d9cb6db72fa727a9fe9de2e4" prot="public" virt="non-virtual"><scope>shyft::core::kalman::bias_predictor</scope><name>bias_predictor</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1abf3e2d6ca8ad2e06d51393dbf2a7c4f5" prot="public" virt="non-virtual"><scope>shyft::core::kalman::bias_predictor</scope><name>bias_predictor</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a7ff341b40a1146cd5d20e3f45b2a7aeb" prot="public" virt="non-virtual"><scope>shyft::core::kalman::bias_predictor</scope><name>f</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a03f54ceda671d8e264e00e37616cf766" prot="public" virt="non-virtual"><scope>shyft::core::kalman::bias_predictor</scope><name>s</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1bias__predictor_1a2964e0d74b45e32273878329a79b324f" prot="public" virt="non-virtual"><scope>shyft::core::kalman::bias_predictor</scope><name>update_with_forecast</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

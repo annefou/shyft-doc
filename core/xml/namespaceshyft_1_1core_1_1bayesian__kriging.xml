@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1bayesian__kriging" kind="namespace">
+    <compoundname>shyft::core::bayesian_kriging</compoundname>
+    <innerclass refid="classshyft_1_1core_1_1bayesian__kriging_1_1const__parameter" prot="public">shyft::core::bayesian_kriging::const_parameter</innerclass>
+    <innerclass refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter" prot="public">shyft::core::bayesian_kriging::parameter</innerclass>
+    <innernamespace refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils">shyft::core::bayesian_kriging::utils</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TSA</type>
+          </param>
+          <param>
+            <type>class S</type>
+          </param>
+          <param>
+            <type>class D</type>
+          </param>
+          <param>
+            <type>class T</type>
+          </param>
+          <param>
+            <type>class P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::bayesian_kriging::btk_interpolation</definition>
+        <argsstring>(S source_begin, S source_end, D destination_begin, D destination_end, const T &amp;time_axis, const P &amp;parameter)</argsstring>
+        <name>btk_interpolation</name>
+        <param>
+          <type>S</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Bayesian Temperature Kriging Interpolation. </para>        </briefdescription>
+        <detaileddescription>
+<para>Extracted from the Enki method BayesTKrig by Sjur Kolberg/Sintef.</para><para>Scatters a set of time-series data at given source locations (X,Y,Z) to a new set of time-series data at target locations (X,Y,Z) using a Bayesian Temperature Kriging method where the vertical distances used during the semivariogram&apos;s covariance calculations are scaled with a height factor.</para><para>In addition to interpolating values at the destinations, estimates on the sea level temperature and temperature gradients are computed at each time step.</para><para>Preconditions:<orderedlist>
+<listitem><para>There should be at least one source location with a valid value for all t. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TSA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TimeSeriesAccessor Type that takes a time source and a time axis and provides a TimeAccessor type the TSA provides, when instantiated:<orderedlist>
+<listitem><para>TSA::.value(size_t index) <ndash/>&gt; time series data at index in time axis.</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source (location) Type that implements:<orderedlist>
+<listitem><para>S.geo_point() const <ndash/>&gt; 3D point, GeoPoint, specifies the location.</para></listitem><listitem><para>S.temperatures() const <ndash/>&gt; a ts that can go into the supplied TSA type as ts source</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination (location/area) Type that implements:<orderedlist>
+<listitem><para>D.geo_point() const <ndash/>&gt; 3D point, GeoPoint</para></listitem><listitem><para>D.set_temperature(size_t index, double value), function that is called to set the temperature at position index in the <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref>. </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TimeAxis providing:<orderedlist>
+<listitem><para>T.size() const <ndash/>&gt; size_t, number of non-overlapping time intervals</para></listitem><listitem><para>T(const size_t i) const <ndash/>&gt; shyft::timeseries::utctimeperiod period of a with shyft::timeseries::utctime start and shyft::timeseries::utctime end. </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameters for the algorithm, that supplies:<orderedlist>
+<listitem><para>P.zscale() const <ndash/>&gt; double elevation scale factor used when computing covariances.</para></listitem><listitem><para>P.sill() const <ndash/>&gt; double semivariogram parameter.</para></listitem><listitem><para>P.nug() const <ndash/>&gt; double semivariogram parameter.</para></listitem><listitem><para>P.range() const <ndash/>&gt; double semivariogram parameter.</para></listitem><listitem><para>P.temperature_gradient() const <ndash/>&gt; prior temperature gradient. TODO: Should this be a time series?</para></listitem><listitem><para>P.temperature_gradient_sd() const <ndash/>&gt; prior standard deviation of temperature gradient. TODO: Should this be a time series? </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>BTKConstParameter </para><simplesectsep/><para>BTKParameter </para></simplesect>
+</para></listitem></orderedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="264" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="264" bodyend="386"/>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad36cfdd01f576a8673821c805762a9c9" compoundref="bayesian__kriging_8h" startline="129" endline="145">shyft::core::bayesian_kriging::utils::build_elevation_matrices</references>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">shyft::core::bayesian_kriging::utils::build_covariance_matrices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="14" column="1"/>
+  </compounddef>
+</doxygen>

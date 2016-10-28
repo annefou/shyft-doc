@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1api_1_1_ts_factory" kind="struct" prot="public">
+    <compoundname>shyft::api::TsFactory</compoundname>
+    <includes refid="api_8h" local="no">api.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1api_1_1_ts_factory_1a8b42d38297a860a3900b7680a175c49e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <definition>apoint_ts shyft::api::TsFactory::create_point_ts</definition>
+        <argsstring>(int n, utctime tStart, utctimespan dt, const std::vector&lt; double &gt; &amp;values, point_interpretation_policy interpretation=POINT_INSTANT_VALUE)</argsstring>
+        <name>create_point_ts</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>tStart</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>interpretation</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="54" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1_ts_factory_1a21a4f1415fa61eab40a2c466ce091e51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <definition>apoint_ts shyft::api::TsFactory::create_time_point_ts</definition>
+        <argsstring>(utcperiod period, const std::vector&lt; utctime &gt; &amp;times, const std::vector&lt; double &gt; &amp;values, point_interpretation_policy interpretation=POINT_INSTANT_VALUE)</argsstring>
+        <name>create_time_point_ts</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref> &gt; &amp;</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>interpretation</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="62" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="62" bodyend="74"/>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" compoundref="utctime__utilities_8h" startline="80">shyft::core::utcperiod::end</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>TsFactor provides time-series creation function using supplied primitives like vector of double, start, delta-t, n etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="51" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="51" bodyend="75"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1api_1_1_ts_factory_1a8b42d38297a860a3900b7680a175c49e" prot="public" virt="non-virtual"><scope>shyft::api::TsFactory</scope><name>create_point_ts</name></member>
+      <member refid="structshyft_1_1api_1_1_ts_factory_1a21a4f1415fa61eab40a2c466ce091e51" prot="public" virt="non-virtual"><scope>shyft::api::TsFactory</scope><name>create_time_point_ts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

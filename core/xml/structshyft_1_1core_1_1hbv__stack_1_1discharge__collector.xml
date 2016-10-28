@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector" kind="struct" prot="public">
+    <compoundname>shyft::core::hbv_stack::discharge_collector</compoundname>
+    <includes refid="hbv__stack__cell__model_8h" local="no">hbv_stack_cell_model.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a83fafb0ae5a86cc65e56d413a86f7813" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::hbv_stack::discharge_collector::destination_area</definition>
+        <argsstring></argsstring>
+        <name>destination_area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="79" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a644dc9d23978f8707530ead22eec8e81" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::hbv_stack::discharge_collector::avg_discharge</definition>
+        <argsstring></argsstring>
+        <name>avg_discharge</name>
+        <briefdescription>
+<para>Discharge given in [m³/s] as the average of the timestep. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="80" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a90947cb5669c505e93adf63328fc8b6c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1_1hbv__stack_1aa7ae8e746f92f63bab63ec9a8cf0afd9" kindref="member">response_t</ref></type>
+        <definition>response_t shyft::core::hbv_stack::discharge_collector::end_response</definition>
+        <argsstring></argsstring>
+        <name>end_response</name>
+        <briefdescription>
+<para>&lt; end_response, at the end of collected </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="81" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a5bff22b69d77762a8b39695e97748df6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool shyft::core::hbv_stack::discharge_collector::collect_snow</definition>
+        <argsstring></argsstring>
+        <name>collect_snow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="82" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="82" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1cell_1a9fb2ab9f909e41f87afae14b60318d46" compoundref="hbv__stack__cell__model_8h" startline="227" endline="229">shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_snow_sca_swe_collection</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ad1572ec089d1f2a4f15755f2d1c98f05" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::hbv_stack::discharge_collector::snow_sca</definition>
+        <argsstring></argsstring>
+        <name>snow_sca</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="83" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a35aee03c8dd6678416193edf19d51c3c" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::hbv_stack::discharge_collector::snow_swe</definition>
+        <argsstring></argsstring>
+        <name>snow_swe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="84" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a860ecc6a9b3667d3c60af727e8c4eef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::hbv_stack::discharge_collector::discharge_collector</definition>
+        <argsstring>()</argsstring>
+        <name>discharge_collector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="86" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab7b150d4ee3958676122b323d76e392a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::hbv_stack::discharge_collector::discharge_collector</definition>
+        <argsstring>(const double destination_area)</argsstring>
+        <name>discharge_collector</name>
+        <param>
+          <type>const double</type>
+          <declname>destination_area</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="87" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1adda2da109c19289a3214a31149ed9984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::hbv_stack::discharge_collector::discharge_collector</definition>
+        <argsstring>(const double destination_area, const timeaxis_t &amp;time_axis)</argsstring>
+        <name>discharge_collector</name>
+        <param>
+          <type>const double</type>
+          <declname>destination_area</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="88" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab225a2efb3183ee1252f3aab9c908f42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::hbv_stack::discharge_collector::initialize</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps, double area)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>area</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="93" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="93" bodyend="99"/>
+        <references refid="namespaceshyft_1_1core_1a79f174cb1b8a95ba06a8959b412b423a" compoundref="cell__model_8h" startline="145" endline="151">shyft::core::ts_init</references>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="61">shyft::timeseries::POINT_AVERAGE_VALUE</references>
+        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1a5b7cbf71b6773d69081d06f2853a55d7" compoundref="time__axis_8h" startline="54" endline="54">shyft::time_axis::fixed_dt::start</references>
+        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1ad53b61d4d12ce3f5cc3433be0131bf80" compoundref="time__axis_8h" startline="53" endline="53">shyft::time_axis::fixed_dt::delta</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a1400eb8fd41622663931cc4d30d50757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::hbv_stack::discharge_collector::collect</definition>
+        <argsstring>(size_t idx, const response_t &amp;response)</argsstring>
+        <name>collect</name>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1aa7ae8e746f92f63bab63ec9a8cf0afd9" kindref="member">response_t</ref> &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="102" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="102" bodyend="108"/>
+        <references refid="namespaceshyft_1_1core_1a447aaa684a628f435f1af5a4c568b819" compoundref="cell__model_8h" startline="17" endline="20">shyft::core::mmh_to_m3s</references>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1response_1a524e82afd8c8b7250cb569a94143498b" compoundref="core_2hbv__stack_8h" startline="171">shyft::core::hbv_stack::response::total_discharge</references>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1response_1aeb6e831e33f7b4f0ace0f366d6c7d8b3" compoundref="core_2hbv__stack_8h" startline="165">shyft::core::hbv_stack::response::snow</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1response_1a28858aa1a567711209b128710031d568" compoundref="hbv__snow_8h" startline="117">shyft::core::hbv_snow::response::snow_state</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" compoundref="hbv__snow_8h" startline="106">shyft::core::hbv_snow::state::sca</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" compoundref="hbv__snow_8h" startline="105">shyft::core::hbv_snow::state::swe</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab4aced40e17084fdb5ac1b2019029066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::hbv_stack::discharge_collector::set_end_response</definition>
+        <argsstring>(const response_t &amp;response)</argsstring>
+        <name>set_end_response</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1aa7ae8e746f92f63bab63ec9a8cf0afd9" kindref="member">response_t</ref> &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="110" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a collector that collects/keep discharge only </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="968">
+        <label>shyft::core::hbv_soil::response</label>
+        <link refid="structshyft_1_1core_1_1hbv__soil_1_1response"/>
+      </node>
+      <node id="969">
+        <label>shyft::timeseries::point_ts&lt; timeaxis &gt;</label>
+        <link refid="structshyft_1_1timeseries_1_1point__ts"/>
+        <childnode refid="970" relation="usage">
+          <edgelabel>ta</edgelabel>
+        </childnode>
+      </node>
+      <node id="966">
+        <label>shyft::core::hbv_snow::state</label>
+        <link refid="structshyft_1_1core_1_1hbv__snow_1_1state"/>
+      </node>
+      <node id="963">
+        <label>shyft::core::priestley_taylor::response</label>
+        <link refid="structshyft_1_1core_1_1priestley__taylor_1_1response"/>
+      </node>
+      <node id="971">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="965">
+        <label>shyft::core::hbv_snow::response</label>
+        <link refid="structshyft_1_1core_1_1hbv__snow_1_1response"/>
+        <childnode refid="966" relation="usage">
+          <edgelabel>snow_state</edgelabel>
+        </childnode>
+      </node>
+      <node id="970">
+        <label>shyft::time_axis::fixed_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
+        <childnode refid="971" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="964">
+        <label>shyft::core::hbv_tank::response</label>
+        <link refid="structshyft_1_1core_1_1hbv__tank_1_1response"/>
+      </node>
+      <node id="962">
+        <label>shyft::core::hbv_stack::response</label>
+        <link refid="structshyft_1_1core_1_1hbv__stack_1_1response"/>
+        <childnode refid="963" relation="usage">
+          <edgelabel>pt</edgelabel>
+        </childnode>
+        <childnode refid="964" relation="usage">
+          <edgelabel>tank</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>snow</edgelabel>
+        </childnode>
+        <childnode refid="967" relation="usage">
+          <edgelabel>ae</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>soil</edgelabel>
+        </childnode>
+      </node>
+      <node id="961">
+        <label>shyft::core::hbv_stack::discharge_collector</label>
+        <link refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector"/>
+        <childnode refid="962" relation="usage">
+          <edgelabel>end_response</edgelabel>
+        </childnode>
+        <childnode refid="969" relation="usage">
+          <edgelabel>snow_swe</edgelabel>
+          <edgelabel>avg_discharge</edgelabel>
+          <edgelabel>snow_sca</edgelabel>
+        </childnode>
+      </node>
+      <node id="967">
+        <label>shyft::core::hbv_actual_evapotranspiration::response</label>
+        <link refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1response"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="78" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="78" bodyend="111"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a644dc9d23978f8707530ead22eec8e81" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>avg_discharge</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a1400eb8fd41622663931cc4d30d50757" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>collect</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a5bff22b69d77762a8b39695e97748df6" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>collect_snow</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a83fafb0ae5a86cc65e56d413a86f7813" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>destination_area</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a860ecc6a9b3667d3c60af727e8c4eef1" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>discharge_collector</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab7b150d4ee3958676122b323d76e392a" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>discharge_collector</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1adda2da109c19289a3214a31149ed9984" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>discharge_collector</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a90947cb5669c505e93adf63328fc8b6c" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>end_response</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab225a2efb3183ee1252f3aab9c908f42" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>initialize</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab4aced40e17084fdb5ac1b2019029066" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>set_end_response</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ad1572ec089d1f2a4f15755f2d1c98f05" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>snow_sca</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a35aee03c8dd6678416193edf19d51c3c" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::discharge_collector</scope><name>snow_swe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

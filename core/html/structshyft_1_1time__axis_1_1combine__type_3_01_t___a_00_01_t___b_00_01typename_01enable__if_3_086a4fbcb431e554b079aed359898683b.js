@@ -1,0 +1,4 @@
+var structshyft_1_1time__axis_1_1combine__type_3_01_t___a_00_01_t___b_00_01typename_01enable__if_3_086a4fbcb431e554b079aed359898683b =
+[
+    [ "type", "structshyft_1_1time__axis_1_1combine__type_3_01_t___a_00_01_t___b_00_01typename_01enable__if_3_086a4fbcb431e554b079aed359898683b.html#af9db4e499d7d5bd2ba11ce71c8ab0c37", null ]
+];

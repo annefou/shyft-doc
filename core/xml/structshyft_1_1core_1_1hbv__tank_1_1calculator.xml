@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1hbv__tank_1_1calculator" kind="struct" prot="public">
+    <compoundname>shyft::core::hbv_tank::calculator</compoundname>
+    <includes refid="hbv__tank_8h" local="no">hbv_tank.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>P</declname>
+        <defname>P</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1hbv__tank_1_1calculator_1abb845cfa9dfa6bf375bc53546c051a61" prot="public" static="no" mutable="no">
+        <type>P</type>
+        <definition>P shyft::core::hbv_tank::calculator&lt; P &gt;::param</definition>
+        <argsstring></argsstring>
+        <name>param</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" line="51" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a0f0d22dbac06951a9f0ce56f27a1cd89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::hbv_tank::calculator&lt; P &gt;::calculator</definition>
+        <argsstring>(const P &amp;p)</argsstring>
+        <name>calculator</name>
+        <param>
+          <type>const P &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" line="52" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a4d67a673b33ea9c4d22853c3e8393fe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class R</type>
+          </param>
+          <param>
+            <type>class S</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::hbv_tank::calculator&lt; P &gt;::step</definition>
+        <argsstring>(S &amp;s, R &amp;r, shyft::core::utctime t0, shyft::core::utctime t1, double soil_outflow)</argsstring>
+        <name>step</name>
+        <param>
+          <type>S &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>R &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref></type>
+          <declname>t0</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref></type>
+          <declname>t1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>soil_outflow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" line="54" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" bodystart="54" bodyend="64"/>
+        <references refid="namespaceshyft_1_1timeseries_1ac53ac01de119a07afeaf67d32cd151e7" compoundref="core_2timeseries_8h" startline="653" endline="655">shyft::timeseries::max</references>
+        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="663" endline="665">shyft::timeseries::min</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" compoundref="core_2hbv__stack_8h" startline="232" endline="340">shyft::core::hbv_stack::run_hbv_stack</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Hbv tank. </para>    </briefdescription>
+    <detaileddescription>
+<para>reference somewhere..</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter type, implementing the interface: </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>State type, implementing the interface: </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>R</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Respone type, implementing the interface: </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h" bodystart="50" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a0f0d22dbac06951a9f0ce56f27a1cd89" prot="public" virt="non-virtual"><scope>shyft::core::hbv_tank::calculator</scope><name>calculator</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1abb845cfa9dfa6bf375bc53546c051a61" prot="public" virt="non-virtual"><scope>shyft::core::hbv_tank::calculator</scope><name>param</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a4d67a673b33ea9c4d22853c3e8393fe2" prot="public" virt="non-virtual"><scope>shyft::core::hbv_tank::calculator</scope><name>step</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

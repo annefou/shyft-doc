@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="hbv__tank_8h" kind="file">
+    <compoundname>hbv_tank.h</compoundname>
+    <includes refid="utctime__utilities_8h" local="yes">utctime_utilities.h</includes>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h</includedby>
+    <incdepgraph>
+      <node id="2034">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="2035" relation="include">
+        </childnode>
+        <childnode refid="2036" relation="include">
+        </childnode>
+        <childnode refid="2037" relation="include">
+        </childnode>
+        <childnode refid="2038" relation="include">
+        </childnode>
+        <childnode refid="2039" relation="include">
+        </childnode>
+        <childnode refid="2040" relation="include">
+        </childnode>
+      </node>
+      <node id="2037">
+        <label>cmath</label>
+      </node>
+      <node id="2035">
+        <label>string</label>
+      </node>
+      <node id="2039">
+        <label>map</label>
+      </node>
+      <node id="2038">
+        <label>vector</label>
+      </node>
+      <node id="2036">
+        <label>time.h</label>
+      </node>
+      <node id="2033">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h</label>
+        <link refid="hbv_tank.h"/>
+        <childnode refid="2034" relation="include">
+        </childnode>
+      </node>
+      <node id="2040">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2046">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+      </node>
+      <node id="2044">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="2045" relation="include">
+        </childnode>
+      </node>
+      <node id="2043">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="2044" relation="include">
+        </childnode>
+      </node>
+      <node id="2041">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h</label>
+        <link refid="hbv_tank.h"/>
+        <childnode refid="2042" relation="include">
+        </childnode>
+      </node>
+      <node id="2042">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="2043" relation="include">
+        </childnode>
+        <childnode refid="2046" relation="include">
+        </childnode>
+      </node>
+      <node id="2045">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structshyft_1_1core_1_1hbv__tank_1_1parameter" prot="public">shyft::core::hbv_tank::parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__tank_1_1state" prot="public">shyft::core::hbv_tank::state</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__tank_1_1response" prot="public">shyft::core::hbv_tank::response</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__tank_1_1calculator" prot="public">shyft::core::hbv_tank::calculator</innerclass>
+    <innernamespace refid="namespaceshyft">shyft</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1core">shyft::core</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1core_1_1hbv__tank">shyft::core::hbv_tank</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utctime__utilities_8h" kindref="compound">utctime_utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="6" refid="namespaceshyft_1_1core_1_1hbv__tank" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">hbv_tank<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__tank_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1aae208e77242d60dae4a43dc45c288b5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1aae208e77242d60dae4a43dc45c288b5e" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>uz1<sp/>=<sp/>25.0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>kuz2<sp/>=<sp/>0.5,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>kuz1<sp/>=<sp/>0.3,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>perc=<sp/>0.8,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>klz<sp/>=0.02)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:uz1(uz1),<sp/>kuz2(kuz2),<sp/>kuz1(kuz1),<sp/>perc(perc),<sp/>klz(klz)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(perc<sp/>&lt;<sp/>.0)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;perc<sp/>should<sp/>be<sp/>&gt;<sp/>0.0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1ae25dfaf5dd6b8cd6c0272e97d184468a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>uz1<sp/>=<sp/>25;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1a2f5e7ca784752b879976e3c5bf821c07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>kuz2<sp/>=<sp/>0.5;</highlight><highlight class="comment">//<sp/>1/unit<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1a3501bc6facb9d92a71197421badcf41a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>kuz1<sp/>=<sp/>0.3;</highlight><highlight class="comment">//<sp/>1/unit<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1acf41b9dedb91025fece6d0b1492dcd02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>perc<sp/>=<sp/>0.8;<sp/></highlight><highlight class="comment">//<sp/>mm/h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1ac6df8873db2bf4ddcf4a6b30eec53bd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>klz<sp/>=<sp/>0.02;<sp/></highlight><highlight class="comment">//<sp/>1/unit<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="structshyft_1_1core_1_1hbv__tank_1_1state" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__tank_1_1state" kindref="compound">state</ref><sp/>{</highlight></codeline>
+<codeline lineno="23" refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a07a23a19fbbdad37984f85f5c31ac0e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a07a23a19fbbdad37984f85f5c31ac0e1" kindref="member">state</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>uz<sp/>=<sp/>20.0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lz<sp/>=10)<sp/>:uz(uz),<sp/>lz(lz)<sp/>{}</highlight></codeline>
+<codeline lineno="24" refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a10a927f3a4f63d303b826f2b5afaa2c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>uz<sp/>=<sp/>20.0;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structshyft_1_1core_1_1hbv__tank_1_1state_1adc9808369317b8d26e48e44cd06ff2eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>lz<sp/>=<sp/>10.0;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a049bc3a5dd37a32b79d7e04279815546" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a049bc3a5dd37a32b79d7e04279815546" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1state" kindref="compound">state</ref>&amp;x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eps<sp/>=<sp/>1e-6;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>fabs(lz<sp/>-<sp/>x.lz)&lt;eps;<sp/>//<sp/>example<sp/>script</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((lz<sp/>-<sp/>x.<ref refid="structshyft_1_1core_1_1hbv__tank_1_1state_1adc9808369317b8d26e48e44cd06ff2eb" kindref="member">lz</ref>)<sp/>&lt;<sp/>eps<sp/>&amp;&amp;<sp/>(uz<sp/>-<sp/>x.<ref refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a10a927f3a4f63d303b826f2b5afaa2c8" kindref="member">uz</ref>)<sp/>&lt;<sp/>eps)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="structshyft_1_1core_1_1hbv__tank_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__tank_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
+<codeline lineno="37" refid="structshyft_1_1core_1_1hbv__tank_1_1response_1a3af023f07fd31f08c59a44a6f520c123" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>outflow<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>P&gt;</highlight></codeline>
+<codeline lineno="50" refid="structshyft_1_1core_1_1hbv__tank_1_1calculator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1hbv__tank_1_1calculator" kindref="compound">calculator</ref><sp/>{</highlight></codeline>
+<codeline lineno="51" refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1abb845cfa9dfa6bf375bc53546c051a61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>P<sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1abb845cfa9dfa6bf375bc53546c051a61" kindref="member">param</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a0f0d22dbac06951a9f0ce56f27a1cd89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a0f0d22dbac06951a9f0ce56f27a1cd89" kindref="member">calculator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/>p)<sp/>:param(p)<sp/>{}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>R,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S&gt;</highlight></codeline>
+<codeline lineno="54" refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a4d67a673b33ea9c4d22853c3e8393fe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__tank_1_1calculator_1a4d67a673b33ea9c4d22853c3e8393fe2" kindref="member">step</ref>(S&amp;<sp/>s,<sp/>R&amp;<sp/>r,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref><sp/>t0,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::core::utctime</ref><sp/>t1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>soil_outflow)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>s.uz<sp/>+<sp/>soil_outflow;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//compute<sp/>of<sp/>q11<sp/>&amp;<sp/>q12<sp/>at<sp/>end<sp/>of<sp/>time<sp/>after<sp/>adding<sp/>soil_outflow</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q12<sp/>=<sp/><ref refid="namespaceshyft_1_1timeseries_1ac53ac01de119a07afeaf67d32cd151e7" kindref="member">std::max</ref>(0.0,<sp/>(temp<sp/>-<sp/>param.uz1)*param.kuz2);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q11<sp/>=<sp/><ref refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" kindref="member">std::min</ref>(temp,<sp/>param.uz1)*param.kuz1;<sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.uz<sp/>=<sp/>s.uz<sp/>+<sp/>soil_outflow<sp/>-<sp/>param.perc<sp/>-<sp/>(q12+q11);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q2<sp/>=<sp/>(s.lz<sp/>+<sp/>param.perc)<sp/>*param.klz;<sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.lz<sp/>=<sp/>s.lz<sp/>+<sp/>param.perc<sp/>-<sp/>q2<sp/>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.outflow<sp/>=<sp/>q12<sp/>+<sp/>q11<sp/>+<sp/>q2;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>core</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight></codeline>
+    </programlisting>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_tank.h"/>
+  </compounddef>
+</doxygen>

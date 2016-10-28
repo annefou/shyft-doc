@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1api_1_1hbv__soil__cell__state__statistics" kind="struct" prot="public">
+    <compoundname>shyft::api::hbv_soil_cell_state_statistics</compoundname>
+    <includes refid="api_8h" local="no">api.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref></type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a551759f383bf630f5271aac8a844e55c" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt; &gt;</type>
+        <definition>shared_ptr&lt;vector&lt;cell&gt; &gt; shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::cells</definition>
+        <argsstring></argsstring>
+        <name>cells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="367" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a11ac5f3525e434e3e98a179b2143bca3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::hbv_soil_cell_state_statistics</definition>
+        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <name>hbv_soil_cell_state_statistics</name>
+        <param>
+          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <declname>cells</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="368" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="368" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a8e8a0645cd82ffc0e95d02b6168ed473" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <definition>apoint_ts shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge</definition>
+        <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const </argsstring>
+        <name>discharge</name>
+        <param>
+          <type>const vector&lt; int &gt; &amp;</type>
+          <declname>catchment_indexes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="370" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="370" bodyend="374"/>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="107">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a077f10dd7993de49bd64124841cdc014" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge</definition>
+        <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes, size_t ith_timestep) const </argsstring>
+        <name>discharge</name>
+        <param>
+          <type>const vector&lt; int &gt; &amp;</type>
+          <declname>catchment_indexes</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ith_timestep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="375" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="375" bodyend="379"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="334" endline="355">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="107">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a894246a957821db0fc7beb0ea0e43637" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge_value</definition>
+        <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes, size_t ith_timestep) const </argsstring>
+        <name>discharge_value</name>
+        <param>
+          <type>const vector&lt; int &gt; &amp;</type>
+          <declname>catchment_indexes</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ith_timestep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="380" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="380" bodyend="384"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="299" endline="320">shyft::core::cell_statistics::sum_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="107">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="366" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="366" bodyend="385"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a551759f383bf630f5271aac8a844e55c" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_state_statistics</scope><name>cells</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a8e8a0645cd82ffc0e95d02b6168ed473" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_state_statistics</scope><name>discharge</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a077f10dd7993de49bd64124841cdc014" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_state_statistics</scope><name>discharge</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a894246a957821db0fc7beb0ea0e43637" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_state_statistics</scope><name>discharge_value</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a11ac5f3525e434e3e98a179b2143bca3" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_state_statistics</scope><name>hbv_soil_cell_state_statistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="geo__point_8h" kind="file">
+    <compoundname>geo_point.h</compoundname>
+    <includedby refid="geo__cell__data_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/geo_cell_data.h</includedby>
+    <includedby refid="inverse__distance_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h</includedby>
+    <includedby refid="gaussian__random__field_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h</includedby>
+    <includedby refid="api_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</includedby>
+    <invincdepgraph>
+      <node id="1891">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/geo_point.h</label>
+        <link refid="geo_point.h"/>
+        <childnode refid="1892" relation="include">
+        </childnode>
+        <childnode refid="1904" relation="include">
+        </childnode>
+        <childnode refid="1905" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1893">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="1894" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+        <childnode refid="1901" relation="include">
+        </childnode>
+        <childnode refid="1902" relation="include">
+        </childnode>
+      </node>
+      <node id="1894">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1892">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/geo_cell_data.h</label>
+        <link refid="geo__cell__data_8h"/>
+        <childnode refid="1893" relation="include">
+        </childnode>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1903" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1900">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1905">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h</label>
+        <link refid="gaussian__random__field_8h"/>
+      </node>
+      <node id="1897">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1898" relation="include">
+        </childnode>
+      </node>
+      <node id="1899">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1904">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h</label>
+        <link refid="inverse__distance_8h"/>
+        <childnode refid="1903" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1901">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1903">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1896">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</label>
+        <link refid="experimental_8cpp"/>
+      </node>
+      <node id="1895">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h</label>
+        <link refid="experimental_8h"/>
+        <childnode refid="1896" relation="include">
+        </childnode>
+      </node>
+      <node id="1902">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="1897" relation="include">
+        </childnode>
+      </node>
+      <node id="1898">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structshyft_1_1core_1_1geo__point" prot="public">shyft::core::geo_point</innerclass>
+    <innernamespace refid="namespaceshyft">shyft</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1core">shyft::core</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structshyft_1_1core_1_1geo__point" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref><sp/>{</highlight></codeline>
+<codeline lineno="17" refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>,<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>,<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structshyft_1_1core_1_1geo__point_1ad0f41aedb6a731b5e100ddfbff5ef88b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ad0f41aedb6a731b5e100ddfbff5ef88b" kindref="member">geo_point</ref>()<sp/>:<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>(0),<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>(0),<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>(0)<sp/>{}</highlight></codeline>
+<codeline lineno="19" refid="structshyft_1_1core_1_1geo__point_1ab4cb8a7da158ce82458305483ab9eff6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab4cb8a7da158ce82458305483ab9eff6" kindref="member">geo_point</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>=0.0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>=0.0)<sp/>:<sp/>x(x),<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>(<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>),<sp/><ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>(<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>)<sp/>{}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="structshyft_1_1core_1_1geo__point_1a831c8e418de080375224fe416b37139b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1a831c8e418de080375224fe416b37139b" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref><sp/>&amp;o)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>accuracy=1e-3;</highlight><highlight class="comment">//mm</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1a1ddaadfff4a7843fc1871331e594673c" kindref="member">distance2</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,o)&lt;accuracy;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="structshyft_1_1core_1_1geo__point_1a1ddaadfff4a7843fc1871331e594673c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1a1ddaadfff4a7843fc1871331e594673c" kindref="member">distance2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structshyft_1_1core_1_1geo__point_1aced9b4d0161bae54812024576fcf3976" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1aced9b4d0161bae54812024576fcf3976" kindref="member">distance_measure</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zscale)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pow((a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>)*zscale*zscale,<sp/>p/2.0);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="structshyft_1_1core_1_1geo__point_1ac2220e94a129c55308fc2aa6cd463fb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ac2220e94a129c55308fc2aa6cd463fb5" kindref="member">zscaled_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zscale)<sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt(<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>)*zscale*zscale);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="structshyft_1_1core_1_1geo__point_1a1d284e1586fdc6f4d7eaf9e67d1aa08b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1a1d284e1586fdc6f4d7eaf9e67d1aa08b" kindref="member">xy_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt((a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>)<sp/>+<sp/>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>)*(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="structshyft_1_1core_1_1geo__point_1ad7319076c114837b8514939100774e0b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ad7319076c114837b8514939100774e0b" kindref="member">difference</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/>b)<sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1geo__point_1ad0f41aedb6a731b5e100ddfbff5ef88b" kindref="member">geo_point</ref>(a.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" kindref="member">x</ref>,<sp/>a.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" kindref="member">y</ref>,<sp/>a.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref><sp/>-<sp/>b.<ref refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" kindref="member">z</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/geo_point.h"/>
+  </compounddef>
+</doxygen>

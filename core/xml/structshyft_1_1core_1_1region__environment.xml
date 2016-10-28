@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1region__environment" kind="struct" prot="public">
+    <compoundname>shyft::core::region_environment</compoundname>
+    <includes refid="region__model_8h" local="no">region_model.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class PS</type>
+      </param>
+      <param>
+        <type>class TS</type>
+      </param>
+      <param>
+        <type>class RS</type>
+      </param>
+      <param>
+        <type>class HS</type>
+      </param>
+      <param>
+        <type>class WS</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a7b88748be0d5b843233ee5301265b392" prot="public" static="no">
+        <type>PS</type>
+        <definition>typedef PS shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::precipitation_t</definition>
+        <argsstring></argsstring>
+        <name>precipitation_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="147" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a0a487ae7d0c6c2519c256f63d2783754" prot="public" static="no">
+        <type>TS</type>
+        <definition>typedef TS shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::temperature_t</definition>
+        <argsstring></argsstring>
+        <name>temperature_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="148" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1acdde3f7558d8b92423c960bfde7fe7cc" prot="public" static="no">
+        <type>RS</type>
+        <definition>typedef RS shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::radiation_t</definition>
+        <argsstring></argsstring>
+        <name>radiation_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="149" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1aa4116aece39e6b900f40b5dd2f2951b8" prot="public" static="no">
+        <type>HS</type>
+        <definition>typedef HS shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::rel_hum_t</definition>
+        <argsstring></argsstring>
+        <name>rel_hum_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="150" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a2ea5568fefdec00a18ee9479e5702874" prot="public" static="no">
+        <type>WS</type>
+        <definition>typedef WS shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::wind_speed_t</definition>
+        <argsstring></argsstring>
+        <name>wind_speed_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="151" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a338fa41c22e45d74ded90af9da5f53e6" prot="public" static="no">
+        <type>vector&lt; PS &gt;</type>
+        <definition>typedef vector&lt;PS&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::precipitation_vec_t</definition>
+        <argsstring></argsstring>
+        <name>precipitation_vec_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="152" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a20a4654f2ce460588bb477d41cedc46e" prot="public" static="no">
+        <type>vector&lt; TS &gt;</type>
+        <definition>typedef vector&lt;TS&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::temperature_vec_t</definition>
+        <argsstring></argsstring>
+        <name>temperature_vec_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="153" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a6b4158a76d7fbe3b079e60e35ef85a0e" prot="public" static="no">
+        <type>vector&lt; RS &gt;</type>
+        <definition>typedef vector&lt;RS&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::radiation_vec_t</definition>
+        <argsstring></argsstring>
+        <name>radiation_vec_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="154" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1a77b06a5793f43b502987e783fd46e6fe" prot="public" static="no">
+        <type>vector&lt; HS &gt;</type>
+        <definition>typedef vector&lt;HS&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::rel_hum_vec_t</definition>
+        <argsstring></argsstring>
+        <name>rel_hum_vec_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="155" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1region__environment_1aa95bc53fc6071e806e6cb617ed012947" prot="public" static="no">
+        <type>vector&lt; WS &gt;</type>
+        <definition>typedef vector&lt;WS&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::wind_speed_vec_t</definition>
+        <argsstring></argsstring>
+        <name>wind_speed_vec_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="156" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1region__environment_1a228a51305da4a6db3c7756a04fcc71e0" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="structshyft_1_1core_1_1region__environment_1a20a4654f2ce460588bb477d41cedc46e" kindref="member">temperature_vec_t</ref> &gt;</type>
+        <definition>shared_ptr&lt;temperature_vec_t&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="158" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1region__environment_1ae84309d4584568838895a26bc4b688d1" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="structshyft_1_1core_1_1region__environment_1a338fa41c22e45d74ded90af9da5f53e6" kindref="member">precipitation_vec_t</ref> &gt;</type>
+        <definition>shared_ptr&lt;precipitation_vec_t&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::precipitation</definition>
+        <argsstring></argsstring>
+        <name>precipitation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="159" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1region__environment_1ae3e6269a12432e164b56af14412a77fb" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="structshyft_1_1core_1_1region__environment_1a6b4158a76d7fbe3b079e60e35ef85a0e" kindref="member">radiation_vec_t</ref> &gt;</type>
+        <definition>shared_ptr&lt;radiation_vec_t&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::radiation</definition>
+        <argsstring></argsstring>
+        <name>radiation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="160" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1region__environment_1a49645a30ac63d677850dc2cfabd70901" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="structshyft_1_1core_1_1region__environment_1aa95bc53fc6071e806e6cb617ed012947" kindref="member">wind_speed_vec_t</ref> &gt;</type>
+        <definition>shared_ptr&lt;wind_speed_vec_t&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::wind_speed</definition>
+        <argsstring></argsstring>
+        <name>wind_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="161" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1region__environment_1adfeb5f1f67e4fd5bfd6d8d56bb84819a" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; <ref refid="structshyft_1_1core_1_1region__environment_1a77b06a5793f43b502987e783fd46e6fe" kindref="member">rel_hum_vec_t</ref> &gt;</type>
+        <definition>shared_ptr&lt;rel_hum_vec_t&gt; shyft::core::region_environment&lt; PS, TS, RS, HS, WS &gt;::rel_hum</definition>
+        <argsstring></argsstring>
+        <name>rel_hum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="162" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structshyft_1_1core_1_1region__environment" kindref="compound">region_environment</ref> contains the measured/forecasted sources of environmental properties, each that contains a <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> and a time-series representation, like the <ref refid="structshyft_1_1core_1_1geo__point__ts" kindref="compound">geo_point_ts</ref> type . This class comes into play in the interpolation step where each env.property is projected to the region.cells, using interpolation algorithm. For performance, it&apos;s imperative that access to each time-series value is efficient, and repeated calls should have very low cost (implies possible caching)needs definition of the core time-series </para>    </briefdescription>
+    <detaileddescription>
+<para>Each property is a share_ptr&lt;vector&lt;T&gt;&gt; such that it is easy to maintain one consistent copy of the inputs</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>PS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>precipitation ts [mm/h] with <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>TS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>temperature ts [degC] with <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>radiation ts [xx] with <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>HS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>relative humidity [rh] ts with <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>WS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>wind_speed ts [m/s] with <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="146" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="146" bodyend="164"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1region__environment_1ae84309d4584568838895a26bc4b688d1" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>precipitation</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a7b88748be0d5b843233ee5301265b392" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>precipitation_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a338fa41c22e45d74ded90af9da5f53e6" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>precipitation_vec_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1ae3e6269a12432e164b56af14412a77fb" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>radiation</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1acdde3f7558d8b92423c960bfde7fe7cc" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>radiation_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a6b4158a76d7fbe3b079e60e35ef85a0e" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>radiation_vec_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1adfeb5f1f67e4fd5bfd6d8d56bb84819a" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>rel_hum</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1aa4116aece39e6b900f40b5dd2f2951b8" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>rel_hum_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a77b06a5793f43b502987e783fd46e6fe" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>rel_hum_vec_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a228a51305da4a6db3c7756a04fcc71e0" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>temperature</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a0a487ae7d0c6c2519c256f63d2783754" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>temperature_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a20a4654f2ce460588bb477d41cedc46e" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>temperature_vec_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a49645a30ac63d677850dc2cfabd70901" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>wind_speed</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1a2ea5568fefdec00a18ee9479e5702874" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>wind_speed_t</name></member>
+      <member refid="structshyft_1_1core_1_1region__environment_1aa95bc53fc6071e806e6cb617ed012947" prot="public" virt="non-virtual"><scope>shyft::core::region_environment</scope><name>wind_speed_vec_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

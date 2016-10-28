@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespacetime__axis" kind="namespace">
+    <compoundname>time_axis</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>contains all the definitions of <ref refid="namespacetime__axis" kindref="compound">time_axis</ref> including the combine algorithms.</para><para>definition: time-axis is an ordered sequence of non-overlapping periods</para><para>notice: a) the most usual time-axis is the fixed_dt time-axis in the SHyFT core, this is the one we use(could even need a highspeed-nocompromise version)</para><para>b) continuous/dense time-axis: there are no holes in total_period types: fixed_dt, calendar_dt, point_dt c) sparse time-axis: there are holes within the span of total_period types: period_list and calendar_dt_p </para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="12" column="1"/>
+  </compounddef>
+</doxygen>

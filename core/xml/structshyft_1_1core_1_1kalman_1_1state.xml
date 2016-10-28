@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1kalman_1_1state" kind="struct" prot="public">
+    <compoundname>shyft::core::kalman::state</compoundname>
+    <includes refid="kalman_8h" local="no">kalman.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1state_1a2a05a2b248bc845163cd9829a0277adf" prot="public" static="no" mutable="no">
+        <type>arma::vec</type>
+        <definition>arma::vec shyft::core::kalman::state::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>best estimate of bias, size is n forecast periods each day(eg. 3h~ n=8) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="16" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1kalman_1_1filter_1adb2c50b6cfcc7ba1206170ca3059cc60" compoundref="kalman_8h" startline="108" endline="123">shyft::core::kalman::filter::update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1state_1ada5f9683db70a257a7724d69832dc8d5" prot="public" static="no" mutable="no">
+        <type>arma::vec</type>
+        <definition>arma::vec shyft::core::kalman::state::k</definition>
+        <argsstring></argsstring>
+        <name>k</name>
+        <briefdescription>
+<para>kalman gain factors </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="17" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1kalman_1_1filter_1adb2c50b6cfcc7ba1206170ca3059cc60" compoundref="kalman_8h" startline="108" endline="123">shyft::core::kalman::filter::update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1state_1ab374afb978809b08d3326ab4337cb330" prot="public" static="no" mutable="no">
+        <type>arma::mat</type>
+        <definition>arma::mat shyft::core::kalman::state::P</definition>
+        <argsstring></argsstring>
+        <name>P</name>
+        <briefdescription>
+<para>error covariance of best estimate </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="18" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1kalman_1_1filter_1adb2c50b6cfcc7ba1206170ca3059cc60" compoundref="kalman_8h" startline="108" endline="123">shyft::core::kalman::filter::update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1state_1ae1cf11da352d46341d7aec238977de55" prot="public" static="no" mutable="no">
+        <type>arma::mat</type>
+        <definition>arma::mat shyft::core::kalman::state::W</definition>
+        <argsstring></argsstring>
+        <name>W</name>
+        <briefdescription>
+<para>W process noise (currently constant after init) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="19" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1kalman_1_1filter_1adb2c50b6cfcc7ba1206170ca3059cc60" compoundref="kalman_8h" startline="108" endline="123">shyft::core::kalman::filter::update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1state_1a7475a60fa1ac62dc6965368fcdcb7c24" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int shyft::core::kalman::state::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="20" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1state_1acee1babda8dd7c30ae9c5389e8d412a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::state::state</definition>
+        <argsstring>()</argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="21" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1state_1a178db6a177d0741197decfa4220fd8be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::state::state</definition>
+        <argsstring>(int n_daily_observations, double covariance_init, double hourly_correlation, double process_noise_init)</argsstring>
+        <name>state</name>
+        <param>
+          <type>int</type>
+          <declname>n_daily_observations</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>covariance_init</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hourly_correlation</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>process_noise_init</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="22" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1state_1a048229143072f559276adedfd2a79dfb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>arma::mat</type>
+        <definition>static arma::mat shyft::core::kalman::state::make_covariance</definition>
+        <argsstring>(int n_daily_observations, double covariance_init, double hourly_correlation)</argsstring>
+        <name>make_covariance</name>
+        <param>
+          <type>int</type>
+          <declname>n_daily_observations</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>covariance_init</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hourly_correlation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="28" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="28" bodyend="41"/>
+        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="663" endline="665">shyft::timeseries::min</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">kalman::state</ref> represent the state of the specialized kalman-filter as implemented by met.no </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="15" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="15" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1ada5f9683db70a257a7724d69832dc8d5" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>k</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1a048229143072f559276adedfd2a79dfb" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>make_covariance</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1ab374afb978809b08d3326ab4337cb330" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>P</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1a7475a60fa1ac62dc6965368fcdcb7c24" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>size</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1acee1babda8dd7c30ae9c5389e8d412a6" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1a178db6a177d0741197decfa4220fd8be" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1ae1cf11da352d46341d7aec238977de55" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>W</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1state_1a2a05a2b248bc845163cd9829a0277adf" prot="public" virt="non-virtual"><scope>shyft::core::kalman::state</scope><name>x</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

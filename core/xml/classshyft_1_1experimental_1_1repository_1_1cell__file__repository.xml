@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository" kind="class" prot="public">
+    <compoundname>shyft::experimental::repository::cell_file_repository</compoundname>
+    <includes refid="experimental_8h" local="no">experimental.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class C</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1aeca4efdac2d5184807c089bec6993565" prot="public" static="no">
+        <type>C</type>
+        <definition>typedef C shyft::experimental::repository::cell_file_repository&lt; C &gt;::cell_t</definition>
+        <argsstring></argsstring>
+        <name>cell_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="537" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1af3030b4fca72da0caa18b537fc59a8cc" prot="public" static="no">
+        <type>C::state_t</type>
+        <definition>typedef C::state_t shyft::experimental::repository::cell_file_repository&lt; C &gt;::state_t</definition>
+        <argsstring></argsstring>
+        <name>state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="538" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a86129306da5b003f1950a40b719f8af7" prot="public" static="no">
+        <type>C::parameter_t</type>
+        <definition>typedef C::parameter_t shyft::experimental::repository::cell_file_repository&lt; C &gt;::parameter_t</definition>
+        <argsstring></argsstring>
+        <name>parameter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="539" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a73ba531a8fc87c2ac0713619d42512a0" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string shyft::experimental::repository::cell_file_repository&lt; C &gt;::subdir</definition>
+        <argsstring></argsstring>
+        <name>subdir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="528" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a62ecfe2ca9afc7edee9c0916cdf74a47" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::experimental::repository::cell_file_repository&lt; C &gt;::x0</definition>
+        <argsstring></argsstring>
+        <name>x0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="529" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a9b8e2379267d0829698dc1f6adc96148" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::experimental::repository::cell_file_repository&lt; C &gt;::y0</definition>
+        <argsstring></argsstring>
+        <name>y0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="530" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a3125067cc898c5527588c3f581e9a14f" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::repository::cell_file_repository&lt; C &gt;::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="531" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a3d9b50337c976bc8664f3c33a2ce7ce7" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::repository::cell_file_repository&lt; C &gt;::ny</definition>
+        <argsstring></argsstring>
+        <name>ny</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="532" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1acf4095c32611790a460d846fbf7b6ad5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::experimental::repository::cell_file_repository&lt; C &gt;::dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="533" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1ab83aeccf969280a963a099fc9ff8bdff" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::experimental::repository::cell_file_repository&lt; C &gt;::dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="534" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a0e1b67af98fdd951ea6ea22b80e769fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::experimental::repository::cell_file_repository&lt; C &gt;::cell_file_repository</definition>
+        <argsstring>(string path, double x0, double y0, size_t nx, size_t ny, double dx=1000.0, double dy=1000.0)</argsstring>
+        <name>cell_file_repository</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nx</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ny</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+          <defval>1000.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dy</declname>
+          <defval>1000.0</defval>
+        </param>
+        <briefdescription>
+<para>construct a <ref refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository" kindref="compound">cell_file_repository</ref> that have its sources from the supplied sub_directory with the specified geometry </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>that the geometry of dtm must match the dtm file </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="544" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="544" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</definition>
+        <argsstring>(shared_ptr&lt; vector&lt; cell_t &gt;&gt; cells)</argsstring>
+        <name>read</name>
+        <param>
+          <type>shared_ptr&lt; vector&lt; <ref refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1aeca4efdac2d5184807c089bec6993565" kindref="member">cell_t</ref> &gt;&gt;</type>
+          <declname>cells</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" kindref="member">read()</ref> does all needed stuff to get back a cell vector that can be used for region_model </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="549" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="549" bodyend="630"/>
+        <references refid="classshyft_1_1experimental_1_1wkt__reader_1a4d0da7464acb3e88d5e25f0adb5f2ed1" compoundref="experimental_8h" startline="113" endline="141">shyft::experimental::wkt_reader::read</references>
+        <references refid="namespaceshyft_1_1experimental_1_1io_1a573391d66e7e416b83dab1aa4bc52172" compoundref="experimental_8cpp" startline="31" endline="36">shyft::experimental::io::slurp</references>
+        <references refid="namespaceshyft_1_1experimental_1_1io_1a632eb309b4e9b65f058437e506eb0936" compoundref="experimental_8cpp" startline="20">shyft::experimental::io::test_path</references>
+        <references refid="classshyft_1_1experimental_1_1wkt__reader_1a35922deaafd4747cfbe83bcc5bc04cd0" compoundref="experimental_8h" startline="144" endline="163">shyft::experimental::wkt_reader::read_points</references>
+        <references refid="classshyft_1_1experimental_1_1wkt__reader_1ad6004e0f4dde243d4188d682f9fd64d6" compoundref="experimental_8h" startline="94" endline="111">shyft::experimental::wkt_reader::read_dtm</references>
+        <references refid="classshyft_1_1experimental_1_1wkt__reader_1a9f9e399d365cd3fd34a096f0f3e0933b" compoundref="experimental_8h" startline="166" endline="199">shyft::experimental::wkt_reader::read_catchment_map</references>
+        <references refid="classshyft_1_1experimental_1_1wkt__reader_1af5bb6ed40d5c6791915b8f6792bd9d9e" compoundref="experimental_8h" startline="86">shyft::experimental::wkt_reader::reported_errors</references>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1a53a965ad9c4e6aaefbb0b9238e2ac142" compoundref="experimental_8h" startline="297" endline="323">shyft::experimental::region_grid::set_dtm</references>
+        <references refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</references>
+        <references refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1a1ae508307a522a071e1a3e731440ae91" compoundref="experimental_8h" startline="431">shyft::experimental::geo_cell_data_computer::area_errors</references>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1ad3afb381bc4c3c3f0598fc6027db7ba0" compoundref="experimental_8h" startline="346" endline="346">shyft::experimental::region_grid::n_cells</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a simple cell_repository, responsible for providing cells of supplied template parameter type C with geo_cell_data from somewhere, &apos;somewhere&apos; is the files with specific names for the features:<orderedlist>
+<listitem><para>forest</para></listitem><listitem><para>glacier</para></listitem><listitem><para>lake (and reservoirs)</para></listitem><listitem><para>reservoir mid-points (to figure out the reservoirs from the lakes)</para></listitem><listitem><para>catchment map</para></listitem><listitem><para>a digital terrain model (dtm) in a sub- directory . These are read into memory <ref refid="namespaceshyft_1_1experimental_1_1io_1a573391d66e7e416b83dab1aa4bc52172" kindref="member">shyft::experimental::io::slurp</ref> and processed by shyft::experimental::io::wkt_reader into boost::geometry multipolygons then feed into the <ref refid="classshyft_1_1experimental_1_1geo__cell__data__computer" kindref="compound">geo_cell_data_computer</ref> that uses the rudimentary <ref refid="classshyft_1_1experimental_1_1region__grid" kindref="compound">region_grid</ref> class to provide a grid-type of geometry, 1km x 1km squares. </para></listitem></orderedlist>
+</para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>C</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cell type that supports construction, ::state_t and :: parameter_t </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="527" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="527" bodyend="631"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a0e1b67af98fdd951ea6ea22b80e769fc" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>cell_file_repository</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1aeca4efdac2d5184807c089bec6993565" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>cell_t</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1acf4095c32611790a460d846fbf7b6ad5" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>dx</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1ab83aeccf969280a963a099fc9ff8bdff" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>dy</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a3125067cc898c5527588c3f581e9a14f" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>nx</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a3d9b50337c976bc8664f3c33a2ce7ce7" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>ny</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a86129306da5b003f1950a40b719f8af7" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>parameter_t</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>read</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1af3030b4fca72da0caa18b537fc59a8cc" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>state_t</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a73ba531a8fc87c2ac0713619d42512a0" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>subdir</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a62ecfe2ca9afc7edee9c0916cdf74a47" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>x0</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a9b8e2379267d0829698dc1f6adc96148" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::cell_file_repository</scope><name>y0</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

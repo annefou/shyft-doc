@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="api_2pt__gs__k_8h" kind="file">
+    <compoundname>pt_gs_k.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes refid="core_2pt__gs__k_8h" local="yes">core/pt_gs_k.h</includes>
+    <incdepgraph>
+      <node id="2249">
+        <label>time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="2250" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+        <childnode refid="2251" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+      </node>
+      <node id="2253">
+        <label>limits</label>
+      </node>
+      <node id="2259">
+        <label>precipitation_correction.h</label>
+        <link refid="precipitation__correction_8h"/>
+      </node>
+      <node id="2245">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="2235" relation="include">
+        </childnode>
+        <childnode refid="2246" relation="include">
+        </childnode>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+        <childnode refid="2247" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+      </node>
+      <node id="2240">
+        <label>cmath</label>
+      </node>
+      <node id="2252">
+        <label>stdexcept</label>
+      </node>
+      <node id="2235">
+        <label>string</label>
+      </node>
+      <node id="2244">
+        <label>compiler_compatiblity.h</label>
+        <link refid="compiler__compatiblity_8h"/>
+      </node>
+      <node id="2247">
+        <label>map</label>
+      </node>
+      <node id="2250">
+        <label>exception</label>
+      </node>
+      <node id="2243">
+        <label>timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="2244" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+        <childnode refid="2249" relation="include">
+        </childnode>
+        <childnode refid="2252" relation="include">
+        </childnode>
+        <childnode refid="2253" relation="include">
+        </childnode>
+        <childnode refid="2251" relation="include">
+        </childnode>
+        <childnode refid="2254" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+        <childnode refid="2255" relation="include">
+        </childnode>
+        <childnode refid="2248" relation="include">
+        </childnode>
+      </node>
+      <node id="2238">
+        <label>priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
+      </node>
+      <node id="2237">
+        <label>core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="2238" relation="include">
+        </childnode>
+        <childnode refid="2239" relation="include">
+        </childnode>
+        <childnode refid="2256" relation="include">
+        </childnode>
+        <childnode refid="2258" relation="include">
+        </childnode>
+        <childnode refid="2259" relation="include">
+        </childnode>
+      </node>
+      <node id="2241">
+        <label>boost/math_fwd.hpp</label>
+      </node>
+      <node id="2236">
+        <label>vector</label>
+      </node>
+      <node id="2239">
+        <label>kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="2240" relation="include">
+        </childnode>
+        <childnode refid="2241" relation="include">
+        </childnode>
+        <childnode refid="2242" relation="include">
+        </childnode>
+        <childnode refid="2243" relation="include">
+        </childnode>
+      </node>
+      <node id="2256">
+        <label>gamma_snow.h</label>
+        <link refid="gamma__snow_8h"/>
+        <childnode refid="2243" relation="include">
+        </childnode>
+        <childnode refid="2257" relation="include">
+        </childnode>
+        <childnode refid="2245" relation="include">
+        </childnode>
+      </node>
+      <node id="2242">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="2246">
+        <label>time.h</label>
+      </node>
+      <node id="2254">
+        <label>iostream</label>
+      </node>
+      <node id="2234">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_gs_k.h</label>
+        <link refid="api/pt_gs_k.h"/>
+        <childnode refid="2235" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+        <childnode refid="2237" relation="include">
+        </childnode>
+      </node>
+      <node id="2257">
+        <label>boost/math/special_functions/gamma.hpp</label>
+      </node>
+      <node id="2255">
+        <label>type_traits</label>
+      </node>
+      <node id="2251">
+        <label>algorithm</label>
+      </node>
+      <node id="2258">
+        <label>actual_evapotranspiration.h</label>
+        <link refid="actual__evapotranspiration_8h"/>
+        <childnode refid="2245" relation="include">
+        </childnode>
+      </node>
+      <node id="2248">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structshyft_1_1api_1_1pt__gs__k__state__io" prot="public">shyft::api::pt_gs_k_state_io</innerclass>
+    <innernamespace refid="namespaceshyft">shyft</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1api">shyft::api</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2pt__gs__k_8h" kindref="compound">core/pt_gs_k.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">api<sp/>{</highlight></codeline>
+<codeline lineno="7" refid="namespaceshyft_1_1api_1a8f7b455ae43d520ec9d748e6eaba772f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kindref="compound">shyft::core::pt_gs_k::state</ref><sp/><ref refid="namespaceshyft_1_1api_1a8f7b455ae43d520ec9d748e6eaba772f" kindref="member">pt_gs_k_state_t</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structshyft_1_1api_1_1pt__gs__k__state__io" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io" kindref="compound">pt_gs_k_state_io</ref><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="structshyft_1_1api_1_1pt__gs__k__state__io_1a94026454b2e886d8d220410782f7dd40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1a94026454b2e886d8d220410782f7dd40" kindref="member">from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;str,<sp/><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kindref="compound">pt_gs_k_state_t</ref><sp/>&amp;s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" kindref="member">from_raw_string</ref>(str.c_str(),<sp/>s);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" kindref="member">from_raw_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kindref="compound">pt_gs_k_state_t</ref>&amp;<sp/>s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(str<sp/>&amp;&amp;<sp/>*str)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sscanf(str,<sp/></highlight><highlight class="stringliteral">&quot;ptgsk:%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" kindref="member">albedo</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" kindref="member">alpha</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" kindref="member">sdc_melt_mean</ref>,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" kindref="member">acc_melt</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" kindref="member">iso_pot_energy</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" kindref="member">temp_swe</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" kindref="member">surface_heat</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" kindref="member">lwc</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a807bd7d4af2c1f70957e1d88c59ada30" kindref="member">kirchner</ref>.<ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kindref="member">q</ref>)<sp/>==<sp/>9)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>support<sp/>old<sp/>7<sp/>string<sp/>state<sp/>variable<sp/>format</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sscanf(str,<sp/></highlight><highlight class="stringliteral">&quot;ptgsk:%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" kindref="member">albedo</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" kindref="member">alpha</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" kindref="member">sdc_melt_mean</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" kindref="member">acc_melt</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" kindref="member">iso_pot_energy</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" kindref="member">temp_swe</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a807bd7d4af2c1f70957e1d88c59ada30" kindref="member">kirchner</ref>.<ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kindref="member">q</ref>)<sp/>==<sp/>7)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" kindref="member">to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kindref="compound">pt_gs_k_state_t</ref>&amp;<sp/>s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>r[500];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(r,<sp/></highlight><highlight class="stringliteral">&quot;ptgsk:%f<sp/>%f<sp/>%f<sp/>%f<sp/>%f<sp/>%f<sp/>%f<sp/>%f<sp/>%f\n&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" kindref="member">albedo</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" kindref="member">alpha</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" kindref="member">sdc_melt_mean</ref>,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" kindref="member">acc_melt</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" kindref="member">iso_pot_energy</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" kindref="member">temp_swe</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" kindref="member">surface_heat</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" kindref="member">gs</ref>.<ref refid="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" kindref="member">lwc</ref>,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a807bd7d4af2c1f70957e1d88c59ada30" kindref="member">kirchner</ref>.<ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kindref="member">q</ref>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="structshyft_1_1api_1_1pt__gs__k__state__io_1a770496b807d3534f9d244231d6227be6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1a770496b807d3534f9d244231d6227be6" kindref="member">to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;pt_gs_k_state_t&gt;<sp/>&amp;sv)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>r;<sp/>r.reserve(200*200*50);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i&lt;sv.size();<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.append(<ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" kindref="member">to_string</ref>(sv[i]));</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structshyft_1_1api_1_1pt__gs__k__state__io_1a8107e4ad3f3351d2a558459062a1fc43" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;pt_gs_k_state_t&gt;<sp/><ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1a8107e4ad3f3351d2a558459062a1fc43" kindref="member">vector_from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;pt_gs_k_state_t&gt;<sp/>r;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s.size()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.reserve(200*200);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*l<sp/>=<sp/>s.c_str();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*h;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kindref="compound">pt_gs_k_state_t</ref><sp/>e;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(*l<sp/>&amp;&amp;<sp/>(h<sp/>=<sp/>strstr(l,<sp/></highlight><highlight class="stringliteral">&quot;ptgsk:&quot;</highlight><highlight class="normal">)))<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" kindref="member">from_raw_string</ref>(h,<sp/>e))</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.emplace_back(e);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/>h<sp/>+<sp/>6;</highlight><highlight class="comment">//<sp/>advance<sp/>after<sp/>ptgsk<sp/>marker</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_gs_k.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Running a simulation with SHyFT &#8212; Shyft 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="Shyft 0.1 documentation" href="../../index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput,
+div.nbinput > div,
+div.nbinput div[class^=highlight],
+div.nbinput div[class^=highlight] pre,
+div.nboutput,
+div.nboutput > div,
+div.nboutput div[class^=highlight],
+div.nboutput div[class^=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput div[class^=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput,
+div.nboutput {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+/* input container */
+div.nbinput {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput > :first-child pre {
+    color: #303F9F;
+}
+
+/* output prompt */
+div.nboutput > :first-child pre {
+    color: #D84315;
+}
+
+/* all prompts */
+div.nbinput > :first-child[class^=highlight],
+div.nboutput > :first-child[class^=highlight],
+div.nboutput > :first-child {
+    min-width: 8ex;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
+    text-align: right;
+    flex: 0;
+}
+
+/* input/output area */
+div.nbinput > :nth-child(2)[class^=highlight],
+div.nboutput > :nth-child(2),
+div.nboutput > :nth-child(2)[class^=highlight] {
+    padding: 0.4em;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+/* input area */
+div.nbinput > :nth-child(2)[class^=highlight] {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    background: #f7f7f7;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.pngmath center alignment in output cells */
+div.nboutput div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput  > :nth-child(2).stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="section" id="Running-a-simulation-with-SHyFT">
+<h1>Running a simulation with SHyFT<a class="headerlink" href="#Running-a-simulation-with-SHyFT" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:">
+<h2>This notebook is guiding through the simulation process of a catchment. The following steps are described:<a class="headerlink" href="#This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><strong>Loading required python modules and setting path to SHyFT
+installation</strong></li>
+<li><strong>Configuration of a SHyFT calibration</strong></li>
+<li><strong>Running a SHyFT calibration</strong></li>
+<li><strong>Inspecting the calibration results</strong></li>
+</ol>
+</div>
+<div class="section" id="1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">
+<h2>1. Loading required python modules and setting path to SHyFT installation<a class="headerlink" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># importing thrid-party python modules
+import sys
+import os
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># setting the path to the shyft build
+shyft_path = os.path.abspath(&quot;../../../shyft&quot;)
+sys.path.insert(0,shyft_path)
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># importing the shyft modules needed for running a calibration
+from shyft.repository.default_state_repository import DefaultStateRepository
+from shyft.orchestration.configuration.yaml_configs import YAMLCalibConfig
+from shyft.orchestration.simulators.config_simulator import ConfigCalibrator
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="2.-Configuration-of-a-SHyFT-calibration">
+<h2>2. Configuration of a SHyFT calibration<a class="headerlink" href="#2.-Configuration-of-a-SHyFT-calibration" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># set up configuration using *.yaml configuration files
+config_file_path = os.path.abspath(&quot;./nea-config/neanidelva_calibration.yaml&quot;) # here is the *.yaml file
+cfg = YAMLCalibConfig(config_file_path, &quot;neanidelva&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># initialize an instance of the orchestration&#39;s ConfigCalcalibrator class, which has all the functionality needed
+# to run a calibration using the above initiated configuration
+calib = ConfigCalibrator(cfg)
+n_cells = calib.region_model.size()
+state_repos = DefaultStateRepository(calib.region_model.__class__, n_cells)
+#calib.init()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="3.-Running-a-SHyFT-calibration">
+<h2>3. Running a SHyFT calibration<a class="headerlink" href="#3.-Running-a-SHyFT-calibration" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># once the calibrator is set up, all you need to do is running the calibration...
+# the calibrated parameters are stored in a model.yaml.
+results = calib.calibrate(cfg.sim_config.time_axis, state_repos.get_state(0),
+                          cfg.optimization_method[&#39;name&#39;],
+                          cfg.optimization_method[&#39;params&#39;])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="4.-Inspecting-the-calibration-results">
+<h2>4. Inspecting the calibration results<a class="headerlink" href="#4.-Inspecting-the-calibration-results" title="Permalink to this headline">¶</a></h2>
+<p>First the Nash-Suttcliffe-efficiency of the calibrated simulation is
+computed to see the quality of the calibration. Then the calibrated
+model parameters are accessed and printed out.</p>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Get NSE of calibrated run:
+result_params = []
+for i in range(results.size()):
+    result_params.append(results.get(i))
+print(&quot;Final NSE =&quot;, 1-calib.optimizer.calculate_goal_function(result_params))
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Check out parameters. Print a warning if parameter interval is reached.
+diff = 1.0E-3
+print(&quot;{0:30s} {1:10s} {2:10s} {3:10s}&quot;.format(&quot;PARAM-NAME&quot;, &quot;CALIB-PARAM&quot;, &quot;MIN&quot;, &quot;MAX&quot;))
+for i in range(results.size()):
+    p_cal = results.get(i) # calibrated parameter
+    p_min = calib.p_min.get(i) # min parameter set in the calibration.yaml file
+    p_max = calib.p_max.get(i) # max parameter set in the calibration.yaml file
+    print(&quot;{0:30s} {1:10f} {2:10f} {3:10f}&quot;.format(results.get_name(i),p_cal, p_min, p_max,))
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Running a simulation with SHyFT</a><ul>
+<li><a class="reference internal" href="#This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:">This notebook is guiding through the simulation process of a catchment. The following steps are described:</a></li>
+<li><a class="reference internal" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">1. Loading required python modules and setting path to SHyFT installation</a></li>
+<li><a class="reference internal" href="#2.-Configuration-of-a-SHyFT-calibration">2. Configuration of a SHyFT calibration</a></li>
+<li><a class="reference internal" href="#3.-Running-a-SHyFT-calibration">3. Running a SHyFT calibration</a></li>
+<li><a class="reference internal" href="#4.-Inspecting-the-calibration-results">4. Inspecting the calibration results</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/notebooks/nea-example/calibrate_nea_nidelva.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>

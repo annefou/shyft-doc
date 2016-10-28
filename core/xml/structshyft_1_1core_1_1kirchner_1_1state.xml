@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1kirchner_1_1state" kind="struct" prot="public">
+    <compoundname>shyft::core::kirchner::state</compoundname>
+    <includes refid="kirchner_8h" local="no">kirchner.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kirchner::state::q</definition>
+        <argsstring></argsstring>
+        <name>q</name>
+        <initializer>=0.0001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="133" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="133" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1kirchner_1_1state_1aad27805fc54737a8ce4ab24e68c0ea4d" compoundref="kirchner_8h" startline="135" endline="138">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__hs__k__state__io_1afe14cb40ee0c94e4c847a2618331f4ea" compoundref="api_2pt__hs__k_8h" startline="14" endline="22">shyft::api::pt_hs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__hs__k__state__io_1a007d6db386ac1425b944a855137e0d50" compoundref="api_2pt__hs__k_8h" startline="24" endline="30">shyft::api::pt_hs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1state__collector_1a91fa97622220707f7e5ca2e319a62477" compoundref="pt__hs__k__cell__model_8h" startline="148" endline="154">shyft::core::pt_hs_k::state_collector::collect</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">shyft::api::pt_ss_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aefde69781ad427e748d789cc087e9ab3" compoundref="api_2pt__ss__k_8h" startline="25" endline="32">shyft::api::pt_ss_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1bddb706090d40d3e2018cf4287bc7e4" compoundref="pt__ss__k__cell__model_8h" startline="170" endline="180">shyft::core::pt_ss_k::state_collector::collect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kirchner::state::state</definition>
+        <argsstring>(double q=0.0001)</argsstring>
+        <name>state</name>
+        <param>
+          <type>double</type>
+          <declname>q</declname>
+          <defval>0.0001</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="134" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1kirchner_1_1state_1aad27805fc54737a8ce4ab24e68c0ea4d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::kirchner::state::operator==</definition>
+        <argsstring>(const state &amp;x) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="135" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="135" bodyend="138"/>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" compoundref="kirchner_8h" startline="133">q</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="132" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="132" bodyend="139"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1state_1aad27805fc54737a8ce4ab24e68c0ea4d" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::state</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::state</scope><name>q</name></member>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::state</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

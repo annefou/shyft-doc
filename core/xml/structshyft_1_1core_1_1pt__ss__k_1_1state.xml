@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1pt__ss__k_1_1state" kind="struct" prot="public">
+    <compoundname>shyft::core::pt_ss_k::state</compoundname>
+    <includes refid="core_2pt__ss__k_8h" local="no">pt_ss_k.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1skaugen_1_1state" kindref="compound">skaugen::state</ref></type>
+        <definition>typedef skaugen::state shyft::core::pt_ss_k::state::snow_state_t</definition>
+        <argsstring></argsstring>
+        <name>snow_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="121" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">kirchner::state</ref></type>
+        <definition>typedef kirchner::state shyft::core::pt_ss_k::state::kirchner_state_t</definition>
+        <argsstring></argsstring>
+        <name>kirchner_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="122" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" kindref="member">snow_state_t</ref></type>
+        <definition>snow_state_t shyft::core::pt_ss_k::state::snow</definition>
+        <argsstring></argsstring>
+        <name>snow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="123" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="123" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab0dc7df3e42e34d948427b3aa7df69bd" compoundref="core_2pt__ss__k_8h" startline="129" endline="129">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">shyft::api::pt_ss_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aefde69781ad427e748d789cc087e9ab3" compoundref="api_2pt__ss__k_8h" startline="25" endline="32">shyft::api::pt_ss_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1bddb706090d40d3e2018cf4287bc7e4" compoundref="pt__ss__k__cell__model_8h" startline="170" endline="180">shyft::core::pt_ss_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" kindref="member">kirchner_state_t</ref></type>
+        <definition>kirchner_state_t shyft::core::pt_ss_k::state::kirchner</definition>
+        <argsstring></argsstring>
+        <name>kirchner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="124" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="124" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab0dc7df3e42e34d948427b3aa7df69bd" compoundref="core_2pt__ss__k_8h" startline="129" endline="129">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">shyft::api::pt_ss_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aefde69781ad427e748d789cc087e9ab3" compoundref="api_2pt__ss__k_8h" startline="25" endline="32">shyft::api::pt_ss_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1bddb706090d40d3e2018cf4287bc7e4" compoundref="pt__ss__k__cell__model_8h" startline="170" endline="180">shyft::core::pt_ss_k::state_collector::collect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab13d785e6fefb65b24b617c46e1b4543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_ss_k::state::state</definition>
+        <argsstring>()</argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="125" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1aa8fe8594f453b265f9fba816fdc9914e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_ss_k::state::state</definition>
+        <argsstring>(const snow_state_t &amp;snow, const kirchner_state_t &amp;kirchner)</argsstring>
+        <name>state</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" kindref="member">snow_state_t</ref> &amp;</type>
+          <declname>snow</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" kindref="member">kirchner_state_t</ref> &amp;</type>
+          <declname>kirchner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="126" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="126" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1a1f6c77bc2ad7fa7d1d76c2a977bbcba3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_ss_k::state::state</definition>
+        <argsstring>(const state &amp;state)</argsstring>
+        <name>state</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="128" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab0dc7df3e42e34d948427b3aa7df69bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::pt_ss_k::state::operator==</definition>
+        <argsstring>(const state &amp;x) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="129" bodyend="129"/>
+        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" compoundref="core_2pt__ss__k_8h" startline="124">kirchner</references>
+        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" compoundref="core_2pt__ss__k_8h" startline="123">snow</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1402">
+        <label>shyft::core::pt_ss_k::state</label>
+        <link refid="structshyft_1_1core_1_1pt__ss__k_1_1state"/>
+        <childnode refid="1403" relation="usage">
+          <edgelabel>snow</edgelabel>
+        </childnode>
+        <childnode refid="1404" relation="usage">
+          <edgelabel>kirchner</edgelabel>
+        </childnode>
+      </node>
+      <node id="1404">
+        <label>shyft::core::kirchner::state</label>
+        <link refid="structshyft_1_1core_1_1kirchner_1_1state"/>
+      </node>
+      <node id="1403">
+        <label>shyft::core::skaugen::state</label>
+        <link refid="structshyft_1_1core_1_1skaugen_1_1state"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" line="120" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h" bodystart="120" bodyend="130"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>kirchner</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>kirchner_state_t</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab0dc7df3e42e34d948427b3aa7df69bd" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>snow</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>snow_state_t</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab13d785e6fefb65b24b617c46e1b4543" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1aa8fe8594f453b265f9fba816fdc9914e" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a1f6c77bc2ad7fa7d1d76c2a977bbcba3" prot="public" virt="non-virtual"><scope>shyft::core::pt_ss_k::state</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1gamma__snow_1_1parameter" kind="struct" prot="public">
+    <compoundname>shyft::core::gamma_snow::parameter</compoundname>
+    <includes refid="gamma__snow_8h" local="no">gamma_snow.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a29b7ac99474d45a301690320c1ad8838" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref></type>
+        <definition>calendar shyft::core::gamma_snow::parameter::cal</definition>
+        <argsstring></argsstring>
+        <name>cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="35" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="35" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a965fc06c13d5b46a884459fd6375cdd4" compoundref="gamma__snow_8h" startline="75" endline="77">is_snow_season</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a8aa7cac671c059dc09d2cf9680e39241" compoundref="gamma__snow_8h" startline="79" endline="81">is_start_melt_season</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a856a93cbbcbb3b6651e0627aa33d49ee" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::core::gamma_snow::parameter::winter_end_day_of_year</definition>
+        <argsstring></argsstring>
+        <name>winter_end_day_of_year</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="36" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="36" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a965fc06c13d5b46a884459fd6375cdd4" compoundref="gamma__snow_8h" startline="75" endline="77">is_snow_season</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a8aa7cac671c059dc09d2cf9680e39241" compoundref="gamma__snow_8h" startline="79" endline="81">is_start_melt_season</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a77506835e197e8e9395ae1ea652c63bf" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::initial_bare_ground_fraction</definition>
+        <argsstring></argsstring>
+        <name>initial_bare_ground_fraction</name>
+        <initializer>= 0.04</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="37" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ad9a5c296f0cebd450e89bcfd795187b9" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::snow_cv</definition>
+        <argsstring></argsstring>
+        <name>snow_cv</name>
+        <initializer>= 0.4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="38" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a300bccec4785d26ee32f8749cc734c87" compoundref="gamma__snow_8h" startline="71" endline="73">effective_snow_cv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a98377abf74058a158acfc17e28c74d0f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::tx</definition>
+        <argsstring></argsstring>
+        <name>tx</name>
+        <initializer>= -0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="39" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a58a2ec2840fa80780b3d04f3d9cecfd2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::wind_scale</definition>
+        <argsstring></argsstring>
+        <name>wind_scale</name>
+        <initializer>= 2.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="40" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ade1777a7835ed834fb591c13d5b77453" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::wind_const</definition>
+        <argsstring></argsstring>
+        <name>wind_const</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1aa8e1cc0023acf4df77689a12a03671d1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::max_water</definition>
+        <argsstring></argsstring>
+        <name>max_water</name>
+        <initializer>= 0.1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a9b781d66932ebe7f086b10010f2c4681" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::surface_magnitude</definition>
+        <argsstring></argsstring>
+        <name>surface_magnitude</name>
+        <initializer>= 30.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="43" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1aa9fbbd293d9c602c6708b2fe5c08c244" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::max_albedo</definition>
+        <argsstring></argsstring>
+        <name>max_albedo</name>
+        <initializer>= 0.9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="44" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a084dea5f99604e83121828b6513e64ed" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::min_albedo</definition>
+        <argsstring></argsstring>
+        <name>min_albedo</name>
+        <initializer>= 0.6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="45" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a898b8ccdc1e2355d84d4ea5c93da721d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::fast_albedo_decay_rate</definition>
+        <argsstring></argsstring>
+        <name>fast_albedo_decay_rate</name>
+        <initializer>= 5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="46" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ab3d2b8949a61f4e7f04b101fd5966664" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::slow_albedo_decay_rate</definition>
+        <argsstring></argsstring>
+        <name>slow_albedo_decay_rate</name>
+        <initializer>= 5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="47" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a071706ebd1d4e02add02762b4d05390f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::snowfall_reset_depth</definition>
+        <argsstring></argsstring>
+        <name>snowfall_reset_depth</name>
+        <initializer>= 5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a9eed55cb6616a6e094ecd42aa2c7b77f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::glacier_albedo</definition>
+        <argsstring></argsstring>
+        <name>glacier_albedo</name>
+        <initializer>= 0.4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="49" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ad0a40b94ceb018d046bb1097b411bd76" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool shyft::core::gamma_snow::parameter::calculate_iso_pot_energy</definition>
+        <argsstring></argsstring>
+        <name>calculate_iso_pot_energy</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a54692e72a6c84c62bac3bdbaa98fb2e3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::snow_cv_forest_factor</definition>
+        <argsstring></argsstring>
+        <name>snow_cv_forest_factor</name>
+        <initializer>=0.0</initializer>
+        <briefdescription>
+<para>[ratio] the effective snow_cv gets an additional value of geo.forest_fraction()*snow_cv_forest_factor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="51" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="51" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a300bccec4785d26ee32f8749cc734c87" compoundref="gamma__snow_8h" startline="71" endline="73">effective_snow_cv</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a930e0e63f01d18732bccf0cb02de7ede" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::snow_cv_altitude_factor</definition>
+        <argsstring></argsstring>
+        <name>snow_cv_altitude_factor</name>
+        <initializer>=0.0</initializer>
+        <briefdescription>
+<para>[1/m] the effective snow_cv gets an additional value of altitude[m]* snow_cv_altitude_factor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="52" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="52" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a300bccec4785d26ee32f8749cc734c87" compoundref="gamma__snow_8h" startline="71" endline="73">effective_snow_cv</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a282ab613db8fa33df9d6e428498c9e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::gamma_snow::parameter::parameter</definition>
+        <argsstring>(size_t winter_end_day_of_year=100, double initial_bare_ground_fraction=0.04, double snow_cv=0.4, double tx=-0.5, double wind_scale=2.0, double wind_const=1.0, double max_water=0.1, double surface_magnitude=30.0, double max_albedo=0.9, double min_albedo=0.6, double fast_albedo_decay_rate=5.0, double slow_albedo_decay_rate=5.0, double snowfall_reset_depth=5.0, double glacier_albedo=0.4, bool calculate_iso_pot_energy=false, double snow_cv_forest_factor=0.0, double snow_cv_altitude_factor=0.0)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>size_t</type>
+          <declname>winter_end_day_of_year</declname>
+          <defval>100</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>initial_bare_ground_fraction</declname>
+          <defval>0.04</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>snow_cv</declname>
+          <defval>0.4</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tx</declname>
+          <defval>-0.5</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>wind_scale</declname>
+          <defval>2.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>wind_const</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_water</declname>
+          <defval>0.1</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>surface_magnitude</declname>
+          <defval>30.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max_albedo</declname>
+          <defval>0.9</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min_albedo</declname>
+          <defval>0.6</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fast_albedo_decay_rate</declname>
+          <defval>5.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>slow_albedo_decay_rate</declname>
+          <defval>5.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>snowfall_reset_depth</declname>
+          <defval>5.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>glacier_albedo</declname>
+          <defval>0.4</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>calculate_iso_pot_energy</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>snow_cv_forest_factor</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>snow_cv_altitude_factor</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="53" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="53" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a300bccec4785d26ee32f8749cc734c87" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::parameter::effective_snow_cv</definition>
+        <argsstring>(double forest_fraction, double altitude) const </argsstring>
+        <name>effective_snow_cv</name>
+        <param>
+          <type>double</type>
+          <declname>forest_fraction</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>altitude</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the effective snow cv, taking the forest_fraction and altitude into the equations using corresponding factors </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="71" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="71" bodyend="73"/>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ad9a5c296f0cebd450e89bcfd795187b9" compoundref="gamma__snow_8h" startline="38">snow_cv</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a54692e72a6c84c62bac3bdbaa98fb2e3" compoundref="gamma__snow_8h" startline="51">snow_cv_forest_factor</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a930e0e63f01d18732bccf0cb02de7ede" compoundref="gamma__snow_8h" startline="52">snow_cv_altitude_factor</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a965fc06c13d5b46a884459fd6375cdd4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::gamma_snow::parameter::is_snow_season</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>is_snow_season</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if specified t is within the snow season, e.g. sept.. winder_end_day_of_year </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="75" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="75" bodyend="77"/>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a29b7ac99474d45a301690320c1ad8838" compoundref="gamma__snow_8h" startline="35">cal</references>
+        <references refid="structshyft_1_1core_1_1calendar_1a428d52abcc42e144ba43e2d17b0f0437" compoundref="utctime__utilities_8cpp" startline="113" endline="116">shyft::core::calendar::month</references>
+        <references refid="structshyft_1_1core_1_1calendar_1aef13881a602103bc881cfc1a70c14741" compoundref="utctime__utilities_8cpp" startline="106" endline="105">shyft::core::calendar::day_of_year</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a856a93cbbcbb3b6651e0627aa33d49ee" compoundref="gamma__snow_8h" startline="36">winter_end_day_of_year</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a8aa7cac671c059dc09d2cf9680e39241" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::gamma_snow::parameter::is_start_melt_season</definition>
+        <argsstring>(utctime t, utctimespan dt) const </argsstring>
+        <name>is_start_melt_season</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if specified interval t day of year is wind_end_day_of_year </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="79" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="79" bodyend="81"/>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a29b7ac99474d45a301690320c1ad8838" compoundref="gamma__snow_8h" startline="35">cal</references>
+        <references refid="structshyft_1_1core_1_1calendar_1aef13881a602103bc881cfc1a70c14741" compoundref="utctime__utilities_8cpp" startline="106" endline="105">shyft::core::calendar::day_of_year</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a856a93cbbcbb3b6651e0627aa33d49ee" compoundref="gamma__snow_8h" startline="36">winter_end_day_of_year</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1177">
+        <label>shyft::core::gamma_snow::parameter</label>
+        <link refid="structshyft_1_1core_1_1gamma__snow_1_1parameter"/>
+        <childnode refid="1178" relation="usage">
+          <edgelabel>cal</edgelabel>
+        </childnode>
+      </node>
+      <node id="1178">
+        <label>shyft::core::calendar</label>
+        <link refid="structshyft_1_1core_1_1calendar"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="34" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="34" bodyend="82"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a29b7ac99474d45a301690320c1ad8838" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>cal</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ad0a40b94ceb018d046bb1097b411bd76" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>calculate_iso_pot_energy</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a300bccec4785d26ee32f8749cc734c87" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>effective_snow_cv</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a898b8ccdc1e2355d84d4ea5c93da721d" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>fast_albedo_decay_rate</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a9eed55cb6616a6e094ecd42aa2c7b77f" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>glacier_albedo</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a77506835e197e8e9395ae1ea652c63bf" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>initial_bare_ground_fraction</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a965fc06c13d5b46a884459fd6375cdd4" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>is_snow_season</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a8aa7cac671c059dc09d2cf9680e39241" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>is_start_melt_season</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1aa9fbbd293d9c602c6708b2fe5c08c244" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>max_albedo</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1aa8e1cc0023acf4df77689a12a03671d1" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>max_water</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a084dea5f99604e83121828b6513e64ed" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>min_albedo</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a282ab613db8fa33df9d6e428498c9e54" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ab3d2b8949a61f4e7f04b101fd5966664" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>slow_albedo_decay_rate</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ad9a5c296f0cebd450e89bcfd795187b9" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>snow_cv</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a930e0e63f01d18732bccf0cb02de7ede" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>snow_cv_altitude_factor</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a54692e72a6c84c62bac3bdbaa98fb2e3" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>snow_cv_forest_factor</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a071706ebd1d4e02add02762b4d05390f" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>snowfall_reset_depth</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a9b781d66932ebe7f086b10010f2c4681" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>surface_magnitude</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a98377abf74058a158acfc17e28c74d0f" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>tx</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1ade1777a7835ed834fb591c13d5b77453" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>wind_const</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a58a2ec2840fa80780b3d04f3d9cecfd2" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>wind_scale</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a856a93cbbcbb3b6651e0627aa33d49ee" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::parameter</scope><name>winter_end_day_of_year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,935 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1cell" kind="struct" prot="public">
+    <compoundname>shyft::core::cell</compoundname>
+    <includes refid="cell__model_8h" local="no">cell_model.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class P</type>
+      </param>
+      <param>
+        <type>class E</type>
+      </param>
+      <param>
+        <type>class S</type>
+      </param>
+      <param>
+        <type>class SC</type>
+      </param>
+      <param>
+        <type>class RC</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1cell_1a9c578f5a999bfb4f0bb1690bb198ada8" prot="public" static="no">
+        <type>P</type>
+        <definition>typedef P shyft::core::cell&lt; P, E, S, SC, RC &gt;::parameter_t</definition>
+        <argsstring></argsstring>
+        <name>parameter_t</name>
+        <briefdescription>
+<para>export the parameter type so we can use it elsewhere </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="96" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1cell_1a82a5ddf5dc2fc2f547eed2c1943e2bc3" prot="public" static="no">
+        <type>E</type>
+        <definition>typedef E shyft::core::cell&lt; P, E, S, SC, RC &gt;::env_ts_t</definition>
+        <argsstring></argsstring>
+        <name>env_ts_t</name>
+        <briefdescription>
+<para>export the env_ts type so we can use it elsewhere </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="97" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1cell_1a015b779b88e40bb7ce2e0969d9c4360a" prot="public" static="no">
+        <type>S</type>
+        <definition>typedef S shyft::core::cell&lt; P, E, S, SC, RC &gt;::state_t</definition>
+        <argsstring></argsstring>
+        <name>state_t</name>
+        <briefdescription>
+<para>export the state type .. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="98" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1cell_1af8a217218f54864a508724e0a63189dc" prot="public" static="no">
+        <type>RC</type>
+        <definition>typedef RC shyft::core::cell&lt; P, E, S, SC, RC &gt;::response_collector_t</definition>
+        <argsstring></argsstring>
+        <name>response_collector_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="99" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" prot="public" static="no">
+        <type>E::timeaxis_t</type>
+        <definition>typedef E::timeaxis_t shyft::core::cell&lt; P, E, S, SC, RC &gt;::timeaxis_t</definition>
+        <argsstring></argsstring>
+        <name>timeaxis_t</name>
+        <briefdescription>
+<para>export the timeaxis_t </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="100" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref></type>
+        <definition>geo_cell_data shyft::core::cell&lt; P, E, S, SC, RC &gt;::geo</definition>
+        <argsstring></argsstring>
+        <name>geo</name>
+        <briefdescription>
+<para>all needed (static) geo-related information goes here </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="102" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="102" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1cell_1a42c5b1b26727957971c0cb88d56aa855" compoundref="cell__model_8h" startline="139" endline="141">shyft::core::cell&lt; P, E, S, SC, RC &gt;::operator==</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a207310ec09ab0741847b136f7f09724a" compoundref="region__model_8h" startline="648" endline="652">shyft::core::region_model&lt; C, RE &gt;::set_state_collection</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a491c98711397fcb73ace1dc771198035" compoundref="region__model_8h" startline="658" endline="662">shyft::core::region_model&lt; C, RE &gt;::set_snow_sca_swe_collection</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a9b3f84742552b02f4ae97f925591cf80" compoundref="region__model_8h" startline="696" endline="701">shyft::core::region_model&lt; C, RE &gt;::single_run</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1cell_1a94fc4feaedff67f7a623228ac97a2fd5" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; P &gt;</type>
+        <definition>std::shared_ptr&lt;P&gt; shyft::core::cell&lt; P, E, S, SC, RC &gt;::parameter</definition>
+        <argsstring></argsstring>
+        <name>parameter</name>
+        <briefdescription>
+<para>usually one cell shares a common set of parameters, stored elsewhere </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="103" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" prot="public" static="no" mutable="no">
+        <type>S</type>
+        <definition>S shyft::core::cell&lt; P, E, S, SC, RC &gt;::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+<para>method stack dependent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="104" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="104" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a3dd424d788908eb0bab60b8f191c613b" compoundref="region__model_8h" startline="614" endline="617">shyft::core::region_model&lt; C, RE &gt;::get_states</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" prot="public" static="no" mutable="no">
+        <type>E</type>
+        <definition>E shyft::core::cell&lt; P, E, S, SC, RC &gt;::env_ts</definition>
+        <argsstring></argsstring>
+        <name>env_ts</name>
+        <briefdescription>
+<para>environment ts inputs, precipitation, temperature etc. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="105" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="105" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ad60b9959e543c9501625dfd371e8a2cb" compoundref="api_8h" startline="262" endline="266">shyft::api::basic_cell_statistics&lt; cell &gt;::temperature</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a9e3047724dececac4e956325c3cfeee9" compoundref="api_8h" startline="272" endline="276">shyft::api::basic_cell_statistics&lt; cell &gt;::temperature_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ad7619c70e15ecb4dc658206ffe7d8f21" compoundref="api_8h" startline="278" endline="282">shyft::api::basic_cell_statistics&lt; cell &gt;::precipitation</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a424bb721b9ef876612590bebd5366b8c" compoundref="api_8h" startline="288" endline="292">shyft::api::basic_cell_statistics&lt; cell &gt;::precipitation_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a0db27901f64d4fe3e226f968f5b2701f" compoundref="api_8h" startline="294" endline="298">shyft::api::basic_cell_statistics&lt; cell &gt;::radiation</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a0b02241c605ebb9b9249d121d243b6db" compoundref="api_8h" startline="304" endline="308">shyft::api::basic_cell_statistics&lt; cell &gt;::radiation_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ac95f7cc3ec0c24c81bff62d621013e2e" compoundref="api_8h" startline="310" endline="314">shyft::api::basic_cell_statistics&lt; cell &gt;::wind_speed</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a673d891433c4912534f5bcea55bb3b47" compoundref="api_8h" startline="320" endline="324">shyft::api::basic_cell_statistics&lt; cell &gt;::wind_speed_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a6303d385c73c9830578b6cc2227ab173" compoundref="api_8h" startline="326" endline="330">shyft::api::basic_cell_statistics&lt; cell &gt;::rel_hum</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a18965410a3560741c796c00d03f940f7" compoundref="api_8h" startline="336" endline="340">shyft::api::basic_cell_statistics&lt; cell &gt;::rel_hum_value</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" prot="public" static="no" mutable="no">
+        <type>SC</type>
+        <definition>SC shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</definition>
+        <argsstring></argsstring>
+        <name>sc</name>
+        <briefdescription>
+<para>method stack and context dependent class (we dont collect state during optimization) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="107" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="107" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1ae38849d20c3b873849a3be00beb66498" compoundref="api_8h" startline="348" endline="352">shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a89e28f217b4c28c38333a0bcd91eff33" compoundref="api_8h" startline="358" endline="362">shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a8e8a0645cd82ffc0e95d02b6168ed473" compoundref="api_8h" startline="370" endline="374">shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a894246a957821db0fc7beb0ea0e43637" compoundref="api_8h" startline="380" endline="384">shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a53857131859e46a6167a25061058d477" compoundref="api_8h" startline="392" endline="396">shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a3655010640664107911b4a9134d8e242" compoundref="api_8h" startline="402" endline="406">shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a93525f2efa7f62499c98beeb2d87b1c4" compoundref="api_8h" startline="416" endline="420">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::albedo</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a96000682a02483e9af6aae1f351a54db" compoundref="api_8h" startline="426" endline="430">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::albedo_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a822dc1d156adcbcfca8708218c176d1a" compoundref="api_8h" startline="432" endline="436">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::lwc</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ad8530bd44bd98efc81d205147f4748c7" compoundref="api_8h" startline="442" endline="446">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::lwc_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ab6bb20b39554012d4d23c07c1288cdae" compoundref="api_8h" startline="448" endline="452">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::surface_heat</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a002ab61642fde78c1cd7263330852794" compoundref="api_8h" startline="458" endline="462">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::surface_heat_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a6583068c7ee2a895c8475f5ed269b0bc" compoundref="api_8h" startline="464" endline="468">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::alpha</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a01109ea6ecc4fa5b487ec29744e90bde" compoundref="api_8h" startline="474" endline="478">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::alpha_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1af86876a32b79609132de38ffb7d105e5" compoundref="api_8h" startline="480" endline="484">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::sdc_melt_mean</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aa4b6e5cb7fc1ba99602296e58fb69579" compoundref="api_8h" startline="490" endline="494">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::sdc_melt_mean_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a2c1c05dd36b4ab78097c8ae9c4e8ebb9" compoundref="api_8h" startline="496" endline="500">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::acc_melt</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ab91d16ff9a8425c62626553f0fd80862" compoundref="api_8h" startline="506" endline="510">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::acc_melt_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ae4de495a9e3c94c83b8bddcfbc59a463" compoundref="api_8h" startline="512" endline="516">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::iso_pot_energy</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aeec7a9034f89b951df2c8f317c81d8d7" compoundref="api_8h" startline="522" endline="526">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::iso_pot_energy_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aa633dd7958b8532e3e06de12f2325389" compoundref="api_8h" startline="528" endline="532">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::temp_swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1af4ebdeb3a03d944d0c77bea91d2d7d44" compoundref="api_8h" startline="538" endline="542">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::temp_swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a4258ef3d10f49a14b1da57df1516f808" compoundref="api_8h" startline="606" endline="610">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::alpha</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a15aa5544181f9e80e80f9484d036af24" compoundref="api_8h" startline="616" endline="620">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::alpha_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a3db71b943246fb7f32e4d12f08905cb4" compoundref="api_8h" startline="622" endline="626">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::nu</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a13605cfcb7d7f83bea8763502208c9d3" compoundref="api_8h" startline="632" endline="636">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::nu_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a6a64c29c57054e677576891fd15a2ba4" compoundref="api_8h" startline="638" endline="642">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::lwc</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ae70ad5cb359001ba32ba4aeed5e166cd" compoundref="api_8h" startline="648" endline="652">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::lwc_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ae1ebe088a6cc6c4ab6ee43caf60bb129" compoundref="api_8h" startline="654" endline="658">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::residual</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1aea9ee433b79dffcdbf2b1349517544b5" compoundref="api_8h" startline="664" endline="668">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::residual_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a7b49f81004be9915659a949c216ea9f2" compoundref="api_8h" startline="670" endline="674">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ac8067446a00440351a4b6818fa3cc80a" compoundref="api_8h" startline="680" endline="684">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a9c4dc71959a899f74c135aee1392d72e" compoundref="api_8h" startline="686" endline="690">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::sca</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a4b140aadb5425f0c06e989d853f58c03" compoundref="api_8h" startline="696" endline="700">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::sca_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a12668d9406aa0bad4cb59e317c83c71f" compoundref="api_8h" startline="748" endline="752">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a7e06dc55848f16f046c453bf0f5d0e74" compoundref="api_8h" startline="758" endline="762">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a4afd5731a81b27ccb69b858eb2563bfd" compoundref="api_8h" startline="764" endline="768">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::sca</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a81ad42c988b17cc9ed7c07ffd2170fa1" compoundref="api_8h" startline="774" endline="778">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::sca_value</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" prot="public" static="no" mutable="no">
+        <type>RC</type>
+        <definition>RC shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</definition>
+        <argsstring></argsstring>
+        <name>rc</name>
+        <briefdescription>
+<para>method stack and context dependent (full response, or just minimal for optimization) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="108" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="108" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1aa270c846f04f6dfe6c533378a7dbe82d" compoundref="api_8h" startline="246" endline="250">shyft::api::basic_cell_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a2c30f4f64ab83c1dbf54cfb4e3e5d95c" compoundref="api_8h" startline="256" endline="260">shyft::api::basic_cell_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a23139fda2197205c0327816bbe522b01" compoundref="api_8h" startline="551" endline="555">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a7ffff03b1b7ae7abd2ba407601b624ee" compoundref="api_8h" startline="561" endline="565">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a9a80a71ded688836131712a7ebe31bc3" compoundref="api_8h" startline="567" endline="571">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a47a7562460ca4c4e0c17861a365eb3cc" compoundref="api_8h" startline="577" endline="581">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1aac6dda1aec258468b46429e875e248db" compoundref="api_8h" startline="583" endline="587">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ab53c55775de425628af1b59e7b4da802" compoundref="api_8h" startline="593" endline="597">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a8269a6b8e52249e42795f64757d06da8" compoundref="api_8h" startline="709" endline="713">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1ae7b13227f1d6df30defdfe170997607c" compoundref="api_8h" startline="719" endline="723">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1aef106cbcb86eae61385db0bfa6ecb027" compoundref="api_8h" startline="725" endline="729">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::total_stored_water</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1ac942199cfd1f5dbfd0fb50a421dec214" compoundref="api_8h" startline="735" endline="739">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::total_stored_water_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1ac0e66b308f6bf3cd64372cb613421e50" compoundref="api_8h" startline="787" endline="791">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1a51379c701b4008b511a3473b8026e319" compoundref="api_8h" startline="797" endline="801">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a93d3500687a427ae78dbeb40ad9a9d75" compoundref="api_8h" startline="809" endline="813">shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a2608a17873b9d0f27d60e77d1c8ab625" compoundref="api_8h" startline="819" endline="823">shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1afff07f103d004487efe8301a30586d78" compoundref="api_8h" startline="831" endline="835">shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a479173ef2e2e58496a7272ecaf4b3773" compoundref="api_8h" startline="841" endline="845">shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a47a15123dc77ac5b2a40261f46c4427d" compoundref="api_8h" startline="852" endline="856">shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a2428b33293fc194b532b20570263b893" compoundref="api_8h" startline="862" endline="866">shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics_1a7b321be1456eb5c18a32e693725dda95" compoundref="api_8h" startline="874" endline="878">shyft::api::hbv_actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics_1a35b41f7d037fdf42ee3f0c06431729d3" compoundref="api_8h" startline="884" endline="888">shyft::api::hbv_actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1adf975a1035c464950f79426523583335" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; P &gt;</type>
+        <definition>std::shared_ptr&lt;P&gt; shyft::core::cell&lt; P, E, S, SC, RC &gt;::get_parameter</definition>
+        <argsstring>()</argsstring>
+        <name>get_parameter</name>
+        <briefdescription>
+<para>support to initialize env. input series, before interpolation step </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="111" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a032c08ce619254add09868a143b73771" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::init_env_ts</definition>
+        <argsstring>(const typename E::timeaxis_t &amp;ta)</argsstring>
+        <name>init_env_ts</name>
+        <param>
+          <type>const typename E::timeaxis_t &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+<para>common support during run, first step is to call begin_run, typically invoked from <ref refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" kindref="member">run()</ref> in templates, calls initialize on collectors </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="115" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="115" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1ab871414f04c66be2cb345a229331e17d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::begin_run</definition>
+        <argsstring>(const timeaxis_t &amp;ta, int start_step, int n_steps)</argsstring>
+        <name>begin_run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+<para>support for the interpolation phase, executes before the cell-run </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="117" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="117" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a92937f7d391d9cd77120cdb3510537ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_temperature</definition>
+        <argsstring>(size_t ix, double temperature_value)</argsstring>
+        <name>set_temperature</name>
+        <param>
+          <type>size_t</type>
+          <declname>ix</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>temperature_value</declname>
+        </param>
+        <briefdescription>
+<para>used by the radiation interpolation to adjust the local radiation with respect to idw sources. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="122" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="122" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a2d77c8bc4198dc7ac349b8d888e17861" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::cell&lt; P, E, S, SC, RC &gt;::slope_factor</definition>
+        <argsstring>() const </argsstring>
+        <name>slope_factor</name>
+        <briefdescription>
+<para>used by the interpolation routines </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="124" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="124" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a66cf02688c4722c2855ec6cc97380b7e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> &amp;</type>
+        <definition>const geo_point&amp; shyft::core::cell&lt; P, E, S, SC, RC &gt;::mid_point</definition>
+        <argsstring>() const </argsstring>
+        <name>mid_point</name>
+        <briefdescription>
+<para>set the cell method stack parameters, typical operations at region_level, executed after the interpolation, before the run </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="126" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="126" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a5be6a5e89aa873d1df001155efa38837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_parameter</definition>
+        <argsstring>(const std::shared_ptr&lt; P &gt; &amp;p)</argsstring>
+        <name>set_parameter</name>
+        <param>
+          <type>const std::shared_ptr&lt; P &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>set the cell state </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="129" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_state</definition>
+        <argsstring>(const S &amp;s)</argsstring>
+        <name>set_state</name>
+        <param>
+          <type>const S &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>collecting the state during run could be very useful to understand models </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="131" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="131" bodyend="130"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1acbe824cfe25c81f44013a80ffeeb57b1" compoundref="region__model_8h" startline="628" endline="635">shyft::core::region_model&lt; C, RE &gt;::set_states</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_state_collection</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>collecting the snow sca and swe on for calibration scenarios, default throws </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="133" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="133" bodyend="132"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a207310ec09ab0741847b136f7f09724a" compoundref="region__model_8h" startline="648" endline="652">shyft::core::region_model&lt; C, RE &gt;::set_state_collection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::set_snow_sca_swe_collection</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>set_snow_sca_swe_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="135" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="135" bodyend="135"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a491c98711397fcb73ace1dc771198035" compoundref="region__model_8h" startline="658" endline="662">shyft::core::region_model&lt; C, RE &gt;::set_snow_sca_swe_collection</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; P, E, S, SC, RC &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;t, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+<para>run the cell method stack for a specified time-axis, to be specialized by cell type </para>        </briefdescription>
+        <detaileddescription>
+<para>operator equal if same midpoint and catchment-id </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="137" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="137" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1a9b3f84742552b02f4ae97f925591cf80" compoundref="region__model_8h" startline="696" endline="701">shyft::core::region_model&lt; C, RE &gt;::single_run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a42c5b1b26727957971c0cb88d56aa855" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::cell&lt; P, E, S, SC, RC &gt;::operator==</definition>
+        <argsstring>(const cell &amp;x) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="139" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="139" bodyend="141"/>
+        <references refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" compoundref="cell__model_8h" startline="102">shyft::core::cell&lt; P, E, S, SC, RC &gt;::geo</references>
+        <references refid="structshyft_1_1core_1_1geo__cell__data_1a6374ae1fa960c6491b17437035f9ece6" compoundref="geo__cell__data_8h" startline="94" endline="94">shyft::core::geo_cell_data::mid_point</references>
+        <references refid="structshyft_1_1core_1_1geo__cell__data_1a1f6cff6eeb1d00c61d1db153ccbb220b" compoundref="geo__cell__data_8h" startline="95" endline="95">shyft::core::geo_cell_data::catchment_id</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1ac3beea873644bcc130e815451acdd078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; hbv_stack::parameter_t, environment_t, hbv_stack::state_t, hbv_stack::state_collector, hbv_stack::all_response_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="178" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="178" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a3c1925c373afad8092d8c3e4fb9fd749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; hbv_stack::parameter_t, environment_t, hbv_stack::state_t, hbv_stack::state_collector, hbv_stack::all_response_collector &gt;::set_state_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="199" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="199" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a138cc49b9b8bc60e2390e9a878e60a50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; hbv_stack::parameter_t, environment_t, hbv_stack::state_t, hbv_stack::null_collector, hbv_stack::discharge_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="207" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="207" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a9fb2ab9f909e41f87afae14b60318d46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; hbv_stack::parameter_t, environment_t, hbv_stack::state_t, hbv_stack::null_collector, hbv_stack::discharge_collector &gt;::set_snow_sca_swe_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_snow_sca_swe_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="227" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="227" bodyend="229"/>
+        <references refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1a5bff22b69d77762a8b39695e97748df6" compoundref="hbv__stack__cell__model_8h" startline="82">shyft::core::hbv_stack::discharge_collector::collect_snow</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a98c2b6c21ad90ae3669fbd68086cf024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_gs_k::parameter_t, environment_t, pt_gs_k::state_t, pt_gs_k::state_collector, pt_gs_k::all_response_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" line="197" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" bodystart="197" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1ac41a1a0f237f1786d62f8eaa48dfffc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_gs_k::parameter_t, environment_t, pt_gs_k::state_t, pt_gs_k::state_collector, pt_gs_k::all_response_collector &gt;::set_state_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" line="217" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" bodystart="217" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a8ad083c4ca2fc00d38a15adeebe663dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_gs_k::parameter_t, environment_t, pt_gs_k::state_t, pt_gs_k::null_collector, pt_gs_k::discharge_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" line="225" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" bodystart="225" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a4d703c49fba0a771c4aa26f5389e751c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_gs_k::parameter_t, environment_t, pt_gs_k::state_t, pt_gs_k::null_collector, pt_gs_k::discharge_collector &gt;::set_state_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" line="246" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" bodystart="246" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1adc45aeee78315f1580cdd01a7656ffac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_gs_k::parameter_t, environment_t, pt_gs_k::state_t, pt_gs_k::null_collector, pt_gs_k::discharge_collector &gt;::set_snow_sca_swe_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_snow_sca_swe_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" line="253" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h" bodystart="253" bodyend="255"/>
+        <references refid="structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector_1a44bb3f8e7e784478051c08aa97031d5f" compoundref="pt__gs__k__cell__model_8h" startline="83">shyft::core::pt_gs_k::discharge_collector::collect_snow</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a6219d4a81fdfd4605abae2c189bdbf4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_hs_k::parameter_t, environment_t, pt_hs_k::state_t, pt_hs_k::state_collector, pt_hs_k::all_response_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="167" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="167" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1af0b6aad7edda12333070ef606dd3272d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_hs_k::parameter_t, environment_t, pt_hs_k::state_t, pt_hs_k::state_collector, pt_hs_k::all_response_collector &gt;::set_state_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="188" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="188" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a35282c22bea6e61badff8951338bd927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_hs_k::parameter_t, environment_t, pt_hs_k::state_t, pt_hs_k::null_collector, pt_hs_k::discharge_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="196" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="196" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a5da70dc6974c313e150c7dfe9d4d67e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_hs_k::parameter_t, environment_t, pt_hs_k::state_t, pt_hs_k::null_collector, pt_hs_k::discharge_collector &gt;::set_snow_sca_swe_collection</definition>
+        <argsstring>(bool on_or_off)</argsstring>
+        <name>set_snow_sca_swe_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>on_or_off</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" line="216" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h" bodystart="216" bodyend="218"/>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1discharge__collector_1a66b195f2d3c340561a342f6eecb85df8" compoundref="pt__hs__k__cell__model_8h" startline="77">shyft::core::pt_hs_k::discharge_collector::collect_snow</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a923f104c45b59c5b89b3d2cb9545325d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_ss_k::parameter_t, environment_t, pt_ss_k::state_t, pt_ss_k::state_collector, pt_ss_k::all_response_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h" line="191" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h" bodystart="191" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1a09d66e38551201e5fa13e5fb74db617f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_ss_k::parameter_t, environment_t, pt_ss_k::state_t, pt_ss_k::state_collector, pt_ss_k::all_response_collector &gt;::set_state_collection</definition>
+        <argsstring>(bool collect)</argsstring>
+        <name>set_state_collection</name>
+        <param>
+          <type>bool</type>
+          <declname>collect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h" line="211" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1cell_1ac6a859c77bbead98dc4427f1697f0dd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::cell&lt; pt_ss_k::parameter_t, environment_t, pt_ss_k::state_t, pt_ss_k::null_collector, pt_ss_k::discharge_collector &gt;::run</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h" line="218" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h" bodystart="218" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>cell template for distributed cell calculations. a cell have :<orderedlist>
+<listitem><para>geo information (.<ref refid="structshyft_1_1core_1_1cell_1a66cf02688c4722c2855ec6cc97380b7e" kindref="member">mid_point()</ref>,area(), landtype fractions etc..)</para></listitem><listitem><para>parameters reference to parameters for the cell method-stack (subject to calibration)</para></listitem><listitem><para>state the current state of the cell, like water-content etc.</para></listitem><listitem><para>env_ts provision the environmental properties (prec,temp,rad,wind,rhum) at the <ref refid="structshyft_1_1core_1_1cell_1a66cf02688c4722c2855ec6cc97380b7e" kindref="member">cell.mid_point</ref></para></listitem><listitem><para>sc state collector, plays its role during <ref refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" kindref="member">run()</ref>, collects wanted state each step</para></listitem><listitem><para>rc response collector,plays its role during <ref refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" kindref="member">run()</ref>, collects wanted response each step </para></listitem></orderedlist>
+</para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>parameter type for the cell method stack, e.g. shyft::core::PTGSKParameter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>E</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>environment type for the cell </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>state type for the cell </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SC</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>state collector type for the cell (usually a a null collector) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RC</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>response collector type for the cell, usually we look for discharge, but could be more extensive collector </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="907">
+        <label>shyft::core::geo_cell_data</label>
+        <link refid="structshyft_1_1core_1_1geo__cell__data"/>
+      </node>
+      <node id="906">
+        <label>shyft::core::cell&lt; P, E, S, SC, RC &gt;</label>
+        <link refid="structshyft_1_1core_1_1cell"/>
+        <childnode refid="907" relation="usage">
+          <edgelabel>geo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="95" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="95" bodyend="142"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1cell_1ab871414f04c66be2cb345a229331e17d" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>begin_run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>env_ts</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a82a5ddf5dc2fc2f547eed2c1943e2bc3" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>env_ts_t</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>geo</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1adf975a1035c464950f79426523583335" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>get_parameter</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a032c08ce619254add09868a143b73771" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>init_env_ts</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a66cf02688c4722c2855ec6cc97380b7e" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>mid_point</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a42c5b1b26727957971c0cb88d56aa855" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a94fc4feaedff67f7a623228ac97a2fd5" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a9c578f5a999bfb4f0bb1690bb198ada8" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>parameter_t</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>rc</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1af8a217218f54864a508724e0a63189dc" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>response_collector_t</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1ac3beea873644bcc130e815451acdd078" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a138cc49b9b8bc60e2390e9a878e60a50" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a98c2b6c21ad90ae3669fbd68086cf024" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a8ad083c4ca2fc00d38a15adeebe663dc" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a6219d4a81fdfd4605abae2c189bdbf4a" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a35282c22bea6e61badff8951338bd927" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a923f104c45b59c5b89b3d2cb9545325d" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1ac6a859c77bbead98dc4427f1697f0dd6" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>run</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>sc</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a5be6a5e89aa873d1df001155efa38837" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_parameter</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_snow_sca_swe_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a9fb2ab9f909e41f87afae14b60318d46" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_snow_sca_swe_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1adc45aeee78315f1580cdd01a7656ffac" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_snow_sca_swe_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a5da70dc6974c313e150c7dfe9d4d67e0" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_snow_sca_swe_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a3c1925c373afad8092d8c3e4fb9fd749" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1ac41a1a0f237f1786d62f8eaa48dfffc2" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a4d703c49fba0a771c4aa26f5389e751c" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1af0b6aad7edda12333070ef606dd3272d" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a09d66e38551201e5fa13e5fb74db617f" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_state_collection</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a92937f7d391d9cd77120cdb3510537ba" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>set_temperature</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a2d77c8bc4198dc7ac349b8d888e17861" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>slope_factor</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a015b779b88e40bb7ce2e0969d9c4360a" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>state_t</name></member>
+      <member refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" prot="public" virt="non-virtual"><scope>shyft::core::cell</scope><name>timeaxis_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

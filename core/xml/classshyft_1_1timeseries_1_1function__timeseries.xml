@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1timeseries_1_1function__timeseries" kind="class" prot="public">
+    <compoundname>shyft::timeseries::function_timeseries</compoundname>
+    <includes refid="core_2timeseries_8h" local="no">timeseries.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename TA</type>
+      </param>
+      <param>
+        <type>typename F</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1function__timeseries_1ae9249e0ec925c730aaa7f60cd8e102bd" prot="private" static="no" mutable="no">
+        <type>TA</type>
+        <definition>TA shyft::timeseries::function_timeseries&lt; TA, F &gt;::ta</definition>
+        <argsstring></argsstring>
+        <name>ta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="682" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1function__timeseries_1a54acbff657bcbba860ca3cb6fca29ef2" prot="private" static="no" mutable="no">
+        <type>F</type>
+        <definition>F shyft::timeseries::function_timeseries&lt; TA, F &gt;::fx</definition>
+        <argsstring></argsstring>
+        <name>fx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="683" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="683" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1function__timeseries_1ab9d33d1a28f459220b3161a2b2e9e327" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+        <definition>point_interpretation_policy shyft::timeseries::function_timeseries&lt; TA, F &gt;::point_fx</definition>
+        <argsstring></argsstring>
+        <name>point_fx</name>
+        <initializer>=<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa2ba877b0fea2668327cdcdb24c59a34b" kindref="member">POINT_INSTANT_VALUE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="684" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="684" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1a79ca5478cde3688d7c932443e96163fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+        <definition>point_interpretation_policy shyft::timeseries::function_timeseries&lt; TA, F &gt;::point_interpretation</definition>
+        <argsstring>() const </argsstring>
+        <name>point_interpretation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>point intepretation: how we should map points to f(t) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="688" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="688" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1a3b4e96ba0fe9522b27d88620b62e7f65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::timeseries::function_timeseries&lt; TA, F &gt;::set_point_interpretation</definition>
+        <argsstring>(point_interpretation_policy point_interpretation)</argsstring>
+        <name>set_point_interpretation</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_interpretation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="689" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="689" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1a1d92f8036a24fb4db49345774e5961db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::timeseries::function_timeseries&lt; TA, F &gt;::function_timeseries</definition>
+        <argsstring>(const TA &amp;ta, const F &amp;f, point_interpretation_policy point_interpretation=POINT_INSTANT_VALUE)</argsstring>
+        <name>function_timeseries</name>
+        <param>
+          <type>const TA &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>const F &amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_interpretation</declname>
+          <defval><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa2ba877b0fea2668327cdcdb24c59a34b" kindref="member">POINT_INSTANT_VALUE</ref></defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="691" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="691" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1a8e00a5b3104ede5435894cbbc197cf47" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const TA &amp;</type>
+        <definition>const TA&amp; shyft::timeseries::function_timeseries&lt; TA, F &gt;::time_axis</definition>
+        <argsstring>() const </argsstring>
+        <name>time_axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="692" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="692" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1ad397351377d25b36579518505baf4c53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1timeseries_1_1point" kindref="compound">point</ref></type>
+        <definition>point shyft::timeseries::function_timeseries&lt; TA, F &gt;::get</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>get</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="695" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="695" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1af39c1ee6d0172cf649382ac14e95062c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::function_timeseries&lt; TA, F &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="699" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="699" bodyend="699"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1a581d30574c8f00b4871a4831c7c9adcb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::function_timeseries&lt; TA, F &gt;::index_of</definition>
+        <argsstring>(const utctime tx) const </argsstring>
+        <name>index_of</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>tx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="700" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="700" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1function__timeseries_1a9210e8d4d9ee84dda7c74670285ea134" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::timeseries::function_timeseries&lt; TA, F &gt;::operator()</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="703" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="703" bodyend="703"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A point source with a <ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref>, and a function Fx(utctime t) that gives the value at utctime t, where t is from timeaxis(i).t suitable for functional type of time series. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time axis type that supports:<orderedlist>
+<listitem><para>.index_of(tx) const <ndash/>&gt; -1(npos) or lowerbound index</para></listitem><listitem><para>.<ref refid="classshyft_1_1timeseries_1_1function__timeseries_1af39c1ee6d0172cf649382ac14e95062c" kindref="member">size() const </ref> <ndash/>&gt; number of periods on time-axis</para></listitem><listitem><para>op() (i) const <ndash/>&gt; utcperiod of the i&apos;th interval</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>F</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>functor object that supports<orderedlist>
+<listitem><para>op()(utctime t) const <ndash/>&gt; double, F(t) </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="681" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="681" bodyend="704"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a1d92f8036a24fb4db49345774e5961db" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>function_timeseries</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a54acbff657bcbba860ca3cb6fca29ef2" prot="private" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>fx</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1ad397351377d25b36579518505baf4c53" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>get</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a581d30574c8f00b4871a4831c7c9adcb" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>index_of</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a9210e8d4d9ee84dda7c74670285ea134" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>operator()</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1ab9d33d1a28f459220b3161a2b2e9e327" prot="private" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>point_fx</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a79ca5478cde3688d7c932443e96163fb" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>point_interpretation</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a3b4e96ba0fe9522b27d88620b62e7f65" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>set_point_interpretation</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1af39c1ee6d0172cf649382ac14e95062c" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>size</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1ae9249e0ec925c730aaa7f60cd8e102bd" prot="private" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>ta</name></member>
+      <member refid="classshyft_1_1timeseries_1_1function__timeseries_1a8e00a5b3104ede5435894cbbc197cf47" prot="public" virt="non-virtual"><scope>shyft::timeseries::function_timeseries</scope><name>time_axis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

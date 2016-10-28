@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis" kind="class" prot="public">
+    <compoundname>shyft::core::inverse_distance::idw_timeaxis</compoundname>
+    <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class TA</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1a638ec3109334cec8e2cfbfd504de60d1" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::core::inverse_distance::idw_timeaxis&lt; TA &gt;::n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="479" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1a3750dfde545a104e4dfa37fd0f105cbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::inverse_distance::idw_timeaxis&lt; TA &gt;::idw_timeaxis</definition>
+        <argsstring>(TA time_axis)</argsstring>
+        <name>idw_timeaxis</name>
+        <param>
+          <type>TA</type>
+          <declname>time_axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="481" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="481" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1afaaf0993e29027b34541f00910aa7030" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::core::inverse_distance::idw_timeaxis&lt; TA &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="482" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="482" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1a33c85a94f361980c3e6c57e07dbc6535" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::core::inverse_distance::idw_timeaxis&lt; TA &gt;::operator()</definition>
+        <argsstring>(const size_t i) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="483" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="483" bodyend="483"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A special time axis for the IDW algorithms that utilizes the fact that we have a known, common timeaxis, where each period/time is identified by index. ref note on destination setter for the IDW. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="478" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="478" bodyend="484"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1a3750dfde545a104e4dfa37fd0f105cbd" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::idw_timeaxis</scope><name>idw_timeaxis</name></member>
+      <member refid="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1a638ec3109334cec8e2cfbfd504de60d1" prot="private" virt="non-virtual"><scope>shyft::core::inverse_distance::idw_timeaxis</scope><name>n</name></member>
+      <member refid="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1a33c85a94f361980c3e6c57e07dbc6535" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::idw_timeaxis</scope><name>operator()</name></member>
+      <member refid="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis_1afaaf0993e29027b34541f00910aa7030" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::idw_timeaxis</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

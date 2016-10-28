@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1hbv__snow" kind="namespace">
+    <compoundname>shyft::core::hbv_snow</compoundname>
+    <innerclass refid="structshyft_1_1core_1_1hbv__snow_1_1parameter" prot="public">shyft::core::hbv_snow::parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__snow_1_1state" prot="public">shyft::core::hbv_snow::state</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__snow_1_1response" prot="public">shyft::core::hbv_snow::response</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1hbv__snow_1_1calculator" prot="public">shyft::core::hbv_snow::calculator</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1hbv__snow_1a65b17e05da578ebac4e43edea3cb8847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::hbv_snow::integrate</definition>
+        <argsstring>(vector&lt; double &gt; f, vector&lt; double &gt; x, size_t n, double a, double b, bool f_b_is_zero=false)</argsstring>
+        <name>integrate</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>f_b_is_zero</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>integrate function f given as linear interpolated between the f_i(x_i) from a to b for a, b in x. If f_rhs_is_zero is set, f(b) = 0, unless b = x[i] for some i in [0,n). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_snow.h" line="36" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_snow.h" bodystart="36" bodyend="65"/>
+        <referencedby refid="structshyft_1_1core_1_1hbv__snow_1_1calculator_1aaa79b3f68fcfb5af2710729972ae562a" compoundref="hbv__snow_8h" startline="149" endline="182">shyft::core::hbv_snow::calculator&lt; P, S &gt;::calculator</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1hbv__snow_1_1calculator_1a29b2d89d26ea325e00acfb7eee6f5639" compoundref="hbv__snow_8h" startline="222" endline="300">shyft::core::hbv_snow::calculator&lt; P, S &gt;::step</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_snow.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

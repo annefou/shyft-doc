@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1hbv__stack_1_1null__collector" kind="struct" prot="public">
+    <compoundname>shyft::core::hbv_stack::null_collector</compoundname>
+    <includes refid="hbv__stack__cell__model_8h" local="no">hbv_stack_cell_model.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a9b901f929e69f6a93695adb71a42520e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::hbv_stack::null_collector::initialize</definition>
+        <argsstring>(const timeaxis_t &amp;time_axis, int start_step=0, int n_steps=0, double area=0.0)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_step</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_steps</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>area</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="119" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a694df32dad37c96fd85a504dc26c85ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::hbv_stack::null_collector::collect</definition>
+        <argsstring>(size_t i, const state_t &amp;response)</argsstring>
+        <name>collect</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1core_1_1hbv__stack_1a5961678f808e4e22299024db4a1f024d" kindref="member">state_t</ref> &amp;</type>
+          <declname>response</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="120" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a state null collector </para>    </briefdescription>
+    <detaileddescription>
+<para>Used during calibration/optimization when there is no need for state, and we need all the RAM for useful purposes. </para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" line="118" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h" bodystart="118" bodyend="121"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a694df32dad37c96fd85a504dc26c85ea" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::null_collector</scope><name>collect</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a9b901f929e69f6a93695adb71a42520e" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::null_collector</scope><name>initialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

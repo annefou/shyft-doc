@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1experimental_1_1repository_1_1state__file__repository" kind="class" prot="public">
+    <compoundname>shyft::experimental::repository::state_file_repository</compoundname>
+    <includes refid="experimental_8h" local="no">experimental.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class S</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1ad0ed18286d98ea6b0d62f18106347395" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string shyft::experimental::repository::state_file_repository&lt; S &gt;::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="647" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="647" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1a2987634a4c025e4450a3f16273eae018" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::repository::state_file_repository&lt; S &gt;::n_cells</definition>
+        <argsstring></argsstring>
+        <name>n_cells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="648" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="648" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1aab93d49c297106fae49d3d04308f321d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::experimental::repository::state_file_repository&lt; S &gt;::state_file_repository</definition>
+        <argsstring>(string path, size_t n_cells)</argsstring>
+        <name>state_file_repository</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n_cells</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="650" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="650" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1a699f54f818f6cfa268b02c547ac77f78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>shared_ptr&lt; vector&lt; S &gt; &gt;</type>
+        <definition>shared_ptr&lt;vector&lt;S&gt; &gt; shyft::experimental::repository::state_file_repository&lt; S &gt;::read</definition>
+        <argsstring>(string file_path)</argsstring>
+        <name>read</name>
+        <param>
+          <type>string</type>
+          <declname>file_path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="655" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="655" bodyend="659"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a state repository based on file in a directory </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>currently just a skeleton to indicate the method signatures </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="646" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="646" bodyend="664"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1a2987634a4c025e4450a3f16273eae018" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::state_file_repository</scope><name>n_cells</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1ad0ed18286d98ea6b0d62f18106347395" prot="private" virt="non-virtual"><scope>shyft::experimental::repository::state_file_repository</scope><name>path</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1a699f54f818f6cfa268b02c547ac77f78" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::state_file_repository</scope><name>read</name></member>
+      <member refid="classshyft_1_1experimental_1_1repository_1_1state__file__repository_1aab93d49c297106fae49d3d04308f321d" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::state_file_repository</scope><name>state_file_repository</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" kind="struct" prot="public">
+    <compoundname>shyft::core::actual_evapotranspiration::parameter</compoundname>
+    <includes refid="actual__evapotranspiration_8h" local="no">actual_evapotranspiration.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::actual_evapotranspiration::parameter::ae_scale_factor</definition>
+        <argsstring></argsstring>
+        <name>ae_scale_factor</name>
+        <initializer>= 1.5</initializer>
+        <briefdescription>
+<para>default value is 1.5 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" line="30" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1aafc8528d039a17333de8b885e97a4620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::actual_evapotranspiration::parameter::parameter</definition>
+        <argsstring>(double ae_scale_factor=1.5)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>double</type>
+          <declname>ae_scale_factor</declname>
+          <defval>1.5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" line="31" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>&lt; keeps the parameters (potential calibration/localization) for the AE keeps the formal response of the AE method </para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" line="29" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" bodystart="29" bodyend="32"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" prot="public" virt="non-virtual"><scope>shyft::core::actual_evapotranspiration::parameter</scope><name>ae_scale_factor</name></member>
+      <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1aafc8528d039a17333de8b885e97a4620" prot="public" virt="non-virtual"><scope>shyft::core::actual_evapotranspiration::parameter</scope><name>parameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

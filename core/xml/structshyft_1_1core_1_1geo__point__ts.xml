@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1geo__point__ts" kind="struct" prot="public">
+    <compoundname>shyft::core::geo_point_ts</compoundname>
+    <includes refid="region__model_8h" local="no">region_model.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1geo__point__ts_1ab41e0e78fc6df9655c4bd2f28981c489" prot="public" static="no">
+        <type>T</type>
+        <definition>typedef T shyft::core::geo_point_ts&lt; T &gt;::ts_t</definition>
+        <argsstring></argsstring>
+        <name>ts_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="89" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1geo__point__ts_1aada4445692c21a17f433b5da82aac74a" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref></type>
+        <definition>geo_point shyft::core::geo_point_ts&lt; T &gt;::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="90" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="90" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="231" endline="281">shyft::experimental::wkt_reader::read_geo_xts_t</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1geo__point__ts_1a419e1cfb4f880250e5d662332a33f992" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T shyft::core::geo_point_ts&lt; T &gt;::ts</definition>
+        <argsstring></argsstring>
+        <name>ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="91" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="91" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="231" endline="281">shyft::experimental::wkt_reader::read_geo_xts_t</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1geo__point__ts_1ab86acb444afc7b25090400a4e9476898" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref></type>
+        <definition>geo_point shyft::core::geo_point_ts&lt; T &gt;::mid_point</definition>
+        <argsstring>() const </argsstring>
+        <name>mid_point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="98" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1geo__point__ts_1adaa082707065f4a9da8934dee4497b8f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T&amp; shyft::core::geo_point_ts&lt; T &gt;::temperatures</definition>
+        <argsstring>() const </argsstring>
+        <name>temperatures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="99" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>point_source contains common properties,functions for the point sources in Enki. Typically it contains a <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> (3d position),plus a timeseries </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a timeseries, that supplies:<orderedlist>
+<listitem><para>type T::timeaxis_t</para></listitem><listitem><para>double .value(size_t i) and we need that the ts-type can be accessed via an xxx_accessor(ts,other_time_axis), where xxx is direct,average or constant </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1049">
+        <label>shyft::core::geo_point</label>
+        <link refid="structshyft_1_1core_1_1geo__point"/>
+      </node>
+      <node id="1048">
+        <label>shyft::core::geo_point_ts&lt; T &gt;</label>
+        <link refid="structshyft_1_1core_1_1geo__point__ts"/>
+        <childnode refid="1049" relation="usage">
+          <edgelabel>location</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="88" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="88" bodyend="100"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1aada4445692c21a17f433b5da82aac74a" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>location</name></member>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1ab86acb444afc7b25090400a4e9476898" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>mid_point</name></member>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1adaa082707065f4a9da8934dee4497b8f" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>temperatures</name></member>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1a419e1cfb4f880250e5d662332a33f992" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>ts</name></member>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1ab41e0e78fc6df9655c4bd2f28981c489" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>ts_t</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1inverse__distance" kind="namespace">
+    <compoundname>shyft::core::inverse_distance</compoundname>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1parameter" prot="public">shyft::core::inverse_distance::parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__parameter" prot="public">shyft::core::inverse_distance::temperature_parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter" prot="public">shyft::core::inverse_distance::precipitation_parameter</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer" prot="public">shyft::core::inverse_distance::temperature_gradient_scale_computer</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__default__gradient__scale__computer" prot="public">shyft::core::inverse_distance::temperature_default_gradient_scale_computer</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__model" prot="public">shyft::core::inverse_distance::temperature_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1radiation__model" prot="public">shyft::core::inverse_distance::radiation_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model" prot="public">shyft::core::inverse_distance::precipitation_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1wind__speed__model" prot="public">shyft::core::inverse_distance::wind_speed_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model" prot="public">shyft::core::inverse_distance::rel_hum_model</innerclass>
+    <innerclass refid="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis" prot="public">shyft::core::inverse_distance::idw_timeaxis</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1inverse__distance_1a136555db20a046dc420eb559ea54ed16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class M</type>
+          </param>
+          <param>
+            <type>class S</type>
+          </param>
+          <param>
+            <type>class D</type>
+          </param>
+          <param>
+            <type>class T</type>
+          </param>
+          <param>
+            <type>class P</type>
+          </param>
+          <param>
+            <type>class F</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::inverse_distance::run_interpolation</definition>
+        <argsstring>(S source_begin, S source_end, D destination_begin, D destination_end, const T &amp;timeAxis, const P &amp;parameter, F &amp;&amp;dest_set_value)</argsstring>
+        <name>run_interpolation</name>
+        <param>
+          <type>S</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>timeAxis</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>dest_set_value</declname>
+        </param>
+        <briefdescription>
+<para>Inverse Distance Weighted Interpolation <ref refid="namespace_the" kindref="compound">The</ref> Inverse Distance Weighted algorithm. </para>        </briefdescription>
+        <detaileddescription>
+<para>Adopted/extracted from Enki method idwtemp by Sjur Kolberg/Sintef.</para><para>Transforms a set of time-series data at given source locations (X,Y,Z) to a new set of time-series data at some target (grid) locations (X,Y,Z) Using a weighted average of max n closest neighbors with available data to each target location.</para><para><ref refid="namespace_the" kindref="compound">The</ref> algorithm does not use neighbor locations that exceeds the maximum distance.</para><para><ref refid="namespace_the" kindref="compound">The</ref> algorithm can calculate and use the gradient for temperature data (as well as default fallback gradient ) to height adjust source temperatures to target temperature level. Ref. to M, Model template parameter for details.</para><para>notice that the last argument to the function is a setter function that takes D:value_type, size_t ix and value. This implies that currently the Timeaxis should just return size_t for (), - later we can fix this to be the return_type of function-expression of the <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis()</ref>. Until then, the IDWTimeAxis template is supplied at the end of this file to ease mapping a TimeAxis that conforms to average_accessor/value standards. Ref to IDWTest file for example</para><para>Preconditions:<orderedlist>
+<listitem><para>There should be at least one source location with a valid value for all t.</para></listitem><listitem><para>Possible actions if not satisfied: set NaN at the output</para></listitem><listitem><para>Minimum distance unit is 1 { because we optimize using (x² + y² + z²) instead of sqrt(x² + y² + z²) }</para></listitem></orderedlist>
+</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator Source (location) Type that implements:<orderedlist>
+<listitem><para>S.geo_point() const <ndash/>&gt; 3D point, x,y,z, specifies the location</para></listitem><listitem><para>S.value(type of T operator(i) ) -&gt; returns value at the i&apos;th period of timeaxis </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>iterator Destination (location/area) Type that implements:<orderedlist>
+<listitem><para>D.geo_point() const <ndash/>&gt; 3D point, x,y,z etc.. (needed for calc dist, and height corrected temp)</para></listitem><listitem><para>D.set_value(type of T.operator(i), double value), function that is called to provide the computed value at the i&apos;th timestep</para></listitem><listitem><para>other requirements dependent on the Model class could apply (like radiation slope factor, etc.) </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameters for the algorithm, that supplies :<orderedlist>
+<listitem><para>P.max_distance const <ndash/>&gt; double, - locations outside this distance is not available</para></listitem><listitem><para>P.max_members const <ndash/>&gt; size_t, - max number of members to use in weight</para></listitem><listitem><para>P.distance_measure_factor <ndash/>&gt; double, - as in pow(x, distance_measure_factor)</para></listitem><listitem><para>P.zscale <ndash/>&gt; double, - scaling z for distance computing </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TimeAxis providing:<orderedlist>
+<listitem><para>T.size() const <ndash/>&gt; size_t, number of non-overlapping time intervals</para></listitem><listitem><para>T(const size_t i) const <ndash/>&gt; period of a type, that is passed into type with start, end</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>M</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Temperature, Radiation, Precipitation Model providing:<orderedlist>
+<listitem><para>M::scale_computer, a class that accepts a P parameter in the constructor. if M::scale_computer.is_source_based() is true, then for each destination cell, it will add valid sources for that cell, then call compute to compute the scaleValue that are passed into the M::transform function as described below. This allows us to create models that compute temperature gradient based on the same sources that we use for interpolating temperature into each cell. Ref. to Model classes for more details.</para></listitem><listitem><para>M::distance_measure, a static method that accepts three arguments; a,b of type of S|D.geo_point() and a measure parameter f, and returns the squared distance</para></listitem><listitem><para>M::transform(sourcevalue, scalevalue, const S &amp;source, const D&amp; destination), <ndash/>&gt; source value transformed to destination level</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>BayesianKriging for more advanced interpolation </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="134" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="134" bodyend="241"/>
+        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="663" endline="665">shyft::timeseries::min</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1inverse__distance_1a0aac49035eca96c47442f3d56005f8b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IDWModel</type>
+          </param>
+          <param>
+            <type>typename IDWModelSource</type>
+          </param>
+          <param>
+            <type>typename ApiSource</type>
+          </param>
+          <param>
+            <type>typename P</type>
+          </param>
+          <param>
+            <type>typename D</type>
+          </param>
+          <param>
+            <type>typename ResultSetter</type>
+          </param>
+          <param>
+            <type>typename TimeAxis</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::inverse_distance::run_interpolation</definition>
+        <argsstring>(const TimeAxis &amp;ta, ApiSource const &amp;api_sources, const P &amp;parameters, D &amp;cells, ResultSetter &amp;&amp;result_setter)</argsstring>
+        <name>run_interpolation</name>
+        <param>
+          <type>const TimeAxis &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>ApiSource const &amp;</type>
+          <declname>api_sources</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameters</declname>
+        </param>
+        <param>
+          <type>D &amp;</type>
+          <declname>cells</declname>
+        </param>
+        <param>
+          <type>ResultSetter &amp;&amp;</type>
+          <declname>result_setter</declname>
+        </param>
+        <briefdescription>
+<para>run interpolation step, for a given IDW model, sources and parameters. run_idw_interpolation of supplied sources to destination locations/cells, over a range as specified by timeaxis, based on supplied templatized parameters. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>this is run in multicore mode, and it it safe because each thread, works on private or const data, and writes to different cells.</para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>IDWModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>IDW model class, ref. IDW.h </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>IDWModelSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>IDW source class, ref IDW.h for requirements. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ApiSource</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Api source, ref EnkiApiServiceImpl.h </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>IDW parameter, specific for a given model, ref IDW.h </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>IDW destination ref IDW.h </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ResultSetter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>lambda for writing results back to destination, (Destination,size_t idx,double value) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para><orderedlist>
+<listitem><para>make a vector of ts-accessors for the sources. Notice that this vector needs to be modified, since the accessor &apos;remembers&apos; the last position. It is essential for performance, -but again-, then each thread needs it&apos;s own copy of the sources. Since the accessors just have a const <emphasis>reference</emphasis> to the underlying TS; there is no memory involved, so copy is no problem.</para></listitem><listitem><para>Create a set of futures, for the threads that we want to run</para></listitem></orderedlist>
+<itemizedlist>
+<listitem><para>and figure out a suitable ncore number. Using single cpu 4..8 core shows we can have more threads than cores, and gain speed.</para></listitem></itemizedlist>
+</para><para>4 found to be ok for 1 cpu 4..8 cores(subject to change later)</para><para>spawn a thread to run IDW on this part of the cells, using <emphasis>all</emphasis> sources (later we could speculate in sources needed)</para><para>capture src by value, we <emphasis>want</emphasis> a copy of that..</para><para><orderedlist>
+<listitem><para>wait for the IDW computation threads to end. </para></listitem></orderedlist>
+</para>        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="500" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="500" bodyend="531"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

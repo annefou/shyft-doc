@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1experimental_1_1wkt__reader" kind="class" prot="public">
+    <compoundname>shyft::experimental::wkt_reader</compoundname>
+    <includes refid="experimental_8h" local="no">experimental.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1wkt__reader_1af5bb6ed40d5c6791915b8f6792bd9d9e" prot="public" static="no" mutable="no">
+        <type>vector&lt; string &gt;</type>
+        <definition>vector&lt;string&gt; shyft::experimental::wkt_reader::reported_errors</definition>
+        <argsstring></argsstring>
+        <name>reported_errors</name>
+        <briefdescription>
+<para>contains accumulated errors after calls to read_xxx </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="86" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="86" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="681" endline="691">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1aa339b66e3b9965d03e25a5279c9f8ff6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::experimental::wkt_reader::report_error</definition>
+        <argsstring>(string report_tag, int line_no, string msg)</argsstring>
+        <name>report_error</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line_no</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>internally used to collect errors, using report_tag to easy locate errors in files|file-types </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="88" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1ad6004e0f4dde243d4188d682f9fd64d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; <ref refid="structshyft_1_1experimental_1_1dtm" kindref="compound">dtm</ref> &gt;</type>
+        <definition>vector&lt;dtm&gt; shyft::experimental::wkt_reader::read_dtm</definition>
+        <argsstring>(string report_tag, string s)</argsstring>
+        <name>read_dtm</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>given string s containing txt formatted as dtm(box(point(),point()),z) , convert it to a vector&lt;dtm&gt; <ref refid="structshyft_1_1experimental_1_1dtm" kindref="compound">dtm</ref> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="94" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="94" bodyend="111"/>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1a4d0da7464acb3e88d5e25f0adb5f2ed1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1experimental_1a21a760fe412d5193359664c0b8ce8055" kindref="member">multi_polygon_</ref></type>
+        <definition>multi_polygon_ shyft::experimental::wkt_reader::read</definition>
+        <argsstring>(string report_tag, string s)</argsstring>
+        <name>read</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Given string s with wkt formatted multi_polygons, convert the lines into a multi_polygon. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>supports ! as comment in the format </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="113" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="113" bodyend="141"/>
+        <references refid="namespaceshyft_1_1core_1a381301d2ecade3a7fc4df4b1c818e013" compoundref="utctime__utilities_8h" startline="61" endline="61">shyft::core::is_valid</references>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1a35922deaafd4747cfbe83bcc5bc04cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1experimental_1a9a040dc8707ed99c897a289aa0c2d4ca" kindref="member">multi_point_</ref></type>
+        <definition>multi_point_ shyft::experimental::wkt_reader::read_points</definition>
+        <argsstring>(string report_tag, string s)</argsstring>
+        <name>read_points</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>given string s formatted with wkt point structures, read from the string into a multipoint </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="144" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="144" bodyend="163"/>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1a9f9e399d365cd3fd34a096f0f3e0933b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>map&lt; int, <ref refid="namespaceshyft_1_1experimental_1a21a760fe412d5193359664c0b8ce8055" kindref="member">multi_polygon_</ref> &gt;</type>
+        <definition>map&lt;int,multi_polygon_&gt; shyft::experimental::wkt_reader::read_catchment_map</definition>
+        <argsstring>(string report_tag, string s)</argsstring>
+        <name>read_catchment_map</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>given string formatted as id:wkt multipolygon, read and convert the string to a map&lt;id,multi_polygon_&gt; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="166" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="166" bodyend="199"/>
+        <references refid="namespaceshyft_1_1core_1a381301d2ecade3a7fc4df4b1c818e013" compoundref="utctime__utilities_8h" startline="61" endline="61">shyft::core::is_valid</references>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1aae92fe7fd9eca25da0ddf9468b64b103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>map&lt; int, <ref refid="structshyft_1_1experimental_1_1observation__location" kindref="compound">observation_location</ref> &gt;</type>
+        <definition>map&lt;int,observation_location&gt; shyft::experimental::wkt_reader::read_geo_point_map</definition>
+        <argsstring>(string report_tag, string s)</argsstring>
+        <name>read_geo_point_map</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>given string s formatted as id:name:POINT(x,y,z), convert it to a map&lt;id,observation_location&gt; used to ensure that locations (x,y,z) associated with observation time-series have consistent location info </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="202" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="202" bodyend="228"/>
+        <references refid="structshyft_1_1experimental_1_1observation__location_1abcec8932dcfe2ebfb8305d424f791b2f" compoundref="experimental_8h" startline="71">shyft::experimental::observation_location::name</references>
+        <references refid="structshyft_1_1experimental_1_1observation__location_1a227dd5f2b118017539e41de44f1c424b" compoundref="experimental_8h" startline="72">shyft::experimental::observation_location::point</references>
+        <references refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" compoundref="geo__point_8h" startline="17">shyft::core::geo_point::x</references>
+        <references refid="structshyft_1_1core_1_1geo__point_1ab30bb0f8d3d2d7f88da1fa91ded797dc" compoundref="geo__point_8h" startline="17">shyft::core::geo_point::y</references>
+        <references refid="structshyft_1_1core_1_1geo__point_1ae294c27bb353a6db2bc0f032cbdc1ab2" compoundref="geo__point_8h" startline="17">shyft::core::geo_point::z</references>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="681" endline="691">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1experimental_1a2c3daf4b0c50a23f73b0caf6f88f81ac" kindref="member">geo_xts_t</ref></type>
+        <definition>geo_xts_t shyft::experimental::wkt_reader::read_geo_xts_t</definition>
+        <argsstring>(string report_tag, function&lt; ec::geo_point(int)&gt; to_geo_point, const string &amp;s)</argsstring>
+        <name>read_geo_xts_t</name>
+        <param>
+          <type>string</type>
+          <declname>report_tag</declname>
+        </param>
+        <param>
+          <type>function&lt; <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">ec::geo_point</ref>(int)&gt;</type>
+          <declname>to_geo_point</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>given string formatted as &apos;geo-id-located ts&apos;, read it and convert it to a geo_xts_t used to read time-series for nea-nidelv and similar cases </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="231" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="231" bodyend="281"/>
+        <references refid="structshyft_1_1core_1_1geo__point__ts_1aada4445692c21a17f433b5da82aac74a" compoundref="region__model_8h" startline="90">shyft::core::geo_point_ts&lt; T &gt;::location</references>
+        <references refid="structshyft_1_1core_1_1calendar_1ae6fc27254ffb9ad5f6b2f0738f7f1cae" compoundref="utctime__utilities_8cpp" startline="62" endline="73">shyft::core::calendar::time</references>
+        <references refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" compoundref="utctime__utilities_8h" startline="46">shyft::core::max_utctime</references>
+        <references refid="structshyft_1_1core_1_1geo__point__ts_1a419e1cfb4f880250e5d662332a33f992" compoundref="region__model_8h" startline="91">shyft::core::geo_point_ts&lt; T &gt;::ts</references>
+        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="58" endline="74">shyft::experimental::io::load_from_directory</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classshyft_1_1experimental_1_1wkt__reader" kindref="compound">wkt_reader</ref>, WellKnownTextformat(?) reader: Just for the testing and experimental purposes,we need something that gives a reasonable amount of data that is realistic. From Statkraft we have the nea-nidelv system, and this reader is used to parse/read those files into memory/structures that we can use to construct cells, environmental time-series, etc. that are needed to run a full model. (and GIS system might provide &apos;non-perfect&apos; data that we need to handle) </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>this class contains readers for the files located in test/neanidelv directory </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="84" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="84" bodyend="282"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1a4d0da7464acb3e88d5e25f0adb5f2ed1" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>read</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1a9f9e399d365cd3fd34a096f0f3e0933b" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>read_catchment_map</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1ad6004e0f4dde243d4188d682f9fd64d6" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>read_dtm</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1aae92fe7fd9eca25da0ddf9468b64b103" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>read_geo_point_map</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>read_geo_xts_t</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1a35922deaafd4747cfbe83bcc5bc04cd0" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>read_points</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1aa339b66e3b9965d03e25a5279c9f8ff6" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>report_error</name></member>
+      <member refid="classshyft_1_1experimental_1_1wkt__reader_1af5bb6ed40d5c6791915b8f6792bd9d9e" prot="public" virt="non-virtual"><scope>shyft::experimental::wkt_reader</scope><name>reported_errors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

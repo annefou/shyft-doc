@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1model__calibration_1_1ts__transform" kind="struct" prot="public">
+    <compoundname>shyft::core::model_calibration::ts_transform</compoundname>
+    <includes refid="model__calibration_8h" local="no">model_calibration.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1ts__transform_1a227bf627cd34db1751e68dd60edfa49b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TS</type>
+          </param>
+          <param>
+            <type>class TSS</type>
+          </param>
+        </templateparamlist>
+        <type>shared_ptr&lt; TS &gt;</type>
+        <definition>shared_ptr&lt;TS&gt; shyft::core::model_calibration::ts_transform::to_average</definition>
+        <argsstring>(utctime start, utctimespan dt, size_t n, const TSS &amp;src)</argsstring>
+        <name>to_average</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>const TSS &amp;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>transform the supplied time-series, f(t) interpreted according to its point_interpretation() policy into a new time-series, that represents the true average for each of the n intervals of length dt, starting at start. the result ts will have the policy is set to POINT_AVERAGE_VALUE </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>that the resulting ts is a fresh new ts, not connected to the source </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="139" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="139" bodyend="146"/>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="61">shyft::timeseries::POINT_AVERAGE_VALUE</references>
+        <references refid="classshyft_1_1timeseries_1_1average__accessor_1abf76b88739d55f564dd3f0e4a2e68df1" compoundref="core_2timeseries_8h" startline="1002" endline="1002">shyft::timeseries::average_accessor&lt; S, TA &gt;::size</references>
+        <references refid="classshyft_1_1timeseries_1_1average__accessor_1a2500b93ac15478aa6857fa8dc2729d91" compoundref="core_2timeseries_8h" startline="995" endline="1000">shyft::timeseries::average_accessor&lt; S, TA &gt;::value</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1ts__transform_1ac9a1cf726a689044e6644d23e0351dd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TS</type>
+          </param>
+          <param>
+            <type>class TSS</type>
+          </param>
+        </templateparamlist>
+        <type>shared_ptr&lt; TS &gt;</type>
+        <definition>shared_ptr&lt;TS&gt; shyft::core::model_calibration::ts_transform::to_average</definition>
+        <argsstring>(utctime start, utctimespan dt, size_t n, shared_ptr&lt; TSS &gt; src)</argsstring>
+        <name>to_average</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>shared_ptr&lt; TSS &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="148" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="148" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>utility class to help transfrom time-series into suitable resolution </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="131" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="131" bodyend="151"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1ts__transform_1a227bf627cd34db1751e68dd60edfa49b" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::ts_transform</scope><name>to_average</name></member>
+      <member refid="structshyft_1_1core_1_1model__calibration_1_1ts__transform_1ac9a1cf726a689044e6644d23e0351dd8" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::ts_transform</scope><name>to_average</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

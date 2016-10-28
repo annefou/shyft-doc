@@ -1,0 +1,4 @@
+var structshyft_1_1timeseries_1_1d__ref__t_3_01_t_00_01typename_01enable__if_3_9is__shared__ptr_3_014f116213f2b3abaa65ce1a08cc424235 =
+[
+    [ "type", "structshyft_1_1timeseries_1_1d__ref__t_3_01_t_00_01typename_01enable__if_3_9is__shared__ptr_3_014f116213f2b3abaa65ce1a08cc424235.html#a4b16732892eb73b5f19e61d1e117c950", null ]
+];

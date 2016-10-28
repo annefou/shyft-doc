@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1pt__gs__k_1_1state" kind="struct" prot="public">
+    <compoundname>shyft::core::pt_gs_k::state</compoundname>
+    <includes refid="core_2pt__gs__k_8h" local="no">pt_gs_k.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1a0cb22af2376b3de2c67e698d383231c5" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1gamma__snow_1_1state" kindref="compound">gamma_snow::state</ref></type>
+        <definition>typedef gamma_snow::state shyft::core::pt_gs_k::state::gs_state_t</definition>
+        <argsstring></argsstring>
+        <name>gs_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="159" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1a536b446c8589b208f81ff2b3e062b934" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">kirchner::state</ref></type>
+        <definition>typedef kirchner::state shyft::core::pt_gs_k::state::kirchner_state_t</definition>
+        <argsstring></argsstring>
+        <name>kirchner_state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="160" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a0cb22af2376b3de2c67e698d383231c5" kindref="member">gs_state_t</ref></type>
+        <definition>gs_state_t shyft::core::pt_gs_k::state::gs</definition>
+        <argsstring></argsstring>
+        <name>gs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="163" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="163" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a29a0ebe921cd2c3ea6fad4622b7b23c3" compoundref="core_2pt__gs__k_8h" startline="165" endline="165">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1a807bd7d4af2c1f70957e1d88c59ada30" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a536b446c8589b208f81ff2b3e062b934" kindref="member">kirchner_state_t</ref></type>
+        <definition>kirchner_state_t shyft::core::pt_gs_k::state::kirchner</definition>
+        <argsstring></argsstring>
+        <name>kirchner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="164" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="164" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a29a0ebe921cd2c3ea6fad4622b7b23c3" compoundref="core_2pt__gs__k_8h" startline="165" endline="165">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1ac8930f92fd10e3212c38d23498064eb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_gs_k::state::state</definition>
+        <argsstring>()</argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="161" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1a3ff011ffb4af19d66b2ae56355beebea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::pt_gs_k::state::state</definition>
+        <argsstring>(gs_state_t gs, kirchner_state_t k)</argsstring>
+        <name>state</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a0cb22af2376b3de2c67e698d383231c5" kindref="member">gs_state_t</ref></type>
+          <declname>gs</declname>
+        </param>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a536b446c8589b208f81ff2b3e062b934" kindref="member">kirchner_state_t</ref></type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="162" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__gs__k_1_1state_1a29a0ebe921cd2c3ea6fad4622b7b23c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::pt_gs_k::state::operator==</definition>
+        <argsstring>(const state &amp;x) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="165" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="165" bodyend="165"/>
+        <references refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" compoundref="core_2pt__gs__k_8h" startline="163">gs</references>
+        <references refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a807bd7d4af2c1f70957e1d88c59ada30" compoundref="core_2pt__gs__k_8h" startline="164">kirchner</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simple state struct for the PTGSK method stack. </para>    </briefdescription>
+    <detaileddescription>
+<para>This struct contains the states of the methods used in the PTGSK assembly.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>GSState</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>GammaSnow state type that implements the state interface for GammaSnow. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>KState</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Kirchner state type that implements the state interface for Kirchner. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>GammaSnowState </para><simplesectsep/><para>Kirchner </para><simplesectsep/><para>PTGSK </para><simplesectsep/><para>PriestleyTaylor </para><simplesectsep/><para>GammaSnow </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1406">
+        <label>shyft::core::pt_gs_k::state</label>
+        <link refid="structshyft_1_1core_1_1pt__gs__k_1_1state"/>
+        <childnode refid="1407" relation="usage">
+          <edgelabel>kirchner</edgelabel>
+        </childnode>
+        <childnode refid="1408" relation="usage">
+          <edgelabel>gs</edgelabel>
+        </childnode>
+      </node>
+      <node id="1407">
+        <label>shyft::core::kirchner::state</label>
+        <link refid="structshyft_1_1core_1_1kirchner_1_1state"/>
+      </node>
+      <node id="1408">
+        <label>shyft::core::gamma_snow::state</label>
+        <link refid="structshyft_1_1core_1_1gamma__snow_1_1state"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" line="158" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h" bodystart="158" bodyend="166"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a8da308c73c14f860bf31398f61bc01a5" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>gs</name></member>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a0cb22af2376b3de2c67e698d383231c5" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>gs_state_t</name></member>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a807bd7d4af2c1f70957e1d88c59ada30" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>kirchner</name></member>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a536b446c8589b208f81ff2b3e062b934" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>kirchner_state_t</name></member>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a29a0ebe921cd2c3ea6fad4622b7b23c3" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1ac8930f92fd10e3212c38d23498064eb7" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a3ff011ffb4af19d66b2ae56355beebea" prot="public" virt="non-virtual"><scope>shyft::core::pt_gs_k::state</scope><name>state</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

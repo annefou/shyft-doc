@@ -1,0 +1,601 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1grf" kind="namespace">
+    <compoundname>shyft::core::grf</compoundname>
+    <innerclass refid="classshyft_1_1core_1_1grf_1_1semivariogram__error" prot="public">shyft::core::grf::semivariogram_error</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1grf_1_1gaussian__model" prot="public">shyft::core::grf::gaussian_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1grf_1_1spherical__model" prot="public">shyft::core::grf::spherical_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1grf_1_1exponential__model" prot="public">shyft::core::grf::exponential_model</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1grf_1_1matern__model" prot="public">shyft::core::grf::matern_model</innerclass>
+    <innerclass refid="classshyft_1_1core_1_1grf_1_1semi__variogram" prot="public">shyft::core::grf::semi_variogram</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1ac8cd82119416a5e7fa0ad18ab0fa056c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>arma::mat::fixed&lt; 2, 2 &gt;</type>
+        <definition>arma::mat::fixed&lt;2, 2&gt; shyft::core::grf::anisotropy_mapping</definition>
+        <argsstring>(double anisotropy_ratio, double anisotropy_direction)</argsstring>
+        <name>anisotropy_mapping</name>
+        <param>
+          <type>double</type>
+          <declname>anisotropy_ratio</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anisotropy_direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="48" bodyend="63"/>
+        <references refid="core_2timeseries_8h_1ae71449b1cc6e6250b91f539153a7a0d3" compoundref="core_2timeseries_8h" startline="14">M_PI</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1ab8469dc5d495481b9ed77fc23daf46e5" compoundref="gaussian__random__field_8h" startline="70" endline="90">calculate_anisotropy_distances</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1ab8469dc5d495481b9ed77fc23daf46e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SP</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::calculate_anisotropy_distances</definition>
+        <argsstring>(const SP &amp;source_begin, const SP &amp;source_end, double anisotropy_ratio, double anisotropy_direction, arma::mat &amp;anisotropy_distances)</argsstring>
+        <name>calculate_anisotropy_distances</name>
+        <param>
+          <type>const SP &amp;</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>const SP &amp;</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anisotropy_ratio</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anisotropy_direction</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>anisotropy_distances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculate the (symmetric) anisotropy distance matrix for stations</para><para>Only compute upper half of matrix for speed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="70" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="70" bodyend="90"/>
+        <references refid="namespaceshyft_1_1core_1_1grf_1ac8cd82119416a5e7fa0ad18ab0fa056c" compoundref="gaussian__random__field_8h" startline="48" endline="63">anisotropy_mapping</references>
+        <references refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" compoundref="geo__point_8h" startline="17">shyft::core::geo_point::x</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1a83d37d33358cc4cb786269e576b57d91" compoundref="gaussian__random__field_8h" startline="643" endline="795">run_interpolation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1aebb26c921857b4de57cb10976aee8552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SP</type>
+          </param>
+          <param>
+            <type>typename D</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::calculate_anisotropy_distances</definition>
+        <argsstring>(const SP &amp;source_begin, const SP &amp;source_end, const D &amp;destination_begin, const D &amp;destination_end, double anisotropy_ratio, double anisotropy_direction, arma::mat &amp;anisotropy_distances)</argsstring>
+        <name>calculate_anisotropy_distances</name>
+        <param>
+          <type>const SP &amp;</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>const SP &amp;</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anisotropy_ratio</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>anisotropy_direction</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>anisotropy_distances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="93" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="93" bodyend="114"/>
+        <references refid="namespaceshyft_1_1core_1_1grf_1ac8cd82119416a5e7fa0ad18ab0fa056c" compoundref="gaussian__random__field_8h" startline="48" endline="63">anisotropy_mapping</references>
+        <references refid="structshyft_1_1core_1_1geo__point_1ab0c0f470ab80deeea81acc8b2c323cf1" compoundref="geo__point_8h" startline="17">shyft::core::geo_point::x</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1af88765dca3e9af8439af63642855f3d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::distance_sort_order</definition>
+        <argsstring>(const arma::mat &amp;distances, size_t sort_length, arma::umat &amp;sort_order)</argsstring>
+        <name>distance_sort_order</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>sort_length</declname>
+        </param>
+        <param>
+          <type>arma::umat &amp;</type>
+          <declname>sort_order</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="116" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="116" bodyend="129"/>
+        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="663" endline="665">shyft::timeseries::min</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1ab27eeaf5783a50e63a5a78e399cddc20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::calculate_gibbs_weights</definition>
+        <argsstring>(const arma::mat &amp;cov, const std::vector&lt; unsigned int &gt; &amp;sub_inds, arma::mat &amp;krig_weights)</argsstring>
+        <name>calculate_gibbs_weights</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>cov</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>sub_inds</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>krig_weights</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Simple krig method to calculate gibbs weights for the sub set of indices given by sub_set.</para><para>For an excellent introduction to kriging interpolation, see <ulink url="http://people.ku.edu/~gbohling/cpe940/Kriging.pdf">http://people.ku.edu/~gbohling/cpe940/Kriging.pdf</ulink> This method assumes that the trend component of the random field is known and constant mean, m(u) = m, see pages 7 and 8 in the reference. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="286" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="286" bodyend="315"/>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a5438ae2ae5992013db19b74c511847aa" compoundref="bayesian__kriging_8h" startline="41" endline="44">shyft::core::bayesian_kriging::utils::cov</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1a3c5297921063ee8077de8bd3c59a7d95" compoundref="gaussian__random__field_8h" startline="474" endline="511">gibbs_sampler</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1a83d37d33358cc4cb786269e576b57d91" compoundref="gaussian__random__field_8h" startline="643" endline="795">run_interpolation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1aea03d9e976537bd23fc1a5d5d45fa5e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::calculate_gibbs_estimates</definition>
+        <argsstring>(const std::vector&lt; unsigned int &gt; &amp;sub_inds, const std::vector&lt; double &gt; &amp;data, const arma::mat &amp;weights, const arma::mat &amp;cov, const double sill, std::vector&lt; double &gt; &amp;mu, std::vector&lt; double &gt; &amp;var)</argsstring>
+        <name>calculate_gibbs_estimates</name>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>sub_inds</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>cov</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>sill</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>mu</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+<para>Calculate krig estimates and variances for all stations. </para>        </briefdescription>
+        <detaileddescription>
+<para>At each point, the estimate is given by z_j = k_j + sum_i!=j k_i*z_i and k_j = mu(1-sum_i!=j k_i. See Analyzing Environmental Data by Walter W. Piegorsch,A. John Bailer, page 305. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="322" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="322" bodyend="346"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1a3c5297921063ee8077de8bd3c59a7d95" compoundref="gaussian__random__field_8h" startline="474" endline="511">gibbs_sampler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a631ae8fd7913fecf88bfdda6e75ab015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename D</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::calculate_local_weights_data</definition>
+        <argsstring>(const arma::mat &amp;station_covariances, size_t max_neighbours, bool simple_kriging, D &amp;dest)</argsstring>
+        <name>calculate_local_weights_data</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>station_covariances</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_neighbours</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>simple_kriging</declname>
+        </param>
+        <param>
+          <type>D &amp;</type>
+          <declname>dest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destination D must provide <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arma::uvec&amp; source_sort_order() const: sort order of distances to valid sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>const</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>arma::vec&amp; source_covariances() const: covariances for valid sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>set_weights(const arma::vec&amp; weights, const arma::uvec&amp; indices): Set the weights for the stations given in indices </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="354" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="354" bodyend="387"/>
+        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="663" endline="665">shyft::timeseries::min</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1a83d37d33358cc4cb786269e576b57d91" compoundref="gaussian__random__field_8h" startline="643" endline="795">run_interpolation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a751c22dd54693dd22f380a8876271318" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void shyft::core::grf::gamma_transform</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;x, const std::vector&lt; double &gt; &amp;m, const std::vector&lt; double &gt; &amp;cv, const std::vector&lt; double &gt; &amp;p0, std::vector&lt; double &gt; &amp;res)</argsstring>
+        <name>gamma_transform</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>cv</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="389" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="389" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a820e1443510e224ad4fade9f5a02e0de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void shyft::core::grf::inv_gamma_transform</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;x, const std::vector&lt; double &gt; &amp;m, const std::vector&lt; double &gt; &amp;cv, const std::vector&lt; double &gt; &amp;p0, std::vector&lt; double &gt; &amp;res)</argsstring>
+        <name>inv_gamma_transform</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>cv</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="407" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="407" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1ae28178896a056e4148c598f46ba5bb06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::grf::subset_mean</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;values, const std::vector&lt; unsigned int &gt; indices)</argsstring>
+        <name>subset_mean</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt;</type>
+          <declname>indices</declname>
+        </param>
+        <briefdescription>
+<para>Calculate mean of values restriced to indices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="427" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="427" bodyend="434"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1ac3e3678fd94fe6f97c2149c8de0ead15" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::grf::mean</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;values)</argsstring>
+        <name>mean</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>Calculate mean of values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="438" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="438" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a4776a5fea8e1759531b6d23574dd7b64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::grf::subset_var</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;values, const std::vector&lt; unsigned int &gt; &amp;indices)</argsstring>
+        <name>subset_var</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>indices</declname>
+        </param>
+        <briefdescription>
+<para>Calculate variance of values restricted to indices. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="448" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="448" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1acd2e119ff9d434fd05d5a541f90cd7d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::grf::variance</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;values)</argsstring>
+        <name>variance</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+<para>Calculate variance of all values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="462" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="462" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a3c5297921063ee8077de8bd3c59a7d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::gibbs_sampler</definition>
+        <argsstring>(size_t num_iter, size_t num_var_update, arma::mat &amp;weights, arma::mat &amp;covariances, arma::mat &amp;distances, std::vector&lt; unsigned int &gt; &amp;zero_inds, std::vector&lt; double &gt; &amp;max_zero_transformed_precipitation, P &amp;semi_var, std::vector&lt; double &gt; &amp;transformed_precipitation)</argsstring>
+        <name>gibbs_sampler</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_iter</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_var_update</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>covariances</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; unsigned int &gt; &amp;</type>
+          <declname>zero_inds</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>max_zero_transformed_precipitation</declname>
+        </param>
+        <param>
+          <type>P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>transformed_precipitation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="474" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="474" bodyend="511"/>
+        <references refid="namespaceshyft_1_1core_1_1grf_1aea03d9e976537bd23fc1a5d5d45fa5e5" compoundref="gaussian__random__field_8h" startline="322" endline="346">calculate_gibbs_estimates</references>
+        <references refid="namespaceshyft_1_1core_1_1grf_1ab27eeaf5783a50e63a5a78e399cddc20" compoundref="gaussian__random__field_8h" startline="286" endline="315">calculate_gibbs_weights</references>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a6c0cc92cf054419ac8674ca2a22f2d3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+          <param>
+            <type>typename D</type>
+          </param>
+          <param>
+            <type>typename P</type>
+          </param>
+          <param>
+            <type>typename SV</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::conditional_random_field_simulation</definition>
+        <argsstring>(size_t num_realizations, const P &amp;parameter, const D &amp;destination_begin, const D &amp;destination_end, const SV &amp;semi_var, std::vector&lt; double &gt; &amp;gauss_field)</argsstring>
+        <name>conditional_random_field_simulation</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_realizations</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>const D &amp;</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>const SV &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;</type>
+          <declname>gauss_field</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="515" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="515" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1grf_1a83d37d33358cc4cb786269e576b57d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class M</type>
+          </param>
+          <param>
+            <type>class TSA</type>
+          </param>
+          <param>
+            <type>class S</type>
+          </param>
+          <param>
+            <type>class D</type>
+          </param>
+          <param>
+            <type>class T</type>
+          </param>
+          <param>
+            <type>class P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::run_interpolation</definition>
+        <argsstring>(S source_begin, S source_end, D destination_begin, D destination_end, const T &amp;time_axis, const P &amp;parameter)</argsstring>
+        <name>run_interpolation</name>
+        <param>
+          <type>S</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>const T &amp;</type>
+          <declname>time_axis</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Gaussian Random Field Interpolation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="643" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="643" bodyend="795"/>
+        <references refid="namespaceshyft_1_1core_1_1grf_1ab8469dc5d495481b9ed77fc23daf46e5" compoundref="gaussian__random__field_8h" startline="70" endline="90">calculate_anisotropy_distances</references>
+        <references refid="namespaceshyft_1_1core_1_1grf_1ab27eeaf5783a50e63a5a78e399cddc20" compoundref="gaussian__random__field_8h" startline="286" endline="315">calculate_gibbs_weights</references>
+        <references refid="namespaceshyft_1_1core_1_1grf_1a631ae8fd7913fecf88bfdda6e75ab015" compoundref="gaussian__random__field_8h" startline="354" endline="387">calculate_local_weights_data</references>
+        <references refid="namespaceshyft_1_1experimental_1_1io_1a93692cd20b6eabf36411f3ba1745c1d2" compoundref="experimental_8cpp" startline="38" endline="54">shyft::experimental::io::find</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="44" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1api_1_1gpoint__ts" kind="struct" prot="public">
+    <compoundname>shyft::api::gpoint_ts</compoundname>
+    <basecompoundref refid="structshyft_1_1api_1_1ipoint__ts" prot="public" virt="non-virtual">shyft::api::ipoint_ts</basecompoundref>
+    <includes refid="api_2timeseries_8h" local="no">timeseries.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1api_1_1gpoint__ts_1ac6fd3249d25091c2a80a3f0b7d7ef57f" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1api_1a2e21b6273adeec8b0020aab3cb049fd9" kindref="member">gts_t</ref></type>
+        <definition>gts_t shyft::api::gpoint_ts::rep</definition>
+        <argsstring></argsstring>
+        <name>rep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="208" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="208" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1api_1_1gpoint__ts_1acb60ebc7f6afea658b6042df4a92c2d4" compoundref="api_2timeseries_8h" startline="220" endline="224">operator=</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ae608c90088f0583804f8295e8805af6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(const gta_t &amp;ta, double fill_value, point_interpretation_policy point_fx=POINT_INSTANT_VALUE)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fill_value</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_fx</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="211" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ac79e20d8fe16118392d2f237314ff736" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(const gta_t &amp;ta, const std::vector&lt; double &gt; &amp;v, point_interpretation_policy point_fx=POINT_INSTANT_VALUE)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_fx</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="212" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a57b15a338fdd75e569589a6221dd87be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(gta_t &amp;&amp;ta, double fill_value, point_interpretation_policy point_fx=POINT_INSTANT_VALUE)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;&amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fill_value</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_fx</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="213" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ac2fc23d8125babc96070df8ae3be4419" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(gta_t &amp;&amp;ta, std::vector&lt; double &gt; &amp;&amp;v, point_interpretation_policy point_fx=POINT_INSTANT_VALUE)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;&amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_fx</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="214" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="214" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a693ea5e4158e5c7bcf2b68a4deb7ace1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(const gta_t &amp;ta, std::vector&lt; double &gt; &amp;&amp;v, point_interpretation_policy point_fx=POINT_INSTANT_VALUE)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; double &gt; &amp;&amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_fx</declname>
+          <defval>POINT_INSTANT_VALUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="215" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="215" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a7c7a9c802b808670980c0e9401b26b42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(const gpoint_ts &amp;c)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="218" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="218" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a7e343b6bdc59e553e703809c3760cec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::gpoint_ts::gpoint_ts</definition>
+        <argsstring>(gts_t &amp;&amp;c)</argsstring>
+        <name>gpoint_ts</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1api_1a2e21b6273adeec8b0020aab3cb049fd9" kindref="member">gts_t</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="219" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="219" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1acb60ebc7f6afea658b6042df4a92c2d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> &amp;</type>
+        <definition>gpoint_ts&amp; shyft::api::gpoint_ts::operator=</definition>
+        <argsstring>(const gpoint_ts &amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="220" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="220" bodyend="224"/>
+        <references refid="structshyft_1_1api_1_1gpoint__ts_1ac6fd3249d25091c2a80a3f0b7d7ef57f" compoundref="api_2timeseries_8h" startline="208">rep</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a7fe7f2adc7d44db61b5ad9a748b6e0cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> &amp;</type>
+        <definition>gpoint_ts&amp; shyft::api::gpoint_ts::operator=</definition>
+        <argsstring>(gpoint_ts &amp;&amp;c)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="225" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1aadfd85100c5c4be9cda8d13a461b3616" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+        <definition>virtual point_interpretation_policy shyft::api::gpoint_ts::point_interpretation</definition>
+        <argsstring>() const </argsstring>
+        <name>point_interpretation</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a1e99c537a6a68f73be9f25255f6a355c">point_interpretation</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="231" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a6b5986ca3bb7bea8f72aed3158c63f2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void shyft::api::gpoint_ts::set_point_interpretation</definition>
+        <argsstring>(point_interpretation_policy point_interpretation)</argsstring>
+        <name>set_point_interpretation</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a6d49d01ce27a83666e593bcc66adfaee">set_point_interpretation</reimplements>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_interpretation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="232" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="232" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;</type>
+        <definition>virtual const gta_t&amp; shyft::api::gpoint_ts::time_axis</definition>
+        <argsstring>() const </argsstring>
+        <name>time_axis</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1afb16e128a38959662bbc3820294f0c06">time_axis</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns the effective time-axis of the timeseries </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="233" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="233" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a04ed624558abaf58fa514200d12a8bbf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+        <definition>virtual utcperiod shyft::api::gpoint_ts::total_period</definition>
+        <argsstring>() const </argsstring>
+        <name>total_period</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1ab986ad85dc3d25f2e431baef0d9bd3fc">total_period</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the total period of <ref refid="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" kindref="member">time_axis()</ref>, same as <ref refid="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" kindref="member">time_axis()</ref>.<ref refid="structshyft_1_1api_1_1gpoint__ts_1a04ed624558abaf58fa514200d12a8bbf" kindref="member">total_period()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="234" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="234" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a698b3725cd51b5898edb6a32fd92c5e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t shyft::api::gpoint_ts::index_of</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>index_of</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a912b5be3301a927a418488fbbe13cf61">index_of</reimplements>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>we might want index_of(t,ix-hint..) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the index_of(utctime t), using <ref refid="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" kindref="member">time_axis()</ref>.index_of(t) <ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="235" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="235" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a234af6a80d0f280c96c1d74154296c23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t shyft::api::gpoint_ts::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a976e2bd9388c72a33e2b964acb982062">size</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of points that descr. y=f(t) on t ::= period </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="236" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="236" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ae4453db51b6edcef85875f79bcc4e083" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>virtual utctime shyft::api::gpoint_ts::time</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>time</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a7a6d0519013084d48737bd8f0e430890">time</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" kindref="member">time_axis()</ref>.time(i), the start of the i&apos;th period in the time-axis </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="237" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="237" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a67fc17d9a5f43bcfd807cd9da79217df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double shyft::api::gpoint_ts::value</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>value</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1ab881d7e5507176fc6f1d6666b2e9f25b">value</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the value at the i&apos;th period of the time-axis </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="238" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="238" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a3dddc8a2a1b07082e00d4cb72307586e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double shyft::api::gpoint_ts::value_at</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>value_at</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a52c43342e8d5a00f725eb453465c4d24">value_at</reimplements>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the f(t) at the specified time t, </para></simplesect>
+<simplesect kind="note"><para>if t outside <ref refid="structshyft_1_1api_1_1gpoint__ts_1a04ed624558abaf58fa514200d12a8bbf" kindref="member">total_period()</ref> nan is returned </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="239" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="239" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ab0eec66a108bf17b02e5da7f2bcde1d9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>virtual std::vector&lt;double&gt; shyft::api::gpoint_ts::values</definition>
+        <argsstring>() const </argsstring>
+        <name>values</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1ae2ad4ba275ffaceb55116293e30811f1">values</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the values, one for each of the <ref refid="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" kindref="member">time_axis()</ref> intervals as a vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="240" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="240" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1a90b34888fcf97ab46d07bba1ea64e8b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::api::gpoint_ts::set</definition>
+        <argsstring>(size_t i, double x)</argsstring>
+        <name>set</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="242" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="242" bodyend="242"/>
+        <referencedby refid="classshyft_1_1api_1_1apoint__ts_1a0671d85163a851833f33c236b3c058df" compoundref="timeseries_8cpp" startline="125" endline="130">shyft::api::apoint_ts::set</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ae2aa7e87d0d8953939d946780d905214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::api::gpoint_ts::fill</definition>
+        <argsstring>(double x)</argsstring>
+        <name>fill</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="243" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="243" bodyend="243"/>
+        <referencedby refid="classshyft_1_1api_1_1apoint__ts_1a4a5939b8540a146fb80f98fdd3be243f" compoundref="timeseries_8cpp" startline="131" endline="136">shyft::api::apoint_ts::fill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1gpoint__ts_1ad7606fce4a23935b3bae8777f1285ff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::api::gpoint_ts::scale_by</definition>
+        <argsstring>(double x)</argsstring>
+        <name>scale_by</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="244" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="244" bodyend="244"/>
+        <referencedby refid="classshyft_1_1api_1_1apoint__ts_1a44252de65974b7b78f7f89427b2662f7" compoundref="timeseries_8cpp" startline="137" endline="142">shyft::api::apoint_ts::scale_by</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> a generic concrete point_ts, a terminal, not an expression </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> <ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref> is typically provided by repositories, that reads time-series from some provider, like database, file(netcdf etc), providing a set of values that are aligned to the specified time-axis. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1059">
+        <label>shyft::api::gpoint_ts</label>
+        <link refid="structshyft_1_1api_1_1gpoint__ts"/>
+        <childnode refid="1060" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>shyft::api::ipoint_ts</label>
+        <link refid="structshyft_1_1api_1_1ipoint__ts"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1061">
+        <label>shyft::api::gpoint_ts</label>
+        <link refid="structshyft_1_1api_1_1gpoint__ts"/>
+        <childnode refid="1062" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1063" relation="usage">
+          <edgelabel>rep</edgelabel>
+        </childnode>
+      </node>
+      <node id="1068">
+        <label>shyft::time_axis::calendar_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1calendar__dt"/>
+        <childnode refid="1065" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1066">
+        <label>shyft::time_axis::point_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1point__dt"/>
+        <childnode refid="1065" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1065">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="1063">
+        <label>shyft::timeseries::point_ts&lt; gta_t &gt;</label>
+        <link refid="structshyft_1_1timeseries_1_1point__ts"/>
+        <childnode refid="1064" relation="usage">
+          <edgelabel>ta</edgelabel>
+        </childnode>
+      </node>
+      <node id="1067">
+        <label>shyft::time_axis::fixed_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
+        <childnode refid="1065" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>shyft::time_axis::generic_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1generic__dt"/>
+        <childnode refid="1065" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1066" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+        <childnode refid="1067" relation="usage">
+          <edgelabel>f</edgelabel>
+        </childnode>
+        <childnode refid="1068" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+      <node id="1062">
+        <label>shyft::api::ipoint_ts</label>
+        <link refid="structshyft_1_1api_1_1ipoint__ts"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" line="207" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h" bodystart="207" bodyend="245"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ae2aa7e87d0d8953939d946780d905214" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>fill</name></member>
+      <member refid="structshyft_1_1api_1_1ipoint__ts_1aa4d8b8f884411fa6d97f2563b61146b8" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>get</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ae608c90088f0583804f8295e8805af6d" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ac79e20d8fe16118392d2f237314ff736" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a57b15a338fdd75e569589a6221dd87be" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ac2fc23d8125babc96070df8ae3be4419" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a693ea5e4158e5c7bcf2b68a4deb7ace1" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a7c7a9c802b808670980c0e9401b26b42" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a7e343b6bdc59e553e703809c3760cec3" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>gpoint_ts</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a698b3725cd51b5898edb6a32fd92c5e6" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>index_of</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1acb60ebc7f6afea658b6042df4a92c2d4" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a7fe7f2adc7d44db61b5ad9a748b6e0cc" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1aadfd85100c5c4be9cda8d13a461b3616" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>point_interpretation</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ac6fd3249d25091c2a80a3f0b7d7ef57f" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>rep</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ad7606fce4a23935b3bae8777f1285ff4" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>scale_by</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a90b34888fcf97ab46d07bba1ea64e8b4" prot="public" virt="non-virtual"><scope>shyft::api::gpoint_ts</scope><name>set</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a6b5986ca3bb7bea8f72aed3158c63f2b" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>set_point_interpretation</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a234af6a80d0f280c96c1d74154296c23" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>size</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ae4453db51b6edcef85875f79bcc4e083" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>time</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a1c3023d1119aa27f0c9d35137da264d4" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>time_axis</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a04ed624558abaf58fa514200d12a8bbf" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>total_period</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a67fc17d9a5f43bcfd807cd9da79217df" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>value</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1a3dddc8a2a1b07082e00d4cb72307586e" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>value_at</name></member>
+      <member refid="structshyft_1_1api_1_1gpoint__ts_1ab0eec66a108bf17b02e5da7f2bcde1d9" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>values</name></member>
+      <member refid="structshyft_1_1api_1_1ipoint__ts_1a223c013c82a80b458e97666f7da03ec7" prot="public" virt="virtual"><scope>shyft::api::gpoint_ts</scope><name>~ipoint_ts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Running a simulation with SHyFT &#8212; Shyft 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="Shyft 0.1 documentation" href="../../index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput,
+div.nbinput > div,
+div.nbinput div[class^=highlight],
+div.nbinput div[class^=highlight] pre,
+div.nboutput,
+div.nboutput > div,
+div.nboutput div[class^=highlight],
+div.nboutput div[class^=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput div[class^=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput,
+div.nboutput {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+/* input container */
+div.nbinput {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput > :first-child pre {
+    color: #303F9F;
+}
+
+/* output prompt */
+div.nboutput > :first-child pre {
+    color: #D84315;
+}
+
+/* all prompts */
+div.nbinput > :first-child[class^=highlight],
+div.nboutput > :first-child[class^=highlight],
+div.nboutput > :first-child {
+    min-width: 8ex;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
+    text-align: right;
+    flex: 0;
+}
+
+/* input/output area */
+div.nbinput > :nth-child(2)[class^=highlight],
+div.nboutput > :nth-child(2),
+div.nboutput > :nth-child(2)[class^=highlight] {
+    padding: 0.4em;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+/* input area */
+div.nbinput > :nth-child(2)[class^=highlight] {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    background: #f7f7f7;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.pngmath center alignment in output cells */
+div.nboutput div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput  > :nth-child(2).stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="section" id="Running-a-simulation-with-SHyFT">
+<h1>Running a simulation with SHyFT<a class="headerlink" href="#Running-a-simulation-with-SHyFT" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:">
+<h2>This notebook is guiding through the simulation process of a catchment. The following steps are described:<a class="headerlink" href="#This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><strong>Loading required python modules and setting path to SHyFT
+installation</strong></li>
+<li><strong>Configuration of a SHyFT simulation</strong></li>
+<li><strong>Running a SHyFT simulation</strong></li>
+<li><strong>Post-processing:</strong> Fetching simulation results from the
+simulator-object.</li>
+</ol>
+<div class="section" id="1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">
+<h3>1. Loading required python modules and setting path to SHyFT installation<a class="headerlink" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation" title="Permalink to this headline">¶</a></h3>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [1]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># first you should import the third-party python modules which you&#39;ll use later on
+# the first line enables that figures are shown inline, directly in the notebook
+%pylab inline
+import os
+from os import path
+import sys
+from matplotlib import pyplot as plt
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+Populating the interactive namespace from numpy and matplotlib
+</pre></div></div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [2]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># set the path for your shyft build
+# this should point to the directory that is created
+# when you clone shyft, assuming you have built shyft
+# there and not installed it to your system python
+shyft_path = os.path.abspath(&quot;../../../shyft&quot;)
+sys.path.insert(0, shyft_path)
+
+# you could achieve the same by setting a PYTHONPATH
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [3]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># once the shyft_path is set correctly, you should be able to import shyft modules
+import shyft
+from shyft import shyftdata_dir
+
+# if you have problems here, it may be related to having your LD_LIBRARY_PATH
+# pointing to the appropriate libboost_python libraries (.so files)
+from shyft.repository.default_state_repository import DefaultStateRepository
+from shyft.orchestration.configuration import yaml_configs
+from shyft.orchestration.simulators.config_simulator import ConfigSimulator
+from shyft import api
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [4]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># now you can access the api of shyft with tab completion and help, try this:
+
+#help(api.GeoPoint) # remove the hashtag and run the cell to print the documentation of the api.GeoPoint class
+#api. # remove the hashtag, set the pointer behind the dot and use
+      # tab completion to see the available attributes of the shyft api
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="2.-Configuration-of-a-SHyFT-simulation">
+<h3>2. Configuration of a SHyFT simulation<a class="headerlink" href="#2.-Configuration-of-a-SHyFT-simulation" title="Permalink to this headline">¶</a></h3>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [5]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># set up configuration using *.yaml configuration files
+# here is the *.yaml file that configures the simulation:
+config_file_path = os.path.abspath(&quot;./nea-config/neanidelva_simulation.yaml&quot;)
+
+# and here we pass it to the configurator, together with the name of the region
+# stated in the simulation.yaml file (here: &quot;neanidelva&quot;) which we would like to run
+cfg = yaml_configs.YAMLSimConfig(config_file_path, &quot;neanidelva&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [6]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Once we have all the configuration in place (read in from the .yaml files)
+# we can start to do the simulation. Here we use the ConfigSimulator class
+# to initialize a simulator-object. Shyft has several ways to achieve this
+# but the .yaml configs are the most straight forward
+
+simulator = ConfigSimulator(cfg)
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [7]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Now the simulator is ready to run! You can explore this object with tab
+# completion. As an example, you can see here how to get the number of cells
+# in the region that was set up. This is used later for extracting the data.
+
+n_cells = simulator.region_model.size()
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [8]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># We need to instantiate a state_repos repository from the DefaultStateRepository class
+# this will be used to provide initial values for the state variables of the simulation
+state_repos = DefaultStateRepository(simulator.region_model.__class__, n_cells)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="3.-Running-a-SHyFT-simulation">
+<h3>3. Running a SHyFT simulation<a class="headerlink" href="#3.-Running-a-SHyFT-simulation" title="Permalink to this headline">¶</a></h3>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [9]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># To run a simulation, we need a time_axis (length of the simulation), and
+# an initial state. We get the time_axis from the cfg object (which takes it
+# from the .yaml files) and the state we constructed above.
+
+simulator.run(cfg.time_axis, state_repos.get_state(0))
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+Fetching sources and running interpolation...
+Running simulation...
+</pre></div></div>
+</div>
+</div>
+<div class="section" id="4.-Post-processing">
+<h3>4. Post processing<a class="headerlink" href="#4.-Post-processing" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="Examples-for-fetching-data">
+<h4>Examples for fetching data<a class="headerlink" href="#Examples-for-fetching-data" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="a)-Get-the-discharge-for-each-(sub-)-catchment">
+<h4>a) Get the discharge for each (sub-) catchment<a class="headerlink" href="#a)-Get-the-discharge-for-each-(sub-)-catchment" title="Permalink to this headline">¶</a></h4>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [10]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># Here we are going to extact data from the simulator object.
+# We start by creating a list to hold discharge for each of the subcatchments.
+# Then we&#39;ll get the data from the simulator object
+
+# mapping of internal catch ID to catchment
+catchment_id_map = simulator.region_model.catchment_id_map
+
+# api.TsVector() is a list of api.Timeseries type.
+discharge_ts = api.TsVector() #  except from the type, it just works as a list()
+# loop over each catchment, and extract the time-series (we keep them as such for now)
+for cid in catchment_id_map: # fill in discharge time series for all subcatchments
+    discharge_ts.append(simulator.region_model.statistics.discharge([int(cid)]))
+    # discharge is a TS object,keeping a .time_axis and .values
+    # we can always do .values.to_numpy() to get the numpy array of the values.
+</pre></div>
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [11]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># We can make a quick plot of the data of each sub-catchment
+fig, ax = plt.subplots(figsize=(20,15))
+
+# plot each catchment discharge in the catchment_id_map
+for i,ts in enumerate(discharge_ts):
+    # a ts.time_axis can be enumerated to it&#39;s UtcPeriod, that have a .start and .end of type utctimestamp
+    # since matplotlib do have built in support for datetime-axis, we convert it to datetime
+    ts_timestamps = [datetime.datetime.utcfromtimestamp(p.start) for p in ts.time_axis]
+    ts_values = ts.values # iterable and convertible, .to_numpy() makes an np array
+    ax.plot(ts_timestamps,ts_values, label = &quot;{}&quot;.format(catchment_id_map[i]))
+fig.autofmt_xdate()
+ax.legend(title=&quot;Catch. ID&quot;)
+ax.set_ylabel(&quot;discharge [m3 s-1]&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>Out[11]:
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>&lt;matplotlib.text.Text at 0x7fbb5f253a90&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_16_1.png" src="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_16_1.png" />
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [12]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span>#
+# now we can also plot the statistical distribution of the discharges over the sub-catchments
+#
+percentiles= api.IntVector([10,25,50,-1,75,90])  # the percentiles we want, note -1 = arithmetic average
+
+# create a Daily(for the fun of it!) time-axis for the percentile calculations(our simulation could be hourly)
+ta_statistics = api.Timeaxis2(simulator.region_model.time_axis.time(0),api.Calendar.DAY,365)
+
+# then simply get out a new set of time-series, corresponding to the percentiles we specified
+discharge_percentiles = api.percentiles(discharge_ts,ta_statistics,percentiles)
+
+#utilize that we know that all the percentile time-series share a common time-axis
+common_timestamps = [datetime.datetime.utcfromtimestamp(p.start) for p in ta_statistics]
+
+# Then we can make another plot of the percentile data for the sub-catchments
+fig, ax = plt.subplots(figsize=(20,15))
+
+# plot each discharge percentile in the discharge_percentiles
+for i,ts_percentile in enumerate(discharge_percentiles):
+    clr=&#39;k&#39;
+    if percentiles[i] &gt;= 0.0:
+        clr= str(float(percentiles[i]/100.0))
+    ax.plot(common_timestamps, ts_percentile.values, label = &quot;{}&quot;.format(percentiles[i]),color=clr)
+
+# also plot catchment discharge along with the statistics
+# notice that we use .average(ta_statistics) to properly align true-average values to time-axis
+ax.plot(common_timestamps,discharge_ts[0].average(ta_statistics).values,label = &quot;CID {}&quot;.format(catchment_id_map[0]),linewidth=2.0,alpha=0.7,color=&#39;b&#39;)
+
+fig.autofmt_xdate()
+ax.legend(title=&quot;Percentiles&quot;)
+ax.set_ylabel(&quot;discharge [m3 s-1]&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>Out[12]:
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>&lt;matplotlib.text.Text at 0x7fbb5edbfe10&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_17_1.png" src="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_17_1.png" />
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [13]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># a simple percentile plot, from orchestration looks nicer
+from shyft.orchestration import plotting as splt
+oslo=api.Calendar(&#39;Europe/Oslo&#39;)
+fig,ax=plt.subplots(figsize=(16,8))
+splt.set_calendar_formatter(oslo)
+h,ph=splt.plot_np_percentiles(common_timestamps,[ p.values.to_numpy() for p in discharge_percentiles],base_color=(0.03,0.01,0.3))
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_18_0.png" src="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_18_0.png" />
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [14]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># If we&#39;re interested to look at values of individual cells, rather
+# than at the catchment level, we can do that also. Shyft does not have
+# an underlying &#39;raster&#39; model, so you need to fetch all cells directlry
+# from the simulator object
+cells = simulator.region_model.get_cells()
+
+# Once we have the cells, we can get their coordinate information
+# and fetch the x- and y-location of the cells
+x = [cell.geo.mid_point().x for cell in cells]
+y = [cell.geo.mid_point().y for cell in cells]
+
+
+# If you want to know the membership to each catchment
+# of the cells, you can get a list of catchment ids for each cell
+cid_z_map = dict([ (catchment_id_map[i],i) for i in range(len(catchment_id_map))])
+catch_ids = np.array([cid_z_map[cell.geo.catchment_id()] for cell in cells])
+
+# and make a quick catchment map...
+# using a scatter plot of the cells
+fig, ax = plt.subplots(figsize=(15,5))
+cm = plt.cm.get_cmap(&#39;rainbow&#39;)
+plot = ax.scatter(x, y, c=catch_ids, marker=&#39;.&#39;, s=40, lw=0, cmap=cm)
+plt.colorbar(plot).set_label(&#39;zero-based mapping(proper map tbd)&#39;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_19_0.png" src="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_19_0.png" />
+</div>
+</div>
+</div>
+<div class="section" id="b)-Get-the-Snow-Cover-Fraction-(SCF)-of-all-cells-for-a-certain-point-in-time">
+<h4>b) Get the Snow Cover Fraction (SCF) of all cells for a certain point in time<a class="headerlink" href="#b)-Get-the-Snow-Cover-Fraction-(SCF)-of-all-cells-for-a-certain-point-in-time" title="Permalink to this headline">¶</a></h4>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [15]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+
+<span></span># Here we&#39;ll do some more work to look at the timeseries data in each of the cells
+# This example is collecting the response variable (here the SCF)
+# for each of the cells for a certain point of time.
+# set a date: year, month, day, (hour of day if hourly time step)
+oslo = api.Calendar(&#39;Europe/Oslo&#39;) # specifying input calendar in olson tz-id
+time_x = oslo.time(2014,5,15)  # the oslo calendar(incl dst) converts calendar coordinates Y,M,D.. to its utc-time
+
+try:
+    idx = simulator.region_model.time_axis.index_of(time_x) # index of time x on time-axis
+except:
+    print(&quot;Date out of range, setting index to 0&quot;)
+    idx = 0
+
+# fetching SCF (the response variable is named &quot;snow_sca&quot;)
+# You can use tab-completion to explore the `rc`, short for &quot;response collector&quot;
+# object of the cell, to see further response variables available.
+scf = simulator.region_model.gamma_snow_response.sca([],idx) # specifying empty list [] indicates all catchments
+</pre></div>
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [16]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># And finally we can make a simple scatter plot for quick visualization
+fig, ax = plt.subplots(figsize=(15,5))
+cm = plt.cm.get_cmap(&#39;summer&#39;)
+plot = ax.scatter(x, y, c=scf, vmin=0, vmax=1, marker=&#39;s&#39;, s=40, lw=0, cmap=cm)
+plt.colorbar(plot)
+plt.title(&#39;Snow Covered area of {0} on {1}&#39;.format(cfg.region_model_id, oslo.to_string(time_x)))
+
+</pre></div>
+</div>
+</div>
+<div class="nboutput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>Out[16]:
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>&lt;matplotlib.text.Text at 0x7fbb5e4ef320&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_22_1.png" src="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_22_1.png" />
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [17]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span># And let&#39;s compute histogram of the snow covered area as well
+fig, ax = plt.subplots(figsize=(12,8))
+ax.hist(scf, bins=20, range=(0,1), color=&#39;y&#39;, alpha=0.5)
+ax.set_xlabel(&quot;SCF of grid cell&quot;)
+ax.set_ylabel(&quot;frequency&quot;)
+</pre></div>
+</div>
+</div>
+<div class="nboutput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>Out[17]:
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>&lt;matplotlib.text.Text at 0x7fbb5e5aa128&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_23_1.png" src="notebooks/nea-example/../../../core/sphinx/doctrees/nbsphinx/notebooks_nea-example_run_nea_nidelva_23_1.png" />
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+
+<span></span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [ ]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Running a simulation with SHyFT</a><ul>
+<li><a class="reference internal" href="#This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:">This notebook is guiding through the simulation process of a catchment. The following steps are described:</a><ul>
+<li><a class="reference internal" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">1. Loading required python modules and setting path to SHyFT installation</a></li>
+<li><a class="reference internal" href="#2.-Configuration-of-a-SHyFT-simulation">2. Configuration of a SHyFT simulation</a></li>
+<li><a class="reference internal" href="#3.-Running-a-SHyFT-simulation">3. Running a SHyFT simulation</a></li>
+<li><a class="reference internal" href="#4.-Post-processing">4. Post processing</a><ul>
+<li><a class="reference internal" href="#Examples-for-fetching-data">Examples for fetching data</a></li>
+<li><a class="reference internal" href="#a)-Get-the-discharge-for-each-(sub-)-catchment">a) Get the discharge for each (sub-) catchment</a></li>
+<li><a class="reference internal" href="#b)-Get-the-Snow-Cover-Fraction-(SCF)-of-all-cells-for-a-certain-point-in-time">b) Get the Snow Cover Fraction (SCF) of all cells for a certain point in time</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/notebooks/nea-example/run_nea_nidelva.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>

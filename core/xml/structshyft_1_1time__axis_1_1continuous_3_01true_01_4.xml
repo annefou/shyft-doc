@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1time__axis_1_1continuous_3_01true_01_4" kind="struct" prot="public">
+    <compoundname>shyft::time_axis::continuous&lt; true &gt;</compoundname>
+    <derivedcompoundref refid="structshyft_1_1time__axis_1_1calendar__dt" prot="public" virt="non-virtual">shyft::time_axis::calendar_dt</derivedcompoundref>
+    <derivedcompoundref refid="structshyft_1_1time__axis_1_1fixed__dt" prot="public" virt="non-virtual">shyft::time_axis::fixed_dt</derivedcompoundref>
+    <derivedcompoundref refid="structshyft_1_1time__axis_1_1generic__dt" prot="public" virt="non-virtual">shyft::time_axis::generic_dt</derivedcompoundref>
+    <derivedcompoundref refid="structshyft_1_1time__axis_1_1point__dt" prot="public" virt="non-virtual">shyft::time_axis::point_dt</derivedcompoundref>
+    <includes refid="time__axis_8h" local="no">time_axis.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1continuous_3_01true_01_4_1ad44db8ccec4b1b8cd1a9dc72d6fc485d" prot="public" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool shyft::time_axis::continuous&lt; true &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="40" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="927">
+        <label>shyft::time_axis::calendar_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1calendar__dt"/>
+        <childnode refid="926" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="930">
+        <label>shyft::time_axis::point_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1point__dt"/>
+        <childnode refid="926" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="926">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="928">
+        <label>shyft::time_axis::fixed_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
+        <childnode refid="926" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="929">
+        <label>shyft::time_axis::generic_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1generic__dt"/>
+        <childnode refid="926" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="39" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="39" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4_1ad44db8ccec4b1b8cd1a9dc72d6fc485d" prot="public" virt="non-virtual"><scope>shyft::time_axis::continuous&lt; true &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

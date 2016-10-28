@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1kalman_1_1parameter" kind="struct" prot="public">
+    <compoundname>shyft::core::kalman::parameter</compoundname>
+    <includes refid="kalman_8h" local="no">kalman.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1parameter_1a6eb5fd7e0113abe24f72c7d4abc3031b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int shyft::core::kalman::parameter::n_daily_observations</definition>
+        <argsstring></argsstring>
+        <name>n_daily_observations</name>
+        <initializer>=8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1parameter_1a8ba7b7fa8216910243f01dd5f51519a2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kalman::parameter::hourly_correlation</definition>
+        <argsstring></argsstring>
+        <name>hourly_correlation</name>
+        <initializer>=0.93</initializer>
+        <briefdescription>
+<para>&apos;mDim&apos; dt= n_daily_obserations/24hours </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="49" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1parameter_1a15eff8a125cbe4e3044fab14869a5d0e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kalman::parameter::covariance_init</definition>
+        <argsstring></argsstring>
+        <name>covariance_init</name>
+        <initializer>=0.5</initializer>
+        <briefdescription>
+<para>correlation from one-hour to the next </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1parameter_1a1fa357db699ee0a14954d798eb034d6b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kalman::parameter::std_error_bias_measurements</definition>
+        <argsstring></argsstring>
+        <name>std_error_bias_measurements</name>
+        <initializer>=2.0</initializer>
+        <briefdescription>
+<para>for the error covariance P matrix </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="51" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kalman_1_1parameter_1a1a811cc5f0e0af0ccceaae85ba485af4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kalman::parameter::ratio_std_w_over_v</definition>
+        <argsstring></argsstring>
+        <name>ratio_std_w_over_v</name>
+        <initializer>=0.06</initializer>
+        <briefdescription>
+<para>&apos;mV&apos;, st.dev </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="52" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1parameter_1ac1a95c5e1fbc176d7b5008fe793f96e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kalman::parameter::parameter</definition>
+        <argsstring>(int n_daily_observations=8, double hourly_correlation=0.93, double covariance_init=0.5, double std_error_bias_measurements=2.0, double ratio_std_w_over_v=0.06)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>int</type>
+          <declname>n_daily_observations</declname>
+          <defval>8</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>hourly_correlation</declname>
+          <defval>0.93</defval>
+          <briefdescription><para>&apos;mDim&apos; dt= n_daily_obserations/24hours </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>covariance_init</declname>
+          <defval>0.5</defval>
+          <briefdescription><para>correlation from one-hour to the next </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>std_error_bias_measurements</declname>
+          <defval>2.0</defval>
+          <briefdescription><para>for the error covariance P matrix </para></briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>ratio_std_w_over_v</declname>
+          <defval>0.06</defval>
+          <briefdescription><para>st.dev&apos;mRatio&apos; w= process noise, v= measurement noise </para></briefdescription>
+        </param>
+        <briefdescription>
+<para>st.dev W /st.dev V </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="53" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="53" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>parameters to tune the kalman-filter </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="47" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="47" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a15eff8a125cbe4e3044fab14869a5d0e" prot="public" virt="non-virtual"><scope>shyft::core::kalman::parameter</scope><name>covariance_init</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a8ba7b7fa8216910243f01dd5f51519a2" prot="public" virt="non-virtual"><scope>shyft::core::kalman::parameter</scope><name>hourly_correlation</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a6eb5fd7e0113abe24f72c7d4abc3031b" prot="public" virt="non-virtual"><scope>shyft::core::kalman::parameter</scope><name>n_daily_observations</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1ac1a95c5e1fbc176d7b5008fe793f96e5" prot="public" virt="non-virtual"><scope>shyft::core::kalman::parameter</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a1a811cc5f0e0af0ccceaae85ba485af4" prot="public" virt="non-virtual"><scope>shyft::core::kalman::parameter</scope><name>ratio_std_w_over_v</name></member>
+      <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a1fa357db699ee0a14954d798eb034d6b" prot="public" virt="non-virtual"><scope>shyft::core::kalman::parameter</scope><name>std_error_bias_measurements</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

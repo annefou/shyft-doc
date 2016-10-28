@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1experimental_1_1geo__cell__data__computer" kind="class" prot="public">
+    <compoundname>shyft::experimental::geo_cell_data_computer</compoundname>
+    <includes refid="experimental_8h" local="no">experimental.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1geo__cell__data__computer_1a1ae508307a522a071e1a3e731440ae91" prot="public" static="no" mutable="yes">
+        <type>int</type>
+        <definition>int shyft::experimental::geo_cell_data_computer::area_errors</definition>
+        <argsstring></argsstring>
+        <name>area_errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="431" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="431" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1geo__cell__data__computer_1aec59fdeffa129272f7b12df6c15d3afb" prot="public" static="no" mutable="yes">
+        <type>int</type>
+        <definition>int shyft::experimental::geo_cell_data_computer::suppressed_exceptions</definition>
+        <argsstring></argsstring>
+        <name>suppressed_exceptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="432" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1geo__cell__data__computer_1a58b1681f79f992e968f01bdef7ca9e24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::experimental::geo_cell_data_computer::geo_cell_data_computer</definition>
+        <argsstring>()</argsstring>
+        <name>geo_cell_data_computer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="361" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="361" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; <ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">ec::geo_cell_data</ref> &gt;</type>
+        <definition>vector&lt;ec::geo_cell_data&gt; shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</definition>
+        <argsstring>(const region_grid &amp;grid, int catchm_id, double radiation_factor, const multi_polygon &amp;catchm, const multi_polygon &amp;rsvx, const multi_polygon &amp;lakex, const multi_polygon &amp;glacierx, const multi_polygon &amp;forestx)</argsstring>
+        <name>catchment_geo_cell_data</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1experimental_1_1region__grid" kindref="compound">region_grid</ref> &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>catchm_id</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>radiation_factor</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>catchm</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>rsvx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>lakex</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>glacierx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>forestx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="365" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="365" bodyend="429"/>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1ad3afb381bc4c3c3f0598fc6027db7ba0" compoundref="experimental_8h" startline="346" endline="346">shyft::experimental::region_grid::n_cells</references>
+        <references refid="namespaceshyft_1_1core_1a012eb12624d0ee33c5b88721e4c23136" compoundref="utctime__utilities_8h" startline="87" endline="91">shyft::core::intersection</references>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1a2382db8e1b508b59431dc285a3604b50" compoundref="experimental_8h" startline="344" endline="344">shyft::experimental::region_grid::n_y</references>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1af362a642a7c0f1d754519261d6ed6de4" compoundref="experimental_8h" startline="325" endline="327">shyft::experimental::region_grid::cell_box</references>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1a787639ecc7ea64f778c021ec74cf1130" compoundref="experimental_8h" startline="335" endline="340">shyft::experimental::region_grid::dtm_z</references>
+        <references refid="classshyft_1_1experimental_1_1region__grid_1a84befb6d621e8f8f2d7ceebf8bed00c4" compoundref="experimental_8h" startline="342" endline="342">shyft::experimental::region_grid::n_x</references>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1geo__cell__data__computer_1a3f42b44f9db2d5dfbaa5bd835d17526a" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::experimental::geo_cell_data_computer::safe_area_of</definition>
+        <argsstring>(const multi_polygon &amp;cell, const multi_polygon &amp;feature) const </argsstring>
+        <name>safe_area_of</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>feature</declname>
+        </param>
+        <briefdescription>
+<para>calculates the area of the intersection between cell and a feature (like lake/forest), catching any exceptions </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cell</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the multi_polygon representing a cell geometry </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>feature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the multi_polygon representing the feature, like forest, lake,glacier </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>area of the intersection between cell and feature, 0.0 if any exception occur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="443" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="443" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1geo__cell__data__computer_1af3d6271d6f33481a2b49a20bd44d80ba" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1land__type__fractions" kindref="compound">ec::land_type_fractions</ref></type>
+        <definition>ec::land_type_fractions shyft::experimental::geo_cell_data_computer::compute_land_type_fractions</definition>
+        <argsstring>(double cell_area, const multi_polygon &amp;cell, const multi_polygon &amp;rsv, const multi_polygon &amp;lake, const multi_polygon &amp;glacier, const multi_polygon &amp;forest) const </argsstring>
+        <name>compute_land_type_fractions</name>
+        <param>
+          <type>double</type>
+          <declname>cell_area</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>rsv</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>lake</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>glacier</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1experimental_1ad4e1d347849eab005c8b30f83840766f" kindref="member">multi_polygon</ref> &amp;</type>
+          <declname>forest</declname>
+        </param>
+        <briefdescription>
+<para>Given geometry of cell, plus features geometry of reservoir, lake, glacier and forest, calculate the fractions of each feature in a robust manner. Note that the features rsv/lake/glacier and forrest are mutually exclusive within a cell (but this is not the case at the output from the GIS system). Typical problems is that the features are not exclusive, and we even have to deal with some special errors where the rsv_m2 and lake_m2 are equal, then set lake to 0.0 (since we assume that its a reservoir, based on manual check of data). Other issues is that the areas does not add up to 1.0, so we have to calculate the fractions in a robust manner. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structshyft_1_1core_1_1land__type__fractions" kindref="compound">shyft::core::land_type_fractions</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="466" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="466" bodyend="487"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A computer that given <ref refid="classshyft_1_1experimental_1_1region__grid" kindref="compound">region_grid</ref>, and catchment + features, delivers geo_cell_data filled in back. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>that this class uses the <ref refid="classshyft_1_1experimental_1_1region__grid" kindref="compound">region_grid</ref> class to provide the region grid geometry along with the elevation(z). </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="359" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="359" bodyend="488"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1a1ae508307a522a071e1a3e731440ae91" prot="public" virt="non-virtual"><scope>shyft::experimental::geo_cell_data_computer</scope><name>area_errors</name></member>
+      <member refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" prot="public" virt="non-virtual"><scope>shyft::experimental::geo_cell_data_computer</scope><name>catchment_geo_cell_data</name></member>
+      <member refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1af3d6271d6f33481a2b49a20bd44d80ba" prot="private" virt="non-virtual"><scope>shyft::experimental::geo_cell_data_computer</scope><name>compute_land_type_fractions</name></member>
+      <member refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1a58b1681f79f992e968f01bdef7ca9e24" prot="public" virt="non-virtual"><scope>shyft::experimental::geo_cell_data_computer</scope><name>geo_cell_data_computer</name></member>
+      <member refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1a3f42b44f9db2d5dfbaa5bd835d17526a" prot="private" virt="non-virtual"><scope>shyft::experimental::geo_cell_data_computer</scope><name>safe_area_of</name></member>
+      <member refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1aec59fdeffa129272f7b12df6c15d3afb" prot="public" virt="non-virtual"><scope>shyft::experimental::geo_cell_data_computer</scope><name>suppressed_exceptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

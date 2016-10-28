@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1grf_1_1semi__variogram" kind="class" prot="public">
+    <compoundname>shyft::core::grf::semi_variogram</compoundname>
+    <includes refid="gaussian__random__field_8h" local="no">gaussian_random_field.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a043b37096564d8f3065504fe1adf6a1f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::_nugget</definition>
+        <argsstring></argsstring>
+        <name>_nugget</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="591" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a7c10b0ba4c4a4b33a4be4e2da0d13d99" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::_sill</definition>
+        <argsstring></argsstring>
+        <name>_sill</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="592" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a6dad4b8571ea4b0f71360aa1727feaca" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::_range</definition>
+        <argsstring></argsstring>
+        <name>_range</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="593" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ae3a3297cc782de0e50e9f3eb124d095a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::_shape</definition>
+        <argsstring></argsstring>
+        <name>_shape</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="594" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ac338a82f78e16595044c4342157b104c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::_anisotropy_ratio</definition>
+        <argsstring></argsstring>
+        <name>_anisotropy_ratio</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="595" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a08f7e225e90886e70c90817bd1c394f3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::_anisotropy_direction</definition>
+        <argsstring></argsstring>
+        <name>_anisotropy_direction</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="596" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="596" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a37dce700efceaba10eaa3dbb9eed0e6f" prot="private" static="no" mutable="no">
+        <type>arma::mat</type>
+        <definition>arma::mat shyft::core::grf::semi_variogram::anisotropy_distances</definition>
+        <argsstring></argsstring>
+        <name>anisotropy_distances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="597" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ae222a31f325a4b217b043f4a6eb21070" prot="private" static="no" mutable="no">
+        <type>arma::mat</type>
+        <definition>arma::mat shyft::core::grf::semi_variogram::station_covariances</definition>
+        <argsstring></argsstring>
+        <name>station_covariances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="598" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1aa71242bf638555f2508af0c3115d1d9b" prot="private" static="no" mutable="no">
+        <type>arma::mat</type>
+        <definition>arma::mat shyft::core::grf::semi_variogram::station_angles</definition>
+        <argsstring></argsstring>
+        <name>station_angles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="599" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a6e6c7c43501454379f6c17848c91a8d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::range</definition>
+        <argsstring>() const </argsstring>
+        <name>range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="601" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="601" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ad2132cc745fd2e7be1ab42627966cd2b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::shape</definition>
+        <argsstring>() const </argsstring>
+        <name>shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="602" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="602" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ac3064448f808f33d243053601b763954" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::sill</definition>
+        <argsstring>() const </argsstring>
+        <name>sill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="603" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="603" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ab476efda72df482d624ee7eb4f55fe48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::nugget</definition>
+        <argsstring>() const </argsstring>
+        <name>nugget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="604" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="604" bodyend="604"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a9704d0f349fecf5e356363e38c42b4d3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::anisotropy_ratio</definition>
+        <argsstring>() const </argsstring>
+        <name>anisotropy_ratio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="605" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="605" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a86a4c5bfb706ee3b901b77c67d4cbe82" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::grf::semi_variogram::anisotropy_direction</definition>
+        <argsstring>() const </argsstring>
+        <name>anisotropy_direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="606" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="606" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a616a76b576c4c7acca7d9fcf3a75df73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::semi_variogram::set_range</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_range</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="607" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="607" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1af91998d7463c2a4a1f0f516c24607c04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::semi_variogram::set_shape</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_shape</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="608" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="608" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a318e85c0a297a33f9d0a46386332220b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::semi_variogram::set_sill</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_sill</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="609" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="609" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a93ecf1202af30b3b0cf8c3a130a4a383" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::grf::semi_variogram::set_nugget</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_nugget</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="610" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="610" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1ad28ecf53c46b084c5d458a8eecea32ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::grf::semi_variogram::semi_variogram</definition>
+        <argsstring>(double nugget, double sill, double range)</argsstring>
+        <name>semi_variogram</name>
+        <param>
+          <type>double</type>
+          <declname>nugget</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sill</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="612" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="612" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1a050966e18a4339df3398d18af7a6426f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::grf::semi_variogram::semi_variogram</definition>
+        <argsstring>(double nugget, double sill, double range, double shape)</argsstring>
+        <name>semi_variogram</name>
+        <param>
+          <type>double</type>
+          <declname>nugget</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sill</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="613" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="613" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1grf_1_1semi__variogram_1af7ee9eb2be357d19dd49a62a3d459e7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename M</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::grf::semi_variogram::calculate_station_covariances</definition>
+        <argsstring>()</argsstring>
+        <name>calculate_station_covariances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="633" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="633" bodyend="635"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="589" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="589" bodyend="636"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a08f7e225e90886e70c90817bd1c394f3" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>_anisotropy_direction</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ac338a82f78e16595044c4342157b104c" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>_anisotropy_ratio</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a043b37096564d8f3065504fe1adf6a1f" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>_nugget</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a6dad4b8571ea4b0f71360aa1727feaca" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>_range</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ae3a3297cc782de0e50e9f3eb124d095a" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>_shape</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a7c10b0ba4c4a4b33a4be4e2da0d13d99" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>_sill</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a86a4c5bfb706ee3b901b77c67d4cbe82" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>anisotropy_direction</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a37dce700efceaba10eaa3dbb9eed0e6f" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>anisotropy_distances</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a9704d0f349fecf5e356363e38c42b4d3" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>anisotropy_ratio</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1af7ee9eb2be357d19dd49a62a3d459e7a" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>calculate_station_covariances</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ab476efda72df482d624ee7eb4f55fe48" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>nugget</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a6e6c7c43501454379f6c17848c91a8d2" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>range</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ad28ecf53c46b084c5d458a8eecea32ab" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>semi_variogram</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a050966e18a4339df3398d18af7a6426f" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>semi_variogram</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a93ecf1202af30b3b0cf8c3a130a4a383" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>set_nugget</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a616a76b576c4c7acca7d9fcf3a75df73" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>set_range</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1af91998d7463c2a4a1f0f516c24607c04" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>set_shape</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1a318e85c0a297a33f9d0a46386332220b" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>set_sill</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ad2132cc745fd2e7be1ab42627966cd2b" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>shape</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ac3064448f808f33d243053601b763954" prot="public" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>sill</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1aa71242bf638555f2508af0c3115d1d9b" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>station_angles</name></member>
+      <member refid="classshyft_1_1core_1_1grf_1_1semi__variogram_1ae222a31f325a4b217b043f4a6eb21070" prot="private" virt="non-virtual"><scope>shyft::core::grf::semi_variogram</scope><name>station_covariances</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

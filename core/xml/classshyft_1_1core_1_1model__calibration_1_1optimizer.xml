@@ -1,0 +1,1338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1model__calibration_1_1optimizer" kind="class" prot="public">
+    <compoundname>shyft::core::model_calibration::optimizer</compoundname>
+    <includes refid="model__calibration_8h" local="no">model_calibration.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class M</type>
+      </param>
+      <param>
+        <type>class PA</type>
+      </param>
+      <param>
+        <type>class PS</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a83d9d8f6778b39a0da125c5c82d534ef" prot="public" static="no">
+        <type>dlib::matrix&lt; double, 0, 1 &gt;</type>
+        <definition>typedef dlib::matrix&lt;double, 0, 1&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::column_vector</definition>
+        <argsstring></argsstring>
+        <name>column_vector</name>
+        <briefdescription>
+<para>dlib optimizer enjoys dlib matrix types. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="314" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a465f447636d0348323d8310a7c89f499" prot="public" static="no">
+        <type>PS</type>
+        <definition>typedef PS shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::target_time_series_t</definition>
+        <argsstring></argsstring>
+        <name>target_time_series_t</name>
+        <briefdescription>
+<para>target_time_series_t. could that be of same type as model calc, always, or is it supplied from outside? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="315" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1model__calibration_1_1target__specification" kindref="compound">target_specification</ref>&lt; PS &gt;</type>
+        <definition>typedef target_specification&lt;PS&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::target_specification_t</definition>
+        <argsstring></argsstring>
+        <name>target_specification_t</name>
+        <briefdescription>
+<para>describes how to calculate the goal function, maybe better &apos;retemplate&apos; on this </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="317" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6793d8d0161d269d05c0f9563d7f6dab" prot="public" static="no">
+        <type>M</type>
+        <definition>typedef M shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::region_model_t</definition>
+        <argsstring></argsstring>
+        <name>region_model_t</name>
+        <briefdescription>
+<para>obvious and Ok template, the <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">region_model</ref>, and there is just a few things that we need from this template. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="318" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa2b80f7e1be5ddf42a284626ff695201" prot="public" static="no">
+        <type>M::state_t</type>
+        <definition>typedef M::state_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::state_t</definition>
+        <argsstring></argsstring>
+        <name>state_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="319" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aeb3992fa4a88c3036683dae1dd9af4fa" prot="public" static="no">
+        <type>M::parameter_t</type>
+        <definition>typedef M::parameter_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_t</definition>
+        <argsstring></argsstring>
+        <name>parameter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="320" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6032a61ce6a869e7de4f5831aaa5356b" prot="public" static="no">
+        <type>M::cell_t</type>
+        <definition>typedef M::cell_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::cell_t</definition>
+        <argsstring></argsstring>
+        <name>cell_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="321" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6846cf441df5d1156b73005cb219f52c" prot="public" static="no">
+        <type>cell_t::response_collector_t</type>
+        <definition>typedef cell_t::response_collector_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::response_collector_t</definition>
+        <argsstring></argsstring>
+        <name>response_collector_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="322" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aafdd315906e5219d9e0a8b8ee8dfbc76" prot="public" static="no" mutable="no">
+        <type>PA</type>
+        <definition>PA shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_lower_bound</definition>
+        <argsstring></argsstring>
+        <name>parameter_lower_bound</name>
+        <briefdescription>
+<para>current setting of parameter lower bound </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="324" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="324" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a1f5d2a52fc006471600614f6d5d54b0b" compoundref="model__calibration_8h" startline="329" endline="329">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::active_parameter</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a4fce112251127c578f95a5b5d6513f97" compoundref="model__calibration_8h" startline="399" endline="403">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_target_specification</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aace152222deb93cf6b6f8bdf818952a9" compoundref="model__calibration_8h" startline="546" endline="549">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_parameter_ranges</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a2dd3434d467e6f079d7b77b78e61b96d" prot="public" static="no" mutable="no">
+        <type>PA</type>
+        <definition>PA shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_upper_bound</definition>
+        <argsstring></argsstring>
+        <name>parameter_upper_bound</name>
+        <briefdescription>
+<para>current setting of parameter upper bound </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="325" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="325" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a1f5d2a52fc006471600614f6d5d54b0b" compoundref="model__calibration_8h" startline="329" endline="329">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::active_parameter</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a4fce112251127c578f95a5b5d6513f97" compoundref="model__calibration_8h" startline="399" endline="403">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_target_specification</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aace152222deb93cf6b6f8bdf818952a9" compoundref="model__calibration_8h" startline="546" endline="549">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_parameter_ranges</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aef726f27748c090027974d4a7083b195" prot="public" static="no" mutable="no">
+        <type>PA &amp;</type>
+        <definition>PA&amp; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_accessor</definition>
+        <argsstring></argsstring>
+        <name>parameter_accessor</name>
+        <briefdescription>
+<para>a <emphasis>reference</emphasis> to the model parameters in the target model, all cells share this! </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="326" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" prot="public" static="no" mutable="no">
+        <type><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6793d8d0161d269d05c0f9563d7f6dab" kindref="member">region_model_t</ref> &amp;</type>
+        <definition>region_model_t&amp; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+<para>a reference to the region model that we optimize </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="327" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="327" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a21c6266ecc38acb0bdaf9087b98506ce" compoundref="model__calibration_8h" startline="406" endline="410">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::establish_initial_state_from_model</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adc562b9ec817dca734b5a01b427bb619" compoundref="model__calibration_8h" startline="448" endline="454">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::auto_initial_state_check</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a973f82e36d67ddb753a2c05dff0ddef4" compoundref="model__calibration_8h" startline="457" endline="460">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::get_initial_state</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1abd875cab3afb4f296ab96879964d8449" compoundref="model__calibration_8h" startline="542" endline="544">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::reset_states</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a952151b56ed526fba4448da8b1961c9a" prot="public" static="no" mutable="no">
+        <type>vector&lt; <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &gt;</type>
+        <definition>vector&lt;target_specification_t&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::targets</definition>
+        <argsstring></argsstring>
+        <name>targets</name>
+        <briefdescription>
+<para>list of targets ts&amp; catchments indexes to be optimized, used to calculate goal function </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="328" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="328" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a4fce112251127c578f95a5b5d6513f97" compoundref="model__calibration_8h" startline="399" endline="403">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_target_specification</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a9a406510ad6941f4d4a11f6e197ba56a" prot="private" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::p_expanded</definition>
+        <argsstring></argsstring>
+        <name>p_expanded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="331" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a96ad06f443e7b20432f0dd4be539ecd2" prot="private" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::p_min</definition>
+        <argsstring></argsstring>
+        <name>p_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="332" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a32b486caf765b0707b831c57338ab90c" prot="private" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::p_max</definition>
+        <argsstring></argsstring>
+        <name>p_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="333" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ad1fe7c3580ac1204fe6acc2d3e21564b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::print_progress_level</definition>
+        <argsstring></argsstring>
+        <name>print_progress_level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="334" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a61e69487e0a023199f9d9a9199db9745" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::n_catchments</definition>
+        <argsstring></argsstring>
+        <name>n_catchments</name>
+        <briefdescription>
+<para>optimized counted number of model.catchments available </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="335" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6cde66292c3b21239e317342c6540a5e" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::activate_limit</definition>
+        <argsstring></argsstring>
+        <name>activate_limit</name>
+        <initializer>= 0.000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="337" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a27b2fc3d4a8b6513eeac7ab68a73ce2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class calibration_test</definition>
+        <argsstring></argsstring>
+        <name>calibration_test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="569" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a1f5d2a52fc006471600614f6d5d54b0b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::active_parameter</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>active_parameter</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="329" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="329" bodyend="329"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a2dd3434d467e6f079d7b77b78e61b96d" compoundref="model__calibration_8h" startline="325">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_upper_bound</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aafdd315906e5219d9e0a8b8ee8dfbc76" compoundref="model__calibration_8h" startline="324">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_lower_bound</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab1bfa9505b131d6f465d3a41f6996819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimizer</definition>
+        <argsstring>(region_model_t &amp;model, const vector&lt; target_specification_t &gt; &amp;targetsA, const vector&lt; double &gt; &amp;p_min, const vector&lt; double &gt; &amp;p_max)</argsstring>
+        <name>optimizer</name>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6793d8d0161d269d05c0f9563d7f6dab" kindref="member">region_model_t</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>const vector&lt; <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &gt; &amp;</type>
+          <declname>targetsA</declname>
+        </param>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>p_min</declname>
+        </param>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>p_max</declname>
+        </param>
+        <briefdescription>
+<para>construct an opt model for ptgsk, use p_min=p_max to disable optimization for a parameter </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference to the model to be optimized, the model should be initialized, i.e. the interpolation step done. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>vector&lt;target_specification_t&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies how to calculate the goal-function, <ref refid="structshyft_1_1core_1_1model__calibration_1_1target__specification" kindref="compound">shyft::core::model_calibration::target_specification</ref> </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>minimum values for the parameters to be optimized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum values for the parameters to be optimized </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="372" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="372" bodyend="379"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aace152222deb93cf6b6f8bdf818952a9" compoundref="model__calibration_8h" startline="546" endline="549">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_parameter_ranges</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a127beaee84ddbafc8dc4e7d536f141aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimizer</definition>
+        <argsstring>(region_model_t &amp;model)</argsstring>
+        <name>optimizer</name>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6793d8d0161d269d05c0f9563d7f6dab" kindref="member">region_model_t</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an optimizer based on the supplied model, kept as a reference(!) To optimize, first call <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a4fce112251127c578f95a5b5d6513f97" kindref="member">set_target_specification()</ref>, then call any of optimize_xxx(...) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="385" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="385" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a4fce112251127c578f95a5b5d6513f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_target_specification</definition>
+        <argsstring>(const vector&lt; target_specification_t &gt; &amp;targetsA, const PA &amp;param_lower_bound, const PA &amp;param_upper_bound)</argsstring>
+        <name>set_target_specification</name>
+        <param>
+          <type>const vector&lt; <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &gt; &amp;</type>
+          <declname>targetsA</declname>
+        </param>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>param_lower_bound</declname>
+        </param>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>param_upper_bound</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set all parameters that matters for the calibration. <ref refid="namespace_the" kindref="compound">The</ref> lower and upper bounds determines which parameters are subject to calibration. If lower and upper bound are equal, the parameter is untouched during calibration (regardless value)</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetsA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies the goal function description </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_lower_bound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies the lower bound of the parameter set </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_upper_bound</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies the upper bound of the parameter set </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="399" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="399" bodyend="403"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a952151b56ed526fba4448da8b1961c9a" compoundref="model__calibration_8h" startline="328">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::targets</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aafdd315906e5219d9e0a8b8ee8dfbc76" compoundref="model__calibration_8h" startline="324">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_lower_bound</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a2dd3434d467e6f079d7b77b78e61b96d" compoundref="model__calibration_8h" startline="325">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_upper_bound</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a21c6266ecc38acb0bdaf9087b98506ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::establish_initial_state_from_model</definition>
+        <argsstring>()</argsstring>
+        <name>establish_initial_state_from_model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>copy the model current state into internal store of the calibration class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="406" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="406" bodyend="410"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" compoundref="model__calibration_8h" startline="327">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::model</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adc562b9ec817dca734b5a01b427bb619" compoundref="model__calibration_8h" startline="448" endline="454">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::auto_initial_state_check</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</definition>
+        <argsstring>()</argsstring>
+        <name>prepare_optimize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>prepare the optimization process by looking at the current state of the supplied parameters. Ensures :<orderedlist>
+<listitem><para>the model have a global parameter-set</para></listitem><listitem><para>the collection of SCA/SWE is turned on if requested</para></listitem><listitem><para>the catchment-filter is set according to target-specification request </para></listitem></orderedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="419" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="419" bodyend="447"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aafdd315906e5219d9e0a8b8ee8dfbc76" compoundref="model__calibration_8h" startline="324">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_lower_bound</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a2dd3434d467e6f079d7b77b78e61b96d" compoundref="model__calibration_8h" startline="325">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_upper_bound</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" compoundref="model__calibration_8h" startline="327">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::model</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a952151b56ed526fba4448da8b1961c9a" compoundref="model__calibration_8h" startline="328">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::targets</references>
+        <references refid="namespaceshyft_1_1core_1_1model__calibration_1a5668311af81a0424b26f96379c9ea756aa948a33766c00e5ed6144fc0451c303d" compoundref="model__calibration_8h" startline="160">shyft::core::model_calibration::DISCHARGE</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adc562b9ec817dca734b5a01b427bb619" compoundref="model__calibration_8h" startline="448" endline="454">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::auto_initial_state_check</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" compoundref="model__calibration_8h" startline="472" endline="481">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3220c4464a7735f03ad4494b9f956db0" compoundref="model__calibration_8h" startline="498" endline="506">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_dream</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" compoundref="model__calibration_8h" startline="524" endline="532">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adc562b9ec817dca734b5a01b427bb619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::auto_initial_state_check</definition>
+        <argsstring>()</argsstring>
+        <name>auto_initial_state_check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="448" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="448" bodyend="454"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" compoundref="model__calibration_8h" startline="327">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::model</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a21c6266ecc38acb0bdaf9087b98506ce" compoundref="model__calibration_8h" startline="406" endline="410">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::establish_initial_state_from_model</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a973f82e36d67ddb753a2c05dff0ddef4" compoundref="model__calibration_8h" startline="457" endline="460">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::get_initial_state</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a973f82e36d67ddb753a2c05dff0ddef4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa2b80f7e1be5ddf42a284626ff695201" kindref="member">state_t</ref></type>
+        <definition>state_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::get_initial_state</definition>
+        <argsstring>(size_t idx)</argsstring>
+        <name>get_initial_state</name>
+        <param>
+          <type>size_t</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the initial state for the i&apos;th cell </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="457" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="457" bodyend="460"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adc562b9ec817dca734b5a01b427bb619" compoundref="model__calibration_8h" startline="448" endline="454">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::auto_initial_state_check</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" compoundref="model__calibration_8h" startline="327">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::model</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</definition>
+        <argsstring>(vector&lt; double &gt; p, size_t max_n_evaluations=1500, double tr_start=0.1, double tr_stop=1.0e-5)</argsstring>
+        <name>optimize</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_n_evaluations</declname>
+          <defval>1500</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tr_start</declname>
+          <defval>0.1</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tr_stop</declname>
+          <defval>1.0e-5</defval>
+        </param>
+        <briefdescription>
+<para>Call to optimize model, starting with p parameter set, using p_min..p_max as boundaries. where p is the full parameter vector. the p_min,p_max specified in constructor is used to reduce the parameterspace for the optimizer down to a minimum number to facilitate fast run. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains the starting point for the parameters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_n_evaluations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stop after n calls of the objective functions, i.e. simulations. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tr_start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the trust region start , default 0.1, ref bobyqa </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tr_stop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the trust region stop, default 1e-5, ref bobyqa </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the optimized parameter vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="472" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="472" bodyend="481"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</references>
+        <references refid="namespaceshyft_1_1core_1_1model__calibration_1a29d1dd6f07e3da2747064b5f2de13eed" compoundref="model__calibration_8h" startline="30">shyft::core::model_calibration::min_bobyqa</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a683ed17fa2154d1ef87dcbb457c3e0b3" compoundref="model__calibration_8h" startline="484" endline="488">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a683ed17fa2154d1ef87dcbb457c3e0b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PA</type>
+        <definition>PA shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</definition>
+        <argsstring>(const PA &amp;p, size_t max_n_evaluations=1500, double tr_start=0.1, double tr_stop=1.0e-5)</argsstring>
+        <name>optimize</name>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_n_evaluations</declname>
+          <defval>1500</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tr_start</declname>
+          <defval>0.1</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>tr_stop</declname>
+          <defval>1.0e-5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optimize using minbobyqa, using p as starting parameters, return new optimized parameters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="484" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="484" bodyend="488"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" compoundref="model__calibration_8h" startline="472" endline="481">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3220c4464a7735f03ad4494b9f956db0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_dream</definition>
+        <argsstring>(vector&lt; double &gt; p, size_t max_n_evaluations=1500)</argsstring>
+        <name>optimize_dream</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_n_evaluations</declname>
+          <defval>1500</defval>
+        </param>
+        <briefdescription>
+<para>Call to optimize model, using DREAM alg., find p, using p_min..p_max as boundaries. where p is the full parameter vector. the p_min,p_max specified in constructor is used to reduce the parameterspace for the optimizer down to a minimum number to facilitate fast run. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is used as start point (not really, DREAM use random, but we should be able to pass u and q.... </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_n_evaluations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stop after n calls of the objective functions, i.e. simulations. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the optimized parameter vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="498" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="498" bodyend="506"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa176e5163bfc801c93a258cd298691c3" compoundref="model__calibration_8h" startline="508" endline="512">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_dream</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa176e5163bfc801c93a258cd298691c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PA</type>
+        <definition>PA shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_dream</definition>
+        <argsstring>(const PA &amp;p, size_t max_n_evaluations=1500)</argsstring>
+        <name>optimize_dream</name>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_n_evaluations</declname>
+          <defval>1500</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optimize using the dream algorithm, returning the new optimized parameter set </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="508" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="508" bodyend="512"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3220c4464a7735f03ad4494b9f956db0" compoundref="model__calibration_8h" startline="498" endline="506">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_dream</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</definition>
+        <argsstring>(vector&lt; double &gt; p, size_t max_n_evaluations=1500, double x_eps=0.0001, double y_eps=1.0e-5)</argsstring>
+        <name>optimize_sceua</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_n_evaluations</declname>
+          <defval>1500</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x_eps</declname>
+          <defval>0.0001</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y_eps</declname>
+          <defval>1.0e-5</defval>
+        </param>
+        <briefdescription>
+<para>Call to optimize model, using SCE UA, using p as startpoint, find p, using p_min..p_max as boundaries. where p is the full parameter vector. the p_min,p_max specified in constructor is used to reduce the parameterspace for the optimizer down to a minimum number to facilitate fast run. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is used as start point and is updated with the found optimal points </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_n_evaluations</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stop after n calls of the objective functions, i.e. simulations. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x_eps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is stop condition when all changes in x&apos;s are within this range </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y_eps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is stop condition, and search is stopped when goal function does not improve anymore within this range </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the optimized parameter vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="524" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="524" bodyend="532"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" compoundref="model__calibration_8h" startline="419" endline="447">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::prepare_optimize</references>
+        <references refid="namespaceshyft_1_1core_1_1model__calibration_1a382ab7d062b7bfa5337fd166f81c83e6" compoundref="model__calibration_8h" startline="106" endline="127">shyft::core::model_calibration::min_sceua</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5f40ae12b9673f513fbe3ccc3c679caf" compoundref="model__calibration_8h" startline="535" endline="539">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5f40ae12b9673f513fbe3ccc3c679caf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PA</type>
+        <definition>PA shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</definition>
+        <argsstring>(const PA &amp;p, size_t max_n_evaluations=1500, double x_eps=0.0001, double y_eps=1.0e-5)</argsstring>
+        <name>optimize_sceua</name>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>max_n_evaluations</declname>
+          <defval>1500</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x_eps</declname>
+          <defval>0.0001</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y_eps</declname>
+          <defval>1.0e-5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optimize using the dream algorithm, returning the new optimized parameter set </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="535" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="535" bodyend="539"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" compoundref="model__calibration_8h" startline="524" endline="532">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1abd875cab3afb4f296ab96879964d8449" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::reset_states</definition>
+        <argsstring>()</argsstring>
+        <name>reset_states</name>
+        <briefdescription>
+<para>reset the state of the model to the initial state before starting the run/optimize </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="542" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="542" bodyend="544"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" compoundref="model__calibration_8h" startline="327">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::model</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aace152222deb93cf6b6f8bdf818952a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_parameter_ranges</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;p_min, const vector&lt; double &gt; &amp;p_max)</argsstring>
+        <name>set_parameter_ranges</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>p_min</declname>
+        </param>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>p_max</declname>
+        </param>
+        <briefdescription>
+<para>set the parameter ranges, set min=max=wanted parameter value for those not subject to change during optimization </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="546" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="546" bodyend="549"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aafdd315906e5219d9e0a8b8ee8dfbc76" compoundref="model__calibration_8h" startline="324">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_lower_bound</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a2dd3434d467e6f079d7b77b78e61b96d" compoundref="model__calibration_8h" startline="325">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::parameter_upper_bound</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab1bfa9505b131d6f465d3a41f6996819" compoundref="model__calibration_8h" startline="372" endline="379">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimizer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1acbdadaf09aaabcc10ddd5158f73bd2d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::set_verbose_level</definition>
+        <argsstring>(int level)</argsstring>
+        <name>set_verbose_level</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="551" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="551" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ae9ab44d07a6f55984e218483456bd757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::calculate_goal_function</definition>
+        <argsstring>(std::vector&lt; double &gt; full_vector_of_parameters)</argsstring>
+        <name>calculate_goal_function</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>full_vector_of_parameters</declname>
+        </param>
+        <briefdescription>
+<para>calculate the goal_function as used by minbobyqa, using the full set of parameters vectors (as passed to <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" kindref="member">optimize()</ref>) and also ensures that the shyft state/cell/catchment result is consistent with the passed parameters passed </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>full_vector_of_parameters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains all parameters that will be applied to the run. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the goal-function, weigthed nash_sutcliffe sum </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="559" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="559" bodyend="562"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a43bb8a6b3dae6b513c68ea78176e599a" compoundref="model__calibration_8h" startline="565" endline="567">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::calculate_goal_function</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a43bb8a6b3dae6b513c68ea78176e599a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::calculate_goal_function</definition>
+        <argsstring>(const PA &amp;p)</argsstring>
+        <name>calculate_goal_function</name>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compute the goal function with the specified parameter set </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="565" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="565" bodyend="567"/>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ae9ab44d07a6f55984e218483456bd757" compoundref="model__calibration_8h" startline="559" endline="562">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::calculate_goal_function</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1af72de88358821a048432b9d099f0b397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::operator()</definition>
+        <argsstring>(const column_vector &amp;p_s)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a83d9d8f6778b39a0da125c5c82d534ef" kindref="member">column_vector</ref> &amp;</type>
+          <declname>p_s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called by bobyqua: </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="571" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="571" bodyend="571"/>
+        <references refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="142" endline="221">shyft::core::pt_hs_k::run</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a87369b01f2373e323de7cc1e23c72197" compoundref="model__calibration_8h" startline="587" endline="596">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::from_scaled</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a619914f52ab547f433676cba5cd90135" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::operator()</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;p_s)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>p_s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="572" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="572" bodyend="572"/>
+        <references refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="142" endline="221">shyft::core::pt_hs_k::run</references>
+        <references refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a87369b01f2373e323de7cc1e23c72197" compoundref="model__calibration_8h" startline="587" endline="596">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::from_scaled</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab33888d66a324cd98d8e2f552e16ac76" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::to_scaled</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;rp) const </argsstring>
+        <name>to_scaled</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>rp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called by bobyqua:reduced parameter space p </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="575" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="575" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a87369b01f2373e323de7cc1e23c72197" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::from_scaled</definition>
+        <argsstring>(column_vector p_s) const </argsstring>
+        <name>from_scaled</name>
+        <param>
+          <type><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a83d9d8f6778b39a0da125c5c82d534ef" kindref="member">column_vector</ref></type>
+          <declname>p_s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called by bobyqua: reduced parameter space p </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="587" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="587" bodyend="596"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1af72de88358821a048432b9d099f0b397" compoundref="model__calibration_8h" startline="571" endline="571">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::operator()</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a37138861cb188759f4f92672be9f3e1a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::from_scaled</definition>
+        <argsstring>(vector&lt; double &gt; p_s) const </argsstring>
+        <name>from_scaled</name>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>p_s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>called by bobyqua: reduced parameter space p </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="598" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="598" bodyend="607"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ac6ff2e1418af92580a6639dd34dbb8db" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::is_active_parameter</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>is_active_parameter</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="338" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="338" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a34c65003d1ae01fe8e7a24325c558c87" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::reduce_p_vector</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;fp) const </argsstring>
+        <name>reduce_p_vector</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>fp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="340" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="340" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a7ffafd84844bad10a01b8d556d7be364" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::expand_p_vector</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;rp) const </argsstring>
+        <name>expand_p_vector</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>rp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="348" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="348" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aaef5acff96b8aa3c29e3c45379c48c4e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::p_vector</definition>
+        <argsstring>(const PA &amp;p) const </argsstring>
+        <name>p_vector</name>
+        <param>
+          <type>const PA &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="359" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="359" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aede6b5c1b89dd2575380d47d223cc43e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>PA</type>
+        <definition>PA shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::vector_p</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;v) const </argsstring>
+        <name>vector_p</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="360" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="360" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a22e6b98031ada702f8fbc4ab4ecea82e" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::compute_discharge_sum</definition>
+        <argsstring>(const target_specification_t &amp;t, vector&lt; pts_t &gt; &amp;catchment_d) const </argsstring>
+        <name>compute_discharge_sum</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref> &gt; &amp;</type>
+          <declname>catchment_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="610" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="610" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5444ad89fff125cc45e93289a8899e8d" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class property_ts_function</type>
+          </param>
+        </templateparamlist>
+        <type>vector&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &gt;</type>
+        <definition>vector&lt;area_ts&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::extract_area_ts_property</definition>
+        <argsstring>(property_ts_function &amp;&amp;tsf) const </argsstring>
+        <name>extract_area_ts_property</name>
+        <param>
+          <type>property_ts_function &amp;&amp;</type>
+          <declname>tsf</declname>
+        </param>
+        <briefdescription>
+<para>extracts vector of <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> for all calculated catchments using the given property function tsf that should have signature pts_t (const cell&amp; c) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>that this function sum together contributions at cell-level. TODO: Avoid duplicate code, - use average_catchment_feature(*model.cells, catchment_index, []() return c.rc.snow_sca) but it returns a shared_ptr.. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="625" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="625" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab9d6d51f51c02ad28ae5451c3c0bdad5" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::compute_weighted_area_ts_average</definition>
+        <argsstring>(const target_specification_t &amp;t, const vector&lt; area_ts &gt; &amp;ats) const </argsstring>
+        <name>compute_weighted_area_ts_average</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const vector&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &gt; &amp;</type>
+          <declname>ats</declname>
+        </param>
+        <briefdescription>
+<para>returns the area weighted sum of vector&lt;area_ts&gt; according to t.catchment_indexes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="640" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="640" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5cf98519ada78c7174e0ad8098c345cc" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class rc_t</type>
+            <defval><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6846cf441df5d1156b73005cb219f52c" kindref="member">response_collector_t</ref></defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceshyft_1_1core_1_1model__calibration_1adcd89ab052593045e6ce5c0fb061cfee" kindref="member">enable_if_tx</ref>&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__sca" kindref="compound">detect_snow_sca</ref>&lt; rc_t &gt;::value, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref> &gt;</type>
+        <definition>enable_if_tx&lt;detect_snow_sca&lt;rc_t&gt;::value, pts_t&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::compute_sca_sum</definition>
+        <argsstring>(const target_specification_t &amp;t, vector&lt; area_ts &gt; &amp;catchment_sca) const </argsstring>
+        <name>compute_sca_sum</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &gt; &amp;</type>
+          <declname>catchment_sca</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="655" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="655" bodyend="659"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a624f71509652093d1684122b5efb088d" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class rc_t</type>
+            <defval><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6846cf441df5d1156b73005cb219f52c" kindref="member">response_collector_t</ref></defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceshyft_1_1core_1_1model__calibration_1adcd89ab052593045e6ce5c0fb061cfee" kindref="member">enable_if_tx</ref>&lt;!<ref refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__sca" kindref="compound">detect_snow_sca</ref>&lt; rc_t &gt;::value, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref> &gt;</type>
+        <definition>enable_if_tx&lt;!detect_snow_sca&lt;rc_t&gt;::value, pts_t&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::compute_sca_sum</definition>
+        <argsstring>(const target_specification_t &amp;t, vector&lt; area_ts &gt; &amp;catchment_d) const </argsstring>
+        <name>compute_sca_sum</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &gt; &amp;</type>
+          <declname>catchment_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="663" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="663" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1accab10e559454d5eee1d7f12262a1fff" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class rc_t</type>
+            <defval><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6846cf441df5d1156b73005cb219f52c" kindref="member">response_collector_t</ref></defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceshyft_1_1core_1_1model__calibration_1adcd89ab052593045e6ce5c0fb061cfee" kindref="member">enable_if_tx</ref>&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__swe" kindref="compound">detect_snow_swe</ref>&lt; rc_t &gt;::value, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref> &gt;</type>
+        <definition>enable_if_tx&lt;detect_snow_swe&lt;rc_t&gt;::value, pts_t&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::compute_swe_sum</definition>
+        <argsstring>(const target_specification_t &amp;t, vector&lt; area_ts &gt; &amp;catchment_swe) const </argsstring>
+        <name>compute_swe_sum</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &gt; &amp;</type>
+          <declname>catchment_swe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="673" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="673" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aae9802e0f01ba66c822b715a4f3dae93" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class rc_t</type>
+            <defval><ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6846cf441df5d1156b73005cb219f52c" kindref="member">response_collector_t</ref></defval>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespaceshyft_1_1core_1_1model__calibration_1adcd89ab052593045e6ce5c0fb061cfee" kindref="member">enable_if_tx</ref>&lt;!<ref refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__swe" kindref="compound">detect_snow_swe</ref>&lt; rc_t &gt;::value, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref> &gt;</type>
+        <definition>enable_if_tx&lt;!detect_snow_swe&lt;rc_t&gt;::value, pts_t&gt; shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::compute_swe_sum</definition>
+        <argsstring>(const target_specification_t &amp;t, vector&lt; area_ts &gt; &amp;catchment_d) const </argsstring>
+        <name>compute_swe_sum</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" kindref="member">target_specification_t</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>vector&lt; <ref refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" kindref="compound">area_ts</ref> &gt; &amp;</type>
+          <declname>catchment_d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="679" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="679" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a32030f03ba19e7857b7f75ac9720f131" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::run</definition>
+        <argsstring>(const vector&lt; double &gt; &amp;rp)</argsstring>
+        <name>run</name>
+        <param>
+          <type>const vector&lt; double &gt; &amp;</type>
+          <declname>rp</declname>
+        </param>
+        <briefdescription>
+<para>from operator(), called by min_bobyqa, for each iteration, so p is bobyqa parameter vector notice that the function returns the value of the goal function, as specified by the target specification. <ref refid="namespace_the" kindref="compound">The</ref> flexibility is rather large: It&apos;s a set of target-specifications, weighted, where each of them can be a KG or NS, for a specified period/resolution. E.g. we can specify targets that apply to specific catchments, and specified periods/resolutions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="690" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="690" bodyend="743"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> optimizer for parameters in a <ref refid="classshyft_1_1core_1_1region__model" kindref="compound">shyft::core::region_model</ref> provides needed functionality to orchestrate a search for the optimal parameters so that the goal function specified by the target_specifications are minmized. <ref refid="namespace_the" kindref="compound">The</ref> user can specify which parameters (model specific) to optimize, giving range min..max for each of the parameters. Only parameters with min != max are used, thus minimizing the parameter space. </para>    </briefdescription>
+    <detaileddescription>
+<para>Target specification <ref refid="structshyft_1_1core_1_1model__calibration_1_1target__specification" kindref="compound">target_specification</ref> allows a lot of flexiblity when it comes to what goes into the nash_sutcliffe goal function.</para><para><ref refid="namespace_the" kindref="compound">The</ref> search for optimium starts with the current parameter-set, the current start state, over the specified model time-axis. After a run, the goal function is calculated and returned back to the minbobyqa algorithm that continue searching for the minimum value until tolerances/iterations area reached.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>M</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the region model, and we use that supports the following member:<orderedlist>
+<listitem><para>.<ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref>, a time-axis value and type used by the model, the optimizer needs this during goal function evaluation.</para></listitem><listitem><para>.<ref refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" kindref="member">run()</ref>, the region model from state (s0) over .<ref refid="namespaceshyft_1_1time__axis" kindref="compound">time_axis</ref>, using current values of parameters.</para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a template parameter for the parameters, supporting vector form access </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PS</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of the target time-series, inside. the target specification..(SiH: can we turn it the other way around ??) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="312" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="312" bodyend="744"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6cde66292c3b21239e317342c6540a5e" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>activate_limit</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a1f5d2a52fc006471600614f6d5d54b0b" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>active_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adc562b9ec817dca734b5a01b427bb619" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>auto_initial_state_check</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ae9ab44d07a6f55984e218483456bd757" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>calculate_goal_function</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a43bb8a6b3dae6b513c68ea78176e599a" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>calculate_goal_function</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a27b2fc3d4a8b6513eeac7ab68a73ce2a" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>calibration_test</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6032a61ce6a869e7de4f5831aaa5356b" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>cell_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a83d9d8f6778b39a0da125c5c82d534ef" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>column_vector</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a22e6b98031ada702f8fbc4ab4ecea82e" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>compute_discharge_sum</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5cf98519ada78c7174e0ad8098c345cc" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>compute_sca_sum</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a624f71509652093d1684122b5efb088d" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>compute_sca_sum</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1accab10e559454d5eee1d7f12262a1fff" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>compute_swe_sum</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aae9802e0f01ba66c822b715a4f3dae93" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>compute_swe_sum</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab9d6d51f51c02ad28ae5451c3c0bdad5" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>compute_weighted_area_ts_average</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a21c6266ecc38acb0bdaf9087b98506ce" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>establish_initial_state_from_model</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a7ffafd84844bad10a01b8d556d7be364" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>expand_p_vector</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5444ad89fff125cc45e93289a8899e8d" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>extract_area_ts_property</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a87369b01f2373e323de7cc1e23c72197" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>from_scaled</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a37138861cb188759f4f92672be9f3e1a" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>from_scaled</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a973f82e36d67ddb753a2c05dff0ddef4" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>get_initial_state</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ac6ff2e1418af92580a6639dd34dbb8db" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>is_active_parameter</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a47be90108bd371cf748a9c53d42970a7" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>model</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a61e69487e0a023199f9d9a9199db9745" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>n_catchments</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1af72de88358821a048432b9d099f0b397" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>operator()</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a619914f52ab547f433676cba5cd90135" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>operator()</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimize</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a683ed17fa2154d1ef87dcbb457c3e0b3" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimize</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3220c4464a7735f03ad4494b9f956db0" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimize_dream</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa176e5163bfc801c93a258cd298691c3" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimize_dream</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimize_sceua</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a5f40ae12b9673f513fbe3ccc3c679caf" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimize_sceua</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab1bfa9505b131d6f465d3a41f6996819" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimizer</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a127beaee84ddbafc8dc4e7d536f141aa" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>optimizer</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a9a406510ad6941f4d4a11f6e197ba56a" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>p_expanded</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a32b486caf765b0707b831c57338ab90c" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>p_max</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a96ad06f443e7b20432f0dd4be539ecd2" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>p_min</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aaef5acff96b8aa3c29e3c45379c48c4e" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>p_vector</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aef726f27748c090027974d4a7083b195" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>parameter_accessor</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aafdd315906e5219d9e0a8b8ee8dfbc76" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>parameter_lower_bound</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aeb3992fa4a88c3036683dae1dd9af4fa" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>parameter_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a2dd3434d467e6f079d7b77b78e61b96d" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>parameter_upper_bound</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a09a6c7fc24fe060f682939392e424c1e" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>prepare_optimize</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ad1fe7c3580ac1204fe6acc2d3e21564b" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>print_progress_level</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a34c65003d1ae01fe8e7a24325c558c87" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>reduce_p_vector</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6793d8d0161d269d05c0f9563d7f6dab" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>region_model_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1abd875cab3afb4f296ab96879964d8449" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>reset_states</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a6846cf441df5d1156b73005cb219f52c" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>response_collector_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a32030f03ba19e7857b7f75ac9720f131" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>run</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aace152222deb93cf6b6f8bdf818952a9" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>set_parameter_ranges</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a4fce112251127c578f95a5b5d6513f97" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>set_target_specification</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1acbdadaf09aaabcc10ddd5158f73bd2d7" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>set_verbose_level</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa2b80f7e1be5ddf42a284626ff695201" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>state_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a3f0c86b75080905a00d1713d72ab6a97" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>target_specification_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a465f447636d0348323d8310a7c89f499" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>target_time_series_t</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1a952151b56ed526fba4448da8b1961c9a" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>targets</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab33888d66a324cd98d8e2f552e16ac76" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>to_scaled</name></member>
+      <member refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aede6b5c1b89dd2575380d47d223cc43e" prot="private" virt="non-virtual"><scope>shyft::core::model_calibration::optimizer</scope><name>vector_p</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

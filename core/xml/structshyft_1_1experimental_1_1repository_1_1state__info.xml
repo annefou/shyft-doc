@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1experimental_1_1repository_1_1state__info" kind="struct" prot="public">
+    <compoundname>shyft::experimental::repository::state_info</compoundname>
+    <includes refid="experimental_8h" local="no">experimental.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1experimental_1_1repository_1_1state__info_1a88f937b960a087886486b75e04e71a1f" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">ec::utctime</ref></type>
+        <definition>ec::utctime shyft::experimental::repository::state_info::time_stamp</definition>
+        <argsstring></argsstring>
+        <name>time_stamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="638" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1experimental_1_1repository_1_1state__info_1a52e8eb13834792901f6e6dd19824f10e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string shyft::experimental::repository::state_info::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="639" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1experimental_1_1repository_1_1state__info_1a9f4f016cf3e805b719146da2668d64ea" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string shyft::experimental::repository::state_info::file_path</definition>
+        <argsstring></argsstring>
+        <name>file_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="640" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structshyft_1_1experimental_1_1repository_1_1state__info" kindref="compound">state_info</ref>, at least a time_stamp for which the state is valid, maybe some info/tags, and in this early state also file_path to identify where the state is stored. TODO: figure out how to replace file_path with some kind of id (template?) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="637" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="637" bodyend="641"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1experimental_1_1repository_1_1state__info_1a9f4f016cf3e805b719146da2668d64ea" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::state_info</scope><name>file_path</name></member>
+      <member refid="structshyft_1_1experimental_1_1repository_1_1state__info_1a52e8eb13834792901f6e6dd19824f10e" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::state_info</scope><name>info</name></member>
+      <member refid="structshyft_1_1experimental_1_1repository_1_1state__info_1a88f937b960a087886486b75e04e71a1f" prot="public" virt="non-virtual"><scope>shyft::experimental::repository::state_info</scope><name>time_stamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

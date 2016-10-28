@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>How Orchestration Works &#8212; Shyft 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Shyft 0.1 documentation" href="index.html" />
+    <link rel="next" title="Configuring SHyFT" href="config_files.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="config_files.html" title="Configuring SHyFT"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="getting_started.html" title="Getting Started"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Shyft 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="how-orchestration-works">
+<h1>How Orchestration Works<a class="headerlink" href="#how-orchestration-works" title="Permalink to this headline">¶</a></h1>
+<p>In order to perform the simulations SHyFT needs to ingest data coming
+from observations (meteorological stations, catchment discharges...)
+and possible previous calibration runs prior to fill its internal data
+structures and proceed with a simulation run.  The specification of
+this data ingestion process is called &#8216;orchestration&#8217; in SHyFT.</p>
+<p>Although the core of the SHyFT simulation code is written in C++, all
+the orchestration code is written in Python and uses the Python-API
+exposed by SHyFT in order to populate the C++ data structures.  In
+addition, the orchestration code adds another abstraction layer that
+allows the end user to write their own repositories classes with a
+minimal (or none) knowledge of SHyFT core internals.</p>
+<p>The orchestration code uses YAML configuration files in order to
+define a calibration or simulation run and provides basic
+infrastructure in order to read them, but still allowing the user to
+add its own code to tailor the calibration/simulation.  This chapter
+explains how the user can customize the orchestration process so that
+she can better adapt it to read her own data in any format she want.</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>..WARNING::</dt>
+<dd>The repository and orchestration are undergoing a refactorization
+and some of the following may not be completely relevant or updated.</dd>
+</dl>
+</div></blockquote>
+<div class="section" id="repositories">
+<h2>Repositories<a class="headerlink" href="#repositories" title="Permalink to this headline">¶</a></h2>
+<p>Before to start, we need to introduce the concept of repository in
+SHyFT.  A repository is just a collection of data in some arbitrary
+format, but in SHyFT, it has the particular meaning of the <strong>Python
+code</strong> that can read this data and feed it to the SHyFT core.</p>
+<p>The <cite>shyft.repository</cite> package offers interfaces (via Python ABC
+classes) so that the user can provide concrete implementations of his
+own repositories.  In this approach users can provide their own
+repositories customized to their own configuration files (typically
+slight variations of the YAML config files that come with SHyFT) and a
+diversity of data formats (maybe a whole collection of files,
+databases, etc.).  In addition, some concrete repositories are being
+distributed so that they can be used right away.  These concrete
+repositories can also be taken as an example of implementation for
+other user-defined repositories too.</p>
+</div>
+<div class="section" id="the-generic-repository">
+<h2>The <cite>generic</cite> repository<a class="headerlink" href="#the-generic-repository" title="Permalink to this headline">¶</a></h2>
+<p>One of the repositories that comes with SHyFT, and is named &#8216;generic&#8217;
+because it is very simple and not meant to read from complicated
+datasets.  It is more meant as an example on how you can create your
+own repositories in case <cite>generic</cite> is not enough for your needs.</p>
+<p>For example, in order to choose this repository you have to indicate
+this in you &#8216;configuration.yaml&#8217; file:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">repository</span><span class="p">:</span>
+  <span class="n">class</span><span class="p">:</span> <span class="n">shyft</span><span class="o">.</span><span class="n">repository</span><span class="o">.</span><span class="n">generic</span><span class="o">.</span><span class="n">Config</span>
+  <span class="n">params</span><span class="p">:</span>         <span class="c1"># add your own params here to initialize repository</span>
+</pre></div>
+</div>
+<p>As you can see, you can specify <em>any</em> class that is accessible in your
+Python installation by using the dotted naming convention
+(e.g. shyft.orchestration2.generic.Config above).</p>
+<p>In general, the user is advised to use the generic repository by
+default and configure the ingestion of data from different
+repositories via a explicit specification.  For example, let&#8217;s suppose
+that you want to access the geo-located time series that SHyFT needs
+for its simulations via NetCDF4 files, but this is not supported by
+the &#8216;generic&#8217; repository.  In this case we are going to specify
+another repository in the &#8216;datasets.yaml&#8217; config file.  Keep reading.</p>
+<div class="section" id="the-repository-entries-in-datasets-yaml">
+<h3>The &#8216;repository&#8217; entries in &#8216;datasets.yaml&#8217;<a class="headerlink" href="#the-repository-entries-in-datasets-yaml" title="Permalink to this headline">¶</a></h3>
+<p>This entry makes possible to declare repository classes for dealing
+with different sources and destinations for geo-located time-series.
+Let&#8217;s see an example extracted from the &#8216;datasets.yaml&#8217; for the
+<cite>netcdf</cite> sub-package (included in SHyFT):</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sources</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">repository</span><span class="p">:</span> <span class="n">source_repo1</span>
+    <span class="n">class</span><span class="p">:</span> <span class="n">shyft</span><span class="o">.</span><span class="n">repository</span><span class="o">.</span><span class="n">netcdf</span><span class="o">.</span><span class="n">SourceDataset</span>
+    <span class="n">params</span><span class="p">:</span>
+      <span class="n">stations_met</span><span class="p">:</span> <span class="n">stations_met</span><span class="o">.</span><span class="n">nc</span>
+      <span class="n">types</span><span class="p">:</span>
+        <span class="o">-</span> <span class="nb">type</span><span class="p">:</span> <span class="n">precipitation</span>
+          <span class="n">stations</span><span class="p">:</span>
+            <span class="o">-</span> <span class="n">values</span><span class="p">:</span> <span class="o">/</span><span class="n">station1</span><span class="o">/</span><span class="n">precipitation</span>
+              <span class="n">time</span><span class="p">:</span> <span class="o">/</span><span class="n">station1</span><span class="o">/</span><span class="n">time</span>
+              <span class="n">location</span><span class="p">:</span> <span class="o">/</span><span class="n">station1</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="o">/</span><span class="n">station1</span><span class="o">.</span><span class="n">y</span><span class="p">,</span> <span class="o">/</span><span class="n">station1</span><span class="o">.</span><span class="n">z</span>
+</pre></div>
+</div>
+<p>In this case we want to specify the datasets for the geo-located
+time-series sources, and for one of these sources (&#8216;source_repo1&#8217;) we
+have specified that we want to use an instance of the
+<cite>shyft.orchestration2.netcdf.SourceDataset</cite> class.  This class can be
+user defined, but must always inherit from
+<cite>shyft.orchestration2.BaseSourceDataset</cite>.  Here we have the abstract
+interface for it:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">BaseSourceDataset</span><span class="p">(</span><span class="n">BaseConfigFiles</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Interface for SourceDataset objects.&quot;&quot;&quot;</span>
+    <span class="n">__metaclass__</span> <span class="o">=</span> <span class="n">ABCMeta</span>
+
+    <span class="nd">@abstractmethod</span>
+    <span class="k">def</span> <span class="nf">fetch_sources</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_source_types</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">params</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;`data` is a container for geo-located time-series that should be filled (appended).&quot;&quot;&quot;</span>
+        <span class="k">pass</span>
+</pre></div>
+</div>
+<p>so, basically you have to build a new class that provides the
+<cite>fetch_sources()</cite> method returning the geo-located time-series via the
+<cite>data</cite> dictionary of SHyFT structures and based on the <cite>params</cite>
+parameter that is basically passing the location for the data.  For an
+implementation example just have a look at the sources of the
+<cite>shyft.orchestration2.netcdf.SourceDataset</cite> class.</p>
+<p>The flexibility just described allows to declare different
+repositories for the dataset sources (hybrid sources).</p>
+<p>Of course, the same applies to the &#8216;destinations&#8217; section of the
+&#8216;dataset.yaml&#8217; file:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">destinations</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">repository</span><span class="p">:</span>  <span class="n">dest_repo1</span>
+    <span class="n">class</span><span class="p">:</span> <span class="n">shyft</span><span class="o">.</span><span class="n">repository</span><span class="o">.</span><span class="n">netcdf</span><span class="o">.</span><span class="n">DestinationDataset</span>
+    <span class="n">params</span><span class="p">:</span>
+      <span class="n">simulated_Q</span><span class="p">:</span> <span class="n">netcdf</span><span class="p">:</span><span class="o">//</span><span class="n">simulation</span><span class="o">.</span><span class="n">nc</span><span class="o">/</span><span class="n">Q</span>
+      <span class="n">simulated_SWE</span><span class="p">:</span> <span class="n">netcdf</span><span class="p">:</span><span class="o">//</span><span class="n">simulation</span><span class="o">.</span><span class="n">nc</span><span class="o">/</span><span class="n">SWE</span>
+</pre></div>
+</div>
+<p>If you are interested in having your own repositories in a more
+general way than just specifying sources and destinations for
+geo-located time series, keep reading.</p>
+</div>
+</div>
+<div class="section" id="the-repository-entry-in-configuration-yaml">
+<h2>The &#8216;repository&#8217; entry in &#8216;configuration.yaml&#8217;<a class="headerlink" href="#the-repository-entry-in-configuration-yaml" title="Permalink to this headline">¶</a></h2>
+<p>This entry allows the user to replace the regular classes in SHyFT that
+parse the configuration files by others.  It is important to note that
+this entry in &#8216;configuration.yaml&#8217; is <strong>optional</strong>, so if you don&#8217;t
+provide a &#8216;repository&#8217; the default parser classes will be used.</p>
+<p>Here we have an example of the main <em>bootstrap</em> way for specifying a
+repository in the main &#8216;configuration.yaml&#8217; file:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">repository</span><span class="p">:</span>
+  <span class="n">class</span><span class="p">:</span> <span class="n">shyft</span><span class="o">.</span><span class="n">repository</span><span class="o">.</span><span class="n">netcdf</span><span class="o">.</span><span class="n">Config</span>
+  <span class="n">params</span><span class="p">:</span>         <span class="c1"># add your own params here to initialize repository</span>
+</pre></div>
+</div>
+<p>Please note that we have replaced the standard <cite>generic</cite> repository
+by another one, in this case <cite>netcdf</cite>.</p>
+<p>Here there is a &#8216;repository&#8217; section where you can specify a Python
+class (&#8216;class&#8217;) and some additional &#8216;params&#8217; for the class
+constructor (<cite>__init__()</cite> method).  In this case, we see that the
+&#8216;class&#8217; entry is specifying the full path to the desired class.  The
+orchestration code is then responsible to import the class
+appropriately, and in this case it does that as:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">shyft.repository.netcdf</span> <span class="k">import</span> <span class="n">Config</span>
+</pre></div>
+</div>
+<p>so that means that literally any class installed in your computer can
+be imported and used inside the <cite>generic</cite> orchestration
+infrastructure.  The only limitation is that your class must inherit
+from <cite>BaseConfig</cite> ABC class which defines the interface to implement.
+Here it is an example of the implementation for the <cite>netcdf</cite>
+repository:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">shyft.orchestration2.base_config</span> <span class="k">import</span> <span class="n">BaseConfig</span>
+<span class="kn">from</span> <span class="nn">.model</span> <span class="k">import</span> <span class="n">Model</span>
+<span class="kn">from</span> <span class="nn">.region</span> <span class="k">import</span> <span class="n">Region</span>
+<span class="kn">from</span> <span class="nn">.datasets</span> <span class="k">import</span> <span class="n">Datasets</span>
+
+<span class="k">class</span> <span class="nc">Config</span><span class="p">(</span><span class="n">BaseConfig</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Main class hosting a complete configuration section for an SHyFT run.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">region_config</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;_region_config&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dict__</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_region_config</span> <span class="o">=</span> <span class="n">Region</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">region_config_file</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_region_config</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">model_config</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;_model_config&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dict__</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_model_config</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">model_config_file</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_model_config</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">datasets_config</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s1">&#39;_datasets_config&#39;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">__dict__</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">_datasets_config</span> <span class="o">=</span> <span class="n">Datasets</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">datasets_config_file</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_datasets_config</span>
+
+    <span class="k">def</span> <span class="nf">process_params</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">params</span><span class="p">):</span>
+        <span class="c1"># No additional params yet for the reference</span>
+        <span class="k">pass</span>
+</pre></div>
+</div>
+<p>So, basically, one must define some properties returning instances
+that deal with the different configuration files.  Each of these
+instances must inherit from ABC classes (interfaces).  For example,
+<cite>region_config</cite> returns a sub-instance of
+<cite>shyft.orchestration2.BaseRegion</cite>, <cite>model_config</cite> returns a sub-instance
+of <cite>shyft.orchestration2.BaseModel</cite> and <cite>datasets</cite> returns an instance
+of <cite>shyft.orchestration2.BaseDatasets</cite>.  Note that you don&#8217;t need to
+come up with your own tailored implementation for parsing every config
+files, and you may choose to stay with the generic one.</p>
+<p>Also, one needs to define the <cite>process_params</cite> method for handling the
+different values in the &#8216;params&#8217; section of the &#8216;repository&#8217; entry.
+As the <cite>netcdf</cite> repo does not need any additional parameter, it is
+declared as empty above.</p>
+<p>This is an easy way to produce your own repositories while you are
+still enforced to implement the interfaces that SHyFT requires.</p>
+<dl class="docutils">
+<dt><strong>Advice:</strong> If you need to produce your own repository start by</dt>
+<dd>cloning an existing one (e.g. <cite>netcdf</cite>) and adapting the code to your
+needs.</dd>
+</dl>
+</div>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>SHyFT let&#8217;s you specify two different level of customization for
+configuring and passing time-series to SHyFT:</p>
+<ul class="simple">
+<li>Customize the read (sources) and write (destinations) of geo-located
+time series.</li>
+<li>Customize the treatment of configuration files (more complex, but
+doable).</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">How Orchestration Works</a><ul>
+<li><a class="reference internal" href="#repositories">Repositories</a></li>
+<li><a class="reference internal" href="#the-generic-repository">The <cite>generic</cite> repository</a><ul>
+<li><a class="reference internal" href="#the-repository-entries-in-datasets-yaml">The &#8216;repository&#8217; entries in &#8216;datasets.yaml&#8217;</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#the-repository-entry-in-configuration-yaml">The &#8216;repository&#8217; entry in &#8216;configuration.yaml&#8217;</a></li>
+<li><a class="reference internal" href="#summary">Summary</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="getting_started.html"
+                        title="previous chapter">Getting Started</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="config_files.html"
+                        title="next chapter">Configuring SHyFT</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/orchestration.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="config_files.html" title="Configuring SHyFT"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="getting_started.html" title="Getting Started"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Shyft 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>

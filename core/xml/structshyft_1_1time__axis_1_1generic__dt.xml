@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1time__axis_1_1generic__dt" kind="struct" prot="public">
+    <compoundname>shyft::time_axis::generic_dt</compoundname>
+    <basecompoundref refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4" prot="public" virt="non-virtual">shyft::time_axis::continuous&lt; true &gt;</basecompoundref>
+    <includes refid="time__axis_8h" local="no">time_axis.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847" prot="public" static="no">
+        <name>generic_type</name>
+        <enumvalue id="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847ac92ad68cc8f3b7d83e47603b9041cfd6" prot="public">
+          <name>FIXED</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847a9ea471df9dc624716a233b10298c2c73" prot="public">
+          <name>CALENDAR</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847a9c726d3eee925568c78c7e921c6daee2" prot="public">
+          <name>POINT</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="250" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="250" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1generic__dt_1a17577dd7618447b6d6fd2461d7c6f607" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847" kindref="member">generic_type</ref></type>
+        <definition>generic_type shyft::time_axis::generic_dt::gt</definition>
+        <argsstring></argsstring>
+        <name>gt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="251" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="251" bodyend="-1"/>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a2e71ba3a5b359ee9ea0c4b161c10c66f" compoundref="time__axis_8h" startline="299" endline="303">shyft::time_axis::time_shift</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1generic__dt_1a0ab750b050f15fdad6c020f7480e6a9c" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">fixed_dt</ref></type>
+        <definition>fixed_dt shyft::time_axis::generic_dt::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="252" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="252" bodyend="-1"/>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a2e71ba3a5b359ee9ea0c4b161c10c66f" compoundref="time__axis_8h" startline="299" endline="303">shyft::time_axis::time_shift</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1generic__dt_1ada40bf65d34824815d4f79779d9484a2" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref></type>
+        <definition>calendar_dt shyft::time_axis::generic_dt::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="253" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="253" bodyend="-1"/>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a2e71ba3a5b359ee9ea0c4b161c10c66f" compoundref="time__axis_8h" startline="299" endline="303">shyft::time_axis::time_shift</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1time__axis_1_1generic__dt_1ac7095df7ac641eafff68d31de1d32885" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1time__axis_1_1point__dt" kindref="compound">point_dt</ref></type>
+        <definition>point_dt shyft::time_axis::generic_dt::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="254" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="254" bodyend="-1"/>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a2e71ba3a5b359ee9ea0c4b161c10c66f" compoundref="time__axis_8h" startline="299" endline="303">shyft::time_axis::time_shift</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1ab4207f39c0600a010bdda514edaa0ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>()</argsstring>
+        <name>generic_dt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="256" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="256" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a6d69aa928e86a79a19e1dbaff16d4362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(utctime t0, utctimespan dt, size_t n)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t0</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="258" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="258" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1afdede32692bc9837bbe74befc871275b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(const shared_ptr&lt; const calendar &gt; &amp;cal, utctime t, utctimespan dt, size_t n)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type>const shared_ptr&lt; const <ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref> &gt; &amp;</type>
+          <declname>cal</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="259" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="259" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a6cc8326b5fd52dc26605a03b2141e465" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(const vector&lt; utctime &gt; &amp;t, utctime t_end)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type>const vector&lt; <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref> &gt; &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="260" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="260" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a92b5b22f70e7f6d9fa16572c9ced4cbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(const vector&lt; utctime &gt; &amp;all_points)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type>const vector&lt; <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref> &gt; &amp;</type>
+          <declname>all_points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="261" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="261" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a0d97eab337873a7cd08a957a5dd31840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(const fixed_dt &amp;f)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">fixed_dt</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="263" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="263" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a63e7ae7b71c92f946fd4e422244be3fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(const calendar_dt &amp;c)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1time__axis_1_1calendar__dt" kindref="compound">calendar_dt</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="264" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="264" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1abf5c72b14d30ae43889839c8e5d9f2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::time_axis::generic_dt::generic_dt</definition>
+        <argsstring>(const point_dt &amp;p)</argsstring>
+        <name>generic_dt</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1time__axis_1_1point__dt" kindref="compound">point_dt</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="265" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="265" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a752ecca2f462e1eed20179b06c1e679d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::time_axis::generic_dt::is_fixed_dt</definition>
+        <argsstring>() const </argsstring>
+        <name>is_fixed_dt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="267" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="267" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a61633063c5efb31b6fcd6b4748efb46a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::generic_dt::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="269" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="269" bodyend="269"/>
+        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a2a51626dd496c6ab6fe6ed18c903fc22" compoundref="timeseries_8cpp" startline="53" endline="59">shyft::api::abin_op_ts::values</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a5e9be21cc53de6e583d87da536be1843" compoundref="timeseries_8cpp" startline="183" endline="201">shyft::api::abin_op_ts::value</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1af851b1468079d2427e638eaf2af5b639" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+        <definition>utcperiod shyft::time_axis::generic_dt::total_period</definition>
+        <argsstring>() const </argsstring>
+        <name>total_period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="270" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="270" bodyend="270"/>
+        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a29ec40b3cce1ff2da668399f9ed57afa" compoundref="timeseries_8cpp" startline="47" endline="51">shyft::api::abin_op_ts::value_at</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1ae78785ea6e44c61481ede288798791c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+        <definition>utcperiod shyft::time_axis::generic_dt::period</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>period</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="271" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="271" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a2b8f83a37ad30534bd8c3a8866a87b8f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>utctime shyft::time_axis::generic_dt::time</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>time</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="272" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="272" bodyend="272"/>
+        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a5e9be21cc53de6e583d87da536be1843" compoundref="timeseries_8cpp" startline="183" endline="201">shyft::api::abin_op_ts::value</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1aa1f6a1443d7c7ad16f978fd92983e692" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::generic_dt::index_of</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>index_of</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="273" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="273" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1generic__dt_1a61d283d1e795e194d944c51b3e2ae69f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::time_axis::generic_dt::open_range_index_of</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>open_range_index_of</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="274" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="274" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>a generic (not sparse) time interval time-axis. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is a static dispatch generic time-axis for all dense time-axis. It&apos;s merely utilizing the three other types to do the implementation. It&apos;s useful when combining time-axis, and we would like to keep the internal rep. to the most efficient as determined at runtime. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1031">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="1030">
+        <label>shyft::time_axis::generic_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1generic__dt"/>
+        <childnode refid="1031" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1036">
+        <label>shyft::time_axis::calendar_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1calendar__dt"/>
+        <childnode refid="1033" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1034">
+        <label>shyft::time_axis::point_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1point__dt"/>
+        <childnode refid="1033" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1033">
+        <label>shyft::time_axis::continuous&lt; true &gt;</label>
+        <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
+      </node>
+      <node id="1035">
+        <label>shyft::time_axis::fixed_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
+        <childnode refid="1033" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1032">
+        <label>shyft::time_axis::generic_dt</label>
+        <link refid="structshyft_1_1time__axis_1_1generic__dt"/>
+        <childnode refid="1033" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1034" relation="usage">
+          <edgelabel>p</edgelabel>
+        </childnode>
+        <childnode refid="1035" relation="usage">
+          <edgelabel>f</edgelabel>
+        </childnode>
+        <childnode refid="1036" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="248" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="248" bodyend="276"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1ada40bf65d34824815d4f79779d9484a2" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>c</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847a9ea471df9dc624716a233b10298c2c73" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>CALENDAR</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a0ab750b050f15fdad6c020f7480e6a9c" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>f</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847ac92ad68cc8f3b7d83e47603b9041cfd6" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>FIXED</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1ab4207f39c0600a010bdda514edaa0ef8" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a6d69aa928e86a79a19e1dbaff16d4362" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1afdede32692bc9837bbe74befc871275b" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a6cc8326b5fd52dc26605a03b2141e465" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a92b5b22f70e7f6d9fa16572c9ced4cbb" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a0d97eab337873a7cd08a957a5dd31840" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a63e7ae7b71c92f946fd4e422244be3fa" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1abf5c72b14d30ae43889839c8e5d9f2e9" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>generic_type</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a17577dd7618447b6d6fd2461d7c6f607" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>gt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1aa1f6a1443d7c7ad16f978fd92983e692" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>index_of</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a752ecca2f462e1eed20179b06c1e679d" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>is_fixed_dt</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a61d283d1e795e194d944c51b3e2ae69f" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>open_range_index_of</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1ac7095df7ac641eafff68d31de1d32885" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>p</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1ae78785ea6e44c61481ede288798791c4" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>period</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1aa1a23adcc42110c65455fd38bcb9b847a9c726d3eee925568c78c7e921c6daee2" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>POINT</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a61633063c5efb31b6fcd6b4748efb46a" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>size</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1a2b8f83a37ad30534bd8c3a8866a87b8f" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>time</name></member>
+      <member refid="structshyft_1_1time__axis_1_1generic__dt_1af851b1468079d2427e638eaf2af5b639" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>total_period</name></member>
+      <member refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4_1ad44db8ccec4b1b8cd1a9dc72d6fc485d" prot="public" virt="non-virtual"><scope>shyft::time_axis::generic_dt</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

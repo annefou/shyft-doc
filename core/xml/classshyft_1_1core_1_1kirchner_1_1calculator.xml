@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1kirchner_1_1calculator" kind="class" prot="public">
+    <compoundname>shyft::core::kirchner::calculator</compoundname>
+    <includes refid="kirchner_8h" local="no">kirchner.h</includes>
+    <templateparamlist>
+      <param>
+        <type>template&lt; class &gt; class</type>
+        <declname>AC</declname>
+        <defname>AC</defname>
+      </param>
+      <param>
+        <type>class</type>
+        <declname>P</declname>
+        <defname>P</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" prot="public" static="no">
+        <type>double</type>
+        <definition>typedef double shyft::core::kirchner::calculator&lt; AC, P &gt;::state_type</definition>
+        <argsstring></argsstring>
+        <name>state_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="169" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" prot="public" static="no">
+        <type>boost::numeric::odeint::result_of::make_dense_output&lt; boost::numeric::odeint::runge_kutta_dopri5&lt; <ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" kindref="member">state_type</ref> &gt; &gt;::type</type>
+        <definition>typedef boost::numeric::odeint::result_of::make_dense_output&lt; boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt; &gt;::type shyft::core::kirchner::calculator&lt; AC, P &gt;::dense_stepper_type</definition>
+        <argsstring></argsstring>
+        <name>dense_stepper_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="171" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" prot="public" static="no">
+        <type>std::pair&lt; dense_stepper_type::time_type, dense_stepper_type::time_type &gt;</type>
+        <definition>typedef std::pair&lt;dense_stepper_type::time_type, dense_stepper_type::time_type&gt; shyft::core::kirchner::calculator&lt; AC, P &gt;::interval_type</definition>
+        <argsstring></argsstring>
+        <name>interval_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="172" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a25bb55c1045e7b5b47f7bb62b35491cd" prot="private" static="no" mutable="no">
+        <type><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" kindref="member">dense_stepper_type</ref></type>
+        <definition>dense_stepper_type shyft::core::kirchner::calculator&lt; AC, P &gt;::dense_stepper</definition>
+        <argsstring></argsstring>
+        <name>dense_stepper</name>
+        <initializer>= boost::numeric::odeint::make_dense_output(1.0e-7, 1.0e-8,
+                                                   boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="174" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a4e428d0a70101016cd2942d24f37adb7" prot="private" static="no" mutable="no">
+        <type>AC&lt; <ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" kindref="member">dense_stepper_type</ref> &gt;</type>
+        <definition>AC&lt;dense_stepper_type&gt; shyft::core::kirchner::calculator&lt; AC, P &gt;::average_computer</definition>
+        <argsstring></argsstring>
+        <name>average_computer</name>
+        <initializer>{dense_stepper}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="176" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1kirchner_1_1calculator_1aa31a602d42a03b2b13b068ea3aac975c" prot="private" static="no" mutable="no">
+        <type>const P</type>
+        <definition>const P shyft::core::kirchner::calculator&lt; AC, P &gt;::param</definition>
+        <argsstring></argsstring>
+        <name>param</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="177" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a61d310260df653801e9fd17be82f70c8" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::kirchner::calculator&lt; AC, P &gt;::g</definition>
+        <argsstring>(double ln_q) const </argsstring>
+        <name>g</name>
+        <param>
+          <type>double</type>
+          <declname>ln_q</declname>
+        </param>
+        <briefdescription>
+<para>Sensitivity function g(q) </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> sensitivity function expresses the sensitivity of discharge to changes in the storage. As the changes is the storage can be expressed as a (pure) function of q, it can be estimated from observational data (p, e, and q). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="185" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="185" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a45be0114edb8a628d19681c47fe4e2b2" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::kirchner::calculator&lt; AC, P &gt;::log_transform_f</definition>
+        <argsstring>(double ln_q, double p, double e) const </argsstring>
+        <name>log_transform_f</name>
+        <param>
+          <type>double</type>
+          <declname>ln_q</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Log transform of equation 18 in Kirchner, aka equation 19. </para>        </briefdescription>
+        <detaileddescription>
+<para>When solving the Kirchner model, the log transform formulation is desireable due to numercial instabilities of the original formulation, <formula id="18">$\frac{dQ}{dt} = g(Q)(P-E-Q)$</formula>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="194" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="194" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kirchner::calculator&lt; AC, P &gt;::calculator</definition>
+        <argsstring>(const P &amp;param)</argsstring>
+        <name>calculator</name>
+        <param>
+          <type>const P &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="200" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="200" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kirchner::calculator&lt; AC, P &gt;::calculator</definition>
+        <argsstring>(double abs_err, double rel_err, const P &amp;param)</argsstring>
+        <name>calculator</name>
+        <param>
+          <type>double</type>
+          <declname>abs_err</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rel_err</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="202" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::kirchner::calculator&lt; AC, P &gt;::step</definition>
+        <argsstring>(shyft::timeseries::utctime T0, shyft::timeseries::utctime T1, double &amp;q, double &amp;q_avg, double p, double e)</argsstring>
+        <name>step</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::timeseries::utctime</ref></type>
+          <declname>T0</declname>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::timeseries::utctime</ref></type>
+          <declname>T1</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>q</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>q_avg</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>step Kirchner model forward from time t0 to time t1 </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>If the supplied q (state) is less than min_q(0.00001, it represents mm water..), it is forced to min_q to ensure numerical stability </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="212" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="212" bodyend="234"/>
+        <references refid="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" compoundref="utctime__utilities_8h" startline="36" endline="36">shyft::core::deltahours</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__gs__k_1a4ef4369324700b0b99c28335e63a5ebc" compoundref="core_2pt__gs__k_8h" startline="245" endline="334">shyft::core::pt_gs_k::run_pt_gs_k</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="142" endline="221">shyft::core::pt_hs_k::run</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="152" endline="237">shyft::core::pt_ss_k::run</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Kirchner model for computing the discharge based on precipitation and evapotranspiration data. </para>    </briefdescription>
+    <detaileddescription>
+<para>This algorithm is based on the log transform of the ode formulation of the time change in discharge as a function of measured precipitation, evapo-transpiration and discharge, i.e. equation 19 in the publication &quot;Catchments as simple dynamic systems: Catchment characterization, rainfall-runoff modeling, and doing
+hydrology backward&quot; by James W. Kirchner, published in Water Resources Research, vol. 45, W02429, doi: 10.1029/2008WR006912, 2009.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>AC</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Average Computer type, implementing the interface:<itemizedlist>
+<listitem><para>AC(S* stepper) <ndash/>&gt; Constructor taking a Kirchner::dense_stepper_type as argument.</para></listitem><listitem><para>AC.initialize(double f0, double t_start) <ndash/>&gt; void, initialize average computer with initial function value and start time.</para></listitem><listitem><para>AC.add(double f, double t) <ndash/>&gt; void, add contribution f at next time t. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter type, implementing the interface:<itemizedlist>
+<listitem><para>P.c1 <ndash/>&gt; double, first parameter in the Kirchner model</para></listitem><listitem><para>P.c2 <ndash/>&gt; double, second parameter in the Kirchner model</para></listitem><listitem><para>P.c3 <ndash/>&gt; double, third parameter in the Kirchner model </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para>kirchner::TrapezoidalAverage </para><simplesectsep/><para>kirchner::CompositeTrapezoidalAverage </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="167" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="167" bodyend="236"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a4e428d0a70101016cd2942d24f37adb7" prot="private" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>average_computer</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>calculator</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>calculator</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a25bb55c1045e7b5b47f7bb62b35491cd" prot="private" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>dense_stepper</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>dense_stepper_type</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a61d310260df653801e9fd17be82f70c8" prot="private" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>g</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>interval_type</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a45be0114edb8a628d19681c47fe4e2b2" prot="private" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>log_transform_f</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1aa31a602d42a03b2b13b068ea3aac975c" prot="private" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>param</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>state_type</name></member>
+      <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::calculator</scope><name>step</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

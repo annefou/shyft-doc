@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4" kind="class" prot="public">
+    <compoundname>shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;</compoundname>
+    <includes refid="core_2timeseries_8h" local="no">timeseries.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class TA</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1a6b7352f15335426606b6d1fa8a38858e" prot="private" static="no" mutable="no">
+        <type>const <ref refid="structshyft_1_1timeseries_1_1point__ts" kindref="compound">point_ts</ref>&lt; TA &gt; &amp;</type>
+        <definition>const point_ts&lt;TA&gt;&amp; shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;::source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="1094" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="1094" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1aced398afb93097615c60cee3d76c26cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;::direct_accessor</definition>
+        <argsstring>(const point_ts&lt; TA &gt; &amp;source, const TA &amp;ta)</argsstring>
+        <name>direct_accessor</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1timeseries_1_1point__ts" kindref="compound">point_ts</ref>&lt; TA &gt; &amp;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const TA &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="1096" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="1096" bodyend="1096"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1a2b32b67729eb45e557392846ab15efbf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;::value</definition>
+        <argsstring>(const size_t i) const </argsstring>
+        <name>value</name>
+        <param>
+          <type>const size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Return value at pos without check since the source has its own timeaxis. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="1100" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="1100" bodyend="1102"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1a078e7b4701a949973846b0dfb4a188ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="1103" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="1103" bodyend="1103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Specialization of the <ref refid="classshyft_1_1timeseries_1_1direct__accessor" kindref="compound">direct_accessor</ref> template for commonly used point_source&lt;TA&gt; </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>life-time warning: the provided point_source is kept by const ref. </para></simplesect>
+<simplesect kind="see"><para><ref refid="classshyft_1_1timeseries_1_1direct__accessor" kindref="compound">direct_accessor</ref> </para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the time-axis </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="1092" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="1092" bodyend="1104"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1aced398afb93097615c60cee3d76c26cb" prot="public" virt="non-virtual"><scope>shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;</scope><name>direct_accessor</name></member>
+      <member refid="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1a078e7b4701a949973846b0dfb4a188ed" prot="public" virt="non-virtual"><scope>shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;</scope><name>size</name></member>
+      <member refid="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1a6b7352f15335426606b6d1fa8a38858e" prot="private" virt="non-virtual"><scope>shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;</scope><name>source</name></member>
+      <member refid="classshyft_1_1timeseries_1_1direct__accessor_3_01point__ts_3_01_t_a_01_4_00_01_t_a_01_4_1a2b32b67729eb45e557392846ab15efbf" prot="public" virt="non-virtual"><scope>shyft::timeseries::direct_accessor&lt; point_ts&lt; TA &gt;, TA &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

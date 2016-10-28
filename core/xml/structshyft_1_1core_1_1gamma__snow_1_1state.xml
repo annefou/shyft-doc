@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1gamma__snow_1_1state" kind="struct" prot="public">
+    <compoundname>shyft::core::gamma_snow::state</compoundname>
+    <includes refid="gamma__snow_8h" local="no">gamma_snow.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::albedo</definition>
+        <argsstring></argsstring>
+        <name>albedo</name>
+        <initializer>= 0.4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="93" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="93" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::lwc</definition>
+        <argsstring></argsstring>
+        <name>lwc</name>
+        <initializer>= 0.1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="94" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="94" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::surface_heat</definition>
+        <argsstring></argsstring>
+        <name>surface_heat</name>
+        <initializer>= 30000.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="95" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="95" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <initializer>= 1.26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="96" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="96" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::sdc_melt_mean</definition>
+        <argsstring></argsstring>
+        <name>sdc_melt_mean</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="97" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="97" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::acc_melt</definition>
+        <argsstring></argsstring>
+        <name>acc_melt</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="98" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="98" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::iso_pot_energy</definition>
+        <argsstring></argsstring>
+        <name>iso_pot_energy</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="99" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::gamma_snow::state::temp_swe</definition>
+        <argsstring></argsstring>
+        <name>temp_swe</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="100" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="100" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" compoundref="gamma__snow_8h" startline="101" endline="112">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1aa0dc4b44b6cfc4a5f9deba84ba852ad9" compoundref="api_2pt__gs__k_8h" startline="14" endline="30">shyft::api::pt_gs_k_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__gs__k__state__io_1afc150f46e3f05746353b6b7f9a4abd7d" compoundref="api_2pt__gs__k_8h" startline="32" endline="39">shyft::api::pt_gs_k_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" compoundref="pt__gs__k__cell__model_8h" startline="174" endline="186">shyft::core::pt_gs_k::state_collector::collect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a3d95f52363d3f159caab564d376e5754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::gamma_snow::state::state</definition>
+        <argsstring>(double albedo=0.4, double lwc=0.1, double surface_heat=30000.0, double alpha=1.26, double sdc_melt_mean=0.0, double acc_melt=0.0, double iso_pot_energy=0.0, double temp_swe=0.0)</argsstring>
+        <name>state</name>
+        <param>
+          <type>double</type>
+          <declname>albedo</declname>
+          <defval>0.4</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lwc</declname>
+          <defval>0.1</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>surface_heat</declname>
+          <defval>30000.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>alpha</declname>
+          <defval>1.26</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sdc_melt_mean</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>acc_melt</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iso_pot_energy</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>temp_swe</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="86" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::gamma_snow::state::operator==</definition>
+        <argsstring>(const state &amp;x) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1core_1_1gamma__snow_1_1state" kindref="compound">state</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="101" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="101" bodyend="112"/>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" compoundref="gamma__snow_8h" startline="93">albedo</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" compoundref="gamma__snow_8h" startline="94">lwc</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" compoundref="gamma__snow_8h" startline="95">surface_heat</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" compoundref="gamma__snow_8h" startline="96">alpha</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" compoundref="gamma__snow_8h" startline="97">sdc_melt_mean</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" compoundref="gamma__snow_8h" startline="98">acc_melt</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" compoundref="gamma__snow_8h" startline="99">iso_pot_energy</references>
+        <references refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" compoundref="gamma__snow_8h" startline="100">temp_swe</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" line="85" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gamma_snow.h" bodystart="85" bodyend="113"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>acc_melt</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>albedo</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>alpha</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>iso_pot_energy</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>lwc</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a64a381f19c252aea3130f74674902788" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>sdc_melt_mean</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a3d95f52363d3f159caab564d376e5754" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>surface_heat</name></member>
+      <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" prot="public" virt="non-virtual"><scope>shyft::core::gamma_snow::state</scope><name>temp_swe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

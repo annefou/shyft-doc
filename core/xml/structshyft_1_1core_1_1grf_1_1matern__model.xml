@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1grf_1_1matern__model" kind="struct" prot="public">
+    <compoundname>shyft::core::grf::matern_model</compoundname>
+    <includes refid="gaussian__random__field_8h" local="no">gaussian_random_field.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1grf_1_1matern__model_1acb53691571a87214c2225a93504e818e" prot="public" static="no">
+        <type>boost::math::policies::policy&lt; boost::math::policies::digits10&lt; 10 &gt; &gt;</type>
+        <definition>typedef boost::math::policies::policy&lt;boost::math::policies::digits10&lt;10&gt; &gt; shyft::core::grf::matern_model::boost_policy_type</definition>
+        <argsstring></argsstring>
+        <name>boost_policy_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="232" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1matern__model_1a7faba98f60c3cf90487eff0a504f2f64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::grf::matern_model::covariance</definition>
+        <argsstring>(const arma::mat &amp;distances, const P &amp;semi_var, arma::mat &amp;covariances)</argsstring>
+        <name>covariance</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>covariances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="235" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="235" bodyend="245"/>
+        <referencedby refid="structshyft_1_1core_1_1grf_1_1matern__model_1a376f7501f22d0aaa51e5fb092a7b1a71" compoundref="gaussian__random__field_8h" startline="248" endline="250">semivariance</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1matern__model_1a376f7501f22d0aaa51e5fb092a7b1a71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::grf::matern_model::semivariance</definition>
+        <argsstring>(const arma::mat &amp;distances, const P &amp;semi_var, arma::mat &amp;semivariances)</argsstring>
+        <name>semivariance</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>semivariances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="248" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="248" bodyend="250"/>
+        <references refid="structshyft_1_1core_1_1grf_1_1matern__model_1a7faba98f60c3cf90487eff0a504f2f64" compoundref="gaussian__random__field_8h" startline="235" endline="245">covariance</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1matern__model_1a95f4fcea711ad375a519dac39a70a476" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void shyft::core::grf::matern_model::semivariogram</definition>
+        <argsstring>(const arma::mat &amp;distances, const P &amp;semi_var, arma::mat &amp;gammas)</argsstring>
+        <name>semivariogram</name>
+        <param>
+          <type>const arma::mat &amp;</type>
+          <declname>distances</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>gammas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="253" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="253" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1matern__model_1ac8733049ff6897d748ac774151f375b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double shyft::core::grf::matern_model::range_correction</definition>
+        <argsstring>(double range, double shape)</argsstring>
+        <name>range_correction</name>
+        <param>
+          <type>double</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>shape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="266" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="266" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1matern__model_1a69eb28579189106a01624c3b3b7a2fe1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* shyft::core::grf::matern_model::name</definition>
+        <argsstring>()</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="270" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="270" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1grf_1_1matern__model_1a4e497b2a0c4666576dd360354c0c357c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SV</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; double &gt;</type>
+        <definition>static std::vector&lt;double&gt; shyft::core::grf::matern_model::parameter</definition>
+        <argsstring>(const SV &amp;semi_var)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>const SV &amp;</type>
+          <declname>semi_var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="272" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="272" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="231" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="231" bodyend="275"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1acb53691571a87214c2225a93504e818e" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>boost_policy_type</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1a7faba98f60c3cf90487eff0a504f2f64" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>covariance</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1a69eb28579189106a01624c3b3b7a2fe1" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>name</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1a4e497b2a0c4666576dd360354c0c357c" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1ac8733049ff6897d748ac774151f375b2" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>range_correction</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1a376f7501f22d0aaa51e5fb092a7b1a71" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>semivariance</name></member>
+      <member refid="structshyft_1_1core_1_1grf_1_1matern__model_1a95f4fcea711ad375a519dac39a70a476" prot="public" virt="non-virtual"><scope>shyft::core::grf::matern_model</scope><name>semivariogram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

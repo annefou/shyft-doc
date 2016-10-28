@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1experimental_1_1region__grid" kind="class" prot="public">
+    <compoundname>shyft::experimental::region_grid</compoundname>
+    <includes refid="experimental_8h" local="no">experimental.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1region__grid_1afe27fc1704dbf93b0938aac97fdc37d6" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1experimental_1a80acf4e636820763739fe6ece53aa14d" kindref="member">point_xy</ref></type>
+        <definition>point_xy shyft::experimental::region_grid::p0</definition>
+        <argsstring></argsstring>
+        <name>p0</name>
+        <briefdescription>
+<para>2d geo point of &quot;upper left corner&quot; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="348" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1region__grid_1a5d40d4947830762598cc5b020a632a11" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::region_grid::nx</definition>
+        <argsstring></argsstring>
+        <name>nx</name>
+        <briefdescription>
+<para>number of cells in x direction </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="349" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1region__grid_1ab2dca8189cc9777cec5b856e2c474862" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::region_grid::ny</definition>
+        <argsstring></argsstring>
+        <name>ny</name>
+        <briefdescription>
+<para>number of cells in y direction </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="350" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1region__grid_1a6bc81f1913007c8bfdffd8b7e9b5e16e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::experimental::region_grid::dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <briefdescription>
+<para>distance in meters for the x-side of the cell </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="351" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1region__grid_1a6c715ac3ebfe459435ee44b04bc7fb6f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::experimental::region_grid::dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+<para>distance in meters for the y-side of the cell </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="352" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1experimental_1_1region__grid_1a72fabad6a317338de2b74ae431607376" prot="private" static="no" mutable="no">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::experimental::region_grid::dtmz</definition>
+        <argsstring></argsstring>
+        <name>dtmz</name>
+        <briefdescription>
+<para>&lt; vector containing all the elevations for the cells, computed index cell(i,j) is i*ny+j </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="353" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1afb9306a8795ce293cfbebf8676faf79d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::experimental::region_grid::region_grid</definition>
+        <argsstring>(point_xy p0, size_t nx, size_t ny, double dx=1000, double dy=1000)</argsstring>
+        <name>region_grid</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1experimental_1a80acf4e636820763739fe6ece53aa14d" kindref="member">point_xy</ref></type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nx</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ny</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+          <defval>1000</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dy</declname>
+          <defval>1000</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="296" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1a53a965ad9c4e6aaefbb0b9238e2ac142" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int shyft::experimental::region_grid::set_dtm</definition>
+        <argsstring>(const vector&lt; dtm &gt; &amp;dtminfo)</argsstring>
+        <name>set_dtm</name>
+        <param>
+          <type>const vector&lt; <ref refid="structshyft_1_1experimental_1_1dtm" kindref="compound">dtm</ref> &gt; &amp;</type>
+          <declname>dtminfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="297" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="297" bodyend="323"/>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1af362a642a7c0f1d754519261d6ed6de4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1experimental_1a175a2f55895d95dbc1ed798062a3e5e8" kindref="member">box</ref></type>
+        <definition>box shyft::experimental::region_grid::cell_box</definition>
+        <argsstring>(size_t i, size_t j) const </argsstring>
+        <name>cell_box</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>return the bounding box of a cell(i,j) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="325" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="325" bodyend="327"/>
+        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1a6cc9c2d8ea34a3df427458a12de707b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1experimental_1a80acf4e636820763739fe6ece53aa14d" kindref="member">point_xy</ref></type>
+        <definition>point_xy shyft::experimental::region_grid::cell_midpoint</definition>
+        <argsstring>(size_t i, size_t j)</argsstring>
+        <name>cell_midpoint</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>calculate and return the midpoint of the cell(i,j) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="329" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1a787639ecc7ea64f778c021ec74cf1130" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::experimental::region_grid::dtm_z</definition>
+        <argsstring>(size_t i, size_t j) const </argsstring>
+        <name>dtm_z</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>return the digital terrain model z coordinate for cell(i,j) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>dtm z elevation, or 0.0 if the supplied (i,j) are outside bound </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="335" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="335" bodyend="340"/>
+        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1a84befb6d621e8f8f2d7ceebf8bed00c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::region_grid::n_x</definition>
+        <argsstring>() const </argsstring>
+        <name>n_x</name>
+        <briefdescription>
+<para>returns number of cells in the x direction </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="342" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="342" bodyend="342"/>
+        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1a2382db8e1b508b59431dc285a3604b50" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::region_grid::n_y</definition>
+        <argsstring>() const </argsstring>
+        <name>n_y</name>
+        <briefdescription>
+<para>returns number of cells in the y direction </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="344" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="344" bodyend="344"/>
+        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1experimental_1_1region__grid_1ad3afb381bc4c3c3f0598fc6027db7ba0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t shyft::experimental::region_grid::n_cells</definition>
+        <argsstring>() const </argsstring>
+        <name>n_cells</name>
+        <briefdescription>
+<para>returns total number of cells, <ref refid="classshyft_1_1experimental_1_1region__grid_1a84befb6d621e8f8f2d7ceebf8bed00c4" kindref="member">n_x()</ref>*n_y() </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="346" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="346" bodyend="346"/>
+        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="549" endline="630">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A <ref refid="classshyft_1_1experimental_1_1region__grid" kindref="compound">region_grid</ref> model, provides a dmz, boundingboxes with a z. <ref refid="namespace_the" kindref="compound">The</ref> <ref refid="classshyft_1_1experimental_1_1region__grid" kindref="compound">region_grid</ref> is used by the geo_cell_data computer to provide the cell-geometry for a grid, along with the elevation information. </para>    </briefdescription>
+    <detaileddescription>
+<para>TODO: This class is just to provide barely enough functionality to work with the existing test data.</para><para>-#: re-work the class to provide iterator of dtm&apos;s instead of (i,j) stuff. -#: fix the set_dtm to do a reasonable attempt to do projection (using an external lib..) </para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" line="294" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h" bodystart="294" bodyend="354"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1af362a642a7c0f1d754519261d6ed6de4" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>cell_box</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a6cc9c2d8ea34a3df427458a12de707b1" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>cell_midpoint</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a787639ecc7ea64f778c021ec74cf1130" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>dtm_z</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a72fabad6a317338de2b74ae431607376" prot="private" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>dtmz</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a6bc81f1913007c8bfdffd8b7e9b5e16e" prot="private" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>dx</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a6c715ac3ebfe459435ee44b04bc7fb6f" prot="private" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>dy</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1ad3afb381bc4c3c3f0598fc6027db7ba0" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>n_cells</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a84befb6d621e8f8f2d7ceebf8bed00c4" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>n_x</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a2382db8e1b508b59431dc285a3604b50" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>n_y</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a5d40d4947830762598cc5b020a632a11" prot="private" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>nx</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1ab2dca8189cc9777cec5b856e2c474862" prot="private" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>ny</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1afe27fc1704dbf93b0938aac97fdc37d6" prot="private" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>p0</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1afb9306a8795ce293cfbebf8676faf79d" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>region_grid</name></member>
+      <member refid="classshyft_1_1experimental_1_1region__grid_1a53a965ad9c4e6aaefbb0b9238e2ac142" prot="public" virt="non-virtual"><scope>shyft::experimental::region_grid</scope><name>set_dtm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

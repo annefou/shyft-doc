@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer" kind="struct" prot="public">
+    <compoundname>shyft::core::inverse_distance::radiation_model::scale_computer</compoundname>
+    <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1a316f819943e9e3d0cceb7c69c658fa1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool shyft::core::inverse_distance::radiation_model&lt; S, D, P, G &gt;::scale_computer::is_source_based</definition>
+        <argsstring>()</argsstring>
+        <name>is_source_based</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="379" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="379" bodyend="379"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1af5d642e2ee2d2641cffdc04078e7ad4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::inverse_distance::radiation_model&lt; S, D, P, G &gt;::scale_computer::scale_computer</definition>
+        <argsstring>(const P &amp;)</argsstring>
+        <name>scale_computer</name>
+        <param>
+          <type>const P &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="380" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="380" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1a6244eb785802f73e36868b5b761df849" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::inverse_distance::radiation_model&lt; S, D, P, G &gt;::scale_computer::add</definition>
+        <argsstring>(const S &amp;, utctime)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const S &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="381" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="381" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1ae77449816901912cd43fd5aa5da776d0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::inverse_distance::radiation_model&lt; S, D, P, G &gt;::scale_computer::compute</definition>
+        <argsstring>() const </argsstring>
+        <name>compute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="382" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="382" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1a91463c0e8b3a2504def796fd56986b43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::inverse_distance::radiation_model&lt; S, D, P, G &gt;::scale_computer::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="383" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="383" bodyend="383"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="378" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="378" bodyend="384"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1a6244eb785802f73e36868b5b761df849" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::radiation_model::scale_computer</scope><name>add</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1a91463c0e8b3a2504def796fd56986b43" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::radiation_model::scale_computer</scope><name>clear</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1ae77449816901912cd43fd5aa5da776d0" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::radiation_model::scale_computer</scope><name>compute</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1a316f819943e9e3d0cceb7c69c658fa1c" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::radiation_model::scale_computer</scope><name>is_source_based</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1radiation__model_1_1scale__computer_1af5d642e2ee2d2641cffdc04078e7ad4f" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::radiation_model::scale_computer</scope><name>scale_computer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

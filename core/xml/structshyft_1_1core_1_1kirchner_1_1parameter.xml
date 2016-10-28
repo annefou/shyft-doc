@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1kirchner_1_1parameter" kind="struct" prot="public">
+    <compoundname>shyft::core::kirchner::parameter</compoundname>
+    <includes refid="kirchner_8h" local="no">kirchner.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kirchner::parameter::c1</definition>
+        <argsstring></argsstring>
+        <name>c1</name>
+        <initializer>= -2.439</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="125" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kirchner::parameter::c2</definition>
+        <argsstring></argsstring>
+        <name>c2</name>
+        <initializer>= 0.966</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="126" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::kirchner::parameter::c3</definition>
+        <argsstring></argsstring>
+        <name>c3</name>
+        <initializer>= -0.10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="127" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::kirchner::parameter::parameter</definition>
+        <argsstring>(double c1=-2.439, double c2=0.966, double c3=-0.1)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>double</type>
+          <declname>c1</declname>
+          <defval>-2.439</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c2</declname>
+          <defval>0.966</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c3</declname>
+          <defval>-0.1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="128" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>kirchner parameters as defined in reference </para>    </briefdescription>
+    <detaileddescription>
+<para>In operation, these parameters could be estimated based on time periods when precipitation and evapo-transpiration are much smaller than then discharge. <simplesect kind="note"><para>reasonable default values are provided </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="124" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="124" bodyend="129"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::parameter</scope><name>c1</name></member>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::parameter</scope><name>c2</name></member>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::parameter</scope><name>c3</name></member>
+      <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" prot="public" virt="non-virtual"><scope>shyft::core::kirchner::parameter</scope><name>parameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

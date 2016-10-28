@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics" kind="struct" prot="public">
+    <compoundname>shyft::api::priestley_taylor_cell_response_statistics</compoundname>
+    <includes refid="api_8h" local="no">api.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref></type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a33d248c62a7bd4ea4a1164617ed9e529" prot="public" static="no" mutable="no">
+        <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt; &gt;</type>
+        <definition>shared_ptr&lt;vector&lt;cell&gt; &gt; shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::cells</definition>
+        <argsstring></argsstring>
+        <name>cells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="806" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="806" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a624953a9ab5b640f1f7527575629ba1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::priestley_taylor_cell_response_statistics</definition>
+        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <name>priestley_taylor_cell_response_statistics</name>
+        <param>
+          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <declname>cells</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="807" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="807" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a93d3500687a427ae78dbeb40ad9a9d75" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <definition>apoint_ts shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output</definition>
+        <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const </argsstring>
+        <name>output</name>
+        <param>
+          <type>const vector&lt; int &gt; &amp;</type>
+          <declname>catchment_indexes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="809" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="809" bodyend="813"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="108">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1aec5e652648861bd0e4de7e431a1aedb8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>vector&lt; double &gt;</type>
+        <definition>vector&lt;double&gt; shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output</definition>
+        <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes, size_t ith_timestep) const </argsstring>
+        <name>output</name>
+        <param>
+          <type>const vector&lt; int &gt; &amp;</type>
+          <declname>catchment_indexes</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ith_timestep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="814" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="814" bodyend="818"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="334" endline="355">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="108">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a2608a17873b9d0f27d60e77d1c8ab625" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output_value</definition>
+        <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes, size_t ith_timestep) const </argsstring>
+        <name>output_value</name>
+        <param>
+          <type>const vector&lt; int &gt; &amp;</type>
+          <declname>catchment_indexes</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>ith_timestep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="819" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="819" bodyend="823"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="228" endline="252">shyft::core::cell_statistics::average_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="108">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="805" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="805" bodyend="824"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a33d248c62a7bd4ea4a1164617ed9e529" prot="public" virt="non-virtual"><scope>shyft::api::priestley_taylor_cell_response_statistics</scope><name>cells</name></member>
+      <member refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a93d3500687a427ae78dbeb40ad9a9d75" prot="public" virt="non-virtual"><scope>shyft::api::priestley_taylor_cell_response_statistics</scope><name>output</name></member>
+      <member refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1aec5e652648861bd0e4de7e431a1aedb8" prot="public" virt="non-virtual"><scope>shyft::api::priestley_taylor_cell_response_statistics</scope><name>output</name></member>
+      <member refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a2608a17873b9d0f27d60e77d1c8ab625" prot="public" virt="non-virtual"><scope>shyft::api::priestley_taylor_cell_response_statistics</scope><name>output_value</name></member>
+      <member refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a624953a9ab5b640f1f7527575629ba1d" prot="public" virt="non-virtual"><scope>shyft::api::priestley_taylor_cell_response_statistics</scope><name>priestley_taylor_cell_response_statistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils" kind="namespace">
+    <compoundname>shyft::core::bayesian_kriging::utils</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1abdb85674cd17c702913d9e1f2a5b18fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class P</type>
+          </param>
+          <param>
+            <type>class GP</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::utils::scaled_dist</definition>
+        <argsstring>(const GP &amp;p1, const GP &amp;p2, const P &amp;param)</argsstring>
+        <name>scaled_dist</name>
+        <param>
+          <type>const GP &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const GP &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+<para>Scaled distance between points. </para>        </briefdescription>
+        <detaileddescription>
+<para>Multiply elevation distance with a scale factor and compute the corresponding difference between the points p1 and p2.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter that supplies:<orderedlist>
+<listitem><para>P.zscale() const </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>GP</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameter GeoPoint, supplies ::zscaled_distance(GP p1,GPp2 ,double zscale) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>scaled distance. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="29" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="29" bodyend="32"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">build_covariance_matrices</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a703cd1346c203a00dbbcf46412716339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class P</type>
+          </param>
+        </templateparamlist>
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::utils::zero_dist_cov</definition>
+        <argsstring>(const P &amp;parameter)</argsstring>
+        <name>zero_dist_cov</name>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="34" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="34" bodyend="37"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">build_covariance_matrices</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a5438ae2ae5992013db19b74c511847aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TP</type>
+          </param>
+          <param>
+            <type>class P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::bayesian_kriging::utils::cov</definition>
+        <argsstring>(const TP &amp;dists, TP &amp;cov, const P &amp;parameter)</argsstring>
+        <name>cov</name>
+        <param>
+          <type>const TP &amp;</type>
+          <declname>dists</declname>
+        </param>
+        <param>
+          <type>TP &amp;</type>
+          <declname>cov</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="41" bodyend="44"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">build_covariance_matrices</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1grf_1ab27eeaf5783a50e63a5a78e399cddc20" compoundref="gaussian__random__field_8h" startline="286" endline="315">shyft::core::grf::calculate_gibbs_weights</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class S</type>
+          </param>
+          <param>
+            <type>class D</type>
+          </param>
+          <param>
+            <type>class P</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::bayesian_kriging::utils::build_covariance_matrices</definition>
+        <argsstring>(S source_begin, S source_end, D destination_begin, D destination_end, const P &amp;parameter, arma::mat &amp;K, arma::mat &amp;k)</argsstring>
+        <name>build_covariance_matrices</name>
+        <param>
+          <type>S</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>const P &amp;</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>K</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+<para>Build the covariance matrices from sources and destinations. </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> Bayesian Temperature Kriging algorithm needs source-source and source-destination covariance matrices. Define <formula id="0">$p_1 = (x_1, y_1, z_1)$</formula> and <formula id="1">$p_2 = (x_2, y_2, z_2)$</formula>, two 3D points for the source/destination. Furthermore, define <formula id="2">$d=\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2 + (l(z_1-z_2))^2}$</formula>, where <formula id="3">$l$</formula> is a height scaling factor. Then, <formula id="4">\[ cov(p_1, p_2) = (s-n)e^{-\frac{d}{r}} \]</formula> where <formula id="5">$s$</formula> is the sill, <formula id="6">$n$</formula> is the nugget and <formula id="7">$r$</formula> is the range of the semivariogram.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source (location) Type that implements:<orderedlist>
+<listitem><para>S.mid_point() const <ndash/>&gt; 3D point, GeoPoint, specifies the location </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination (location/area) Type that implements:<orderedlist>
+<listitem><para>D.mid_point() const <ndash/>&gt; 3D point, GeoPoint, specifies the location</para></listitem><listitem><para>D.set_temperature() <ndash/>&gt; 3D point, arma::vec3, specifies the location </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Parameters for the algorithm, that supplies:<orderedlist>
+<listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf72c12c99826bd5c9d95c9a1cceb0f7" kindref="member">parameter.sill() const </ref><ndash/>&gt; Sill value of the semivariogram</para></listitem><listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf5c047db7418aa9194b40d6f164ae1d" kindref="member">parameter.nug() const </ref><ndash/>&gt; Nugget value of the semivariogram</para></listitem><listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad62f25354193b8bf1655d61d4e586c7c" kindref="member">parameter.range() const </ref><ndash/>&gt; Range of the semivariogram</para></listitem><listitem><para>P.zscale() const <ndash/>&gt; Height scaling factor </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>K</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Symmetric, positive semi-definite source-source covariance matrix </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>source-destination covariance matrix </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="78" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="78" bodyend="110"/>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1abdb85674cd17c702913d9e1f2a5b18fb" compoundref="bayesian__kriging_8h" startline="29" endline="32">scaled_dist</references>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a5438ae2ae5992013db19b74c511847aa" compoundref="bayesian__kriging_8h" startline="41" endline="44">cov</references>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a703cd1346c203a00dbbcf46412716339" compoundref="bayesian__kriging_8h" startline="34" endline="37">zero_dist_cov</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" compoundref="bayesian__kriging_8h" startline="264" endline="386">shyft::core::bayesian_kriging::btk_interpolation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad36cfdd01f576a8673821c805762a9c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class S</type>
+          </param>
+          <param>
+            <type>class D</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void shyft::core::bayesian_kriging::utils::build_elevation_matrices</definition>
+        <argsstring>(S source_begin, S source_end, D destination_begin, D destination_end, arma::mat &amp;F, arma::mat &amp;f)</argsstring>
+        <name>build_elevation_matrices</name>
+        <param>
+          <type>S</type>
+          <declname>source_begin</declname>
+        </param>
+        <param>
+          <type>S</type>
+          <declname>source_end</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_begin</declname>
+        </param>
+        <param>
+          <type>D</type>
+          <declname>destination_end</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>F</declname>
+        </param>
+        <param>
+          <type>arma::mat &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Build the elevation matrices from sources and destinations. </para>        </briefdescription>
+        <detaileddescription>
+<para>Build the elevation matrices needed by the Bayesian Temperature Kriging algorithm.</para><para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>S</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source (location) Type that implements:<orderedlist>
+<listitem><para>S.mid_point() const <ndash/>&gt; 3D point,GeoPoint, specifies the location </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>D</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination (location/area) Type that implements:<orderedlist>
+<listitem><para>D.mid_point() const <ndash/>&gt; 3D point, GeoPoint, specifies the location </para></listitem></orderedlist>
+</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>F</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Matrix <formula id="8">$ F\in{} \mathcal{R}^{n,2} $</formula>, where <formula id="6">$n$</formula> is the number of sources. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Matrix <formula id="9">$ F\in{} \mathcal{R}^{2,m} $</formula>, where <formula id="10">$m$</formula> is the number of destinations. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="129" bodyend="145"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" compoundref="bayesian__kriging_8h" startline="264" endline="386">shyft::core::bayesian_kriging::btk_interpolation</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="16" column="1"/>
+  </compounddef>
+</doxygen>

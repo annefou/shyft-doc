@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter" kind="class" prot="public">
+    <compoundname>shyft::core::bayesian_kriging::parameter</compoundname>
+    <includes refid="bayesian__kriging_8h" local="no">bayesian_kriging.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ae7a85f60e45bee45472fb88b9a98bf07" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::gradient_sd</definition>
+        <argsstring></argsstring>
+        <name>gradient_sd</name>
+        <initializer>= 0.0025</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="188" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a3cffd0a97c5f8816fec153e3aad5dfd6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::sill_value</definition>
+        <argsstring></argsstring>
+        <name>sill_value</name>
+        <initializer>= 25.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="189" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a8a558c0d3fdc603a476744504940e386" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::nug_value</definition>
+        <argsstring></argsstring>
+        <name>nug_value</name>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="190" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a406fa87ecef4129bbd254c27cd8952d5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::range_value</definition>
+        <argsstring></argsstring>
+        <name>range_value</name>
+        <initializer>= 200000.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="191" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1af9804a2bdbe238f2036027310631af84" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::zscale_value</definition>
+        <argsstring></argsstring>
+        <name>zscale_value</name>
+        <initializer>= 20.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="192" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1aa194a34a17f9f85153d7e7e61b961ec3" prot="private" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref></type>
+        <definition>calendar shyft::core::bayesian_kriging::parameter::cal</definition>
+        <argsstring></argsstring>
+        <name>cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="193" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad54014241af941f5316dd71c4fa0512b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::bayesian_kriging::parameter::parameter</definition>
+        <argsstring>()</argsstring>
+        <name>parameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="195" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ab4e9686f249b8d5c8fc7607d9484cad5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::bayesian_kriging::parameter::parameter</definition>
+        <argsstring>(double temperature_gradient, double temperature_gradient_sd)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>double</type>
+          <declname>temperature_gradient</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>temperature_gradient_sd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="196" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="196" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a44b2cde155e42c748453c295b9797be4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::bayesian_kriging::parameter::parameter</definition>
+        <argsstring>(double temperature_gradient, double temperature_gradient_sd, double sill, double nugget, double range, double zscale)</argsstring>
+        <name>parameter</name>
+        <param>
+          <type>double</type>
+          <declname>temperature_gradient</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>temperature_gradient_sd</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sill</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>nugget</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zscale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="198" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="198" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ab7ef52857485cdb1ca956f6c313936f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double shyft::core::bayesian_kriging::parameter::temperature_gradient</definition>
+        <argsstring>(utcperiod p) const </argsstring>
+        <name>temperature_gradient</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="203" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="203" bodyend="206"/>
+        <references refid="structshyft_1_1core_1_1calendar_1aef13881a602103bc881cfc1a70c14741" compoundref="utctime__utilities_8cpp" startline="106" endline="105">shyft::core::calendar::day_of_year</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" compoundref="utctime__utilities_8h" startline="79">shyft::core::utcperiod::start</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" compoundref="utctime__utilities_8h" startline="80">shyft::core::utcperiod::end</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad5eb58da3e9643b3daacd8ca3cadca1a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const double</type>
+        <definition>const double shyft::core::bayesian_kriging::parameter::temperature_gradient_sd</definition>
+        <argsstring>() const </argsstring>
+        <name>temperature_gradient_sd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="207" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf72c12c99826bd5c9d95c9a1cceb0f7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::sill</definition>
+        <argsstring>() const </argsstring>
+        <name>sill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="209" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf5c047db7418aa9194b40d6f164ae1d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::nug</definition>
+        <argsstring>() const </argsstring>
+        <name>nug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="210" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad62f25354193b8bf1655d61d4e586c7c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::range</definition>
+        <argsstring>() const </argsstring>
+        <name>range</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="211" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adc60e169bccb309343b6776fef666200" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double shyft::core::bayesian_kriging::parameter::zscale</definition>
+        <argsstring>() const </argsstring>
+        <name>zscale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="212" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="212" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>BTKParameter class with time varying gradient based on day no. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>BayesianKriging </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="187" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="187" bodyend="213"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1aa194a34a17f9f85153d7e7e61b961ec3" prot="private" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>cal</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ae7a85f60e45bee45472fb88b9a98bf07" prot="private" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>gradient_sd</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf5c047db7418aa9194b40d6f164ae1d" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>nug</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a8a558c0d3fdc603a476744504940e386" prot="private" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>nug_value</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad54014241af941f5316dd71c4fa0512b" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>parameter</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ab4e9686f249b8d5c8fc7607d9484cad5" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>parameter</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a44b2cde155e42c748453c295b9797be4" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>parameter</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad62f25354193b8bf1655d61d4e586c7c" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>range</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a406fa87ecef4129bbd254c27cd8952d5" prot="private" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>range_value</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf72c12c99826bd5c9d95c9a1cceb0f7" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>sill</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a3cffd0a97c5f8816fec153e3aad5dfd6" prot="private" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>sill_value</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ab7ef52857485cdb1ca956f6c313936f4" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>temperature_gradient</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad5eb58da3e9643b3daacd8ca3cadca1a" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>temperature_gradient_sd</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adc60e169bccb309343b6776fef666200" prot="public" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>zscale</name></member>
+      <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1af9804a2bdbe238f2036027310631af84" prot="private" virt="non-virtual"><scope>shyft::core::bayesian_kriging::parameter</scope><name>zscale_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

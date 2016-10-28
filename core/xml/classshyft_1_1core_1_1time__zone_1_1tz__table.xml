@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classshyft_1_1core_1_1time__zone_1_1tz__table" kind="class" prot="public">
+    <compoundname>shyft::core::time_zone::tz_table</compoundname>
+    <includes refid="utctime__utilities_8h" local="no">utctime_utilities.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1a67b6fbe5689ebe64acf4be3043e8b31b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int shyft::core::time_zone::tz_table::start_year</definition>
+        <argsstring></argsstring>
+        <name>start_year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="116" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1a51d6c24fc52c9afdbf9bddbf4a93b9d7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string shyft::core::time_zone::tz_table::tz_name</definition>
+        <argsstring></argsstring>
+        <name>tz_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="117" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae66732721c4fd00f5fff71e8cd96fdae" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref> &gt;</type>
+        <definition>vector&lt;utcperiod&gt; shyft::core::time_zone::tz_table::dst</definition>
+        <argsstring></argsstring>
+        <name>dst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="118" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1a19ee6fd3a89797fe522bf18d05fd4aad" prot="private" static="no" mutable="no">
+        <type>vector&lt; <ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref> &gt;</type>
+        <definition>vector&lt;utctimespan&gt; shyft::core::time_zone::tz_table::dt</definition>
+        <argsstring></argsstring>
+        <name>dt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="119" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1a59dfb56351bc210ae1aa60c99f890213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Tz</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>shyft::core::time_zone::tz_table::tz_table</definition>
+        <argsstring>(const Tz &amp;tz, int start_year=1905, size_t n_years=200)</argsstring>
+        <name>tz_table</name>
+        <param>
+          <type>const Tz &amp;</type>
+          <declname>tz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_year</declname>
+          <defval>1905</defval>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>n_years</declname>
+          <defval>200</defval>
+        </param>
+        <briefdescription>
+<para>construct a <ref refid="classshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref> using a information from provided Tz adapter </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Tz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a type that provids dst_start(year),dst_end(year), dst_offset(year) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>const ref to provide tz information that will be used to construct a table driven interpretation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start_year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>default 1905 (limit of posix time is 1901) for which the dst table is constructed </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n_years</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>default 200 giving range from 1905 to 2105 with dst info. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae4d7d2c3f2547e8828923114eb220107" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::time_zone::tz_table::tz_table</definition>
+        <argsstring>(utctimespan dt)</argsstring>
+        <name>tz_table</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+          <declname>dt</declname>
+        </param>
+        <briefdescription>
+<para>construct a simple dst infotable with no dst, just tz-offset suitable for non-dst time-zones and data-exchange. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of type utctimespan, positive for tz east of GMT </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="140" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="140" bodyend="143"/>
+        <references refid="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" compoundref="utctime__utilities_8h" startline="36" endline="36">shyft::core::deltahours</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1aff62a60a1e22aa9be162adb3c12dad8c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool shyft::core::time_zone::tz_table::is_dst</definition>
+        <argsstring>() const </argsstring>
+        <name>is_dst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="144" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="144" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1ac7b43f93ca7b067a6454a8a8ff2dd476" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string shyft::core::time_zone::tz_table::name</definition>
+        <argsstring>() const </argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="145" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1a42a36dceddf98f7c73f517b98183e1da" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>utctime shyft::core::time_zone::tz_table::dst_start</definition>
+        <argsstring>(int year) const </argsstring>
+        <name>dst_start</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="146" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="146" bodyend="146"/>
+        <references refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" compoundref="utctime__utilities_8h" startline="54">shyft::core::no_utctime</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1ab0a47279623c259f21f0894aa8b8d6ad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>utctime shyft::core::time_zone::tz_table::dst_end</definition>
+        <argsstring>(int year) const </argsstring>
+        <name>dst_end</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="147" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="147" bodyend="147"/>
+        <references refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" compoundref="utctime__utilities_8h" startline="54">shyft::core::no_utctime</references>
+      </memberdef>
+      <memberdef kind="function" id="classshyft_1_1core_1_1time__zone_1_1tz__table_1a60d94e8fe7a84cd9d43a2af0b7f49490" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
+        <definition>utctimespan shyft::core::time_zone::tz_table::dst_offset</definition>
+        <argsstring>(utctime t) const </argsstring>
+        <name>dst_offset</name>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="148" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="412" bodyend="419"/>
+        <references refid="structshyft_1_1core_1_1calendar_1a4819f3407d936c3bdab45b74dafc64b8" compoundref="utctime__utilities_8h" startline="326" endline="331">shyft::core::calendar::utc_year</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="namespace_the" kindref="compound">The</ref> <ref refid="classshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref> is a table driven approach where each year in a specified range have a dst information containing start/end, and the applied dst offset. This approach allows to have historical correct dst-rules, at minor space/time overhead E.g. Norway, summertime rules are changed to EU defs. in 1996 first time applied was 1916, then 1943-1945, then 1959-1965, then 1980-to 1996, where eu rules was introduced. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="115" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="115" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae66732721c4fd00f5fff71e8cd96fdae" prot="private" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>dst</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ab0a47279623c259f21f0894aa8b8d6ad" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>dst_end</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1a60d94e8fe7a84cd9d43a2af0b7f49490" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>dst_offset</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1a42a36dceddf98f7c73f517b98183e1da" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>dst_start</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1a19ee6fd3a89797fe522bf18d05fd4aad" prot="private" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>dt</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1aff62a60a1e22aa9be162adb3c12dad8c" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>is_dst</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ac7b43f93ca7b067a6454a8a8ff2dd476" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>name</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1a67b6fbe5689ebe64acf4be3043e8b31b" prot="private" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>start_year</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1a51d6c24fc52c9afdbf9bddbf4a93b9d7" prot="private" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>tz_name</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1a59dfb56351bc210ae1aa60c99f890213" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>tz_table</name></member>
+      <member refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae4d7d2c3f2547e8828923114eb220107" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_table</scope><name>tz_table</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

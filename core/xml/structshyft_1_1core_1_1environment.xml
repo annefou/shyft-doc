@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structshyft_1_1core_1_1environment" kind="struct" prot="public">
+    <compoundname>shyft::core::environment</compoundname>
+    <includes refid="cell__model_8h" local="no">cell_model.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis</ref></type>
+      </param>
+      <param>
+        <type>class temperature_ts</type>
+      </param>
+      <param>
+        <type>class precipitation_ts</type>
+      </param>
+      <param>
+        <type>class radiation_ts</type>
+      </param>
+      <param>
+        <type>class relhum_ts</type>
+      </param>
+      <param>
+        <type>class windspeed_ts</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" prot="public" static="no">
+        <type><ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis</ref></type>
+        <definition>typedef timeaxis shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::timeaxis_t</definition>
+        <argsstring></argsstring>
+        <name>timeaxis_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="39" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1environment_1acd8f7a52465854218cd503e11d81c90e" prot="public" static="no">
+        <type>temperature_ts</type>
+        <definition>typedef temperature_ts shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::temperature_ts_t</definition>
+        <argsstring></argsstring>
+        <name>temperature_ts_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="40" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1core_1_1environment_1a10666df117324cc10ccdace3fce197fb" prot="public" static="no" mutable="no">
+        <type>temperature_ts</type>
+        <definition>temperature_ts shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1environment_1a9233b9b098548e78da937e0144dad429" prot="public" static="no" mutable="no">
+        <type>precipitation_ts</type>
+        <definition>precipitation_ts shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::precipitation</definition>
+        <argsstring></argsstring>
+        <name>precipitation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1environment_1a30dbb7a80b6142d118b2b8ac476690aa" prot="public" static="no" mutable="no">
+        <type>radiation_ts</type>
+        <definition>radiation_ts shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::radiation</definition>
+        <argsstring></argsstring>
+        <name>radiation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="43" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1environment_1a125a81433381a2f622a505ab09f304f4" prot="public" static="no" mutable="no">
+        <type>relhum_ts</type>
+        <definition>relhum_ts shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::rel_hum</definition>
+        <argsstring></argsstring>
+        <name>rel_hum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="44" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" prot="public" static="no" mutable="no">
+        <type>windspeed_ts</type>
+        <definition>windspeed_ts shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::wind_speed</definition>
+        <argsstring></argsstring>
+        <name>wind_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="45" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::core::environment&lt; timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts &gt;::init</definition>
+        <argsstring>(const timeaxis &amp;ta)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis</ref> &amp;</type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="48" bodyend="62"/>
+        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1a2311856f50c0cf3a70dbcb7ccf0a0cfe" compoundref="time__axis_8h" startline="55" endline="55">shyft::time_axis::fixed_dt::size</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>environment supplies the temperature, precipitation,radiation,rel_hum and wind_speed time-series representative for the cell area,height and mid_point Each property can have its own ts-type, so that we can easily represent constants if needed. We use this template class as a building block of the cell-types, since most cells need this information. environment variant with const relative humidity and wind (speed up calc &amp;reduce mem) </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> </para></simplesect>
+<parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>timeaxis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type, the ts-type should all be constructible/resetable with a timeaxis and a fill-value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>temperature_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type for the temperature ts, usually a/like shyft::timeseries::point_source </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>precipitation_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radiation_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>relhum_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>windspeed_ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="38" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="38" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>init</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1a9233b9b098548e78da937e0144dad429" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>precipitation</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1a30dbb7a80b6142d118b2b8ac476690aa" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>radiation</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1a125a81433381a2f622a505ab09f304f4" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>rel_hum</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1a10666df117324cc10ccdace3fce197fb" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>temperature</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1acd8f7a52465854218cd503e11d81c90e" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>temperature_ts_t</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>timeaxis_t</name></member>
+      <member refid="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" prot="public" virt="non-virtual"><scope>shyft::core::environment</scope><name>wind_speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
