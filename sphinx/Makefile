@@ -52,8 +52,23 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 html:
+    ## maybe this should be implemented somewhere else?
+    #@echo "test"
+    #select yn in "Yes" "No"; do
+    #    case $yn in
+    #        Yes ) cp -r ../notebooks notebooks; break;;
+    #        No ) exit;;
+    #    esac
+    #done
 	cp -r ../notebooks notebooks
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+    #@echo "Do you wish to copy notebooks back?"
+    #select yn in "Yes" "No"; do
+    #    case $yn in
+    #        Yes ) rsync -avz notebooks/ ../notebooks; rm -rf notebooks; break;;
+    #        No ) exit;;
+    #    esac
+    #done
 	rsync -avz notebooks/ ../notebooks
 	rm -rf notebooks
 	@echo

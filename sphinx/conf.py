@@ -44,8 +44,9 @@ extensions = [
 ]
 
 # nbsphinx
-# note the html command in the Makefile has customizations to copy and remove
-# the notebooks directory into the sphinx directory during build
+# WARNING: note the html command in the Makefile has customizations
+# to copy, rsync back, and remove the notebooks directory into the
+# sphinx directory during build
 nbsphinx_execute = 'never'
 nbsphinx_timeout = 1800
 nbsphinx_allow_errors = True
