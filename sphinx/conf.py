@@ -14,7 +14,9 @@
 
 import sys
 import os
-import shlex
+import shutil
+
+
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -38,10 +40,15 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
     'sphinx.ext.viewcode',
+    'IPython.sphinxext.ipython_console_highlighting'
 ]
 
 # nbsphinx
+# note the html command in the Makefile has customizations to copy and remove
+# the notebooks directory into the sphinx directory during build
 nbsphinx_execute = 'never'
+nbsphinx_timeout = 1800
+nbsphinx_allow_errors = True
 
 # doxygen support using the breathe extension
 breathe_projects = { "shyft": os.path.abspath('../core/xml/') }

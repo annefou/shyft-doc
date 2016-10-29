@@ -4,17 +4,26 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# This notebook demonstrate the ts.convolve_w(weights, convolve_policy) function\n",
-    "#"
+    "## Demonstration of the Shyft Timseries API convolve_w function\n",
+    "\n",
+    "### ts.convolve_w(weights, convolve_policy) function"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 1,
    "metadata": {
     "collapsed": false
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Populating the interactive namespace from numpy and matplotlib\n"
+     ]
+    }
+   ],
    "source": [
     "# first you should import the third-party python modules which you'll use later on\n",
     "# the first line enables that figures are shown inline, directly in the notebook\n",
@@ -36,9 +45,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 3,
    "metadata": {
-    "collapsed": true
+    "collapsed": false
    },
    "outputs": [],
    "source": [
@@ -49,18 +58,30 @@
     "from shyft.api import DoubleVector\n",
     "from shyft.api import TsVector\n",
     "from shyft.api import Timeseries\n",
-    "from shyft.api import convolve_policy\n",
+    "\n",
     "from shyft.orchestration import plotting as splt\n",
     "from scipy import signal"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 5,
    "metadata": {
     "collapsed": false
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'Timeseries' object has no attribute 'convolve_w'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-5-f1ef5aad9898>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     22\u001b[0m \u001b[0mweights\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mDoubleVector\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfrom_numpy\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mweights\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0mweights\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msum\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m# ensure sum of weights are 1.0\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     23\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 24\u001b[0;31m \u001b[0mcts\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mts\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mconvolve_w\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mweights\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mconvolve_policy\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mUSE_ZERO\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m# in the first n-1 steps, fill in with zero\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     25\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     26\u001b[0m \u001b[0;31m# now this is done, - we can now plot the results\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'Timeseries' object has no attribute 'convolve_w'"
+     ]
+    }
+   ],
    "source": [
     "# demo partition_by and percentiles function\n",
     "\n",
@@ -108,8 +129,9 @@
   }
  ],
  "metadata": {
+  "anaconda-cloud": {},
   "kernelspec": {
-   "display_name": "Python 3",
+   "display_name": "Python [default]",
    "language": "python",
    "name": "python3"
   },

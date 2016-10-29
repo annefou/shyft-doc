@@ -19,4 +19,4 @@ hydropower scheduling. The aim of this development is to provide a framework tha
 .. toctree::
    :maxdepth: 2
 
-   notebooks
+   notebook

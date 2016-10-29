@@ -52,7 +52,10 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 html:
+	cp -r ../notebooks notebooks
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	rsync -avz notebooks/ ../notebooks
+	rm -rf notebooks
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 

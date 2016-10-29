@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>&lt;no title&gt; &#8212; Shyft 0.1 documentation</title>
+    <title>Example of the Shyft Timeseries API &#8212; Shyft 0.1 documentation</title>
     
     <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -26,7 +26,10 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="top" title="Shyft 0.1 documentation" href="../../index.html" /> 
+    <link rel="top" title="Shyft 0.1 documentation" href="../../index.html" />
+    <link rel="up" title="Notebooks" href="../../notebook.html" />
+    <link rel="next" title="Demonstration of the Shyft Timseries API convolve_w function" href="ts-convolve.html" />
+    <link rel="prev" title="Demonstration of SHyFT API implementation of Kalman Filtering on time series" href="../grid-pp/gridpp_simple.html" /> 
   </head>
   <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
@@ -38,7 +41,15 @@
         <li class="right" >
           <a href="../../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li> 
+        <li class="right" >
+          <a href="ts-convolve.html" title="Demonstration of the Shyft Timseries API convolve_w function"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="../grid-pp/gridpp_simple.html" title="Demonstration of SHyFT API implementation of Kalman Filtering on time series"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../introduction.html" >What&#8217;s SHyFT?</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../notebook.html" accesskey="U">Notebooks</a> &#187;</li> 
       </ul>
     </div>  
 
@@ -180,132 +191,178 @@ div.nboutput  > :nth-child(2).stderr {
 
 .ansi-bold { font-weight: bold; }
 </style>
-<div class="nbinput nblast container">
+<div class="section" id="Example-of-the-Shyft-Timeseries-API">
+<h1>Example of the Shyft Timeseries API<a class="headerlink" href="#Example-of-the-Shyft-Timeseries-API" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="partition_by-and-percentiles-functions">
+<h2>partition_by and percentiles functions<a class="headerlink" href="#partition_by-and-percentiles-functions" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput container">
 <div class="highlight-none"><div class="highlight"><pre>
-<span></span>In [ ]:
+<span></span>In [1]:
 </pre></div>
 </div>
 <div class="highlight-ipython3"><div class="highlight"><pre>
-<span></span># first you should import the third-party python modules which you&#39;ll use later on
-# the first line enables that figures are shown inline, directly in the notebook
-%pylab inline
-import os
-from os import path
-import sys
-from matplotlib import pyplot as plt
-import datetime
-# set the path for your shyft build
-# this should point to the directory that is created
-# when you clone shyft, assuming you have built shyft
-# there and not installed it to your system python
-shyft_path = os.path.abspath(&quot;../../../shyft&quot;)
-sys.path.insert(0, shyft_path)
+<span></span><span class="c1"># first you should import the third-party python modules which you&#39;ll use later on</span>
+<span class="c1"># the first line enables that figures are shown inline, directly in the notebook</span>
+<span class="o">%</span><span class="k">pylab</span> inline
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">path</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+<span class="c1"># set the path for your shyft build</span>
+<span class="c1"># this should point to the directory that is created</span>
+<span class="c1"># when you clone shyft, assuming you have built shyft</span>
+<span class="c1"># there and not installed it to your system python</span>
+<span class="n">shyft_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">&quot;../../../shyft&quot;</span><span class="p">)</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">shyft_path</span><span class="p">)</span>
 
-# you could achieve the same by setting a PYTHONPATH
+<span class="c1"># you could achieve the same by setting a PYTHONPATH</span>
 </pre></div>
 </div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+Populating the interactive namespace from numpy and matplotlib
+</pre></div></div>
 </div>
 <div class="nbinput nblast container">
 <div class="highlight-none"><div class="highlight"><pre>
-<span></span>In [ ]:
+<span></span>In [2]:
 </pre></div>
 </div>
 <div class="highlight-ipython3"><div class="highlight"><pre>
-<span></span>from shyft.api import Calendar
-from shyft.api import deltahours
-from shyft.api import Timeaxis,Timeaxis2
-from shyft.api import point_interpretation_policy as fx_policy
-from shyft.api import DoubleVector
-from shyft.api import TsVector
-from shyft.api import Timeseries
-from shyft.api import percentiles
-from shyft.orchestration import plotting as splt
+<span></span><span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">Calendar</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">deltahours</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">Timeaxis</span><span class="p">,</span><span class="n">Timeaxis2</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">point_interpretation_policy</span> <span class="k">as</span> <span class="n">fx_policy</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">DoubleVector</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">TsVector</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">Timeseries</span>
+<span class="kn">from</span> <span class="nn">shyft.api</span> <span class="kn">import</span> <span class="n">percentiles</span>
+<span class="kn">from</span> <span class="nn">shyft.orchestration</span> <span class="kn">import</span> <span class="n">plotting</span> <span class="k">as</span> <span class="n">splt</span>
 </pre></div>
 </div>
 </div>
-<div class="nbinput nblast container">
+<div class="nbinput container">
 <div class="highlight-none"><div class="highlight"><pre>
-<span></span>In [ ]:
+<span></span>In [3]:
 </pre></div>
 </div>
 <div class="highlight-ipython3"><div class="highlight"><pre>
-<span></span># demo partition_by and percentiles function
+<span></span><span class="c1"># demo partition_by and percentiles function</span>
 
-utc = Calendar()
-t0 = utc.time(1930, 9, 1)
-dt = deltahours(1)
-n = utc.diff_units(t0, utc.time(2016, 9, 1), dt)
+<span class="n">utc</span> <span class="o">=</span> <span class="n">Calendar</span><span class="p">()</span>
+<span class="n">t0</span> <span class="o">=</span> <span class="n">utc</span><span class="o">.</span><span class="n">time</span><span class="p">(</span><span class="mi">1930</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">dt</span> <span class="o">=</span> <span class="n">deltahours</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">utc</span><span class="o">.</span><span class="n">diff_units</span><span class="p">(</span><span class="n">t0</span><span class="p">,</span> <span class="n">utc</span><span class="o">.</span><span class="n">time</span><span class="p">(</span><span class="mi">2016</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="n">dt</span><span class="p">)</span>
 
-ta = Timeaxis2(t0, dt, n)
+<span class="n">ta</span> <span class="o">=</span> <span class="n">Timeaxis2</span><span class="p">(</span><span class="n">t0</span><span class="p">,</span> <span class="n">dt</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
 
-# just generate some data that is alive
-x = np.linspace(start=0.0,stop=np.pi*200,num=len(ta))
+<span class="c1"># just generate some data that is alive</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span><span class="n">stop</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="mi">200</span><span class="p">,</span><span class="n">num</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">ta</span><span class="p">))</span>
 
-pattern_values = DoubleVector.from_numpy(500.0 + x*np.sin(x)+x/10+ 1000.0*np.random.normal(0,0.1,len(ta))) # increasing values
+<span class="n">pattern_values</span> <span class="o">=</span> <span class="n">DoubleVector</span><span class="o">.</span><span class="n">from_numpy</span><span class="p">(</span><span class="mf">500.0</span> <span class="o">+</span> <span class="n">x</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">+</span><span class="n">x</span><span class="o">/</span><span class="mi">10</span><span class="o">+</span> <span class="mf">1000.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">ta</span><span class="p">)))</span> <span class="c1"># increasing values</span>
 
-src_ts = Timeseries(ta=ta, values=pattern_values, point_fx=fx_policy.POINT_AVERAGE_VALUE)
+<span class="n">src_ts</span> <span class="o">=</span> <span class="n">Timeseries</span><span class="p">(</span><span class="n">ta</span><span class="o">=</span><span class="n">ta</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="n">pattern_values</span><span class="p">,</span> <span class="n">point_fx</span><span class="o">=</span><span class="n">fx_policy</span><span class="o">.</span><span class="n">POINT_AVERAGE_VALUE</span><span class="p">)</span>
 
-partition_t0 = utc.time(2016, 9, 1) # we want our percentiles to align to this particular time, for presentation
-n_partitions = 80
-partition_interval = Calendar.YEAR
+<span class="n">partition_t0</span> <span class="o">=</span> <span class="n">utc</span><span class="o">.</span><span class="n">time</span><span class="p">(</span><span class="mi">2016</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># we want our percentiles to align to this particular time, for presentation</span>
+<span class="n">n_partitions</span> <span class="o">=</span> <span class="mi">80</span>
+<span class="n">partition_interval</span> <span class="o">=</span> <span class="n">Calendar</span><span class="o">.</span><span class="n">YEAR</span>
 
-# call .partition_by that does the magic of aligning using the time_shift function
-# returns TsVector,
-# where all TsVector[i].index_of(partition_t0)
-# is equal to the index ix for which the TsVector[i].value(ix)
-# correspond to start value of that particular partition.
-#  in short: moves the years to a common start-point that you specify, utilizing the time_shift function
-#            still-keeping a reference to the underlying time-series (no copy occurs, just mirroring)
-#
-ts_partitions = src_ts.partition_by(utc, t0, partition_interval, n_partitions, partition_t0)
+<span class="c1"># call .partition_by that does the magic of aligning using the time_shift function</span>
+<span class="c1"># returns TsVector,</span>
+<span class="c1"># where all TsVector[i].index_of(partition_t0)</span>
+<span class="c1"># is equal to the index ix for which the TsVector[i].value(ix)</span>
+<span class="c1"># correspond to start value of that particular partition.</span>
+<span class="c1">#  in short: moves the years to a common start-point that you specify, utilizing the time_shift function</span>
+<span class="c1">#            still-keeping a reference to the underlying time-series (no copy occurs, just mirroring)</span>
+<span class="c1">#</span>
+<span class="n">ts_partitions</span> <span class="o">=</span> <span class="n">src_ts</span><span class="o">.</span><span class="n">partition_by</span><span class="p">(</span><span class="n">utc</span><span class="p">,</span> <span class="n">t0</span><span class="p">,</span> <span class="n">partition_interval</span><span class="p">,</span> <span class="n">n_partitions</span><span class="p">,</span> <span class="n">partition_t0</span><span class="p">)</span>
 
 
-# Now finally, try percentiles on the partitions that have the proper ts-vector size
+<span class="c1"># Now finally, try percentiles on the partitions that have the proper ts-vector size</span>
 
-wanted_percentiles = [0, 10, 25, -1, 50, 75, 90, 100] # -1 means arithmetic average
+<span class="n">wanted_percentiles</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">25</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">100</span><span class="p">]</span> <span class="c1"># -1 means arithmetic average</span>
 
-t0_view = utc.add(partition_t0,Calendar.MONTH,1) # note to Eli; this is how we can present one year from 1.10
-ta_percentiles = Timeaxis2(t0_view, deltahours(24), 365) # this is the time-axis that we want aggregate on, day-average
-p_result = percentiles(ts_partitions,ta_percentiles,wanted_percentiles)
+<span class="n">t0_view</span> <span class="o">=</span> <span class="n">utc</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">partition_t0</span><span class="p">,</span><span class="n">Calendar</span><span class="o">.</span><span class="n">MONTH</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># note to Eli; this is how we can present one year from 1.10</span>
+<span class="n">ta_percentiles</span> <span class="o">=</span> <span class="n">Timeaxis2</span><span class="p">(</span><span class="n">t0_view</span><span class="p">,</span> <span class="n">deltahours</span><span class="p">(</span><span class="mi">24</span><span class="p">),</span> <span class="mi">365</span><span class="p">)</span> <span class="c1"># this is the time-axis that we want aggregate on, day-average</span>
+<span class="n">p_result</span> <span class="o">=</span> <span class="n">percentiles</span><span class="p">(</span><span class="n">ts_partitions</span><span class="p">,</span><span class="n">ta_percentiles</span><span class="p">,</span><span class="n">wanted_percentiles</span><span class="p">)</span>
 
-# finally some plot, including one particular year (note that the .average trick)
-common_timestamps = [datetime.datetime.utcfromtimestamp(p.start) for p in ta_percentiles]
-fig,ax=plt.subplots(figsize=(16,8))
-splt.set_calendar_formatter(utc)
-h,ph=splt.plot_np_percentiles(common_timestamps,[p.values.to_numpy() for p in p_result],base_color=(0.03,0.01,0.33))
+<span class="c1"># finally some plot, including one particular year (note that the .average trick)</span>
+<span class="n">common_timestamps</span> <span class="o">=</span> <span class="p">[</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcfromtimestamp</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">start</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">ta_percentiles</span><span class="p">]</span>
+<span class="n">fig</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">splt</span><span class="o">.</span><span class="n">set_calendar_formatter</span><span class="p">(</span><span class="n">utc</span><span class="p">)</span>
+<span class="n">h</span><span class="p">,</span><span class="n">ph</span><span class="o">=</span><span class="n">splt</span><span class="o">.</span><span class="n">plot_np_percentiles</span><span class="p">(</span><span class="n">common_timestamps</span><span class="p">,[</span><span class="n">p</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">p_result</span><span class="p">],</span><span class="n">base_color</span><span class="o">=</span><span class="p">(</span><span class="mf">0.03</span><span class="p">,</span><span class="mf">0.01</span><span class="p">,</span><span class="mf">0.33</span><span class="p">))</span>
 
-plt.plot(common_timestamps,ts_partitions[50].average(ta_percentiles).values.to_numpy(), label=&#39;year 1980&#39;) # note the .average trick here
-plt.plot(common_timestamps,ts_partitions[60].average(ta_percentiles).values.to_numpy(), label=&#39;year 1990&#39;)
-plt.legend()
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">common_timestamps</span><span class="p">,</span><span class="n">ts_partitions</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span><span class="o">.</span><span class="n">average</span><span class="p">(</span><span class="n">ta_percentiles</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(),</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;year 1980&#39;</span><span class="p">)</span> <span class="c1"># note the .average trick here</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">common_timestamps</span><span class="p">,</span><span class="n">ts_partitions</span><span class="p">[</span><span class="mi">60</span><span class="p">]</span><span class="o">.</span><span class="n">average</span><span class="p">(</span><span class="n">ta_percentiles</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(),</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;year 1990&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
-<div class="nbinput nblast container">
+<div class="nboutput container">
 <div class="highlight-none"><div class="highlight"><pre>
-<span></span>In [ ]:
+<span></span>Out[3]:
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>&lt;matplotlib.legend.Legend at 0x7f3e09452320&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="../../_images/notebooks_time-series_partition_by_and_percentiles_3_1.png" src="../../_images/notebooks_time-series_partition_by_and_percentiles_3_1.png" />
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [4]:
 </pre></div>
 </div>
 <div class="highlight-ipython3"><div class="highlight"><pre>
-<span></span># Ok, this was fun!
-#, now let&#39;s compute the accumulated yearly signals, starting from 1.9
-ts_acc_partitions = TsVector() # collect the acc stuff here, so we can do percentiles afterwards
-ta_accumulate = Timeaxis2(partition_t0,deltahours(24),365+32) # accumulate from 1.9 + 1 + year and one month
-for ts in ts_partitions:
-    ts_acc_partitions.append( ts.accumulate(ta_accumulate))
+<span></span><span class="c1"># Ok, this was fun!</span>
+<span class="c1">#, now let&#39;s compute the accumulated yearly signals, starting from 1.9</span>
+<span class="n">ts_acc_partitions</span> <span class="o">=</span> <span class="n">TsVector</span><span class="p">()</span> <span class="c1"># collect the acc stuff here, so we can do percentiles afterwards</span>
+<span class="n">ta_accumulate</span> <span class="o">=</span> <span class="n">Timeaxis2</span><span class="p">(</span><span class="n">partition_t0</span><span class="p">,</span><span class="n">deltahours</span><span class="p">(</span><span class="mi">24</span><span class="p">),</span><span class="mi">365</span><span class="o">+</span><span class="mi">32</span><span class="p">)</span> <span class="c1"># accumulate from 1.9 + 1 + year and one month</span>
+<span class="k">for</span> <span class="n">ts</span> <span class="ow">in</span> <span class="n">ts_partitions</span><span class="p">:</span>
+    <span class="n">ts_acc_partitions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="n">ts</span><span class="o">.</span><span class="n">accumulate</span><span class="p">(</span><span class="n">ta_accumulate</span><span class="p">))</span>
 
-p_acc_result = percentiles(ts_acc_partitions,ta_percentiles,wanted_percentiles)
+<span class="n">p_acc_result</span> <span class="o">=</span> <span class="n">percentiles</span><span class="p">(</span><span class="n">ts_acc_partitions</span><span class="p">,</span><span class="n">ta_percentiles</span><span class="p">,</span><span class="n">wanted_percentiles</span><span class="p">)</span>
 
-#then just plot it out, again, we plot from 1.10, even if we aligne to 1.9 re-using ta_percentiles from above
-common_timestamps = [datetime.datetime.utcfromtimestamp(p.start) for p in ta_percentiles]
+<span class="c1">#then just plot it out, again, we plot from 1.10, even if we aligne to 1.9 re-using ta_percentiles from above</span>
+<span class="n">common_timestamps</span> <span class="o">=</span> <span class="p">[</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">utcfromtimestamp</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">start</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">ta_percentiles</span><span class="p">]</span>
 
-fig,ax=plt.subplots(figsize=(16,8))
-splt.set_calendar_formatter(utc)
-h,ph=splt.plot_np_percentiles(common_timestamps,[p.values.to_numpy() for p in p_acc_result],base_color=(0.03,0.1,0.43))
+<span class="n">fig</span><span class="p">,</span><span class="n">ax</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">splt</span><span class="o">.</span><span class="n">set_calendar_formatter</span><span class="p">(</span><span class="n">utc</span><span class="p">)</span>
+<span class="n">h</span><span class="p">,</span><span class="n">ph</span><span class="o">=</span><span class="n">splt</span><span class="o">.</span><span class="n">plot_np_percentiles</span><span class="p">(</span><span class="n">common_timestamps</span><span class="p">,[</span><span class="n">p</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">p_acc_result</span><span class="p">],</span><span class="n">base_color</span><span class="o">=</span><span class="p">(</span><span class="mf">0.03</span><span class="p">,</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.43</span><span class="p">))</span>
 
-plt.plot(common_timestamps,ts_acc_partitions[50].average(ta_percentiles).values.to_numpy(), label=&#39;year 1980&#39;) # note the .average trick here
-plt.plot(common_timestamps,ts_acc_partitions[60].average(ta_percentiles).values.to_numpy(), label=&#39;year 1990&#39;)
-plt.legend(loc=3)
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">common_timestamps</span><span class="p">,</span><span class="n">ts_acc_partitions</span><span class="p">[</span><span class="mi">50</span><span class="p">]</span><span class="o">.</span><span class="n">average</span><span class="p">(</span><span class="n">ta_percentiles</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(),</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;year 1980&#39;</span><span class="p">)</span> <span class="c1"># note the .average trick here</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">common_timestamps</span><span class="p">,</span><span class="n">ts_acc_partitions</span><span class="p">[</span><span class="mi">60</span><span class="p">]</span><span class="o">.</span><span class="n">average</span><span class="p">(</span><span class="n">ta_percentiles</span><span class="p">)</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">(),</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;year 1990&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
 </pre></div>
+</div>
+</div>
+<div class="nboutput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>Out[4]:
+</pre></div>
+</div>
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>&lt;matplotlib.legend.Legend at 0x7f3e0941ff98&gt;
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<img alt="../../_images/notebooks_time-series_partition_by_and_percentiles_4_1.png" src="../../_images/notebooks_time-series_partition_by_and_percentiles_4_1.png" />
 </div>
 </div>
 <div class="nbinput nblast container">
@@ -326,6 +383,8 @@ plt.legend(loc=3)
 <div class="highlight-ipython3"><div class="highlight"><pre>
 <span></span>
 </pre></div>
+</div>
+</div>
 </div>
 </div>
 
@@ -335,6 +394,20 @@ plt.legend(loc=3)
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Example of the Shyft Timeseries API</a><ul>
+<li><a class="reference internal" href="#partition_by-and-percentiles-functions">partition_by and percentiles functions</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../grid-pp/gridpp_simple.html"
+                        title="previous chapter">Demonstration of SHyFT API implementation of Kalman Filtering on time series</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="ts-convolve.html"
+                        title="next chapter">Demonstration of the Shyft Timseries API convolve_w function</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -365,7 +438,15 @@ plt.legend(loc=3)
         <li class="right" >
           <a href="../../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li> 
+        <li class="right" >
+          <a href="ts-convolve.html" title="Demonstration of the Shyft Timseries API convolve_w function"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="../grid-pp/gridpp_simple.html" title="Demonstration of SHyFT API implementation of Kalman Filtering on time series"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../introduction.html" >What&#8217;s SHyFT?</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../notebook.html" >Notebooks</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
