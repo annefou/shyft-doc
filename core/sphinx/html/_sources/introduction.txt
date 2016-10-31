@@ -12,8 +12,9 @@ hydropower scheduling. The aim of this development is to provide a framework tha
 
 
 
-.. doxygenindex::
-   :outline:
+.. 
+    .. doxygenindex::
+      :outline:
 
 
 .. toctree::

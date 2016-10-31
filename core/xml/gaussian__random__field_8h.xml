@@ -13,6 +13,10 @@
     <includes local="yes">RandomFields.h</includes>
     <includes refid="geo__point_8h" local="yes">geo_point.h</includes>
     <incdepgraph>
+      <node id="509">
+        <label>geo_point.h</label>
+        <link refid="geo__point_8h"/>
+      </node>
       <node id="505">
         <label>boost/math/distributions/gamma.hpp</label>
       </node>
@@ -21,10 +25,6 @@
       </node>
       <node id="504">
         <label>boost/math/distributions/normal.hpp</label>
-      </node>
-      <node id="509">
-        <label>geo_point.h</label>
-        <link refid="geo__point_8h"/>
       </node>
       <node id="500">
         <label>armadillo</label>
@@ -39,7 +39,7 @@
         <label>boost/math/special_functions/bessel.hpp</label>
       </node>
       <node id="499">
-        <label>/home/sih/projects/shyft/core/gaussian_random_field.h</label>
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h</label>
         <link refid="gaussian__random__field_8h"/>
         <childnode refid="500" relation="include">
         </childnode>
@@ -87,7 +87,7 @@
 <para>Copyright 2014 Statkraft Energi A/S</para><para>This file is part of Shyft.</para><para>Shyft is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para><para>Shyft is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</para><para>You should have received a copy of the GNU Lesser General Public License along with Shyft, usually located under the Shyft root directory in two files named COPYING.txt and COPYING_LESSER.txt. If not, see <ulink url="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</ulink>.</para><para>Inspired by early enki method programmed by Kolbjørn Engeland and Sjur Kolberg, and the later changes performed by Kalkulo AS. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/gaussian_random_field.h" line="31" column="10" bodyfile="/home/sih/projects/shyft/core/gaussian_random_field.h" bodystart="31" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" line="31" column="10" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -845,6 +845,6 @@
 <codeline lineno="800"><highlight class="normal"></highlight></codeline>
 <codeline lineno="801"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>vim:<sp/>set<sp/>filetype=cpp:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/gaussian_random_field.h"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/gaussian_random_field.h"/>
   </compounddef>
 </doxygen>

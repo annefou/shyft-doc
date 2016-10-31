@@ -5,11 +5,41 @@
     <includes refid="api_2timeseries_8h" local="yes">timeseries.h</includes>
     <includes local="no">dlib/statistics.h</includes>
     <incdepgraph>
+      <node id="166">
+        <label>core/time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
       <node id="155">
         <label>functional</label>
       </node>
       <node id="148">
         <label>limits</label>
+      </node>
+      <node id="163">
+        <label>core/utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
       </node>
       <node id="165">
         <label>cmath</label>
@@ -20,6 +50,10 @@
       <node id="152">
         <label>string</label>
       </node>
+      <node id="169">
+        <label>compiler_compatiblity.h</label>
+        <link refid="compiler__compatiblity_8h"/>
+      </node>
       <node id="151">
         <label>map</label>
       </node>
@@ -28,6 +62,97 @@
       </node>
       <node id="156">
         <label>ostream</label>
+      </node>
+      <node id="168">
+        <label>core/timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>random</label>
+      </node>
+      <node id="174">
+        <label>dlib/statistics.h</label>
+      </node>
+      <node id="162">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="159">
+        <label>future</label>
+      </node>
+      <node id="173">
+        <label>unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+      </node>
+      <node id="150">
+        <label>vector</label>
+      </node>
+      <node id="164">
+        <label>time.h</label>
+      </node>
+      <node id="145">
+        <label>timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>cerrno</label>
+      </node>
+      <node id="170">
+        <label>iostream</label>
+      </node>
+      <node id="149">
+        <label>cstddef</label>
+      </node>
+      <node id="158">
+        <label>thread</label>
+      </node>
+      <node id="144">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.cpp</label>
+        <link refid="timeseries_8cpp"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>type_traits</label>
       </node>
       <node id="146">
         <label>core/core_pch.h</label>
@@ -65,139 +190,14 @@
         <childnode refid="162" relation="include">
         </childnode>
       </node>
-      <node id="172">
-        <label>glacier_melt.h</label>
-        <link refid="glacier__melt_8h"/>
-        <childnode refid="163" relation="include">
-        </childnode>
-      </node>
-      <node id="163">
-        <label>core/utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="152" relation="include">
-        </childnode>
-        <childnode refid="164" relation="include">
-        </childnode>
-        <childnode refid="165" relation="include">
-        </childnode>
-        <childnode refid="150" relation="include">
-        </childnode>
-        <childnode refid="151" relation="include">
-        </childnode>
-        <childnode refid="147" relation="include">
-        </childnode>
-      </node>
-      <node id="161">
-        <label>random</label>
-      </node>
-      <node id="174">
-        <label>dlib/statistics.h</label>
-      </node>
-      <node id="162">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="173">
-        <label>unit_conversion.h</label>
-        <link refid="unit__conversion_8h"/>
-      </node>
-      <node id="159">
-        <label>future</label>
-      </node>
-      <node id="168">
-        <label>core/timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="169" relation="include">
-        </childnode>
-        <childnode refid="163" relation="include">
-        </childnode>
-        <childnode refid="166" relation="include">
-        </childnode>
-        <childnode refid="160" relation="include">
-        </childnode>
-        <childnode refid="148" relation="include">
-        </childnode>
-        <childnode refid="154" relation="include">
-        </childnode>
-        <childnode refid="170" relation="include">
-        </childnode>
-        <childnode refid="150" relation="include">
-        </childnode>
-        <childnode refid="171" relation="include">
-        </childnode>
-        <childnode refid="147" relation="include">
-        </childnode>
-        <childnode refid="172" relation="include">
-        </childnode>
-        <childnode refid="173" relation="include">
-        </childnode>
-      </node>
-      <node id="150">
-        <label>vector</label>
-      </node>
-      <node id="166">
-        <label>core/time_axis.h</label>
-        <link refid="time__axis_8h"/>
-        <childnode refid="167" relation="include">
-        </childnode>
-        <childnode refid="152" relation="include">
-        </childnode>
-        <childnode refid="147" relation="include">
-        </childnode>
-        <childnode refid="154" relation="include">
-        </childnode>
-        <childnode refid="163" relation="include">
-        </childnode>
-      </node>
-      <node id="164">
-        <label>time.h</label>
-      </node>
-      <node id="157">
-        <label>cerrno</label>
-      </node>
-      <node id="170">
-        <label>iostream</label>
-      </node>
-      <node id="149">
-        <label>cstddef</label>
-      </node>
-      <node id="158">
-        <label>thread</label>
-      </node>
-      <node id="171">
-        <label>type_traits</label>
-      </node>
-      <node id="144">
-        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
-        <link refid="timeseries_8cpp"/>
-        <childnode refid="145" relation="include">
-        </childnode>
-        <childnode refid="174" relation="include">
-        </childnode>
-      </node>
       <node id="154">
         <label>algorithm</label>
       </node>
       <node id="153">
         <label>cstring</label>
       </node>
-      <node id="145">
-        <label>timeseries.h</label>
-        <link refid="api_2timeseries_8h"/>
-        <childnode refid="146" relation="include">
-        </childnode>
-        <childnode refid="163" relation="include">
-        </childnode>
-        <childnode refid="166" relation="include">
-        </childnode>
-        <childnode refid="168" relation="include">
-        </childnode>
-      </node>
       <node id="147">
         <label>memory</label>
-      </node>
-      <node id="169">
-        <label>compiler_compatiblity.h</label>
-        <link refid="compiler__compatiblity_8h"/>
       </node>
     </incdepgraph>
     <innerclass refid="structshyft_1_1api_1_1aglacier__melt__ts" prot="public">shyft::api::aglacier_melt_ts</innerclass>
@@ -475,6 +475,6 @@
 <codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="266"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/api/timeseries.cpp"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.cpp"/>
   </compounddef>
 </doxygen>

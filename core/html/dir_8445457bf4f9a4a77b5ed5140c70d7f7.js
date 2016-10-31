@@ -72,6 +72,7 @@ var dir_8445457bf4f9a4a77b5ed5140c70d7f7 =
     [ "skaugen.h", "skaugen_8h.html", "skaugen_8h" ],
     [ "time_axis.h", "time__axis_8h.html", "time__axis_8h" ],
     [ "timeseries.h", "core_2timeseries_8h.html", "core_2timeseries_8h" ],
+    [ "unit_conversion.h", "unit__conversion_8h.html", "unit__conversion_8h" ],
     [ "utctime_utilities.cpp", "utctime__utilities_8cpp.html", "utctime__utilities_8cpp" ],
     [ "utctime_utilities.h", "utctime__utilities_8h.html", "utctime__utilities_8h" ]
 ];

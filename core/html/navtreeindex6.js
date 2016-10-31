@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"structshyft_1_1core_1_1hbv__stack_1_1state.html#adc130eed336c68073d069ab12f5bb46b":[1,0,0,1,8,5,3],
+"structshyft_1_1core_1_1hbv__stack_1_1state.html#aee045d0c3126ef900d3a13505ccb9d94":[1,0,0,1,8,5,8],
 "structshyft_1_1core_1_1hbv__stack_1_1state.html#aefdff4cbe7cc294b7251cff1a8fefc5f":[1,0,0,1,8,5,4],
 "structshyft_1_1core_1_1hbv__stack_1_1state.html#af748c2ae709261ebac6c0a05310eff82":[1,0,0,1,8,5,1],
 "structshyft_1_1core_1_1hbv__stack_1_1state__collector.html":[1,0,0,1,8,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#acf29c0623212f164bdf8cfb3591b2305":[1,0,0,1,17,1,5],
 "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#ade5ed8004ec566e091bf12c56292bc7e":[1,0,0,1,17,1,7],
 "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#afecf679de3cdce94b72323ca8668c4e2":[1,0,0,1,17,1,11],
-"structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html":[1,0,0,1,17,2],
-"structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html#a16d8b412eeba983843a60e60c53ee82c":[1,0,0,1,17,2,1],
-"structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html#a53c86ec896ee00df116bc14837720375":[1,0,0,1,17,2,0]
+"structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html":[1,0,0,1,17,2]
 };

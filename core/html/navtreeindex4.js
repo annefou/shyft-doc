@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a0157af1553414599a9871d94fdf06e2b":[1,0,0,0,11,2],
+"structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a1ca6374a5fb4d866d2bcc091a134656c":[1,0,0,0,11,16],
 "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a29c5d388ccd387d2ba6ffdf0126013e6":[1,0,0,0,11,3],
 "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a2d5b04f4c7e2748ea730e0b666273a6b":[1,0,0,0,11,23],
 "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a49d1c455c48115fbb1cddd7d042f6dc8":[1,0,0,0,11,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "structshyft_1_1core_1_1calendar.html#a95722ed3008f3911698a762ab2d8fe1c":[1,0,0,1,22,4],
 "structshyft_1_1core_1_1calendar.html#a97820a2f55c2b1314d1076ac2942a3a6":[1,0,0,1,22,2],
 "structshyft_1_1core_1_1calendar.html#a9a11009fec142d8d1b621db719cd652c":[1,0,0,1,22,8],
-"structshyft_1_1core_1_1calendar.html#aac515403977f40ac20d0fe2d7da87d67":[1,0,0,1,22,16],
-"structshyft_1_1core_1_1calendar.html#ab3519e1a8429ceb4454121814479e25b":[1,0,0,1,22,7],
-"structshyft_1_1core_1_1calendar.html#abe3e8319a495b699ec87d6c28a026afd":[1,0,0,1,22,5]
+"structshyft_1_1core_1_1calendar.html#aac515403977f40ac20d0fe2d7da87d67":[1,0,0,1,22,16]
 };

@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/kalman.h" line="95" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="95" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="95" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/kalman.h" line="96" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="96" bodyend="96"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="96" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="96" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1a67dd8b5e4198fb9d492e36c8923e049e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/kalman.h" line="97" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="97" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="97" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="97" bodyend="-1"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1kalman_1_1filter_1a75746092f2b077ed8e3120953782bb3c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1kalman_1_1state" kindref="compound">state</ref></type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/kalman.h" line="100" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="100" bodyend="99"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="100" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="100" bodyend="99"/>
         <references refid="structshyft_1_1core_1_1kalman_1_1parameter_1a6eb5fd7e0113abe24f72c7d4abc3031b" compoundref="kalman_8h" startline="48">shyft::core::kalman::parameter::n_daily_observations</references>
         <references refid="structshyft_1_1core_1_1kalman_1_1parameter_1a15eff8a125cbe4e3044fab14869a5d0e" compoundref="kalman_8h" startline="50">shyft::core::kalman::parameter::covariance_init</references>
         <references refid="structshyft_1_1core_1_1kalman_1_1parameter_1a8ba7b7fa8216910243f01dd5f51519a2" compoundref="kalman_8h" startline="49">shyft::core::kalman::parameter::hourly_correlation</references>
@@ -82,7 +82,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/kalman.h" line="105" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="105" bodyend="107"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="105" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="105" bodyend="107"/>
         <references refid="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" compoundref="utctime__utilities_8h" startline="36" endline="36">shyft::core::deltahours</references>
         <references refid="structshyft_1_1core_1_1kalman_1_1parameter_1a6eb5fd7e0113abe24f72c7d4abc3031b" compoundref="kalman_8h" startline="48">shyft::core::kalman::parameter::n_daily_observations</references>
       </memberdef>
@@ -131,7 +131,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
 <para>Compute Pt|t-1. This increases the covariance.</para><para>compute Kt</para><para>compute Pt|t</para><para>compute xt|t</para><para>Missing obs or forecast. P has already been increased, do not update x. TODO: Does the kalman gain need to be updated? </para>        </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/kalman.h" line="118" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="118" bodyend="133"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="118" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="118" bodyend="133"/>
         <references refid="structshyft_1_1core_1_1kalman_1_1state_1ab374afb978809b08d3326ab4337cb330" compoundref="kalman_8h" startline="18">shyft::core::kalman::state::P</references>
         <references refid="structshyft_1_1core_1_1kalman_1_1state_1ae1cf11da352d46341d7aec238977de55" compoundref="kalman_8h" startline="19">shyft::core::kalman::state::W</references>
         <references refid="structshyft_1_1core_1_1kalman_1_1state_1ada5f9683db70a257a7724d69832dc8d5" compoundref="kalman_8h" startline="17">shyft::core::kalman::state::k</references>
@@ -158,7 +158,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sih/projects/shyft/core/kalman.h" line="94" column="1" bodyfile="/home/sih/projects/shyft/core/kalman.h" bodystart="94" bodyend="134"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" line="94" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kalman.h" bodystart="94" bodyend="134"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a75746092f2b077ed8e3120953782bb3c" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>create_initial_state</name></member>
       <member refid="structshyft_1_1core_1_1kalman_1_1filter_1a5348b7b92165d26295ad939dfbe0dc5e" prot="public" virt="non-virtual"><scope>shyft::core::kalman::filter</scope><name>filter</name></member>
