@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1api_1_1_temperature_source" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1api_1_1_temperature_source" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::TemperatureSource</compoundname>
     <basecompoundref refid="classshyft_1_1api_1_1_geo_point_source" prot="public" virt="non-virtual">shyft::api::GeoPointSource</basecompoundref>
     <includes refid="api_8h" local="no">api.h</includes>
@@ -26,12 +26,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="101" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="101" bodyend="102"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="101" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="101" bodyend="102"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1_temperature_source_1ac665fa3d39b19b94383aa700f35f910b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1_temperature_source_1a433cad006aef6d21cf180925fa2c5b57" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
         <definition>const apoint_ts&amp; shyft::api::TemperatureSource::temperatures</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>temperatures</name>
         <briefdescription>
         </briefdescription>
@@ -39,7 +39,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="103" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="103" bodyend="103"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="103" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1_temperature_source_1a0e88661a550a89d8f8957e09b5b46cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="104" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="104" bodyend="104"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="104" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="104" bodyend="104"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1_temperature_source_1af453fa7ccab31c7ec3cfc2eb8f6637e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="105" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="105" bodyend="105"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="105" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="105" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1_temperature_source_1a7b1ec4610e6363f6afb61457a5568a93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="106" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="106" bodyend="106"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="106" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="106" bodyend="106"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -106,56 +106,56 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1450">
+      <node id="719">
         <label>shyft::api::TemperatureSource</label>
         <link refid="structshyft_1_1api_1_1_temperature_source"/>
-        <childnode refid="1451" relation="public-inheritance">
+        <childnode refid="720" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1451">
+      <node id="720">
         <label>shyft::api::GeoPointSource</label>
         <link refid="classshyft_1_1api_1_1_geo_point_source"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1454">
+      <node id="723">
         <label>shyft::core::geo_point</label>
         <link refid="structshyft_1_1core_1_1geo__point"/>
       </node>
-      <node id="1452">
+      <node id="721">
         <label>shyft::api::TemperatureSource</label>
         <link refid="structshyft_1_1api_1_1_temperature_source"/>
-        <childnode refid="1453" relation="public-inheritance">
+        <childnode refid="722" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1455">
+      <node id="724">
         <label>shyft::api::apoint_ts</label>
         <link refid="classshyft_1_1api_1_1apoint__ts"/>
       </node>
-      <node id="1453">
+      <node id="722">
         <label>shyft::api::GeoPointSource</label>
         <link refid="classshyft_1_1api_1_1_geo_point_source"/>
-        <childnode refid="1454" relation="usage">
+        <childnode refid="723" relation="usage">
           <edgelabel>mid_point_</edgelabel>
         </childnode>
-        <childnode refid="1455" relation="usage">
+        <childnode refid="724" relation="usage">
           <edgelabel>ts</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="100" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="100" bodyend="107"/>
+    <location file="/home/sih/projects/shyft/api/api.h" line="100" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="100" bodyend="107"/>
     <listofallmembers>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a57566f194259ecf85bdd7534b23c5ddf" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>geo_point_t</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a7b99424e6cd1257452fe97b67974de18" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>GeoPointSource</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1ad570a067361e065219c30b38b011701f" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>get_ts</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a1745f400d8758304adaf73570f5a1d68" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>is_equal</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a2fdf33a7ebc8d21d7d8817e940b3eb64" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>mid_point</name></member>
+      <member refid="classshyft_1_1api_1_1_geo_point_source_1a0523f6e990425466cd88db43264914d0" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>is_equal</name></member>
+      <member refid="classshyft_1_1api_1_1_geo_point_source_1a523b1f737a6ab6eddfafe124569384ab" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>mid_point</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a2d0f3e31ea4f1bb8290b04db3c54887d" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>mid_point_</name></member>
       <member refid="structshyft_1_1api_1_1_temperature_source_1a7b1ec4610e6363f6afb61457a5568a93" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>operator==</name></member>
       <member refid="structshyft_1_1api_1_1_temperature_source_1a0e88661a550a89d8f8957e09b5b46cd0" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>set_temperature</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a785d8fbaef811ec7b3acb03c339b985e" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>set_ts</name></member>
       <member refid="structshyft_1_1api_1_1_temperature_source_1af453fa7ccab31c7ec3cfc2eb8f6637e6" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>set_value</name></member>
-      <member refid="structshyft_1_1api_1_1_temperature_source_1ac665fa3d39b19b94383aa700f35f910b" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>temperatures</name></member>
+      <member refid="structshyft_1_1api_1_1_temperature_source_1a433cad006aef6d21cf180925fa2c5b57" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>temperatures</name></member>
       <member refid="structshyft_1_1api_1_1_temperature_source_1aed51355638b99c08f3abd6761fa21eff" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>TemperatureSource</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a2acb6776ea986113e2a44b6f80f80248" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>ts</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a8fdd86da565fa7f9a77518be97062920" prot="public" virt="non-virtual"><scope>shyft::api::TemperatureSource</scope><name>ts_t</name></member>

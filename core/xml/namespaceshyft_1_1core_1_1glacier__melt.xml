@@ -1,46 +1,78 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="namespaceshyft_1_1core_1_1glacier__melt" kind="namespace">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespaceshyft_1_1core_1_1glacier__melt" kind="namespace" language="C++">
     <compoundname>shyft::core::glacier_melt</compoundname>
+    <innerclass refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" prot="public">shyft::core::glacier_melt::parameter</innerclass>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceshyft_1_1core_1_1glacier__melt_1a19e2000dbb290f8090b2a302c3542365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1glacier__melt_1a0d7b142be8b5384cd33b3bce4d059bef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
-        <definition>double shyft::core::glacier_melt::glacier_melt</definition>
-        <argsstring>(double radiation, double albedo, double sca, double temporary_snow, utctimespan dt)</argsstring>
-        <name>glacier_melt</name>
+        <definition>double shyft::core::glacier_melt::step</definition>
+        <argsstring>(const double dtf, const double t, const double snow_covered_area_m2, const double glacier_area_m2)</argsstring>
+        <name>step</name>
         <param>
-          <type>double</type>
-          <declname>radiation</declname>
+          <type>const double</type>
+          <declname>dtf</declname>
         </param>
         <param>
-          <type>double</type>
-          <declname>albedo</declname>
+          <type>const double</type>
+          <declname>t</declname>
         </param>
         <param>
-          <type>double</type>
-          <declname>sca</declname>
+          <type>const double</type>
+          <declname>snow_covered_area_m2</declname>
         </param>
         <param>
-          <type>double</type>
-          <declname>temporary_snow</declname>
-        </param>
-        <param>
-          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
-          <declname>dt</declname>
+          <type>const double</type>
+          <declname>glacier_area_m2</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Glacier Melt model</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dtf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>degree timestep factor [mm/day/deg.C]; lit. values for Norway: 5.5 - 6.4 in Hock, R. (2003), J. Hydrol., 282, 104-115.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>temperature [deg.C]</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>snow_covered_area_m2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>of the glacier, in unit [m2] if</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>glacier_area_m2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the area of the glacier, in unit [m2]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="namespaceshyft_1_1core_1_1glacier__melt" kindref="compound">glacier_melt</ref> in [m3/s] </para></simplesect>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/glacier_melt.h" line="26" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/glacier_melt.h" bodystart="26" bodyend="29"/>
+        <location file="/home/sih/projects/shyft/core/glacier_melt.h" line="45" column="1" bodyfile="/home/sih/projects/shyft/core/glacier_melt.h" bodystart="45" bodyend="50"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" compoundref="core_2hbv__stack_8h" startline="238" endline="309">shyft::core::hbv_stack::run_hbv_stack</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__gs__k_1a4ef4369324700b0b99c28335e63a5ebc" compoundref="core_2pt__gs__k_8h" startline="249" endline="319">shyft::core::pt_gs_k::run_pt_gs_k</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="151" endline="220">shyft::core::pt_hs_k::run</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="159" endline="225">shyft::core::pt_ss_k::run</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1af5a0812e29aee26d5797b6676911706f" compoundref="core_2timeseries_8h" startline="677" endline="685">shyft::timeseries::glacier_melt_ts&lt; std::shared_ptr&lt; shyft::api::ipoint_ts &gt; &gt;::value</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/glacier_melt.h" line="25" column="1"/>
+    <location file="/home/sih/projects/shyft/core/glacier_melt.h" line="25" column="1"/>
   </compounddef>
 </doxygen>

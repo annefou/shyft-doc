@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1pt__hs__k_1_1parameter" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1pt__hs__k_1_1parameter" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::pt_hs_k::parameter</compoundname>
     <includes refid="core_2pt__hs__k_8h" local="no">pt_hs_k.h</includes>
       <sectiondef kind="public-type">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="15" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="16" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a131e622ecdbae198c147e68886e3f004" prot="public" static="no">
         <type><ref refid="structshyft_1_1core_1_1hbv__snow_1_1parameter" kindref="compound">hbv_snow::parameter</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="16" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="17" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a211cbe1eb0823eeaa7196cb07473b298" prot="public" static="no">
         <type><ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" kindref="compound">actual_evapotranspiration::parameter</ref></type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="17" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="18" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a94d6e4e26eb71a74a63d274303b7009e" prot="public" static="no">
         <type><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter" kindref="compound">kirchner::parameter</ref></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="18" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="19" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a18351f5402aca60221678938d218a165" prot="public" static="no">
         <type><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" kindref="compound">precipitation_correction::parameter</ref></type>
@@ -67,7 +67,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="19" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="20" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" prot="public" static="no">
+        <type><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" kindref="compound">glacier_melt::parameter</ref></type>
+        <definition>typedef glacier_melt::parameter shyft::core::pt_hs_k::parameter::glacier_parameter_t</definition>
+        <argsstring></argsstring>
+        <name>glacier_parameter_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="21" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -82,8 +95,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="21" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="21" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="35">operator=</referencedby>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="23" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="23" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="40">operator=</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aa1c5b44c1d22f48d15045b0ea5e2f33d" prot="public" static="no" mutable="no">
         <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a131e622ecdbae198c147e68886e3f004" kindref="member">snow_parameter_t</ref></type>
@@ -96,8 +109,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="22" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="22" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="35">operator=</referencedby>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="24" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="24" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="40">operator=</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af3d1b19300b8329c6c11d14a8bf4b6f6" prot="public" static="no" mutable="no">
         <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a211cbe1eb0823eeaa7196cb07473b298" kindref="member">ae_parameter_t</ref></type>
@@ -110,8 +123,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="23" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="23" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="35">operator=</referencedby>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="25" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="25" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="40">operator=</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a6a9d0d9f82fb7cd9727d0dc77426289a" prot="public" static="no" mutable="no">
         <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a94d6e4e26eb71a74a63d274303b7009e" kindref="member">kirchner_parameter_t</ref></type>
@@ -124,8 +137,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="24" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="24" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="35">operator=</referencedby>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="26" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="26" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="40">operator=</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ae6e963ecefc452a2677320f46019a8c0" prot="public" static="no" mutable="no">
         <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a18351f5402aca60221678938d218a165" kindref="member">precipitation_correction_parameter_t</ref></type>
@@ -138,15 +151,29 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="25" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="25" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="35">operator=</referencedby>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="27" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="40">operator=</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a12efbc4362169951f4fea3d124ca9220" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" kindref="member">glacier_parameter_t</ref></type>
+        <definition>glacier_parameter_t shyft::core::pt_hs_k::parameter::gm</definition>
+        <argsstring></argsstring>
+        <name>gm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="28" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="28" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" compoundref="core_2pt__hs__k_8h" startline="40">operator=</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a15892b36357591ee78ad313558c67f85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a81c8f8cb94568a82220de170bb8f6886" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::pt_hs_k::parameter::parameter</definition>
-        <argsstring>(const pt_parameter_t &amp;pt, const snow_parameter_t &amp;snow, const ae_parameter_t &amp;ae, const kirchner_parameter_t &amp;kirchner, const precipitation_correction_parameter_t &amp;p_corr)</argsstring>
+        <argsstring>(const pt_parameter_t &amp;pt, const snow_parameter_t &amp;snow, const ae_parameter_t &amp;ae, const kirchner_parameter_t &amp;kirchner, const precipitation_correction_parameter_t &amp;p_corr, glacier_parameter_t gm=glacier_parameter_t())</argsstring>
         <name>parameter</name>
         <param>
           <type>const <ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a3bf4e952ff2782b673e39491e21f4bea" kindref="member">pt_parameter_t</ref> &amp;</type>
@@ -168,13 +195,18 @@
           <type>const <ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a18351f5402aca60221678938d218a165" kindref="member">precipitation_correction_parameter_t</ref> &amp;</type>
           <declname>p_corr</declname>
         </param>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" kindref="member">glacier_parameter_t</ref></type>
+          <declname>gm</declname>
+          <defval><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" kindref="member">glacier_parameter_t</ref>()</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="27" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="27" bodyend="32"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="31" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="31" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aaf66409ca1339c29ee0704a681faee9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -191,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="33" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="33" bodyend="33"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="38" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="38" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a1bf62d673dbe570a364682af6c97fffb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -204,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="34" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="34" bodyend="34"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="39" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter" kindref="compound">parameter</ref> &amp;</type>
@@ -221,17 +253,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="35" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="35" bodyend="-1"/>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a885a7ddb34072c085197b48becf7c8b2" compoundref="core_2pt__hs__k_8h" startline="21">pt</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aa1c5b44c1d22f48d15045b0ea5e2f33d" compoundref="core_2pt__hs__k_8h" startline="22">hs</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af3d1b19300b8329c6c11d14a8bf4b6f6" compoundref="core_2pt__hs__k_8h" startline="23">ae</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a6a9d0d9f82fb7cd9727d0dc77426289a" compoundref="core_2pt__hs__k_8h" startline="24">kirchner</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ae6e963ecefc452a2677320f46019a8c0" compoundref="core_2pt__hs__k_8h" startline="25">p_corr</references>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="40" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="40" bodyend="-1"/>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a885a7ddb34072c085197b48becf7c8b2" compoundref="core_2pt__hs__k_8h" startline="23">pt</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aa1c5b44c1d22f48d15045b0ea5e2f33d" compoundref="core_2pt__hs__k_8h" startline="24">hs</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a12efbc4362169951f4fea3d124ca9220" compoundref="core_2pt__hs__k_8h" startline="28">gm</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af3d1b19300b8329c6c11d14a8bf4b6f6" compoundref="core_2pt__hs__k_8h" startline="25">ae</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a6a9d0d9f82fb7cd9727d0dc77426289a" compoundref="core_2pt__hs__k_8h" startline="26">kirchner</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ae6e963ecefc452a2677320f46019a8c0" compoundref="core_2pt__hs__k_8h" startline="27">p_corr</references>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a503d58f57844ff9b0e29488777002321" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af014dd5aa7020d31be59e0bd66ef89a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::core::pt_hs_k::parameter::size</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>size</name>
         <briefdescription>
         </briefdescription>
@@ -239,7 +272,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="46" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="46" bodyend="46"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="52" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="52" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a354482461b38fca5cc248bde2717dfb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -256,12 +289,25 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="48" bodyend="64"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="54" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="54" bodyend="71"/>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" compoundref="kirchner_8h" startline="125">shyft::core::kirchner::parameter::c1</references>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" compoundref="kirchner_8h" startline="126">shyft::core::kirchner::parameter::c2</references>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" compoundref="kirchner_8h" startline="127">shyft::core::kirchner::parameter::c3</references>
+        <references refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" compoundref="actual__evapotranspiration_8h" startline="30">shyft::core::actual_evapotranspiration::parameter::ae_scale_factor</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a49b4e3092b934b9fa042bc8b1f0d60d3" compoundref="hbv__snow_8h" startline="72">shyft::core::hbv_snow::parameter::lw</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a55ccaf27255c81067225062b102b8890" compoundref="hbv__snow_8h" startline="69">shyft::core::hbv_snow::parameter::tx</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a96799d5d4451e494203228396e09522c" compoundref="hbv__snow_8h" startline="70">shyft::core::hbv_snow::parameter::cx</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a6b722eef363c8e7d66b18697dabae236" compoundref="hbv__snow_8h" startline="71">shyft::core::hbv_snow::parameter::ts</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a694ac75bd7066bdfd26113bf8670675e" compoundref="hbv__snow_8h" startline="73">shyft::core::hbv_snow::parameter::cfr</references>
+        <references refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" compoundref="glacier__melt_8h" startline="28">shyft::core::glacier_melt::parameter::dtf</references>
+        <references refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" compoundref="precipitation__correction_8h" startline="27">shyft::core::precipitation_correction::parameter::scale_factor</references>
+        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" compoundref="priestley__taylor_8h" startline="26">shyft::core::priestley_taylor::parameter::albedo</references>
+        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" compoundref="priestley__taylor_8h" startline="27">shyft::core::priestley_taylor::parameter::alpha</references>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a1b872b9f78f6851adf3c5f0dc06ce52c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1add532fc6dfcb1f7b2193b108a945b3a8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double shyft::core::pt_hs_k::parameter::get</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>get</name>
         <param>
           <type>size_t</type>
@@ -273,12 +319,25 @@
 <para>calibration and python support, get the i&apos;th parameter name </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="67" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="67" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="74" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="74" bodyend="-1"/>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" compoundref="kirchner_8h" startline="125">shyft::core::kirchner::parameter::c1</references>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" compoundref="kirchner_8h" startline="126">shyft::core::kirchner::parameter::c2</references>
+        <references refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" compoundref="kirchner_8h" startline="127">shyft::core::kirchner::parameter::c3</references>
+        <references refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" compoundref="actual__evapotranspiration_8h" startline="30">shyft::core::actual_evapotranspiration::parameter::ae_scale_factor</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a49b4e3092b934b9fa042bc8b1f0d60d3" compoundref="hbv__snow_8h" startline="72">shyft::core::hbv_snow::parameter::lw</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a55ccaf27255c81067225062b102b8890" compoundref="hbv__snow_8h" startline="69">shyft::core::hbv_snow::parameter::tx</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a96799d5d4451e494203228396e09522c" compoundref="hbv__snow_8h" startline="70">shyft::core::hbv_snow::parameter::cx</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a6b722eef363c8e7d66b18697dabae236" compoundref="hbv__snow_8h" startline="71">shyft::core::hbv_snow::parameter::ts</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a694ac75bd7066bdfd26113bf8670675e" compoundref="hbv__snow_8h" startline="73">shyft::core::hbv_snow::parameter::cfr</references>
+        <references refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" compoundref="glacier__melt_8h" startline="28">shyft::core::glacier_melt::parameter::dtf</references>
+        <references refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" compoundref="precipitation__correction_8h" startline="27">shyft::core::precipitation_correction::parameter::scale_factor</references>
+        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" compoundref="priestley__taylor_8h" startline="26">shyft::core::priestley_taylor::parameter::albedo</references>
+        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" compoundref="priestley__taylor_8h" startline="27">shyft::core::priestley_taylor::parameter::alpha</references>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ad2cbba698764021ba91b6110144d85f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aea215951aeaa37a80b79659a5c37c83f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>string</type>
         <definition>string shyft::core::pt_hs_k::parameter::get_name</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>get_name</name>
         <param>
           <type>size_t</type>
@@ -290,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="88" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="88" bodyend="106"/>
+        <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="96" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="96" bodyend="115"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -298,65 +357,74 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="1203">
+      <node id="455">
         <label>shyft::core::hbv_snow::parameter</label>
         <link refid="structshyft_1_1core_1_1hbv__snow_1_1parameter"/>
       </node>
-      <node id="1206">
+      <node id="459">
         <label>shyft::core::precipitation_correction::parameter</label>
         <link refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter"/>
       </node>
-      <node id="1202">
+      <node id="456">
+        <label>shyft::core::glacier_melt::parameter</label>
+        <link refid="structshyft_1_1core_1_1glacier__melt_1_1parameter"/>
+      </node>
+      <node id="454">
         <label>shyft::core::pt_hs_k::parameter</label>
         <link refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter"/>
-        <childnode refid="1203" relation="usage">
+        <childnode refid="455" relation="usage">
           <edgelabel>hs</edgelabel>
         </childnode>
-        <childnode refid="1204" relation="usage">
+        <childnode refid="456" relation="usage">
+          <edgelabel>gm</edgelabel>
+        </childnode>
+        <childnode refid="457" relation="usage">
           <edgelabel>ae</edgelabel>
         </childnode>
-        <childnode refid="1205" relation="usage">
+        <childnode refid="458" relation="usage">
           <edgelabel>pt</edgelabel>
         </childnode>
-        <childnode refid="1206" relation="usage">
+        <childnode refid="459" relation="usage">
           <edgelabel>p_corr</edgelabel>
         </childnode>
-        <childnode refid="1207" relation="usage">
+        <childnode refid="460" relation="usage">
           <edgelabel>kirchner</edgelabel>
         </childnode>
       </node>
-      <node id="1207">
+      <node id="460">
         <label>shyft::core::kirchner::parameter</label>
         <link refid="structshyft_1_1core_1_1kirchner_1_1parameter"/>
       </node>
-      <node id="1204">
+      <node id="457">
         <label>shyft::core::actual_evapotranspiration::parameter</label>
         <link refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter"/>
       </node>
-      <node id="1205">
+      <node id="458">
         <label>shyft::core::priestley_taylor::parameter</label>
         <link refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter"/>
       </node>
     </collaborationgraph>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" line="14" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h" bodystart="14" bodyend="108"/>
+    <location file="/home/sih/projects/shyft/core/pt_hs_k.h" line="15" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k.h" bodystart="15" bodyend="117"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af3d1b19300b8329c6c11d14a8bf4b6f6" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>ae</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a211cbe1eb0823eeaa7196cb07473b298" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>ae_parameter_t</name></member>
-      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a1b872b9f78f6851adf3c5f0dc06ce52c" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>get</name></member>
-      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ad2cbba698764021ba91b6110144d85f4" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>get_name</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1add532fc6dfcb1f7b2193b108a945b3a8" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>get</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aea215951aeaa37a80b79659a5c37c83f" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>get_name</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>glacier_parameter_t</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a12efbc4362169951f4fea3d124ca9220" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>gm</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aa1c5b44c1d22f48d15045b0ea5e2f33d" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>hs</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a6a9d0d9f82fb7cd9727d0dc77426289a" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>kirchner</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a94d6e4e26eb71a74a63d274303b7009e" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>kirchner_parameter_t</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>operator=</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ae6e963ecefc452a2677320f46019a8c0" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>p_corr</name></member>
-      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a15892b36357591ee78ad313558c67f85" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a81c8f8cb94568a82220de170bb8f6886" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>parameter</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aaf66409ca1339c29ee0704a681faee9e" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>parameter</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a1bf62d673dbe570a364682af6c97fffb" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>parameter</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a18351f5402aca60221678938d218a165" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>precipitation_correction_parameter_t</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a885a7ddb34072c085197b48becf7c8b2" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>pt</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a3bf4e952ff2782b673e39491e21f4bea" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>pt_parameter_t</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a354482461b38fca5cc248bde2717dfb5" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>set</name></member>
-      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a503d58f57844ff9b0e29488777002321" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>size</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af014dd5aa7020d31be59e0bd66ef89a2" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>size</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a131e622ecdbae198c147e68886e3f004" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::parameter</scope><name>snow_parameter_t</name></member>
     </listofallmembers>
   </compounddef>

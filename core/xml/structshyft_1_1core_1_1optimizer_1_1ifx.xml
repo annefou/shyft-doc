@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1optimizer_1_1ifx" kind="struct" prot="public" abstract="yes">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1optimizer_1_1ifx" kind="struct" language="C++" prot="public" abstract="yes">
     <compoundname>shyft::core::optimizer::ifx</compoundname>
     <derivedcompoundref refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx" prot="public" virt="non-virtual">shyft::core::model_calibration::dream_fx&lt; M &gt;</derivedcompoundref>
     <derivedcompoundref refid="structshyft_1_1core_1_1model__calibration_1_1sceua__fx" prot="public" virt="non-virtual">shyft::core::model_calibration::sceua_fx&lt; M &gt;</derivedcompoundref>
@@ -23,9 +23,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" line="29" column="1"/>
-        <referencedby refid="classshyft_1_1core_1_1optimizer_1_1dream_1ab8de8cd02866692d22de36a1402f1920" compoundref="dream__optimizer_8cpp" startline="9" endline="287">shyft::core::optimizer::dream::find_max</referencedby>
-        <referencedby refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a8cfa9bcb3fe1ea15ef548c360bd123a7" compoundref="sceua__optimizer_8cpp" startline="10" endline="107">shyft::core::optimizer::sceua::find_min</referencedby>
+        <location file="/home/sih/projects/shyft/core/optimizer_utils.h" line="30" column="1"/>
+        <referencedby refid="classshyft_1_1core_1_1optimizer_1_1dream_1a50bc04e18e06cdbdfed4f932e360e832" compoundref="dream__optimizer_8cpp" startline="9" endline="287">shyft::core::optimizer::dream::find_max</referencedby>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1optimizer_1_1ifx_1abdaa6999c063f88364570a6056b33f32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -46,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" line="30" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" bodystart="30" bodyend="33"/>
+        <location file="/home/sih/projects/shyft/core/optimizer_utils.h" line="31" column="1" bodyfile="/home/sih/projects/shyft/core/optimizer_utils.h" bodystart="31" bodyend="34"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -54,24 +53,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1087">
+      <node id="345">
         <label>shyft::core::optimizer::ifx</label>
         <link refid="structshyft_1_1core_1_1optimizer_1_1ifx"/>
       </node>
-      <node id="1088">
+      <node id="346">
         <label>shyft::core::model_calibration::dream_fx&lt; M &gt;</label>
         <link refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx"/>
-        <childnode refid="1087" relation="public-inheritance">
+        <childnode refid="345" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="1089">
+      <node id="347">
         <label>shyft::core::model_calibration::sceua_fx&lt; M &gt;</label>
         <link refid="structshyft_1_1core_1_1model__calibration_1_1sceua__fx"/>
-        <childnode refid="1087" relation="public-inheritance">
+        <childnode refid="345" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" line="28" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/optimizer_utils.h" bodystart="28" bodyend="34"/>
+    <location file="/home/sih/projects/shyft/core/optimizer_utils.h" line="29" column="1" bodyfile="/home/sih/projects/shyft/core/optimizer_utils.h" bodystart="29" bodyend="35"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abbe9820f1f104074fd8372126138ea35" prot="public" virt="pure-virtual"><scope>shyft::core::optimizer::ifx</scope><name>evaluate</name></member>
       <member refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abdaa6999c063f88364570a6056b33f32" prot="public" virt="non-virtual"><scope>shyft::core::optimizer::ifx</scope><name>evaluate</name></member>

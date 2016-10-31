@@ -11,5 +11,7 @@ var searchData=
   ['geo_5fpoint',['geo_point',['../structshyft_1_1core_1_1geo__point.html',1,'shyft::core']]],
   ['geo_5fpoint_5fts',['geo_point_ts',['../structshyft_1_1core_1_1geo__point__ts.html',1,'shyft::core']]],
   ['geopointsource',['GeoPointSource',['../classshyft_1_1api_1_1_geo_point_source.html',1,'shyft::api']]],
+  ['glacier_5fmelt_5fts',['glacier_melt_ts',['../structshyft_1_1timeseries_1_1glacier__melt__ts.html',1,'shyft::timeseries']]],
+  ['glacier_5fmelt_5fts_3c_20std_3a_3ashared_5fptr_3c_20shyft_3a_3aapi_3a_3aipoint_5fts_20_3e_20_3e',['glacier_melt_ts&lt; std::shared_ptr&lt; shyft::api::ipoint_ts &gt; &gt;',['../structshyft_1_1timeseries_1_1glacier__melt__ts.html',1,'shyft::timeseries']]],
   ['gpoint_5fts',['gpoint_ts',['../structshyft_1_1api_1_1gpoint__ts.html',1,'shyft::api']]]
 ];

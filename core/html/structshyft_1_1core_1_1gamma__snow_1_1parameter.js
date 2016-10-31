@@ -1,9 +1,9 @@
 var structshyft_1_1core_1_1gamma__snow_1_1parameter =
 [
     [ "parameter", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a282ab613db8fa33df9d6e428498c9e54", null ],
-    [ "effective_snow_cv", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a300bccec4785d26ee32f8749cc734c87", null ],
-    [ "is_snow_season", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a965fc06c13d5b46a884459fd6375cdd4", null ],
-    [ "is_start_melt_season", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a8aa7cac671c059dc09d2cf9680e39241", null ],
+    [ "effective_snow_cv", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a2cde283ab34562f85c59a2f803307d11", null ],
+    [ "is_snow_season", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#af2844e7c6ad143600a4e9825c49d037d", null ],
+    [ "is_start_melt_season", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a3d7614f02c66abe633431bb2bef46d4f", null ],
     [ "cal", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a29b7ac99474d45a301690320c1ad8838", null ],
     [ "calculate_iso_pot_energy", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#ad0a40b94ceb018d046bb1097b411bd76", null ],
     [ "fast_albedo_decay_rate", "structshyft_1_1core_1_1gamma__snow_1_1parameter.html#a898b8ccdc1e2355d84d4ea5c93da721d", null ],

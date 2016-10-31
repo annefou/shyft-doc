@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1geo__point__ts" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1geo__point__ts" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::geo_point_ts</compoundname>
     <includes refid="region__model_8h" local="no">region_model.h</includes>
     <templateparamlist>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="89" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="89" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/region_model.h" line="90" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="90" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="90" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/region_model.h" line="91" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="91" bodyend="-1"/>
         <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="231" endline="281">shyft::experimental::wkt_reader::read_geo_xts_t</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1geo__point__ts_1a419e1cfb4f880250e5d662332a33f992" prot="public" static="no" mutable="no">
@@ -49,15 +49,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="91" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/region_model.h" line="92" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="92" bodyend="-1"/>
         <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="231" endline="281">shyft::experimental::wkt_reader::read_geo_xts_t</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1geo__point__ts_1ab86acb444afc7b25090400a4e9476898" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1geo__point__ts_1a455f5f5b35724172cbed552ca2cc7fd6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref></type>
         <definition>geo_point shyft::core::geo_point_ts&lt; T &gt;::mid_point</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>mid_point</name>
         <briefdescription>
         </briefdescription>
@@ -65,12 +65,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="98" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="98" bodyend="98"/>
+        <location file="/home/sih/projects/shyft/core/region_model.h" line="99" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="99" bodyend="99"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1geo__point__ts_1adaa082707065f4a9da8934dee4497b8f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1geo__point__ts_1a8e4561a361eadfe06809b324aa3817c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const T &amp;</type>
         <definition>const T&amp; shyft::core::geo_point_ts&lt; T &gt;::temperatures</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>temperatures</name>
         <briefdescription>
         </briefdescription>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="99" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="99" bodyend="99"/>
+        <location file="/home/sih/projects/shyft/core/region_model.h" line="100" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="100" bodyend="100"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -96,23 +96,23 @@
 </parameterlist>
 </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="1049">
+      <node id="305">
         <label>shyft::core::geo_point</label>
         <link refid="structshyft_1_1core_1_1geo__point"/>
       </node>
-      <node id="1048">
+      <node id="304">
         <label>shyft::core::geo_point_ts&lt; T &gt;</label>
         <link refid="structshyft_1_1core_1_1geo__point__ts"/>
-        <childnode refid="1049" relation="usage">
+        <childnode refid="305" relation="usage">
           <edgelabel>location</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" line="88" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h" bodystart="88" bodyend="100"/>
+    <location file="/home/sih/projects/shyft/core/region_model.h" line="89" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="89" bodyend="101"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1geo__point__ts_1aada4445692c21a17f433b5da82aac74a" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>location</name></member>
-      <member refid="structshyft_1_1core_1_1geo__point__ts_1ab86acb444afc7b25090400a4e9476898" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>mid_point</name></member>
-      <member refid="structshyft_1_1core_1_1geo__point__ts_1adaa082707065f4a9da8934dee4497b8f" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>temperatures</name></member>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1a455f5f5b35724172cbed552ca2cc7fd6" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>mid_point</name></member>
+      <member refid="structshyft_1_1core_1_1geo__point__ts_1a8e4561a361eadfe06809b324aa3817c1" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>temperatures</name></member>
       <member refid="structshyft_1_1core_1_1geo__point__ts_1a419e1cfb4f880250e5d662332a33f992" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>ts</name></member>
       <member refid="structshyft_1_1core_1_1geo__point__ts_1ab41e0e78fc6df9655c4bd2f28981c489" prot="public" virt="non-virtual"><scope>shyft::core::geo_point_ts</scope><name>ts_t</name></member>
     </listofallmembers>

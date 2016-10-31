@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1cell__statistics" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1cell__statistics" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::cell_statistics</compoundname>
     <includes refid="cell__model_8h" local="no">cell_model.h</includes>
       <sectiondef kind="public-static-func">
@@ -28,7 +28,7 @@
 <para>throws runtime_error if catchment_indexes contains cid that&apos;s not part of cells </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="170" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="170" bodyend="177"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="166" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="166" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1cell__statistics_1aa10fd1160847f815e52bd017d1203215" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -90,10 +90,9 @@
 <parameteritem>
 <parameternamelist>
 <parametername>cell_ts</parametername>
-<parametername>a</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callable that fetches the cell feature we want to average </para></parameterdescription>
+<para>a callable that fetches the cell feature we want to average </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="exception"><parameteritem>
@@ -108,8 +107,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="190" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="190" bodyend="214"/>
-        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="61">shyft::timeseries::POINT_AVERAGE_VALUE</references>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="186" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="186" bodyend="210"/>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="62">shyft::timeseries::POINT_AVERAGE_VALUE</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -175,18 +174,16 @@
 <parameteritem>
 <parameternamelist>
 <parametername>cell_ts</parametername>
-<parametername>a</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callable that fetches the cell feature we want to average </para></parameterdescription>
+<para>a callable that fetches the cell feature we want to average </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>i</parametername>
-<parametername>the</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>i&apos;th time-step for which we compute the value </para></parameterdescription>
+<para>the i&apos;th time-step for which we compute the value </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="exception"><parameteritem>
@@ -201,35 +198,35 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="228" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="228" bodyend="252"/>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a9e3047724dececac4e956325c3cfeee9" compoundref="api_8h" startline="272" endline="276">shyft::api::basic_cell_statistics&lt; cell &gt;::temperature_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a424bb721b9ef876612590bebd5366b8c" compoundref="api_8h" startline="288" endline="292">shyft::api::basic_cell_statistics&lt; cell &gt;::precipitation_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a0b02241c605ebb9b9249d121d243b6db" compoundref="api_8h" startline="304" endline="308">shyft::api::basic_cell_statistics&lt; cell &gt;::radiation_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a673d891433c4912534f5bcea55bb3b47" compoundref="api_8h" startline="320" endline="324">shyft::api::basic_cell_statistics&lt; cell &gt;::wind_speed_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a18965410a3560741c796c00d03f940f7" compoundref="api_8h" startline="336" endline="340">shyft::api::basic_cell_statistics&lt; cell &gt;::rel_hum_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a96000682a02483e9af6aae1f351a54db" compoundref="api_8h" startline="426" endline="430">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::albedo_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ad8530bd44bd98efc81d205147f4748c7" compoundref="api_8h" startline="442" endline="446">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::lwc_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a002ab61642fde78c1cd7263330852794" compoundref="api_8h" startline="458" endline="462">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::surface_heat_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a01109ea6ecc4fa5b487ec29744e90bde" compoundref="api_8h" startline="474" endline="478">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::alpha_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aa4b6e5cb7fc1ba99602296e58fb69579" compoundref="api_8h" startline="490" endline="494">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::sdc_melt_mean_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ab91d16ff9a8425c62626553f0fd80862" compoundref="api_8h" startline="506" endline="510">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::acc_melt_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aeec7a9034f89b951df2c8f317c81d8d7" compoundref="api_8h" startline="522" endline="526">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::iso_pot_energy_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1af4ebdeb3a03d944d0c77bea91d2d7d44" compoundref="api_8h" startline="538" endline="542">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::temp_swe_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a7ffff03b1b7ae7abd2ba407601b624ee" compoundref="api_8h" startline="561" endline="565">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a47a7562460ca4c4e0c17861a365eb3cc" compoundref="api_8h" startline="577" endline="581">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a15aa5544181f9e80e80f9484d036af24" compoundref="api_8h" startline="616" endline="620">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::alpha_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a13605cfcb7d7f83bea8763502208c9d3" compoundref="api_8h" startline="632" endline="636">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::nu_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ae70ad5cb359001ba32ba4aeed5e166cd" compoundref="api_8h" startline="648" endline="652">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::lwc_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1aea9ee433b79dffcdbf2b1349517544b5" compoundref="api_8h" startline="664" endline="668">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::residual_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ac8067446a00440351a4b6818fa3cc80a" compoundref="api_8h" startline="680" endline="684">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::swe_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a4b140aadb5425f0c06e989d853f58c03" compoundref="api_8h" startline="696" endline="700">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::sca_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1ac942199cfd1f5dbfd0fb50a421dec214" compoundref="api_8h" startline="735" endline="739">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::total_stored_water_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a7e06dc55848f16f046c453bf0f5d0e74" compoundref="api_8h" startline="758" endline="762">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::swe_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a81ad42c988b17cc9ed7c07ffd2170fa1" compoundref="api_8h" startline="774" endline="778">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::sca_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a2608a17873b9d0f27d60e77d1c8ab625" compoundref="api_8h" startline="819" endline="823">shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a479173ef2e2e58496a7272ecaf4b3773" compoundref="api_8h" startline="841" endline="845">shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a2428b33293fc194b532b20570263b893" compoundref="api_8h" startline="862" endline="866">shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics_1a35b41f7d037fdf42ee3f0c06431729d3" compoundref="api_8h" startline="884" endline="888">shyft::api::hbv_actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="224" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="224" bodyend="248"/>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a2717c2f83256bba9fd5df03a09111348" compoundref="api_8h" startline="272" endline="276">shyft::api::basic_cell_statistics&lt; cell &gt;::temperature_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ac4cc415689c1ff4ce7e238e4b3617081" compoundref="api_8h" startline="288" endline="292">shyft::api::basic_cell_statistics&lt; cell &gt;::precipitation_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1aa955b36f9238bb41fd059d5bfad6bdd3" compoundref="api_8h" startline="304" endline="308">shyft::api::basic_cell_statistics&lt; cell &gt;::radiation_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1aedf73038a37616be13c32a71a54771f8" compoundref="api_8h" startline="320" endline="324">shyft::api::basic_cell_statistics&lt; cell &gt;::wind_speed_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a40bdda18f3a11053bd9f0a1a8ef9a120" compoundref="api_8h" startline="336" endline="340">shyft::api::basic_cell_statistics&lt; cell &gt;::rel_hum_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a799cada864e74c0cbbcc95acc0c19584" compoundref="api_8h" startline="426" endline="430">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::albedo_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a884e56beed1b1612184502bea8853659" compoundref="api_8h" startline="442" endline="446">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::lwc_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a9b9401cedf4855fa0bc3734a2c8d76ee" compoundref="api_8h" startline="458" endline="462">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::surface_heat_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a6c8c2934c46f3db59378e1d75dd56607" compoundref="api_8h" startline="474" endline="478">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::alpha_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a90fd09d28a46838c4832962b17d0665a" compoundref="api_8h" startline="490" endline="494">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::sdc_melt_mean_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a29c5d388ccd387d2ba6ffdf0126013e6" compoundref="api_8h" startline="506" endline="510">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::acc_melt_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1add458faae976326df70032a33cebcdf1" compoundref="api_8h" startline="522" endline="526">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::iso_pot_energy_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a54e04021e27ec954fbd25345bb793ec3" compoundref="api_8h" startline="538" endline="542">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::temp_swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1aeb9cfc69fca2ba642bc09881e67d317f" compoundref="api_8h" startline="561" endline="565">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a1215148af0c350906f353a2da13c12b7" compoundref="api_8h" startline="577" endline="581">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1afb27adfe6c9eb0a7612dd4878efa6add" compoundref="api_8h" startline="636" endline="640">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::alpha_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a47bca4189782d59671a55c9efc8c4524" compoundref="api_8h" startline="652" endline="656">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::nu_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ad796bc736dd08dd56c1e4e1d54d42730" compoundref="api_8h" startline="668" endline="672">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::lwc_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ab334d679652924c9b04bac43c948e832" compoundref="api_8h" startline="684" endline="688">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::residual_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a663d8ff8ac60aef9262753a3bc2da385" compoundref="api_8h" startline="700" endline="704">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1add916a60016c360aaeaaf2e9b2c847df" compoundref="api_8h" startline="716" endline="720">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::sca_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1ae4be53380a14ce387dad633425e0643f" compoundref="api_8h" startline="755" endline="759">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::total_stored_water_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1ac543e6fef1307d05ba454671596c66b7" compoundref="api_8h" startline="798" endline="802">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::swe_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1aad097dbf123dfaec2201bfa029d62762" compoundref="api_8h" startline="814" endline="818">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::sca_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a36d694c782bbb7682cab937d3edf2018" compoundref="api_8h" startline="880" endline="884">shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1aadaf3d817a4928f95ded6edabdc7a866" compoundref="api_8h" startline="902" endline="906">shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a5eed44f87371a4bc028c2db4e430c817" compoundref="api_8h" startline="923" endline="927">shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics_1abb831d47c80a22e0671073150f2805ac" compoundref="api_8h" startline="945" endline="949">shyft::api::hbv_actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output_value</referencedby>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1cell__statistics_1a7115ce247d298ae434ed6fdce616f90e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -291,10 +288,9 @@
 <parameteritem>
 <parameternamelist>
 <parametername>cell_ts</parametername>
-<parametername>a</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callable that fetches the cell feature we want to sum </para></parameterdescription>
+<para>a callable that fetches the cell feature we want to sum </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="exception"><parameteritem>
@@ -309,8 +305,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="266" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="266" bodyend="287"/>
-        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="61">shyft::timeseries::POINT_AVERAGE_VALUE</references>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="262" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="262" bodyend="283"/>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="62">shyft::timeseries::POINT_AVERAGE_VALUE</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -376,10 +372,16 @@
 <parameteritem>
 <parameternamelist>
 <parametername>cell_ts</parametername>
-<parametername>a</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callable that fetches the cell feature we want to sum </para></parameterdescription>
+<para>a callable that fetches the cell feature we want to sum </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the i&apos;th time-step of the time-axis to use </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="exception"><parameteritem>
@@ -394,14 +396,17 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="299" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="299" bodyend="320"/>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a2c30f4f64ab83c1dbf54cfb4e3e5d95c" compoundref="api_8h" startline="256" endline="260">shyft::api::basic_cell_statistics&lt; cell &gt;::discharge_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a89e28f217b4c28c38333a0bcd91eff33" compoundref="api_8h" startline="358" endline="362">shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a894246a957821db0fc7beb0ea0e43637" compoundref="api_8h" startline="380" endline="384">shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a3655010640664107911b4a9134d8e242" compoundref="api_8h" startline="402" endline="406">shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ab53c55775de425628af1b59e7b4da802" compoundref="api_8h" startline="593" endline="597">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1ae7b13227f1d6df30defdfe170997607c" compoundref="api_8h" startline="719" endline="723">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1a51379c701b4008b511a3473b8026e319" compoundref="api_8h" startline="797" endline="801">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="296" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="296" bodyend="317"/>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a199f12198bb0282511b3602fde44c48d" compoundref="api_8h" startline="256" endline="260">shyft::api::basic_cell_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a0a4d16f578e2447678458143e0b951ca" compoundref="api_8h" startline="358" endline="362">shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a48527c6fa4e80b3daa437e7e564c7250" compoundref="api_8h" startline="380" endline="384">shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a8664d5115207b6829e85d960a59b509d" compoundref="api_8h" startline="402" endline="406">shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a598a56291a129a275c530e1428d54d4d" compoundref="api_8h" startline="593" endline="597">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a9b44d94b9a080e0fecb7cf814b859765" compoundref="api_8h" startline="612" endline="616">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::glacier_melt_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1ab29814c37e28272cdcbe83e42bee610f" compoundref="api_8h" startline="739" endline="743">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a843b3cde542c64f3c7d0bb85c1e1af37" compoundref="api_8h" startline="774" endline="778">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::glacier_melt_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1a2c6b0fc489a92148fdbb4b9d9283aee0" compoundref="api_8h" startline="837" endline="841">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::outflow_value</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1a35a388e0ad8de6c402fe3d477b5a212e" compoundref="api_8h" startline="857" endline="861">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::glacier_melt_value</referencedby>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -467,18 +472,16 @@
 <parameteritem>
 <parameternamelist>
 <parametername>cell_ts</parametername>
-<parametername>a</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>callable that fetches the cell feature ts </para></parameterdescription>
+<para>a callable that fetches the cell feature ts </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>i</parametername>
-<parametername>the</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>i&apos;th step on the time-axis of the cell-feature </para></parameterdescription>
+<para>the i&apos;th step on the time-axis of the cell-feature </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="exception"><parameteritem>
@@ -493,49 +496,52 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="334" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="334" bodyend="355"/>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a5e0e9569d39bfab3f30a49724aebb8eb" compoundref="api_8h" startline="251" endline="255">shyft::api::basic_cell_statistics&lt; cell &gt;::discharge</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a496183d1ba8f941836cbc3f55615a3ae" compoundref="api_8h" startline="267" endline="271">shyft::api::basic_cell_statistics&lt; cell &gt;::temperature</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a81ec0ad70f0cf8848f66280dd590b16e" compoundref="api_8h" startline="283" endline="287">shyft::api::basic_cell_statistics&lt; cell &gt;::precipitation</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a2574122508560c3d92549ca5db47eaf1" compoundref="api_8h" startline="299" endline="303">shyft::api::basic_cell_statistics&lt; cell &gt;::radiation</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ab8c1fb686a5ffb2d375d91944f19aa1c" compoundref="api_8h" startline="315" endline="319">shyft::api::basic_cell_statistics&lt; cell &gt;::wind_speed</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a331bca518160156259598b26effa5700" compoundref="api_8h" startline="331" endline="335">shyft::api::basic_cell_statistics&lt; cell &gt;::rel_hum</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a37c329a8cf69eddc349685ac44865e46" compoundref="api_8h" startline="353" endline="357">shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1a077f10dd7993de49bd64124841cdc014" compoundref="api_8h" startline="375" endline="379">shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a6016cc8ec3fbea3b6d26d0de70e0a53d" compoundref="api_8h" startline="397" endline="401">shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a4bf5cb453a7a38e4bb509617193c26ab" compoundref="api_8h" startline="421" endline="425">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::albedo</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a427e40b9036e9c82fff4142241941763" compoundref="api_8h" startline="437" endline="441">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::lwc</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a9cd841d6fc305e36ae51aa2e44700811" compoundref="api_8h" startline="453" endline="457">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::surface_heat</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aca45909651b69d2fd70fd223c3b6626e" compoundref="api_8h" startline="469" endline="473">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::alpha</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1abc37a838b7ab2f1369b7820899981ae2" compoundref="api_8h" startline="485" endline="489">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::sdc_melt_mean</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1ac2421057edf88d6dab28b530c632920a" compoundref="api_8h" startline="501" endline="505">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::acc_melt</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a7b30c2c5e6eb90b59b938e216a25e3b1" compoundref="api_8h" startline="517" endline="521">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::iso_pot_energy</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aad6dae741b41fc4113f30d71c2ffdcca" compoundref="api_8h" startline="533" endline="537">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::temp_swe</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ac8fc9c902042e0c29bf76afbca89786d" compoundref="api_8h" startline="556" endline="560">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a0721c006f25e8d30e3bc6d04eaf4d9f4" compoundref="api_8h" startline="572" endline="576">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a0c210042ae790c60e7ecf082d937106a" compoundref="api_8h" startline="588" endline="592">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1aa81c83ff614ffb1e3591059b91bc7d05" compoundref="api_8h" startline="611" endline="615">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::alpha</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a9574702b019cfca465bd82878546c08e" compoundref="api_8h" startline="627" endline="631">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::nu</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ada963ec24773243c02e428be61e45934" compoundref="api_8h" startline="643" endline="647">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::lwc</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a815270222b68b9180b3242801b4a7692" compoundref="api_8h" startline="659" endline="663">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::residual</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a1a650d3228000ba0c86803e3370c13c7" compoundref="api_8h" startline="675" endline="679">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::swe</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1af884e68749f3168ee8fce01ec2edcdc0" compoundref="api_8h" startline="691" endline="695">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::sca</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a6f02ef236387d1a437012d45a3f4231b" compoundref="api_8h" startline="714" endline="718">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a8691e776f43b0d526189af2e68bc30be" compoundref="api_8h" startline="730" endline="734">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::total_stored_water</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1aac9ca46d7b4c8f4d2244fd433d2a1f4a" compoundref="api_8h" startline="753" endline="757">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::swe</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a0e2993ed3189a06418a95863bd41aed1" compoundref="api_8h" startline="769" endline="773">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::sca</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1abb6b4bd23d981fe31f9e0edce3746488" compoundref="api_8h" startline="792" endline="796">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1aec5e652648861bd0e4de7e431a1aedb8" compoundref="api_8h" startline="814" endline="818">shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a5f6c39f99968370be19ebce9788777a8" compoundref="api_8h" startline="836" endline="840">shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1af6862aef40f88bd4caad375c83fdd212" compoundref="api_8h" startline="857" endline="861">shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics_1a1f5b9d058756c3c1b6ea7a71d978342d" compoundref="api_8h" startline="879" endline="883">shyft::api::hbv_actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="331" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="331" bodyend="352"/>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a470c074cace6796ba0d1971929755b0c" compoundref="api_8h" startline="251" endline="255">shyft::api::basic_cell_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ae52b209c4fa48f3903a94b52cc7f7b3f" compoundref="api_8h" startline="267" endline="271">shyft::api::basic_cell_statistics&lt; cell &gt;::temperature</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a8557686cb8ffc4976a8103d85bb25971" compoundref="api_8h" startline="283" endline="287">shyft::api::basic_cell_statistics&lt; cell &gt;::precipitation</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a016acbac06725469ff07bac5f0f89039" compoundref="api_8h" startline="299" endline="303">shyft::api::basic_cell_statistics&lt; cell &gt;::radiation</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1ac431ba0709ed19378c4d33b066be65dd" compoundref="api_8h" startline="315" endline="319">shyft::api::basic_cell_statistics&lt; cell &gt;::wind_speed</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1basic__cell__statistics_1a75fc26565cbef7f20d02a9263b73b7a3" compoundref="api_8h" startline="331" endline="335">shyft::api::basic_cell_statistics&lt; cell &gt;::rel_hum</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1adcdcee7f3d099fd3bdff9f1a5c2faa92" compoundref="api_8h" startline="353" endline="357">shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__state__statistics_1aca03a4a8ca9300814f9bbc696b2cebe0" compoundref="api_8h" startline="375" endline="379">shyft::api::hbv_soil_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a23871d6cc6f25b2b786b377b9d77c16d" compoundref="api_8h" startline="397" endline="401">shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aaab24e0af2fafb6a63fc3b1d701bc03f" compoundref="api_8h" startline="421" endline="425">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::albedo</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aceeb4b898252db760509c7c4d151d421" compoundref="api_8h" startline="437" endline="441">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::lwc</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1af00329a7138fdd2cd954324ea7afa078" compoundref="api_8h" startline="453" endline="457">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::surface_heat</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1adb508efbe009a157e3ef64c5ea2d9af6" compoundref="api_8h" startline="469" endline="473">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::alpha</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1aa2705dfe9ffcdbb4a4be68d741e9f9c2" compoundref="api_8h" startline="485" endline="489">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::sdc_melt_mean</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a0157af1553414599a9871d94fdf06e2b" compoundref="api_8h" startline="501" endline="505">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::acc_melt</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a49d1c455c48115fbb1cddd7d042f6dc8" compoundref="api_8h" startline="517" endline="521">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::iso_pot_energy</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a2d5b04f4c7e2748ea730e0b666273a6b" compoundref="api_8h" startline="533" endline="537">shyft::api::gamma_snow_cell_state_statistics&lt; cell &gt;::temp_swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1abdbbfc3e0eae934b8a678b433f19a83a" compoundref="api_8h" startline="556" endline="560">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a42035b93e7490c295016beafba2c05fc" compoundref="api_8h" startline="572" endline="576">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1aaa1c46dbdb7b5f426efbde68d56a9757" compoundref="api_8h" startline="588" endline="592">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a971592605ef3f2780466c30ea3062204" compoundref="api_8h" startline="607" endline="611">shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::glacier_melt</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ab3b47c1fab591630c4b3a051dad59348" compoundref="api_8h" startline="631" endline="635">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::alpha</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ae3dda9e7f943ce267848e897a0a88335" compoundref="api_8h" startline="647" endline="651">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::nu</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ace5bc88150d819130369995d870cd347" compoundref="api_8h" startline="663" endline="667">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::lwc</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1aacb20d679ca922771dff840fa1e44bd8" compoundref="api_8h" startline="679" endline="683">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::residual</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1a55e0b809aca69e3dacf7dd01758ca599" compoundref="api_8h" startline="695" endline="699">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__state__statistics_1ad2f86d9cfba13e806446ba84cf263ec1" compoundref="api_8h" startline="711" endline="715">shyft::api::skaugen_cell_state_statistics&lt; cell &gt;::sca</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a8a56b10bfffe49b4e6f4d7946ec8599f" compoundref="api_8h" startline="734" endline="738">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a24bc09db37b334750b5d46175fb8b738" compoundref="api_8h" startline="750" endline="754">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::total_stored_water</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1skaugen__cell__response__statistics_1a17d8fae466441260e3050a4d84c5dd4e" compoundref="api_8h" startline="769" endline="773">shyft::api::skaugen_cell_response_statistics&lt; cell &gt;::glacier_melt</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a36a69f7161a787339a344cd750c8e44a" compoundref="api_8h" startline="793" endline="797">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::swe</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__state__statistics_1a6c51591e3553d3d735fad8456867f403" compoundref="api_8h" startline="809" endline="813">shyft::api::hbv_snow_cell_state_statistics&lt; cell &gt;::sca</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1a3e8a0838cc6b670b030470ae6a530df7" compoundref="api_8h" startline="832" endline="836">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::outflow</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__snow__cell__response__statistics_1a192a8114ca8a7791be8fb4c34d53a668" compoundref="api_8h" startline="852" endline="856">shyft::api::hbv_snow_cell_response_statistics&lt; cell &gt;::glacier_melt</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1af78a5244fb378e25af8f61768fe841c8" compoundref="api_8h" startline="875" endline="879">shyft::api::priestley_taylor_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a5c2b38ebb91ccac1c3cc5ec70fd977d4" compoundref="api_8h" startline="897" endline="901">shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ab59df34fdac7b44fb0f2e89cfde27a10" compoundref="api_8h" startline="918" endline="922">shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics_1a4a8d95cb581b3c709db6b551cfc76793" compoundref="api_8h" startline="940" endline="944">shyft::api::hbv_actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>cell statistics provides ts feature summation over cells </para>    </briefdescription>
     <detaileddescription>
 <para>Since the cells are different, like different features, based on method stack, we use template to do the &quot;main work&quot;, either to do a scaled average, e.g. temperature, or plain sum (cell run_off in m3/s) Using this technique, there is only one line pr. feature sum/average needed -and we can keep the kloc down to a minimum.</para><para>Using swig/python, we need a helper class in either _api.h, or api.i to provide the functions to python layer </para>    </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="166" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="166" bodyend="357"/>
+    <location file="/home/sih/projects/shyft/core/cell_model.h" line="162" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="162" bodyend="354"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1cell__statistics_1aa10fd1160847f815e52bd017d1203215" prot="public" virt="non-virtual"><scope>shyft::core::cell_statistics</scope><name>average_catchment_feature</name></member>
       <member refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" prot="public" virt="non-virtual"><scope>shyft::core::cell_statistics</scope><name>average_catchment_feature_value</name></member>

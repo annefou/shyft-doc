@@ -1,109 +1,123 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="api_2hbv__stack_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="api_2hbv__stack_8h" kind="file" language="C++">
     <compoundname>hbv_stack.h</compoundname>
     <includes local="no">string</includes>
     <includes local="no">vector</includes>
     <includes refid="core_2hbv__stack_8h" local="yes">core/hbv_stack.h</includes>
     <incdepgraph>
-      <node id="2000">
+      <node id="663">
         <label>precipitation_correction.h</label>
         <link refid="precipitation__correction_8h"/>
       </node>
-      <node id="1992">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="1986" relation="include">
+      <node id="648">
+        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+        <childnode refid="649" relation="include">
         </childnode>
-        <childnode refid="1993" relation="include">
+        <childnode refid="650" relation="include">
         </childnode>
-        <childnode refid="1994" relation="include">
-        </childnode>
-        <childnode refid="1987" relation="include">
-        </childnode>
-        <childnode refid="1995" relation="include">
-        </childnode>
-        <childnode refid="1996" relation="include">
+        <childnode refid="651" relation="include">
         </childnode>
       </node>
-      <node id="1994">
+      <node id="657">
         <label>cmath</label>
       </node>
-      <node id="1998">
-        <label>hbv_soil.h</label>
-        <link refid="hbv__soil_8h"/>
-        <childnode refid="1992" relation="include">
-        </childnode>
-      </node>
-      <node id="1985">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h</label>
-        <link refid="api/hbv_stack.h"/>
-        <childnode refid="1986" relation="include">
-        </childnode>
-        <childnode refid="1987" relation="include">
-        </childnode>
-        <childnode refid="1988" relation="include">
-        </childnode>
-      </node>
-      <node id="1986">
-        <label>string</label>
-      </node>
-      <node id="1995">
-        <label>map</label>
-      </node>
-      <node id="1989">
-        <label>priestley_taylor.h</label>
-        <link refid="priestley__taylor_8h"/>
-      </node>
-      <node id="1987">
-        <label>vector</label>
-      </node>
-      <node id="1991">
-        <label>sstream</label>
-      </node>
-      <node id="1993">
-        <label>time.h</label>
-      </node>
-      <node id="1999">
-        <label>hbv_tank.h</label>
-        <link refid="hbv__tank_8h"/>
-        <childnode refid="1992" relation="include">
-        </childnode>
-      </node>
-      <node id="1988">
+      <node id="651">
         <label>core/hbv_stack.h</label>
         <link refid="core_2hbv__stack_8h"/>
-        <childnode refid="1989" relation="include">
+        <childnode refid="652" relation="include">
         </childnode>
-        <childnode refid="1990" relation="include">
+        <childnode refid="653" relation="include">
         </childnode>
-        <childnode refid="1997" relation="include">
+        <childnode refid="660" relation="include">
         </childnode>
-        <childnode refid="1998" relation="include">
+        <childnode refid="661" relation="include">
         </childnode>
-        <childnode refid="1999" relation="include">
+        <childnode refid="662" relation="include">
         </childnode>
-        <childnode refid="2000" relation="include">
+        <childnode refid="663" relation="include">
+        </childnode>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="665" relation="include">
         </childnode>
       </node>
-      <node id="1997">
+      <node id="661">
+        <label>hbv_soil.h</label>
+        <link refid="hbv__soil_8h"/>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+      <node id="649">
+        <label>string</label>
+      </node>
+      <node id="662">
+        <label>hbv_tank.h</label>
+        <link refid="hbv__tank_8h"/>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+      <node id="658">
+        <label>map</label>
+      </node>
+      <node id="660">
         <label>hbv_actual_evapotranspiration.h</label>
         <link refid="hbv__actual__evapotranspiration_8h"/>
-        <childnode refid="1992" relation="include">
+        <childnode refid="655" relation="include">
         </childnode>
       </node>
-      <node id="1990">
+      <node id="664">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+      <node id="655">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="657" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+        <childnode refid="658" relation="include">
+        </childnode>
+        <childnode refid="659" relation="include">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+      </node>
+      <node id="653">
         <label>hbv_snow.h</label>
         <link refid="hbv__snow_8h"/>
-        <childnode refid="1991" relation="include">
+        <childnode refid="654" relation="include">
         </childnode>
-        <childnode refid="1987" relation="include">
+        <childnode refid="650" relation="include">
         </childnode>
-        <childnode refid="1992" relation="include">
+        <childnode refid="655" relation="include">
         </childnode>
       </node>
-      <node id="1996">
+      <node id="650">
+        <label>vector</label>
+      </node>
+      <node id="654">
+        <label>sstream</label>
+      </node>
+      <node id="656">
+        <label>time.h</label>
+      </node>
+      <node id="659">
         <label>memory</label>
+      </node>
+      <node id="652">
+        <label>priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
       </node>
     </incdepgraph>
     <innerclass refid="structshyft_1_1api_1_1hbv__stack__state__io" prot="public">shyft::api::hbv_stack_state_io</innerclass>
@@ -118,16 +132,16 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2hbv__stack_8h" kindref="compound">core/hbv_stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">api<sp/>{</highlight></codeline>
 <codeline lineno="7" refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__stack_1_1state" kindref="compound">shyft::core::hbv_stack::state</ref><sp/><ref refid="namespaceshyft_1_1api_1ad2295256b87b216911dd024677d0cd14" kindref="member">hbv_stack_state_t</ref>;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9" refid="structshyft_1_1api_1_1hbv__stack__state__io" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1api_1_1hbv__stack__state__io" kindref="compound">hbv_stack_state_io</ref><sp/>{</highlight></codeline>
-<codeline lineno="10" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a34337da1161f609d533d8b65c5a9dc5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a34337da1161f609d533d8b65c5a9dc5f" kindref="member">from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;str,<sp/><ref refid="structshyft_1_1core_1_1hbv__stack_1_1state" kindref="compound">hbv_stack_state_t</ref><sp/>&amp;s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" kindref="member">from_raw_string</ref>(str.c_str(),<sp/>s);</highlight></codeline>
+<codeline lineno="10" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a4e486ad860f76b963832081daa718e20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a4e486ad860f76b963832081daa718e20" kindref="member">from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;str,<sp/>hbv_stack_state_t<sp/>&amp;s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a2291fc996d4596fdae9a09bc006f316f" kindref="member">from_raw_string</ref>(str.c_str(),<sp/>s);</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14" refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" kindref="member">from_raw_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/><ref refid="structshyft_1_1core_1_1hbv__stack_1_1state" kindref="compound">hbv_stack_state_t</ref>&amp;<sp/>s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a2291fc996d4596fdae9a09bc006f316f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a2291fc996d4596fdae9a09bc006f316f" kindref="member">from_raw_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>str,<sp/>hbv_stack_state_t&amp;<sp/>s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(str<sp/>&amp;&amp;<sp/>*str)<sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sscanf(str,<sp/></highlight><highlight class="stringliteral">&quot;hbv_stack:%lf<sp/>%lf<sp/>%lf<sp/>%lf<sp/>%lf&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>5<sp/>states,<sp/>5<sp/>times<sp/>%lf<sp/>what<sp/>%lf?</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;s.<ref refid="structshyft_1_1core_1_1hbv__stack_1_1state_1ac85f0b841f456f37d747f3e05c33de93" kindref="member">snow</ref>.<ref refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" kindref="member">sca</ref>,<sp/>&amp;s.<ref refid="structshyft_1_1core_1_1hbv__stack_1_1state_1ac85f0b841f456f37d747f3e05c33de93" kindref="member">snow</ref>.<ref refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" kindref="member">swe</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>why<sp/>with<sp/>&amp;s</highlight><highlight class="normal"></highlight></codeline>
@@ -138,7 +152,7 @@
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="structshyft_1_1api_1_1hbv__stack__state__io_1aa4bae403e85fd1ffa46d487989d7df78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1aa4bae403e85fd1ffa46d487989d7df78" kindref="member">to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1hbv__stack_1_1state" kindref="compound">hbv_stack_state_t</ref>&amp;<sp/>s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a65fb3bdf10fb9a10ede98f30b0fd93a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a65fb3bdf10fb9a10ede98f30b0fd93a7" kindref="member">to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>hbv_stack_state_t&amp;<sp/>s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>r[500];</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(r,<sp/></highlight><highlight class="stringliteral">&quot;hbv_stack:%f<sp/>%f<sp/>%f<sp/>%f<sp/>%f<sp/>\n&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>5<sp/>states,<sp/>5<sp/>times<sp/>%lf<sp/>what<sp/>%lf?</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="structshyft_1_1core_1_1hbv__stack_1_1state_1ac85f0b841f456f37d747f3e05c33de93" kindref="member">snow</ref>.<ref refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" kindref="member">sca</ref>,<sp/>s.<ref refid="structshyft_1_1core_1_1hbv__stack_1_1state_1ac85f0b841f456f37d747f3e05c33de93" kindref="member">snow</ref>.<ref refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" kindref="member">swe</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>why<sp/>not<sp/>&amp;s<sp/>only<sp/>s</highlight><highlight class="normal"></highlight></codeline>
@@ -147,23 +161,23 @@
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a51fc5389ad5769934689f5e8c007993f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a51fc5389ad5769934689f5e8c007993f" kindref="member">to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;hbv_stack_state_t&gt;<sp/>&amp;sv)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34" refid="structshyft_1_1api_1_1hbv__stack__state__io_1afee9ad3726f2c170551841fef3163a1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1afee9ad3726f2c170551841fef3163a1d" kindref="member">to_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;hbv_stack_state_t&gt;<sp/>&amp;sv)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>r;<sp/>r.reserve(200<sp/>*<sp/>200<sp/>*<sp/>50);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i&lt;sv.size();<sp/>++i)<sp/>{</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.append(<ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1aa4bae403e85fd1ffa46d487989d7df78" kindref="member">to_string</ref>(sv[i]));</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.append(<ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a65fb3bdf10fb9a10ede98f30b0fd93a7" kindref="member">to_string</ref>(sv[i]));</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a4a1489cd536112840d90b90eb3112576" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;hbv_stack_state_t&gt;<sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a4a1489cd536112840d90b90eb3112576" kindref="member">vector_from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42" refid="structshyft_1_1api_1_1hbv__stack__state__io_1a476c4448915a78595b6074ad04faed20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;hbv_stack_state_t&gt;<sp/><ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a476c4448915a78595b6074ad04faed20" kindref="member">vector_from_string</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>&amp;s)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;hbv_stack_state_t&gt;<sp/>r;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s.size()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.reserve(200<sp/>*<sp/>200);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*l<sp/>=<sp/>s.c_str();</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*h;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1hbv__stack_1_1state" kindref="compound">hbv_stack_state_t</ref><sp/>e;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hbv_stack_state_t<sp/>e;</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(*l<sp/>&amp;&amp;<sp/>(h<sp/>=<sp/>strstr(l,<sp/></highlight><highlight class="stringliteral">&quot;hbv_stack:&quot;</highlight><highlight class="normal">)))<sp/>{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1aff0077ad8175c2f8bb2efd3ce82ad7d7" kindref="member">from_raw_string</ref>(h,<sp/>e))</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!<ref refid="structshyft_1_1api_1_1hbv__stack__state__io_1a2291fc996d4596fdae9a09bc006f316f" kindref="member">from_raw_string</ref>(h,<sp/>e))</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.emplace_back(e);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>l<sp/>=<sp/>h<sp/>+<sp/>10;<sp/><sp/></highlight><highlight class="comment">//<sp/>advance<sp/>after<sp/>hbv_stack<sp/>marker</highlight><highlight class="normal"></highlight></codeline>
@@ -175,6 +189,6 @@
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h"/>
+    <location file="/home/sih/projects/shyft/api/hbv_stack.h"/>
   </compounddef>
 </doxygen>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1api_1_1pt__ss__k__state__io" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1api_1_1pt__ss__k__state__io" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::pt_ss_k_state_io</compoundname>
     <includes refid="api_2pt__ss__k_8h" local="no">pt_ss_k.h</includes>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1abd34452d2e1b2bd2fc2fcf5f10c53e73" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1a9946dac1f5ece25bc1a921f8a09ef4d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool shyft::api::pt_ss_k_state_io::from_string</definition>
-        <argsstring>(const std::string &amp;str, pt_ss_k_state_t &amp;s) const </argsstring>
+        <argsstring>(const std::string &amp;str, pt_ss_k_state_t &amp;s) const</argsstring>
         <name>from_string</name>
         <param>
           <type>const std::string &amp;</type>
@@ -23,13 +23,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" line="10" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" bodystart="10" bodyend="12"/>
-        <references refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">from_raw_string</references>
+        <location file="/home/sih/projects/shyft/api/pt_ss_k.h" line="10" column="1" bodyfile="/home/sih/projects/shyft/api/pt_ss_k.h" bodystart="10" bodyend="12"/>
+        <references refid="structshyft_1_1api_1_1pt__ss__k__state__io_1ab184b998cd27a539f5c34dbc3bcc9ac1" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">from_raw_string</references>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1ab184b998cd27a539f5c34dbc3bcc9ac1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool shyft::api::pt_ss_k_state_io::from_raw_string</definition>
-        <argsstring>(const char *str, pt_ss_k_state_t &amp;s) const </argsstring>
+        <argsstring>(const char *str, pt_ss_k_state_t &amp;s) const</argsstring>
         <name>from_raw_string</name>
         <param>
           <type>const char *</type>
@@ -45,8 +45,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" line="14" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" bodystart="14" bodyend="23"/>
-        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" compoundref="core_2pt__ss__k_8h" startline="123">shyft::core::pt_ss_k::state::snow</references>
+        <location file="/home/sih/projects/shyft/api/pt_ss_k.h" line="14" column="1" bodyfile="/home/sih/projects/shyft/api/pt_ss_k.h" bodystart="14" bodyend="23"/>
+        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" compoundref="core_2pt__ss__k_8h" startline="130">shyft::core::pt_ss_k::state::snow</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1ab0ed3f87128d2d82bc2e7f7018e43db9" compoundref="skaugen_8h" startline="106">shyft::core::skaugen::state::nu</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1a991fdcc007de9a147242a7a7e1bf3703" compoundref="skaugen_8h" startline="107">shyft::core::skaugen::state::alpha</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1a58fd8c716ff3f2eda67fa7be3ce079b3" compoundref="skaugen_8h" startline="108">shyft::core::skaugen::state::sca</references>
@@ -54,15 +54,15 @@
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1a12ff076ad2f823a55979e2b9843a3a0a" compoundref="skaugen_8h" startline="110">shyft::core::skaugen::state::free_water</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1aa9f1632c65d8c7c226509bff02faac34" compoundref="skaugen_8h" startline="111">shyft::core::skaugen::state::residual</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1ac6add5733dfd344adb3560f3fcda03c8" compoundref="skaugen_8h" startline="112">shyft::core::skaugen::state::num_units</references>
-        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" compoundref="core_2pt__ss__k_8h" startline="124">shyft::core::pt_ss_k::state::kirchner</references>
+        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" compoundref="core_2pt__ss__k_8h" startline="131">shyft::core::pt_ss_k::state::kirchner</references>
         <references refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" compoundref="kirchner_8h" startline="133">shyft::core::kirchner::state::q</references>
-        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1abd34452d2e1b2bd2fc2fcf5f10c53e73" compoundref="api_2pt__ss__k_8h" startline="10" endline="12">from_string</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a0e772615cf605b7e0c083e79677d8b0c" compoundref="api_2pt__ss__k_8h" startline="42" endline="57">vector_from_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a9946dac1f5ece25bc1a921f8a09ef4d5" compoundref="api_2pt__ss__k_8h" startline="10" endline="12">from_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aff964f8555fe352ee00b2a9f7afbcfb2" compoundref="api_2pt__ss__k_8h" startline="42" endline="57">vector_from_string</referencedby>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1aefde69781ad427e748d789cc087e9ab3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1a9462a3b7e470d3309fc7d3b1b2978b20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string shyft::api::pt_ss_k_state_io::to_string</definition>
-        <argsstring>(const pt_ss_k_state_t &amp;s) const </argsstring>
+        <argsstring>(const pt_ss_k_state_t &amp;s) const</argsstring>
         <name>to_string</name>
         <param>
           <type>const <ref refid="namespaceshyft_1_1api_1ad37a19e58690d9133188336b01aab06d" kindref="member">pt_ss_k_state_t</ref> &amp;</type>
@@ -74,8 +74,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" line="25" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" bodystart="25" bodyend="32"/>
-        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" compoundref="core_2pt__ss__k_8h" startline="123">shyft::core::pt_ss_k::state::snow</references>
+        <location file="/home/sih/projects/shyft/api/pt_ss_k.h" line="25" column="1" bodyfile="/home/sih/projects/shyft/api/pt_ss_k.h" bodystart="25" bodyend="32"/>
+        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" compoundref="core_2pt__ss__k_8h" startline="130">shyft::core::pt_ss_k::state::snow</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1ab0ed3f87128d2d82bc2e7f7018e43db9" compoundref="skaugen_8h" startline="106">shyft::core::skaugen::state::nu</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1a991fdcc007de9a147242a7a7e1bf3703" compoundref="skaugen_8h" startline="107">shyft::core::skaugen::state::alpha</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1a58fd8c716ff3f2eda67fa7be3ce079b3" compoundref="skaugen_8h" startline="108">shyft::core::skaugen::state::sca</references>
@@ -83,14 +83,14 @@
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1a12ff076ad2f823a55979e2b9843a3a0a" compoundref="skaugen_8h" startline="110">shyft::core::skaugen::state::free_water</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1aa9f1632c65d8c7c226509bff02faac34" compoundref="skaugen_8h" startline="111">shyft::core::skaugen::state::residual</references>
         <references refid="structshyft_1_1core_1_1skaugen_1_1state_1ac6add5733dfd344adb3560f3fcda03c8" compoundref="skaugen_8h" startline="112">shyft::core::skaugen::state::num_units</references>
-        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" compoundref="core_2pt__ss__k_8h" startline="124">shyft::core::pt_ss_k::state::kirchner</references>
+        <references refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" compoundref="core_2pt__ss__k_8h" startline="131">shyft::core::pt_ss_k::state::kirchner</references>
         <references refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" compoundref="kirchner_8h" startline="133">shyft::core::kirchner::state::q</references>
-        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a56010aa6276c2ffbd278a09c5ca60ed3" compoundref="api_2pt__ss__k_8h" startline="34" endline="40">to_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1pt__ss__k__state__io_1ab572be445b8e9156984f354bfd58ef86" compoundref="api_2pt__ss__k_8h" startline="34" endline="40">to_string</referencedby>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1a56010aa6276c2ffbd278a09c5ca60ed3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1ab572be445b8e9156984f354bfd58ef86" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::string</type>
         <definition>std::string shyft::api::pt_ss_k_state_io::to_string</definition>
-        <argsstring>(const std::vector&lt; pt_ss_k_state_t &gt; &amp;sv) const </argsstring>
+        <argsstring>(const std::vector&lt; pt_ss_k_state_t &gt; &amp;sv) const</argsstring>
         <name>to_string</name>
         <param>
           <type>const std::vector&lt; <ref refid="namespaceshyft_1_1api_1ad37a19e58690d9133188336b01aab06d" kindref="member">pt_ss_k_state_t</ref> &gt; &amp;</type>
@@ -102,13 +102,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" line="34" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" bodystart="34" bodyend="40"/>
-        <references refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aefde69781ad427e748d789cc087e9ab3" compoundref="api_2pt__ss__k_8h" startline="25" endline="32">to_string</references>
+        <location file="/home/sih/projects/shyft/api/pt_ss_k.h" line="34" column="1" bodyfile="/home/sih/projects/shyft/api/pt_ss_k.h" bodystart="34" bodyend="40"/>
+        <references refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a9462a3b7e470d3309fc7d3b1b2978b20" compoundref="api_2pt__ss__k_8h" startline="25" endline="32">to_string</references>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1a0e772615cf605b7e0c083e79677d8b0c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1pt__ss__k__state__io_1aff964f8555fe352ee00b2a9f7afbcfb2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>std::vector&lt; <ref refid="namespaceshyft_1_1api_1ad37a19e58690d9133188336b01aab06d" kindref="member">pt_ss_k_state_t</ref> &gt;</type>
         <definition>std::vector&lt;pt_ss_k_state_t&gt; shyft::api::pt_ss_k_state_io::vector_from_string</definition>
-        <argsstring>(const std::string &amp;s) const </argsstring>
+        <argsstring>(const std::string &amp;s) const</argsstring>
         <name>vector_from_string</name>
         <param>
           <type>const std::string &amp;</type>
@@ -120,21 +120,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" bodystart="42" bodyend="57"/>
-        <references refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">from_raw_string</references>
+        <location file="/home/sih/projects/shyft/api/pt_ss_k.h" line="42" column="1" bodyfile="/home/sih/projects/shyft/api/pt_ss_k.h" bodystart="42" bodyend="57"/>
+        <references refid="structshyft_1_1api_1_1pt__ss__k__state__io_1ab184b998cd27a539f5c34dbc3bcc9ac1" compoundref="api_2pt__ss__k_8h" startline="14" endline="23">from_raw_string</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" line="9" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h" bodystart="9" bodyend="58"/>
+    <location file="/home/sih/projects/shyft/api/pt_ss_k.h" line="9" column="1" bodyfile="/home/sih/projects/shyft/api/pt_ss_k.h" bodystart="9" bodyend="58"/>
     <listofallmembers>
-      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a5dc54ab200baea90ced125b290dba8cc" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>from_raw_string</name></member>
-      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1abd34452d2e1b2bd2fc2fcf5f10c53e73" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>from_string</name></member>
-      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aefde69781ad427e748d789cc087e9ab3" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>to_string</name></member>
-      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a56010aa6276c2ffbd278a09c5ca60ed3" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>to_string</name></member>
-      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a0e772615cf605b7e0c083e79677d8b0c" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>vector_from_string</name></member>
+      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1ab184b998cd27a539f5c34dbc3bcc9ac1" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>from_raw_string</name></member>
+      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a9946dac1f5ece25bc1a921f8a09ef4d5" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>from_string</name></member>
+      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1a9462a3b7e470d3309fc7d3b1b2978b20" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>to_string</name></member>
+      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1ab572be445b8e9156984f354bfd58ef86" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>to_string</name></member>
+      <member refid="structshyft_1_1api_1_1pt__ss__k__state__io_1aff964f8555fe352ee00b2a9f7afbcfb2" prot="public" virt="non-virtual"><scope>shyft::api::pt_ss_k_state_io</scope><name>vector_from_string</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

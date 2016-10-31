@@ -9,6 +9,5 @@ var cell__model_8h =
     [ "pts_t", "cell__model_8h.html#a78d0ca8964be5db44a5022740019e7fc", null ],
     [ "timeaxis_t", "cell__model_8h.html#a147759d3a865deddd1ddafb19dc7f431", null ],
     [ "create_cell_environment", "cell__model_8h.html#aecc33b00aefef93c9e502f31ade69872", null ],
-    [ "mmh_to_m3s", "cell__model_8h.html#a447aaa684a628f435f1af5a4c568b819", null ],
     [ "ts_init", "cell__model_8h.html#a79f174cb1b8a95ba06a8959b412b423a", null ]
 ];

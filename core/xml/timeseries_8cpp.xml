@@ -1,191 +1,206 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="timeseries_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="timeseries_8cpp" kind="file" language="C++">
     <compoundname>timeseries.cpp</compoundname>
     <includes refid="api_2timeseries_8h" local="yes">timeseries.h</includes>
     <includes local="no">dlib/statistics.h</includes>
     <incdepgraph>
-      <node id="1543">
-        <label>core/time_axis.h</label>
-        <link refid="time__axis_8h"/>
-        <childnode refid="1544" relation="include">
-        </childnode>
-        <childnode refid="1529" relation="include">
-        </childnode>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1531" relation="include">
-        </childnode>
-        <childnode refid="1540" relation="include">
-        </childnode>
-      </node>
-      <node id="1532">
+      <node id="155">
         <label>functional</label>
       </node>
-      <node id="1525">
+      <node id="148">
         <label>limits</label>
       </node>
-      <node id="1540">
-        <label>core/utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="1529" relation="include">
-        </childnode>
-        <childnode refid="1541" relation="include">
-        </childnode>
-        <childnode refid="1542" relation="include">
-        </childnode>
-        <childnode refid="1527" relation="include">
-        </childnode>
-        <childnode refid="1528" relation="include">
-        </childnode>
-        <childnode refid="1524" relation="include">
-        </childnode>
-      </node>
-      <node id="1542">
+      <node id="165">
         <label>cmath</label>
       </node>
-      <node id="1537">
+      <node id="160">
         <label>stdexcept</label>
       </node>
-      <node id="1529">
+      <node id="152">
         <label>string</label>
       </node>
-      <node id="1546">
+      <node id="151">
+        <label>map</label>
+      </node>
+      <node id="167">
+        <label>exception</label>
+      </node>
+      <node id="156">
+        <label>ostream</label>
+      </node>
+      <node id="146">
+        <label>core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>core/utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>random</label>
+      </node>
+      <node id="174">
+        <label>dlib/statistics.h</label>
+      </node>
+      <node id="162">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="173">
+        <label>unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+      </node>
+      <node id="159">
+        <label>future</label>
+      </node>
+      <node id="168">
+        <label>core/timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>vector</label>
+      </node>
+      <node id="166">
+        <label>core/time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="164">
+        <label>time.h</label>
+      </node>
+      <node id="157">
+        <label>cerrno</label>
+      </node>
+      <node id="170">
+        <label>iostream</label>
+      </node>
+      <node id="149">
+        <label>cstddef</label>
+      </node>
+      <node id="158">
+        <label>thread</label>
+      </node>
+      <node id="171">
+        <label>type_traits</label>
+      </node>
+      <node id="144">
+        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
+        <link refid="timeseries_8cpp"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>algorithm</label>
+      </node>
+      <node id="153">
+        <label>cstring</label>
+      </node>
+      <node id="145">
+        <label>timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>memory</label>
+      </node>
+      <node id="169">
         <label>compiler_compatiblity.h</label>
         <link refid="compiler__compatiblity_8h"/>
       </node>
-      <node id="1528">
-        <label>map</label>
-      </node>
-      <node id="1544">
-        <label>exception</label>
-      </node>
-      <node id="1533">
-        <label>ostream</label>
-      </node>
-      <node id="1545">
-        <label>core/timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="1546" relation="include">
-        </childnode>
-        <childnode refid="1540" relation="include">
-        </childnode>
-        <childnode refid="1543" relation="include">
-        </childnode>
-        <childnode refid="1537" relation="include">
-        </childnode>
-        <childnode refid="1525" relation="include">
-        </childnode>
-        <childnode refid="1531" relation="include">
-        </childnode>
-        <childnode refid="1547" relation="include">
-        </childnode>
-        <childnode refid="1527" relation="include">
-        </childnode>
-        <childnode refid="1548" relation="include">
-        </childnode>
-        <childnode refid="1524" relation="include">
-        </childnode>
-      </node>
-      <node id="1538">
-        <label>random</label>
-      </node>
-      <node id="1549">
-        <label>dlib/statistics.h</label>
-      </node>
-      <node id="1539">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="1536">
-        <label>future</label>
-      </node>
-      <node id="1527">
-        <label>vector</label>
-      </node>
-      <node id="1541">
-        <label>time.h</label>
-      </node>
-      <node id="1522">
-        <label>timeseries.h</label>
-        <link refid="api_2timeseries_8h"/>
-        <childnode refid="1523" relation="include">
-        </childnode>
-        <childnode refid="1540" relation="include">
-        </childnode>
-        <childnode refid="1543" relation="include">
-        </childnode>
-        <childnode refid="1545" relation="include">
-        </childnode>
-      </node>
-      <node id="1534">
-        <label>cerrno</label>
-      </node>
-      <node id="1547">
-        <label>iostream</label>
-      </node>
-      <node id="1526">
-        <label>cstddef</label>
-      </node>
-      <node id="1535">
-        <label>thread</label>
-      </node>
-      <node id="1521">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.cpp</label>
-        <link refid="timeseries.cpp"/>
-        <childnode refid="1522" relation="include">
-        </childnode>
-        <childnode refid="1549" relation="include">
-        </childnode>
-      </node>
-      <node id="1548">
-        <label>type_traits</label>
-      </node>
-      <node id="1523">
-        <label>core/core_pch.h</label>
-        <link refid="core__pch_8h"/>
-        <childnode refid="1524" relation="include">
-        </childnode>
-        <childnode refid="1525" relation="include">
-        </childnode>
-        <childnode refid="1526" relation="include">
-        </childnode>
-        <childnode refid="1527" relation="include">
-        </childnode>
-        <childnode refid="1528" relation="include">
-        </childnode>
-        <childnode refid="1529" relation="include">
-        </childnode>
-        <childnode refid="1530" relation="include">
-        </childnode>
-        <childnode refid="1531" relation="include">
-        </childnode>
-        <childnode refid="1532" relation="include">
-        </childnode>
-        <childnode refid="1533" relation="include">
-        </childnode>
-        <childnode refid="1534" relation="include">
-        </childnode>
-        <childnode refid="1535" relation="include">
-        </childnode>
-        <childnode refid="1536" relation="include">
-        </childnode>
-        <childnode refid="1537" relation="include">
-        </childnode>
-        <childnode refid="1538" relation="include">
-        </childnode>
-        <childnode refid="1539" relation="include">
-        </childnode>
-      </node>
-      <node id="1531">
-        <label>algorithm</label>
-      </node>
-      <node id="1530">
-        <label>cstring</label>
-      </node>
-      <node id="1524">
-        <label>memory</label>
-      </node>
     </incdepgraph>
+    <innerclass refid="structshyft_1_1api_1_1aglacier__melt__ts" prot="public">shyft::api::aglacier_melt_ts</innerclass>
     <innernamespace refid="namespaceshyft">shyft</innernamespace>
     <innernamespace refid="namespaceshyft_1_1api">shyft::api</innernamespace>
     <briefdescription>
@@ -195,7 +210,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="api_2timeseries_8h" kindref="compound">timeseries.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dlib/statistics.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref>{</highlight></codeline>
 <codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">api<sp/>{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>iop_add(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>+<sp/>b;}</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>iop_sub(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>-<sp/>b;}</highlight></codeline>
@@ -239,48 +254,48 @@
 <codeline lineno="44" refid="namespaceshyft_1_1api_1a85082fe9d2a703e537b342df2a87dad6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>lhs,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rhs)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(std::make_shared&lt;abin_op_ts_scalar&gt;(<sp/>lhs,iop_min,rhs<sp/>));}</highlight></codeline>
 <codeline lineno="45" refid="namespaceshyft_1_1api_1a4da3af69cc0ba11f60db97a28728d377" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">min</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lhs,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>rhs)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(std::make_shared&lt;abin_op_scalar_ts&gt;(<sp/>lhs,iop_min,rhs<sp/>));}</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="structshyft_1_1api_1_1abin__op__ts_1a29ec40b3cce1ff2da668399f9ed57afa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1a29ec40b3cce1ff2da668399f9ed57afa" kindref="member">abin_op_ts::value_at</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1af851b1468079d2427e638eaf2af5b639" kindref="member">total_period</ref>().<ref refid="structshyft_1_1core_1_1utcperiod_1a686df27c357b1d84e0d0cc4eceade68b" kindref="member">contains</ref>(t))</highlight></codeline>
+<codeline lineno="47" refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" kindref="member">abin_op_ts::value_at</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a1ea9fa2294e8e84d7b15ee357f9cd6a1" kindref="member">total_period</ref>().<ref refid="structshyft_1_1core_1_1utcperiod_1a9389e69f1aa343d037ccafda9a2d11aa" kindref="member">contains</ref>(t))</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">nan</ref>;</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1ac7be6ad975b78d1779f7d16172b49b23" kindref="member">op</ref>(<sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1a727cf1691ae2ceb57007d4372f07b492" kindref="member">lhs</ref>(t),<ref refid="structshyft_1_1api_1_1abin__op__ts_1acc6d8c53f493a31bf37b95d746492912" kindref="member">rhs</ref>(t)<sp/>);</highlight><highlight class="comment">//<sp/>this<sp/>might<sp/>cost<sp/>a<sp/>2xbin-search<sp/>if<sp/>not<sp/>the<sp/>underlying<sp/>ts<sp/>have<sp/>smart<sp/>incremental<sp/>search<sp/>(at<sp/>the<sp/>cost<sp/>of<sp/>thread<sp/>safety)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="structshyft_1_1api_1_1abin__op__ts_1a2a51626dd496c6ab6fe6ed18c903fc22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1a2a51626dd496c6ab6fe6ed18c903fc22" kindref="member">abin_op_ts::values</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>r;r.reserve(<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a61633063c5efb31b6fcd6b4748efb46a" kindref="member">size</ref>());</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i=0;i&lt;<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a61633063c5efb31b6fcd6b4748efb46a" kindref="member">size</ref>();++i)<sp/>{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.push_back(<ref refid="structshyft_1_1api_1_1abin__op__ts_1a5e9be21cc53de6e583d87da536be1843" kindref="member">value</ref>(i));</highlight><highlight class="comment">//TODO:<sp/>improve<sp/>speed<sp/>using<sp/>accessors<sp/>with<sp/>ix-hint<sp/>for<sp/>lhs/rhs<sp/>stepwise<sp/>traversal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="structshyft_1_1api_1_1abin__op__ts_1af7dd031bc99c5ee60a421eec857cefe8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1af7dd031bc99c5ee60a421eec857cefe8" kindref="member">abin_op_ts::values</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>r;r.reserve(<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a4cadc695ec50189c8af79bfa59e51959" kindref="member">size</ref>());</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i=0;i&lt;<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a4cadc695ec50189c8af79bfa59e51959" kindref="member">size</ref>();++i)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.push_back(<ref refid="structshyft_1_1api_1_1abin__op__ts_1af6b407bf0d20fdefdc3bfe37961cf5c3" kindref="member">value</ref>(i));</highlight><highlight class="comment">//TODO:<sp/>improve<sp/>speed<sp/>using<sp/>accessors<sp/>with<sp/>ix-hint<sp/>for<sp/>lhs/rhs<sp/>stepwise<sp/>traversal</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::move(r);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>implement<sp/>popular<sp/>ct<sp/>for<sp/>apoint_ts<sp/>to<sp/>make<sp/>it<sp/>easy<sp/>to<sp/>expose<sp/>&amp;<sp/>use</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="classshyft_1_1api_1_1apoint__ts_1aa971d17336cb781936435436bc78cb38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fill_value,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(std::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(ta,fill_value,point_fx))<sp/>{</highlight></codeline>
+<codeline lineno="62" refid="classshyft_1_1api_1_1apoint__ts_1aa971d17336cb781936435436bc78cb38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fill_value,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(<ref refid="namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(ta,fill_value,point_fx))<sp/>{</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="65" refid="classshyft_1_1api_1_1apoint__ts_1a89e5b1fde4fa9ee818970f3ab7cf4930" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;&amp;<sp/>values,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(std::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(ta,values,point_fx))<sp/>{</highlight></codeline>
+<codeline lineno="65" refid="classshyft_1_1api_1_1apoint__ts_1a89e5b1fde4fa9ee818970f3ab7cf4930" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;&amp;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(<ref refid="namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(ta,values,point_fx))<sp/>{</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="68" refid="classshyft_1_1api_1_1apoint__ts_1a150f0505783cc30c3e04f2c91241c845" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta,std::vector&lt;double&gt;&amp;&amp;<sp/>values,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(std::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(ta,std::move(values),point_fx))<sp/>{</highlight></codeline>
+<codeline lineno="68" refid="classshyft_1_1api_1_1apoint__ts_1a150f0505783cc30c3e04f2c91241c845" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta,std::vector&lt;double&gt;&amp;&amp;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(<ref refid="namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(ta,<ref refid="namespacestd" kindref="compound">std</ref>::move(<ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>),point_fx))<sp/>{</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>python<sp/>needs<sp/>these:</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="73" refid="classshyft_1_1api_1_1apoint__ts_1ac1ba6c0ac5585c7cd0cbd3a4b206a9a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fill_value,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(time_axis::generic_dt(ta),fill_value,point_fx)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(<ref refid="classshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" kindref="member">time_axis</ref>::generic_dt(ta),fill_value,point_fx)<sp/>{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="76" refid="classshyft_1_1api_1_1apoint__ts_1af28d29fdbc26420c8f82c50de3873bca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;&amp;<sp/>values,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(time_axis::generic_dt(ta),values,point_fx)<sp/>{</highlight></codeline>
+<codeline lineno="76" refid="classshyft_1_1api_1_1apoint__ts_1af28d29fdbc26420c8f82c50de3873bca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;&amp;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(<ref refid="classshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" kindref="member">time_axis</ref>::generic_dt(ta),values,point_fx)<sp/>{</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>python<sp/>needs<sp/>these:</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81" refid="classshyft_1_1api_1_1apoint__ts_1ab65c67c4e5a0525ecde70ea6f6d07469" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1point__dt" kindref="compound">time_axis::point_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fill_value,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(time_axis::generic_dt(ta),fill_value,point_fx)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(<ref refid="classshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" kindref="member">time_axis</ref>::generic_dt(ta),fill_value,point_fx)<sp/>{</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="84" refid="classshyft_1_1api_1_1apoint__ts_1ac7f33aa560b6cb245a6cd2991d3d5199" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1point__dt" kindref="compound">time_axis::point_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;&amp;<sp/>values,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(time_axis::generic_dt(ta),values,point_fx)<sp/>{</highlight></codeline>
+<codeline lineno="84" refid="classshyft_1_1api_1_1apoint__ts_1ac7f33aa560b6cb245a6cd2991d3d5199" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1point__dt" kindref="compound">time_axis::point_dt</ref>&amp;<sp/>ta,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;&amp;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(<ref refid="classshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" kindref="member">time_axis</ref>::generic_dt(ta),values,point_fx)<sp/>{</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="87" refid="classshyft_1_1api_1_1apoint__ts_1a7e1d5d24f6b0e900fa5f9878a397dea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1timeseries_1_1point__ts" kindref="compound">rts_t</ref><sp/>&amp;rts):</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(time_axis::generic_dt(rts.ta),rts.v,rts.point_interpretation())</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(<ref refid="classshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" kindref="member">time_axis</ref>::generic_dt(rts.ta),rts.v,rts.<ref refid="classshyft_1_1api_1_1apoint__ts_1a6679e02699f441e2ce6bf812c9896a1d" kindref="member">point_interpretation</ref>())</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
 <codeline lineno="91" refid="classshyft_1_1api_1_1apoint__ts_1a2e04d0c73c0ce9595b0ada73e48de848" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;&amp;<sp/>pattern,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta)<sp/>:</highlight></codeline>
@@ -288,24 +303,24 @@
 <codeline lineno="93" refid="classshyft_1_1api_1_1apoint__ts_1a69e078eac108ddbfaecad46fb986014c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;&amp;<sp/>pattern,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>pattern_t0,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;<sp/>ta)<sp/>:</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(make_shared&lt;<ref refid="structshyft_1_1timeseries_1_1periodic__ts" kindref="compound">periodic_ts</ref>&gt;(pattern,<sp/>dt,pattern_t0,ta))<sp/>{}</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="classshyft_1_1api_1_1apoint__ts_1a92b75e49a3a85091455db60ca1b19c83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(<ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;&amp;<sp/>ta,std::vector&lt;double&gt;&amp;&amp;<sp/>values,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(std::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(std::move(ta),std::move(values),point_fx))<sp/>{</highlight></codeline>
+<codeline lineno="96" refid="classshyft_1_1api_1_1apoint__ts_1a92b75e49a3a85091455db60ca1b19c83" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(<ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;&amp;<sp/>ta,std::vector&lt;double&gt;&amp;&amp;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(<ref refid="namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(<ref refid="namespacestd" kindref="compound">std</ref>::move(ta),<ref refid="namespacestd" kindref="compound">std</ref>::move(<ref refid="classshyft_1_1api_1_1apoint__ts_1a6604b9fcee0a2fb2fed3e5d8c64cd9cd" kindref="member">values</ref>),point_fx))<sp/>{</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="99" refid="classshyft_1_1api_1_1apoint__ts_1abdc4d25a069da1e86abe8157fa22667b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts::apoint_ts</ref>(<ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>&amp;&amp;<sp/>ta,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fill_value,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/>point_fx)</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(std::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(std::move(ta),fill_value,point_fx))</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:ts(<ref refid="namespacestd" kindref="compound">std</ref>::make_shared&lt;<ref refid="structshyft_1_1api_1_1gpoint__ts" kindref="compound">gpoint_ts</ref>&gt;(<ref refid="namespacestd" kindref="compound">std</ref>::move(ta),fill_value,point_fx))</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="103" refid="classshyft_1_1api_1_1apoint__ts_1a9046821addede16a7673dad85b3bc500" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a9046821addede16a7673dad85b3bc500" kindref="member">apoint_ts::average</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref><sp/>&amp;ta)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103" refid="classshyft_1_1api_1_1apoint__ts_1a05ad94f417cac477dbf0642ba0b5c67a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a05ad94f417cac477dbf0642ba0b5c67a" kindref="member">apoint_ts::average</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref><sp/>&amp;ta)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a1cc1269af51a9ab1043b7c5f907d7536" kindref="member">shyft::api::average</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,ta);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="106" refid="classshyft_1_1api_1_1apoint__ts_1a9fab2440c23d4af2130ac22e960ced8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a9fab2440c23d4af2130ac22e960ced8f" kindref="member">apoint_ts::accumulate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref><sp/>&amp;ta)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106" refid="classshyft_1_1api_1_1apoint__ts_1a8d114fd1cc45cec251cf1c9c0c997cfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a8d114fd1cc45cec251cf1c9c0c997cfa" kindref="member">apoint_ts::accumulate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref><sp/>&amp;ta)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1abc8be68c104b8ce6fde4b68f4c8a1724" kindref="member">shyft::api::accumulate</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>ta);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="109" refid="classshyft_1_1api_1_1apoint__ts_1ace12264611d4ad5b00fa7da31c6049d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1ace12264611d4ad5b00fa7da31c6049d7" kindref="member">apoint_ts::time_shift</ref>(<ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109" refid="classshyft_1_1api_1_1apoint__ts_1a13996a8b4351243c91d499db6c916981" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a13996a8b4351243c91d499db6c916981" kindref="member">apoint_ts::time_shift</ref>(<ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a5fbb4f0820000cf99c149979589106f6" kindref="member">shyft::api::time_shift</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>dt);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="113" refid="classshyft_1_1api_1_1apoint__ts_1a4e6463ddcdcc56ad064306c0b2a353be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;apoint_ts&gt;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a4e6463ddcdcc56ad064306c0b2a353be" kindref="member">apoint_ts::partition_by</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref>&amp;<sp/>cal,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>partition_interval,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n_partitions,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>common_t0)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="classshyft_1_1api_1_1apoint__ts_1afacae23e5128139f1aa11742a3fedf48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;apoint_ts&gt;<sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1afacae23e5128139f1aa11742a3fedf48" kindref="member">apoint_ts::partition_by</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref>&amp;<sp/>cal,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>partition_interval,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n_partitions,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>common_t0)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>some<sp/>very<sp/>rudimentary<sp/>argument<sp/>checks:</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(n_partitions<sp/>&lt;<sp/>1)</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;n_partitions<sp/>should<sp/>be<sp/>&gt;<sp/>0&quot;</highlight><highlight class="normal">);</highlight></codeline>
@@ -336,7 +351,7 @@
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gpts-&gt;<ref refid="structshyft_1_1api_1_1gpoint__ts_1ad7606fce4a23935b3bae8777f1285ff4" kindref="member">scale_by</ref>(x);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="classshyft_1_1api_1_1apoint__ts_1af909198be3e60df5259545c71c7bec24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1af909198be3e60df5259545c71c7bec24" kindref="member">apoint_ts::operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144" refid="classshyft_1_1api_1_1apoint__ts_1a32e0d6197f96167e6fc4a105ff8e1de8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a32e0d6197f96167e6fc4a105ff8e1de8" kindref="member">apoint_ts::operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ts.get()<sp/>==<sp/>other.ts.get())<sp/></highlight><highlight class="comment">//<sp/>equal<sp/>by<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>time-consuming<sp/>part,<sp/>equal<sp/>by<sp/>value</highlight><highlight class="normal"></highlight></codeline>
@@ -355,14 +370,14 @@
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="classshyft_1_1api_1_1apoint__ts_1ab4bcb9f635cee218caafdf7aa7b530bd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1ab4bcb9f635cee218caafdf7aa7b530bd" kindref="member">apoint_ts::max</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a81c1836a5ac9b48f80e21d4c7442b980" kindref="member">shyft::api::max</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,a);}</highlight></codeline>
-<codeline lineno="164" refid="classshyft_1_1api_1_1apoint__ts_1a176700b82a94f4e40c14036931024a29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a176700b82a94f4e40c14036931024a29" kindref="member">apoint_ts::min</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">shyft::api::min</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,a);}</highlight></codeline>
+<codeline lineno="163" refid="classshyft_1_1api_1_1apoint__ts_1af669d4d36489e93a6cf087c42a0484cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1af669d4d36489e93a6cf087c42a0484cc" kindref="member">apoint_ts::max</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a81c1836a5ac9b48f80e21d4c7442b980" kindref="member">shyft::api::max</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,a);}</highlight></codeline>
+<codeline lineno="164" refid="classshyft_1_1api_1_1apoint__ts_1add6489f610ac044fa874f420baa71221" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1add6489f610ac044fa874f420baa71221" kindref="member">apoint_ts::min</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">shyft::api::min</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,a);}</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="classshyft_1_1api_1_1apoint__ts_1aa084accdf65c6c7d8e04499bcc22fcc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1ab4bcb9f635cee218caafdf7aa7b530bd" kindref="member">apoint_ts::max</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a81c1836a5ac9b48f80e21d4c7442b980" kindref="member">shyft::api::max</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,other);}</highlight></codeline>
-<codeline lineno="167" refid="classshyft_1_1api_1_1apoint__ts_1a90f9f288bf548f10e686b4a16aaa413c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a176700b82a94f4e40c14036931024a29" kindref="member">apoint_ts::min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">shyft::api::min</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,other);}</highlight></codeline>
+<codeline lineno="166" refid="classshyft_1_1api_1_1apoint__ts_1a5d28a21c217fd4cea5460f8491af1efa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1af669d4d36489e93a6cf087c42a0484cc" kindref="member">apoint_ts::max</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a81c1836a5ac9b48f80e21d4c7442b980" kindref="member">shyft::api::max</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,other);}</highlight></codeline>
+<codeline lineno="167" refid="classshyft_1_1api_1_1apoint__ts_1a4ccf01011f3bfee8ddd7a7468cb749fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1add6489f610ac044fa874f420baa71221" kindref="member">apoint_ts::min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>other)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">shyft::api::min</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,other);}</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="classshyft_1_1api_1_1apoint__ts_1a75aa1a24e768e19abf62aa168512712b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1ab4bcb9f635cee218caafdf7aa7b530bd" kindref="member">apoint_ts::max</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/>&amp;a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;b){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a81c1836a5ac9b48f80e21d4c7442b980" kindref="member">shyft::api::max</ref>(a,b);}</highlight></codeline>
-<codeline lineno="170" refid="classshyft_1_1api_1_1apoint__ts_1ad3fea43125a477a0c68252ce07c8db4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a176700b82a94f4e40c14036931024a29" kindref="member">apoint_ts::min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/>&amp;a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;b){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">shyft::api::min</ref>(a,b);}</highlight></codeline>
+<codeline lineno="169" refid="classshyft_1_1api_1_1apoint__ts_1a75aa1a24e768e19abf62aa168512712b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1af669d4d36489e93a6cf087c42a0484cc" kindref="member">apoint_ts::max</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/>&amp;a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;b){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1a81c1836a5ac9b48f80e21d4c7442b980" kindref="member">shyft::api::max</ref>(a,b);}</highlight></codeline>
+<codeline lineno="170" refid="classshyft_1_1api_1_1apoint__ts_1ad3fea43125a477a0c68252ce07c8db4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1add6489f610ac044fa874f420baa71221" kindref="member">apoint_ts::min</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/>&amp;a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;b){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ae42ecf9cbd590fe15303d1bc36c3ae75" kindref="member">shyft::api::min</ref>(a,b);}</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
 <codeline lineno="172" refid="namespaceshyft_1_1api_1ace68f18daf5cc4554b4d6666a14307f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;apoint_ts&gt;<sp/><ref refid="namespaceshyft_1_1api_1ace68f18daf5cc4554b4d6666a14307f2" kindref="member">percentiles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;apoint_ts&gt;&amp;<sp/>ts_list,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref>&amp;<sp/>ta,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>percentile_list)<sp/>{</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;apoint_ts&gt;<sp/>r;r.reserve(percentile_list.size());</highlight></codeline>
@@ -375,10 +390,10 @@
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1ace68f18daf5cc4554b4d6666a14307f2" kindref="member">percentiles</ref>(ts_list,<ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">time_axis::generic_dt</ref>(ta),percentile_list);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="structshyft_1_1api_1_1abin__op__ts_1a5e9be21cc53de6e583d87da536be1843" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1a5e9be21cc53de6e583d87da536be1843" kindref="member">abin_op_ts::value</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i==std::string::npos<sp/>||<sp/>i&gt;=<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a61633063c5efb31b6fcd6b4748efb46a" kindref="member">size</ref>()<sp/>)</highlight></codeline>
+<codeline lineno="183" refid="structshyft_1_1api_1_1abin__op__ts_1af6b407bf0d20fdefdc3bfe37961cf5c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1af6b407bf0d20fdefdc3bfe37961cf5c3" kindref="member">abin_op_ts::value</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i==std::string::npos<sp/>||<sp/>i&gt;=ta.size()<sp/>)</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">nan</ref>;</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1abin__op__ts_1a29ec40b3cce1ff2da668399f9ed57afa" kindref="member">value_at</ref>(<ref refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" kindref="member">ta</ref>.<ref refid="structshyft_1_1time__axis_1_1generic__dt_1a2b8f83a37ad30534bd8c3a8866a87b8f" kindref="member">time</ref>(i));</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>value_at(ta.time(i));</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hmm!<sp/>here<sp/>we<sp/>have<sp/>to<sp/>define<sp/>what<sp/>value(i)<sp/>means</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>..<sp/>we<sp/>could<sp/>define<sp/>it<sp/>as</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>the<sp/>value<sp/>at<sp/>the<sp/>beginning<sp/>of<sp/>the<sp/>i&apos;th<sp/>period</highlight><highlight class="normal"></highlight></codeline>
@@ -394,8 +409,8 @@
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if(isfinite(v1))<sp/>return<sp/>0.5*(v0<sp/>+<sp/>v1);</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//return<sp/>v0;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="202" refid="namespaceshyft_1_1api_1a5fbb4f0820000cf99c149979589106f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="namespaceshyft_1_1api_1a5fbb4f0820000cf99c149979589106f6" kindref="member">time_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>ts,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt)<sp/>{</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>(<sp/>std::make_shared&lt;shyft::api::time_shift_ts&gt;(ts,dt));</highlight></codeline>
+<codeline lineno="202" refid="namespaceshyft_1_1api_1a5fbb4f0820000cf99c149979589106f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a13996a8b4351243c91d499db6c916981" kindref="member">time_shift</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>ts,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt)<sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts</ref>(<sp/>std::make_shared&lt;shyft::api::time_shift_ts&gt;(ts,dt));</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
 <codeline lineno="206" refid="namespaceshyft_1_1api_1adfcf8885fc2a933b20d3defc8321b5e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1api_1adfcf8885fc2a933b20d3defc8321b5e1" kindref="member">nash_sutcliffe</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>observation_ts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>model_ts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref><sp/>&amp;ta)<sp/>{</highlight></codeline>
@@ -409,10 +424,57 @@
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1timeseries_1_1average__accessor" kindref="compound">average_accessor&lt;apoint_ts, gta_t&gt;</ref><sp/>m(model_ts,<sp/>ta);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1.0<sp/>-<sp/>shyft::timeseries::kling_gupta_goal_function&lt;dlib::running_scalar_covariance&lt;double&gt;&gt;(o,<sp/>m,<sp/>s_r,<sp/>s_a,<sp/>s_b);</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="219"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>glacier_melt_ts<sp/>as<sp/>apoint_ts<sp/>with<sp/>it&apos;s<sp/>internal<sp/>being<sp/>a<sp/>glacier_melt_ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="structshyft_1_1api_1_1aglacier__melt__ts" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>:<ref refid="structshyft_1_1api_1_1ipoint__ts" kindref="compound">ipoint_ts</ref><sp/>{</highlight></codeline>
+<codeline lineno="219" refid="structshyft_1_1api_1_1aglacier__melt__ts_1aa84330f14e864aeddcf6ac9e9dbaf484" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts" kindref="compound">glacier_melt_ts&lt;std::shared_ptr&lt;ipoint_ts&gt;</ref>&gt;<sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1aa84330f14e864aeddcf6ac9e9dbaf484" kindref="member">gm</ref>;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//--<sp/>default<sp/>stuff,<sp/>ct/copy<sp/>etc<sp/>goes<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="structshyft_1_1api_1_1aglacier__melt__ts_1ae84d00d57e81b9d79a5fadc8fc736798" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1ae84d00d57e81b9d79a5fadc8fc736798" kindref="member">aglacier_melt_ts</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="222" refid="structshyft_1_1api_1_1aglacier__melt__ts_1aef9b7f0d141053bdcbba9c8042a50b3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1aef9b7f0d141053bdcbba9c8042a50b3e" kindref="member">aglacier_melt_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>&amp;<sp/>c):gm(c.gm)<sp/>{}</highlight></codeline>
+<codeline lineno="223" refid="structshyft_1_1api_1_1aglacier__melt__ts_1ac6785963e64a1316266715fdc842082a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1ac6785963e64a1316266715fdc842082a" kindref="member">aglacier_melt_ts</ref>(<ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>&amp;&amp;c):gm(<ref refid="namespacestd" kindref="compound">std</ref>::move(c.gm))<sp/>{}</highlight></codeline>
+<codeline lineno="224" refid="structshyft_1_1api_1_1aglacier__melt__ts_1af033cf14a434941c013a1261a5c37adf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>&amp;<sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1af033cf14a434941c013a1261a5c37adf" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>&amp;<sp/>o)<sp/>{</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(</highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>!=<sp/>&amp;o)<sp/>{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gm=o.<ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1aa84330f14e864aeddcf6ac9e9dbaf484" kindref="member">gm</ref>;</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="structshyft_1_1api_1_1aglacier__melt__ts_1ab604759e561d2b0c2afa32c93bfd235b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>&amp;<sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1ab604759e561d2b0c2afa32c93bfd235b" kindref="member">operator=</ref>(<ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref>&amp;&amp;<sp/>o)<sp/>{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gm=<sp/>std::move(o.gm);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//--<sp/>useful<sp/>ct<sp/>goes<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a06872318384df38cf27cfa326e27bc00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a06872318384df38cf27cfa326e27bc00" kindref="member">aglacier_melt_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>temp,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>sca_m2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_area_m2,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dtf):</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gm(temp.ts,sca_m2.ts,glacier_area_m2,dtf)</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//aglacier_melt_ts(apoint_ts&amp;&amp;<sp/>ats,<sp/>utctimespan<sp/>dt):ts(std::move(ats.ts)),ta(time_axis::time_shift(ats.time_axis(),dt)),dt(dt)<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//aglacier_melt_ts(const<sp/>std::shared_ptr&lt;ipoint_ts&gt;<sp/>&amp;ts,<sp/>utctime<sp/>dt<sp/>):ts(ts),ta(time_axis::time_shift(ts-&gt;time_axis(),dt)),dt(dt){}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>implement<sp/>ipoint_ts<sp/>contract:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7c0a0aa20ed7136fd4f1eb9280fdcd48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7c0a0aa20ed7136fd4f1eb9280fdcd48" kindref="member">point_interpretation</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a963fdefcd91001ee744622f098cef2ee" kindref="member">fx_policy</ref>;}</highlight></codeline>
+<codeline lineno="246" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a976601242320f5b7a2e3ca99fd65c95d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a976601242320f5b7a2e3ca99fd65c95d" kindref="member">set_point_interpretation</ref>(<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a6679e02699f441e2ce6bf812c9896a1d" kindref="member">point_interpretation</ref>)<sp/>{gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a963fdefcd91001ee744622f098cef2ee" kindref="member">fx_policy</ref>=<ref refid="classshyft_1_1api_1_1apoint__ts_1a6679e02699f441e2ce6bf812c9896a1d" kindref="member">point_interpretation</ref>;}</highlight></codeline>
+<codeline lineno="247" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1generic__dt" kindref="compound">gta_t</ref>&amp;<sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" kindref="member">time_axis</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" kindref="member">time_axis</ref>();}</highlight></codeline>
+<codeline lineno="248" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6a16d464e080dfbf3262d71fe327d5ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6a16d464e080dfbf3262d71fe327d5ca" kindref="member">total_period</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" kindref="member">time_axis</ref>().total_period();}</highlight></codeline>
+<codeline lineno="249" refid="structshyft_1_1api_1_1aglacier__melt__ts_1ae532e5c44638fb125bbbbfe256d4561c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1ae532e5c44638fb125bbbbfe256d4561c" kindref="member">index_of</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" kindref="member">time_axis</ref>().index_of(t);}</highlight></codeline>
+<codeline lineno="250" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a8e67951b4418ce2593573a9d60e09579" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a8e67951b4418ce2593573a9d60e09579" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" kindref="member">time_axis</ref>().size();}</highlight></codeline>
+<codeline lineno="251" refid="structshyft_1_1api_1_1aglacier__melt__ts_1acbcbfbe3abbaa96f4f599f9e550e0698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1acbcbfbe3abbaa96f4f599f9e550e0698" kindref="member">time</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" kindref="member">time_axis</ref>().time(i);};</highlight></codeline>
+<codeline lineno="252" refid="structshyft_1_1api_1_1aglacier__melt__ts_1ac97d6a2f686e4ffbd9ccb05d1a5c80c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1ac97d6a2f686e4ffbd9ccb05d1a5c80c1" kindref="member">value</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1af5a0812e29aee26d5797b6676911706f" kindref="member">value</ref>(i);}</highlight></codeline>
+<codeline lineno="253" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a429297b795c3148d579d107b684b93dd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a429297b795c3148d579d107b684b93dd" kindref="member">value_at</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm(t);}</highlight></codeline>
+<codeline lineno="254" refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6265a9008181c4630eeb4aea859c08ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;<sp/><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6265a9008181c4630eeb4aea859c08ed" kindref="member">values</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;double&gt;<sp/>r;r.reserve(<ref refid="classshyft_1_1api_1_1apoint__ts_1ae7569073cd80e9ebf2502e72bc954a4f" kindref="member">size</ref>());</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i=0;i&lt;<ref refid="classshyft_1_1api_1_1apoint__ts_1ae7569073cd80e9ebf2502e72bc954a4f" kindref="member">size</ref>();++i)<sp/>r.push_back(<ref refid="classshyft_1_1api_1_1apoint__ts_1ac3f9b857cefe2eb564903b6243fc0467" kindref="member">value</ref>(i));</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="261" refid="namespaceshyft_1_1api_1ab3849290b4308e5a9d60604ce3b74bca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/><ref refid="namespaceshyft_1_1api_1ab3849290b4308e5a9d60604ce3b74bca" kindref="member">create_glacier_melt_ts_m3s</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref><sp/>&amp;<sp/>temp,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>&amp;<sp/>sca_m2,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_area_m2,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dtf)<sp/>{</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1api_1_1apoint__ts_1a971d195ec6f29ffcd6b7cdffe9edd941" kindref="member">apoint_ts</ref>(make_shared&lt;aglacier_melt_ts&gt;(temp,sca_m2,glacier_area_m2,dtf));</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.cpp"/>
+    <location file="/home/sih/projects/shyft/api/timeseries.cpp"/>
   </compounddef>
 </doxygen>

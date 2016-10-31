@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1api_1_1aglacier__melt__ts" kind="struct" language="C++" prot="public">
+    <compoundname>shyft::api::aglacier_melt_ts</compoundname>
+    <basecompoundref refid="structshyft_1_1api_1_1ipoint__ts" prot="public" virt="non-virtual">shyft::api::ipoint_ts</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshyft_1_1api_1_1aglacier__melt__ts_1aa84330f14e864aeddcf6ac9e9dbaf484" prot="public" static="no" mutable="no">
+        <type><ref refid="structshyft_1_1timeseries_1_1glacier__melt__ts" kindref="compound">glacier_melt_ts</ref>&lt; std::shared_ptr&lt; <ref refid="structshyft_1_1api_1_1ipoint__ts" kindref="compound">ipoint_ts</ref> &gt; &gt;</type>
+        <definition>glacier_melt_ts&lt;std::shared_ptr&lt;ipoint_ts&gt; &gt; shyft::api::aglacier_melt_ts::gm</definition>
+        <argsstring></argsstring>
+        <name>gm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="219" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="219" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1api_1_1aglacier__melt__ts_1af033cf14a434941c013a1261a5c37adf" compoundref="timeseries_8cpp" startline="224" endline="229">operator=</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1ae84d00d57e81b9d79a5fadc8fc736798" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::aglacier_melt_ts::aglacier_melt_ts</definition>
+        <argsstring>()</argsstring>
+        <name>aglacier_melt_ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="221" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1aef9b7f0d141053bdcbba9c8042a50b3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::aglacier_melt_ts::aglacier_melt_ts</definition>
+        <argsstring>(const aglacier_melt_ts &amp;c)</argsstring>
+        <name>aglacier_melt_ts</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="222" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="222" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1ac6785963e64a1316266715fdc842082a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::aglacier_melt_ts::aglacier_melt_ts</definition>
+        <argsstring>(aglacier_melt_ts &amp;&amp;c)</argsstring>
+        <name>aglacier_melt_ts</name>
+        <param>
+          <type><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref> &amp;&amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="223" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="223" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1af033cf14a434941c013a1261a5c37adf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref> &amp;</type>
+        <definition>aglacier_melt_ts&amp; shyft::api::aglacier_melt_ts::operator=</definition>
+        <argsstring>(const aglacier_melt_ts &amp;o)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref> &amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="224" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="224" bodyend="229"/>
+        <references refid="structshyft_1_1api_1_1aglacier__melt__ts_1aa84330f14e864aeddcf6ac9e9dbaf484" compoundref="timeseries_8cpp" startline="219">gm</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1ab604759e561d2b0c2afa32c93bfd235b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref> &amp;</type>
+        <definition>aglacier_melt_ts&amp; shyft::api::aglacier_melt_ts::operator=</definition>
+        <argsstring>(aglacier_melt_ts &amp;&amp;o)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="structshyft_1_1api_1_1aglacier__melt__ts" kindref="compound">aglacier_melt_ts</ref> &amp;&amp;</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="231" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a06872318384df38cf27cfa326e27bc00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::aglacier_melt_ts::aglacier_melt_ts</definition>
+        <argsstring>(const apoint_ts &amp;temp, const apoint_ts &amp;sca_m2, double glacier_area_m2, double dtf)</argsstring>
+        <name>aglacier_melt_ts</name>
+        <param>
+          <type>const <ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
+          <declname>temp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
+          <declname>sca_m2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>glacier_area_m2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dtf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="237" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="237" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a7c0a0aa20ed7136fd4f1eb9280fdcd48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+        <definition>virtual point_interpretation_policy shyft::api::aglacier_melt_ts::point_interpretation</definition>
+        <argsstring>() const</argsstring>
+        <name>point_interpretation</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a1e99c537a6a68f73be9f25255f6a355c">point_interpretation</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="245" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="245" bodyend="245"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a963fdefcd91001ee744622f098cef2ee" compoundref="core_2timeseries_8h" startline="656">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::fx_policy</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a976601242320f5b7a2e3ca99fd65c95d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void shyft::api::aglacier_melt_ts::set_point_interpretation</definition>
+        <argsstring>(point_interpretation_policy point_interpretation)</argsstring>
+        <name>set_point_interpretation</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a6d49d01ce27a83666e593bcc66adfaee">set_point_interpretation</reimplements>
+        <param>
+          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <declname>point_interpretation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="246" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="246" bodyend="246"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a963fdefcd91001ee744622f098cef2ee" compoundref="core_2timeseries_8h" startline="656">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::fx_policy</references>
+        <references refid="classshyft_1_1api_1_1apoint__ts_1a6679e02699f441e2ce6bf812c9896a1d" compoundref="api_2timeseries_8h" startline="172" endline="172">shyft::api::apoint_ts::point_interpretation</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;</type>
+        <definition>virtual const gta_t&amp; shyft::api::aglacier_melt_ts::time_axis</definition>
+        <argsstring>() const</argsstring>
+        <name>time_axis</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1afb16e128a38959662bbc3820294f0c06">time_axis</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Returns the effective time-axis of the timeseries </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="247" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="247" bodyend="247"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" compoundref="core_2timeseries_8h" startline="657" endline="657">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::time_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a6a16d464e080dfbf3262d71fe327d5ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
+        <definition>virtual utcperiod shyft::api::aglacier_melt_ts::total_period</definition>
+        <argsstring>() const</argsstring>
+        <name>total_period</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1ab986ad85dc3d25f2e431baef0d9bd3fc">total_period</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the total period of <ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" kindref="member">time_axis()</ref>, same as <ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" kindref="member">time_axis()</ref>.<ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6a16d464e080dfbf3262d71fe327d5ca" kindref="member">total_period()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="248" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="248" bodyend="248"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" compoundref="core_2timeseries_8h" startline="657" endline="657">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::time_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1ae532e5c44638fb125bbbbfe256d4561c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t shyft::api::aglacier_melt_ts::index_of</definition>
+        <argsstring>(utctime t) const</argsstring>
+        <name>index_of</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a912b5be3301a927a418488fbbe13cf61">index_of</reimplements>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>we might want index_of(t,ix-hint..) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the index_of(utctime t), using <ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" kindref="member">time_axis()</ref>.index_of(t) <ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="249" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="249" bodyend="249"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" compoundref="core_2timeseries_8h" startline="657" endline="657">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::time_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a8e67951b4418ce2593573a9d60e09579" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t shyft::api::aglacier_melt_ts::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a976e2bd9388c72a33e2b964acb982062">size</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of points that descr. y=f(t) on t ::= period </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="250" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="250" bodyend="250"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" compoundref="core_2timeseries_8h" startline="657" endline="657">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::time_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1acbcbfbe3abbaa96f4f599f9e550e0698" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+        <definition>virtual utctime shyft::api::aglacier_melt_ts::time</definition>
+        <argsstring>(size_t i) const</argsstring>
+        <name>time</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a7a6d0519013084d48737bd8f0e430890">time</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" kindref="member">time_axis()</ref>.time(i), the start of the i&apos;th period in the time-axis </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="251" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="251" bodyend="251"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a898a6f0cc7c29f8e41c5cd2ef0c069d1" compoundref="core_2timeseries_8h" startline="657" endline="657">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::time_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1ac97d6a2f686e4ffbd9ccb05d1a5c80c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double shyft::api::aglacier_melt_ts::value</definition>
+        <argsstring>(size_t i) const</argsstring>
+        <name>value</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1ab881d7e5507176fc6f1d6666b2e9f25b">value</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the value at the i&apos;th period of the time-axis </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="252" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="252" bodyend="252"/>
+        <references refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1af5a0812e29aee26d5797b6676911706f" compoundref="core_2timeseries_8h" startline="677" endline="685">shyft::timeseries::glacier_melt_ts&lt; TS_A, TS_B &gt;::value</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a429297b795c3148d579d107b684b93dd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double shyft::api::aglacier_melt_ts::value_at</definition>
+        <argsstring>(utctime t) const</argsstring>
+        <name>value_at</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a52c43342e8d5a00f725eb453465c4d24">value_at</reimplements>
+        <param>
+          <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the f(t) at the specified time t, </para></simplesect>
+<simplesect kind="note"><para>if t outside <ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6a16d464e080dfbf3262d71fe327d5ca" kindref="member">total_period()</ref> nan is returned </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="253" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1aglacier__melt__ts_1a6265a9008181c4630eeb4aea859c08ed" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>virtual std::vector&lt;double&gt; shyft::api::aglacier_melt_ts::values</definition>
+        <argsstring>() const</argsstring>
+        <name>values</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1ae2ad4ba275ffaceb55116293e30811f1">values</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the values, one for each of the <ref refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" kindref="member">time_axis()</ref> intervals as a vector </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="254" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="254" bodyend="258"/>
+        <references refid="classshyft_1_1api_1_1apoint__ts_1ae7569073cd80e9ebf2502e72bc954a4f" compoundref="api_2timeseries_8h" startline="177" endline="177">shyft::api::apoint_ts::size</references>
+        <references refid="classshyft_1_1api_1_1apoint__ts_1ac3f9b857cefe2eb564903b6243fc0467" compoundref="api_2timeseries_8h" startline="179" endline="179">shyft::api::apoint_ts::value</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>shyft::api::aglacier_melt_ts</label>
+        <link refid="structshyft_1_1api_1_1aglacier__melt__ts"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>shyft::api::ipoint_ts</label>
+        <link refid="structshyft_1_1api_1_1ipoint__ts"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="50">
+        <label>shyft::api::aglacier_melt_ts</label>
+        <link refid="structshyft_1_1api_1_1aglacier__melt__ts"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>gm</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>shyft::timeseries::glacier_melt_ts&lt; std::shared_ptr&lt; shyft::api::ipoint_ts &gt; &gt;</label>
+        <link refid="structshyft_1_1timeseries_1_1glacier__melt__ts"/>
+      </node>
+      <node id="51">
+        <label>shyft::api::ipoint_ts</label>
+        <link refid="structshyft_1_1api_1_1ipoint__ts"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/sih/projects/shyft/api/timeseries.cpp" line="218" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="218" bodyend="260"/>
+    <listofallmembers>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1ae84d00d57e81b9d79a5fadc8fc736798" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>aglacier_melt_ts</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1aef9b7f0d141053bdcbba9c8042a50b3e" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>aglacier_melt_ts</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1ac6785963e64a1316266715fdc842082a" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>aglacier_melt_ts</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a06872318384df38cf27cfa326e27bc00" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>aglacier_melt_ts</name></member>
+      <member refid="structshyft_1_1api_1_1ipoint__ts_1afdbe4aad3e9a8d149d235c9efd8867e6" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>get</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1aa84330f14e864aeddcf6ac9e9dbaf484" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>gm</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1ae532e5c44638fb125bbbbfe256d4561c" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>index_of</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1af033cf14a434941c013a1261a5c37adf" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1ab604759e561d2b0c2afa32c93bfd235b" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>operator=</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7c0a0aa20ed7136fd4f1eb9280fdcd48" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>point_interpretation</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a976601242320f5b7a2e3ca99fd65c95d" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>set_point_interpretation</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a8e67951b4418ce2593573a9d60e09579" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>size</name></member>
+      <member refid="structshyft_1_1api_1_1ipoint__ts_1aadddb7f801c2a9dc3b819665a5521d9b" prot="public" virt="non-virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>ta_t</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1acbcbfbe3abbaa96f4f599f9e550e0698" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>time</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a7b8d519b34244023d3f88d988fe8f54a" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>time_axis</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6a16d464e080dfbf3262d71fe327d5ca" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>total_period</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1ac97d6a2f686e4ffbd9ccb05d1a5c80c1" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>value</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a429297b795c3148d579d107b684b93dd" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>value_at</name></member>
+      <member refid="structshyft_1_1api_1_1aglacier__melt__ts_1a6265a9008181c4630eeb4aea859c08ed" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>values</name></member>
+      <member refid="structshyft_1_1api_1_1ipoint__ts_1a223c013c82a80b458e97666f7da03ec7" prot="public" virt="virtual"><scope>shyft::api::aglacier_melt_ts</scope><name>~ipoint_ts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

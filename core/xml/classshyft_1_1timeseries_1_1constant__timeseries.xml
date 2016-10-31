@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="classshyft_1_1timeseries_1_1constant__timeseries" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classshyft_1_1timeseries_1_1constant__timeseries" kind="class" language="C++" prot="public">
     <compoundname>shyft::timeseries::constant_timeseries</compoundname>
     <includes refid="core_2timeseries_8h" local="no">timeseries.h</includes>
     <templateparamlist>
@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="736" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="736" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="965" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="965" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classshyft_1_1timeseries_1_1constant__timeseries_1a49e1cb0b46faf718cc1caf7155aa4b23" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="737" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="737" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="966" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="966" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="739" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="739" bodyend="739"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="968" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="968" bodyend="968"/>
       </memberdef>
       <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a950c0de3f6d9df311dd6d2e02f33e4b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -71,12 +71,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="740" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="740" bodyend="740"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="969" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="969" bodyend="969"/>
       </memberdef>
-      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1acd8b67af791fe04d30c6c7b5121bb66c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a0ec0ac67cb4c7cd05c7be192f946e68c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1timeseries_1_1point" kindref="compound">point</ref></type>
         <definition>point shyft::timeseries::constant_timeseries&lt; TA &gt;::get</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>get</name>
         <param>
           <type>size_t</type>
@@ -88,12 +88,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="742" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="742" bodyend="742"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="971" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="971" bodyend="971"/>
       </memberdef>
-      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a38a0d0a0fb27deab1477ce56bc30ee94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a26f65d5a46aeeba4b5ccb1ecca79c0bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::timeseries::constant_timeseries&lt; TA &gt;::index_of</definition>
-        <argsstring>(const utctime tx) const </argsstring>
+        <argsstring>(const utctime tx) const</argsstring>
         <name>index_of</name>
         <param>
           <type>const <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
@@ -105,12 +105,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="743" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="743" bodyend="743"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="972" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="972" bodyend="972"/>
       </memberdef>
-      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a8f4c4f8b1faeabeab7db488a15b256f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a59e792049888c7c60d8f2f98c1593d53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::timeseries::constant_timeseries&lt; TA &gt;::size</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>size</name>
         <briefdescription>
         </briefdescription>
@@ -118,12 +118,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="744" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="744" bodyend="744"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="973" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="973" bodyend="973"/>
       </memberdef>
-      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a1d3b22fdbfcfa04d532757aa6b21d4e9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a8f0661673718ca1188d0d8cfb796aef5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double shyft::timeseries::constant_timeseries&lt; TA &gt;::value</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>value</name>
         <param>
           <type>size_t</type>
@@ -135,7 +135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="746" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="746" bodyend="746"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="975" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="975" bodyend="975"/>
       </memberdef>
       <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a7c15d4b141d268d066dd4620098e83bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -152,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="747" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="747" bodyend="747"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="976" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="976" bodyend="976"/>
       </memberdef>
       <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a3e2bd6d9bf856b2297d362ee9c29cc44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -177,12 +177,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="748" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="748" bodyend="748"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="977" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="977" bodyend="977"/>
       </memberdef>
-      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a8400655708e6b8cf9929e98d827c24b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1a1c383b316bcfaa7804c229cc05efbe44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
         <definition>point_interpretation_policy shyft::timeseries::constant_timeseries&lt; TA &gt;::point_interpretation</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>point_interpretation</name>
         <briefdescription>
         </briefdescription>
@@ -190,8 +190,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="749" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="749" bodyend="749"/>
-        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="61">shyft::timeseries::POINT_AVERAGE_VALUE</references>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="978" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="978" bodyend="978"/>
+        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="62">shyft::timeseries::POINT_AVERAGE_VALUE</references>
       </memberdef>
       <memberdef kind="function" id="classshyft_1_1timeseries_1_1constant__timeseries_1afdc40079cd6a27b2cd958a615c69acf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="750" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="750" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="979" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="979" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -223,20 +223,20 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="735" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="735" bodyend="751"/>
+    <location file="/home/sih/projects/shyft/core/timeseries.h" line="964" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="964" bodyend="980"/>
     <listofallmembers>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a3a2e413657515a56b5394ba8a0adf11e" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>constant_timeseries</name></member>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a950c0de3f6d9df311dd6d2e02f33e4b2" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>constant_timeseries</name></member>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a49e1cb0b46faf718cc1caf7155aa4b23" prot="private" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>cvalue</name></member>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a7c15d4b141d268d066dd4620098e83bc" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>fill</name></member>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a3e2bd6d9bf856b2297d362ee9c29cc44" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>fill_range</name></member>
-      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1acd8b67af791fe04d30c6c7b5121bb66c" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>get</name></member>
-      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a38a0d0a0fb27deab1477ce56bc30ee94" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>index_of</name></member>
-      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a8400655708e6b8cf9929e98d827c24b0" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>point_interpretation</name></member>
+      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a0ec0ac67cb4c7cd05c7be192f946e68c" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>get</name></member>
+      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a26f65d5a46aeeba4b5ccb1ecca79c0bd" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>index_of</name></member>
+      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a1c383b316bcfaa7804c229cc05efbe44" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>point_interpretation</name></member>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1afdc40079cd6a27b2cd958a615c69acf1" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>set_point_interpretation</name></member>
-      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a8f4c4f8b1faeabeab7db488a15b256f0" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>size</name></member>
+      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a59e792049888c7c60d8f2f98c1593d53" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>size</name></member>
       <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1ac025a037be34b85481f258190b0b7668" prot="private" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>time_axis</name></member>
-      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a1d3b22fdbfcfa04d532757aa6b21d4e9" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>value</name></member>
+      <member refid="classshyft_1_1timeseries_1_1constant__timeseries_1a8f0661673718ca1188d0d8cfb796aef5" prot="public" virt="non-virtual"><scope>shyft::timeseries::constant_timeseries</scope><name>value</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

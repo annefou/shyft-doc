@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="namespaceshyft_1_1experimental_1_1repository" kind="namespace">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespaceshyft_1_1experimental_1_1repository" kind="namespace" language="C++">
     <compoundname>shyft::experimental::repository</compoundname>
     <innerclass refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository" prot="public">shyft::experimental::repository::cell_file_repository</innerclass>
-    <innerclass refid="structshyft_1_1experimental_1_1repository_1_1state__info" prot="public">shyft::experimental::repository::state_info</innerclass>
-    <innerclass refid="classshyft_1_1experimental_1_1repository_1_1state__file__repository" prot="public">shyft::experimental::repository::state_file_repository</innerclass>
     <innerclass refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository" prot="public">shyft::experimental::repository::geo_located_ts_file_repository</innerclass>
+    <innerclass refid="classshyft_1_1experimental_1_1repository_1_1state__file__repository" prot="public">shyft::experimental::repository::state_file_repository</innerclass>
+    <innerclass refid="structshyft_1_1experimental_1_1repository_1_1state__info" prot="public">shyft::experimental::repository::state_info</innerclass>
     <briefdescription>
 <para>the repository namespace have some simple classes that helps the orchestrator delegate io/config stuff. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp" line="77" column="1"/>
+    <location file="/home/sih/projects/shyft/core/experimental.cpp" line="77" column="1"/>
   </compounddef>
 </doxygen>

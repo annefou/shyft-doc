@@ -1,131 +1,131 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="utctime__utilities_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="utctime__utilities_8cpp" kind="file" language="C++">
     <compoundname>utctime_utilities.cpp</compoundname>
     <includes refid="core__pch_8h" local="yes">core_pch.h</includes>
     <includes refid="utctime__utilities_8h" local="yes">utctime_utilities.h</includes>
     <includes local="no">ostream</includes>
     <includes local="no">boost/date_time/local_time/local_time.hpp</includes>
     <incdepgraph>
-      <node id="2696">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp</label>
-        <link refid="utctime_utilities.cpp"/>
-        <childnode refid="2697" relation="include">
-        </childnode>
-        <childnode refid="2714" relation="include">
-        </childnode>
-        <childnode refid="2707" relation="include">
-        </childnode>
-        <childnode refid="2717" relation="include">
-        </childnode>
-      </node>
-      <node id="2706">
+      <node id="1431">
         <label>functional</label>
       </node>
-      <node id="2699">
+      <node id="1424">
         <label>limits</label>
       </node>
-      <node id="2714">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="2703" relation="include">
-        </childnode>
-        <childnode refid="2715" relation="include">
-        </childnode>
-        <childnode refid="2716" relation="include">
-        </childnode>
-        <childnode refid="2701" relation="include">
-        </childnode>
-        <childnode refid="2702" relation="include">
-        </childnode>
-        <childnode refid="2698" relation="include">
-        </childnode>
-      </node>
-      <node id="2716">
+      <node id="1441">
         <label>cmath</label>
       </node>
-      <node id="2711">
+      <node id="1436">
         <label>stdexcept</label>
       </node>
-      <node id="2703">
+      <node id="1428">
         <label>string</label>
       </node>
-      <node id="2702">
+      <node id="1427">
         <label>map</label>
       </node>
-      <node id="2707">
+      <node id="1432">
         <label>ostream</label>
       </node>
-      <node id="2712">
-        <label>random</label>
-      </node>
-      <node id="2713">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="2710">
-        <label>future</label>
-      </node>
-      <node id="2701">
-        <label>vector</label>
-      </node>
-      <node id="2717">
-        <label>boost/date_time/local_time/local_time.hpp</label>
-      </node>
-      <node id="2715">
-        <label>time.h</label>
-      </node>
-      <node id="2708">
-        <label>cerrno</label>
-      </node>
-      <node id="2700">
-        <label>cstddef</label>
-      </node>
-      <node id="2709">
-        <label>thread</label>
-      </node>
-      <node id="2697">
+      <node id="1422">
         <label>core_pch.h</label>
         <link refid="core__pch_8h"/>
-        <childnode refid="2698" relation="include">
+        <childnode refid="1423" relation="include">
         </childnode>
-        <childnode refid="2699" relation="include">
+        <childnode refid="1424" relation="include">
         </childnode>
-        <childnode refid="2700" relation="include">
+        <childnode refid="1425" relation="include">
         </childnode>
-        <childnode refid="2701" relation="include">
+        <childnode refid="1426" relation="include">
         </childnode>
-        <childnode refid="2702" relation="include">
+        <childnode refid="1427" relation="include">
         </childnode>
-        <childnode refid="2703" relation="include">
+        <childnode refid="1428" relation="include">
         </childnode>
-        <childnode refid="2704" relation="include">
+        <childnode refid="1429" relation="include">
         </childnode>
-        <childnode refid="2705" relation="include">
+        <childnode refid="1430" relation="include">
         </childnode>
-        <childnode refid="2706" relation="include">
+        <childnode refid="1431" relation="include">
         </childnode>
-        <childnode refid="2707" relation="include">
+        <childnode refid="1432" relation="include">
         </childnode>
-        <childnode refid="2708" relation="include">
+        <childnode refid="1433" relation="include">
         </childnode>
-        <childnode refid="2709" relation="include">
+        <childnode refid="1434" relation="include">
         </childnode>
-        <childnode refid="2710" relation="include">
+        <childnode refid="1435" relation="include">
         </childnode>
-        <childnode refid="2711" relation="include">
+        <childnode refid="1436" relation="include">
         </childnode>
-        <childnode refid="2712" relation="include">
+        <childnode refid="1437" relation="include">
         </childnode>
-        <childnode refid="2713" relation="include">
+        <childnode refid="1438" relation="include">
         </childnode>
       </node>
-      <node id="2705">
+      <node id="1439">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="1428" relation="include">
+        </childnode>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1423" relation="include">
+        </childnode>
+      </node>
+      <node id="1437">
+        <label>random</label>
+      </node>
+      <node id="1438">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="1435">
+        <label>future</label>
+      </node>
+      <node id="1426">
+        <label>vector</label>
+      </node>
+      <node id="1442">
+        <label>boost/date_time/local_time/local_time.hpp</label>
+      </node>
+      <node id="1440">
+        <label>time.h</label>
+      </node>
+      <node id="1433">
+        <label>cerrno</label>
+      </node>
+      <node id="1425">
+        <label>cstddef</label>
+      </node>
+      <node id="1434">
+        <label>thread</label>
+      </node>
+      <node id="1421">
+        <label>/home/sih/projects/shyft/core/utctime_utilities.cpp</label>
+        <link refid="utctime__utilities_8cpp"/>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+        <childnode refid="1432" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+      </node>
+      <node id="1430">
         <label>algorithm</label>
       </node>
-      <node id="2704">
+      <node id="1429">
         <label>cstring</label>
       </node>
-      <node id="2698">
+      <node id="1423">
         <label>memory</label>
       </node>
     </incdepgraph>
@@ -148,7 +148,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/date_time/local_time/local_time.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>python<sp/>exposure<sp/>needs<sp/>definition<sp/>here<sp/>(even<sp/>if&apos;s<sp/>a<sp/>constant)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a205e2ca8b6bd1fcf32ff6dd0ba3b56f6" kindref="member">calendar::YEAR</ref>;</highlight><highlight class="comment">//=365*24*3600L;</highlight><highlight class="normal"></highlight></codeline>
@@ -159,18 +159,18 @@
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a0ae2bdc312a85aa2f0bb6c7b8443d440" kindref="member">calendar::HOUR</ref>;</highlight><highlight class="comment">//<sp/>=<sp/>3600L;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1adbe8386cae8dc87f43d0fd9522cf4ef9" kindref="member">calendar::MINUTE</ref>;</highlight><highlight class="comment">//<sp/>=<sp/>60L;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a4d55408e1945e4beddc20012a1663cfe" kindref="member">calendar::SECOND</ref>;</highlight><highlight class="comment">//<sp/>=<sp/>1L;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
 <codeline lineno="19" refid="namespaceshyft_1_1core_1a4f4c05753c29f0bc05b3631823bfb48b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::ostream&amp;<sp/><ref refid="namespaceshyft_1_1core_1a4f4c05753c29f0bc05b3631823bfb48b" kindref="member">operator&lt;&lt;</ref>(std::ostream&amp;<sp/>os,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref>&amp;<sp/>p)<sp/>{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/>p.<ref refid="structshyft_1_1core_1_1utcperiod_1a7603e3070dd09aa61d50107d0df73787" kindref="member">to_string</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>os<sp/>&lt;&lt;<sp/>p.<ref refid="structshyft_1_1core_1_1utcperiod_1a2583b4934f8cff45f3f351a4a7f896bf" kindref="member">to_string</ref>();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>os;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="structshyft_1_1core_1_1utcperiod_1a7603e3070dd09aa61d50107d0df73787" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1utcperiod_1a7603e3070dd09aa61d50107d0df73787" kindref="member">utcperiod::to_string</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24" refid="structshyft_1_1core_1_1utcperiod_1a2583b4934f8cff45f3f351a4a7f896bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1utcperiod_1a2583b4934f8cff45f3f351a4a7f896bf" kindref="member">utcperiod::to_string</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1calendar" kindref="compound">calendar</ref><sp/>utc;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>utc.<ref refid="structshyft_1_1core_1_1calendar_1a55173a6a560179887b3ffae97965f138" kindref="member">to_string</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>utc.<ref refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" kindref="member">to_string</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="structshyft_1_1core_1_1calendar_1a55173a6a560179887b3ffae97965f138" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a55173a6a560179887b3ffae97965f138" kindref="member">calendar::to_string</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" kindref="member">calendar::to_string</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>s[100];</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(t)<sp/>{</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref>:sprintf(s,<sp/></highlight><highlight class="stringliteral">&quot;no_utctime&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
@@ -196,18 +196,18 @@
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string(s);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="structshyft_1_1core_1_1calendar_1ade463d1b19e6d0c7ac6d327f41a4f4d8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a55173a6a560179887b3ffae97965f138" kindref="member">calendar::to_string</ref>(<ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref><sp/>p)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(p.<ref refid="structshyft_1_1core_1_1utcperiod_1a282b815549304a12efaecceb12bebbdb" kindref="member">valid</ref>())<sp/>{</highlight></codeline>
+<codeline lineno="55" refid="structshyft_1_1core_1_1calendar_1ad959d3a372e36343fdb657e4eeb4d83b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" kindref="member">calendar::to_string</ref>(<ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref><sp/>p)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(p.<ref refid="structshyft_1_1core_1_1utcperiod_1a8be9de6439219bf8f166f5e08279dfb5" kindref="member">valid</ref>())<sp/>{</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string(</highlight><highlight class="stringliteral">&quot;[&quot;</highlight><highlight class="normal">)<sp/>+<sp/>to_string(p.<ref refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" kindref="member">start</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>+<sp/>to_string(p.<ref refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" kindref="member">end</ref>)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string(</highlight><highlight class="stringliteral">&quot;[not-valid-period&gt;&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="structshyft_1_1core_1_1calendar_1ae6fc27254ffb9ad5f6b2f0738f7f1cae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1ae6fc27254ffb9ad5f6b2f0738f7f1cae" kindref="member">calendar::time</ref>(<ref refid="structshyft_1_1core_1_1_y_m_dhms" kindref="compound">YMDhms</ref><sp/>c)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1acf7fcab8c166861b5b0dfbe7630d6a85" kindref="member">is_null</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref>;</highlight></codeline>
+<codeline lineno="62" refid="structshyft_1_1core_1_1calendar_1a90d79f56fa85fd9914b6b13f07e0612c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a90d79f56fa85fd9914b6b13f07e0612c" kindref="member">calendar::time</ref>(<ref refid="structshyft_1_1core_1_1_y_m_dhms" kindref="compound">YMDhms</ref><sp/>c)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1adfae50d228ef482e772e7e8658efb277" kindref="member">is_null</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref>;</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c==<ref refid="structshyft_1_1core_1_1_y_m_dhms_1aabde2dd1ec1ca1fb3f2f82166a47d2e7" kindref="member">YMDhms::max</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" kindref="member">max_utctime</ref>;</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(c==<ref refid="structshyft_1_1core_1_1_y_m_dhms_1a45df82c5146edd51794917c42329928d" kindref="member">YMDhms::min</ref>())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" kindref="member">min_utctime</ref>;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1a3fe35a27e6f2e4fa80b154b0a4ecf19b" kindref="member">is_valid_coordinates</ref>())</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1adfe1dab7d02d0cbd39af139512edb699" kindref="member">is_valid_coordinates</ref>())</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;Calendar.time<sp/>with<sp/>invalid<sp/>YMDhms<sp/>coordinates<sp/>attempted&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>r=<sp/>((int(day_number(c))<sp/>-<sp/>UnixDay)*DAY)<sp/>+<sp/>seconds(c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1af13f94d7d12ceae3a2bf6d4dcc19ccb1" kindref="member">hour</ref>,<sp/>c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1aecd9eb292f4c0a9ddf3b2304906bf1e2" kindref="member">minute</ref>,<sp/>c.<ref refid="structshyft_1_1core_1_1_y_m_dhms_1a6ba36a3414d5faa0fd63b2014d9f5ee0" kindref="member">second</ref>);</highlight></codeline>
@@ -216,7 +216,7 @@
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(utc_diff_1==utc_diff_2)?r-utc_diff_1:<sp/>r-utc_diff_2;</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="structshyft_1_1core_1_1calendar_1a3586efb8aa0ba0dd4e05ce8f59688daa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1_y_m_dhms" kindref="compound">YMDhms</ref><sp/><sp/><ref refid="structshyft_1_1core_1_1calendar_1a3586efb8aa0ba0dd4e05ce8f59688daa" kindref="member">calendar::calendar_units</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75" refid="structshyft_1_1core_1_1calendar_1a95722ed3008f3911698a762ab2d8fe1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1_y_m_dhms" kindref="compound">YMDhms</ref><sp/><sp/><ref refid="structshyft_1_1core_1_1calendar_1a95722ed3008f3911698a762ab2d8fe1c" kindref="member">calendar::calendar_units</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref>)<sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1_y_m_dhms" kindref="compound">YMDhms</ref>();</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" kindref="member">max_utctime</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1_y_m_dhms_1aabde2dd1ec1ca1fb3f2f82166a47d2e7" kindref="member">YMDhms::max</ref>();</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" kindref="member">min_utctime</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1_y_m_dhms_1a45df82c5146edd51794917c42329928d" kindref="member">YMDhms::min</ref>();</highlight></codeline>
@@ -236,7 +236,7 @@
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="structshyft_1_1core_1_1calendar_1a58a6bf55b65005aca0a4c8e889b4479a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a58a6bf55b65005aca0a4c8e889b4479a" kindref="member">calendar::day_of_week</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95" refid="structshyft_1_1core_1_1calendar_1abe3e8319a495b699ec87d6c28a026afd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1abe3e8319a495b699ec87d6c28a026afd" kindref="member">calendar::day_of_week</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" kindref="member">min_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" kindref="member">max_utctime</ref>)</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ymd<sp/>=<sp/>calendar_units(t);</highlight></codeline>
@@ -246,18 +246,18 @@
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>d<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">((ymd.day<sp/>+<sp/>y<sp/>+<sp/>(y<sp/>/<sp/>4)<sp/>-<sp/>(y<sp/>/<sp/>100)<sp/>+<sp/>(y<sp/>/<sp/>400)<sp/>+<sp/>(31<sp/>*<sp/>m)<sp/>/<sp/>12)<sp/>%<sp/>7);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>d;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="106" refid="structshyft_1_1core_1_1calendar_1aef13881a602103bc881cfc1a70c14741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1aef13881a602103bc881cfc1a70c14741" kindref="member">calendar::day_of_year</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106" refid="structshyft_1_1core_1_1calendar_1a906067342371aa235563587e28482a6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a906067342371aa235563587e28482a6a" kindref="member">calendar::day_of_year</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" kindref="member">max_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" kindref="member">min_utctime</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>x<sp/>=<sp/>calendar_units(t<sp/>);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1_y_m_dhms" kindref="compound">YMDhms</ref><sp/>y(x.year,<sp/>1,<sp/>1);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1<sp/>+<sp/>day_number(x)<sp/>-<sp/>day_number(y);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="113" refid="structshyft_1_1core_1_1calendar_1a428d52abcc42e144ba43e2d17b0f0437" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a428d52abcc42e144ba43e2d17b0f0437" kindref="member">calendar::month</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113" refid="structshyft_1_1core_1_1calendar_1a4000f864348a8955173b8debfda6a1da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a4000f864348a8955173b8debfda6a1da" kindref="member">calendar::month</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" kindref="member">max_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" kindref="member">min_utctime</ref>)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>calendar_units(t<sp/>).month;</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="structshyft_1_1core_1_1calendar_1ad1513965bdc0c71829ae884ad74d4162" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1ad1513965bdc0c71829ae884ad74d4162" kindref="member">calendar::trim</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>deltaT)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118" refid="structshyft_1_1core_1_1calendar_1a207bd4e9e692ad81a8880b114912174a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a207bd4e9e692ad81a8880b114912174a" kindref="member">calendar::trim</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>deltaT)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" kindref="member">min_utctime</ref><sp/>||<sp/>t<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" kindref="member">max_utctime</ref><sp/>||<sp/>deltaT==<ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref>(0))</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t;</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(deltaT)<sp/>{</highlight></codeline>
@@ -284,7 +284,7 @@
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>t<sp/>-<sp/>tz_info-&gt;utc_offset(t);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="structshyft_1_1core_1_1calendar_1ad84d09c13398c7144c829713c2cf8433" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1ad84d09c13398c7144c829713c2cf8433" kindref="member">calendar::add</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>deltaT,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>n)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145" refid="structshyft_1_1core_1_1calendar_1a912efc8ca82d8f2789594941b69fd80a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a912efc8ca82d8f2789594941b69fd80a" kindref="member">calendar::add</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>deltaT,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>n)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>dt=n*deltaT;</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(deltaT)<sp/>{</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>YEAR:<sp/>{</highlight></codeline>
@@ -321,7 +321,7 @@
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/>ret<sp/>r<sp/>+(<sp/>1h<sp/>-<sp/>2h),<sp/>eg.<sp/>sub<sp/>one<sp/>hour,<sp/>and<sp/>we<sp/>get<sp/>a<sp/>23h<sp/>day.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="structshyft_1_1core_1_1calendar_1a84f7fe175df24171454772ca53439c1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1a84f7fe175df24171454772ca53439c1c" kindref="member">calendar::diff_units</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t1,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t2,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>deltaT,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>&amp;remainder)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="182" refid="structshyft_1_1core_1_1calendar_1ab3519e1a8429ceb4454121814479e25b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1calendar_1ab3519e1a8429ceb4454121814479e25b" kindref="member">calendar::diff_units</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t1,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/>t2,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>deltaT,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>&amp;remainder)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(t1<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref><sp/>||<sp/>t2<sp/>==<sp/><ref refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" kindref="member">no_utctime</ref><sp/>||<sp/>deltaT<sp/>==<sp/>0L)<sp/>{</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remainder<sp/>=<sp/>0L;</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0L;</highlight></codeline>
@@ -332,10 +332,10 @@
 <codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>recall<sp/>that<sp/>this<sp/>should<sp/>give<sp/>n_unit=1,<sp/>remainder=0<sp/>for<sp/>dst<sp/>days<sp/>23h<sp/>|<sp/>25h<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>that<sp/>it<sp/>should<sp/>be<sp/>complementary<sp/>to<sp/>the<sp/>add(t,dt,n)<sp/>function.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(deltaT)<sp/>{</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1acd9f772b9c7209a5085c80d1010e67b5" kindref="member">calendar::MONTH</ref>:<sp/>n_units<sp/>-=<sp/>n_units/72;<sp/></highlight><highlight class="comment">//<sp/>MONTH<sp/>is<sp/>30<sp/>days,<sp/>a<sp/>real<sp/>one<sp/><sp/>is<sp/>~<sp/>30.41,<sp/>after<sp/>72<sp/>monts<sp/>this<sp/>adds<sp/>up<sp/>to<sp/>~<sp/>1<sp/>month<sp/>error</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a205e2ca8b6bd1fcf32ff6dd0ba3b56f6" kindref="member">calendar::YEAR</ref>:</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1af3811f81d07079145c5d405f9b434c80" kindref="member">calendar::WEEK</ref>:</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1calendar_1a1845092dc0ca5336cc32ead6c98820c7" kindref="member">calendar::DAY</ref>:{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>calendar::MONTH:<sp/>n_units<sp/>-=<sp/>n_units/72;<sp/></highlight><highlight class="comment">//<sp/>MONTH<sp/>is<sp/>30<sp/>days,<sp/>a<sp/>real<sp/>one<sp/><sp/>is<sp/>~<sp/>30.41,<sp/>after<sp/>72<sp/>monts<sp/>this<sp/>adds<sp/>up<sp/>to<sp/>~<sp/>1<sp/>month<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>calendar::YEAR:</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>calendar::WEEK:</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>calendar::DAY:{</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>t2x=add(t1,deltaT,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">(n_units));</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(t2x&gt;t2)<sp/>{<sp/></highlight><highlight class="comment">//<sp/>got<sp/>one<sp/>step<sp/>to<sp/>far</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>--n_units;</highlight><highlight class="comment">//<sp/>reduce<sp/>n_units,<sp/>and<sp/>calculate<sp/>remainder</highlight><highlight class="normal"></highlight></codeline>
@@ -368,40 +368,40 @@
 <codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
 <codeline lineno="228" refid="namespaceshyft_1_1core_1_1time__zone" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">time_zone<sp/>{</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost::gregorian;</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost::local_time;</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost::posix_time;</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceboost_1_1gregorian" kindref="compound">boost::gregorian</ref>;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceboost_1_1local__time" kindref="compound">boost::local_time</ref>;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceboost_1_1posix__time" kindref="compound">boost::posix_time</ref>;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
 <codeline lineno="235" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info" kindref="compound">boost_tz_info</ref><sp/>{<sp/></highlight><highlight class="comment">//<sp/>limitation<sp/>is<sp/>posix<sp/>time,<sp/>def<sp/>from<sp/>1901<sp/>and<sp/>onward</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="236" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99e3b524601099fc0183e928f271d0e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptime<sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99e3b524601099fc0183e928f271d0e7" kindref="member">posix_t1970</ref>;</highlight></codeline>
 <codeline lineno="237" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a1939ecbfd7705437029b156eceb8fd1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time_zone_ptr<sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a1939ecbfd7705437029b156eceb8fd1a" kindref="member">tzinfo</ref>;</highlight></codeline>
 <codeline lineno="238" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1aa461385fb68c921c9ddb4b8b3da011a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1aa461385fb68c921c9ddb4b8b3da011a6" kindref="member">tz_region_name</ref>;</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a2d638ab6a04f7abd1b0c4f9b0129dbb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a2d638ab6a04f7abd1b0c4f9b0129dbb6" kindref="member">to_utctime</ref>(ptime<sp/>p)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(p-posix_t1970).total_seconds();}</highlight></codeline>
+<codeline lineno="240" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a37e3a691b68de3cc4139ff1acd0c7a4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a37e3a691b68de3cc4139ff1acd0c7a4c" kindref="member">to_utctime</ref>(ptime<sp/>p)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(p-posix_t1970).total_seconds();}</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
 <codeline lineno="242" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1ac141bebb5df12cc5d1e01756ce6a8f77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1ac141bebb5df12cc5d1e01756ce6a8f77" kindref="member">boost_tz_info</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>tz_region_name,time_zone_ptr<sp/>tzinfo):posix_t1970((date(1970,1,1))),tzinfo(tzinfo),tz_region_name(tz_region_name)<sp/>{}</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
 <codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1af520a7753999cd62066e9a20e1378c4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1af520a7753999cd62066e9a20e1378c4b" kindref="member">dst_start</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>year)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="245" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1afe6d551a9822720ee747e589c1161d9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1afe6d551a9822720ee747e589c1161d9b" kindref="member">dst_start</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>year)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>to_utctime(tzinfo-&gt;dst_local_start_time(year))<sp/>-<sp/>tzinfo-&gt;base_utc_offset().total_seconds();</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="248" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a12fc6a9bbcd3b734f265c54085249271" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a12fc6a9bbcd3b734f265c54085249271" kindref="member">dst_end</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>year)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="248" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a5b6671678d77437b7ddbd8de5b7c7c03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a5b6671678d77437b7ddbd8de5b7c7c03" kindref="member">dst_end</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>year)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>to_utctime(tzinfo-&gt;dst_local_end_time(year))<sp/>-<sp/>tzinfo-&gt;base_utc_offset().total_seconds()<sp/>-<sp/>tzinfo-&gt;dst_offset().total_seconds();</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="251" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a31dbdf493e2ffb2c00b6b5bf669216e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a31dbdf493e2ffb2c00b6b5bf669216e4" kindref="member">base_offset</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="251" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99997cdae072fe414184d38e8b5b1fb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99997cdae072fe414184d38e8b5b1fb4" kindref="member">base_offset</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref>(tzinfo-&gt;base_utc_offset().total_seconds());</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="254" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a12219874fc15e1e5ef1fb4c3f62a1411" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a12219874fc15e1e5ef1fb4c3f62a1411" kindref="member">dst_offset</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="254" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1abe6697b6bf30d3308712841e87c7c359" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1abe6697b6bf30d3308712841e87c7c359" kindref="member">dst_offset</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref>(tzinfo-&gt;dst_offset().total_seconds());</highlight></codeline>
 <codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="257" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1ab2b3b2ae3ab71b9b004e440a41ac48c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1ab2b3b2ae3ab71b9b004e440a41ac48c8" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tz_region_name;}</highlight></codeline>
+<codeline lineno="257" refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a965a41d88f97497880d1d35a913f2e72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a965a41d88f97497880d1d35a913f2e72" kindref="member">name</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tz_region_name;}</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
 <codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>shared_ptr&lt;tz_info_t&gt;<sp/>create_from_posix_definition(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>tz_region_name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">&amp;<sp/>posix_tz_string)<sp/>{</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>time_zone_ptr<sp/>tz=time_zone_ptr(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>posix_time_zone(posix_tz_string));</highlight></codeline>
-<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost_tz_info<sp/>btz(tz_region_name,tz);</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>make_shared&lt;tz_info_t&gt;(<ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref>(btz.base_offset(),tz_table(btz)));</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info" kindref="compound">boost_tz_info</ref><sp/>btz(tz_region_name,tz);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>make_shared&lt;tz_info_t&gt;(<ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref>(btz.<ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99997cdae072fe414184d38e8b5b1fb4" kindref="member">base_offset</ref>(),<ref refid="classshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref>(btz)));</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="265"><highlight class="normal"></highlight></codeline>
 <codeline lineno="266" refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a4772e84c4911ee9b4bf43111285aef13" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>tz_info_database::load_from_file(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>filename)<sp/>{</highlight></codeline>
@@ -411,7 +411,7 @@
 <codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">:tzdb.region_list())<sp/>{</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tz=tzdb.time_zone_from_region(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info" kindref="compound">boost_tz_info</ref><sp/>btz(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,tz);</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tzinfo=<sp/>make_shared&lt;tz_info_t&gt;(<ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref>(btz.<ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a31dbdf493e2ffb2c00b6b5bf669216e4" kindref="member">base_offset</ref>(),<ref refid="classshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref>(btz)));</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tzinfo=<sp/>make_shared&lt;tz_info_t&gt;(<ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref>(btz.<ref refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99997cdae072fe414184d38e8b5b1fb4" kindref="member">base_offset</ref>(),<ref refid="classshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref>(btz)));</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>region_tz_map[id]=tzinfo;</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_tz_map[tzinfo-&gt;name()]=tzinfo;</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
@@ -816,9 +816,9 @@
 <codeline lineno="675"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>add_tz_info(tzdef[i].region,tzdef[i].posix_definition);</highlight></codeline>
 <codeline lineno="676"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="677"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="678"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>time_zone</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="678"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="679"><highlight class="normal"></highlight></codeline>
-<codeline lineno="680"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1calendar_1a8fa5dd5adaae655514febc885b98aff5" kindref="member">calendar::calendar</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>region_id)<sp/>{</highlight></codeline>
+<codeline lineno="680" refid="structshyft_1_1core_1_1calendar_1a97820a2f55c2b1314d1076ac2942a3a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1calendar_1a8fa5dd5adaae655514febc885b98aff5" kindref="member">calendar::calendar</ref>(std::string<sp/>region_id)<sp/>{</highlight></codeline>
 <codeline lineno="681"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i=0;i&lt;<ref refid="namespaceshyft_1_1core_1_1time__zone_1a9fd5ff328714c06112c53ba079d4bb06" kindref="member">time_zone::n_tzdef</ref>;++i)<sp/>{</highlight></codeline>
 <codeline lineno="682"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(region_id==time_zone::tzdef[i].region)<sp/>{</highlight></codeline>
 <codeline lineno="683"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tz_info=time_zone::create_from_posix_definition(region_id,time_zone::tzdef[i].posix_definition);</highlight></codeline>
@@ -837,6 +837,6 @@
 <codeline lineno="696"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>core</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="697"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp"/>
+    <location file="/home/sih/projects/shyft/core/utctime_utilities.cpp"/>
   </compounddef>
 </doxygen>

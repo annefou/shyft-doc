@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1time__axis_1_1period__list" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1time__axis_1_1period__list" kind="struct" language="C++" prot="public">
     <compoundname>shyft::time_axis::period_list</compoundname>
     <basecompoundref refid="structshyft_1_1time__axis_1_1continuous" prot="public" virt="non-virtual">shyft::time_axis::continuous&lt; false &gt;</basecompoundref>
     <includes refid="time__axis_8h" local="no">time_axis.h</includes>
@@ -16,9 +16,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="403" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="403" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1time__axis_1_1period__list_1a0d13682c45c552a06fb07e5a21d63e0f" compoundref="time__axis_8h" startline="413" endline="419">convert</referencedby>
-        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="579" endline="636">shyft::time_axis::combine</referencedby>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="402" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="402" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1time__axis_1_1period__list_1a0d13682c45c552a06fb07e5a21d63e0f" compoundref="time__axis_8h" startline="412" endline="418">convert</referencedby>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="578" endline="635">shyft::time_axis::combine</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="404" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="404" bodyend="404"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="403" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="403" bodyend="403"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a3f7217b7491276846aa05c4aa0106845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -50,12 +50,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="405" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="405" bodyend="411"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="404" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="404" bodyend="410"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a046235f0019171c8106c460266665358" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a00cc861b69564b8d1e1229f9f72875d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::time_axis::period_list::size</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>size</name>
         <briefdescription>
         </briefdescription>
@@ -63,12 +63,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="420" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="420" bodyend="420"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="419" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="419" bodyend="419"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1ab86473beeaf0487830122fc2a86c337e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a3668cca757ecbfb56caea55676fd2157" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
         <definition>utcperiod shyft::time_axis::period_list::total_period</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>total_period</name>
         <briefdescription>
         </briefdescription>
@@ -76,13 +76,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="422" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="422" bodyend="426"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="421" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="421" bodyend="425"/>
         <references refid="namespaceshyft_1_1core_1a7ab17c4539f140317bac5575f94d58b4" compoundref="utctime__utilities_8h" startline="50">shyft::core::min_utctime</references>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a6933112ce4dbda5091db088409d9a0a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1aa402f989f50b11fdd93f3627b9f1403e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
         <definition>utctime shyft::time_axis::period_list::time</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>time</name>
         <param>
           <type>size_t</type>
@@ -94,12 +94,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="428" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="428" bodyend="431"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="427" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="427" bodyend="430"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1ad54c51bf8147afbbb41ab90b9e1cdc59" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a9821e7e4746dec86cc668a134058afe7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
         <definition>utcperiod shyft::time_axis::period_list::period</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>period</name>
         <param>
           <type>size_t</type>
@@ -111,12 +111,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="433" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="433" bodyend="436"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="432" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="432" bodyend="435"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1aa38aaa8323308ac4740b145e06de9307" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1af63bb8072bf4ca22a53ada15cd9be1c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::time_axis::period_list::index_of</definition>
-        <argsstring>(utctime tx, size_t ix_hint=std::string::npos, bool period_containment=true) const </argsstring>
+        <argsstring>(utctime tx, size_t ix_hint=std::string::npos, bool period_containment=true) const</argsstring>
         <name>index_of</name>
         <param>
           <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
@@ -138,12 +138,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="438" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="438" bodyend="479"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="437" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="437" bodyend="478"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a54b225ce41a2cdb6e75b06affca0041b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1aba173b3f0de1bc46d066809fdbc1f1d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::time_axis::period_list::open_range_index_of</definition>
-        <argsstring>(utctime tx) const </argsstring>
+        <argsstring>(utctime tx) const</argsstring>
         <name>open_range_index_of</name>
         <param>
           <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
@@ -155,7 +155,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="480" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="480" bodyend="482"/>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="479" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="479" bodyend="481"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -179,9 +179,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="413" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="413" bodyend="419"/>
-        <references refid="structshyft_1_1time__axis_1_1period__list_1ae5aa972a826ec6db1b7d1d30fb078eb6" compoundref="time__axis_8h" startline="403">p</references>
-        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="579" endline="636">shyft::time_axis::combine</referencedby>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="412" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="412" bodyend="418"/>
+        <references refid="structshyft_1_1time__axis_1_1period__list_1ae5aa972a826ec6db1b7d1d30fb078eb6" compoundref="time__axis_8h" startline="402">p</references>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="578" endline="635">shyft::time_axis::combine</referencedby>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1time__axis_1_1period__list_1a9793a5a71630f86e57854fb05bea861f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1time__axis_1_1period__list" kindref="compound">period_list</ref></type>
@@ -194,51 +194,51 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="484" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="484" bodyend="486"/>
-        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="579" endline="636">shyft::time_axis::combine</referencedby>
+        <location file="/home/sih/projects/shyft/core/time_axis.h" line="483" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="483" bodyend="485"/>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="578" endline="635">shyft::time_axis::combine</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para><ref refid="namespace_the" kindref="compound">The</ref> &quot;by definition&quot; ultimate time-axis using a list of periods. </para>    </briefdescription>
+<para>The &quot;by definition&quot; ultimate time-axis using a list of periods. </para>    </briefdescription>
     <detaileddescription>
 <para>an ordered sequence of non-overlapping periods </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="1220">
+      <node id="489">
         <label>shyft::time_axis::continuous&lt; false &gt;</label>
         <link refid="structshyft_1_1time__axis_1_1continuous"/>
       </node>
-      <node id="1219">
+      <node id="488">
         <label>shyft::time_axis::period_list</label>
         <link refid="structshyft_1_1time__axis_1_1period__list"/>
-        <childnode refid="1220" relation="public-inheritance">
+        <childnode refid="489" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="1222">
+      <node id="491">
         <label>shyft::time_axis::continuous&lt; false &gt;</label>
         <link refid="structshyft_1_1time__axis_1_1continuous"/>
       </node>
-      <node id="1221">
+      <node id="490">
         <label>shyft::time_axis::period_list</label>
         <link refid="structshyft_1_1time__axis_1_1period__list"/>
-        <childnode refid="1222" relation="public-inheritance">
+        <childnode refid="491" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" line="402" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/time_axis.h" bodystart="402" bodyend="487"/>
+    <location file="/home/sih/projects/shyft/core/time_axis.h" line="401" column="1" bodyfile="/home/sih/projects/shyft/core/time_axis.h" bodystart="401" bodyend="486"/>
     <listofallmembers>
       <member refid="structshyft_1_1time__axis_1_1period__list_1a0d13682c45c552a06fb07e5a21d63e0f" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>convert</name></member>
-      <member refid="structshyft_1_1time__axis_1_1period__list_1aa38aaa8323308ac4740b145e06de9307" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>index_of</name></member>
+      <member refid="structshyft_1_1time__axis_1_1period__list_1af63bb8072bf4ca22a53ada15cd9be1c9" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>index_of</name></member>
       <member refid="structshyft_1_1time__axis_1_1period__list_1a9793a5a71630f86e57854fb05bea861f" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>null_range</name></member>
-      <member refid="structshyft_1_1time__axis_1_1period__list_1a54b225ce41a2cdb6e75b06affca0041b" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>open_range_index_of</name></member>
+      <member refid="structshyft_1_1time__axis_1_1period__list_1aba173b3f0de1bc46d066809fdbc1f1d1" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>open_range_index_of</name></member>
       <member refid="structshyft_1_1time__axis_1_1period__list_1ae5aa972a826ec6db1b7d1d30fb078eb6" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>p</name></member>
-      <member refid="structshyft_1_1time__axis_1_1period__list_1ad54c51bf8147afbbb41ab90b9e1cdc59" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>period</name></member>
+      <member refid="structshyft_1_1time__axis_1_1period__list_1a9821e7e4746dec86cc668a134058afe7" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>period</name></member>
       <member refid="structshyft_1_1time__axis_1_1period__list_1a6fbb26245efed3684e3d14630485018f" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>period_list</name></member>
       <member refid="structshyft_1_1time__axis_1_1period__list_1a3f7217b7491276846aa05c4aa0106845" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>period_list</name></member>
-      <member refid="structshyft_1_1time__axis_1_1period__list_1a046235f0019171c8106c460266665358" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>size</name></member>
-      <member refid="structshyft_1_1time__axis_1_1period__list_1a6933112ce4dbda5091db088409d9a0a9" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>time</name></member>
-      <member refid="structshyft_1_1time__axis_1_1period__list_1ab86473beeaf0487830122fc2a86c337e" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>total_period</name></member>
+      <member refid="structshyft_1_1time__axis_1_1period__list_1a00cc861b69564b8d1e1229f9f72875d7" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>size</name></member>
+      <member refid="structshyft_1_1time__axis_1_1period__list_1aa402f989f50b11fdd93f3627b9f1403e" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>time</name></member>
+      <member refid="structshyft_1_1time__axis_1_1period__list_1a3668cca757ecbfb56caea55676fd2157" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>total_period</name></member>
       <member refid="structshyft_1_1time__axis_1_1continuous_1aeced14fe4486961b16feba5282e38a16" prot="public" virt="non-virtual"><scope>shyft::time_axis::period_list</scope><name>value</name></member>
     </listofallmembers>
   </compounddef>

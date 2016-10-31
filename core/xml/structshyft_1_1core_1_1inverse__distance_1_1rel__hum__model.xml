@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::inverse_distance::rel_hum_model</compoundname>
     <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
     <innerclass refid="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model_1_1scale__computer" prot="public">shyft::core::inverse_distance::rel_hum_model::scale_computer</innerclass>
@@ -46,7 +46,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="463" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="463" bodyend="465"/>
+        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="453" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="453" bodyend="455"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model_1afba4e45221b31952e9e54f119e46dc94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -75,14 +75,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="466" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="466" bodyend="468"/>
+        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="456" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="456" bodyend="458"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Provide a minimal model for IDW, RelHumModel::scale_computer does nothing(returns 1.0) the RelHumModel::transform returns sourceValue ;. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" line="453" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/inverse_distance.h" bodystart="453" bodyend="469"/>
+    <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="445" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="445" bodyend="459"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model_1a7c3d5b2fab07a722316c4814e4c5ab0d" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::rel_hum_model</scope><name>distance_measure</name></member>
       <member refid="structshyft_1_1core_1_1inverse__distance_1_1rel__hum__model_1afba4e45221b31952e9e54f119e46dc94" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::rel_hum_model</scope><name>transform</name></member>

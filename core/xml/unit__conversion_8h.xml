@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="unit__conversion_8h" kind="file" language="C++">
+    <compoundname>unit_conversion.h</compoundname>
+    <includedby refid="core_2timeseries_8h" local="yes">/home/sih/projects/shyft/core/timeseries.h</includedby>
+    <includedby refid="core_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_gs_k.h</includedby>
+    <includedby refid="core_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_hs_k.h</includedby>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/home/sih/projects/shyft/core/hbv_stack.h</includedby>
+    <includedby refid="core_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k.h</includedby>
+    <invincdepgraph>
+      <node id="1414">
+        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
+        <link refid="api_2pt__ss__k_8h"/>
+      </node>
+      <node id="1415">
+        <label>/home/sih/projects/shyft/core/gamma_snow.h</label>
+        <link refid="gamma__snow_8h"/>
+        <childnode refid="1397" relation="include">
+        </childnode>
+        <childnode refid="1409" relation="include">
+        </childnode>
+      </node>
+      <node id="1400">
+        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1406">
+        <label>/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1420">
+        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+      </node>
+      <node id="1401">
+        <label>/home/sih/projects/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1402" relation="include">
+        </childnode>
+      </node>
+      <node id="1412">
+        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
+        <link refid="api_2pt__hs__k_8h"/>
+      </node>
+      <node id="1419">
+        <label>/home/sih/projects/shyft/core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="1405" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+      </node>
+      <node id="1407">
+        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1396">
+        <label>/home/sih/projects/shyft/core/bayesian_kriging.h</label>
+        <link refid="bayesian__kriging_8h"/>
+        <childnode refid="1397" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1404">
+        <label>/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1409">
+        <label>/home/sih/projects/shyft/core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="1397" relation="include">
+        </childnode>
+        <childnode refid="1404" relation="include">
+        </childnode>
+        <childnode refid="1410" relation="include">
+        </childnode>
+      </node>
+      <node id="1408">
+        <label>/home/sih/projects/shyft/core/kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="1397" relation="include">
+        </childnode>
+        <childnode refid="1409" relation="include">
+        </childnode>
+        <childnode refid="1411" relation="include">
+        </childnode>
+        <childnode refid="1413" relation="include">
+        </childnode>
+      </node>
+      <node id="1410">
+        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
+        <link refid="api_2pt__gs__k_8h"/>
+      </node>
+      <node id="1394">
+        <label>/home/sih/projects/shyft/core/unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+        <childnode refid="1395" relation="include">
+        </childnode>
+        <childnode refid="1409" relation="include">
+        </childnode>
+        <childnode refid="1411" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1413" relation="include">
+        </childnode>
+      </node>
+      <node id="1416">
+        <label>/home/sih/projects/shyft/core/skaugen.h</label>
+        <link refid="skaugen_8h"/>
+        <childnode refid="1413" relation="include">
+        </childnode>
+      </node>
+      <node id="1411">
+        <label>/home/sih/projects/shyft/core/pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="1397" relation="include">
+        </childnode>
+        <childnode refid="1406" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+      </node>
+      <node id="1395">
+        <label>/home/sih/projects/shyft/core/timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="1396" relation="include">
+        </childnode>
+        <childnode refid="1403" relation="include">
+        </childnode>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1408" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+      </node>
+      <node id="1399">
+        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
+        <link refid="experimental_8cpp"/>
+      </node>
+      <node id="1397">
+        <label>/home/sih/projects/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="1398" relation="include">
+        </childnode>
+        <childnode refid="1400" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1405">
+        <label>/home/sih/projects/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1398">
+        <label>/home/sih/projects/shyft/core/experimental.h</label>
+        <link refid="experimental_8h"/>
+        <childnode refid="1399" relation="include">
+        </childnode>
+      </node>
+      <node id="1403">
+        <label>/home/sih/projects/shyft/core/cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="1404" relation="include">
+        </childnode>
+        <childnode refid="1405" relation="include">
+        </childnode>
+        <childnode refid="1400" relation="include">
+        </childnode>
+        <childnode refid="1406" relation="include">
+        </childnode>
+        <childnode refid="1407" relation="include">
+        </childnode>
+      </node>
+      <node id="1402">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+      <node id="1413">
+        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="1407" relation="include">
+        </childnode>
+        <childnode refid="1414" relation="include">
+        </childnode>
+      </node>
+      <node id="1418">
+        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
+        <link refid="timeseries_8cpp"/>
+      </node>
+      <node id="1417">
+        <label>/home/sih/projects/shyft/api/timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="1401" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceshyft">shyft</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespaceshyft_1a125b58e80ceedf1a1aa1566d78c599b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1a125b58e80ceedf1a1aa1566d78c599b6" kindref="member">mmh_to_m3s_scale_factor</ref><sp/>=<sp/>1<sp/>/<sp/>(3600.0*1000.0);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespaceshyft_1a5e0f4c89b1ede28b7abbca532953b9cc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1a5e0f4c89b1ede28b7abbca532953b9cc" kindref="member">mmh_to_m3s</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>mm_pr_hour,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area_m2)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>area_m2*mm_pr_hour*<ref refid="namespaceshyft_1a125b58e80ceedf1a1aa1566d78c599b6" kindref="member">mmh_to_m3s_scale_factor</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11" refid="namespaceshyft_1ad4b12d928f2188e37168689e720fce61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1ad4b12d928f2188e37168689e720fce61" kindref="member">m3s_to_mmh</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m3s,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area_m2)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m3s<sp/>/<sp/>(mmh_to_m3s_scale_factor*area_m2);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/sih/projects/shyft/core/unit_conversion.h"/>
+  </compounddef>
+</doxygen>

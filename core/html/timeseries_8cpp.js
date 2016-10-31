@@ -1,9 +1,11 @@
 var timeseries_8cpp =
 [
+    [ "aglacier_melt_ts", "structshyft_1_1api_1_1aglacier__melt__ts.html", "structshyft_1_1api_1_1aglacier__melt__ts" ],
     [ "accumulate", "timeseries_8cpp.html#abc8be68c104b8ce6fde4b68f4c8a1724", null ],
     [ "accumulate", "timeseries_8cpp.html#a9365c5a67264d2b0d7d8f9e2179d56f8", null ],
     [ "average", "timeseries_8cpp.html#a1cc1269af51a9ab1043b7c5f907d7536", null ],
     [ "average", "timeseries_8cpp.html#ae80fc7b81d1f7b38520f196ef70c72f9", null ],
+    [ "create_glacier_melt_ts_m3s", "timeseries_8cpp.html#ab3849290b4308e5a9d60604ce3b74bca", null ],
     [ "create_periodic_pattern_ts", "timeseries_8cpp.html#aae9ff29d8f36ef9422eaa4514e56eeb7", null ],
     [ "kling_gupta", "timeseries_8cpp.html#ac8f18b2d1b1d01d8dae6ddce69f863fd", null ],
     [ "max", "timeseries_8cpp.html#a81c1836a5ac9b48f80e21d4c7442b980", null ],

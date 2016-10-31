@@ -10,6 +10,7 @@ var structshyft_1_1core_1_1hbv__stack_1_1all__response__collector =
     [ "avg_discharge", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#a870e6e3425c5bb3f2a7faeebb7c7a1c3", null ],
     [ "destination_area", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#a3d3627694052dfd367fc2970413a996c", null ],
     [ "end_reponse", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#a8ac93ec6eac1ecfdbcade165d093f66e", null ],
+    [ "glacier_melt", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#aee07143f28fe8ba42b1aa492f12bf0d1", null ],
     [ "pe_output", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#aca1302e1a4e04c2ac0bbd7ff65af7728", null ],
     [ "snow_outflow", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#a64084d6c3d731a4e2cc6456a23911418", null ],
     [ "snow_sca", "structshyft_1_1core_1_1hbv__stack_1_1all__response__collector.html#a5def563f99690a7b4e2bacada4cc101d", null ],

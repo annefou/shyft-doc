@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1timeseries_1_1profile__description" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1timeseries_1_1profile__description" kind="struct" language="C++" prot="public">
     <compoundname>shyft::timeseries::profile_description</compoundname>
     <includes refid="core_2timeseries_8h" local="no">timeseries.h</includes>
       <sectiondef kind="public-attrib">
@@ -15,7 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="349" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="349" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="515" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="515" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a075626c14349241f8a7d0b242598f5c7" compoundref="core_2timeseries_8h" startline="562" endline="562">shyft::timeseries::profile_accessor&lt; gta_t &gt;::map_index</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1ad1370669507fb754e62e38a0c44ae76c" compoundref="core_2timeseries_8h" startline="566" endline="566">shyft::timeseries::profile_accessor&lt; gta_t &gt;::section_index</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1abad8ee4df0821ab4b81aba70a9800f73" compoundref="core_2timeseries_8h" startline="575" endline="592">shyft::timeseries::profile_accessor&lt; gta_t &gt;::value</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a99ad4a89a34a5a13ae5734e5507fbfc1" compoundref="core_2timeseries_8h" startline="600" endline="600">shyft::timeseries::profile_accessor&lt; gta_t &gt;::get</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1timeseries_1_1profile__description_1acb98062e35d3052e804ea327b78bfb9c" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
@@ -28,7 +32,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="350" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="350" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="516" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="516" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a075626c14349241f8a7d0b242598f5c7" compoundref="core_2timeseries_8h" startline="562" endline="562">shyft::timeseries::profile_accessor&lt; gta_t &gt;::map_index</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1abad8ee4df0821ab4b81aba70a9800f73" compoundref="core_2timeseries_8h" startline="575" endline="592">shyft::timeseries::profile_accessor&lt; gta_t &gt;::value</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a99ad4a89a34a5a13ae5734e5507fbfc1" compoundref="core_2timeseries_8h" startline="600" endline="600">shyft::timeseries::profile_accessor&lt; gta_t &gt;::get</referencedby>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1timeseries_1_1profile__description_1a8acc291c466983fb7f1c2de174b925e8" prot="public" static="no" mutable="no">
         <type>std::vector&lt; double &gt;</type>
@@ -41,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="351" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="351" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="517" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="517" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -68,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="353" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="353" bodyend="354"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="519" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="519" bodyend="520"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1a5aa6e80cd9bdac359a301deec446ecae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -81,12 +88,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="355" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="355" bodyend="355"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="521" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="521" bodyend="521"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1abd0de4b9e0a91d019b8ba7ab5c5b123d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1ae3d442979c156524d41144ec682cc79c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>size_t</type>
         <definition>size_t shyft::timeseries::profile_description::size</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>size</name>
         <briefdescription>
         </briefdescription>
@@ -94,12 +101,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="357" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="357" bodyend="357"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="523" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="523" bodyend="523"/>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a075626c14349241f8a7d0b242598f5c7" compoundref="core_2timeseries_8h" startline="562" endline="562">shyft::timeseries::profile_accessor&lt; gta_t &gt;::map_index</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1abad8ee4df0821ab4b81aba70a9800f73" compoundref="core_2timeseries_8h" startline="575" endline="592">shyft::timeseries::profile_accessor&lt; gta_t &gt;::value</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a38ebd3b7a2252d67e9c413b59344a0d8" compoundref="core_2timeseries_8h" startline="599" endline="599">shyft::timeseries::profile_accessor&lt; gta_t &gt;::size</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a99ad4a89a34a5a13ae5734e5507fbfc1" compoundref="core_2timeseries_8h" startline="600" endline="600">shyft::timeseries::profile_accessor&lt; gta_t &gt;::get</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a7dc15a34b2a0162a8d9ae98aa783b546" compoundref="core_2timeseries_8h" startline="601" endline="601">shyft::timeseries::profile_accessor&lt; gta_t &gt;::index_of</referencedby>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1aaf1c17c519effe20e96a4b2c71d289d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1a48c4c809bbe3b337503ec98a22ba72c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
         <definition>utctimespan shyft::timeseries::profile_description::duration</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>duration</name>
         <briefdescription>
         </briefdescription>
@@ -107,7 +119,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="358" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="358" bodyend="358"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="524" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="524" bodyend="524"/>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1ad1370669507fb754e62e38a0c44ae76c" compoundref="core_2timeseries_8h" startline="566" endline="566">shyft::timeseries::profile_accessor&lt; gta_t &gt;::section_index</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1abad8ee4df0821ab4b81aba70a9800f73" compoundref="core_2timeseries_8h" startline="575" endline="592">shyft::timeseries::profile_accessor&lt; gta_t &gt;::value</referencedby>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a38ebd3b7a2252d67e9c413b59344a0d8" compoundref="core_2timeseries_8h" startline="599" endline="599">shyft::timeseries::profile_accessor&lt; gta_t &gt;::size</referencedby>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1add24cc7bebf95f6d31ed1a864e68cce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -124,12 +139,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="359" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="359" bodyend="362"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="525" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="525" bodyend="528"/>
+        <referencedby refid="structshyft_1_1timeseries_1_1profile__accessor_1a6793e23e3fc3c73098005d0e3195c829" compoundref="core_2timeseries_8h" startline="557" endline="559">shyft::timeseries::profile_accessor&lt; gta_t &gt;::profile_accessor</referencedby>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1a0f6fe6b37615697a445921473b98326d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1timeseries_1_1profile__description_1a392286140949a0f839fd988faac52405" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
         <definition>double shyft::timeseries::profile_description::operator()</definition>
-        <argsstring>(size_t i) const </argsstring>
+        <argsstring>(size_t i) const</argsstring>
         <name>operator()</name>
         <param>
           <type>size_t</type>
@@ -141,25 +157,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="363" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="363" bodyend="367"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="529" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="529" bodyend="533"/>
         <references refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" compoundref="core_2timeseries_8h" startline="21">shyft::nan</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>A simple profile description defined by start-time and a equidistance by delta-t value-profile. </para>    </briefdescription>
     <detaileddescription>
-<para><ref refid="namespace_the" kindref="compound">The</ref> <ref refid="structshyft_1_1timeseries_1_1profile__description" kindref="compound">profile_description</ref> is used to define the profile by a vector of double-values. It&apos;s first use is in conjunction with creating a time-series with repeated profile that play a role when creating daily bias-profiles for forecast predictions. <ref refid="namespace_the" kindref="compound">The</ref> class provides t0,dt, ,<ref refid="structshyft_1_1timeseries_1_1profile__description_1abd0de4b9e0a91d019b8ba7ab5c5b123d" kindref="member">size()</ref> and operator()(i) to access profile values. -thus we can use other forms of profile-descriptor, not tied to providing the points <simplesect kind="see"><para><ref refid="structshyft_1_1timeseries_1_1profile__accessor" kindref="compound">profile_accessor</ref> </para><simplesectsep/><para>profile_ts </para></simplesect>
+<para>The <ref refid="structshyft_1_1timeseries_1_1profile__description" kindref="compound">profile_description</ref> is used to define the profile by a vector of double-values. It&apos;s first use is in conjunction with creating a time-series with repeated profile that play a role when creating daily bias-profiles for forecast predictions. The class provides t0,dt, ,<ref refid="structshyft_1_1timeseries_1_1profile__description_1ae3d442979c156524d41144ec682cc79c" kindref="member">size()</ref> and operator()(i) to access profile values. -thus we can use other forms of profile-descriptor, not tied to providing the points <simplesect kind="see"><para><ref refid="structshyft_1_1timeseries_1_1profile__accessor" kindref="compound">profile_accessor</ref> </para></simplesect>
+<simplesect kind="see"><para>profile_ts </para></simplesect>
 </para>    </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="348" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="348" bodyend="368"/>
+    <location file="/home/sih/projects/shyft/core/timeseries.h" line="514" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="514" bodyend="534"/>
     <listofallmembers>
       <member refid="structshyft_1_1timeseries_1_1profile__description_1acb98062e35d3052e804ea327b78bfb9c" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>dt</name></member>
-      <member refid="structshyft_1_1timeseries_1_1profile__description_1aaf1c17c519effe20e96a4b2c71d289d8" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>duration</name></member>
-      <member refid="structshyft_1_1timeseries_1_1profile__description_1a0f6fe6b37615697a445921473b98326d" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>operator()</name></member>
+      <member refid="structshyft_1_1timeseries_1_1profile__description_1a48c4c809bbe3b337503ec98a22ba72c5" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>duration</name></member>
+      <member refid="structshyft_1_1timeseries_1_1profile__description_1a392286140949a0f839fd988faac52405" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>operator()</name></member>
       <member refid="structshyft_1_1timeseries_1_1profile__description_1a8acc291c466983fb7f1c2de174b925e8" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>profile</name></member>
       <member refid="structshyft_1_1timeseries_1_1profile__description_1a0c83601387e7d7cacfcea868330ac0bb" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>profile_description</name></member>
       <member refid="structshyft_1_1timeseries_1_1profile__description_1a5aa6e80cd9bdac359a301deec446ecae" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>profile_description</name></member>
       <member refid="structshyft_1_1timeseries_1_1profile__description_1add24cc7bebf95f6d31ed1a864e68cce2" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>reset_start</name></member>
-      <member refid="structshyft_1_1timeseries_1_1profile__description_1abd0de4b9e0a91d019b8ba7ab5c5b123d" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>size</name></member>
+      <member refid="structshyft_1_1timeseries_1_1profile__description_1ae3d442979c156524d41144ec682cc79c" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>size</name></member>
       <member refid="structshyft_1_1timeseries_1_1profile__description_1aaa3e6cc652e91c5b0e49cfea4b606bbd" prot="public" virt="non-virtual"><scope>shyft::timeseries::profile_description</scope><name>t0</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="core__pch_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="core__pch_8h" kind="file" language="C++">
     <compoundname>core_pch.h</compoundname>
     <includes local="no">memory</includes>
     <includes local="no">limits</includes>
@@ -18,156 +18,156 @@
     <includes local="no">stdexcept</includes>
     <includes local="no">random</includes>
     <includes local="no">boost/range.hpp</includes>
-    <includedby refid="core__pch_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.cpp</includedby>
-    <includedby refid="dream__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/dream_optimizer.cpp</includedby>
-    <includedby refid="experimental_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</includedby>
-    <includedby refid="sceua__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</includedby>
-    <includedby refid="utctime__utilities_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp</includedby>
-    <includedby refid="api_2timeseries_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h</includedby>
+    <includedby refid="core__pch_8cpp" local="yes">/home/sih/projects/shyft/core/core_pch.cpp</includedby>
+    <includedby refid="dream__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/dream_optimizer.cpp</includedby>
+    <includedby refid="experimental_8cpp" local="yes">/home/sih/projects/shyft/core/experimental.cpp</includedby>
+    <includedby refid="sceua__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/sceua_optimizer.cpp</includedby>
+    <includedby refid="utctime__utilities_8cpp" local="yes">/home/sih/projects/shyft/core/utctime_utilities.cpp</includedby>
+    <includedby refid="api_2timeseries_8h" local="yes">/home/sih/projects/shyft/api/timeseries.h</includedby>
     <incdepgraph>
-      <node id="1684">
+      <node id="313">
         <label>functional</label>
       </node>
-      <node id="1677">
+      <node id="306">
         <label>limits</label>
       </node>
-      <node id="1689">
+      <node id="318">
         <label>stdexcept</label>
       </node>
-      <node id="1681">
+      <node id="310">
         <label>string</label>
       </node>
-      <node id="1680">
+      <node id="309">
         <label>map</label>
       </node>
-      <node id="1685">
+      <node id="314">
         <label>ostream</label>
       </node>
-      <node id="1690">
+      <node id="304">
+        <label>/home/sih/projects/shyft/core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="319">
         <label>random</label>
       </node>
-      <node id="1691">
+      <node id="320">
         <label>boost/range.hpp</label>
       </node>
-      <node id="1688">
+      <node id="317">
         <label>future</label>
       </node>
-      <node id="1679">
+      <node id="308">
         <label>vector</label>
       </node>
-      <node id="1686">
+      <node id="315">
         <label>cerrno</label>
       </node>
-      <node id="1678">
+      <node id="307">
         <label>cstddef</label>
       </node>
-      <node id="1687">
+      <node id="316">
         <label>thread</label>
       </node>
-      <node id="1675">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.h</label>
-        <link refid="core_pch.h"/>
-        <childnode refid="1676" relation="include">
-        </childnode>
-        <childnode refid="1677" relation="include">
-        </childnode>
-        <childnode refid="1678" relation="include">
-        </childnode>
-        <childnode refid="1679" relation="include">
-        </childnode>
-        <childnode refid="1680" relation="include">
-        </childnode>
-        <childnode refid="1681" relation="include">
-        </childnode>
-        <childnode refid="1682" relation="include">
-        </childnode>
-        <childnode refid="1683" relation="include">
-        </childnode>
-        <childnode refid="1684" relation="include">
-        </childnode>
-        <childnode refid="1685" relation="include">
-        </childnode>
-        <childnode refid="1686" relation="include">
-        </childnode>
-        <childnode refid="1687" relation="include">
-        </childnode>
-        <childnode refid="1688" relation="include">
-        </childnode>
-        <childnode refid="1689" relation="include">
-        </childnode>
-        <childnode refid="1690" relation="include">
-        </childnode>
-        <childnode refid="1691" relation="include">
-        </childnode>
-      </node>
-      <node id="1683">
+      <node id="312">
         <label>algorithm</label>
       </node>
-      <node id="1682">
+      <node id="311">
         <label>cstring</label>
       </node>
-      <node id="1676">
+      <node id="305">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1697">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp</label>
-        <link refid="utctime__utilities_8cpp"/>
-      </node>
-      <node id="1694">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/dream_optimizer.cpp</label>
+      <node id="323">
+        <label>/home/sih/projects/shyft/core/dream_optimizer.cpp</label>
         <link refid="dream__optimizer_8cpp"/>
       </node>
-      <node id="1699">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="1700" relation="include">
-        </childnode>
-      </node>
-      <node id="1698">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h</label>
-        <link refid="api_2timeseries_8h"/>
-        <childnode refid="1699" relation="include">
-        </childnode>
-        <childnode refid="1701" relation="include">
-        </childnode>
-      </node>
-      <node id="1696">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</label>
+      <node id="325">
+        <label>/home/sih/projects/shyft/core/sceua_optimizer.cpp</label>
         <link refid="sceua__optimizer_8cpp"/>
       </node>
-      <node id="1695">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</label>
-        <link refid="experimental_8cpp"/>
+      <node id="328">
+        <label>/home/sih/projects/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="329" relation="include">
+        </childnode>
       </node>
-      <node id="1693">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.cpp</label>
+      <node id="322">
+        <label>/home/sih/projects/shyft/core/core_pch.cpp</label>
         <link refid="core__pch_8cpp"/>
       </node>
-      <node id="1701">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.cpp</label>
+      <node id="321">
+        <label>/home/sih/projects/shyft/core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
+        <link refid="experimental_8cpp"/>
+      </node>
+      <node id="329">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+      <node id="330">
+        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
         <link refid="timeseries_8cpp"/>
       </node>
-      <node id="1692">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.h</label>
-        <link refid="core_pch.h"/>
-        <childnode refid="1693" relation="include">
-        </childnode>
-        <childnode refid="1694" relation="include">
-        </childnode>
-        <childnode refid="1695" relation="include">
-        </childnode>
-        <childnode refid="1696" relation="include">
-        </childnode>
-        <childnode refid="1697" relation="include">
-        </childnode>
-        <childnode refid="1698" relation="include">
-        </childnode>
+      <node id="326">
+        <label>/home/sih/projects/shyft/core/utctime_utilities.cpp</label>
+        <link refid="utctime__utilities_8cpp"/>
       </node>
-      <node id="1700">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
-        <link refid="api_8cpp"/>
+      <node id="327">
+        <label>/home/sih/projects/shyft/api/timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <briefdescription>
@@ -176,13 +176,13 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WINDOWS)</highlight></codeline>
-<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
-<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4267)</highlight></codeline>
-<codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4244)</highlight></codeline>
-<codeline lineno="25"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4503)</highlight></codeline>
-<codeline lineno="26"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="27"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WINDOWS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4267)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4244)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4503)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -203,6 +203,6 @@
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/range.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.h"/>
+    <location file="/home/sih/projects/shyft/core/core_pch.h"/>
   </compounddef>
 </doxygen>

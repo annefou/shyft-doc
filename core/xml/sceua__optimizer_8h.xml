@@ -1,49 +1,49 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="sceua__optimizer_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="sceua__optimizer_8h" kind="file" language="C++">
     <compoundname>sceua_optimizer.h</compoundname>
     <includes refid="optimizer__utils_8h" local="yes">optimizer_utils.h</includes>
-    <includedby refid="model__calibration_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h</includedby>
-    <includedby refid="sceua__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</includedby>
+    <includedby refid="model__calibration_8h" local="yes">/home/sih/projects/shyft/core/model_calibration.h</includedby>
+    <includedby refid="sceua__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/sceua_optimizer.cpp</includedby>
     <incdepgraph>
-      <node id="2555">
+      <node id="1245">
+        <label>/home/sih/projects/shyft/core/sceua_optimizer.h</label>
+        <link refid="sceua__optimizer_8h"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+      <node id="1246">
         <label>optimizer_utils.h</label>
         <link refid="optimizer__utils_8h"/>
       </node>
-      <node id="2554">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h</label>
-        <link refid="sceua_optimizer.h"/>
-        <childnode refid="2555" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="2557">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h</label>
+      <node id="1248">
+        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
         <link refid="model__calibration_8h"/>
-        <childnode refid="2558" relation="include">
+        <childnode refid="1249" relation="include">
         </childnode>
       </node>
-      <node id="2558">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="2559" relation="include">
-        </childnode>
-      </node>
-      <node id="2560">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</label>
+      <node id="1251">
+        <label>/home/sih/projects/shyft/core/sceua_optimizer.cpp</label>
         <link refid="sceua__optimizer_8cpp"/>
       </node>
-      <node id="2556">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h</label>
-        <link refid="sceua_optimizer.h"/>
-        <childnode refid="2557" relation="include">
-        </childnode>
-        <childnode refid="2560" relation="include">
+      <node id="1249">
+        <label>/home/sih/projects/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1250" relation="include">
         </childnode>
       </node>
-      <node id="2559">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+      <node id="1247">
+        <label>/home/sih/projects/shyft/core/sceua_optimizer.h</label>
+        <link refid="sceua__optimizer_8h"/>
+        <childnode refid="1248" relation="include">
+        </childnode>
+        <childnode refid="1251" relation="include">
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
         <link refid="api_8cpp"/>
       </node>
     </invincdepgraph>
@@ -57,19 +57,19 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="optimizer__utils_8h" kindref="compound">optimizer_utils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="optimizer__utils_8h" kindref="compound">optimizer_utils.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">optimizer<sp/>{</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>vec&gt;</highlight></codeline>
 <codeline lineno="34" refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc" kindref="compound">sort_by_value_asc</ref><sp/>{</highlight></codeline>
 <codeline lineno="35" refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1aa9faa21d94b48d82a1cd2a114f5dbaeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vec&amp;<sp/><ref refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1aa9faa21d94b48d82a1cd2a114f5dbaeb" kindref="member">v</ref>;</highlight></codeline>
 <codeline lineno="36" refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1a718dc95178d461e43bffa6e12d4f626c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1a718dc95178d461e43bffa6e12d4f626c" kindref="member">sort_by_value_asc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vec&amp;<sp/>v_):v(v_)<sp/>{}</highlight></codeline>
-<codeline lineno="37" refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1af508f97830775b59ecfaa288939eb75c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1af508f97830775b59ecfaa288939eb75c" kindref="member">operator()</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>a,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>b)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37" refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1ad39b92ff52c414549aa1922fc0bc250e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1optimizer_1_1sort__by__value__asc_1ad39b92ff52c414549aa1922fc0bc250e" kindref="member">operator()</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>a,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>b)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>v[a]&lt;v[b];</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
@@ -82,12 +82,12 @@
 <codeline lineno="47" refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaef035f962372852c7d5311056c4d9220" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cd" kindref="member">OptimizerState</ref><sp/>{<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda473c4822be66c91de921fddfc224e88e" kindref="member">NotStarted</ref>=-1,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaef035f962372852c7d5311056c4d9220" kindref="member">Searching</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda81d68d9ca3c686ab5b8281c848e4b895" kindref="member">FinishedFxConvergence</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdac7c88fac2a9aa0013d4176be2fea4062" kindref="member">FinishedXconvergence</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaaf3746175bb57d02e1ec7d45c12766f0" kindref="member">FinishedMaxIterations</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda9bf0571b54dffc88e58c2603d7ddfd29" kindref="member">FinishedUserRequest</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdad5d61d952d59fb4b1963cda3d1e98959" kindref="member">FinishedMaxTime</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdab5609382f29d91d9d13ee2be0b0228ab" kindref="member">SavingTimeSeries</ref>,<sp/><ref refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda52dfecd1ac84babd140fd5fccbe233f1" kindref="member">ProcessTerminated</ref><sp/>};</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53" refid="classshyft_1_1core_1_1optimizer_1_1sceua" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classshyft_1_1core_1_1optimizer_1_1sceua" kindref="compound">sceua</ref><sp/><sp/>{</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>WIN32</highlight></codeline>
-<codeline lineno="55"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>std::mt19937<sp/>generator;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
-<codeline lineno="57"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>default_random_engine<sp/>generator;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="59"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>uniform_real_distribution&lt;double&gt;<sp/>distribution;</highlight><highlight class="comment">//(0.0,1.0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#ifdef<sp/>WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>std::mt19937<sp/>generator;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>default_random_engine<sp/>generator;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>uniform_real_distribution&lt;double&gt;<sp/>distribution;</highlight><highlight class="comment">//(0.0,1.0)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
 <codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="62" refid="classshyft_1_1core_1_1optimizer_1_1sceua_1adc7f5882b8b259863e466d83be5529c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1optimizer_1_1sceua_1adc7f5882b8b259863e466d83be5529c0" kindref="member">sceua</ref>():distribution(0.0,1.0)<sp/>{}</highlight></codeline>
@@ -128,6 +128,6 @@
 <codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="102"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.h"/>
+    <location file="/home/sih/projects/shyft/core/sceua_optimizer.h"/>
   </compounddef>
 </doxygen>

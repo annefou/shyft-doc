@@ -1,7 +1,7 @@
 var structshyft_1_1core_1_1gamma__snow_1_1state =
 [
     [ "state", "structshyft_1_1core_1_1gamma__snow_1_1state.html#a3d95f52363d3f159caab564d376e5754", null ],
-    [ "operator==", "structshyft_1_1core_1_1gamma__snow_1_1state.html#a64a381f19c252aea3130f74674902788", null ],
+    [ "operator==", "structshyft_1_1core_1_1gamma__snow_1_1state.html#abbb8d3770248f10b96cf1ae626cdbf79", null ],
     [ "acc_melt", "structshyft_1_1core_1_1gamma__snow_1_1state.html#a628ae8ab6f98afa4616966dfda616523", null ],
     [ "albedo", "structshyft_1_1core_1_1gamma__snow_1_1state.html#a6c1ef11f8e2b11c500a5be100679d7b5", null ],
     [ "alpha", "structshyft_1_1core_1_1gamma__snow_1_1state.html#a8df52522c77bc0013f487a414ff986ab", null ],

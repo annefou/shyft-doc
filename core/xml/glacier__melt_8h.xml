@@ -1,50 +1,266 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="glacier__melt_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="glacier__melt_8h" kind="file" language="C++">
     <compoundname>glacier_melt.h</compoundname>
     <includes refid="utctime__utilities_8h" local="yes">utctime_utilities.h</includes>
+    <includedby refid="core_2timeseries_8h" local="yes">/home/sih/projects/shyft/core/timeseries.h</includedby>
+    <includedby refid="core_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_gs_k.h</includedby>
+    <includedby refid="core_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_hs_k.h</includedby>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/home/sih/projects/shyft/core/hbv_stack.h</includedby>
+    <includedby refid="core_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k.h</includedby>
     <incdepgraph>
-      <node id="1907">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="1908" relation="include">
-        </childnode>
-        <childnode refid="1909" relation="include">
-        </childnode>
-        <childnode refid="1910" relation="include">
-        </childnode>
-        <childnode refid="1911" relation="include">
-        </childnode>
-        <childnode refid="1912" relation="include">
-        </childnode>
-        <childnode refid="1913" relation="include">
-        </childnode>
-      </node>
-      <node id="1910">
+      <node id="545">
         <label>cmath</label>
       </node>
-      <node id="1908">
+      <node id="543">
         <label>string</label>
       </node>
-      <node id="1912">
+      <node id="547">
         <label>map</label>
       </node>
-      <node id="1906">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/glacier_melt.h</label>
-        <link refid="glacier_melt.h"/>
-        <childnode refid="1907" relation="include">
+      <node id="541">
+        <label>/home/sih/projects/shyft/core/glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="542" relation="include">
         </childnode>
       </node>
-      <node id="1911">
+      <node id="542">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="543" relation="include">
+        </childnode>
+        <childnode refid="544" relation="include">
+        </childnode>
+        <childnode refid="545" relation="include">
+        </childnode>
+        <childnode refid="546" relation="include">
+        </childnode>
+        <childnode refid="547" relation="include">
+        </childnode>
+        <childnode refid="548" relation="include">
+        </childnode>
+      </node>
+      <node id="546">
         <label>vector</label>
       </node>
-      <node id="1909">
+      <node id="544">
         <label>time.h</label>
       </node>
-      <node id="1913">
+      <node id="548">
         <label>memory</label>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="569">
+        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
+        <link refid="api_2pt__ss__k_8h"/>
+      </node>
+      <node id="570">
+        <label>/home/sih/projects/shyft/core/gamma_snow.h</label>
+        <link refid="gamma__snow_8h"/>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="561">
+        <label>/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="575">
+        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+      </node>
+      <node id="556">
+        <label>/home/sih/projects/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="557" relation="include">
+        </childnode>
+      </node>
+      <node id="567">
+        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
+        <link refid="api_2pt__hs__k_8h"/>
+      </node>
+      <node id="574">
+        <label>/home/sih/projects/shyft/core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="560" relation="include">
+        </childnode>
+        <childnode refid="575" relation="include">
+        </childnode>
+      </node>
+      <node id="562">
+        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="551">
+        <label>/home/sih/projects/shyft/core/bayesian_kriging.h</label>
+        <link refid="bayesian__kriging_8h"/>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="564">
+        <label>/home/sih/projects/shyft/core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="559" relation="include">
+        </childnode>
+        <childnode refid="565" relation="include">
+        </childnode>
+      </node>
+      <node id="563">
+        <label>/home/sih/projects/shyft/core/kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+        <childnode refid="566" relation="include">
+        </childnode>
+        <childnode refid="568" relation="include">
+        </childnode>
+      </node>
+      <node id="565">
+        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
+        <link refid="api_2pt__gs__k_8h"/>
+      </node>
+      <node id="549">
+        <label>/home/sih/projects/shyft/core/glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="550" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+        <childnode refid="566" relation="include">
+        </childnode>
+        <childnode refid="574" relation="include">
+        </childnode>
+        <childnode refid="568" relation="include">
+        </childnode>
+      </node>
+      <node id="571">
+        <label>/home/sih/projects/shyft/core/skaugen.h</label>
+        <link refid="skaugen_8h"/>
+        <childnode refid="568" relation="include">
+        </childnode>
+      </node>
+      <node id="566">
+        <label>/home/sih/projects/shyft/core/pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="552" relation="include">
+        </childnode>
+        <childnode refid="561" relation="include">
+        </childnode>
+        <childnode refid="567" relation="include">
+        </childnode>
+      </node>
+      <node id="550">
+        <label>/home/sih/projects/shyft/core/timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="551" relation="include">
+        </childnode>
+        <childnode refid="558" relation="include">
+        </childnode>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="563" relation="include">
+        </childnode>
+        <childnode refid="570" relation="include">
+        </childnode>
+        <childnode refid="571" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="572" relation="include">
+        </childnode>
+      </node>
+      <node id="554">
+        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
+        <link refid="experimental_8cpp"/>
+      </node>
+      <node id="552">
+        <label>/home/sih/projects/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="553" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="560">
+        <label>/home/sih/projects/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>/home/sih/projects/shyft/core/experimental.h</label>
+        <link refid="experimental_8h"/>
+        <childnode refid="554" relation="include">
+        </childnode>
+      </node>
+      <node id="558">
+        <label>/home/sih/projects/shyft/core/cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="559" relation="include">
+        </childnode>
+        <childnode refid="560" relation="include">
+        </childnode>
+        <childnode refid="555" relation="include">
+        </childnode>
+        <childnode refid="561" relation="include">
+        </childnode>
+        <childnode refid="562" relation="include">
+        </childnode>
+      </node>
+      <node id="557">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
+        <link refid="api_8cpp"/>
+      </node>
+      <node id="568">
+        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="562" relation="include">
+        </childnode>
+        <childnode refid="569" relation="include">
+        </childnode>
+      </node>
+      <node id="573">
+        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
+        <link refid="timeseries_8cpp"/>
+      </node>
+      <node id="572">
+        <label>/home/sih/projects/shyft/api/timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="556" relation="include">
+        </childnode>
+        <childnode refid="573" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" prot="public">shyft::core::glacier_melt::parameter</innerclass>
     <innernamespace refid="namespaceshyft">shyft</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core">shyft::core</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1glacier__melt">shyft::core::glacier_melt</innernamespace>
@@ -54,19 +270,28 @@
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
-<codeline lineno="22"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utctime__utilities_8h" kindref="compound">utctime_utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utctime__utilities_8h" kindref="compound">utctime_utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
-<codeline lineno="25" refid="namespaceshyft_1_1core_1_1glacier__melt" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft_1_1core_1_1glacier__melt_1a19e2000dbb290f8090b2a302c3542365" kindref="member">glacier_melt</ref><sp/>{</highlight></codeline>
-<codeline lineno="26" refid="namespaceshyft_1_1core_1_1glacier__melt_1a19e2000dbb290f8090b2a302c3542365" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1_1glacier__melt_1a19e2000dbb290f8090b2a302c3542365" kindref="member">glacier_melt</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>radiation,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>albedo,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sca,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temporary_snow,<sp/><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref><sp/>dt)<sp/>{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>melt_heat<sp/>=<sp/>333660.0;<sp/></highlight><highlight class="comment">//<sp/>Latent<sp/>heat<sp/>of<sp/>ice<sp/>at<sp/>T<sp/>=<sp/>0C<sp/>in<sp/>[J/kg]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>temporary_snow<sp/>&gt;<sp/>0.0<sp/>?<sp/>0.0<sp/>:<sp/>radiation*(1.0<sp/>-<sp/>albedo)*(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)dt<sp/>/<sp/>melt_heat*(1.0<sp/>-<sp/>sca);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>core</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="namespaceshyft_1_1core_1_1glacier__melt" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">glacier_melt<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
+<codeline lineno="28" refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kindref="member">dtf</ref><sp/>=<sp/>6.0;</highlight></codeline>
+<codeline lineno="29" refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a1a5ee7efa6c1f6acef0f5ae74bdc2732" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a1a5ee7efa6c1f6acef0f5ae74bdc2732" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dtf=6.0):dtf(dtf)<sp/>{}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="namespaceshyft_1_1core_1_1glacier__melt_1a0d7b142be8b5384cd33b3bce4d059bef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1_1glacier__melt_1a0d7b142be8b5384cd33b3bce4d059bef" kindref="member">step</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kindref="member">dtf</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>snow_covered_area_m2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_area_m2){</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(glacier_area_m2<sp/>&lt;=<sp/>snow_covered_area_m2<sp/>||<sp/>t<sp/>&lt;=<sp/>0.0)<sp/></highlight><highlight class="comment">//<sp/>melt<sp/>is<sp/>0.0<sp/>if<sp/>area<sp/>uncovered<sp/>by<sp/>snow<sp/>less<sp/>than<sp/>0.0,<sp/>and<sp/>t<sp/>below<sp/>zero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>convert_m2_x_mm_d_to_m3_s=<sp/>0.001/86400.0;</highlight><highlight class="comment">//<sp/>ref.<sp/>input<sp/>units<sp/>,mm=0.001m/d=86400s</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dtf*t*(glacier_area_m2-snow_covered_area_m2)*<sp/>convert_m2_x_mm_d_to_m3_s;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>glacier_melt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>core</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/glacier_melt.h"/>
+    <location file="/home/sih/projects/shyft/core/glacier_melt.h"/>
   </compounddef>
 </doxygen>

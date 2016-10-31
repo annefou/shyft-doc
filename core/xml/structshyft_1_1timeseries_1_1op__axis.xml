@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1timeseries_1_1op__axis" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1timeseries_1_1op__axis" kind="struct" language="C++" prot="public">
     <compoundname>shyft::timeseries::op_axis</compoundname>
     <includes refid="core_2timeseries_8h" local="no">timeseries.h</includes>
     <templateparamlist>
@@ -23,7 +23,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="562" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="562" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/timeseries.h" line="788" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="788" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -31,7 +31,7 @@
     <detaileddescription>
 <para>When doing binary-ts operations, we need to deduce at runtime what will be the most efficient time-axis type of the binary result We use time_axis::combine_type&lt;..&gt; if we have two time-series otherwise we specialize for double binop ts, and ts binop double. <simplesect kind="see"><para><ref refid="structshyft_1_1time__axis_1_1combine__type" kindref="compound">shyft::time_axis::combine_type</ref> </para></simplesect>
 </para>    </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" line="561" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/timeseries.h" bodystart="561" bodyend="563"/>
+    <location file="/home/sih/projects/shyft/core/timeseries.h" line="787" column="1" bodyfile="/home/sih/projects/shyft/core/timeseries.h" bodystart="787" bodyend="789"/>
     <listofallmembers>
       <member refid="structshyft_1_1timeseries_1_1op__axis_1a583d85649a1bd861ab68631ba1d45dfd" prot="public" virt="non-virtual"><scope>shyft::timeseries::op_axis</scope><name>type</name></member>
     </listofallmembers>

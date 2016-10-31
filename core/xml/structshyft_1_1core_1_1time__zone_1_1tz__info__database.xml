@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1time__zone_1_1tz__info__database" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1time__zone_1_1tz__info__database" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::time_zone::tz_info_database</compoundname>
     <includes refid="utctime__utilities_8h" local="no">utctime_utilities.h</includes>
       <sectiondef kind="public-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="205" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="205" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="203" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="203" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a43ca7a31b45bd102a3bf893e011e6e53" prot="public" static="no" mutable="no">
         <type>map&lt; string, shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref> &gt; &gt;</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="206" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="206" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="204" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="204" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="171" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp" bodystart="671" bodyend="677"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="169" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="671" bodyend="677"/>
         <references refid="namespaceshyft_1_1core_1_1time__zone_1a9fd5ff328714c06112c53ba079d4bb06" compoundref="utctime__utilities_8cpp" startline="670">shyft::core::time_zone::n_tzdef</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a4772e84c4911ee9b4bf43111285aef13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -61,8 +61,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="174" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp" bodystart="266" bodyend="277"/>
-        <references refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a31dbdf493e2ffb2c00b6b5bf669216e4" compoundref="utctime__utilities_8cpp" startline="251" endline="253">shyft::core::time_zone::boost_tz_info::base_offset</references>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="172" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="266" bodyend="277"/>
+        <references refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info_1a99997cdae072fe414184d38e8b5b1fb4" compoundref="utctime__utilities_8cpp" startline="251" endline="253">shyft::core::time_zone::boost_tz_info::base_offset</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a8c699c0553a0e888c9a0bdab57c0d71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -83,12 +83,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="177" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp" bodystart="278" bodyend="282"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="175" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="278" bodyend="282"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a018fbef84656e1163109d9bb4d5d9cff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a5e2dabe615ebdb891712d2e8974eb37a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref> &gt;</type>
         <definition>shared_ptr&lt;tz_info_t&gt; shyft::core::time_zone::tz_info_database::tz_info_from_region</definition>
-        <argsstring>(const string &amp;region_name) const </argsstring>
+        <argsstring>(const string &amp;region_name) const</argsstring>
         <name>tz_info_from_region</name>
         <param>
           <type>const string &amp;</type>
@@ -100,12 +100,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="180" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="180" bodyend="184"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="178" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="178" bodyend="182"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a8a60f72537183bb6ffe3c62234c0f9c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a67b4a0890fdc3a1ad12d4b6c979bc6fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref> &gt;</type>
         <definition>shared_ptr&lt;tz_info_t&gt; shyft::core::time_zone::tz_info_database::tz_info_from_name</definition>
-        <argsstring>(const string &amp;name) const </argsstring>
+        <argsstring>(const string &amp;name) const</argsstring>
         <name>tz_info_from_name</name>
         <param>
           <type>const string &amp;</type>
@@ -117,12 +117,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="187" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="187" bodyend="191"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="185" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="185" bodyend="189"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a86bdbbd8ecded88363c59571f0d7a283" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1ad9d00dc8daa3a0e53bc9968cb8d36b10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; string &gt;</type>
         <definition>vector&lt;string&gt; shyft::core::time_zone::tz_info_database::get_region_list</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>get_region_list</name>
         <briefdescription>
         </briefdescription>
@@ -130,12 +130,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="192" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="192" bodyend="197"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="190" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="190" bodyend="195"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a5f6080616ce06041691a3b356afee290" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a581bd5e82efcd054453d4f5eb1fe324c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; string &gt;</type>
         <definition>vector&lt;string&gt; shyft::core::time_zone::tz_info_database::get_name_list</definition>
-        <argsstring>() const </argsstring>
+        <argsstring>() const</argsstring>
         <name>get_name_list</name>
         <briefdescription>
         </briefdescription>
@@ -143,24 +143,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="198" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="198" bodyend="203"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="196" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="196" bodyend="201"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>time zone database class that provides shared_ptr of predefined tz_info_t objects </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="168" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="168" bodyend="207"/>
+    <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="166" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="166" bodyend="205"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a8c699c0553a0e888c9a0bdab57c0d71d" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>add_tz_info</name></member>
-      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a5f6080616ce06041691a3b356afee290" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>get_name_list</name></member>
-      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a86bdbbd8ecded88363c59571f0d7a283" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>get_region_list</name></member>
+      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a581bd5e82efcd054453d4f5eb1fe324c" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>get_name_list</name></member>
+      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1ad9d00dc8daa3a0e53bc9968cb8d36b10" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>get_region_list</name></member>
       <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a4772e84c4911ee9b4bf43111285aef13" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>load_from_file</name></member>
       <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1adac70d0df85ea9399c33cfa2fd65cff6" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>load_from_iso_db</name></member>
       <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a43ca7a31b45bd102a3bf893e011e6e53" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>name_tz_map</name></member>
       <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1afa79ccdf10190c6e05c324270f058978" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>region_tz_map</name></member>
-      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a8a60f72537183bb6ffe3c62234c0f9c8" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>tz_info_from_name</name></member>
-      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a018fbef84656e1163109d9bb4d5d9cff" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>tz_info_from_region</name></member>
+      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a67b4a0890fdc3a1ad12d4b6c979bc6fb" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>tz_info_from_name</name></member>
+      <member refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1a5e2dabe615ebdb891712d2e8974eb37a" prot="public" virt="non-virtual"><scope>shyft::core::time_zone::tz_info_database</scope><name>tz_info_from_region</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

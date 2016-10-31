@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['base_5foffset',['base_offset',['../structshyft_1_1core_1_1time__zone_1_1boost__tz__info.html#a31dbdf493e2ffb2c00b6b5bf669216e4',1,'shyft::core::time_zone::boost_tz_info::base_offset()'],['../structshyft_1_1core_1_1time__zone_1_1tz__info.html#a1a15c64409c353ea2ab3c7fcbaf53ce1',1,'shyft::core::time_zone::tz_info::base_offset()'],['../structshyft_1_1core_1_1time__zone_1_1tz__info_3_01tz__table_01_4.html#aa62d5df9af64e553771557039d9a82cf',1,'shyft::core::time_zone::tz_info&lt; tz_table &gt;::base_offset()']]],
+  ['base_5foffset',['base_offset',['../structshyft_1_1core_1_1time__zone_1_1boost__tz__info.html#a99997cdae072fe414184d38e8b5b1fb4',1,'shyft::core::time_zone::boost_tz_info::base_offset()'],['../structshyft_1_1core_1_1time__zone_1_1tz__info.html#a1b469774aa174b831afa74eb692c1c04',1,'shyft::core::time_zone::tz_info::base_offset()'],['../structshyft_1_1core_1_1time__zone_1_1tz__info_3_01tz__table_01_4.html#a049f9286f58fd918329597070497effe',1,'shyft::core::time_zone::tz_info&lt; tz_table &gt;::base_offset()']]],
   ['base_5ftz',['base_tz',['../structshyft_1_1core_1_1time__zone_1_1tz__info_3_01tz__table_01_4.html#ab4ed6a557f9dbc1534e12aeb6a2b566b',1,'shyft::core::time_zone::tz_info&lt; tz_table &gt;']]],
   ['basic_5fcell_5fstatistics',['basic_cell_statistics',['../structshyft_1_1api_1_1basic__cell__statistics.html',1,'shyft::api']]],
   ['basic_5fcell_5fstatistics',['basic_cell_statistics',['../structshyft_1_1api_1_1basic__cell__statistics.html#a52a6b3517697539850063c262f2a03ef',1,'shyft::api::basic_cell_statistics']]],

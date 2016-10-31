@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structshyft_1_1core_1_1precipitation__correction_1_1calculator" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="structshyft_1_1core_1_1precipitation__correction_1_1calculator" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::precipitation_correction::calculator</compoundname>
     <includes refid="precipitation__correction_8h" local="no">precipitation_correction.h</includes>
       <sectiondef kind="public-attrib">
@@ -15,8 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" line="33" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" bodystart="33" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" compoundref="precipitation__correction_8h" startline="37" endline="39">calc</referencedby>
+        <location file="/home/sih/projects/shyft/core/precipitation_correction.h" line="33" column="1" bodyfile="/home/sih/projects/shyft/core/precipitation_correction.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" line="35" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" bodystart="35" bodyend="35"/>
+        <location file="/home/sih/projects/shyft/core/precipitation_correction.h" line="35" column="1" bodyfile="/home/sih/projects/shyft/core/precipitation_correction.h" bodystart="35" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -53,19 +52,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" line="37" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" bodystart="37" bodyend="39"/>
-        <references refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a168286059c6c81f7b6f53089cd928b1a" compoundref="precipitation__correction_8h" startline="33">scale_factor</references>
-        <referencedby refid="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" compoundref="core_2hbv__stack_8h" startline="232" endline="340">shyft::core::hbv_stack::run_hbv_stack</referencedby>
-        <referencedby refid="namespaceshyft_1_1core_1_1pt__gs__k_1a4ef4369324700b0b99c28335e63a5ebc" compoundref="core_2pt__gs__k_8h" startline="245" endline="334">shyft::core::pt_gs_k::run_pt_gs_k</referencedby>
-        <referencedby refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="142" endline="221">shyft::core::pt_hs_k::run</referencedby>
-        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="152" endline="237">shyft::core::pt_ss_k::run</referencedby>
+        <location file="/home/sih/projects/shyft/core/precipitation_correction.h" line="37" column="1" bodyfile="/home/sih/projects/shyft/core/precipitation_correction.h" bodystart="37" bodyend="39"/>
+        <references refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" compoundref="precipitation__correction_8h" startline="27">shyft::core::precipitation_correction::parameter::scale_factor</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" compoundref="core_2hbv__stack_8h" startline="238" endline="309">shyft::core::hbv_stack::run_hbv_stack</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__gs__k_1a4ef4369324700b0b99c28335e63a5ebc" compoundref="core_2pt__gs__k_8h" startline="249" endline="319">shyft::core::pt_gs_k::run_pt_gs_k</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__hs__k_1a8f36026f35fc84f58d593fdd19cbab8d" compoundref="core_2pt__hs__k_8h" startline="151" endline="220">shyft::core::pt_hs_k::run</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="159" endline="225">shyft::core::pt_ss_k::run</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" line="32" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/precipitation_correction.h" bodystart="32" bodyend="40"/>
+    <location file="/home/sih/projects/shyft/core/precipitation_correction.h" line="32" column="1" bodyfile="/home/sih/projects/shyft/core/precipitation_correction.h" bodystart="32" bodyend="40"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" prot="public" virt="non-virtual"><scope>shyft::core::precipitation_correction::calculator</scope><name>calc</name></member>
       <member refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1aa7faa1bcd83f7dab3ab04dcbe8f6df8a" prot="public" virt="non-virtual"><scope>shyft::core::precipitation_correction::calculator</scope><name>calculator</name></member>

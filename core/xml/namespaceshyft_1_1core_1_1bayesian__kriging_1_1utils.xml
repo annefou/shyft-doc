@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils" kind="namespace">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils" kind="namespace" language="C++">
     <compoundname>shyft::core::bayesian_kriging::utils</compoundname>
       <sectiondef kind="func">
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1abdb85674cd17c702913d9e1f2a5b18fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -45,15 +45,37 @@
 <parametername>GP</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Parameter GeoPoint, supplies ::zscaled_distance(GP p1,GPp2 ,double zscale) </para></parameterdescription>
+<para>Parameter GeoPoint, that should have the zscaled_distance(GP p1,GPp2 ,double zscale) method defined </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>second point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>&apos;param&apos;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parameter containing zscale used </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <simplesect kind="return"><para>scaled distance. </para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="29" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="29" bodyend="32"/>
-        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">build_covariance_matrices</referencedby>
+        <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="33" column="1" bodyfile="/home/sih/projects/shyft/core/bayesian_kriging.h" bodystart="33" bodyend="36"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="85" endline="117">build_covariance_matrices</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a703cd1346c203a00dbbcf46412716339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -75,8 +97,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="34" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="34" bodyend="37"/>
-        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">build_covariance_matrices</referencedby>
+        <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="38" column="1" bodyfile="/home/sih/projects/shyft/core/bayesian_kriging.h" bodystart="38" bodyend="41"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="85" endline="117">build_covariance_matrices</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a5438ae2ae5992013db19b74c511847aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -109,8 +131,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="41" bodyend="44"/>
-        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="78" endline="110">build_covariance_matrices</referencedby>
+        <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="45" column="1" bodyfile="/home/sih/projects/shyft/core/bayesian_kriging.h" bodystart="45" bodyend="48"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="85" endline="117">build_covariance_matrices</referencedby>
         <referencedby refid="namespaceshyft_1_1core_1_1grf_1ab27eeaf5783a50e63a5a78e399cddc20" compoundref="gaussian__random__field_8h" startline="286" endline="315">shyft::core::grf::calculate_gibbs_weights</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -160,7 +182,7 @@
         <briefdescription>
 <para>Build the covariance matrices from sources and destinations. </para>        </briefdescription>
         <detaileddescription>
-<para><ref refid="namespace_the" kindref="compound">The</ref> Bayesian Temperature Kriging algorithm needs source-source and source-destination covariance matrices. Define <formula id="0">$p_1 = (x_1, y_1, z_1)$</formula> and <formula id="1">$p_2 = (x_2, y_2, z_2)$</formula>, two 3D points for the source/destination. Furthermore, define <formula id="2">$d=\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2 + (l(z_1-z_2))^2}$</formula>, where <formula id="3">$l$</formula> is a height scaling factor. Then, <formula id="4">\[ cov(p_1, p_2) = (s-n)e^{-\frac{d}{r}} \]</formula> where <formula id="5">$s$</formula> is the sill, <formula id="6">$n$</formula> is the nugget and <formula id="7">$r$</formula> is the range of the semivariogram.</para><para><parameterlist kind="templateparam"><parameteritem>
+<para>The Bayesian Temperature Kriging algorithm needs source-source and source-destination covariance matrices. Define <formula id="0">$p_1 = (x_1, y_1, z_1)$</formula> and <formula id="1">$p_2 = (x_2, y_2, z_2)$</formula>, two 3D points for the source/destination. Furthermore, define <formula id="2">$d=\sqrt{(x_1-x_2)^2 + (y_1-y_2)^2 + (l(z_1-z_2))^2}$</formula>, where <formula id="3">$l$</formula> is a height scaling factor. Then, <formula id="4">\[ cov(p_1, p_2) = (s-n)e^{-\frac{d}{r}} \]</formula> where <formula id="5">$s$</formula> is the sill, <formula id="6">$n$</formula> is the nugget and <formula id="7">$r$</formula> is the range of the semivariogram.</para><para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>S</parametername>
 </parameternamelist>
@@ -184,11 +206,34 @@
 </parameternamelist>
 <parameterdescription>
 <para>Parameters for the algorithm, that supplies:<orderedlist>
-<listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf72c12c99826bd5c9d95c9a1cceb0f7" kindref="member">parameter.sill() const </ref><ndash/>&gt; Sill value of the semivariogram</para></listitem><listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1adf5c047db7418aa9194b40d6f164ae1d" kindref="member">parameter.nug() const </ref><ndash/>&gt; Nugget value of the semivariogram</para></listitem><listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad62f25354193b8bf1655d61d4e586c7c" kindref="member">parameter.range() const </ref><ndash/>&gt; Range of the semivariogram</para></listitem><listitem><para>P.zscale() const <ndash/>&gt; Height scaling factor </para></listitem></orderedlist>
+<listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ad4a2f73512a37898c4937e6fad16cbd1" kindref="member">parameter.sill() const </ref><ndash/>&gt; Sill value of the semivariogram</para></listitem><listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1ab8114f1e25f62b20417c944997ab69e3" kindref="member">parameter.nug() const </ref><ndash/>&gt; Nugget value of the semivariogram</para></listitem><listitem><para><ref refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a88021d640956be11c082875258144cbd" kindref="member">parameter.range() const </ref><ndash/>&gt; Range of the semivariogram</para></listitem><listitem><para>P.zscale() const <ndash/>&gt; Height scaling factor </para></listitem></orderedlist>
 </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>source_begin</parametername>
+<parametername>source_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is specifying the range for the input sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destination_begin</parametername>
+<parametername>destination_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is specifying the range for the target of the interpolation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contains the parameter for the function </para></parameterdescription>
+</parameteritem>
+<parameteritem>
 <parameternamelist>
 <parametername>K</parametername>
 </parameternamelist>
@@ -206,11 +251,11 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="78" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="78" bodyend="110"/>
-        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1abdb85674cd17c702913d9e1f2a5b18fb" compoundref="bayesian__kriging_8h" startline="29" endline="32">scaled_dist</references>
-        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a5438ae2ae5992013db19b74c511847aa" compoundref="bayesian__kriging_8h" startline="41" endline="44">cov</references>
-        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a703cd1346c203a00dbbcf46412716339" compoundref="bayesian__kriging_8h" startline="34" endline="37">zero_dist_cov</references>
-        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" compoundref="bayesian__kriging_8h" startline="264" endline="386">shyft::core::bayesian_kriging::btk_interpolation</referencedby>
+        <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="85" column="1" bodyfile="/home/sih/projects/shyft/core/bayesian_kriging.h" bodystart="85" bodyend="117"/>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1abdb85674cd17c702913d9e1f2a5b18fb" compoundref="bayesian__kriging_8h" startline="33" endline="36">scaled_dist</references>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a5438ae2ae5992013db19b74c511847aa" compoundref="bayesian__kriging_8h" startline="45" endline="48">cov</references>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1a703cd1346c203a00dbbcf46412716339" compoundref="bayesian__kriging_8h" startline="38" endline="41">zero_dist_cov</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" compoundref="bayesian__kriging_8h" startline="273" endline="395">shyft::core::bayesian_kriging::btk_interpolation</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad36cfdd01f576a8673821c805762a9c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -273,6 +318,22 @@
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
+<parametername>source_begin</parametername>
+<parametername>source_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is specifying the range for the input sources </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destination_begin</parametername>
+<parametername>destination_end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is specifying the range for the target of the interpolation </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
 <parametername>F</parametername>
 </parameternamelist>
 <parameterdescription>
@@ -289,14 +350,14 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" bodystart="129" bodyend="145"/>
-        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" compoundref="bayesian__kriging_8h" startline="264" endline="386">shyft::core::bayesian_kriging::btk_interpolation</referencedby>
+        <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="138" column="1" bodyfile="/home/sih/projects/shyft/core/bayesian_kriging.h" bodystart="138" bodyend="154"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1bayesian__kriging_1a1e25e0fc84843780cbc8522fe33d254a" compoundref="bayesian__kriging_8h" startline="273" endline="395">shyft::core::bayesian_kriging::btk_interpolation</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/bayesian_kriging.h" line="16" column="1"/>
+    <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="17" column="1"/>
   </compounddef>
 </doxygen>

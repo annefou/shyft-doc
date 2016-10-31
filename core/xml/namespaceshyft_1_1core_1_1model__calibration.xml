@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="namespaceshyft_1_1core_1_1model__calibration" kind="namespace">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="namespaceshyft_1_1core_1_1model__calibration" kind="namespace" language="C++">
     <compoundname>shyft::core::model_calibration</compoundname>
-    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx" prot="public">shyft::core::model_calibration::dream_fx</innerclass>
-    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1sceua__fx" prot="public">shyft::core::model_calibration::sceua_fx</innerclass>
-    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1ts__transform" prot="public">shyft::core::model_calibration::ts_transform</innerclass>
-    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1target__specification" prot="public">shyft::core::model_calibration::target_specification</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" prot="public">shyft::core::model_calibration::area_ts</innerclass>
     <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__sca" prot="public">shyft::core::model_calibration::detect_snow_sca</innerclass>
     <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__sca_3_01_t_00_01decltype_07_t_1_1snow__sca_00_01void_07_08_08_4" prot="public">shyft::core::model_calibration::detect_snow_sca&lt; T, decltype(T::snow_sca, void())&gt;</innerclass>
     <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__swe" prot="public">shyft::core::model_calibration::detect_snow_swe</innerclass>
     <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1detect__snow__swe_3_01_t_00_01decltype_07_t_1_1snow__swe_00_01void_07_08_08_4" prot="public">shyft::core::model_calibration::detect_snow_swe&lt; T, decltype(T::snow_swe, void())&gt;</innerclass>
-    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" prot="public">shyft::core::model_calibration::area_ts</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx" prot="public">shyft::core::model_calibration::dream_fx</innerclass>
     <innerclass refid="classshyft_1_1core_1_1model__calibration_1_1optimizer" prot="public">shyft::core::model_calibration::optimizer</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1sceua__fx" prot="public">shyft::core::model_calibration::sceua_fx</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1target__specification" prot="public">shyft::core::model_calibration::target_specification</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1ts__transform" prot="public">shyft::core::model_calibration::ts_transform</innerclass>
       <sectiondef kind="enum">
       <memberdef kind="enum" id="namespaceshyft_1_1core_1_1model__calibration_1a1d095e2da6d4d8f6e04f7d731a7ba36e" prot="public" static="no">
         <name>target_spec_calc_type</name>
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="153" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="153" bodyend="156"/>
+        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="155" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="155" bodyend="158"/>
       </memberdef>
       <memberdef kind="enum" id="namespaceshyft_1_1core_1_1model__calibration_1a5668311af81a0424b26f96379c9ea756" prot="public" static="no">
         <name>catchment_property_type</name>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="159" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="159" bodyend="163"/>
+        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="161" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="161" bodyend="165"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="241" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="241" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="249" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="249" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -118,50 +118,57 @@
         <briefdescription>
 <para>Minimize the functional defined by model using the BOBYQA method. </para>        </briefdescription>
         <detaileddescription>
-<para>Solve the optimization problem defined by the model M using the Bounded Optimization by Quadratic Approximation method by Michael J. D. Powell. See the &quot;The BOBYQA Algorithm for Bound Constrained Optimization Without Derivatives&quot;, Technical report, Department of Applied Mathematics and Theoretical Physics, University of Cambridge, 2009.</para><para>We use the dlib implementation of this algorithm, see www.dlib.net/optimization.html::find_min_bobyqa.</para><para><parameterlist kind="templateparam"><parameteritem>
+<para>Solve the optimization problem defined by the model M using the Bounded Optimization by Quadratic Approximation method by Michael J. D. Powell. See the &quot;The BOBYQA Algorithm for Bound Constrained Optimization Without Derivatives&quot;, Technical report, Department of Applied Mathematics and Theoretical Physics, University of Cambridge, 2009.</para><para>We use the dlib implementation of this algorithm, see <ulink url="www.dlib.net/optimization.html#find_min_bobyqa">dlib bobyqua</ulink>.</para><para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>M</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Model to be optimized, implementing the interface:<itemizedlist>
-<listitem><para>double operator()(const dlib::matrix&lt;double, 0, 1&gt; params) <ndash/>&gt; Evaluate the functional for parameter set params. -vector&lt;double&gt; to_scaled(std::vector&lt;double&gt; params) <ndash/>&gt; Scale original parameters to [0,1] -vector&lt;double&gt; from_scaled(const dlib::matrix&lt;double, 0, 1&gt; scaled_params) <ndash/>&gt; Unscale parameters </para></listitem></itemizedlist>
+<para>Model to be optimized, implementing the interface:<orderedlist>
+<listitem><para>double operator()(const dlib::matrix&lt;double, 0, 1&gt; params) <ndash/>&gt; Evaluate the functional for parameter set params.</para></listitem><listitem><para>vector&lt;double&gt; to_scaled(std::vector&lt;double&gt; params) <ndash/>&gt; Scale original parameters to [0,1]</para></listitem><listitem><para>vector&lt;double&gt; from_scaled(const dlib::matrix&lt;double, 0, 1&gt; scaled_params) <ndash/>&gt; Unscale parameters </para></listitem></orderedlist>
 </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 <parameterlist kind="param"><parameteritem>
 <parameternamelist>
+<parametername>model</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the model to be optimized </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
 <parametername>x</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ndash/>&gt; Initial guess </para></parameterdescription>
+<para>Initial guess </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>max_n_evaluations</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ndash/>&gt; stop/throw if not converging after n evaluations </para></parameterdescription>
+<para>stop/throw if not converging after n evaluations </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>tr_start</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ndash/>&gt; Initial trust region radius </para></parameterdescription>
+<para>Initial trust region radius </para></parameterdescription>
 </parameteritem>
 <parameteritem>
 <parameternamelist>
 <parametername>tr_stop</parametername>
 </parameternamelist>
 <parameterdescription>
-<para><ndash/>&gt; Stopping trust region radiusTemplate class to transform model evaluation into something that dream can run </para></parameterdescription>
+<para>Stopping trust region radiusTemplate class to transform model evaluation into something that dream can run </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="30" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="30" bodyend="-1"/>
-        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" compoundref="model__calibration_8h" startline="472" endline="481">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</referencedby>
+        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="31" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" compoundref="model__calibration_8h" startline="480" endline="489">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1model__calibration_1a220dadd8e1f05e89b7a8d866f2af1d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -222,8 +229,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="75" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="75" bodyend="-1"/>
-        <references refid="classshyft_1_1core_1_1optimizer_1_1dream_1ab8de8cd02866692d22de36a1402f1920" compoundref="dream__optimizer_8cpp" startline="9" endline="287">shyft::core::optimizer::dream::find_max</references>
+        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="76" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="76" bodyend="-1"/>
+        <references refid="classshyft_1_1core_1_1optimizer_1_1dream_1a50bc04e18e06cdbdfed4f932e360e832" compoundref="dream__optimizer_8cpp" startline="9" endline="287">shyft::core::optimizer::dream::find_max</references>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1model__calibration_1a382ab7d062b7bfa5337fd166f81c83e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -277,7 +284,14 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername>max_n_iterations</parametername>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting point for the parameters </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_n_evaluations</parametername>
 </parameternamelist>
 <parameterdescription>
 <para>stop after max_n_interations reached(keep best x until then) </para></parameterdescription>
@@ -309,18 +323,18 @@
 </para>        </detaileddescription>
         <inbodydescription>
 <para>normalized range is 0..1 so is min..max </para>        </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="106" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" bodystart="106" bodyend="127"/>
-        <references refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" compoundref="optimizer__utils_8h" startline="41">__autoalloc__</references>
-        <references refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a8cfa9bcb3fe1ea15ef548c360bd123a7" compoundref="sceua__optimizer_8cpp" startline="10" endline="107">shyft::core::optimizer::sceua::find_min</references>
+        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="108" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="108" bodyend="129"/>
+        <references refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" compoundref="optimizer__utils_8h" startline="42">__autoalloc__</references>
+        <references refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a6a357fe2862dd062b65a01180c450bb9" compoundref="sceua__optimizer_8cpp" startline="10" endline="107">shyft::core::optimizer::sceua::find_min</references>
         <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda81d68d9ca3c686ab5b8281c848e4b895" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedFxConvergence</references>
         <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdac7c88fac2a9aa0013d4176be2fea4062" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedXconvergence</references>
-        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" compoundref="model__calibration_8h" startline="524" endline="532">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" compoundref="model__calibration_8h" startline="532" endline="540">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h" line="11" column="1"/>
+    <location file="/home/sih/projects/shyft/core/model_calibration.h" line="11" column="1"/>
   </compounddef>
 </doxygen>

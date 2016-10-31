@@ -1,140 +1,140 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="priestley__taylor_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="priestley__taylor_8h" kind="file" language="C++">
     <compoundname>priestley_taylor.h</compoundname>
-    <includedby refid="region__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h</includedby>
-    <includedby refid="core_2pt__gs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h</includedby>
-    <includedby refid="core_2pt__hs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h</includedby>
-    <includedby refid="core_2hbv__stack_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h</includedby>
-    <includedby refid="core_2pt__ss__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h</includedby>
+    <includedby refid="region__model_8h" local="yes">/home/sih/projects/shyft/core/region_model.h</includedby>
+    <includedby refid="core_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_gs_k.h</includedby>
+    <includedby refid="core_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_hs_k.h</includedby>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/home/sih/projects/shyft/core/hbv_stack.h</includedby>
+    <includedby refid="core_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k.h</includedby>
     <invincdepgraph>
-      <node id="2199">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h</label>
+      <node id="870">
+        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
         <link refid="api_2pt__ss__k_8h"/>
       </node>
-      <node id="2197">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h</label>
-        <link refid="core_2pt__ss__k_8h"/>
-        <childnode refid="2198" relation="include">
-        </childnode>
-        <childnode refid="2199" relation="include">
+      <node id="856">
+        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="857" relation="include">
         </childnode>
       </node>
-      <node id="2189">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h</label>
-        <link refid="pt__gs__k__cell__model_8h"/>
-        <childnode refid="2183" relation="include">
-        </childnode>
-        <childnode refid="2186" relation="include">
+      <node id="863">
+        <label>/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="857" relation="include">
         </childnode>
       </node>
-      <node id="2196">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h</label>
+      <node id="867">
+        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
         <link refid="api_2hbv__stack_8h"/>
       </node>
-      <node id="2185">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h</label>
-        <link refid="model__calibration_8h"/>
-        <childnode refid="2186" relation="include">
-        </childnode>
-      </node>
-      <node id="2181">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/priestley_taylor.h</label>
-        <link refid="priestley_taylor.h"/>
-        <childnode refid="2182" relation="include">
-        </childnode>
-        <childnode refid="2188" relation="include">
-        </childnode>
-        <childnode refid="2191" relation="include">
-        </childnode>
-        <childnode refid="2194" relation="include">
-        </childnode>
-        <childnode refid="2197" relation="include">
-        </childnode>
-      </node>
-      <node id="2188">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h</label>
-        <link refid="core_2pt__gs__k_8h"/>
-        <childnode refid="2182" relation="include">
-        </childnode>
-        <childnode refid="2189" relation="include">
-        </childnode>
-        <childnode refid="2190" relation="include">
-        </childnode>
-      </node>
-      <node id="2186">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
+      <node id="857">
+        <label>/home/sih/projects/shyft/api/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="2187" relation="include">
+        <childnode refid="858" relation="include">
         </childnode>
       </node>
-      <node id="2195">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack_cell_model.h</label>
-        <link refid="hbv__stack__cell__model_8h"/>
-        <childnode refid="2186" relation="include">
-        </childnode>
+      <node id="864">
+        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
+        <link refid="api_2pt__hs__k_8h"/>
       </node>
-      <node id="2192">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h</label>
-        <link refid="pt__hs__k__cell__model_8h"/>
-        <childnode refid="2186" relation="include">
-        </childnode>
-      </node>
-      <node id="2182">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h</label>
-        <link refid="region__model_8h"/>
-        <childnode refid="2183" relation="include">
-        </childnode>
-        <childnode refid="2185" relation="include">
-        </childnode>
-        <childnode refid="2186" relation="include">
-        </childnode>
-      </node>
-      <node id="2191">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h</label>
-        <link refid="core_2pt__hs__k_8h"/>
-        <childnode refid="2182" relation="include">
-        </childnode>
-        <childnode refid="2192" relation="include">
-        </childnode>
-        <childnode refid="2193" relation="include">
-        </childnode>
-      </node>
-      <node id="2194">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/hbv_stack.h</label>
+      <node id="865">
+        <label>/home/sih/projects/shyft/core/hbv_stack.h</label>
         <link refid="core_2hbv__stack_8h"/>
-        <childnode refid="2195" relation="include">
+        <childnode refid="866" relation="include">
         </childnode>
-        <childnode refid="2196" relation="include">
+        <childnode refid="867" relation="include">
         </childnode>
       </node>
-      <node id="2190">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_gs_k.h</label>
+      <node id="869">
+        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="857" relation="include">
+        </childnode>
+      </node>
+      <node id="860">
+        <label>/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+      </node>
+      <node id="859">
+        <label>/home/sih/projects/shyft/core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="861" relation="include">
+        </childnode>
+      </node>
+      <node id="861">
+        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
         <link refid="api_2pt__gs__k_8h"/>
       </node>
-      <node id="2184">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</label>
+      <node id="862">
+        <label>/home/sih/projects/shyft/core/pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+      </node>
+      <node id="855">
+        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
         <link refid="experimental_8cpp"/>
       </node>
-      <node id="2183">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h</label>
+      <node id="853">
+        <label>/home/sih/projects/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>/home/sih/projects/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="857" relation="include">
+        </childnode>
+      </node>
+      <node id="854">
+        <label>/home/sih/projects/shyft/core/experimental.h</label>
         <link refid="experimental_8h"/>
-        <childnode refid="2184" relation="include">
+        <childnode refid="855" relation="include">
         </childnode>
       </node>
-      <node id="2198">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h</label>
-        <link refid="pt__ss__k__cell__model_8h"/>
-        <childnode refid="2186" relation="include">
-        </childnode>
-      </node>
-      <node id="2187">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+      <node id="858">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
         <link refid="api_8cpp"/>
       </node>
-      <node id="2193">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_hs_k.h</label>
-        <link refid="api_2pt__hs__k_8h"/>
+      <node id="868">
+        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>/home/sih/projects/shyft/core/priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="859" relation="include">
+        </childnode>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter" prot="public">shyft::core::priestley_taylor::parameter</innerclass>
@@ -148,16 +148,16 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
-<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">shyft<sp/>{</highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
 <codeline lineno="23" refid="namespaceshyft_1_1core_1_1priestley__taylor" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">priestley_taylor<sp/>{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
 <codeline lineno="26" refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref><sp/>=<sp/>0.2;</highlight></codeline>
 <codeline lineno="27" refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref><sp/>=<sp/>1.26;</highlight></codeline>
-<codeline lineno="28" refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1aa5e8577da8180114bd55cdb9b39f2cae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1aa5e8577da8180114bd55cdb9b39f2cae" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref>=0.2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>=1.26)<sp/>:<sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref>(<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref>),<sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>(<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="28" refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1aa5e8577da8180114bd55cdb9b39f2cae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1aa5e8577da8180114bd55cdb9b39f2cae" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>albedo=0.2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha=1.26)<sp/>:<sp/>albedo(albedo),<sp/>alpha(alpha)<sp/>{<sp/>}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
@@ -165,26 +165,26 @@
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35" refid="structshyft_1_1core_1_1priestley__taylor_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
-<codeline lineno="36" refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" kindref="member">pot_evapotranspiration</ref><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="36" refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pot_evapotranspiration<sp/>=<sp/>0.0;</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator" kindref="compound">calculator</ref><sp/>{</highlight></codeline>
-<codeline lineno="55" refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a071533ceea9f922953aa8076ce60dd0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a071533ceea9f922953aa8076ce60dd0e" kindref="member">calculator</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>land_albedo,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha)</highlight></codeline>
+<codeline lineno="55" refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a071533ceea9f922953aa8076ce60dd0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a071533ceea9f922953aa8076ce60dd0e" kindref="member">calculator</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>land_albedo,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>)</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>land_albedo(land_albedo),<sp/>alpha(alpha)<sp/>{</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WIN32</highlight></codeline>
-<codeline lineno="58"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ck2[0]<sp/>=<sp/>17.84362;<sp/>ck2[1]<sp/>=<sp/>17.08085;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ck2[0]<sp/>=<sp/>17.84362;<sp/>ck2[1]<sp/>=<sp/>17.08085;</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ck3[0]<sp/>=<sp/>245.425;<sp/>ck3[1]<sp/>=<sp/>234.175;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="70" refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a3c764b67a4b123cdce39b556e41a000c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a3c764b67a4b123cdce39b556e41a000c" kindref="member">potential_evapotranspiration</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temperature,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>global_radiation,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhumidity)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70" refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a7c5b732192e15e33f2471a405d144b2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a7c5b732192e15e33f2471a405d144b2f" kindref="member">potential_evapotranspiration</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temperature,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>global_radiation,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rhumidity)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>temperature<sp/>&lt;<sp/>0<sp/>?<sp/>0<sp/>:<sp/>1;<sp/><sp/></highlight><highlight class="comment">//select<sp/>negative<sp/>or<sp/>positive<sp/>set<sp/>of<sp/>ck[]<sp/>constants</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ctt_inv<sp/>=<sp/>1<sp/>/<sp/>(ck3[i]<sp/>+<sp/>temperature);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sat_pressure<sp/>=<sp/>ck1*exp(ck2[i]<sp/>*<sp/>temperature*ctt_inv);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>delta<sp/>=<sp/>sat_pressure*ck2[i]<sp/>*<sp/>ck3[i]<sp/>*<sp/>ctt_inv*ctt_inv;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vapour_pressure<sp/>=<sp/>sat_pressure*rhumidity;</highlight><highlight class="comment">//<sp/>actual<sp/>vapour<sp/>pressure,[kPa]</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>epot<sp/>=<sp/>alpha*delta*net_radiation(temperature,<sp/>global_radiation,<sp/>rhumidity,<sp/>vapour_pressure)<sp/>/<sp/>(delta<sp/>+<sp/>psycr);</highlight><highlight class="comment">//<sp/>main<sp/>P-T<sp/>equation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>epot<sp/>=<sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>*delta*net_radiation(temperature,<sp/>global_radiation,<sp/>rhumidity,<sp/>vapour_pressure)<sp/>/<sp/>(delta<sp/>+<sp/>psycr);</highlight><highlight class="comment">//<sp/>main<sp/>P-T<sp/>equation</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(epot<sp/>&lt;<sp/>0.0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>epot<sp/>/</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(2500780<sp/>-<sp/>2361<sp/>*<sp/>temperature);<sp/></highlight><highlight class="comment">//<sp/>Latent<sp/>heat<sp/>of<sp/>vaporisation<sp/>[J/kg],<sp/>Energy<sp/>required<sp/>per<sp/>water<sp/>volume<sp/>vaporized</highlight><highlight class="normal"></highlight></codeline>
@@ -199,22 +199,22 @@
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bolz<sp/>=<sp/>0.0000000567;</highlight><highlight class="comment">//<sp/>Stephan-Bolzman<sp/>constant<sp/>[W/(m²<sp/>K⁴)]</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>psycr<sp/>=<sp/>0.066;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>psycometric<sp/>constant<sp/>[<sp/>kPa/C<sp/>]</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck1<sp/>=<sp/>0.610780;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//cck4&amp;ck7,equal<sp/>originally(KE)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>WIN32</highlight></codeline>
-<codeline lineno="102"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck2[2]<sp/>=<sp/>{17.84362,17.08085};</highlight><highlight class="comment">//ck5,ck8<sp/>neg<sp/>and<sp/>pos<sp/>temp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck2[2]<sp/>=<sp/>{17.84362,17.08085};</highlight><highlight class="comment">//ck5,ck8<sp/>neg<sp/>and<sp/>pos<sp/>temp</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck3[2]<sp/>=<sp/>{245.425,234.175<sp/><sp/>};</highlight><highlight class="comment">//ck6,ck9</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
-<codeline lineno="105"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck2[2];</highlight><highlight class="comment">//=<sp/>{17.84362,17.08085};//ck5,ck8<sp/>neg<sp/>and<sp/>pos<sp/>temp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck2[2];</highlight><highlight class="comment">//=<sp/>{17.84362,17.08085};//ck5,ck8<sp/>neg<sp/>and<sp/>pos<sp/>temp</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ck3[2];<sp/></highlight><highlight class="comment">//=<sp/>{245.425,234.175<sp/><sp/>};//ck6,ck9</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
-<codeline lineno="109"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>land_albedo;</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>alpha;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>land_albedo;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>;</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/priestley_taylor.h"/>
+    <location file="/home/sih/projects/shyft/core/priestley_taylor.h"/>
   </compounddef>
 </doxygen>
