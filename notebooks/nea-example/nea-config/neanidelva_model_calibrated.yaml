@@ -4,28 +4,30 @@ model_parameters:
     ae_scale_factor: 1.5
   gamma_snow:
     calculate_iso_pot_energy: false
-    fast_albedo_decay_rate: 11.371919806680037
+    fast_albedo_decay_rate: 11.371903387653106
     glacier_albedo: 0.4
     initial_bare_ground_fraction: 0.04
     max_albedo: 0.9
     max_water: 0.1
-    min_albedo: 0.4643503156438928
-    slow_albedo_decay_rate: 28.501893115715276
+    min_albedo: 0.46434971830626237
+    slow_albedo_decay_rate: 28.501833586582364
     snow_cv: 0.4
     snow_cv_altitude_factor: 0.0
     snow_cv_forest_factor: 0.0
     snowfall_reset_depth: 5.0
     surface_magnitude: 30.0
-    tx: -0.6474264672422363
-    wind_const: 3.4075531446243805
-    wind_scale: 3.262926595042451
+    tx: -0.6473758038145907
+    wind_const: 3.407538407452003
+    wind_scale: 3.262907367453393
     winter_end_day_of_year: 100
+  glacier_melt:
+    dtf: 6.0
   kirchner:
-    c1: -3.6121235271420766
-    c2: 0.4113695224324908
-    c3: -0.01829707851768475
+    c1: -3.6121259726898716
+    c2: 0.41137128421408387
+    c3: -0.018296115768543425
   precipitation_correction:
-    scale_factor: 1.0352520731222254
+    scale_factor: 1.0352570657910802
   priestley_taylor:
     albedo: 0.2
     alpha: 1.26
