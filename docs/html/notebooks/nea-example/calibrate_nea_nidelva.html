@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Running a calibration with SHyFT &#8212; Shyft 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="top" title="Shyft 0.1 documentation" href="../../index.html" />
+    <link rel="up" title="Notebooks" href="../../notebook.html" />
+    <link rel="next" title="Demonstration of SHyFT API implementation of Kalman Filtering on gridded data" href="../grid-pp/gridpp_geopoints.html" />
+    <link rel="prev" title="Running a simulation with SHyFT" href="run_nea_nidelva.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../grid-pp/gridpp_geopoints.html" title="Demonstration of SHyFT API implementation of Kalman Filtering on gridded data"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="run_nea_nidelva.html" title="Running a simulation with SHyFT"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../getting_started.html" >Getting Started</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../notebook.html" accesskey="U">Notebooks</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput,
+div.nbinput > div,
+div.nbinput div[class^=highlight],
+div.nbinput div[class^=highlight] pre,
+div.nboutput,
+div.nboutput > div,
+div.nboutput div[class^=highlight],
+div.nboutput div[class^=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput div[class^=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput,
+div.nboutput {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+/* input container */
+div.nbinput {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput > :first-child pre {
+    color: #303F9F;
+}
+
+/* output prompt */
+div.nboutput > :first-child pre {
+    color: #D84315;
+}
+
+/* all prompts */
+div.nbinput > :first-child[class^=highlight],
+div.nboutput > :first-child[class^=highlight],
+div.nboutput > :first-child {
+    min-width: 8ex;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
+    text-align: right;
+    flex: 0;
+}
+
+/* input/output area */
+div.nbinput > :nth-child(2)[class^=highlight],
+div.nboutput > :nth-child(2),
+div.nboutput > :nth-child(2)[class^=highlight] {
+    padding: 0.4em;
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+
+/* input area */
+div.nbinput > :nth-child(2)[class^=highlight] {
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    background: #f7f7f7;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.pngmath center alignment in output cells */
+div.nboutput div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput  > :nth-child(2).stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="section" id="Running-a-calibration-with-SHyFT">
+<h1>Running a calibration with SHyFT<a class="headerlink" href="#Running-a-calibration-with-SHyFT" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:">
+<h2>This notebook is guiding through the simulation process of a catchment. The following steps are described:<a class="headerlink" href="#This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><strong>Loading required python modules and setting path to SHyFT
+installation</strong></li>
+<li><strong>Configuration of a SHyFT calibration</strong></li>
+<li><strong>Running a SHyFT calibration</strong></li>
+<li><strong>Inspecting the calibration results</strong></li>
+</ol>
+</div>
+<div class="section" id="1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">
+<h2>1. Loading required python modules and setting path to SHyFT installation<a class="headerlink" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [1]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># importing thrid-party python modules</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [2]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># setting the path to the shyft build</span>
+<span class="n">shyft_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">&quot;../../../shyft&quot;</span><span class="p">)</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">shyft_path</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [3]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># importing the shyft modules needed for running a calibration</span>
+<span class="kn">from</span> <span class="nn">shyft.repository.default_state_repository</span> <span class="kn">import</span> <span class="n">DefaultStateRepository</span>
+<span class="kn">from</span> <span class="nn">shyft.orchestration.configuration.yaml_configs</span> <span class="kn">import</span> <span class="n">YAMLCalibConfig</span>
+<span class="kn">from</span> <span class="nn">shyft.orchestration.simulators.config_simulator</span> <span class="kn">import</span> <span class="n">ConfigCalibrator</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="2.-Configuration-of-a-SHyFT-calibration">
+<h2>2. Configuration of a SHyFT calibration<a class="headerlink" href="#2.-Configuration-of-a-SHyFT-calibration" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput nblast container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [4]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># set up configuration using *.yaml configuration files</span>
+<span class="n">config_file_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">&quot;./nea-config/neanidelva_calibration.yaml&quot;</span><span class="p">)</span> <span class="c1"># here is the *.yaml file</span>
+<span class="n">cfg</span> <span class="o">=</span> <span class="n">YAMLCalibConfig</span><span class="p">(</span><span class="n">config_file_path</span><span class="p">,</span> <span class="s2">&quot;neanidelva&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [5]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># initialize an instance of the orchestration&#39;s ConfigCalcalibrator class, which has all the functionality needed</span>
+<span class="c1"># to run a calibration using the above initiated configuration</span>
+<span class="n">calib</span> <span class="o">=</span> <span class="n">ConfigCalibrator</span><span class="p">(</span><span class="n">cfg</span><span class="p">)</span>
+<span class="n">n_cells</span> <span class="o">=</span> <span class="n">calib</span><span class="o">.</span><span class="n">region_model</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+<span class="n">state_repos</span> <span class="o">=</span> <span class="n">DefaultStateRepository</span><span class="p">(</span><span class="n">calib</span><span class="o">.</span><span class="n">region_model</span><span class="o">.</span><span class="n">__class__</span><span class="p">,</span> <span class="n">n_cells</span><span class="p">)</span>
+<span class="c1">#calib.init()</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+Creating TargetSpecificationVector...
+</pre></div></div>
+</div>
+</div>
+<div class="section" id="3.-Running-a-SHyFT-calibration">
+<h2>3. Running a SHyFT calibration<a class="headerlink" href="#3.-Running-a-SHyFT-calibration" title="Permalink to this headline">¶</a></h2>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [6]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># once the calibrator is set up, all you need to do is running the calibration...</span>
+<span class="c1"># the calibrated parameters are stored in a model.yaml.</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">calib</span><span class="o">.</span><span class="n">calibrate</span><span class="p">(</span><span class="n">cfg</span><span class="o">.</span><span class="n">sim_config</span><span class="o">.</span><span class="n">time_axis</span><span class="p">,</span> <span class="n">state_repos</span><span class="o">.</span><span class="n">get_state</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span>
+                          <span class="n">cfg</span><span class="o">.</span><span class="n">optimization_method</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span>
+                          <span class="n">cfg</span><span class="o">.</span><span class="n">optimization_method</span><span class="p">[</span><span class="s1">&#39;params&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+Calibrating...
+Storing calibrated params in: /Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft-doc/notebooks/nea-example/nea-config/neanidelva_model_calibrated.yaml
+</pre></div></div>
+</div>
+</div>
+<div class="section" id="4.-Inspecting-the-calibration-results">
+<h2>4. Inspecting the calibration results<a class="headerlink" href="#4.-Inspecting-the-calibration-results" title="Permalink to this headline">¶</a></h2>
+<p>First the Nash-Suttcliffe-efficiency of the calibrated simulation is
+computed to see the quality of the calibration. Then the calibrated
+model parameters are accessed and printed out.</p>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [7]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># Get NSE of calibrated run:</span>
+<span class="n">result_params</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">size</span><span class="p">()):</span>
+    <span class="n">result_params</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;Final NSE =&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="o">-</span><span class="n">calib</span><span class="o">.</span><span class="n">optimizer</span><span class="o">.</span><span class="n">calculate_goal_function</span><span class="p">(</span><span class="n">result_params</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+Final NSE = 0.7716933295352117
+</pre></div></div>
+</div>
+<div class="nbinput container">
+<div class="highlight-none"><div class="highlight"><pre>
+<span></span>In [22]:
+</pre></div>
+</div>
+<div class="highlight-ipython3"><div class="highlight"><pre>
+<span></span><span class="c1"># Check out the calibrated parameters.</span>
+
+<span class="n">diff</span> <span class="o">=</span> <span class="mf">1.0E-3</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&quot;{0:30s} {1:10s}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;PARAM-NAME&quot;</span><span class="p">,</span> <span class="s2">&quot;CALIB-VALUE&quot;</span><span class="p">))</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">size</span><span class="p">()):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;{0:30s} {1:10f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">results</span><span class="o">.</span><span class="n">get_name</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="n">results</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">i</span><span class="p">)))</span>
+
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast container">
+<div class="container">
+</div>
+<div class="container">
+<div class="highlight"><pre>
+PARAM-NAME                     CALIB-VALUE
+kirchner.c1                     -3.612124
+kirchner.c2                      0.411370
+kirchner.c3                     -0.018297
+ae.ae_scale_factor               1.500000
+gs.tx                           -0.647426
+gs.wind_scale                    3.262927
+gs.max_water                     0.100000
+gs.wind_const                    3.407553
+gs.fast_albedo_decay_rate       11.371920
+gs.slow_albedo_decay_rate       28.501893
+gs.surface_magnitude            30.000000
+gs.max_albedo                    0.900000
+gs.min_albedo                    0.464350
+gs.snowfall_reset_depth          5.000000
+gs.snow_cv                       0.400000
+gs.glacier_albedo                0.400000
+p_corr.scale_factor              1.035252
+gs.snow_cv_forest_factor         0.000000
+gs.snow_cv_altitude_factor       0.000000
+pt.albedo                        0.200000
+pt.alpha                         1.260000
+gs.initial_bare_ground_fraction   0.040000
+gs.winter_end_day_of_year      100.000000
+gs.calculate_iso_pot_energy      0.000000
+</pre></div></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Running a calibration with SHyFT</a><ul>
+<li><a class="reference internal" href="#This-notebook-is-guiding-through-the-simulation-process-of-a-catchment.-The-following-steps-are-described:">This notebook is guiding through the simulation process of a catchment. The following steps are described:</a></li>
+<li><a class="reference internal" href="#1.-Loading-required-python-modules-and-setting-path-to-SHyFT-installation">1. Loading required python modules and setting path to SHyFT installation</a></li>
+<li><a class="reference internal" href="#2.-Configuration-of-a-SHyFT-calibration">2. Configuration of a SHyFT calibration</a></li>
+<li><a class="reference internal" href="#3.-Running-a-SHyFT-calibration">3. Running a SHyFT calibration</a></li>
+<li><a class="reference internal" href="#4.-Inspecting-the-calibration-results">4. Inspecting the calibration results</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="run_nea_nidelva.html"
+                        title="previous chapter">Running a simulation with SHyFT</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="../grid-pp/gridpp_geopoints.html"
+                        title="next chapter">Demonstration of SHyFT API implementation of Kalman Filtering on gridded data</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/notebooks/nea-example/calibrate_nea_nidelva.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../grid-pp/gridpp_geopoints.html" title="Demonstration of SHyFT API implementation of Kalman Filtering on gridded data"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="run_nea_nidelva.html" title="Running a simulation with SHyFT"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">Shyft 0.1 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../getting_started.html" >Getting Started</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../notebook.html" >Notebooks</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>
