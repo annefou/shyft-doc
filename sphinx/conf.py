@@ -18,7 +18,9 @@ import shutil
 on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
 if on_rtd:
-    shutil.copytree('../notebooks', 'notebooks')
+  if os.path.exists('notebooks/'):
+    shutil.rmtree('notebooks', ignore_errors=True)
+  shutil.copytree('../notebooks', 'notebooks')
 else:
     pass
 
