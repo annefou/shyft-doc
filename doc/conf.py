@@ -16,6 +16,7 @@ import sys
 import os
 import shutil
 
+shutil.copytree('../notebooks', 'notebooks')
 
 
 # If extensions (or modules to document with autodoc) are in another directory,

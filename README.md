@@ -8,8 +8,13 @@ This repository contains the documentation for
 [Shyft](https://github.com/statkraft/shyft). Currently two documentation
 platforms are being used: 
 
-* doxygen for the C++ code
-* sphinx for the Python code
+* [doxygen](http://www.stack.nl/~dimitri/doxygen/) for the C++ code
+* [sphinx](http://www.sphinx-doc.org) for the Python code
+
+If you are reading this page, it assumes you are interested in contributing to the Shyft documentation. If you are looking *for* the Shyft documentation, the please see here:
+
+[Shyft Documentation](https://shyft.readthedocs.org)
+
 
 CONTRIBUTING
 ============

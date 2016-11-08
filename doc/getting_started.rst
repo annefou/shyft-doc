@@ -12,7 +12,7 @@ Instructions for building and compiling Shyft are available on the github wiki:
 Installing
 ----------
 
-Once you tested you SHyFT package you can install it in your system via::
+Once you tested you Shyft package you can install it in your system via::
 
     $ python setup.py install
 
@@ -20,7 +20,7 @@ Once you tested you SHyFT package you can install it in your system via::
 Testing
 -------
 
-The way to test SHyFT is by running::
+The way to test Shyft is by running::
 
   $ nosetests
 
@@ -31,7 +31,7 @@ The test suite is not very comprehensive yet, but at least would provide indicat
 Running a small example
 -----------------------
 
-The best way to get started with Shyft is to work on some of the [notebooks](notebook.rst) that we have developed.
+The best way to get started with Shyft is to work on some of the notebooks that we have developed.
 
 .. toctree::
    :maxdepth: 2
