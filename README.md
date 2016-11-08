@@ -13,7 +13,7 @@ platforms are being used:
 
 If you are reading this page, it assumes you are interested in contributing to the Shyft documentation. If you are looking *for* the Shyft documentation, the please see here:
 
-[Shyft Documentation](https://shyft.readthedocs.org)
+[Shyft Documentation](https://statkraft.github.io/shyft-doc/index.html)
 
 
 CONTRIBUTING
