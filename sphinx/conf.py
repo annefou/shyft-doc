@@ -15,8 +15,12 @@
 import sys
 import os
 import shutil
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
-# shutil.copytree('../notebooks', 'notebooks')
+if on_rtd:
+    shutil.copytree('../notebooks', 'notebooks')
+else:
+    pass
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
