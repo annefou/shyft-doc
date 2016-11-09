@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['c',['c',['../structshyft_1_1time__axis_1_1generic__dt.html#ada40bf65d34824815d4f79779d9484a2',1,'shyft::time_axis::generic_dt']]],
+  ['c',['c',['../structshyft_1_1core_1_1kriging_1_1covariance_1_1exponential.html#a48bf92a4be7151a3606a76ade3fc58b0',1,'shyft::core::kriging::covariance::exponential::c()'],['../structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian.html#a5dcd8b8949847dd1eb1b0dd48052b4c0',1,'shyft::core::kriging::covariance::gaussian::c()'],['../structshyft_1_1time__axis_1_1generic__dt.html#ada40bf65d34824815d4f79779d9484a2',1,'shyft::time_axis::generic_dt::c()']]],
   ['c1',['c1',['../structshyft_1_1core_1_1kirchner_1_1parameter.html#abc2369e4cb16f19cb72ca291b8730a9e',1,'shyft::core::kirchner::parameter']]],
   ['c2',['c2',['../structshyft_1_1core_1_1kirchner_1_1parameter.html#aeeb870690f99292f803666806550f59d',1,'shyft::core::kirchner::parameter']]],
   ['c3',['c3',['../structshyft_1_1core_1_1kirchner_1_1parameter.html#aac692b11df207a423a74d7e34343746a',1,'shyft::core::kirchner::parameter']]],

@@ -26,12 +26,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="118" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="118" bodyend="119"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="109" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="109" bodyend="110"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1_wind_speed_source_1a127d7600a152fb9503fd01848d536a2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1_wind_speed_source_1af8036c12ea8d4fe8a2c81f74df15c7cf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
         <definition>bool shyft::api::WindSpeedSource::operator==</definition>
-        <argsstring>(const WindSpeedSource &amp;x)</argsstring>
+        <argsstring>(const WindSpeedSource &amp;x) const</argsstring>
         <name>operator==</name>
         <param>
           <type>const <ref refid="structshyft_1_1api_1_1_wind_speed_source" kindref="compound">WindSpeedSource</ref> &amp;</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="120" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="120" bodyend="120"/>
+        <location file="/home/sih/projects/shyft/api/api.h" line="111" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="111" bodyend="111"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -51,44 +51,44 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="757">
+      <node id="761">
         <label>shyft::api::WindSpeedSource</label>
         <link refid="structshyft_1_1api_1_1_wind_speed_source"/>
-        <childnode refid="758" relation="public-inheritance">
+        <childnode refid="762" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="758">
+      <node id="762">
         <label>shyft::api::GeoPointSource</label>
         <link refid="classshyft_1_1api_1_1_geo_point_source"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="759">
+      <node id="763">
         <label>shyft::api::WindSpeedSource</label>
         <link refid="structshyft_1_1api_1_1_wind_speed_source"/>
-        <childnode refid="760" relation="public-inheritance">
+        <childnode refid="764" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="761">
+      <node id="765">
         <label>shyft::core::geo_point</label>
         <link refid="structshyft_1_1core_1_1geo__point"/>
       </node>
-      <node id="762">
+      <node id="766">
         <label>shyft::api::apoint_ts</label>
         <link refid="classshyft_1_1api_1_1apoint__ts"/>
       </node>
-      <node id="760">
+      <node id="764">
         <label>shyft::api::GeoPointSource</label>
         <link refid="classshyft_1_1api_1_1_geo_point_source"/>
-        <childnode refid="761" relation="usage">
+        <childnode refid="765" relation="usage">
           <edgelabel>mid_point_</edgelabel>
         </childnode>
-        <childnode refid="762" relation="usage">
+        <childnode refid="766" relation="usage">
           <edgelabel>ts</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" line="117" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h" bodystart="117" bodyend="121"/>
+    <location file="/home/sih/projects/shyft/api/api.h" line="108" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="108" bodyend="112"/>
     <listofallmembers>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a57566f194259ecf85bdd7534b23c5ddf" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>geo_point_t</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a7b99424e6cd1257452fe97b67974de18" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>GeoPointSource</name></member>
@@ -96,7 +96,8 @@
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a0523f6e990425466cd88db43264914d0" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>is_equal</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a523b1f737a6ab6eddfafe124569384ab" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>mid_point</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a2d0f3e31ea4f1bb8290b04db3c54887d" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>mid_point_</name></member>
-      <member refid="structshyft_1_1api_1_1_wind_speed_source_1a127d7600a152fb9503fd01848d536a2b" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1api_1_1_wind_speed_source_1af8036c12ea8d4fe8a2c81f74df15c7cf" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>operator==</name></member>
+      <member refid="classshyft_1_1api_1_1_geo_point_source_1a1bdb1ba3b8bf600e74074fb74c1a5a06" prot="public" virt="non-virtual" ambiguityscope="shyft::api::GeoPointSource::"><scope>shyft::api::WindSpeedSource</scope><name>operator==</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a785d8fbaef811ec7b3acb03c339b985e" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>set_ts</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a2acb6776ea986113e2a44b6f80f80248" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>ts</name></member>
       <member refid="classshyft_1_1api_1_1_geo_point_source_1a8fdd86da565fa7f9a77518be97062920" prot="public" virt="non-virtual"><scope>shyft::api::WindSpeedSource</scope><name>ts_t</name></member>

@@ -2,6 +2,7 @@ var searchData=
 [
   ['gamma_5fsnow_5fcell_5fresponse_5fstatistics',['gamma_snow_cell_response_statistics',['../structshyft_1_1api_1_1gamma__snow__cell__response__statistics.html',1,'shyft::api']]],
   ['gamma_5fsnow_5fcell_5fstate_5fstatistics',['gamma_snow_cell_state_statistics',['../structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html',1,'shyft::api']]],
+  ['gaussian',['gaussian',['../structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian.html',1,'shyft::core::kriging::covariance']]],
   ['gaussian_5fmodel',['gaussian_model',['../structshyft_1_1core_1_1grf_1_1gaussian__model.html',1,'shyft::core::grf']]],
   ['generic_5fdt',['generic_dt',['../structshyft_1_1time__axis_1_1generic__dt.html',1,'shyft::time_axis']]],
   ['geo_5fcell_5fdata',['geo_cell_data',['../structshyft_1_1core_1_1geo__cell__data.html',1,'shyft::core']]],

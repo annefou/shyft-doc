@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Shyft: shyft::core Namespace Reference</title>
+<title>SHyFT: shyft::core Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Shyft
+   <div id="projectname">SHyFT
    &#160;<span id="projectnumber">master</span>
    </div>
-   <div id="projectbrief">Shyft</div>
+   <div id="projectbrief">SHyFT</div>
   </td>
  </tr>
  </tbody>
@@ -119,6 +119,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceshyft_1_1core_1_1kalman"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceshyft_1_1core_1_1kalman.html">kalman</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceshyft_1_1core_1_1kirchner"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceshyft_1_1core_1_1kirchner.html">kirchner</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceshyft_1_1core_1_1kriging"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceshyft_1_1core_1_1kriging.html">kriging</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceshyft_1_1core_1_1model__calibration"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceshyft_1_1core_1_1model__calibration.html">model_calibration</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -363,7 +365,7 @@ Variables</h2></td></tr>
 <p>utctime basic types for time handling we use linear time, i.e. time is just a number on the timeaxis, utc. Timeaxis zero is at 1970-01-01 00:00:00 (unix time). resolution is 1 second, integer. also define min max and no_utctime </p>
 <p>The advantage with the definition is that it is well defined and commonly known in all platforms Also considered: moving to std::chrono, would enable a strict time arithmetic regime, of little advantage in this context, and at the cost of compile time (also consider the python/api part). </p>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00028">28</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00022">22</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 
 </div>
 </div>
@@ -381,7 +383,7 @@ Variables</h2></td></tr>
 
 <p>time_t is typedef'd as a __time64_t, which is an __int64., happens to be equal to EnkiTime </p>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00029">29</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00023">23</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 
 </div>
 </div>
@@ -477,7 +479,7 @@ template&lt;class timeaxis , class temperature_ts , class precipitation_ts , cla
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>utctimespan representing number of hours specified </dd></dl>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00036">36</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00030">30</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -537,7 +539,7 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>utctimespan representing number of minutes specified </dd></dl>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00042">42</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00036">36</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -589,7 +591,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00085">85</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00079">79</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -637,7 +639,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00061">61</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00055">55</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -681,7 +683,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00084">84</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00078">78</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -846,7 +848,7 @@ Here is the caller graph for this function:</div>
 <p>Nonvalid. </p>
 <p>utctimeNow, <a class="el" href="namespaceshyft_1_1core.html#a427d89c62cb05e8827da98fc6e6089a5" title="Nonvalid. ">utctime_now()</a> </p><dl class="section return"><dt>Returns</dt><dd>current systemclock utctime </dd></dl>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00059">59</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00053">53</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 
 </div>
 </div>
@@ -881,7 +883,7 @@ Here is the caller graph for this function:</div>
 
 <p>max_utctime represent the maximum utctime </p>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00046">46</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00040">40</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 
 </div>
 </div>
@@ -900,7 +902,7 @@ Here is the caller graph for this function:</div>
 <p>max 64bit int </p>
 <p>min_utctime represent the minimum utctime (equal to -max_utctime) </p>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00050">50</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00044">44</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 
 </div>
 </div>
@@ -919,7 +921,7 @@ Here is the caller graph for this function:</div>
 <p>min 64bit int </p>
 <p>no_utctime represents 'NaN' time, null time, not valid time </p>
 
-<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00054">54</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
+<p>Definition at line <a class="el" href="utctime__utilities_8h_source.html#l00048">48</a> of file <a class="el" href="utctime__utilities_8h_source.html">utctime_utilities.h</a>.</p>
 
 </div>
 </div>

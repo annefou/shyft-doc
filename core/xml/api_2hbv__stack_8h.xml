@@ -2,122 +2,231 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="api_2hbv__stack_8h" kind="file" language="C++">
     <compoundname>hbv_stack.h</compoundname>
-    <includes local="no">string</includes>
-    <includes local="no">vector</includes>
+    <includes refid="core__pch_8h" local="yes">core/core_pch.h</includes>
     <includes refid="core_2hbv__stack_8h" local="yes">core/hbv_stack.h</includes>
     <incdepgraph>
-      <node id="663">
+      <node id="642">
         <label>precipitation_correction.h</label>
         <link refid="precipitation__correction_8h"/>
       </node>
-      <node id="655">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="649" relation="include">
+      <node id="612">
+        <label>functional</label>
+      </node>
+      <node id="607">
+        <label>limits</label>
+      </node>
+      <node id="632">
+        <label>boost/math/tools/roots.hpp</label>
+      </node>
+      <node id="630">
+        <label>boost/math/distributions/gamma.hpp</label>
+      </node>
+      <node id="604">
+        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+        <childnode refid="605" relation="include">
         </childnode>
-        <childnode refid="656" relation="include">
-        </childnode>
-        <childnode refid="657" relation="include">
-        </childnode>
-        <childnode refid="650" relation="include">
-        </childnode>
-        <childnode refid="658" relation="include">
-        </childnode>
-        <childnode refid="659" relation="include">
+        <childnode refid="635" relation="include">
         </childnode>
       </node>
-      <node id="657">
+      <node id="626">
         <label>cmath</label>
       </node>
-      <node id="661">
+      <node id="618">
+        <label>stdexcept</label>
+      </node>
+      <node id="635">
+        <label>core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="636" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="644" relation="include">
+        </childnode>
+      </node>
+      <node id="640">
         <label>hbv_soil.h</label>
         <link refid="hbv__soil_8h"/>
-        <childnode refid="655" relation="include">
+        <childnode refid="638" relation="include">
         </childnode>
       </node>
-      <node id="648">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h</label>
-        <link refid="api_2hbv__stack_8h"/>
-        <childnode refid="649" relation="include">
-        </childnode>
-        <childnode refid="650" relation="include">
-        </childnode>
-        <childnode refid="651" relation="include">
-        </childnode>
-      </node>
-      <node id="649">
+      <node id="610">
         <label>string</label>
       </node>
-      <node id="658">
-        <label>map</label>
-      </node>
-      <node id="664">
-        <label>glacier_melt.h</label>
-        <link refid="glacier__melt_8h"/>
-        <childnode refid="655" relation="include">
+      <node id="641">
+        <label>hbv_tank.h</label>
+        <link refid="hbv__tank_8h"/>
+        <childnode refid="638" relation="include">
         </childnode>
       </node>
-      <node id="652">
-        <label>priestley_taylor.h</label>
-        <link refid="priestley__taylor_8h"/>
+      <node id="609">
+        <label>map</label>
       </node>
-      <node id="665">
+      <node id="634">
+        <label>armadillo</label>
+      </node>
+      <node id="633">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="614">
+        <label>ostream</label>
+      </node>
+      <node id="639">
+        <label>hbv_actual_evapotranspiration.h</label>
+        <link refid="hbv__actual__evapotranspiration_8h"/>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="605">
+        <label>core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="607" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+        <childnode refid="611" relation="include">
+        </childnode>
+        <childnode refid="612" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+        <childnode refid="614" relation="include">
+        </childnode>
+        <childnode refid="615" relation="include">
+        </childnode>
+        <childnode refid="616" relation="include">
+        </childnode>
+        <childnode refid="617" relation="include">
+        </childnode>
+        <childnode refid="618" relation="include">
+        </childnode>
+        <childnode refid="619" relation="include">
+        </childnode>
+        <childnode refid="620" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="624" relation="include">
+        </childnode>
+        <childnode refid="625" relation="include">
+        </childnode>
+        <childnode refid="626" relation="include">
+        </childnode>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="628" relation="include">
+        </childnode>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+      </node>
+      <node id="643">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="638">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+      </node>
+      <node id="619">
+        <label>random</label>
+      </node>
+      <node id="629">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="644">
         <label>unit_conversion.h</label>
         <link refid="unit__conversion_8h"/>
       </node>
-      <node id="650">
-        <label>vector</label>
+      <node id="617">
+        <label>future</label>
       </node>
-      <node id="654">
-        <label>sstream</label>
+      <node id="627">
+        <label>boost/math_fwd.hpp</label>
       </node>
-      <node id="656">
-        <label>time.h</label>
-      </node>
-      <node id="662">
-        <label>hbv_tank.h</label>
-        <link refid="hbv__tank_8h"/>
-        <childnode refid="655" relation="include">
-        </childnode>
-      </node>
-      <node id="651">
-        <label>core/hbv_stack.h</label>
-        <link refid="core_2hbv__stack_8h"/>
-        <childnode refid="652" relation="include">
-        </childnode>
-        <childnode refid="653" relation="include">
-        </childnode>
-        <childnode refid="660" relation="include">
-        </childnode>
-        <childnode refid="661" relation="include">
-        </childnode>
-        <childnode refid="662" relation="include">
-        </childnode>
-        <childnode refid="663" relation="include">
-        </childnode>
-        <childnode refid="664" relation="include">
-        </childnode>
-        <childnode refid="665" relation="include">
-        </childnode>
-      </node>
-      <node id="660">
-        <label>hbv_actual_evapotranspiration.h</label>
-        <link refid="hbv__actual__evapotranspiration_8h"/>
-        <childnode refid="655" relation="include">
-        </childnode>
-      </node>
-      <node id="653">
+      <node id="637">
         <label>hbv_snow.h</label>
         <link refid="hbv__snow_8h"/>
-        <childnode refid="654" relation="include">
-        </childnode>
-        <childnode refid="650" relation="include">
-        </childnode>
-        <childnode refid="655" relation="include">
+        <childnode refid="638" relation="include">
         </childnode>
       </node>
-      <node id="659">
+      <node id="608">
+        <label>vector</label>
+      </node>
+      <node id="615">
+        <label>sstream</label>
+      </node>
+      <node id="628">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="621">
+        <label>time.h</label>
+      </node>
+      <node id="625">
+        <label>math.h</label>
+      </node>
+      <node id="622">
+        <label>cerrno</label>
+      </node>
+      <node id="613">
+        <label>iostream</label>
+      </node>
+      <node id="624">
+        <label>cstddef</label>
+      </node>
+      <node id="631">
+        <label>boost/math/special_functions/gamma.hpp</label>
+      </node>
+      <node id="616">
+        <label>thread</label>
+      </node>
+      <node id="620">
+        <label>type_traits</label>
+      </node>
+      <node id="611">
+        <label>algorithm</label>
+      </node>
+      <node id="623">
+        <label>cstring</label>
+      </node>
+      <node id="606">
         <label>memory</label>
+      </node>
+      <node id="636">
+        <label>priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
       </node>
     </incdepgraph>
     <innerclass refid="structshyft_1_1api_1_1hbv__stack__state__io" prot="public">shyft::api::hbv_stack_state_io</innerclass>
@@ -128,8 +237,8 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core__pch_8h" kindref="compound">core/core_pch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2hbv__stack_8h" kindref="compound">core/hbv_stack.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
@@ -189,6 +298,6 @@
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="60"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/hbv_stack.h"/>
+    <location file="/home/sih/projects/shyft/api/hbv_stack.h"/>
   </compounddef>
 </doxygen>

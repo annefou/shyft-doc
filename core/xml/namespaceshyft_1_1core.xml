@@ -29,6 +29,7 @@
     <innernamespace refid="namespaceshyft_1_1core_1_1inverse__distance">shyft::core::inverse_distance</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1kalman">shyft::core::kalman</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1kirchner">shyft::core::kirchner</innernamespace>
+    <innernamespace refid="namespaceshyft_1_1core_1_1kriging">shyft::core::kriging</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1model__calibration">shyft::core::model_calibration</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1optimizer">shyft::core::optimizer</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1precipitation__correction">shyft::core::precipitation_correction</innernamespace>
@@ -50,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="12" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="12" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1a88eb1e67b565cfed8db0467bcf87fb73" prot="public" static="no">
         <type><ref refid="classshyft_1_1timeseries_1_1constant__timeseries" kindref="compound">constant_timeseries</ref>&lt; <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis</ref> &gt;</type>
@@ -63,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="13" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="13" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" prot="public" static="no">
         <type><ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis</ref></type>
@@ -76,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="14" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="14" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1a184b5652ff20b3237f6dd41c45a291ff" prot="public" static="no">
         <type><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment</ref>&lt; <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a88eb1e67b565cfed8db0467bcf87fb73" kindref="member">cts_t</ref>, <ref refid="namespaceshyft_1_1core_1a88eb1e67b565cfed8db0467bcf87fb73" kindref="member">cts_t</ref> &gt;</type>
@@ -89,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="62" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="62" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="62" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" prot="public" static="no">
         <type><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment</ref>&lt; <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>, <ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref> &gt;</type>
@@ -102,7 +103,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="64" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="64" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="64" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" prot="public" static="no">
         <type>long</type>
@@ -115,7 +116,7 @@
 <para>The advantage with the definition is that it is well defined and commonly known in all platforms Also considered: moving to std::chrono, would enable a strict time arithmetic regime, of little advantage in this context, and at the cost of compile time (also consider the python/api part). </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="28" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="28" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="22" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" prot="public" static="no">
         <type>long</type>
@@ -128,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="29" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="23" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -144,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/geo_cell_data.h" line="74" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/geo_cell_data.h" bodystart="74" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/geo_cell_data.h" line="74" column="1" bodyfile="/home/sih/projects/shyft/core/geo_cell_data.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespaceshyft_1_1core_1a9c6ef8d0f6928169d82fae882e927900" prot="public" static="no" mutable="no">
         <type>const <ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
@@ -158,9 +159,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="46" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="46" bodyend="-1"/>
-        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="231" endline="281">shyft::experimental::wkt_reader::read_geo_xts_t</referencedby>
-        <referencedby refid="structshyft_1_1time__axis_1_1fixed__dt_1a967470fed776d7c449c1357e7e5b939c" compoundref="time__axis_8h" startline="79" endline="79">shyft::time_axis::fixed_dt::full_range</referencedby>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="40" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="228" endline="278">shyft::experimental::wkt_reader::read_geo_xts_t</referencedby>
+        <referencedby refid="structshyft_1_1time__axis_1_1fixed__dt_1a967470fed776d7c449c1357e7e5b939c" compoundref="time__axis_8h" startline="75" endline="75">shyft::time_axis::fixed_dt::full_range</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" compoundref="utctime__utilities_8cpp" startline="29" endline="53">shyft::core::calendar::to_string</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a90d79f56fa85fd9914b6b13f07e0612c" compoundref="utctime__utilities_8cpp" startline="62" endline="73">shyft::core::calendar::time</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a95722ed3008f3911698a762ab2d8fe1c" compoundref="utctime__utilities_8cpp" startline="75" endline="93">shyft::core::calendar::calendar_units</referencedby>
@@ -181,12 +182,12 @@
 <para>min_utctime represent the minimum utctime (equal to -max_utctime) </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="50" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1time__axis_1_1fixed__dt_1a5be8dd4e8ba1bd488a64350e94682b99" compoundref="time__axis_8h" startline="56" endline="60">shyft::time_axis::fixed_dt::total_period</referencedby>
-        <referencedby refid="structshyft_1_1time__axis_1_1fixed__dt_1a967470fed776d7c449c1357e7e5b939c" compoundref="time__axis_8h" startline="79" endline="79">shyft::time_axis::fixed_dt::full_range</referencedby>
-        <referencedby refid="structshyft_1_1time__axis_1_1calendar__dt_1ad3d3e95846ad74b7937e81ebcb4e2e25" compoundref="time__axis_8h" startline="117" endline="121">shyft::time_axis::calendar_dt::total_period</referencedby>
-        <referencedby refid="structshyft_1_1time__axis_1_1point__dt_1a4f25c366205653bbc9af34b038a0a5c6" compoundref="time__axis_8h" startline="186" endline="190">shyft::time_axis::point_dt::total_period</referencedby>
-        <referencedby refid="structshyft_1_1time__axis_1_1period__list_1a3668cca757ecbfb56caea55676fd2157" compoundref="time__axis_8h" startline="421" endline="425">shyft::time_axis::period_list::total_period</referencedby>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="44" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="44" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1time__axis_1_1fixed__dt_1a5be8dd4e8ba1bd488a64350e94682b99" compoundref="time__axis_8h" startline="52" endline="56">shyft::time_axis::fixed_dt::total_period</referencedby>
+        <referencedby refid="structshyft_1_1time__axis_1_1fixed__dt_1a967470fed776d7c449c1357e7e5b939c" compoundref="time__axis_8h" startline="75" endline="75">shyft::time_axis::fixed_dt::full_range</referencedby>
+        <referencedby refid="structshyft_1_1time__axis_1_1calendar__dt_1ad3d3e95846ad74b7937e81ebcb4e2e25" compoundref="time__axis_8h" startline="113" endline="117">shyft::time_axis::calendar_dt::total_period</referencedby>
+        <referencedby refid="structshyft_1_1time__axis_1_1point__dt_1a4f25c366205653bbc9af34b038a0a5c6" compoundref="time__axis_8h" startline="182" endline="186">shyft::time_axis::point_dt::total_period</referencedby>
+        <referencedby refid="structshyft_1_1time__axis_1_1period__list_1a3668cca757ecbfb56caea55676fd2157" compoundref="time__axis_8h" startline="417" endline="421">shyft::time_axis::period_list::total_period</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" compoundref="utctime__utilities_8cpp" startline="29" endline="53">shyft::core::calendar::to_string</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a90d79f56fa85fd9914b6b13f07e0612c" compoundref="utctime__utilities_8cpp" startline="62" endline="73">shyft::core::calendar::time</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a95722ed3008f3911698a762ab2d8fe1c" compoundref="utctime__utilities_8cpp" startline="75" endline="93">shyft::core::calendar::calendar_units</referencedby>
@@ -207,7 +208,7 @@
 <para>no_utctime represents &apos;NaN&apos; time, null time, not valid time </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="54" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="54" bodyend="-1"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="48" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="48" bodyend="-1"/>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" compoundref="utctime__utilities_8cpp" startline="29" endline="53">shyft::core::calendar::to_string</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a90d79f56fa85fd9914b6b13f07e0612c" compoundref="utctime__utilities_8cpp" startline="62" endline="73">shyft::core::calendar::time</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a95722ed3008f3911698a762ab2d8fe1c" compoundref="utctime__utilities_8cpp" startline="75" endline="93">shyft::core::calendar::calendar_units</referencedby>
@@ -216,9 +217,9 @@
         <referencedby refid="structshyft_1_1core_1_1calendar_1a4000f864348a8955173b8debfda6a1da" compoundref="utctime__utilities_8cpp" startline="113" endline="116">shyft::core::calendar::month</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a207bd4e9e692ad81a8880b114912174a" compoundref="utctime__utilities_8cpp" startline="118" endline="143">shyft::core::calendar::trim</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1ab3519e1a8429ceb4454121814479e25b" compoundref="utctime__utilities_8cpp" startline="182" endline="226">shyft::core::calendar::diff_units</referencedby>
-        <referencedby refid="namespaceshyft_1_1core_1a381301d2ecade3a7fc4df4b1c818e013" compoundref="utctime__utilities_8h" startline="61" endline="61">is_valid</referencedby>
-        <referencedby refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae9714ef0cbf2cdef60f4fb6064e2140d" compoundref="utctime__utilities_8h" startline="144" endline="144">shyft::core::time_zone::tz_table::dst_start</referencedby>
-        <referencedby refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1abd9e75fc19a14949f7e1d645f7b794d5" compoundref="utctime__utilities_8h" startline="145" endline="145">shyft::core::time_zone::tz_table::dst_end</referencedby>
+        <referencedby refid="namespaceshyft_1_1core_1a381301d2ecade3a7fc4df4b1c818e013" compoundref="utctime__utilities_8h" startline="55" endline="55">is_valid</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae9714ef0cbf2cdef60f4fb6064e2140d" compoundref="utctime__utilities_8h" startline="138" endline="138">shyft::core::time_zone::tz_table::dst_start</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1abd9e75fc19a14949f7e1d645f7b794d5" compoundref="utctime__utilities_8h" startline="139" endline="139">shyft::core::time_zone::tz_table::dst_end</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -273,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="69" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="69" bodyend="71"/>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="69" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="69" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1a79f174cb1b8a95ba06a8959b412b423a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -306,10 +307,10 @@
 <para>Utility function used to initialize a pts_t in the core, typically making space, zero fill a ts prior to a run to ensure values are zero </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" line="141" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/cell_model.h" bodystart="141" bodyend="147"/>
-        <references refid="structshyft_1_1timeseries_1_1point__ts_1acb195a3d5a9cb0da2d888b419388831c" compoundref="core_2timeseries_8h" startline="318" endline="318">shyft::timeseries::point_ts&lt; TA &gt;::size</references>
-        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1a61dc811a635c77b3c06ad262aefb9d52" compoundref="time__axis_8h" startline="54" endline="54">shyft::time_axis::fixed_dt::size</references>
-        <references refid="structshyft_1_1timeseries_1_1point__ts_1a95cf479521c7e951077cc69fbda02a92" compoundref="core_2timeseries_8h" startline="336" endline="336">shyft::timeseries::point_ts&lt; TA &gt;::fill_range</references>
+        <location file="/home/sih/projects/shyft/core/cell_model.h" line="141" column="1" bodyfile="/home/sih/projects/shyft/core/cell_model.h" bodystart="141" bodyend="147"/>
+        <references refid="structshyft_1_1timeseries_1_1point__ts_1acb195a3d5a9cb0da2d888b419388831c" compoundref="core_2timeseries_8h" startline="310" endline="310">shyft::timeseries::point_ts&lt; TA &gt;::size</references>
+        <references refid="structshyft_1_1time__axis_1_1fixed__dt_1a61dc811a635c77b3c06ad262aefb9d52" compoundref="time__axis_8h" startline="50" endline="50">shyft::time_axis::fixed_dt::size</references>
+        <references refid="structshyft_1_1timeseries_1_1point__ts_1a95cf479521c7e951077cc69fbda02a92" compoundref="core_2timeseries_8h" startline="328" endline="328">shyft::timeseries::point_ts&lt; TA &gt;::fill_range</references>
         <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1all__response__collector_1a5e12bcf8fc0daa734a86a3215c3925b3" compoundref="hbv__stack__cell__model_8h" startline="46" endline="56">shyft::core::hbv_stack::all_response_collector::initialize</referencedby>
         <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1discharge__collector_1ab225a2efb3183ee1252f3aab9c908f42" compoundref="hbv__stack__cell__model_8h" startline="96" endline="102">shyft::core::hbv_stack::discharge_collector::initialize</referencedby>
         <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector_1afa57e3c62329dcea5da3dc7efcafa62d" compoundref="hbv__stack__cell__model_8h" startline="150" endline="158">shyft::core::hbv_stack::state_collector::initialize</referencedby>
@@ -342,7 +343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp" line="19" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp" bodystart="19" bodyend="22"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.cpp" line="19" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="19" bodyend="22"/>
         <references refid="structshyft_1_1core_1_1utcperiod_1a2583b4934f8cff45f3f351a4a7f896bf" compoundref="utctime__utilities_8cpp" startline="24" endline="27">shyft::core::utcperiod::to_string</references>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -369,11 +370,11 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="36" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="36" bodyend="36"/>
-        <referencedby refid="structshyft_1_1core_1_1kalman_1_1filter_1a8446e1feb0f239bdaa14b7bc36f926d5" compoundref="kalman_8h" startline="105" endline="107">shyft::core::kalman::filter::fold_to_daily_observation</referencedby>
-        <referencedby refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" compoundref="kirchner_8h" startline="212" endline="234">shyft::core::kirchner::calculator&lt; AC, P &gt;::step</referencedby>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="30" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="30" bodyend="30"/>
+        <referencedby refid="structshyft_1_1core_1_1kalman_1_1filter_1a8446e1feb0f239bdaa14b7bc36f926d5" compoundref="kalman_8h" startline="103" endline="105">shyft::core::kalman::filter::fold_to_daily_observation</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" compoundref="kirchner_8h" startline="202" endline="224">shyft::core::kirchner::calculator&lt; AC, P &gt;::step</referencedby>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" compoundref="utctime__utilities_8cpp" startline="29" endline="53">shyft::core::calendar::to_string</referencedby>
-        <referencedby refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae4d7d2c3f2547e8828923114eb220107" compoundref="utctime__utilities_8h" startline="138" endline="141">shyft::core::time_zone::tz_table::tz_table</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1time__zone_1_1tz__table_1ae4d7d2c3f2547e8828923114eb220107" compoundref="utctime__utilities_8h" startline="132" endline="135">shyft::core::time_zone::tz_table::tz_table</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1aab225cc04c3eccb8ae6faccf154fd4a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">utctimespan</ref></type>
@@ -399,7 +400,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="42" bodyend="42"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="36" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="36" bodyend="36"/>
         <referencedby refid="structshyft_1_1core_1_1calendar_1a67258cf223993ab5bb30f6f44f956fc7" compoundref="utctime__utilities_8cpp" startline="29" endline="53">shyft::core::calendar::to_string</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1a427d89c62cb05e8827da98fc6e6089a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
@@ -414,7 +415,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="59" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="59" bodyend="59"/>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="53" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="53" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1a381301d2ecade3a7fc4df4b1c818e013" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -431,12 +432,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="61" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="61" bodyend="61"/>
-        <references refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" compoundref="utctime__utilities_8h" startline="54">no_utctime</references>
-        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a4d0da7464acb3e88d5e25f0adb5f2ed1" compoundref="experimental_8h" startline="113" endline="141">shyft::experimental::wkt_reader::read</referencedby>
-        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a9f9e399d365cd3fd34a096f0f3e0933b" compoundref="experimental_8h" startline="166" endline="199">shyft::experimental::wkt_reader::read_catchment_map</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1utcperiod_1a9389e69f1aa343d037ccafda9a2d11aa" compoundref="utctime__utilities_8h" startline="75" endline="75">shyft::core::utcperiod::contains</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1_y_m_dhms_1a24dbd40c200418b92d4b0ba7d16ff509" compoundref="utctime__utilities_8h" startline="218" endline="221">shyft::core::YMDhms::YMDhms</referencedby>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="55" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="55" bodyend="55"/>
+        <references refid="namespaceshyft_1_1core_1a9e2c2bed860603f73a29f2eb89c167e5" compoundref="utctime__utilities_8h" startline="48">no_utctime</references>
+        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a4d0da7464acb3e88d5e25f0adb5f2ed1" compoundref="experimental_8h" startline="110" endline="138">shyft::experimental::wkt_reader::read</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1wkt__reader_1a9f9e399d365cd3fd34a096f0f3e0933b" compoundref="experimental_8h" startline="163" endline="196">shyft::experimental::wkt_reader::read_catchment_map</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1utcperiod_1a9389e69f1aa343d037ccafda9a2d11aa" compoundref="utctime__utilities_8h" startline="69" endline="69">shyft::core::utcperiod::contains</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1_y_m_dhms_1a24dbd40c200418b92d4b0ba7d16ff509" compoundref="utctime__utilities_8h" startline="212" endline="215">shyft::core::YMDhms::YMDhms</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1a32e674af067eeaba27f661731dbe80fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -453,8 +454,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="84" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="84" bodyend="84"/>
-        <references refid="structshyft_1_1core_1_1utcperiod_1a8be9de6439219bf8f166f5e08279dfb5" compoundref="utctime__utilities_8h" startline="72" endline="72">shyft::core::utcperiod::valid</references>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="78" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="78" bodyend="78"/>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a8be9de6439219bf8f166f5e08279dfb5" compoundref="utctime__utilities_8h" startline="66" endline="66">shyft::core::utcperiod::valid</references>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1a012eb12624d0ee33c5b88721e4c23136" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
@@ -475,20 +476,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" line="85" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.h" bodystart="85" bodyend="89"/>
-        <references refid="namespaceshyft_1_1timeseries_1ac53ac01de119a07afeaf67d32cd151e7" compoundref="core_2timeseries_8h" startline="882" endline="884">shyft::timeseries::max</references>
-        <references refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" compoundref="utctime__utilities_8h" startline="79">shyft::core::utcperiod::start</references>
-        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="892" endline="894">shyft::timeseries::min</references>
-        <references refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" compoundref="utctime__utilities_8h" startline="80">shyft::core::utcperiod::end</references>
-        <references refid="structshyft_1_1core_1_1utcperiod_1af9a21a5632b811f4c9331a959e6e6da3" compoundref="utctime__utilities_8h" startline="70" endline="70">shyft::core::utcperiod::utcperiod</references>
-        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="365" endline="429">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
-        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="578" endline="635">shyft::time_axis::combine</referencedby>
+        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="79" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="79" bodyend="83"/>
+        <references refid="namespaceshyft_1_1timeseries_1ac53ac01de119a07afeaf67d32cd151e7" compoundref="core_2timeseries_8h" startline="874" endline="876">shyft::timeseries::max</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" compoundref="utctime__utilities_8h" startline="73">shyft::core::utcperiod::start</references>
+        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="884" endline="886">shyft::timeseries::min</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" compoundref="utctime__utilities_8h" startline="74">shyft::core::utcperiod::end</references>
+        <references refid="structshyft_1_1core_1_1utcperiod_1af9a21a5632b811f4c9331a959e6e6da3" compoundref="utctime__utilities_8h" startline="64" endline="64">shyft::core::utcperiod::utcperiod</references>
+        <referencedby refid="classshyft_1_1experimental_1_1geo__cell__data__computer_1acceff04e43401fecd68d874b92006a24" compoundref="experimental_8h" startline="362" endline="426">shyft::experimental::geo_cell_data_computer::catchment_geo_cell_data</referencedby>
+        <referencedby refid="namespaceshyft_1_1time__axis_1a11d76961aa5fbad3435004ea2f91efe1" compoundref="time__axis_8h" startline="574" endline="631">shyft::time_axis::combine</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/actual_evapotranspiration.h" line="26" column="1"/>
+    <location file="/home/sih/projects/shyft/core/actual_evapotranspiration.h" line="26" column="1"/>
   </compounddef>
 </doxygen>

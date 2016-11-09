@@ -13,6 +13,7 @@ var namespaceshyft_1_1core =
     [ "inverse_distance", "namespaceshyft_1_1core_1_1inverse__distance.html", "namespaceshyft_1_1core_1_1inverse__distance" ],
     [ "kalman", "namespaceshyft_1_1core_1_1kalman.html", "namespaceshyft_1_1core_1_1kalman" ],
     [ "kirchner", "namespaceshyft_1_1core_1_1kirchner.html", "namespaceshyft_1_1core_1_1kirchner" ],
+    [ "kriging", "namespaceshyft_1_1core_1_1kriging.html", "namespaceshyft_1_1core_1_1kriging" ],
     [ "model_calibration", "namespaceshyft_1_1core_1_1model__calibration.html", "namespaceshyft_1_1core_1_1model__calibration" ],
     [ "optimizer", "namespaceshyft_1_1core_1_1optimizer.html", "namespaceshyft_1_1core_1_1optimizer" ],
     [ "precipitation_correction", "namespaceshyft_1_1core_1_1precipitation__correction.html", "namespaceshyft_1_1core_1_1precipitation__correction" ],

@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Shyft", "index.html", [
+  [ "SHyFT", "index.html", [
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -42,13 +42,13 @@ var NAVTREEINDEX =
 "actual__evapotranspiration_8h.html",
 "classshyft_1_1core_1_1region__model.html#a207310ec09ab0741847b136f7f09724a",
 "functions_func_m.html",
-"pt__ss__k__cell__model_8h.html#a1905166bffab81a320d64ce48b5699be",
-"structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a0157af1553414599a9871d94fdf06e2b",
-"structshyft_1_1core_1_1calendar.html#ab3519e1a8429ceb4454121814479e25b",
-"structshyft_1_1core_1_1hbv__stack_1_1state.html#adc130eed336c68073d069ab12f5bb46b",
-"structshyft_1_1core_1_1pt__gs__k_1_1null__collector.html#a16d8b412eeba983843a60e60c53ee82c",
-"structshyft_1_1core_1_1skaugen_1_1parameter.html#ab80fd56afb995b625b987c5b82abbb07",
-"structshyft_1_1timeseries_1_1glacier__melt__ts.html"
+"pt__hs__k__cell__model_8h.html#a6b5b52e2839e81a4a1d51241506527a1",
+"structshyft_1_1api_1_1gamma__snow__cell__response__statistics.html#a971592605ef3f2780466c30ea3062204",
+"structshyft_1_1core_1_1calendar.html#a8fa5dd5adaae655514febc885b98aff5",
+"structshyft_1_1core_1_1hbv__stack_1_1response.html#af1f6fb46485dc62d557a3b213a75392a",
+"structshyft_1_1core_1_1pt__gs__k_1_1all__response__collector.html#a8d47c2252db979be2cb00001aca29a66",
+"structshyft_1_1core_1_1region__environment.html#a49645a30ac63d677850dc2cfabd70901",
+"structshyft_1_1timeseries_1_1bin__op_3_01_a_00_01double_00_01_o_00_01_t_a_01_4.html#ad3573866acc309d07986ecf5aa9fdcf7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

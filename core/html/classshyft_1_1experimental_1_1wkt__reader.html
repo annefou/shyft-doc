@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Shyft: shyft::experimental::wkt_reader Class Reference</title>
+<title>SHyFT: shyft::experimental::wkt_reader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,10 +28,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Shyft
+   <div id="projectname">SHyFT
    &#160;<span id="projectnumber">master</span>
    </div>
-   <div id="projectbrief">Shyft</div>
+   <div id="projectbrief">SHyFT</div>
   </td>
  </tr>
  </tbody>
@@ -129,7 +129,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p><a class="el" href="classshyft_1_1experimental_1_1wkt__reader.html" title="wkt_reader, WellKnownTextformat(?) reader: Just for the testing and experimental purposes,we need something that gives a reasonable amount of data that is realistic. From Statkraft we have the nea-nidelv system, and this reader is used to parse/read those files into memory/structures that we can use to construct cells, environmental time-series, etc. that are needed to run a full model. (and GIS system might provide &#39;non-perfect&#39; data that we need to handle) ">wkt_reader</a>, WellKnownTextformat(?) reader: Just for the testing and experimental purposes,we need something that gives a reasonable amount of data that is realistic. From Statkraft we have the nea-nidelv system, and this reader is used to parse/read those files into memory/structures that we can use to construct cells, environmental time-series, etc. that are needed to run a full model. (and GIS system might provide 'non-perfect' data that we need to handle) </p>
 <dl class="section note"><dt>Note</dt><dd>this class contains readers for the files located in test/neanidelv directory </dd></dl>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00084">84</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00081">81</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4d0da7464acb3e88d5e25f0adb5f2ed1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d0da7464acb3e88d5e25f0adb5f2ed1">&sect;&nbsp;</a></span>read()</h2>
@@ -168,7 +168,7 @@ Public Attributes</h2></td></tr>
 <p>Given string s with wkt formatted multi_polygons, convert the lines into a multi_polygon. </p>
 <dl class="section note"><dt>Note</dt><dd>supports ! as comment in the format </dd></dl>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00113">113</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00110">110</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -224,7 +224,7 @@ Here is the caller graph for this function:</div>
 
 <p>given string formatted as id:wkt multipolygon, read and convert the string to a map&lt;id,multi_polygon_&gt; </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00166">166</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00163">163</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -280,7 +280,7 @@ Here is the caller graph for this function:</div>
 
 <p>given string s containing txt formatted as dtm(box(point(),point()),z) , convert it to a vector&lt;dtm&gt; <a class="el" href="structshyft_1_1experimental_1_1dtm.html">dtm</a> </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00094">94</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00091">91</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -328,7 +328,7 @@ Here is the caller graph for this function:</div>
 
 <p>given string s formatted as id:name:POINT(x,y,z), convert it to a map&lt;id,observation_location&gt; used to ensure that locations (x,y,z) associated with observation time-series have consistent location info </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00202">202</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00199">199</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -382,7 +382,7 @@ Here is the caller graph for this function:</div>
 
 <p>given string formatted as 'geo-id-located ts', read it and convert it to a geo_xts_t used to read time-series for nea-nidelv and similar cases </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00231">231</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00228">228</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -443,7 +443,7 @@ Here is the caller graph for this function:</div>
 
 <p>given string s formatted with wkt point structures, read from the string into a multipoint </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00144">144</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00141">141</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -497,7 +497,7 @@ Here is the caller graph for this function:</div>
 
 <p>internally used to collect errors, using report_tag to easy locate errors in files|file-types </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00088">88</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00085">85</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 
 </div>
 </div>
@@ -516,12 +516,12 @@ Here is the caller graph for this function:</div>
 
 <p>contains accumulated errors after calls to read_xxx </p>
 
-<p>Definition at line <a class="el" href="experimental_8h_source.html#l00086">86</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
+<p>Definition at line <a class="el" href="experimental_8h_source.html#l00083">83</a> of file <a class="el" href="experimental_8h_source.html">experimental.h</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/<a class="el" href="experimental_8h_source.html">experimental.h</a></li>
+<li>/home/sih/projects/shyft/core/<a class="el" href="experimental_8h_source.html">experimental.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

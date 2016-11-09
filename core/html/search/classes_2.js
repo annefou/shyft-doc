@@ -1,11 +1,11 @@
 var searchData=
 [
   ['calculator',['calculator',['../classshyft_1_1core_1_1skaugen_1_1calculator.html',1,'shyft::core::skaugen']]],
-  ['calculator',['calculator',['../classshyft_1_1core_1_1gamma__snow_1_1calculator.html',1,'shyft::core::gamma_snow']]],
+  ['calculator',['calculator',['../classshyft_1_1core_1_1kirchner_1_1calculator.html',1,'shyft::core::kirchner']]],
   ['calculator',['calculator',['../structshyft_1_1core_1_1hbv__snow_1_1calculator.html',1,'shyft::core::hbv_snow']]],
   ['calculator',['calculator',['../structshyft_1_1core_1_1hbv__tank_1_1calculator.html',1,'shyft::core::hbv_tank']]],
   ['calculator',['calculator',['../structshyft_1_1core_1_1hbv__soil_1_1calculator.html',1,'shyft::core::hbv_soil']]],
-  ['calculator',['calculator',['../classshyft_1_1core_1_1kirchner_1_1calculator.html',1,'shyft::core::kirchner']]],
+  ['calculator',['calculator',['../classshyft_1_1core_1_1gamma__snow_1_1calculator.html',1,'shyft::core::gamma_snow']]],
   ['calculator',['calculator',['../structshyft_1_1core_1_1precipitation__correction_1_1calculator.html',1,'shyft::core::precipitation_correction']]],
   ['calculator',['calculator',['../structshyft_1_1core_1_1priestley__taylor_1_1calculator.html',1,'shyft::core::priestley_taylor']]],
   ['calendar',['calendar',['../structshyft_1_1core_1_1calendar.html',1,'shyft::core']]],

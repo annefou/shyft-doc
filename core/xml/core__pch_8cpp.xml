@@ -4,94 +4,159 @@
     <compoundname>core_pch.cpp</compoundname>
     <includes refid="core__pch_8h" local="yes">core_pch.h</includes>
     <incdepgraph>
-      <node id="295">
+      <node id="266">
         <label>functional</label>
       </node>
-      <node id="288">
+      <node id="261">
         <label>limits</label>
       </node>
-      <node id="300">
+      <node id="286">
+        <label>boost/math/tools/roots.hpp</label>
+      </node>
+      <node id="284">
+        <label>boost/math/distributions/gamma.hpp</label>
+      </node>
+      <node id="280">
+        <label>cmath</label>
+      </node>
+      <node id="272">
         <label>stdexcept</label>
       </node>
-      <node id="292">
+      <node id="264">
         <label>string</label>
       </node>
-      <node id="291">
+      <node id="263">
         <label>map</label>
       </node>
-      <node id="296">
-        <label>ostream</label>
-      </node>
-      <node id="301">
-        <label>random</label>
-      </node>
-      <node id="302">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="299">
-        <label>future</label>
-      </node>
-      <node id="290">
-        <label>vector</label>
-      </node>
-      <node id="297">
-        <label>cerrno</label>
-      </node>
-      <node id="289">
-        <label>cstddef</label>
-      </node>
-      <node id="285">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.cpp</label>
+      <node id="258">
+        <label>/home/sih/projects/shyft/core/core_pch.cpp</label>
         <link refid="core__pch_8cpp"/>
-        <childnode refid="286" relation="include">
+        <childnode refid="259" relation="include">
         </childnode>
       </node>
-      <node id="298">
-        <label>thread</label>
+      <node id="288">
+        <label>armadillo</label>
       </node>
-      <node id="286">
+      <node id="287">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="268">
+        <label>ostream</label>
+      </node>
+      <node id="259">
         <label>core_pch.h</label>
         <link refid="core__pch_8h"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
         <childnode refid="287" relation="include">
         </childnode>
         <childnode refid="288" relation="include">
         </childnode>
-        <childnode refid="289" relation="include">
-        </childnode>
-        <childnode refid="290" relation="include">
-        </childnode>
-        <childnode refid="291" relation="include">
-        </childnode>
-        <childnode refid="292" relation="include">
-        </childnode>
-        <childnode refid="293" relation="include">
-        </childnode>
-        <childnode refid="294" relation="include">
-        </childnode>
-        <childnode refid="295" relation="include">
-        </childnode>
-        <childnode refid="296" relation="include">
-        </childnode>
-        <childnode refid="297" relation="include">
-        </childnode>
-        <childnode refid="298" relation="include">
-        </childnode>
-        <childnode refid="299" relation="include">
-        </childnode>
-        <childnode refid="300" relation="include">
-        </childnode>
-        <childnode refid="301" relation="include">
-        </childnode>
-        <childnode refid="302" relation="include">
-        </childnode>
       </node>
-      <node id="294">
+      <node id="273">
+        <label>random</label>
+      </node>
+      <node id="283">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="271">
+        <label>future</label>
+      </node>
+      <node id="281">
+        <label>boost/math_fwd.hpp</label>
+      </node>
+      <node id="262">
+        <label>vector</label>
+      </node>
+      <node id="269">
+        <label>sstream</label>
+      </node>
+      <node id="282">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="275">
+        <label>time.h</label>
+      </node>
+      <node id="279">
+        <label>math.h</label>
+      </node>
+      <node id="276">
+        <label>cerrno</label>
+      </node>
+      <node id="267">
+        <label>iostream</label>
+      </node>
+      <node id="278">
+        <label>cstddef</label>
+      </node>
+      <node id="285">
+        <label>boost/math/special_functions/gamma.hpp</label>
+      </node>
+      <node id="270">
+        <label>thread</label>
+      </node>
+      <node id="274">
+        <label>type_traits</label>
+      </node>
+      <node id="265">
         <label>algorithm</label>
       </node>
-      <node id="293">
+      <node id="277">
         <label>cstring</label>
       </node>
-      <node id="287">
+      <node id="260">
         <label>memory</label>
       </node>
     </incdepgraph>
@@ -102,6 +167,6 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core__pch_8h" kindref="compound">core_pch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.cpp"/>
+    <location file="/home/sih/projects/shyft/core/core_pch.cpp"/>
   </compounddef>
 </doxygen>

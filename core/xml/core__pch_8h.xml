@@ -4,69 +4,109 @@
     <compoundname>core_pch.h</compoundname>
     <includes local="no">memory</includes>
     <includes local="no">limits</includes>
-    <includes local="no">cstddef</includes>
     <includes local="no">vector</includes>
     <includes local="no">map</includes>
     <includes local="no">string</includes>
-    <includes local="no">cstring</includes>
     <includes local="no">algorithm</includes>
     <includes local="no">functional</includes>
+    <includes local="no">iostream</includes>
     <includes local="no">ostream</includes>
-    <includes local="no">cerrno</includes>
+    <includes local="no">sstream</includes>
     <includes local="no">thread</includes>
     <includes local="no">future</includes>
     <includes local="no">stdexcept</includes>
     <includes local="no">random</includes>
+    <includes local="no">type_traits</includes>
+    <includes local="no">time.h</includes>
+    <includes local="no">cerrno</includes>
+    <includes local="no">cstring</includes>
+    <includes local="no">cstddef</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">boost/math_fwd.hpp</includes>
+    <includes local="no">boost/numeric/odeint.hpp</includes>
     <includes local="no">boost/range.hpp</includes>
-    <includedby refid="core__pch_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.cpp</includedby>
-    <includedby refid="dream__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/dream_optimizer.cpp</includedby>
-    <includedby refid="experimental_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</includedby>
-    <includedby refid="sceua__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</includedby>
-    <includedby refid="utctime__utilities_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp</includedby>
-    <includedby refid="api_2timeseries_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h</includedby>
+    <includes local="no">boost/math/distributions/gamma.hpp</includes>
+    <includes local="no">boost/math/special_functions/gamma.hpp</includes>
+    <includes local="no">boost/math/tools/roots.hpp</includes>
+    <includes local="no">boost/math/tools/minima.hpp</includes>
+    <includes local="no">armadillo</includes>
+    <includedby refid="core__pch_8cpp" local="yes">/home/sih/projects/shyft/core/core_pch.cpp</includedby>
+    <includedby refid="dream__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/dream_optimizer.cpp</includedby>
+    <includedby refid="experimental_8cpp" local="yes">/home/sih/projects/shyft/core/experimental.cpp</includedby>
+    <includedby refid="sceua__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/sceua_optimizer.cpp</includedby>
+    <includedby refid="utctime__utilities_8cpp" local="yes">/home/sih/projects/shyft/core/utctime_utilities.cpp</includedby>
+    <includedby refid="api_8h" local="yes">/home/sih/projects/shyft/api/api.h</includedby>
+    <includedby refid="api_2timeseries_8h" local="yes">/home/sih/projects/shyft/api/timeseries.h</includedby>
+    <includedby refid="api_2hbv__stack_8h" local="yes">/home/sih/projects/shyft/api/hbv_stack.h</includedby>
+    <includedby refid="api_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/api/pt_gs_k.h</includedby>
+    <includedby refid="api_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/api/pt_hs_k.h</includedby>
+    <includedby refid="api_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/api/pt_ss_k.h</includedby>
     <incdepgraph>
-      <node id="313">
+      <node id="297">
         <label>functional</label>
       </node>
-      <node id="306">
+      <node id="292">
         <label>limits</label>
       </node>
-      <node id="318">
-        <label>stdexcept</label>
-      </node>
-      <node id="310">
-        <label>string</label>
-      </node>
-      <node id="309">
-        <label>map</label>
-      </node>
-      <node id="314">
-        <label>ostream</label>
-      </node>
-      <node id="319">
-        <label>random</label>
-      </node>
-      <node id="320">
-        <label>boost/range.hpp</label>
-      </node>
       <node id="317">
-        <label>future</label>
-      </node>
-      <node id="308">
-        <label>vector</label>
+        <label>boost/math/tools/roots.hpp</label>
       </node>
       <node id="315">
-        <label>cerrno</label>
+        <label>boost/math/distributions/gamma.hpp</label>
       </node>
-      <node id="307">
-        <label>cstddef</label>
+      <node id="311">
+        <label>cmath</label>
       </node>
-      <node id="316">
-        <label>thread</label>
+      <node id="303">
+        <label>stdexcept</label>
       </node>
-      <node id="304">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.h</label>
+      <node id="295">
+        <label>string</label>
+      </node>
+      <node id="294">
+        <label>map</label>
+      </node>
+      <node id="319">
+        <label>armadillo</label>
+      </node>
+      <node id="318">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="299">
+        <label>ostream</label>
+      </node>
+      <node id="290">
+        <label>/home/sih/projects/shyft/core/core_pch.h</label>
         <link refid="core__pch_8h"/>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
         <childnode refid="305" relation="include">
         </childnode>
         <childnode refid="306" relation="include">
@@ -97,61 +137,98 @@
         </childnode>
         <childnode refid="319" relation="include">
         </childnode>
-        <childnode refid="320" relation="include">
-        </childnode>
+      </node>
+      <node id="304">
+        <label>random</label>
+      </node>
+      <node id="314">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="302">
+        <label>future</label>
       </node>
       <node id="312">
-        <label>algorithm</label>
+        <label>boost/math_fwd.hpp</label>
       </node>
-      <node id="311">
-        <label>cstring</label>
+      <node id="293">
+        <label>vector</label>
+      </node>
+      <node id="300">
+        <label>sstream</label>
+      </node>
+      <node id="313">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="306">
+        <label>time.h</label>
+      </node>
+      <node id="310">
+        <label>math.h</label>
+      </node>
+      <node id="307">
+        <label>cerrno</label>
+      </node>
+      <node id="298">
+        <label>iostream</label>
+      </node>
+      <node id="309">
+        <label>cstddef</label>
+      </node>
+      <node id="316">
+        <label>boost/math/special_functions/gamma.hpp</label>
+      </node>
+      <node id="301">
+        <label>thread</label>
       </node>
       <node id="305">
+        <label>type_traits</label>
+      </node>
+      <node id="296">
+        <label>algorithm</label>
+      </node>
+      <node id="308">
+        <label>cstring</label>
+      </node>
+      <node id="291">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="326">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/utctime_utilities.cpp</label>
-        <link refid="utctime__utilities_8cpp"/>
-      </node>
-      <node id="323">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/dream_optimizer.cpp</label>
-        <link refid="dream__optimizer_8cpp"/>
-      </node>
-      <node id="328">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="329" relation="include">
-        </childnode>
-      </node>
-      <node id="327">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.h</label>
-        <link refid="api_2timeseries_8h"/>
-        <childnode refid="328" relation="include">
-        </childnode>
-        <childnode refid="330" relation="include">
-        </childnode>
-      </node>
-      <node id="325">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</label>
-        <link refid="sceua__optimizer_8cpp"/>
-      </node>
-      <node id="324">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</label>
-        <link refid="experimental_8cpp"/>
+      <node id="333">
+        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
+        <link refid="api_2pt__ss__k_8h"/>
       </node>
       <node id="322">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.cpp</label>
-        <link refid="core__pch_8cpp"/>
+        <label>/home/sih/projects/shyft/core/dream_optimizer.cpp</label>
+        <link refid="dream__optimizer_8cpp"/>
+      </node>
+      <node id="324">
+        <label>/home/sih/projects/shyft/core/sceua_optimizer.cpp</label>
+        <link refid="sceua__optimizer_8cpp"/>
       </node>
       <node id="330">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/timeseries.cpp</label>
-        <link refid="timeseries_8cpp"/>
+        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+        <link refid="api_2hbv__stack_8h"/>
+      </node>
+      <node id="326">
+        <label>/home/sih/projects/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="327" relation="include">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
+        <link refid="api_2pt__hs__k_8h"/>
       </node>
       <node id="321">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.h</label>
+        <label>/home/sih/projects/shyft/core/core_pch.cpp</label>
+        <link refid="core__pch_8cpp"/>
+      </node>
+      <node id="320">
+        <label>/home/sih/projects/shyft/core/core_pch.h</label>
         <link refid="core__pch_8h"/>
+        <childnode refid="321" relation="include">
+        </childnode>
         <childnode refid="322" relation="include">
         </childnode>
         <childnode refid="323" relation="include">
@@ -162,14 +239,73 @@
         </childnode>
         <childnode refid="326" relation="include">
         </childnode>
-        <childnode refid="327" relation="include">
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
         </childnode>
       </node>
-      <node id="329">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+      <node id="331">
+        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
+        <link refid="api_2pt__gs__k_8h"/>
+      </node>
+      <node id="323">
+        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
+        <link refid="experimental_8cpp"/>
+      </node>
+      <node id="327">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
         <link refid="api_8cpp"/>
       </node>
+      <node id="329">
+        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
+        <link refid="timeseries_8cpp"/>
+      </node>
+      <node id="325">
+        <label>/home/sih/projects/shyft/core/utctime_utilities.cpp</label>
+        <link refid="utctime__utilities_8cpp"/>
+      </node>
+      <node id="328">
+        <label>/home/sih/projects/shyft/api/timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+      </node>
     </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="core__pch_8h_1a525335710b53cb064ca56b936120431e" prot="public" static="no">
+        <name>_USE_MATH_DEFINES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copyright 2012 Statkraft Energi A/S</para><para>This file is part of ENKI.</para><para>ENKI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para><para>ENKI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</para><para>You should have received a copy of the GNU Lesser General Public License along with ENKI, usually located under the ENKI root directory in two files named COPYING.txt and COPYING_LESSER.txt. If not, see <ulink url="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</ulink>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/core/core_pch.h" line="48" column="28" bodyfile="/home/sih/projects/shyft/core/core_pch.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" prot="public" static="no">
+        <type>boost::math::static_gcd_type</type>
+        <definition>typedef boost::math::static_gcd_type static_gcd_type</definition>
+        <argsstring></argsstring>
+        <name>static_gcd_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/sih/projects/shyft/core/core_pch.h" line="56" column="1" bodyfile="/home/sih/projects/shyft/core/core_pch.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -186,23 +322,42 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;type_traits&gt;<sp/>//<sp/>for<sp/>check<sp/>primary<sp/>type<sp/>categories.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ostream&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cerrno&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;thread&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;future&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/range.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;thread&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;future&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cerrno&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="core__pch_8h_1a525335710b53cb064ca56b936120431e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_MATH_DEFINES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SiH:<sp/>On<sp/>ubuntu<sp/>15.04,<sp/>with<sp/>boost<sp/>1.59,<sp/>gcc<sp/>4.9.2<sp/>this<sp/>was<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>avoid<sp/>undefined<sp/>static_gcd_type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math_fwd.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" kindref="member">boost::math::static_gcd_type</ref><sp/><ref refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" kindref="member">static_gcd_type</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/numeric/odeint.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/range.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/distributions/gamma.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/special_functions/gamma.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/tools/roots.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/tools/minima.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;armadillo&gt;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/core_pch.h"/>
+    <location file="/home/sih/projects/shyft/core/core_pch.h"/>
   </compounddef>
 </doxygen>

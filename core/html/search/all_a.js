@@ -13,6 +13,7 @@ var searchData=
   ['kling_5fgupta',['kling_gupta',['../namespaceshyft_1_1api.html#ac8f18b2d1b1d01d8dae6ddce69f863fd',1,'shyft::api::kling_gupta()'],['../namespaceshyft_1_1core_1_1model__calibration.html#a1d095e2da6d4d8f6e04f7d731a7ba36ea89b599e43debedc2cdf4ad2184bede20',1,'shyft::core::model_calibration::KLING_GUPTA()']]],
   ['kling_5fgupta_5fgoal_5ffunction',['kling_gupta_goal_function',['../namespaceshyft_1_1timeseries.html#a3ad8092259a7bc0368f2834a22470093',1,'shyft::timeseries']]],
   ['klz',['klz',['../structshyft_1_1core_1_1hbv__tank_1_1parameter.html#ac6df8873db2bf4ddcf4a6b30eec53bd3',1,'shyft::core::hbv_tank::parameter']]],
+  ['kriging_2eh',['kriging.h',['../kriging_8h.html',1,'']]],
   ['kuz1',['kuz1',['../structshyft_1_1core_1_1hbv__tank_1_1parameter.html#a3501bc6facb9d92a71197421badcf41a',1,'shyft::core::hbv_tank::parameter']]],
   ['kuz2',['kuz2',['../structshyft_1_1core_1_1hbv__tank_1_1parameter.html#a2f5e7ca784752b879976e3c5bf821c07',1,'shyft::core::hbv_tank::parameter']]]
 ];

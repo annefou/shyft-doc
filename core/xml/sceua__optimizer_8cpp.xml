@@ -5,106 +5,171 @@
     <includes refid="core__pch_8h" local="yes">core_pch.h</includes>
     <includes refid="sceua__optimizer_8h" local="yes">sceua_optimizer.h</includes>
     <incdepgraph>
-      <node id="1234">
+      <node id="1077">
         <label>functional</label>
       </node>
-      <node id="1227">
+      <node id="1072">
         <label>limits</label>
       </node>
-      <node id="1239">
+      <node id="1097">
+        <label>boost/math/tools/roots.hpp</label>
+      </node>
+      <node id="1069">
+        <label>/home/sih/projects/shyft/core/sceua_optimizer.cpp</label>
+        <link refid="sceua__optimizer_8cpp"/>
+        <childnode refid="1070" relation="include">
+        </childnode>
+        <childnode refid="1100" relation="include">
+        </childnode>
+      </node>
+      <node id="1095">
+        <label>boost/math/distributions/gamma.hpp</label>
+      </node>
+      <node id="1091">
+        <label>cmath</label>
+      </node>
+      <node id="1083">
         <label>stdexcept</label>
       </node>
-      <node id="1231">
+      <node id="1075">
         <label>string</label>
       </node>
-      <node id="1230">
+      <node id="1074">
         <label>map</label>
       </node>
-      <node id="1235">
+      <node id="1099">
+        <label>armadillo</label>
+      </node>
+      <node id="1098">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="1079">
         <label>ostream</label>
       </node>
-      <node id="1243">
+      <node id="1070">
+        <label>core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="1071" relation="include">
+        </childnode>
+        <childnode refid="1072" relation="include">
+        </childnode>
+        <childnode refid="1073" relation="include">
+        </childnode>
+        <childnode refid="1074" relation="include">
+        </childnode>
+        <childnode refid="1075" relation="include">
+        </childnode>
+        <childnode refid="1076" relation="include">
+        </childnode>
+        <childnode refid="1077" relation="include">
+        </childnode>
+        <childnode refid="1078" relation="include">
+        </childnode>
+        <childnode refid="1079" relation="include">
+        </childnode>
+        <childnode refid="1080" relation="include">
+        </childnode>
+        <childnode refid="1081" relation="include">
+        </childnode>
+        <childnode refid="1082" relation="include">
+        </childnode>
+        <childnode refid="1083" relation="include">
+        </childnode>
+        <childnode refid="1084" relation="include">
+        </childnode>
+        <childnode refid="1085" relation="include">
+        </childnode>
+        <childnode refid="1086" relation="include">
+        </childnode>
+        <childnode refid="1087" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1091" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+        <childnode refid="1094" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+      </node>
+      <node id="1084">
+        <label>random</label>
+      </node>
+      <node id="1100">
+        <label>sceua_optimizer.h</label>
+        <link refid="sceua__optimizer_8h"/>
+        <childnode refid="1101" relation="include">
+        </childnode>
+      </node>
+      <node id="1094">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="1082">
+        <label>future</label>
+      </node>
+      <node id="1092">
+        <label>boost/math_fwd.hpp</label>
+      </node>
+      <node id="1073">
+        <label>vector</label>
+      </node>
+      <node id="1080">
+        <label>sstream</label>
+      </node>
+      <node id="1093">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="1086">
+        <label>time.h</label>
+      </node>
+      <node id="1090">
+        <label>math.h</label>
+      </node>
+      <node id="1087">
+        <label>cerrno</label>
+      </node>
+      <node id="1078">
+        <label>iostream</label>
+      </node>
+      <node id="1089">
+        <label>cstddef</label>
+      </node>
+      <node id="1101">
         <label>optimizer_utils.h</label>
         <link refid="optimizer__utils_8h"/>
       </node>
-      <node id="1240">
-        <label>random</label>
+      <node id="1096">
+        <label>boost/math/special_functions/gamma.hpp</label>
       </node>
-      <node id="1241">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="1238">
-        <label>future</label>
-      </node>
-      <node id="1229">
-        <label>vector</label>
-      </node>
-      <node id="1236">
-        <label>cerrno</label>
-      </node>
-      <node id="1228">
-        <label>cstddef</label>
-      </node>
-      <node id="1224">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp</label>
-        <link refid="sceua__optimizer_8cpp"/>
-        <childnode refid="1225" relation="include">
-        </childnode>
-        <childnode refid="1242" relation="include">
-        </childnode>
-      </node>
-      <node id="1237">
+      <node id="1081">
         <label>thread</label>
       </node>
-      <node id="1225">
-        <label>core_pch.h</label>
-        <link refid="core__pch_8h"/>
-        <childnode refid="1226" relation="include">
-        </childnode>
-        <childnode refid="1227" relation="include">
-        </childnode>
-        <childnode refid="1228" relation="include">
-        </childnode>
-        <childnode refid="1229" relation="include">
-        </childnode>
-        <childnode refid="1230" relation="include">
-        </childnode>
-        <childnode refid="1231" relation="include">
-        </childnode>
-        <childnode refid="1232" relation="include">
-        </childnode>
-        <childnode refid="1233" relation="include">
-        </childnode>
-        <childnode refid="1234" relation="include">
-        </childnode>
-        <childnode refid="1235" relation="include">
-        </childnode>
-        <childnode refid="1236" relation="include">
-        </childnode>
-        <childnode refid="1237" relation="include">
-        </childnode>
-        <childnode refid="1238" relation="include">
-        </childnode>
-        <childnode refid="1239" relation="include">
-        </childnode>
-        <childnode refid="1240" relation="include">
-        </childnode>
-        <childnode refid="1241" relation="include">
-        </childnode>
+      <node id="1085">
+        <label>type_traits</label>
       </node>
-      <node id="1233">
+      <node id="1076">
         <label>algorithm</label>
       </node>
-      <node id="1242">
-        <label>sceua_optimizer.h</label>
-        <link refid="sceua__optimizer_8h"/>
-        <childnode refid="1243" relation="include">
-        </childnode>
-      </node>
-      <node id="1232">
+      <node id="1088">
         <label>cstring</label>
       </node>
-      <node id="1226">
+      <node id="1071">
         <label>memory</label>
       </node>
     </incdepgraph>
@@ -400,6 +465,6 @@
 <codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="285"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/sceua_optimizer.cpp"/>
+    <location file="/home/sih/projects/shyft/core/sceua_optimizer.cpp"/>
   </compounddef>
 </doxygen>

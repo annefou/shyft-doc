@@ -5,7 +5,7 @@ var dir_4270bfced15e0e73154b13468c7c9ad9 =
     [ "cell_model.h", "cell__model_8h.html", "cell__model_8h" ],
     [ "compiler_compatiblity.h", "compiler__compatiblity_8h.html", null ],
     [ "core_pch.cpp", "core__pch_8cpp.html", null ],
-    [ "core_pch.h", "core__pch_8h.html", null ],
+    [ "core_pch.h", "core__pch_8h.html", "core__pch_8h" ],
     [ "dream_optimizer.cpp", "dream__optimizer_8cpp.html", null ],
     [ "dream_optimizer.h", "dream__optimizer_8h.html", [
       [ "dream", "classshyft_1_1core_1_1optimizer_1_1dream.html", "classshyft_1_1core_1_1optimizer_1_1dream" ]
@@ -42,7 +42,15 @@ var dir_4270bfced15e0e73154b13468c7c9ad9 =
       [ "filter", "structshyft_1_1core_1_1kalman_1_1filter.html", "structshyft_1_1core_1_1kalman_1_1filter" ],
       [ "bias_predictor", "structshyft_1_1core_1_1kalman_1_1bias__predictor.html", "structshyft_1_1core_1_1kalman_1_1bias__predictor" ]
     ] ],
-    [ "kirchner.h", "kirchner_8h.html", "kirchner_8h" ],
+    [ "kirchner.h", "kirchner_8h.html", [
+      [ "trapezoidal_average", "classshyft_1_1core_1_1kirchner_1_1trapezoidal__average.html", "classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" ],
+      [ "composite_trapezoidal_average", "classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average.html", "classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average" ],
+      [ "parameter", "structshyft_1_1core_1_1kirchner_1_1parameter.html", "structshyft_1_1core_1_1kirchner_1_1parameter" ],
+      [ "state", "structshyft_1_1core_1_1kirchner_1_1state.html", "structshyft_1_1core_1_1kirchner_1_1state" ],
+      [ "response", "structshyft_1_1core_1_1kirchner_1_1response.html", "structshyft_1_1core_1_1kirchner_1_1response" ],
+      [ "calculator", "classshyft_1_1core_1_1kirchner_1_1calculator.html", "classshyft_1_1core_1_1kirchner_1_1calculator" ]
+    ] ],
+    [ "kriging.h", "kriging_8h.html", "kriging_8h" ],
     [ "model_calibration.h", "model__calibration_8h.html", "model__calibration_8h" ],
     [ "optimizer_utils.h", "optimizer__utils_8h.html", "optimizer__utils_8h" ],
     [ "precipitation_correction.h", "precipitation__correction_8h.html", [

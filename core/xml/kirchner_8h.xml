@@ -2,250 +2,165 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="kirchner_8h" kind="file" language="C++">
     <compoundname>kirchner.h</compoundname>
-    <includes local="no">cmath</includes>
-    <includes local="no">boost/math_fwd.hpp</includes>
-    <includes local="no">boost/numeric/odeint.hpp</includes>
     <includes refid="core_2timeseries_8h" local="yes">timeseries.h</includes>
-    <includedby refid="region__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h</includedby>
-    <includedby refid="core_2pt__gs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h</includedby>
-    <includedby refid="core_2pt__hs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h</includedby>
-    <includedby refid="core_2pt__ss__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h</includedby>
+    <includedby refid="region__model_8h" local="yes">/home/sih/projects/shyft/core/region_model.h</includedby>
+    <includedby refid="core_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_gs_k.h</includedby>
+    <includedby refid="core_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_hs_k.h</includedby>
+    <includedby refid="core_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k.h</includedby>
     <incdepgraph>
-      <node id="750">
-        <label>time_axis.h</label>
-        <link refid="time__axis_8h"/>
-        <childnode refid="751" relation="include">
-        </childnode>
-        <childnode refid="745" relation="include">
-        </childnode>
-        <childnode refid="749" relation="include">
-        </childnode>
-        <childnode refid="752" relation="include">
-        </childnode>
-        <childnode refid="744" relation="include">
+      <node id="687">
+        <label>/home/sih/projects/shyft/core/kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="688" relation="include">
         </childnode>
       </node>
-      <node id="754">
-        <label>limits</label>
-      </node>
-      <node id="744">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="745" relation="include">
-        </childnode>
-        <childnode refid="746" relation="include">
-        </childnode>
-        <childnode refid="739" relation="include">
-        </childnode>
-        <childnode refid="747" relation="include">
-        </childnode>
-        <childnode refid="748" relation="include">
-        </childnode>
-        <childnode refid="749" relation="include">
-        </childnode>
-      </node>
-      <node id="739">
-        <label>cmath</label>
-      </node>
-      <node id="753">
-        <label>stdexcept</label>
-      </node>
-      <node id="745">
-        <label>string</label>
-      </node>
-      <node id="743">
-        <label>compiler_compatiblity.h</label>
-        <link refid="compiler__compatiblity_8h"/>
-      </node>
-      <node id="748">
-        <label>map</label>
-      </node>
-      <node id="751">
-        <label>exception</label>
-      </node>
-      <node id="742">
-        <label>timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="743" relation="include">
-        </childnode>
-        <childnode refid="744" relation="include">
-        </childnode>
-        <childnode refid="750" relation="include">
-        </childnode>
-        <childnode refid="753" relation="include">
-        </childnode>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="752" relation="include">
-        </childnode>
-        <childnode refid="755" relation="include">
-        </childnode>
-        <childnode refid="747" relation="include">
-        </childnode>
-        <childnode refid="756" relation="include">
-        </childnode>
-        <childnode refid="749" relation="include">
-        </childnode>
-        <childnode refid="757" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
-        </childnode>
-      </node>
-      <node id="757">
+      <node id="692">
         <label>glacier_melt.h</label>
         <link refid="glacier__melt_8h"/>
-        <childnode refid="744" relation="include">
+        <childnode refid="690" relation="include">
         </childnode>
       </node>
-      <node id="758">
+      <node id="690">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+      </node>
+      <node id="693">
         <label>unit_conversion.h</label>
         <link refid="unit__conversion_8h"/>
       </node>
-      <node id="740">
-        <label>boost/math_fwd.hpp</label>
-      </node>
-      <node id="747">
-        <label>vector</label>
-      </node>
-      <node id="738">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h</label>
-        <link refid="kirchner_8h"/>
-        <childnode refid="739" relation="include">
+      <node id="688">
+        <label>timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="689" relation="include">
         </childnode>
-        <childnode refid="740" relation="include">
+        <childnode refid="690" relation="include">
         </childnode>
-        <childnode refid="741" relation="include">
+        <childnode refid="691" relation="include">
         </childnode>
-        <childnode refid="742" relation="include">
+        <childnode refid="692" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
         </childnode>
       </node>
-      <node id="741">
-        <label>boost/numeric/odeint.hpp</label>
+      <node id="691">
+        <label>time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="690" relation="include">
+        </childnode>
       </node>
-      <node id="746">
-        <label>time.h</label>
-      </node>
-      <node id="755">
-        <label>iostream</label>
-      </node>
-      <node id="756">
-        <label>type_traits</label>
-      </node>
-      <node id="752">
-        <label>algorithm</label>
-      </node>
-      <node id="749">
-        <label>memory</label>
+      <node id="689">
+        <label>compiler_compatiblity.h</label>
+        <link refid="compiler__compatiblity_8h"/>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="774">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_ss_k.h</label>
+      <node id="709">
+        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
         <link refid="api_2pt__ss__k_8h"/>
       </node>
-      <node id="772">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k.h</label>
-        <link refid="core_2pt__ss__k_8h"/>
-        <childnode refid="773" relation="include">
-        </childnode>
-        <childnode refid="774" relation="include">
-        </childnode>
-      </node>
-      <node id="767">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k_cell_model.h</label>
-        <link refid="pt__gs__k__cell__model_8h"/>
-        <childnode refid="761" relation="include">
-        </childnode>
-        <childnode refid="764" relation="include">
-        </childnode>
-      </node>
-      <node id="763">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/model_calibration.h</label>
+      <node id="698">
+        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
         <link refid="model__calibration_8h"/>
-        <childnode refid="764" relation="include">
+        <childnode refid="699" relation="include">
         </childnode>
       </node>
-      <node id="766">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_gs_k.h</label>
-        <link refid="core_2pt__gs__k_8h"/>
-        <childnode refid="760" relation="include">
-        </childnode>
-        <childnode refid="767" relation="include">
-        </childnode>
-        <childnode refid="768" relation="include">
-        </childnode>
-      </node>
-      <node id="759">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h</label>
-        <link refid="kirchner_8h"/>
-        <childnode refid="760" relation="include">
-        </childnode>
-        <childnode refid="766" relation="include">
-        </childnode>
-        <childnode refid="769" relation="include">
-        </childnode>
-        <childnode refid="772" relation="include">
-        </childnode>
-      </node>
-      <node id="764">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="765" relation="include">
-        </childnode>
-      </node>
-      <node id="770">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k_cell_model.h</label>
+      <node id="705">
+        <label>/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</label>
         <link refid="pt__hs__k__cell__model_8h"/>
-        <childnode refid="764" relation="include">
+        <childnode refid="699" relation="include">
         </childnode>
       </node>
-      <node id="760">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/region_model.h</label>
-        <link refid="region__model_8h"/>
-        <childnode refid="761" relation="include">
-        </childnode>
-        <childnode refid="763" relation="include">
-        </childnode>
-        <childnode refid="764" relation="include">
+      <node id="699">
+        <label>/home/sih/projects/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="700" relation="include">
         </childnode>
       </node>
-      <node id="769">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_hs_k.h</label>
-        <link refid="core_2pt__hs__k_8h"/>
-        <childnode refid="760" relation="include">
-        </childnode>
-        <childnode refid="770" relation="include">
-        </childnode>
-        <childnode refid="771" relation="include">
+      <node id="706">
+        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
+        <link refid="api_2pt__hs__k_8h"/>
+      </node>
+      <node id="708">
+        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="699" relation="include">
         </childnode>
       </node>
-      <node id="768">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_gs_k.h</label>
+      <node id="702">
+        <label>/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+      </node>
+      <node id="701">
+        <label>/home/sih/projects/shyft/core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="695" relation="include">
+        </childnode>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="703" relation="include">
+        </childnode>
+      </node>
+      <node id="694">
+        <label>/home/sih/projects/shyft/core/kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="695" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="704" relation="include">
+        </childnode>
+        <childnode refid="707" relation="include">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
         <link refid="api_2pt__gs__k_8h"/>
       </node>
-      <node id="762">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.cpp</label>
+      <node id="704">
+        <label>/home/sih/projects/shyft/core/pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="695" relation="include">
+        </childnode>
+        <childnode refid="705" relation="include">
+        </childnode>
+        <childnode refid="706" relation="include">
+        </childnode>
+      </node>
+      <node id="697">
+        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
         <link refid="experimental_8cpp"/>
       </node>
-      <node id="761">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/experimental.h</label>
+      <node id="695">
+        <label>/home/sih/projects/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+      </node>
+      <node id="696">
+        <label>/home/sih/projects/shyft/core/experimental.h</label>
         <link refid="experimental_8h"/>
-        <childnode refid="762" relation="include">
+        <childnode refid="697" relation="include">
         </childnode>
       </node>
-      <node id="773">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/pt_ss_k_cell_model.h</label>
-        <link refid="pt__ss__k__cell__model_8h"/>
-        <childnode refid="764" relation="include">
-        </childnode>
-      </node>
-      <node id="765">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+      <node id="700">
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
         <link refid="api_8cpp"/>
       </node>
-      <node id="771">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_hs_k.h</label>
-        <link refid="api_2pt__hs__k_8h"/>
+      <node id="707">
+        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" prot="public">shyft::core::kirchner::trapezoidal_average</innerclass>
@@ -257,195 +172,170 @@
     <innernamespace refid="namespaceshyft">shyft</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core">shyft::core</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1kirchner">shyft::core::kirchner</innernamespace>
-      <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="kirchner_8h_1a3a2064c7084e5518c641555c9c7af541" prot="public" static="no">
-        <type>boost::math::static_gcd_type</type>
-        <definition>typedef boost::math::static_gcd_type static_gcd_type</definition>
-        <argsstring></argsstring>
-        <name>static_gcd_type</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" line="8" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h" bodystart="8" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SiH:<sp/>On<sp/>ubuntu<sp/>15.04,<sp/>with<sp/>boost<sp/>1.59,<sp/>gcc<sp/>4.9.2<sp/>this<sp/>was<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>avoid<sp/>undefined<sp/>static_gcd_type</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math_fwd.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="kirchner_8h_1a3a2064c7084e5518c641555c9c7af541" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="kirchner_8h_1a3a2064c7084e5518c641555c9c7af541" kindref="member">boost::math::static_gcd_type</ref><sp/><ref refid="kirchner_8h_1a3a2064c7084e5518c641555c9c7af541" kindref="member">static_gcd_type</ref>;</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/numeric/odeint.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2timeseries_8h" kindref="compound">timeseries.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
-<codeline lineno="17" refid="namespaceshyft_1_1core_1_1kirchner" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">kirchner<sp/>{</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S&gt;</highlight></codeline>
-<codeline lineno="28" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" kindref="compound">trapezoidal_average</ref><sp/>{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f_a<sp/>=<sp/>0.0;;<sp/></highlight><highlight class="comment">//<sp/>Left<sp/>hand<sp/>side<sp/>of<sp/>next<sp/>integration<sp/>subinterval</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>Start<sp/>of<sp/>integration<sp/>period</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_a<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>Left<sp/>hand<sp/>side<sp/>time<sp/>of<sp/>next<sp/>integration<sp/>subinterval</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="35" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a86ff593518a8d901163544fbdc9091b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a86ff593518a8d901163544fbdc9091b5" kindref="member">trapezoidal_average</ref>(S&amp;<sp/>stepper)<sp/>{}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a48ea2ab4891c3a3161a60caf9aedaeda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a48ea2ab4891c3a3161a60caf9aedaeda" kindref="member">initialize</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start)<sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;f_a<sp/>=<sp/>f0;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;t_start<sp/>=<sp/>t_start;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t_start;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2timeseries_8h" kindref="compound">timeseries.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="7" refid="namespaceshyft_1_1core_1_1kirchner" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">kirchner<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S&gt;</highlight></codeline>
+<codeline lineno="18" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" kindref="compound">trapezoidal_average</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f_a<sp/>=<sp/>0.0;;<sp/></highlight><highlight class="comment">//<sp/>Left<sp/>hand<sp/>side<sp/>of<sp/>next<sp/>integration<sp/>subinterval</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>Start<sp/>of<sp/>integration<sp/>period</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_a<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//<sp/>Left<sp/>hand<sp/>side<sp/>time<sp/>of<sp/>next<sp/>integration<sp/>subinterval</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a86ff593518a8d901163544fbdc9091b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a86ff593518a8d901163544fbdc9091b5" kindref="member">trapezoidal_average</ref>(S&amp;<sp/>stepper)<sp/>{}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a48ea2ab4891c3a3161a60caf9aedaeda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a48ea2ab4891c3a3161a60caf9aedaeda" kindref="member">initialize</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;f_a<sp/>=<sp/>f0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;t_start<sp/>=<sp/>t_start;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t_start;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1ad4321b7de4d993675e7ad3ac429c491c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1ad4321b7de4d993675e7ad3ac429c491c" kindref="member">add</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>+=<sp/>0.5*(f_a<sp/>+<sp/>f)*(t<sp/>-<sp/>t_a);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f_a<sp/>=<sp/>f;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t;</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1ad4321b7de4d993675e7ad3ac429c491c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1ad4321b7de4d993675e7ad3ac429c491c" kindref="member">add</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t)<sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>+=<sp/>0.5*(f_a<sp/>+<sp/>f)*(t<sp/>-<sp/>t_a);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f_a<sp/>=<sp/>f;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a23a4db01f96dca3a0be7be0f602ec3bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a23a4db01f96dca3a0be7be0f602ec3bc" kindref="member">result</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>area/(t_a<sp/>-<sp/>t_start);<sp/>}</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S&gt;<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average" kindref="compound">composite_trapezoidal_average</ref><sp/>{</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area<sp/>=<sp/>0.0;<sp/><sp/></highlight><highlight class="comment">//<sp/>Integrated<sp/>area</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f_a<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_a<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n{5};<sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>internal<sp/>subintervals</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>S&amp;<sp/>stepper;</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>S::state_type<sp/>x;<sp/></highlight><highlight class="comment">//<sp/>Storage<sp/>for<sp/>the<sp/>intermediate<sp/>state</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="82" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1acdc50c94b6acea21e3e2d2a2923ea0d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1acdc50c94b6acea21e3e2d2a2923ea0d5" kindref="member">composite_trapezoidal_average</ref>(S&amp;<sp/>stepper):<sp/>stepper(stepper)<sp/>{}</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a60720cd5151cede657de2349de948107" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a60720cd5151cede657de2349de948107" kindref="member">initialize</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start)<sp/>{</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;f_a<sp/>=<sp/>f0;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;t_start<sp/>=<sp/>t_start;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t_start;</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a4b961e9a5af454d277aa533e4e4e1923" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a4b961e9a5af454d277aa533e4e4e1923" kindref="member">add</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t)<sp/>{</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/>(t<sp/>-<sp/>t_a)/n;</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum<sp/>=<sp/>(f_a<sp/>+<sp/>f)*0.5;</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>k=1;<sp/>k<sp/>&lt;<sp/>n;<sp/>++k)<sp/>{</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stepper.calc_state(t_a<sp/>+<sp/>k*dt,<sp/>x);</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>Kirchner<sp/>method<sp/>is<sp/>solving<sp/>the<sp/>log<sp/>transform<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>original<sp/>problem<sp/>formulation,<sp/>hence<sp/>the<sp/>result<sp/>at<sp/>the</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>internal<sp/>steps<sp/>are<sp/>inverted<sp/>back<sp/>by<sp/>applying<sp/>the</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>exponential<sp/>function<sp/>at<sp/>each<sp/>sub<sp/>time<sp/>steps.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum<sp/>+=<sp/>exp(x<sp/></highlight><highlight class="comment">/*.at(0)*/</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>+=<sp/>sum*(t<sp/>-<sp/>t_a)/n;</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f_a<sp/>=<sp/>f;</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t;</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a8715423b17e71558c4a88a0b9492ea1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a8715423b17e71558c4a88a0b9492ea1c" kindref="member">result</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>area/(t_a<sp/>-<sp/>t_start);<sp/>}</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="structshyft_1_1core_1_1kirchner_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
-<codeline lineno="125" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c1<sp/>=<sp/>-2.439;</highlight></codeline>
-<codeline lineno="126" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c2<sp/>=<sp/>0.966;</highlight></codeline>
-<codeline lineno="127" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c3<sp/>=<sp/>-0.10;</highlight></codeline>
-<codeline lineno="128" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c1=-2.439,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c2=0.966,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c3=-0.1):c1(c1),c2(c2),c3(c3){}</highlight></codeline>
+<codeline lineno="46" refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a23a4db01f96dca3a0be7be0f602ec3bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1a23a4db01f96dca3a0be7be0f602ec3bc" kindref="member">result</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>area/(t_a<sp/>-<sp/>t_start);<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S&gt;<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average" kindref="compound">composite_trapezoidal_average</ref><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>area<sp/>=<sp/>0.0;<sp/><sp/></highlight><highlight class="comment">//<sp/>Integrated<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f_a<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_a<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n{5};<sp/></highlight><highlight class="comment">//<sp/>Number<sp/>of<sp/>internal<sp/>subintervals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>S&amp;<sp/>stepper;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>S::state_type<sp/>x;<sp/></highlight><highlight class="comment">//<sp/>Storage<sp/>for<sp/>the<sp/>intermediate<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="72" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1acdc50c94b6acea21e3e2d2a2923ea0d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1acdc50c94b6acea21e3e2d2a2923ea0d5" kindref="member">composite_trapezoidal_average</ref>(S&amp;<sp/>stepper):<sp/>stepper(stepper)<sp/>{}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a60720cd5151cede657de2349de948107" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a60720cd5151cede657de2349de948107" kindref="member">initialize</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t_start)<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;f_a<sp/>=<sp/>f0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;t_start<sp/>=<sp/>t_start;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t_start;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a4b961e9a5af454d277aa533e4e4e1923" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a4b961e9a5af454d277aa533e4e4e1923" kindref="member">add</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t)<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/>(t<sp/>-<sp/>t_a)/n;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum<sp/>=<sp/>(f_a<sp/>+<sp/>f)*0.5;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>k=1;<sp/>k<sp/>&lt;<sp/>n;<sp/>++k)<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>stepper.calc_state(t_a<sp/>+<sp/>k*dt,<sp/>x);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>Kirchner<sp/>method<sp/>is<sp/>solving<sp/>the<sp/>log<sp/>transform<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>original<sp/>problem<sp/>formulation,<sp/>hence<sp/>the<sp/>result<sp/>at<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>internal<sp/>steps<sp/>are<sp/>inverted<sp/>back<sp/>by<sp/>applying<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>exponential<sp/>function<sp/>at<sp/>each<sp/>sub<sp/>time<sp/>steps.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum<sp/>+=<sp/>exp(x<sp/></highlight><highlight class="comment">/*.at(0)*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>area<sp/>+=<sp/>sum*(t<sp/>-<sp/>t_a)/n;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f_a<sp/>=<sp/>f;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t_a<sp/>=<sp/>t;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a8715423b17e71558c4a88a0b9492ea1c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1composite__trapezoidal__average_1a8715423b17e71558c4a88a0b9492ea1c" kindref="member">result</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>area/(t_a<sp/>-<sp/>t_start);<sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="structshyft_1_1core_1_1kirchner_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
+<codeline lineno="115" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c1<sp/>=<sp/>-2.439;</highlight></codeline>
+<codeline lineno="116" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c2<sp/>=<sp/>0.966;</highlight></codeline>
+<codeline lineno="117" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c3<sp/>=<sp/>-0.10;</highlight></codeline>
+<codeline lineno="118" refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c1=-2.439,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c2=0.966,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c3=-0.1):c1(c1),c2(c2),c3(c3){}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structshyft_1_1core_1_1kirchner_1_1state" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">state</ref><sp/>{</highlight></codeline>
+<codeline lineno="123" refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q=0.0001;<sp/></highlight><highlight class="comment">//&lt;<sp/>water<sp/>content<sp/>in<sp/>[mm/h],<sp/>it<sp/>defaults<sp/>to<sp/>0.0001<sp/>mm,<sp/>zero<sp/>is<sp/>not<sp/>a<sp/>reasonable<sp/>valid<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" kindref="member">state</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q=0.0001):q(q){}</highlight></codeline>
+<codeline lineno="125" refid="structshyft_1_1core_1_1kirchner_1_1state_1a0f2bd9e6139a5641083197bcca868b19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a0f2bd9e6139a5641083197bcca868b19" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">state</ref>&amp;x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eps=1e-6;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fabs(q-x.<ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kindref="member">q</ref>)&lt;eps;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="structshyft_1_1core_1_1kirchner_1_1state" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">state</ref><sp/>{</highlight></codeline>
-<codeline lineno="133" refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q=0.0001;<sp/></highlight><highlight class="comment">//&lt;<sp/>water<sp/>content<sp/>in<sp/>[mm/h],<sp/>it<sp/>defaults<sp/>to<sp/>0.0001<sp/>mm,<sp/>zero<sp/>is<sp/>not<sp/>a<sp/>reasonable<sp/>valid<sp/>value</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" kindref="member">state</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q=0.0001):q(q){}</highlight></codeline>
-<codeline lineno="135" refid="structshyft_1_1core_1_1kirchner_1_1state_1a0f2bd9e6139a5641083197bcca868b19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a0f2bd9e6139a5641083197bcca868b19" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">state</ref>&amp;x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eps=1e-6;</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fabs(q-x.<ref refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kindref="member">q</ref>)&lt;eps;</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="structshyft_1_1core_1_1kirchner_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1kirchner_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
-<codeline lineno="143" refid="structshyft_1_1core_1_1kirchner_1_1response_1a83d26889568c10554e267c4d9f7786cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q_avg<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//&lt;<sp/>average<sp/>discharge<sp/>over<sp/>time-step<sp/>in<sp/>[mm/h]</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal">&gt;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AC,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">P&gt;</highlight></codeline>
-<codeline lineno="167" refid="classshyft_1_1core_1_1kirchner_1_1calculator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator" kindref="compound">calculator</ref><sp/>{</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="169" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" kindref="member">state_type</ref>;</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::numeric::odeint::result_of::make_dense_output&lt;</highlight></codeline>
-<codeline lineno="171" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;<sp/>&gt;::type<sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" kindref="member">dense_stepper_type</ref>;</highlight></codeline>
-<codeline lineno="172" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::pair&lt;dense_stepper_type::time_type,<sp/>dense_stepper_type::time_type&gt;<sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" kindref="member">interval_type</ref>;</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper_type<sp/>dense_stepper<sp/>=<sp/>boost::numeric::odeint::make_dense_output(1.0e-7,<sp/>1.0e-8,</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;());</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AC&lt;dense_stepper_type&gt;<sp/>average_computer{dense_stepper};</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P<sp/>param;</highlight></codeline>
+<codeline lineno="132" refid="structshyft_1_1core_1_1kirchner_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1kirchner_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
+<codeline lineno="133" refid="structshyft_1_1core_1_1kirchner_1_1response_1a83d26889568c10554e267c4d9f7786cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>q_avg<sp/>=<sp/>0.0;<sp/></highlight><highlight class="comment">//&lt;<sp/>average<sp/>discharge<sp/>over<sp/>time-step<sp/>in<sp/>[mm/h]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal">&gt;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AC,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">P&gt;</highlight></codeline>
+<codeline lineno="157" refid="classshyft_1_1core_1_1kirchner_1_1calculator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator" kindref="compound">calculator</ref><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="159" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" kindref="member">state_type</ref>;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::numeric::odeint::result_of::make_dense_output&lt;</highlight></codeline>
+<codeline lineno="161" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;<sp/>&gt;::type<sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" kindref="member">dense_stepper_type</ref>;</highlight></codeline>
+<codeline lineno="162" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::pair&lt;dense_stepper_type::time_type,<sp/>dense_stepper_type::time_type&gt;<sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" kindref="member">interval_type</ref>;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper_type<sp/>dense_stepper<sp/>=<sp/>boost::numeric::odeint::make_dense_output(1.0e-7,<sp/>1.0e-8,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;());</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>AC&lt;dense_stepper_type&gt;<sp/>average_computer{dense_stepper};</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P<sp/>param;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>g(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ln_q)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>exp(param.c1<sp/>+<sp/>param.c2*ln_q<sp/>+<sp/>param.c3*ln_q*ln_q);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>g(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ln_q)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>exp(param.c1<sp/>+<sp/>param.c2*ln_q<sp/>+<sp/>param.c3*ln_q*ln_q);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>log_transform_f(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ln_q,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>e)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gln_q<sp/>=<sp/>g(ln_q);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gln_q<sp/>&gt;=<sp/>1.e-30<sp/>?<sp/>gln_q*((p<sp/>-<sp/>e)*exp(-ln_q)<sp/>-<sp/>1.0)<sp/>:<sp/>0.0;</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>log_transform_f(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ln_q,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>e)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gln_q<sp/>=<sp/>g(ln_q);</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gln_q<sp/>&gt;=<sp/>1.e-30<sp/>?<sp/>gln_q*((p<sp/>-<sp/>e)*exp(-ln_q)<sp/>-<sp/>1.0)<sp/>:<sp/>0.0;</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="200" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" kindref="member">calculator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/>param)<sp/>:<sp/>param(param)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Do<sp/>nothing<sp/>*/</highlight><highlight class="normal"><sp/>}</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" kindref="member">calculator</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>abs_err,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rel_err,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/>param)</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>dense_stepper(boost::numeric::odeint::make_dense_output(abs_err,<sp/>rel_err,</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;())),</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer(dense_stepper),<sp/>param(param)<sp/>{}</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="190" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" kindref="member">calculator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/>param)<sp/>:<sp/>param(param)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Do<sp/>nothing<sp/>*/</highlight><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" kindref="member">calculator</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>abs_err,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rel_err,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/>param)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>dense_stepper(boost::numeric::odeint::make_dense_output(abs_err,<sp/>rel_err,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::numeric::odeint::runge_kutta_dopri5&lt;state_type&gt;())),</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer(dense_stepper),<sp/>param(param)<sp/>{}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" kindref="member">step</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::timeseries::utctime</ref><sp/>T0,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::timeseries::utctime</ref><sp/>T1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>q,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>q_avg,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state_type<sp/>x_tmp;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>min_q<sp/>=<sp/>0.00001;</highlight><highlight class="comment">//<sp/>ref<sp/>note<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(q<sp/>&lt;<sp/>min_q)<sp/>q<sp/>=<sp/>min_q;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_tmp<sp/>=<sp/>log(q);<sp/></highlight><highlight class="comment">//<sp/>Log<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" kindref="member">step</ref>(<ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::timeseries::utctime</ref><sp/>T0,<sp/><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">shyft::timeseries::utctime</ref><sp/>T1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>q,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>q_avg,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>e)<sp/>{</highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state_type<sp/>x_tmp;</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>min_q<sp/>=<sp/>0.00001;</highlight><highlight class="comment">//<sp/>ref<sp/>note<sp/>above</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(q<sp/>&lt;<sp/>min_q)<sp/>q<sp/>=<sp/>min_q;</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>x_tmp<sp/>=<sp/>log(q);<sp/></highlight><highlight class="comment">//<sp/>Log<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t0<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t1<sp/>=<sp/>double(T1<sp/>-<sp/>T0)/<ref refid="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" kindref="member">deltahours</ref>(1);<sp/></highlight><highlight class="comment">//<sp/>Units<sp/>in<sp/>kirchner<sp/>are<sp/>mm/hour.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper.initialize(x_tmp,<sp/>t0,<sp/>t1<sp/>-<sp/>t0);</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer.initialize(q,<sp/>t0);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>current_time<sp/>=<sp/>dense_stepper.current_time();</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(current_time<sp/>&lt;<sp/>t1)<sp/>{</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper.do_step([</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>p,<sp/>e](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>state_type<sp/>x,<sp/>state_type&amp;<sp/>dxdt,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dxdt<sp/>=<sp/>log_transform_f(x,<sp/>p,<sp/>e);<sp/>});</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>current_time<sp/>=<sp/>dense_stepper.current_time();</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(current_time<sp/>&lt;<sp/>t1)</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer.add(exp(dense_stepper.current_state()),<sp/>current_time);</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper.calc_state(t1,<sp/>x_tmp);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q<sp/>=<sp/>exp(x_tmp);<sp/></highlight><highlight class="comment">//<sp/>Invert<sp/>log<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer.add(q,<sp/>t1);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q_avg<sp/>=<sp/>average_computer.result();</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>kirchner</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="239"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>vim:<sp/>set<sp/>filetype=cpp:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t0<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t1<sp/>=<sp/>double(T1<sp/>-<sp/>T0)/<ref refid="namespaceshyft_1_1core_1a7ef37ab10073a3d0e9cf509d93d114b2" kindref="member">deltahours</ref>(1);<sp/></highlight><highlight class="comment">//<sp/>Units<sp/>in<sp/>kirchner<sp/>are<sp/>mm/hour.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper.initialize(x_tmp,<sp/>t0,<sp/>t1<sp/>-<sp/>t0);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer.initialize(q,<sp/>t0);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>current_time<sp/>=<sp/>dense_stepper.current_time();</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(current_time<sp/>&lt;<sp/>t1)<sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper.do_step([</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>p,<sp/>e](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>state_type<sp/>x,<sp/>state_type&amp;<sp/>dxdt,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dxdt<sp/>=<sp/>log_transform_f(x,<sp/>p,<sp/>e);<sp/>});</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>current_time<sp/>=<sp/>dense_stepper.current_time();</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(current_time<sp/>&lt;<sp/>t1)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer.add(exp(dense_stepper.current_state()),<sp/>current_time);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dense_stepper.calc_state(t1,<sp/>x_tmp);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q<sp/>=<sp/>exp(x_tmp);<sp/></highlight><highlight class="comment">//<sp/>Invert<sp/>log<sp/>transform</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>average_computer.add(q,<sp/>t1);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>q_avg<sp/>=<sp/>average_computer.result();</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>kirchner</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>vim:<sp/>set<sp/>filetype=cpp:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core/kirchner.h"/>
+    <location file="/home/sih/projects/shyft/core/kirchner.h"/>
   </compounddef>
 </doxygen>

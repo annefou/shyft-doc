@@ -2,190 +2,251 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="api_2pt__gs__k_8h" kind="file" language="C++">
     <compoundname>pt_gs_k.h</compoundname>
-    <includes local="no">string</includes>
-    <includes local="no">vector</includes>
+    <includes refid="core__pch_8h" local="yes">core/core_pch.h</includes>
     <includes refid="core_2pt__gs__k_8h" local="yes">core/pt_gs_k.h</includes>
     <incdepgraph>
-      <node id="922">
-        <label>time_axis.h</label>
-        <link refid="time__axis_8h"/>
-        <childnode refid="923" relation="include">
-        </childnode>
-        <childnode refid="908" relation="include">
-        </childnode>
-        <childnode refid="921" relation="include">
-        </childnode>
-        <childnode refid="924" relation="include">
-        </childnode>
-        <childnode refid="918" relation="include">
+      <node id="854">
+        <label>actual_evapotranspiration.h</label>
+        <link refid="actual__evapotranspiration_8h"/>
+        <childnode refid="849" relation="include">
         </childnode>
       </node>
-      <node id="926">
-        <label>limits</label>
-      </node>
-      <node id="934">
+      <node id="855">
         <label>precipitation_correction.h</label>
         <link refid="precipitation__correction_8h"/>
       </node>
-      <node id="918">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="908" relation="include">
+      <node id="821">
+        <label>functional</label>
+      </node>
+      <node id="816">
+        <label>limits</label>
+      </node>
+      <node id="841">
+        <label>boost/math/tools/roots.hpp</label>
+      </node>
+      <node id="853">
+        <label>gamma_snow.h</label>
+        <link refid="gamma__snow_8h"/>
+        <childnode refid="847" relation="include">
         </childnode>
-        <childnode refid="919" relation="include">
+        <childnode refid="840" relation="include">
         </childnode>
-        <childnode refid="913" relation="include">
-        </childnode>
-        <childnode refid="909" relation="include">
-        </childnode>
-        <childnode refid="920" relation="include">
-        </childnode>
-        <childnode refid="921" relation="include">
+        <childnode refid="849" relation="include">
         </childnode>
       </node>
-      <node id="913">
+      <node id="839">
+        <label>boost/math/distributions/gamma.hpp</label>
+      </node>
+      <node id="835">
         <label>cmath</label>
       </node>
-      <node id="925">
+      <node id="827">
         <label>stdexcept</label>
       </node>
-      <node id="908">
+      <node id="819">
         <label>string</label>
       </node>
-      <node id="917">
-        <label>compiler_compatiblity.h</label>
-        <link refid="compiler__compatiblity_8h"/>
-      </node>
-      <node id="920">
+      <node id="818">
         <label>map</label>
       </node>
-      <node id="923">
-        <label>exception</label>
-      </node>
-      <node id="916">
-        <label>timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="917" relation="include">
-        </childnode>
-        <childnode refid="918" relation="include">
-        </childnode>
-        <childnode refid="922" relation="include">
-        </childnode>
-        <childnode refid="925" relation="include">
-        </childnode>
-        <childnode refid="926" relation="include">
-        </childnode>
-        <childnode refid="924" relation="include">
-        </childnode>
-        <childnode refid="927" relation="include">
-        </childnode>
-        <childnode refid="909" relation="include">
-        </childnode>
-        <childnode refid="928" relation="include">
-        </childnode>
-        <childnode refid="921" relation="include">
-        </childnode>
-        <childnode refid="929" relation="include">
-        </childnode>
-        <childnode refid="930" relation="include">
-        </childnode>
-      </node>
-      <node id="929">
-        <label>glacier_melt.h</label>
-        <link refid="glacier__melt_8h"/>
-        <childnode refid="918" relation="include">
-        </childnode>
-      </node>
-      <node id="911">
-        <label>priestley_taylor.h</label>
-        <link refid="priestley__taylor_8h"/>
-      </node>
-      <node id="910">
+      <node id="844">
         <label>core/pt_gs_k.h</label>
         <link refid="core_2pt__gs__k_8h"/>
-        <childnode refid="911" relation="include">
+        <childnode refid="845" relation="include">
         </childnode>
-        <childnode refid="912" relation="include">
+        <childnode refid="846" relation="include">
         </childnode>
-        <childnode refid="931" relation="include">
+        <childnode refid="853" relation="include">
         </childnode>
-        <childnode refid="933" relation="include">
+        <childnode refid="854" relation="include">
         </childnode>
-        <childnode refid="934" relation="include">
+        <childnode refid="855" relation="include">
         </childnode>
-        <childnode refid="929" relation="include">
+        <childnode refid="851" relation="include">
         </childnode>
-        <childnode refid="930" relation="include">
+        <childnode refid="852" relation="include">
         </childnode>
       </node>
-      <node id="930">
+      <node id="843">
+        <label>armadillo</label>
+      </node>
+      <node id="846">
+        <label>kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="847" relation="include">
+        </childnode>
+      </node>
+      <node id="842">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="823">
+        <label>ostream</label>
+      </node>
+      <node id="814">
+        <label>core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="815" relation="include">
+        </childnode>
+        <childnode refid="816" relation="include">
+        </childnode>
+        <childnode refid="817" relation="include">
+        </childnode>
+        <childnode refid="818" relation="include">
+        </childnode>
+        <childnode refid="819" relation="include">
+        </childnode>
+        <childnode refid="820" relation="include">
+        </childnode>
+        <childnode refid="821" relation="include">
+        </childnode>
+        <childnode refid="822" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="831" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="813">
+        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
+        <link refid="api_2pt__gs__k_8h"/>
+        <childnode refid="814" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="849" relation="include">
+        </childnode>
+      </node>
+      <node id="849">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+      </node>
+      <node id="828">
+        <label>random</label>
+      </node>
+      <node id="838">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="852">
         <label>unit_conversion.h</label>
         <link refid="unit__conversion_8h"/>
       </node>
-      <node id="914">
+      <node id="826">
+        <label>future</label>
+      </node>
+      <node id="836">
         <label>boost/math_fwd.hpp</label>
       </node>
-      <node id="909">
+      <node id="847">
+        <label>timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="848" relation="include">
+        </childnode>
+        <childnode refid="849" relation="include">
+        </childnode>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="852" relation="include">
+        </childnode>
+      </node>
+      <node id="817">
         <label>vector</label>
       </node>
-      <node id="912">
-        <label>kirchner.h</label>
-        <link refid="kirchner_8h"/>
-        <childnode refid="913" relation="include">
-        </childnode>
-        <childnode refid="914" relation="include">
-        </childnode>
-        <childnode refid="915" relation="include">
-        </childnode>
-        <childnode refid="916" relation="include">
+      <node id="824">
+        <label>sstream</label>
+      </node>
+      <node id="850">
+        <label>time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="849" relation="include">
         </childnode>
       </node>
-      <node id="931">
-        <label>gamma_snow.h</label>
-        <link refid="gamma__snow_8h"/>
-        <childnode refid="916" relation="include">
-        </childnode>
-        <childnode refid="932" relation="include">
-        </childnode>
-        <childnode refid="918" relation="include">
-        </childnode>
-      </node>
-      <node id="915">
+      <node id="837">
         <label>boost/numeric/odeint.hpp</label>
       </node>
-      <node id="919">
+      <node id="830">
         <label>time.h</label>
       </node>
-      <node id="927">
+      <node id="834">
+        <label>math.h</label>
+      </node>
+      <node id="831">
+        <label>cerrno</label>
+      </node>
+      <node id="822">
         <label>iostream</label>
       </node>
-      <node id="907">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_gs_k.h</label>
-        <link refid="api_2pt__gs__k_8h"/>
-        <childnode refid="908" relation="include">
-        </childnode>
-        <childnode refid="909" relation="include">
-        </childnode>
-        <childnode refid="910" relation="include">
-        </childnode>
+      <node id="833">
+        <label>cstddef</label>
       </node>
-      <node id="932">
+      <node id="840">
         <label>boost/math/special_functions/gamma.hpp</label>
       </node>
-      <node id="928">
+      <node id="825">
+        <label>thread</label>
+      </node>
+      <node id="829">
         <label>type_traits</label>
       </node>
-      <node id="924">
+      <node id="820">
         <label>algorithm</label>
       </node>
-      <node id="933">
-        <label>actual_evapotranspiration.h</label>
-        <link refid="actual__evapotranspiration_8h"/>
-        <childnode refid="918" relation="include">
-        </childnode>
+      <node id="832">
+        <label>cstring</label>
       </node>
-      <node id="921">
+      <node id="815">
         <label>memory</label>
+      </node>
+      <node id="848">
+        <label>compiler_compatiblity.h</label>
+        <link refid="compiler__compatiblity_8h"/>
+      </node>
+      <node id="845">
+        <label>priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
       </node>
     </incdepgraph>
     <innerclass refid="structshyft_1_1api_1_1pt__gs__k__state__io" prot="public">shyft::api::pt_gs_k_state_io</innerclass>
@@ -196,8 +257,8 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core__pch_8h" kindref="compound">core/core_pch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2pt__gs__k_8h" kindref="compound">core/pt_gs_k.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
@@ -264,6 +325,6 @@
 <codeline lineno="66"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
 <codeline lineno="67"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/pt_gs_k.h"/>
+    <location file="/home/sih/projects/shyft/api/pt_gs_k.h"/>
   </compounddef>
 </doxygen>

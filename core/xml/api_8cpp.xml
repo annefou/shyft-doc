@@ -4,265 +4,66 @@
     <compoundname>api.cpp</compoundname>
     <includes refid="api_8h" local="yes">api.h</includes>
     <incdepgraph>
-      <node id="17">
-        <label>core/geo_point.h</label>
-        <link refid="geo__point_8h"/>
-      </node>
-      <node id="14">
-        <label>core/time_axis.h</label>
-        <link refid="time__axis_8h"/>
-        <childnode refid="15" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="55">
-        <label>iomanip</label>
-      </node>
-      <node id="30">
-        <label>functional</label>
-      </node>
-      <node id="21">
-        <label>limits</label>
-      </node>
-      <node id="57">
-        <label>boost/math/tools/roots.hpp</label>
-      </node>
-      <node id="46">
-        <label>cell_model.h</label>
-        <link refid="cell__model_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-      </node>
-      <node id="39">
-        <label>precipitation_correction.h</label>
-        <link refid="precipitation__correction_8h"/>
-      </node>
-      <node id="56">
-        <label>boost/math/distributions/gamma.hpp</label>
-      </node>
-      <node id="27">
-        <label>bayesian_kriging.h</label>
-        <link refid="bayesian__kriging_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="15" relation="include">
-        </childnode>
-      </node>
-      <node id="12">
-        <label>core/utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-      </node>
-      <node id="53">
-        <label>pt_ss_k.h</label>
-        <link refid="core_2pt__ss__k_8h"/>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="54" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="7">
-        <label>cmath</label>
-      </node>
-      <node id="10">
-        <label>stdexcept</label>
-      </node>
-      <node id="62">
-        <label>hbv_soil.h</label>
-        <link refid="hbv__soil_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="50">
-        <label>core/pt_gs_k_cell_model.h</label>
-        <link refid="pt__gs__k__cell__model_8h"/>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-      </node>
-      <node id="44">
-        <label>dlib/optimization.h</label>
-      </node>
-      <node id="2">
-        <label>string</label>
-      </node>
-      <node id="20">
-        <label>compiler_compatiblity.h</label>
-        <link refid="compiler__compatiblity_8h"/>
-      </node>
-      <node id="4">
-        <label>map</label>
-      </node>
-      <node id="28">
-        <label>armadillo</label>
-      </node>
-      <node id="15">
-        <label>exception</label>
-      </node>
-      <node id="58">
-        <label>boost/math/tools/minima.hpp</label>
-      </node>
-      <node id="68">
-        <label>ostream</label>
-      </node>
-      <node id="18">
-        <label>core/geo_cell_data.h</label>
-        <link refid="geo__cell__data_8h"/>
-        <childnode refid="17" relation="include">
+      <node id="47">
+        <label>actual_evapotranspiration.h</label>
+        <link refid="actual__evapotranspiration_8h"/>
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
       <node id="48">
-        <label>optimizer_utils.h</label>
-        <link refid="optimizer__utils_8h"/>
+        <label>precipitation_correction.h</label>
+        <link refid="precipitation__correction_8h"/>
       </node>
-      <node id="47">
-        <label>dream_optimizer.h</label>
-        <link refid="dream__optimizer_8h"/>
-        <childnode refid="48" relation="include">
-        </childnode>
+      <node id="9">
+        <label>functional</label>
       </node>
-      <node id="19">
-        <label>core/timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="20" relation="include">
+      <node id="4">
+        <label>limits</label>
+      </node>
+      <node id="29">
+        <label>boost/math/tools/roots.hpp</label>
+      </node>
+      <node id="44">
+        <label>gamma_snow.h</label>
+        <link refid="gamma__snow_8h"/>
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="22" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="23" relation="include">
-        </childnode>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="24">
-        <label>glacier_melt.h</label>
-        <link refid="glacier__melt_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="43">
+      <node id="51">
         <label>core/model_calibration.h</label>
         <link refid="model__calibration_8h"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="54" relation="include">
         </childnode>
         <childnode refid="49" relation="include">
         </childnode>
       </node>
-      <node id="11">
-        <label>random</label>
+      <node id="27">
+        <label>boost/math/distributions/gamma.hpp</label>
       </node>
-      <node id="36">
-        <label>priestley_taylor.h</label>
-        <link refid="priestley__taylor_8h"/>
-      </node>
-      <node id="45">
-        <label>dlib/statistics.h</label>
-      </node>
-      <node id="70">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="37">
-        <label>pt_gs_k.h</label>
-        <link refid="core_2pt__gs__k_8h"/>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="9">
-        <label>future</label>
-      </node>
-      <node id="25">
-        <label>unit_conversion.h</label>
-        <link refid="unit__conversion_8h"/>
-      </node>
-      <node id="32">
-        <label>boost/math_fwd.hpp</label>
-      </node>
-      <node id="3">
-        <label>vector</label>
-      </node>
-      <node id="42">
-        <label>sstream</label>
-      </node>
-      <node id="31">
-        <label>kirchner.h</label>
-        <link refid="kirchner_8h"/>
-        <childnode refid="7" relation="include">
-        </childnode>
-        <childnode refid="32" relation="include">
-        </childnode>
-        <childnode refid="33" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+      <node id="55">
+        <label>dream_optimizer.h</label>
+        <link refid="dream__optimizer_8h"/>
+        <childnode refid="56" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -270,6 +71,156 @@
         <link refid="api_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>core/geo_cell_data.h</label>
+        <link refid="geo__cell__data_8h"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>cmath</label>
+      </node>
+      <node id="15">
+        <label>stdexcept</label>
+      </node>
+      <node id="64">
+        <label>hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>hbv_soil.h</label>
+        <link refid="hbv__soil_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>dlib/optimization.h</label>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="60">
+        <label>core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>bayesian_kriging.h</label>
+        <link refid="bayesian__kriging_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>hbv_tank.h</label>
+        <link refid="hbv__tank_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>map</label>
+      </node>
+      <node id="58">
+        <label>core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>core/geo_point.h</label>
+        <link refid="geo__point_8h"/>
+      </node>
+      <node id="31">
+        <label>armadillo</label>
+      </node>
+      <node id="43">
+        <label>kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="11">
+        <label>ostream</label>
+      </node>
+      <node id="65">
+        <label>hbv_actual_evapotranspiration.h</label>
+        <link refid="hbv__actual__evapotranspiration_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -290,286 +241,267 @@
         </childnode>
         <childnode refid="12" relation="include">
         </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
         <childnode refid="14" relation="include">
-        </childnode>
-        <childnode refid="17" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="26" relation="include">
-        </childnode>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="27" relation="include">
-        </childnode>
-        <childnode refid="29" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="59" relation="include">
-        </childnode>
-        <childnode refid="64" relation="include">
-        </childnode>
-      </node>
-      <node id="59">
-        <label>core/hbv_stack_cell_model.h</label>
-        <link refid="hbv__stack__cell__model_8h"/>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="60" relation="include">
-        </childnode>
-      </node>
-      <node id="34">
-        <label>gamma_snow.h</label>
-        <link refid="gamma__snow_8h"/>
-        <childnode refid="19" relation="include">
-        </childnode>
-        <childnode refid="35" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="33">
-        <label>boost/numeric/odeint.hpp</label>
-      </node>
-      <node id="29">
-        <label>inverse_distance.h</label>
-        <link refid="inverse__distance_8h"/>
-        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="28" relation="include">
-        </childnode>
-        <childnode refid="20" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
         <childnode refid="17" relation="include">
         </childnode>
-      </node>
-      <node id="51">
-        <label>core/pt_hs_k_cell_model.h</label>
-        <link refid="pt__hs__k__cell__model_8h"/>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-      </node>
-      <node id="13">
-        <label>time.h</label>
-      </node>
-      <node id="6">
-        <label>math.h</label>
-      </node>
-      <node id="64">
-        <label>timeseries.h</label>
-        <link refid="api_2timeseries_8h"/>
-        <childnode refid="65" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="14" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
         <childnode refid="19" relation="include">
         </childnode>
-      </node>
-      <node id="69">
-        <label>cerrno</label>
-      </node>
-      <node id="63">
-        <label>hbv_tank.h</label>
-        <link refid="hbv__tank_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-      </node>
-      <node id="22">
-        <label>iostream</label>
-      </node>
-      <node id="26">
-        <label>core/region_model.h</label>
-        <link refid="region__model_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
         <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
         </childnode>
         <childnode refid="29" relation="include">
         </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
         <childnode refid="31" relation="include">
-        </childnode>
-        <childnode refid="34" relation="include">
-        </childnode>
-        <childnode refid="36" relation="include">
-        </childnode>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="40" relation="include">
-        </childnode>
-        <childnode refid="18" relation="include">
         </childnode>
       </node>
-      <node id="40">
-        <label>pt_hs_k.h</label>
-        <link refid="core_2pt__hs__k_8h"/>
+      <node id="38">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>core/utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+      </node>
+      <node id="16">
+        <label>random</label>
+      </node>
+      <node id="57">
+        <label>sceua_optimizer.h</label>
+        <link refid="sceua__optimizer_8h"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>dlib/statistics.h</label>
+      </node>
+      <node id="26">
+        <label>boost/range.hpp</label>
+      </node>
+      <node id="39">
+        <label>unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+      </node>
+      <node id="62">
+        <label>skaugen.h</label>
+        <link refid="skaugen_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
         <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="31" relation="include">
+      </node>
+      <node id="14">
+        <label>future</label>
+      </node>
+      <node id="49">
+        <label>pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="24" relation="include">
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>boost/math_fwd.hpp</label>
+      </node>
+      <node id="50">
+        <label>hbv_snow.h</label>
+        <link refid="hbv__snow_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>core/timeseries.h</label>
+        <link refid="core_2timeseries_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
         <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+      <node id="12">
+        <label>sstream</label>
+      </node>
+      <node id="33">
+        <label>core/time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="66">
-        <label>cstddef</label>
-      </node>
-      <node id="60">
-        <label>hbv_stack.h</label>
-        <link refid="core_2hbv__stack_8h"/>
-        <childnode refid="36" relation="include">
-        </childnode>
+      <node id="40">
+        <label>core/region_model.h</label>
+        <link refid="region__model_8h"/>
         <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
-        <childnode refid="63" relation="include">
-        </childnode>
-        <childnode refid="39" relation="include">
-        </childnode>
-        <childnode refid="24" relation="include">
-        </childnode>
-        <childnode refid="25" relation="include">
-        </childnode>
-      </node>
-      <node id="61">
-        <label>hbv_actual_evapotranspiration.h</label>
-        <link refid="hbv__actual__evapotranspiration_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="41">
-        <label>hbv_snow.h</label>
-        <link refid="hbv__snow_8h"/>
         <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="3" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="12" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
-      </node>
-      <node id="35">
-        <label>boost/math/special_functions/gamma.hpp</label>
-      </node>
-      <node id="8">
-        <label>thread</label>
-      </node>
-      <node id="52">
-        <label>core/pt_ss_k_cell_model.h</label>
-        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
         <childnode refid="46" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-      </node>
-      <node id="23">
-        <label>type_traits</label>
-      </node>
-      <node id="65">
-        <label>core/core_pch.h</label>
-        <link refid="core__pch_8h"/>
-        <childnode refid="5" relation="include">
-        </childnode>
-        <childnode refid="21" relation="include">
-        </childnode>
-        <childnode refid="66" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-        <childnode refid="4" relation="include">
-        </childnode>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="67" relation="include">
-        </childnode>
-        <childnode refid="16" relation="include">
-        </childnode>
-        <childnode refid="30" relation="include">
-        </childnode>
-        <childnode refid="68" relation="include">
-        </childnode>
-        <childnode refid="69" relation="include">
-        </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="70" relation="include">
-        </childnode>
-      </node>
-      <node id="16">
-        <label>algorithm</label>
-      </node>
-      <node id="49">
-        <label>sceua_optimizer.h</label>
-        <link refid="sceua__optimizer_8h"/>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="67">
-        <label>cstring</label>
-      </node>
-      <node id="38">
-        <label>actual_evapotranspiration.h</label>
-        <link refid="actual__evapotranspiration_8h"/>
-        <childnode refid="12" relation="include">
-        </childnode>
-      </node>
-      <node id="54">
-        <label>skaugen.h</label>
-        <link refid="skaugen_8h"/>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
         <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+      </node>
+      <node id="63">
+        <label>core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="54" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
-        </childnode>
-        <childnode refid="12" relation="include">
-        </childnode>
-        <childnode refid="19" relation="include">
+        <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>memory</label>
+      <node id="25">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="42">
+        <label>inverse_distance.h</label>
+        <link refid="inverse__distance_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>time.h</label>
+      </node>
+      <node id="22">
+        <label>math.h</label>
+      </node>
+      <node id="19">
+        <label>cerrno</label>
+      </node>
+      <node id="10">
+        <label>iostream</label>
+      </node>
+      <node id="21">
+        <label>cstddef</label>
+      </node>
+      <node id="56">
+        <label>optimizer_utils.h</label>
+        <link refid="optimizer__utils_8h"/>
+      </node>
+      <node id="54">
+        <label>cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>boost/math/special_functions/gamma.hpp</label>
+      </node>
+      <node id="13">
+        <label>thread</label>
       </node>
       <node id="0">
-        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp</label>
+        <label>/home/sih/projects/shyft/api/api.cpp</label>
         <link refid="api_8cpp"/>
         <childnode refid="1" relation="include">
         </childnode>
+      </node>
+      <node id="61">
+        <label>pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>algorithm</label>
+      </node>
+      <node id="20">
+        <label>cstring</label>
+      </node>
+      <node id="68">
+        <label>timeseries.h</label>
+        <link refid="api_2timeseries_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>memory</label>
+      </node>
+      <node id="37">
+        <label>compiler_compatiblity.h</label>
+        <link refid="compiler__compatiblity_8h"/>
+      </node>
+      <node id="45">
+        <label>priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -581,6 +513,6 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api/api.cpp"/>
+    <location file="/home/sih/projects/shyft/api/api.cpp"/>
   </compounddef>
 </doxygen>

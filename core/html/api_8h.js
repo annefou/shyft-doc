@@ -23,7 +23,6 @@ var api_8h =
     [ "actual_evapotranspiration_cell_response_statistics", "structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics.html", "structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics" ],
     [ "hbv_actual_evapotranspiration_cell_response_statistics", "structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics.html", "structshyft_1_1api_1_1hbv__actual__evapotranspiration__cell__response__statistics" ],
     [ "geo_cell_data_io", "structshyft_1_1api_1_1geo__cell__data__io.html", null ],
-    [ "_USE_MATH_DEFINES", "api_8h.html#a525335710b53cb064ca56b936120431e", null ],
     [ "result_ts_t", "api_8h.html#a7000ddfe7ea6018f016e9e350fcd9ea1", null ],
     [ "result_ts_t_", "api_8h.html#afcfaa9026650adacd25625447f417b99", null ]
 ];

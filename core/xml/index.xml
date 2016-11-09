@@ -436,6 +436,19 @@
     <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a81268eabf28aaf815188b7db9a719bfe" kind="function"><name>step</name></member>
     <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a0101f9d6b86c6c5baa2c1be951c75552" kind="function"><name>compute_shape_vars</name></member>
   </compound>
+  <compound refid="classshyft_1_1core_1_1kirchner_1_1calculator" kind="class"><name>shyft::core::kirchner::calculator</name>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" kind="typedef"><name>state_type</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" kind="typedef"><name>dense_stepper_type</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" kind="typedef"><name>interval_type</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a25bb55c1045e7b5b47f7bb62b35491cd" kind="variable"><name>dense_stepper</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a4e428d0a70101016cd2942d24f37adb7" kind="variable"><name>average_computer</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1aa31a602d42a03b2b13b068ea3aac975c" kind="variable"><name>param</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1ab9df689bd369605b8510c22577a2658c" kind="function"><name>g</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a62dbb641070f288348ecdd6a74ad02d6" kind="function"><name>log_transform_f</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" kind="function"><name>calculator</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" kind="function"><name>calculator</name></member>
+    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" kind="function"><name>step</name></member>
+  </compound>
   <compound refid="classshyft_1_1core_1_1gamma__snow_1_1calculator" kind="class"><name>shyft::core::gamma_snow::calculator</name>
     <member refid="classshyft_1_1core_1_1gamma__snow_1_1calculator_1a94d2541ebab5124fcb8a0941cba59432" kind="typedef"><name>high_precision_type</name></member>
     <member refid="classshyft_1_1core_1_1gamma__snow_1_1calculator_1a7295e99b07d1df755d4a79eadccfecb3" kind="typedef"><name>low_precision_type</name></member>
@@ -456,19 +469,6 @@
     <member refid="classshyft_1_1core_1_1gamma__snow_1_1calculator_1a6fb996c2ae824cb4bc2bfdb8bebf4f47" kind="function"><name>calc_snow_state</name></member>
     <member refid="classshyft_1_1core_1_1gamma__snow_1_1calculator_1a587c3cb897a5b1e0f288a57dbd588c09" kind="function"><name>reset_snow_pack</name></member>
     <member refid="classshyft_1_1core_1_1gamma__snow_1_1calculator_1afbde483a6479836b5adad9af70b469c3" kind="function"><name>step</name></member>
-  </compound>
-  <compound refid="classshyft_1_1core_1_1kirchner_1_1calculator" kind="class"><name>shyft::core::kirchner::calculator</name>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a6db6d94bfbe98dbf423e31dc8d09ad9b" kind="typedef"><name>state_type</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1acfab26b9ab3b367779263ed5482ba28a" kind="typedef"><name>dense_stepper_type</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a2b66d890dcd68939b0edca239b70fd5c" kind="typedef"><name>interval_type</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a25bb55c1045e7b5b47f7bb62b35491cd" kind="variable"><name>dense_stepper</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a4e428d0a70101016cd2942d24f37adb7" kind="variable"><name>average_computer</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1aa31a602d42a03b2b13b068ea3aac975c" kind="variable"><name>param</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1ab9df689bd369605b8510c22577a2658c" kind="function"><name>g</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a62dbb641070f288348ecdd6a74ad02d6" kind="function"><name>log_transform_f</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a3eb02d32698f9655e71e20af11f3fe45" kind="function"><name>calculator</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a70fb7e4e0bef52808a1c94d1aea2d5ef" kind="function"><name>calculator</name></member>
-    <member refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" kind="function"><name>step</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1hbv__snow_1_1calculator" kind="struct"><name>shyft::core::hbv_snow::calculator</name>
     <member refid="structshyft_1_1core_1_1hbv__snow_1_1calculator_1ab6351f0d32cdfb73adeb1757981949b5" kind="variable"><name>sd</name></member>
@@ -828,6 +828,12 @@
     <member refid="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" kind="variable"><name>wind_speed</name></member>
     <member refid="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" kind="function"><name>init</name></member>
   </compound>
+  <compound refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1exponential" kind="struct"><name>shyft::core::kriging::covariance::exponential</name>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1exponential_1a48bf92a4be7151a3606a76ade3fc58b0" kind="variable"><name>c</name></member>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1exponential_1a14bd918c27993e11d6a4cd23e96f527e" kind="variable"><name>minus3_over_a</name></member>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1exponential_1ab75acdeeb5870c1b8ac2ff14e16c06c2" kind="function"><name>exponential</name></member>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1exponential_1af6894a08c52037ff4f37545594e71f54" kind="function"><name>operator()</name></member>
+  </compound>
   <compound refid="structshyft_1_1core_1_1grf_1_1exponential__model" kind="struct"><name>shyft::core::grf::exponential_model</name>
     <member refid="structshyft_1_1core_1_1grf_1_1exponential__model_1a28d7a3d2e474bcc046419a0cba17d7b4" kind="function"><name>covariance</name></member>
     <member refid="structshyft_1_1core_1_1grf_1_1exponential__model_1ab840b42c085a8e55547f70d143ab1925" kind="function"><name>semivariance</name></member>
@@ -917,6 +923,12 @@
     <member refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a2d5b04f4c7e2748ea730e0b666273a6b" kind="function"><name>temp_swe</name></member>
     <member refid="structshyft_1_1api_1_1gamma__snow__cell__state__statistics_1a54e04021e27ec954fbd25345bb793ec3" kind="function"><name>temp_swe_value</name></member>
   </compound>
+  <compound refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian" kind="struct"><name>shyft::core::kriging::covariance::gaussian</name>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian_1a5dcd8b8949847dd1eb1b0dd48052b4c0" kind="variable"><name>c</name></member>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian_1a93f9f1d21a8e7a5e7919cd1d7d47799a" kind="variable"><name>minus3_over_a2</name></member>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian_1a5641c58e1f0648b56997b6f5263953b6" kind="function"><name>gaussian</name></member>
+    <member refid="structshyft_1_1core_1_1kriging_1_1covariance_1_1gaussian_1ad861ccdaca9dfb3605e91f6610fca072" kind="function"><name>operator()</name></member>
+  </compound>
   <compound refid="structshyft_1_1core_1_1grf_1_1gaussian__model" kind="struct"><name>shyft::core::grf::gaussian_model</name>
     <member refid="structshyft_1_1core_1_1grf_1_1gaussian__model_1a7deda69e6c52ce3b1cb6018bb367956d" kind="function"><name>covariance</name></member>
     <member refid="structshyft_1_1core_1_1grf_1_1gaussian__model_1aab633151ec7088849cba75c9ca029ff6" kind="function"><name>semivariance</name></member>
@@ -1000,7 +1012,10 @@
     <member refid="structshyft_1_1core_1_1geo__point_1a1ddaadfff4a7843fc1871331e594673c" kind="function"><name>distance2</name></member>
     <member refid="structshyft_1_1core_1_1geo__point_1aced9b4d0161bae54812024576fcf3976" kind="function"><name>distance_measure</name></member>
     <member refid="structshyft_1_1core_1_1geo__point_1ac2220e94a129c55308fc2aa6cd463fb5" kind="function"><name>zscaled_distance</name></member>
+    <member refid="structshyft_1_1core_1_1geo__point_1a69f305c9ff9379bb876c0c1cac44d755" kind="function"><name>zscaled_distance2</name></member>
     <member refid="structshyft_1_1core_1_1geo__point_1a1d284e1586fdc6f4d7eaf9e67d1aa08b" kind="function"><name>xy_distance</name></member>
+    <member refid="structshyft_1_1core_1_1geo__point_1a16882f7c92de8d5b7e9d106f2752cbe2" kind="function"><name>xy_distance2</name></member>
+    <member refid="structshyft_1_1core_1_1geo__point_1af3a9dc4ebc529b919164e18840e5abf3" kind="function"><name>z_distance2</name></member>
     <member refid="structshyft_1_1core_1_1geo__point_1ad7319076c114837b8514939100774e0b" kind="function"><name>difference</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1geo__point__ts" kind="struct"><name>shyft::core::geo_point_ts</name>
@@ -1021,6 +1036,7 @@
     <member refid="classshyft_1_1api_1_1_geo_point_source_1a785d8fbaef811ec7b3acb03c339b985e" kind="function"><name>set_ts</name></member>
     <member refid="classshyft_1_1api_1_1_geo_point_source_1a0523f6e990425466cd88db43264914d0" kind="function"><name>is_equal</name></member>
     <member refid="classshyft_1_1api_1_1_geo_point_source_1a523b1f737a6ab6eddfafe124569384ab" kind="function"><name>mid_point</name></member>
+    <member refid="classshyft_1_1api_1_1_geo_point_source_1a1bdb1ba3b8bf600e74074fb74c1a5a06" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="structshyft_1_1timeseries_1_1glacier__melt__ts" kind="struct"><name>shyft::timeseries::glacier_melt_ts</name>
     <member refid="structshyft_1_1timeseries_1_1glacier__melt__ts_1a92dcfca18c4501b040019a4d955b278e" kind="typedef"><name>ta_t</name></member>
@@ -1240,13 +1256,13 @@
     <member refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a9b901f929e69f6a93695adb71a42520e" kind="function"><name>initialize</name></member>
     <member refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a694df32dad37c96fd85a504dc26c85ea" kind="function"><name>collect</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1null__collector" kind="struct"><name>shyft::core::pt_hs_k::null_collector</name>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1null__collector_1a4b09ec0c9c5e3d647c626d10962329a0" kind="function"><name>initialize</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1null__collector_1a1309ff216942db2a803cc347d83a6f74" kind="function"><name>collect</name></member>
-  </compound>
   <compound refid="structshyft_1_1core_1_1pt__gs__k_1_1null__collector" kind="struct"><name>shyft::core::pt_gs_k::null_collector</name>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1null__collector_1a16d8b412eeba983843a60e60c53ee82c" kind="function"><name>initialize</name></member>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1null__collector_1a53c86ec896ee00df116bc14837720375" kind="function"><name>collect</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1null__collector" kind="struct"><name>shyft::core::pt_hs_k::null_collector</name>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1null__collector_1a4b09ec0c9c5e3d647c626d10962329a0" kind="function"><name>initialize</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1null__collector_1a1309ff216942db2a803cc347d83a6f74" kind="function"><name>collect</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1null__collector" kind="struct"><name>shyft::core::pt_ss_k::null_collector</name>
     <member refid="structshyft_1_1core_1_1pt__ss__k_1_1null__collector_1a0c72439e424b7b6633ad4a2d1ffdd044" kind="function"><name>initialize</name></member>
@@ -1334,9 +1350,29 @@
     <member refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kind="variable"><name>dtf</name></member>
     <member refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a1a5ee7efa6c1f6acef0f5ae74bdc2732" kind="function"><name>parameter</name></member>
   </compound>
+  <compound refid="structshyft_1_1core_1_1skaugen_1_1parameter" kind="struct"><name>shyft::core::skaugen::parameter</name>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1acc01378a6bf2a8aa5684fd2f386e6049" kind="variable"><name>alpha_0</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a29343dbca4ce8a1682190c10a22bdbc4" kind="variable"><name>d_range</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ab80fd56afb995b625b987c5b82abbb07" kind="variable"><name>unit_size</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0b4ee58f60d5c9c2ab04fd48d30f1da2" kind="variable"><name>max_water_fraction</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a5075be939253ab989bf9757a48077d27" kind="variable"><name>tx</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a8d7f2bb35da2331a2f0ba7059458e84e" kind="variable"><name>cx</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a88b177977c1c5d2e65c87e3a566bb25e" kind="variable"><name>ts</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a46ae54bb16f402890a8041938455b32a" kind="variable"><name>cfr</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ad7e0fc37cca6bf3cbfe0443b0b9dff84" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0238f52708398eeb8f552a73f91aef5b" kind="function"><name>parameter</name></member>
+  </compound>
   <compound refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter" kind="struct"><name>shyft::core::hbv_actual_evapotranspiration::parameter</name>
     <member refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a5b3e6482b9e3c7923093eeb7bb933fdf" kind="variable"><name>lp</name></member>
     <member refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a3eaedbd7f530041336045a9fd75e26e6" kind="function"><name>parameter</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1hbv__tank_1_1parameter" kind="struct"><name>shyft::core::hbv_tank::parameter</name>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1ae25dfaf5dd6b8cd6c0272e97d184468a" kind="variable"><name>uz1</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1a2f5e7ca784752b879976e3c5bf821c07" kind="variable"><name>kuz2</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1a3501bc6facb9d92a71197421badcf41a" kind="variable"><name>kuz1</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1acf41b9dedb91025fece6d0b1492dcd02" kind="variable"><name>perc</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1ac6df8873db2bf4ddcf4a6b30eec53bd3" kind="variable"><name>klz</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1aae208e77242d60dae4a43dc45c288b5e" kind="function"><name>parameter</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1hbv__snow_1_1parameter" kind="struct"><name>shyft::core::hbv_snow::parameter</name>
     <member refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a3f9b69d104ac45e3ac5f46f69986f539" kind="variable"><name>s</name></member>
@@ -1352,10 +1388,6 @@
     <member refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1a665e2b72321f2f7ac168c7d2049574a9" kind="function"><name>set_snow_redistribution_factors</name></member>
     <member refid="structshyft_1_1core_1_1hbv__snow_1_1parameter_1ac689670fff810dd5ba1de4940e4a8e89" kind="function"><name>set_snow_quantiles</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" kind="struct"><name>shyft::core::actual_evapotranspiration::parameter</name>
-    <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" kind="variable"><name>ae_scale_factor</name></member>
-    <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1aafc8528d039a17333de8b885e97a4620" kind="function"><name>parameter</name></member>
-  </compound>
   <compound refid="structshyft_1_1core_1_1kalman_1_1parameter" kind="struct"><name>shyft::core::kalman::parameter</name>
     <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a6eb5fd7e0113abe24f72c7d4abc3031b" kind="variable"><name>n_daily_observations</name></member>
     <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a8ba7b7fa8216910243f01dd5f51519a2" kind="variable"><name>hourly_correlation</name></member>
@@ -1363,19 +1395,6 @@
     <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a1fa357db699ee0a14954d798eb034d6b" kind="variable"><name>std_error_bias_measurements</name></member>
     <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1a1a811cc5f0e0af0ccceaae85ba485af4" kind="variable"><name>ratio_std_w_over_v</name></member>
     <member refid="structshyft_1_1core_1_1kalman_1_1parameter_1ac1a95c5e1fbc176d7b5008fe793f96e5" kind="function"><name>parameter</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1inverse__distance_1_1parameter" kind="struct"><name>shyft::core::inverse_distance::parameter</name>
-    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a442114bbdccc3b0c45af04cdec45af64" kind="variable"><name>max_members</name></member>
-    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a571a974f54f69d0fb74b18dca9378b65" kind="variable"><name>max_distance</name></member>
-    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1ac2c567f9a0aa7890abbee6c95623f0fb" kind="variable"><name>distance_measure_factor</name></member>
-    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1aa7d0f88227114fec039687ecb1304729" kind="variable"><name>zscale</name></member>
-    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1af5aab22af82afd34b5dcc157e8152834" kind="function"><name>parameter</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1kirchner_1_1parameter" kind="struct"><name>shyft::core::kirchner::parameter</name>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" kind="variable"><name>c1</name></member>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" kind="variable"><name>c2</name></member>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" kind="variable"><name>c3</name></member>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" kind="function"><name>parameter</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1gamma__snow_1_1parameter" kind="struct"><name>shyft::core::gamma_snow::parameter</name>
     <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a29b7ac99474d45a301690320c1ad8838" kind="variable"><name>cal</name></member>
@@ -1401,64 +1420,29 @@
     <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1af2844e7c6ad143600a4e9825c49d037d" kind="function"><name>is_snow_season</name></member>
     <member refid="structshyft_1_1core_1_1gamma__snow_1_1parameter_1a3d7614f02c66abe633431bb2bef46d4f" kind="function"><name>is_start_melt_season</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__soil_1_1parameter" kind="struct"><name>shyft::core::hbv_soil::parameter</name>
-    <member refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1ac1a1ce16dfb9e9fe80e29dbff9f39d6f" kind="variable"><name>fc</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1a99623dab82535fa00a4a0bfb6d04bebb" kind="variable"><name>beta</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1aa85c2c0e87e776b8d117b43841b77560" kind="function"><name>parameter</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__stack_1_1parameter" kind="struct"><name>shyft::core::hbv_stack::parameter</name>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a210cd9939a0a0cd7cb3e5832eb56120b" kind="typedef"><name>pt_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1adeafb00978ffd36d84065ac94c1efb70" kind="typedef"><name>snow_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a4a8ecf6429474540e7e5d357cd03fc21" kind="typedef"><name>ae_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1afa55015e3a0aa7a812df305e4b7a30fe" kind="typedef"><name>soil_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a384a825412b2436eba57c2ae9dfe87cb" kind="typedef"><name>tank_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a86a7a91a8a3a5737809e8666a9adb30c" kind="typedef"><name>precipitation_correction_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a8dffe61aa119332875b098e035c801c9" kind="typedef"><name>glacier_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a5a38b210032bf9b3157a2f25f78d1ec9" kind="variable"><name>pt</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1afdc8859f484a9372cdeeb9a4bf272dd7" kind="variable"><name>snow</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a93ab1a144ffe1ffeb5cbac10090aa426" kind="variable"><name>ae</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1aa8c46d64fd9b5e16031ab3b5c7cbb61b" kind="variable"><name>soil</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a0e4cf30741542326558eb3bde3e16977" kind="variable"><name>tank</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1aacdfc1a125f32887128d05a4eed8490c" kind="variable"><name>p_corr</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a7a46c4a5373e95606330d84b49e9c4dd" kind="variable"><name>gm</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ac119759557bc47dc59720968a9a50afe" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a3e0e26b01cd8e1d4c513bac6e1aabda9" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a47c53c82cd9f87b2c6666e6aa228638e" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ae47cde71d1706488f10123592aa1d245" kind="function"><name>size</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ae32e4a61bb7bb768f90ffa08557819c1" kind="function"><name>set</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a669fb3a3472cd5a0503cfb83015bf3a2" kind="function"><name>get</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ac78aa173f01cc2786d189592570c0133" kind="function"><name>get_name</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter" kind="struct"><name>shyft::core::pt_hs_k::parameter</name>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a3bf4e952ff2782b673e39491e21f4bea" kind="typedef"><name>pt_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a131e622ecdbae198c147e68886e3f004" kind="typedef"><name>snow_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a211cbe1eb0823eeaa7196cb07473b298" kind="typedef"><name>ae_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a94d6e4e26eb71a74a63d274303b7009e" kind="typedef"><name>kirchner_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a18351f5402aca60221678938d218a165" kind="typedef"><name>precipitation_correction_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" kind="typedef"><name>glacier_parameter_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a885a7ddb34072c085197b48becf7c8b2" kind="variable"><name>pt</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aa1c5b44c1d22f48d15045b0ea5e2f33d" kind="variable"><name>hs</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af3d1b19300b8329c6c11d14a8bf4b6f6" kind="variable"><name>ae</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a6a9d0d9f82fb7cd9727d0dc77426289a" kind="variable"><name>kirchner</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ae6e963ecefc452a2677320f46019a8c0" kind="variable"><name>p_corr</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a12efbc4362169951f4fea3d124ca9220" kind="variable"><name>gm</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a81c8f8cb94568a82220de170bb8f6886" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aaf66409ca1339c29ee0704a681faee9e" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a1bf62d673dbe570a364682af6c97fffb" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" kind="function"><name>operator=</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af014dd5aa7020d31be59e0bd66ef89a2" kind="function"><name>size</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a354482461b38fca5cc248bde2717dfb5" kind="function"><name>set</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1add532fc6dfcb1f7b2193b108a945b3a8" kind="function"><name>get</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aea215951aeaa37a80b79659a5c37c83f" kind="function"><name>get_name</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" kind="struct"><name>shyft::core::precipitation_correction::parameter</name>
-    <member refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kind="variable"><name>scale_factor</name></member>
-    <member refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a359181e8ede08563e352b41c2fc7e76d" kind="function"><name>parameter</name></member>
+  <compound refid="structshyft_1_1core_1_1kirchner_1_1parameter" kind="struct"><name>shyft::core::kirchner::parameter</name>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" kind="variable"><name>c1</name></member>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" kind="variable"><name>c2</name></member>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" kind="variable"><name>c3</name></member>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1parameter_1a271764c5d846b83eaf66e5ea91c951b8" kind="function"><name>parameter</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter" kind="struct"><name>shyft::core::priestley_taylor::parameter</name>
     <member refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kind="variable"><name>albedo</name></member>
     <member refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kind="variable"><name>alpha</name></member>
     <member refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1aa5e8577da8180114bd55cdb9b39f2cae" kind="function"><name>parameter</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1hbv__soil_1_1parameter" kind="struct"><name>shyft::core::hbv_soil::parameter</name>
+    <member refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1ac1a1ce16dfb9e9fe80e29dbff9f39d6f" kind="variable"><name>fc</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1a99623dab82535fa00a4a0bfb6d04bebb" kind="variable"><name>beta</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__soil_1_1parameter_1aa85c2c0e87e776b8d117b43841b77560" kind="function"><name>parameter</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" kind="struct"><name>shyft::core::precipitation_correction::parameter</name>
+    <member refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kind="variable"><name>scale_factor</name></member>
+    <member refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a359181e8ede08563e352b41c2fc7e76d" kind="function"><name>parameter</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" kind="struct"><name>shyft::core::actual_evapotranspiration::parameter</name>
+    <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" kind="variable"><name>ae_scale_factor</name></member>
+    <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1aafc8528d039a17333de8b885e97a4620" kind="function"><name>parameter</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1pt__gs__k_1_1parameter" kind="struct"><name>shyft::core::pt_gs_k::parameter</name>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1parameter_1ac9161f99f9c4ee45a2e6878e4f767b25" kind="typedef"><name>pt_parameter_t</name></member>
@@ -1498,13 +1482,34 @@
     <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a88021d640956be11c082875258144cbd" kind="function"><name>range</name></member>
     <member refid="classshyft_1_1core_1_1bayesian__kriging_1_1parameter_1a3667ccd9658e3e29d608430d73b802b3" kind="function"><name>zscale</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__tank_1_1parameter" kind="struct"><name>shyft::core::hbv_tank::parameter</name>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1ae25dfaf5dd6b8cd6c0272e97d184468a" kind="variable"><name>uz1</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1a2f5e7ca784752b879976e3c5bf821c07" kind="variable"><name>kuz2</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1a3501bc6facb9d92a71197421badcf41a" kind="variable"><name>kuz1</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1acf41b9dedb91025fece6d0b1492dcd02" kind="variable"><name>perc</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1ac6df8873db2bf4ddcf4a6b30eec53bd3" kind="variable"><name>klz</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1parameter_1aae208e77242d60dae4a43dc45c288b5e" kind="function"><name>parameter</name></member>
+  <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter" kind="struct"><name>shyft::core::pt_hs_k::parameter</name>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a3bf4e952ff2782b673e39491e21f4bea" kind="typedef"><name>pt_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a131e622ecdbae198c147e68886e3f004" kind="typedef"><name>snow_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a211cbe1eb0823eeaa7196cb07473b298" kind="typedef"><name>ae_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a94d6e4e26eb71a74a63d274303b7009e" kind="typedef"><name>kirchner_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a18351f5402aca60221678938d218a165" kind="typedef"><name>precipitation_correction_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ab9f674328a17b3c58b1f01353823fcf5" kind="typedef"><name>glacier_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a885a7ddb34072c085197b48becf7c8b2" kind="variable"><name>pt</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aa1c5b44c1d22f48d15045b0ea5e2f33d" kind="variable"><name>hs</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af3d1b19300b8329c6c11d14a8bf4b6f6" kind="variable"><name>ae</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a6a9d0d9f82fb7cd9727d0dc77426289a" kind="variable"><name>kirchner</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1ae6e963ecefc452a2677320f46019a8c0" kind="variable"><name>p_corr</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a12efbc4362169951f4fea3d124ca9220" kind="variable"><name>gm</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a81c8f8cb94568a82220de170bb8f6886" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aaf66409ca1339c29ee0704a681faee9e" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a1bf62d673dbe570a364682af6c97fffb" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a173f14d8b022c4d4b0f502ffdd96ba3f" kind="function"><name>operator=</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1af014dd5aa7020d31be59e0bd66ef89a2" kind="function"><name>size</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1a354482461b38fca5cc248bde2717dfb5" kind="function"><name>set</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1add532fc6dfcb1f7b2193b108a945b3a8" kind="function"><name>get</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1parameter_1aea215951aeaa37a80b79659a5c37c83f" kind="function"><name>get_name</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1inverse__distance_1_1parameter" kind="struct"><name>shyft::core::inverse_distance::parameter</name>
+    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a442114bbdccc3b0c45af04cdec45af64" kind="variable"><name>max_members</name></member>
+    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a571a974f54f69d0fb74b18dca9378b65" kind="variable"><name>max_distance</name></member>
+    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1ac2c567f9a0aa7890abbee6c95623f0fb" kind="variable"><name>distance_measure_factor</name></member>
+    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1aa7d0f88227114fec039687ecb1304729" kind="variable"><name>zscale</name></member>
+    <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1af5aab22af82afd34b5dcc157e8152834" kind="function"><name>parameter</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kind="struct"><name>shyft::core::pt_ss_k::parameter</name>
     <member refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8d75cd9b510de1ff4ab8250727c473c" kind="typedef"><name>pt_parameter_t</name></member>
@@ -1528,17 +1533,28 @@
     <member refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1aff3329c230b794063a9bb717a4c1f8f1" kind="function"><name>get</name></member>
     <member refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae3a2b1f0f8913afcd082f9ad967e5795" kind="function"><name>get_name</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1skaugen_1_1parameter" kind="struct"><name>shyft::core::skaugen::parameter</name>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1acc01378a6bf2a8aa5684fd2f386e6049" kind="variable"><name>alpha_0</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a29343dbca4ce8a1682190c10a22bdbc4" kind="variable"><name>d_range</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ab80fd56afb995b625b987c5b82abbb07" kind="variable"><name>unit_size</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0b4ee58f60d5c9c2ab04fd48d30f1da2" kind="variable"><name>max_water_fraction</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a5075be939253ab989bf9757a48077d27" kind="variable"><name>tx</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a8d7f2bb35da2331a2f0ba7059458e84e" kind="variable"><name>cx</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a88b177977c1c5d2e65c87e3a566bb25e" kind="variable"><name>ts</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a46ae54bb16f402890a8041938455b32a" kind="variable"><name>cfr</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ad7e0fc37cca6bf3cbfe0443b0b9dff84" kind="function"><name>parameter</name></member>
-    <member refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0238f52708398eeb8f552a73f91aef5b" kind="function"><name>parameter</name></member>
+  <compound refid="structshyft_1_1core_1_1hbv__stack_1_1parameter" kind="struct"><name>shyft::core::hbv_stack::parameter</name>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a210cd9939a0a0cd7cb3e5832eb56120b" kind="typedef"><name>pt_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1adeafb00978ffd36d84065ac94c1efb70" kind="typedef"><name>snow_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a4a8ecf6429474540e7e5d357cd03fc21" kind="typedef"><name>ae_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1afa55015e3a0aa7a812df305e4b7a30fe" kind="typedef"><name>soil_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a384a825412b2436eba57c2ae9dfe87cb" kind="typedef"><name>tank_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a86a7a91a8a3a5737809e8666a9adb30c" kind="typedef"><name>precipitation_correction_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a8dffe61aa119332875b098e035c801c9" kind="typedef"><name>glacier_parameter_t</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a5a38b210032bf9b3157a2f25f78d1ec9" kind="variable"><name>pt</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1afdc8859f484a9372cdeeb9a4bf272dd7" kind="variable"><name>snow</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a93ab1a144ffe1ffeb5cbac10090aa426" kind="variable"><name>ae</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1aa8c46d64fd9b5e16031ab3b5c7cbb61b" kind="variable"><name>soil</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a0e4cf30741542326558eb3bde3e16977" kind="variable"><name>tank</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1aacdfc1a125f32887128d05a4eed8490c" kind="variable"><name>p_corr</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a7a46c4a5373e95606330d84b49e9c4dd" kind="variable"><name>gm</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ac119759557bc47dc59720968a9a50afe" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a3e0e26b01cd8e1d4c513bac6e1aabda9" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a47c53c82cd9f87b2c6666e6aa228638e" kind="function"><name>parameter</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ae47cde71d1706488f10123592aa1d245" kind="function"><name>size</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ae32e4a61bb7bb768f90ffa08557819c1" kind="function"><name>set</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a669fb3a3472cd5a0503cfb83015bf3a2" kind="function"><name>get</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ac78aa173f01cc2786d189592570c0133" kind="function"><name>get_name</name></member>
   </compound>
   <compound refid="structshyft_1_1time__axis_1_1period__list" kind="struct"><name>shyft::time_axis::period_list</name>
     <member refid="structshyft_1_1time__axis_1_1period__list_1ae5aa972a826ec6db1b7d1d30fb078eb6" kind="variable"><name>p</name></member>
@@ -1646,7 +1662,7 @@
     <member refid="structshyft_1_1api_1_1_precipitation_source_1aaead74a8fa7ed6e68d233adbdd8a9edd" kind="function"><name>PrecipitationSource</name></member>
     <member refid="structshyft_1_1api_1_1_precipitation_source_1ac34aa9757be44f38896f1ce530b3db8e" kind="function"><name>precipitations</name></member>
     <member refid="structshyft_1_1api_1_1_precipitation_source_1a91196983a5d025d619984b7762f34e06" kind="function"><name>set_value</name></member>
-    <member refid="structshyft_1_1api_1_1_precipitation_source_1a997839d68308d250cdf869a2d09a0bca" kind="function"><name>operator==</name></member>
+    <member refid="structshyft_1_1api_1_1_precipitation_source_1ab366a5f7142de07cdea31bb0c9ae3275" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics" kind="struct"><name>shyft::api::priestley_taylor_cell_response_statistics</name>
     <member refid="structshyft_1_1api_1_1priestley__taylor__cell__response__statistics_1a33d248c62a7bd4ea4a1164617ed9e529" kind="variable"><name>cells</name></member>
@@ -1707,7 +1723,7 @@
   </compound>
   <compound refid="structshyft_1_1api_1_1_radiation_source" kind="struct"><name>shyft::api::RadiationSource</name>
     <member refid="structshyft_1_1api_1_1_radiation_source_1ab39951012b0695eb6b8e6f122dc10887" kind="function"><name>RadiationSource</name></member>
-    <member refid="structshyft_1_1api_1_1_radiation_source_1ae52a1f104b024c0843622fee9928a6a5" kind="function"><name>operator==</name></member>
+    <member refid="structshyft_1_1api_1_1_radiation_source_1a6dae8c3e1264ae7bf31662455cfc2fcb" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1region__environment" kind="struct"><name>shyft::core::region_environment</name>
     <member refid="structshyft_1_1core_1_1region__environment_1a7b88748be0d5b843233ee5301265b392" kind="typedef"><name>precipitation_t</name></member>
@@ -1806,7 +1822,19 @@
   </compound>
   <compound refid="structshyft_1_1api_1_1_rel_hum_source" kind="struct"><name>shyft::api::RelHumSource</name>
     <member refid="structshyft_1_1api_1_1_rel_hum_source_1a199a8ee901a4d39ea698187481b87fef" kind="function"><name>RelHumSource</name></member>
-    <member refid="structshyft_1_1api_1_1_rel_hum_source_1abcdfed82ca29690cb658de96125700f8" kind="function"><name>operator==</name></member>
+    <member refid="structshyft_1_1api_1_1_rel_hum_source_1aee9f87eba90261183cdfb1a9765d5fea" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1response" kind="struct"><name>shyft::core::pt_ss_k::response</name>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1ab6fc8ab5d4b2d7509051b372632563e0" kind="typedef"><name>pt_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a0140549119c74edd834eb264ac6851e6" kind="typedef"><name>snow_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a510c74695063a2b79a53746be9e94e38" kind="typedef"><name>ae_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a728840bcd1216219e6a9559035e4dda0" kind="typedef"><name>kirchner_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a949e30193dc202b7ddb65878137fecf4" kind="variable"><name>pt</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1aa507dd7b775c01ddf2af54b254c52f58" kind="variable"><name>snow</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1abb52809846243f9d49e63840e6f7b61b" kind="variable"><name>ae</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1af75014c6a72da8a98e9e510826068d7e" kind="variable"><name>kirchner</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a69536d2f35f24018e3a27e7a867960d1" kind="variable"><name>gm_melt_m3s</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a5c0fb029b62b899739791a6c3fdae558" kind="variable"><name>total_discharge</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1skaugen_1_1response" kind="struct"><name>shyft::core::skaugen::response</name>
     <member refid="structshyft_1_1core_1_1skaugen_1_1response_1a38644ff43d380c72e7fac9a3fc975177" kind="variable"><name>outflow</name></member>
@@ -1814,41 +1842,8 @@
     <member refid="structshyft_1_1core_1_1skaugen_1_1response_1a932b31c7cabf6b926eab3decfbe088cc" kind="variable"><name>sca</name></member>
     <member refid="structshyft_1_1core_1_1skaugen_1_1response_1af00356b01a49bcc92355fef216887233" kind="variable"><name>swe</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1pt__gs__k_1_1response" kind="struct"><name>shyft::core::pt_gs_k::response</name>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a2a14b9007c12b8b2f4474efe4dff5ed8" kind="typedef"><name>pt_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a86e5381b4b2ff48782a299abc32f9e04" kind="typedef"><name>gs_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a9528d4c6f4dc53b7e343515126fa786c" kind="typedef"><name>ae_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a6b0a2e7682d4ee502da53c34032ba6b5" kind="typedef"><name>kirchner_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1ad7a0b7483da1459113636354412f4197" kind="variable"><name>pt</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1aa67ff8d139a73ad82edebee3a18f0202" kind="variable"><name>gs</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a3c286a210485761c2fa957e040c8c29a" kind="variable"><name>ae</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1af95948802a2077ca90f7b35c849ab117" kind="variable"><name>kirchner</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1ab8e822eb578cc273cfdaa7d571c0395e" kind="variable"><name>gm_melt_m3s</name></member>
-    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a0a8bb91491db64359320659bfdcabac8" kind="variable"><name>total_discharge</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__snow_1_1response" kind="struct"><name>shyft::core::hbv_snow::response</name>
-    <member refid="structshyft_1_1core_1_1hbv__snow_1_1response_1ad3d8b78c1be5e2f40cf73ebc1457e796" kind="variable"><name>outflow</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__snow_1_1response_1a28858aa1a567711209b128710031d568" kind="variable"><name>snow_state</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1kirchner_1_1response" kind="struct"><name>shyft::core::kirchner::response</name>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1response_1a83d26889568c10554e267c4d9f7786cb" kind="variable"><name>q_avg</name></member>
-  </compound>
   <compound refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1response" kind="struct"><name>shyft::core::hbv_actual_evapotranspiration::response</name>
     <member refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1response_1a3991c5c19e546832ce0d423cc4cfb49c" kind="variable"><name>ae</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1gamma__snow_1_1response" kind="struct"><name>shyft::core::gamma_snow::response</name>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1response_1a291da1a2f8a7eed4b91916d202410f5e" kind="variable"><name>sca</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1response_1a4e9e84ff9e857f1f251e4e113eae91d4" kind="variable"><name>storage</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1response_1a8d71ddf65cc48e7a153ec242585dfbf2" kind="variable"><name>outflow</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__tank_1_1response" kind="struct"><name>shyft::core::hbv_tank::response</name>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1response_1a3af023f07fd31f08c59a44a6f520c123" kind="variable"><name>outflow</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1priestley__taylor_1_1response" kind="struct"><name>shyft::core::priestley_taylor::response</name>
-    <member refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" kind="variable"><name>pot_evapotranspiration</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__soil_1_1response" kind="struct"><name>shyft::core::hbv_soil::response</name>
-    <member refid="structshyft_1_1core_1_1hbv__soil_1_1response_1a4bca4f1a38f2142301721d93d6864963" kind="variable"><name>outflow</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1response" kind="struct"><name>shyft::core::pt_hs_k::response</name>
     <member refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a60394283956a29293ac7854a80a0cb2c" kind="typedef"><name>pt_response_t</name></member>
@@ -1862,17 +1857,23 @@
     <member refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a102bfa22451ba0d619a7722bf28b798a" kind="variable"><name>gm_melt_m3s</name></member>
     <member refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a67ad857c525e8ef6975ed925eeae67cb" kind="variable"><name>total_discharge</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1response" kind="struct"><name>shyft::core::pt_ss_k::response</name>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1ab6fc8ab5d4b2d7509051b372632563e0" kind="typedef"><name>pt_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a0140549119c74edd834eb264ac6851e6" kind="typedef"><name>snow_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a510c74695063a2b79a53746be9e94e38" kind="typedef"><name>ae_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a728840bcd1216219e6a9559035e4dda0" kind="typedef"><name>kirchner_response_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a949e30193dc202b7ddb65878137fecf4" kind="variable"><name>pt</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1aa507dd7b775c01ddf2af54b254c52f58" kind="variable"><name>snow</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1abb52809846243f9d49e63840e6f7b61b" kind="variable"><name>ae</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1af75014c6a72da8a98e9e510826068d7e" kind="variable"><name>kirchner</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a69536d2f35f24018e3a27e7a867960d1" kind="variable"><name>gm_melt_m3s</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a5c0fb029b62b899739791a6c3fdae558" kind="variable"><name>total_discharge</name></member>
+  <compound refid="structshyft_1_1core_1_1hbv__snow_1_1response" kind="struct"><name>shyft::core::hbv_snow::response</name>
+    <member refid="structshyft_1_1core_1_1hbv__snow_1_1response_1ad3d8b78c1be5e2f40cf73ebc1457e796" kind="variable"><name>outflow</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__snow_1_1response_1a28858aa1a567711209b128710031d568" kind="variable"><name>snow_state</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1kirchner_1_1response" kind="struct"><name>shyft::core::kirchner::response</name>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1response_1a83d26889568c10554e267c4d9f7786cb" kind="variable"><name>q_avg</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1priestley__taylor_1_1response" kind="struct"><name>shyft::core::priestley_taylor::response</name>
+    <member refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" kind="variable"><name>pot_evapotranspiration</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1gamma__snow_1_1response" kind="struct"><name>shyft::core::gamma_snow::response</name>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1response_1a291da1a2f8a7eed4b91916d202410f5e" kind="variable"><name>sca</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1response_1a4e9e84ff9e857f1f251e4e113eae91d4" kind="variable"><name>storage</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1response_1a8d71ddf65cc48e7a153ec242585dfbf2" kind="variable"><name>outflow</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1hbv__tank_1_1response" kind="struct"><name>shyft::core::hbv_tank::response</name>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1response_1a3af023f07fd31f08c59a44a6f520c123" kind="variable"><name>outflow</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1hbv__stack_1_1response" kind="struct"><name>shyft::core::hbv_stack::response</name>
     <member refid="structshyft_1_1core_1_1hbv__stack_1_1response_1a8bd2b8c4671e2018107c1bcbb45a9d04" kind="typedef"><name>pt_response_t</name></member>
@@ -1890,6 +1891,21 @@
   </compound>
   <compound refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response" kind="struct"><name>shyft::core::actual_evapotranspiration::response</name>
     <member refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response_1a639ef2bb9b7b61145b799ff3aaacde90" kind="variable"><name>ae</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1hbv__soil_1_1response" kind="struct"><name>shyft::core::hbv_soil::response</name>
+    <member refid="structshyft_1_1core_1_1hbv__soil_1_1response_1a4bca4f1a38f2142301721d93d6864963" kind="variable"><name>outflow</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1pt__gs__k_1_1response" kind="struct"><name>shyft::core::pt_gs_k::response</name>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a2a14b9007c12b8b2f4474efe4dff5ed8" kind="typedef"><name>pt_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a86e5381b4b2ff48782a299abc32f9e04" kind="typedef"><name>gs_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a9528d4c6f4dc53b7e343515126fa786c" kind="typedef"><name>ae_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a6b0a2e7682d4ee502da53c34032ba6b5" kind="typedef"><name>kirchner_response_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1ad7a0b7483da1459113636354412f4197" kind="variable"><name>pt</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1aa67ff8d139a73ad82edebee3a18f0202" kind="variable"><name>gs</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a3c286a210485761c2fa957e040c8c29a" kind="variable"><name>ae</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1af95948802a2077ca90f7b35c849ab117" kind="variable"><name>kirchner</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1ab8e822eb578cc273cfdaa7d571c0395e" kind="variable"><name>gm_melt_m3s</name></member>
+    <member refid="structshyft_1_1core_1_1pt__gs__k_1_1response_1a0a8bb91491db64359320659bfdcabac8" kind="variable"><name>total_discharge</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1_1scale__computer" kind="struct"><name>shyft::core::inverse_distance::precipitation_model::scale_computer</name>
     <member refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__model_1_1scale__computer_1a6ab6411ac07b121be81dfdd412e911ca" kind="variable"><name>precipitation_gradient</name></member>
@@ -2019,22 +2035,6 @@
     <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1adb0c2b064189b140b2ddf451244db717" kind="function"><name>name</name></member>
     <member refid="structshyft_1_1core_1_1grf_1_1spherical__model_1a28f51125e9dff333eeff7aac0b38728b" kind="function"><name>parameter</name></member>
   </compound>
-  <compound refid="structshyft_1_1core_1_1kalman_1_1state" kind="struct"><name>shyft::core::kalman::state</name>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a2a05a2b248bc845163cd9829a0277adf" kind="variable"><name>x</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1ada5f9683db70a257a7724d69832dc8d5" kind="variable"><name>k</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1ab374afb978809b08d3326ab4337cb330" kind="variable"><name>P</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1ae1cf11da352d46341d7aec238977de55" kind="variable"><name>W</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a67e5ec1bf5a9b28e4e6cc9665d3e8858" kind="function"><name>size</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1acee1babda8dd7c30ae9c5389e8d412a6" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a178db6a177d0741197decfa4220fd8be" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a048229143072f559276adedfd2a79dfb" kind="function"><name>make_covariance</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__tank_1_1state" kind="struct"><name>shyft::core::hbv_tank::state</name>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a10a927f3a4f63d303b826f2b5afaa2c8" kind="variable"><name>uz</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1adc9808369317b8d26e48e44cd06ff2eb" kind="variable"><name>lz</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a07a23a19fbbdad37984f85f5c31ac0e1" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a2649f026902cd3b8d891526e70827923" kind="function"><name>operator==</name></member>
-  </compound>
   <compound refid="structshyft_1_1core_1_1skaugen_1_1state" kind="struct"><name>shyft::core::skaugen::state</name>
     <member refid="structshyft_1_1core_1_1skaugen_1_1state_1ab0ed3f87128d2d82bc2e7f7018e43db9" kind="variable"><name>nu</name></member>
     <member refid="structshyft_1_1core_1_1skaugen_1_1state_1a991fdcc007de9a147242a7a7e1bf3703" kind="variable"><name>alpha</name></member>
@@ -2045,39 +2045,6 @@
     <member refid="structshyft_1_1core_1_1skaugen_1_1state_1ac6add5733dfd344adb3560f3fcda03c8" kind="variable"><name>num_units</name></member>
     <member refid="structshyft_1_1core_1_1skaugen_1_1state_1a7d044789c2df8703d36ec91986da4a1b" kind="function"><name>state</name></member>
     <member refid="structshyft_1_1core_1_1skaugen_1_1state_1a6caec17f42f375f264b2016a210ca270" kind="function"><name>operator==</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1gamma__snow_1_1state" kind="struct"><name>shyft::core::gamma_snow::state</name>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" kind="variable"><name>albedo</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" kind="variable"><name>lwc</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" kind="variable"><name>surface_heat</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" kind="variable"><name>alpha</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" kind="variable"><name>sdc_melt_mean</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" kind="variable"><name>acc_melt</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" kind="variable"><name>iso_pot_energy</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" kind="variable"><name>temp_swe</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a3d95f52363d3f159caab564d376e5754" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1abbb8d3770248f10b96cf1ae626cdbf79" kind="function"><name>operator==</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1state" kind="struct"><name>shyft::core::pt_hs_k::state</name>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1abd71d83f98a7028ba4dbd4b8ae560bb7" kind="typedef"><name>snow_state_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1ac14ce8d5a672705499a6589802f716af" kind="typedef"><name>kirchner_state_t</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1a95bde7958a1c6745ba6cd31e07cb3214" kind="variable"><name>snow</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1a629a73d11e03f3e6493c38b0f247c622" kind="variable"><name>kirchner</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1ad555b607f0ee3b8744b4e63e12aae8c7" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1ae88a0724e328c221a12126b29d8028b2" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1af922c82d01db947679f6d8e7fb713084" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1af2871df6a6cae6bf8a77ffaf49853b11" kind="function"><name>operator==</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1kirchner_1_1state" kind="struct"><name>shyft::core::kirchner::state</name>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kind="variable"><name>q</name></member>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1kirchner_1_1state_1a0f2bd9e6139a5641083197bcca868b19" kind="function"><name>operator==</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1hbv__snow_1_1state" kind="struct"><name>shyft::core::hbv_snow::state</name>
-    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" kind="variable"><name>swe</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" kind="variable"><name>sca</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1ac9a511afc4cb7e3e5071d55f2e0b9f24" kind="function"><name>state</name></member>
-    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a7fed6604f5e0fca6831012aebd2133f8" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kind="struct"><name>shyft::core::pt_ss_k::state</name>
     <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" kind="typedef"><name>snow_state_t</name></member>
@@ -2100,6 +2067,38 @@
     <member refid="structshyft_1_1core_1_1hbv__stack_1_1state_1aefdff4cbe7cc294b7251cff1a8fefc5f" kind="function"><name>state</name></member>
     <member refid="structshyft_1_1core_1_1hbv__stack_1_1state_1a9c3c9a93713cc3a1d5e16fa261b74ebd" kind="function"><name>operator==</name></member>
   </compound>
+  <compound refid="structshyft_1_1core_1_1hbv__tank_1_1state" kind="struct"><name>shyft::core::hbv_tank::state</name>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a10a927f3a4f63d303b826f2b5afaa2c8" kind="variable"><name>uz</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1adc9808369317b8d26e48e44cd06ff2eb" kind="variable"><name>lz</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a07a23a19fbbdad37984f85f5c31ac0e1" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__tank_1_1state_1a2649f026902cd3b8d891526e70827923" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1kalman_1_1state" kind="struct"><name>shyft::core::kalman::state</name>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a2a05a2b248bc845163cd9829a0277adf" kind="variable"><name>x</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1ada5f9683db70a257a7724d69832dc8d5" kind="variable"><name>k</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1ab374afb978809b08d3326ab4337cb330" kind="variable"><name>P</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1ae1cf11da352d46341d7aec238977de55" kind="variable"><name>W</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a67e5ec1bf5a9b28e4e6cc9665d3e8858" kind="function"><name>size</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1acee1babda8dd7c30ae9c5389e8d412a6" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a178db6a177d0741197decfa4220fd8be" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1kalman_1_1state_1a048229143072f559276adedfd2a79dfb" kind="function"><name>make_covariance</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1pt__hs__k_1_1state" kind="struct"><name>shyft::core::pt_hs_k::state</name>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1abd71d83f98a7028ba4dbd4b8ae560bb7" kind="typedef"><name>snow_state_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1ac14ce8d5a672705499a6589802f716af" kind="typedef"><name>kirchner_state_t</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1a95bde7958a1c6745ba6cd31e07cb3214" kind="variable"><name>snow</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1a629a73d11e03f3e6493c38b0f247c622" kind="variable"><name>kirchner</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1ad555b607f0ee3b8744b4e63e12aae8c7" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1ae88a0724e328c221a12126b29d8028b2" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1af922c82d01db947679f6d8e7fb713084" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1pt__hs__k_1_1state_1af2871df6a6cae6bf8a77ffaf49853b11" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1hbv__snow_1_1state" kind="struct"><name>shyft::core::hbv_snow::state</name>
+    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" kind="variable"><name>swe</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" kind="variable"><name>sca</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1ac9a511afc4cb7e3e5071d55f2e0b9f24" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a7fed6604f5e0fca6831012aebd2133f8" kind="function"><name>operator==</name></member>
+  </compound>
   <compound refid="structshyft_1_1core_1_1pt__gs__k_1_1state" kind="struct"><name>shyft::core::pt_gs_k::state</name>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a0cb22af2376b3de2c67e698d383231c5" kind="typedef"><name>gs_state_t</name></member>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a536b446c8589b208f81ff2b3e062b934" kind="typedef"><name>kirchner_state_t</name></member>
@@ -2109,10 +2108,42 @@
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a3ff011ffb4af19d66b2ae56355beebea" kind="function"><name>state</name></member>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state_1a7291d8366849ffa3bd0856ee9912327a" kind="function"><name>operator==</name></member>
   </compound>
+  <compound refid="structshyft_1_1core_1_1gamma__snow_1_1state" kind="struct"><name>shyft::core::gamma_snow::state</name>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a6c1ef11f8e2b11c500a5be100679d7b5" kind="variable"><name>albedo</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1af35a5c1519920749b99136efe26d6005" kind="variable"><name>lwc</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a85fedca46dd8e25be1059fc1bb2b8030" kind="variable"><name>surface_heat</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a8df52522c77bc0013f487a414ff986ab" kind="variable"><name>alpha</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a79d64e16eeadd625127e175d0e21e9be" kind="variable"><name>sdc_melt_mean</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a628ae8ab6f98afa4616966dfda616523" kind="variable"><name>acc_melt</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a5edd7ff0afb667d2f9bd3acf7ef68e1b" kind="variable"><name>iso_pot_energy</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a39d3527a21ac2698c30838f80941ef73" kind="variable"><name>temp_swe</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1a3d95f52363d3f159caab564d376e5754" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1gamma__snow_1_1state_1abbb8d3770248f10b96cf1ae626cdbf79" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1kirchner_1_1state" kind="struct"><name>shyft::core::kirchner::state</name>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1state_1a35330c0b595069049be1af6492467098" kind="variable"><name>q</name></member>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1state_1ae7bc8d72c83d5c7e5fc46d02be02310b" kind="function"><name>state</name></member>
+    <member refid="structshyft_1_1core_1_1kirchner_1_1state_1a0f2bd9e6139a5641083197bcca868b19" kind="function"><name>operator==</name></member>
+  </compound>
   <compound refid="structshyft_1_1core_1_1hbv__soil_1_1state" kind="struct"><name>shyft::core::hbv_soil::state</name>
     <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" kind="variable"><name>sm</name></member>
     <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac8a2427b31ddf6fe0ad165181d077c9c" kind="function"><name>state</name></member>
     <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1a3aa7a45e5440340663d191128ca9c9a2" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector" kind="struct"><name>shyft::core::pt_ss_k::state_collector</name>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1afb6477c1396fe2f06f5bbb494fa92f09" kind="variable"><name>collect_state</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a286747beab04bae561e957cfa70a8ce0" kind="variable"><name>destination_area</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aa548d27e919c2083663fba2995dc921c" kind="variable"><name>kirchner_discharge</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aee2b82810ed6cc0356478e22720886b1" kind="variable"><name>snow_swe</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aaa037bcc7c3e2f9dc03aed0ee7404a06" kind="variable"><name>snow_sca</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a7b9164ce58f15dce94fae49a3b650445" kind="variable"><name>snow_alpha</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1abf2440f6541a83af9e92d3db42a820db" kind="variable"><name>snow_nu</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a107f7af568b348bcf0fcfba5cd282681" kind="variable"><name>snow_lwc</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a3e4f6c6dc804f052ae4585fefeb49e88" kind="variable"><name>snow_residual</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1ac628f61a50e4640488ca4d8d23b70006" kind="function"><name>state_collector</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1c5b1cabc79e9691aadf905dd1d7baac" kind="function"><name>state_collector</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aa44c467f903ec9b917653136e00446da" kind="function"><name>initialize</name></member>
+    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1bddb706090d40d3e2018cf4287bc7e4" kind="function"><name>collect</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector" kind="struct"><name>shyft::core::pt_gs_k::state_collector</name>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a79efd51c4f0b0b384a00a6da99c26c66" kind="variable"><name>collect_state</name></member>
@@ -2130,21 +2161,6 @@
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a1c617dca95dd3ac3c4d4b660b5a35334" kind="function"><name>state_collector</name></member>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a4b0d793e568d79c5fd6a057c796bade5" kind="function"><name>initialize</name></member>
     <member refid="structshyft_1_1core_1_1pt__gs__k_1_1state__collector_1a3070820a56990b0596c68ac41a41c39a" kind="function"><name>collect</name></member>
-  </compound>
-  <compound refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector" kind="struct"><name>shyft::core::pt_ss_k::state_collector</name>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1afb6477c1396fe2f06f5bbb494fa92f09" kind="variable"><name>collect_state</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a286747beab04bae561e957cfa70a8ce0" kind="variable"><name>destination_area</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aa548d27e919c2083663fba2995dc921c" kind="variable"><name>kirchner_discharge</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aee2b82810ed6cc0356478e22720886b1" kind="variable"><name>snow_swe</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aaa037bcc7c3e2f9dc03aed0ee7404a06" kind="variable"><name>snow_sca</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a7b9164ce58f15dce94fae49a3b650445" kind="variable"><name>snow_alpha</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1abf2440f6541a83af9e92d3db42a820db" kind="variable"><name>snow_nu</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a107f7af568b348bcf0fcfba5cd282681" kind="variable"><name>snow_lwc</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a3e4f6c6dc804f052ae4585fefeb49e88" kind="variable"><name>snow_residual</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1ac628f61a50e4640488ca4d8d23b70006" kind="function"><name>state_collector</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1c5b1cabc79e9691aadf905dd1d7baac" kind="function"><name>state_collector</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1aa44c467f903ec9b917653136e00446da" kind="function"><name>initialize</name></member>
-    <member refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector_1a1bddb706090d40d3e2018cf4287bc7e4" kind="function"><name>collect</name></member>
   </compound>
   <compound refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector" kind="struct"><name>shyft::core::hbv_stack::state_collector</name>
     <member refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector_1a633a1c9afd122e263925597b1b95823c" kind="variable"><name>collect_state</name></member>
@@ -2251,30 +2267,7 @@
     <member refid="structshyft_1_1api_1_1_temperature_source_1a433cad006aef6d21cf180925fa2c5b57" kind="function"><name>temperatures</name></member>
     <member refid="structshyft_1_1api_1_1_temperature_source_1a0e88661a550a89d8f8957e09b5b46cd0" kind="function"><name>set_temperature</name></member>
     <member refid="structshyft_1_1api_1_1_temperature_source_1af453fa7ccab31c7ec3cfc2eb8f6637e6" kind="function"><name>set_value</name></member>
-    <member refid="structshyft_1_1api_1_1_temperature_source_1a7b1ec4610e6363f6afb61457a5568a93" kind="function"><name>operator==</name></member>
-  </compound>
-  <compound refid="structshyft_1_1timeseries_1_1time__shift__ts" kind="struct"><name>shyft::timeseries::time_shift_ts</name>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a010959732ddf8c756d7b26c12326d5db" kind="typedef"><name>ta_t</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a62747ec8c94a732ed4b674f0ae2509fd" kind="variable"><name>ts</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1af243dbde3725e111ab12ef4a0de078a9" kind="variable"><name>ta</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a68dbe14b2024cd0e1001e65673f5de81" kind="variable"><name>fx_policy</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aaf9738b63fa6c8f590918a5bc8fa9f37" kind="variable"><name>dt</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1ae0d78696e0c3094b1d3c332ea532b39e" kind="function"><name>time_shift_ts</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aba9ab055d4e2182f514278d1354ea3dd" kind="function"><name>time_shift_ts</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aa4db4cd0ee1a3470e10ed00d647da7d6" kind="function"><name>time_shift_ts</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a61c28f2fc567d0d034202393b2db8504" kind="function"><name>operator=</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a99de23274fe8dd8bd6cf83fa61657f11" kind="function"><name>operator=</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a109fa6f19232ac755c32b5e0eb4394d3" kind="function"><name>time_shift_ts</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a99a9dd5c1f5b0555948a339320d05d3f" kind="function"><name>time_axis</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a425cb6f6d0d75aeeb9e037c42fe06628" kind="function"><name>point_interpretation</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a196152ff5d13683c1ae3b93b18cf5e2b" kind="function"><name>set_point_interpretation</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a8cf213eac29b8ee4ed35ea4d46942109" kind="function"><name>get</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a137121bb0db7f5bf87f2c7976c1ba933" kind="function"><name>size</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a9d8b16702f574166200bca2d64f96eb2" kind="function"><name>index_of</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a13c4ac17140cf7a7c035fe29bfc9aefa" kind="function"><name>total_period</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aa82e03a92ba347a3323c11dbaa43b0eb" kind="function"><name>time</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a87d1e3b6c80c1d8c9eb8aff70998cbbc" kind="function"><name>value</name></member>
-    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a8a1422726a84c514166244b66b777d61" kind="function"><name>operator()</name></member>
+    <member refid="structshyft_1_1api_1_1_temperature_source_1a99490135b1f9d7b233a97f562fbd737c" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="structshyft_1_1api_1_1time__shift__ts" kind="struct"><name>shyft::api::time_shift_ts</name>
     <member refid="structshyft_1_1api_1_1time__shift__ts_1a38cd8beb94f54ab44b6c955d6a0d68c5" kind="variable"><name>ts</name></member>
@@ -2298,6 +2291,29 @@
     <member refid="structshyft_1_1api_1_1time__shift__ts_1a08636300b374121e9a5be488253a735f" kind="function"><name>value</name></member>
     <member refid="structshyft_1_1api_1_1time__shift__ts_1a1500e2a8b87e9f21b500b395d07f5655" kind="function"><name>value_at</name></member>
     <member refid="structshyft_1_1api_1_1time__shift__ts_1a728e004b568ebfa65e7137c9eaa329bf" kind="function"><name>values</name></member>
+  </compound>
+  <compound refid="structshyft_1_1timeseries_1_1time__shift__ts" kind="struct"><name>shyft::timeseries::time_shift_ts</name>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a010959732ddf8c756d7b26c12326d5db" kind="typedef"><name>ta_t</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a62747ec8c94a732ed4b674f0ae2509fd" kind="variable"><name>ts</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1af243dbde3725e111ab12ef4a0de078a9" kind="variable"><name>ta</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a68dbe14b2024cd0e1001e65673f5de81" kind="variable"><name>fx_policy</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aaf9738b63fa6c8f590918a5bc8fa9f37" kind="variable"><name>dt</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1ae0d78696e0c3094b1d3c332ea532b39e" kind="function"><name>time_shift_ts</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aba9ab055d4e2182f514278d1354ea3dd" kind="function"><name>time_shift_ts</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aa4db4cd0ee1a3470e10ed00d647da7d6" kind="function"><name>time_shift_ts</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a61c28f2fc567d0d034202393b2db8504" kind="function"><name>operator=</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a99de23274fe8dd8bd6cf83fa61657f11" kind="function"><name>operator=</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a109fa6f19232ac755c32b5e0eb4394d3" kind="function"><name>time_shift_ts</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a99a9dd5c1f5b0555948a339320d05d3f" kind="function"><name>time_axis</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a425cb6f6d0d75aeeb9e037c42fe06628" kind="function"><name>point_interpretation</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a196152ff5d13683c1ae3b93b18cf5e2b" kind="function"><name>set_point_interpretation</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a8cf213eac29b8ee4ed35ea4d46942109" kind="function"><name>get</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a137121bb0db7f5bf87f2c7976c1ba933" kind="function"><name>size</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a9d8b16702f574166200bca2d64f96eb2" kind="function"><name>index_of</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a13c4ac17140cf7a7c035fe29bfc9aefa" kind="function"><name>total_period</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1aa82e03a92ba347a3323c11dbaa43b0eb" kind="function"><name>time</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a87d1e3b6c80c1d8c9eb8aff70998cbbc" kind="function"><name>value</name></member>
+    <member refid="structshyft_1_1timeseries_1_1time__shift__ts_1a8a1422726a84c514166244b66b777d61" kind="function"><name>operator()</name></member>
   </compound>
   <compound refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average" kind="class"><name>shyft::core::kirchner::trapezoidal_average</name>
     <member refid="classshyft_1_1core_1_1kirchner_1_1trapezoidal__average_1ae5d5d50801b524bc881ead90434330f9" kind="variable"><name>area</name></member>
@@ -2383,7 +2399,7 @@
   </compound>
   <compound refid="structshyft_1_1api_1_1_wind_speed_source" kind="struct"><name>shyft::api::WindSpeedSource</name>
     <member refid="structshyft_1_1api_1_1_wind_speed_source_1adb457801a7c59269e49ae9ad33939450" kind="function"><name>WindSpeedSource</name></member>
-    <member refid="structshyft_1_1api_1_1_wind_speed_source_1a127d7600a152fb9503fd01848d536a2b" kind="function"><name>operator==</name></member>
+    <member refid="structshyft_1_1api_1_1_wind_speed_source_1af8036c12ea8d4fe8a2c81f74df15c7cf" kind="function"><name>operator==</name></member>
   </compound>
   <compound refid="classshyft_1_1experimental_1_1wkt__reader" kind="class"><name>shyft::experimental::wkt_reader</name>
     <member refid="classshyft_1_1experimental_1_1wkt__reader_1af5bb6ed40d5c6791915b8f6792bd9d9e" kind="variable"><name>reported_errors</name></member>
@@ -2561,6 +2577,14 @@
   </compound>
   <compound refid="namespaceshyft_1_1core_1_1kirchner" kind="namespace"><name>shyft::core::kirchner</name>
   </compound>
+  <compound refid="namespaceshyft_1_1core_1_1kriging" kind="namespace"><name>shyft::core::kriging</name>
+  </compound>
+  <compound refid="namespaceshyft_1_1core_1_1kriging_1_1covariance" kind="namespace"><name>shyft::core::kriging::covariance</name>
+  </compound>
+  <compound refid="namespaceshyft_1_1core_1_1kriging_1_1ordinary" kind="namespace"><name>shyft::core::kriging::ordinary</name>
+    <member refid="namespaceshyft_1_1core_1_1kriging_1_1ordinary_1a7fde021bc3e51b9e65928a7ed9a8ea92" kind="function"><name>build</name></member>
+    <member refid="namespaceshyft_1_1core_1_1kriging_1_1ordinary_1a9f709100c0c4616366d7f3e311d50602" kind="function"><name>build</name></member>
+  </compound>
   <compound refid="namespaceshyft_1_1core_1_1model__calibration" kind="namespace"><name>shyft::core::model_calibration</name>
     <member refid="namespaceshyft_1_1core_1_1model__calibration_1a1d095e2da6d4d8f6e04f7d731a7ba36e" kind="enum"><name>target_spec_calc_type</name></member>
     <member refid="namespaceshyft_1_1core_1_1model__calibration_1a1d095e2da6d4d8f6e04f7d731a7ba36eab41aca78a12a708091116416ba16e6a7" kind="enumvalue"><name>NASH_SUTCLIFFE</name></member>
@@ -2707,7 +2731,6 @@
   <compound refid="api_8cpp" kind="file"><name>api.cpp</name>
   </compound>
   <compound refid="api_8h" kind="file"><name>api.h</name>
-    <member refid="api_8h_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
   </compound>
   <compound refid="timeseries_8cpp" kind="file"><name>timeseries.cpp</name>
   </compound>
@@ -2722,6 +2745,8 @@
   <compound refid="core__pch_8cpp" kind="file"><name>core_pch.cpp</name>
   </compound>
   <compound refid="core__pch_8h" kind="file"><name>core_pch.h</name>
+    <member refid="core__pch_8h_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
+    <member refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" kind="typedef"><name>static_gcd_type</name></member>
   </compound>
   <compound refid="dream__optimizer_8cpp" kind="file"><name>dream_optimizer.cpp</name>
   </compound>
@@ -2762,7 +2787,8 @@
   <compound refid="kalman_8h" kind="file"><name>kalman.h</name>
   </compound>
   <compound refid="kirchner_8h" kind="file"><name>kirchner.h</name>
-    <member refid="kirchner_8h_1a3a2064c7084e5518c641555c9c7af541" kind="typedef"><name>static_gcd_type</name></member>
+  </compound>
+  <compound refid="kriging_8h" kind="file"><name>kriging.h</name>
   </compound>
   <compound refid="model__calibration_8h" kind="file"><name>model_calibration.h</name>
   </compound>
@@ -2812,10 +2838,6 @@
   </compound>
   <compound refid="utctime__utilities_8h" kind="file"><name>utctime_utilities.h</name>
   </compound>
-  <compound refid="dir_777a85b949c6e34d6e16705d9798d77c" kind="dir"><name>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/api</name>
-  </compound>
-  <compound refid="dir_8445457bf4f9a4a77b5ed5140c70d7f7" kind="dir"><name>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft/core</name>
-  </compound>
-  <compound refid="dir_9561849f62f3109c9288bfc0f77b89f3" kind="dir"><name>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_cmake/shyft</name>
+  <compound refid="dir_4270bfced15e0e73154b13468c7c9ad9" kind="dir"><name>/home/sih/projects/shyft/core</name>
   </compound>
 </doxygenindex>
