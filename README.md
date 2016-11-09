@@ -11,9 +11,9 @@ platforms are being used:
 * [doxygen](http://www.stack.nl/~dimitri/doxygen/) for the C++ code
 * [sphinx](http://www.sphinx-doc.org) for the Python code
 
-If you are reading this page, it assumes you are interested in contributing to the Shyft documentation. If you are looking *for* the Shyft documentation, the please see here:
+If you are reading this page, it assumes you are interested in contributing to the Shyft documentation. If you are looking **for the Shyft documentation**, the please see here:
 
-[Shyft Documentation](https://statkraft.github.io/shyft-doc/index.html)
+[Shyft Documentation](http://shyft.readthedocs.io/)
 
 
 CONTRIBUTING
@@ -49,7 +49,7 @@ pip install breathe
 pip install nbsphinx
 ```
 
-You can just use: `pip install -r requirements.txt`, if you like.
+You can just use: `conda env create --name shyft-doc --file sphinx/environment.yml`, if you like.
 
 
 BUILDING SPHINX
@@ -62,8 +62,9 @@ cd sphinx
 make html
 ```
 
-This will generate output in `core/sphinx/html`.
+This will generate output in the `docs` directory.
 
+Note that in `conf.py` there are settings controlling whether or not the notebooks will be built with the sphinx-build run. We have this set to off by default (the notebooks are not built on the readthedocs server). So, if you have create a new notebook, be sure to run all the code and save it with the output. Then sphinx-build will pick up the notebook in the state it was saved.
 
 BUILDING DOXYGEN
 ================
@@ -75,12 +76,12 @@ cd doxygen
 doxygen doxyconfig.core.conf 
 ```
 
-Output is generated at: `core/html`
+Output is generated at: `core/html` and `core/xml`.
 
 CONTRIBUTE A NOTEBOOK
 ======================
 
-We love getting notebooks from users! If you have made a nice notebook demonstrating some functionality of Shyft you would like to share, it is easy to contribute. Simply clone the `shyft-doc` and `shyft-daa` repositories, as instructed above. Then follow these instructions.
+We love getting notebooks from users! If you have made a nice notebook demonstrating some functionality of Shyft you would like to share, it is easy to contribute. Simply clone the `shyft-doc` and `shyft-data` repositories, as instructed above. Then follow these instructions.
 
 1. First add your data to the `shyft-data` repository:
 
@@ -120,7 +121,6 @@ Contributors and current project participants include:
  * Sigbjørn Helset <Sigbjorn.Helset@statkraft.com>
  * Ola Skavhaug <ola@xal.no>
  * John Burkhart <John.Burkhart@statkraft.com>
- * 
  * Felix Matt <f.n.matt@geo.uio.no>
  * Francesc Alted <faltet@gmail.com>
 
