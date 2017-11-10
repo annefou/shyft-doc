@@ -24,7 +24,12 @@ if on_rtd:
         shutil.rmtree('notebooks', ignore_errors=True)
     shutil.copytree('../notebooks', 'notebooks')
 else:
-    import sphinx_rtd_theme
+    try:
+        import sphinx_rtd_theme
+        rtd_theme = True
+    except:
+        rtd_theme = False
+        pass
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -144,8 +149,10 @@ todo_include_todos = False
 if on_rtd:
     html_theme = 'default'
 else:
-    html_theme = "sphinx_rtd_theme"
-
+    if rtd_theme:
+        html_theme = "sphinx_rtd_theme"
+    else:
+        html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -158,7 +165,7 @@ else:
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
-if not on_rtd:
+if rtd_theme:
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
