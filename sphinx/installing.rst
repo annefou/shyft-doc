@@ -58,40 +58,7 @@ If you have some problems with dependencies you may need to follow one of the mo
 Installing from source
 =====================
 
-If you may be interested in modifying the Python code and contributing to the project, you will probably want to check out the repositories and install Shyft from source.
-
-Clone the repositories
------------------------
-
-Shyft is distributed in three separate code repositories: The main code base `shyft <https://github.com/statkraft/shyft>`_. A second repository (required for tests) is located at `shyft-data <https://github.com/statkraft/shyft-data>`_. A third repository `shyft-doc <https://github.com/statkraft/shyft-doc>`_ is available containing example notebooks and tutorials. The three repositories assume they have been checked out in parallel into a ``shyft_workspace`` directory::
-
-    bash
-    mkdir shyft_workspace && cd shyft_workspace
-    export SHYFT_WORKSPACE=`pwd`
-    git clone https://github.com/statkraft/shyft.git
-    git clone https://github.com/statkraft/shyft-data.git
-    git clone https://github.com/statkraft/shyft-doc.git
-
-
-Building with Cmake
---------------------
-
-On many linux systems, it is easy to simply use our `cmake <https://cmake.org/>`_ approach. In order to do this, however, a few additional requirements must be fulfilled:
-
-- A C++1y compiler (gcc-5 or higher)
-- The BLAS and LAPACK libraries (development packages)
-- A Python3 (3.4 or higher) interpreter
-- The NumPy package (>= 1.8.0)
-- The netCDF4 package (>= 1.2.1)
-- The CMake building tool (2.8.7 or higher)
-
-Once you've satisfied the above requirements you should be able to simply ``cd shyft`` into the Shyft repository and::
-
-   $ python setup.py build_ext --inplace
-
-This will call a script ``build_api_cmake.sh`` from the main `Shyft repository <https://github.com/statkraft/shyft>`_.
-
-.. seealso:: If you have problems with dependencies, be sure to see the notes within the ``build_api.sh`` regarding the library paths.
+If you may be interested in modifying the Python code and contributing to the project, you will probably want to check out the repositories and install Shyft from source. Documentation for this is currently available at the Shyft repository. Follow the `Developer Documentation <https://github.com/statkraft/shyft#developer-documentation>`_.
 
 
 Installation Recipes
