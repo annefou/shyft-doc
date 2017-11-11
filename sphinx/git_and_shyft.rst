@@ -116,8 +116,14 @@ into a shyft_workspace directory. The following commands in a bash shell should 
     git clone https://github.com/username/shyft-data.git
     git clone https://github.com/username/shyft-doc.git
 
-This will create a directory ``shyft_workspace``, which we recommend. Then the commands
-clones your fork of the repositories into the ``shyft_workspace``.
+This will create a directory ``shyft_workspace``, which we recommend using
+as your main shyft development location. Then the commands create
+clones of your fork of the repositories into the ``shyft_workspace``.
+
+You are now ready to start working with the Python code base, but you still need
+a binary of the C++ core if you don't wish to :ref:`build-source`. Before we leave
+the process of cloning the repositories, let's just take care of a few bookkeeping
+items that will make life easier if you choose to develop and contribute code.
 
 Step 3: Configure remotes
 ++++++++++++++++++++++++++++
@@ -146,6 +152,10 @@ Now you have cloned all the repositories and configured remotes.
 
 Step 4. Sync up your clone with the truth repo
 +++++++++++++++++++++++++++++++++++++++++++++++
+
+The following steps are something you'll want to do if you've forked and cloned
+the code, but some time has passed, and you want to be sure you are working
+on the most recent code.
 
 4.a. Fetch information from the truth repo
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -186,6 +196,11 @@ version.
     git merge upstream/branchname
 
 where branchname = name of the branch
+
+
+
+
+
 
 Working with the code
 ++++++++++++++++++++++

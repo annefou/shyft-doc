@@ -1,6 +1,6 @@
+***********
 Notebooks
-=========
-
+***********
 .. toctree::
     :maxdepth: 1
 
