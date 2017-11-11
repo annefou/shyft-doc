@@ -30,12 +30,13 @@ Our primary source of documentation is through this website, though a few recipe
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   installing
-   getting_started
-   orchestration
-   config_files
+    installing
+    getting_started
+    orchestration
+    config_files
+    Git_and_Shyft
 
 
 Indices and tables
