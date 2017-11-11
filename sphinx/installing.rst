@@ -73,7 +73,6 @@ The Shyft C++ core utilizes several modern frameworks including: `dlib <http://d
 Instructions on building these are provided in `Build from source`_.
 
 .. _conda-channel:
-
 Using a Conda channel to install a pre-built binary
 =====================================================
 
@@ -83,6 +82,9 @@ The simplest way to get started, if you are familiar with conda is to use Sigbjo
 
 If you have some problems with dependencies you may try to install the `latest release <https://github.com/statkraft/shyft/releases>`_ or to follow one of the more detailed `Installation Recipes`_.
 
+
+
+.. _install-source:
 Install from source
 =====================
 
@@ -99,8 +101,7 @@ You are not able to push to the main Shyft repository directly. We follow a stan
 .. Documentation for this is currently available at the Shyft repository. Follow the `Developer Documentation <https://github.com/statkraft/shyft#developer-documentation>`_.
 
 
-
-
+.. _build-source:
 Build from source
 ===================
 
