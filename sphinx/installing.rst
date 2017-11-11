@@ -5,11 +5,11 @@ Installation
 There are several different methods to get up and running with Shyft depending on your intended use.
 We categorize users into several categories:
 
-- **users**: users who are interested in using Shyft for hydrologic analysis. First time users should probably start here to at least gain familiarity of the functionality of the framework.
-- **contributers**: users who will explore the Python api and may contribute back to the project.
-- **developers**: users who are interested in the C++ core, and are interested in creating their own algorithms. Advance programming skills and familiarity is required.
+- **users**: users who are interested in using Shyft for hydrologic analysis. First time users should probably start with `Using a Conda channel to install a pre-built binary`_ to at least gain familiarity of the functionality of the framework.
+- **contributers**: users who will explore the Python api and may contribute back to the project. If you want to modify source code, then you will have to `Install from source`_. 
+- **developers**: users who are interested in the C++ core, and are interested in creating their own algorithms. Advance programming skills and familiarity is required. Developers will also want to `Install from source`_.
 
-The reason to categorize users relates to the installation requirements. For both *users* and *contributers* it is not necessary to build/compile the C++ core, and one can simply use available distributions.
+The reason to categorize users relates to the installation requirements. For *users* it is not necessary to build/compile the C++ core, and one can simply use available distributions. **contributors** also don't need to build the C++ core, but it is recommended to take the time to learn the steps.
 
 Shyft is developed for both Unix-like (*nix) and Windows operating systems, though our preference is linux.
 
@@ -46,8 +46,8 @@ Shyft is developed with Python and C++ coding standards. Our choice of Python is
 NOTE: You do not need administrative or root permissions to
 install Shyft if you select a user-writable install location.
 
-Using a Conda channel
-=====================
+Using a Conda channel to install a pre-built binary
+=====================================================
 
 The simplest way to get started, if you are familiar with conda is to use Sigbjorn's channel:
 
@@ -55,7 +55,7 @@ The simplest way to get started, if you are familiar with conda is to use Sigbjo
 
 If you have some problems with dependencies you may need to follow one of the more detailed `Installation Recipes`_.
 
-Installing from source
+Install from source
 =====================
 
 If you may be interested in modifying the Python code and contributing to the project, you will probably want to check out the repositories and install Shyft from source. Documentation for this is currently available at the Shyft repository. Follow the `Developer Documentation <https://github.com/statkraft/shyft#developer-documentation>`_.
