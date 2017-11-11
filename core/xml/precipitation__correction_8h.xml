@@ -1,136 +1,160 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="precipitation__correction_8h" kind="file" language="C++">
     <compoundname>precipitation_correction.h</compoundname>
-    <includedby refid="core_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_gs_k.h</includedby>
-    <includedby refid="core_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/core/pt_hs_k.h</includedby>
-    <includedby refid="core_2hbv__stack_8h" local="yes">/home/sih/projects/shyft/core/hbv_stack.h</includedby>
-    <includedby refid="core_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k.h</includedby>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack.h</includedby>
+    <includedby refid="core_2pt__gs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k.h</includedby>
+    <includedby refid="core_2pt__ss__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h</includedby>
+    <includedby refid="core_2pt__hs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k.h</includedby>
     <invincdepgraph>
-      <node id="752">
-        <label>/home/sih/projects/shyft/core/precipitation_correction.h</label>
-        <link refid="precipitation__correction_8h"/>
-        <childnode refid="753" relation="include">
-        </childnode>
-        <childnode refid="762" relation="include">
-        </childnode>
-        <childnode refid="765" relation="include">
-        </childnode>
-        <childnode refid="768" relation="include">
-        </childnode>
-      </node>
-      <node id="770">
-        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
-        <link refid="api_2pt__ss__k_8h"/>
-      </node>
-      <node id="757">
-        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
-        <link refid="model__calibration_8h"/>
-        <childnode refid="758" relation="include">
-        </childnode>
-      </node>
-      <node id="763">
-        <label>/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</label>
-        <link refid="pt__hs__k__cell__model_8h"/>
-        <childnode refid="758" relation="include">
-        </childnode>
-      </node>
-      <node id="767">
-        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+      <node id="1355">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/hbv_stack.h</label>
         <link refid="api_2hbv__stack_8h"/>
       </node>
-      <node id="758">
-        <label>/home/sih/projects/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="759" relation="include">
+      <node id="1356">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1357" relation="include">
+        </childnode>
+        <childnode refid="1361" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1362" relation="include">
         </childnode>
       </node>
-      <node id="764">
-        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
+      <node id="1367">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="1352" relation="include">
+        </childnode>
+      </node>
+      <node id="1360">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="1352" relation="include">
+        </childnode>
+      </node>
+      <node id="1361">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="1358" relation="include">
+        </childnode>
+        <childnode refid="1352" relation="include">
+        </childnode>
+      </node>
+      <node id="1366">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1357" relation="include">
+        </childnode>
+        <childnode refid="1367" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1368" relation="include">
+        </childnode>
+      </node>
+      <node id="1358">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.h</label>
+        <link refid="experimental_8h"/>
+        <childnode refid="1359" relation="include">
+        </childnode>
+      </node>
+      <node id="1357">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="1358" relation="include">
+        </childnode>
+        <childnode refid="1360" relation="include">
+        </childnode>
+        <childnode refid="1352" relation="include">
+        </childnode>
+      </node>
+      <node id="1365">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_ss_k.h</label>
+        <link refid="api_2pt__ss__k_8h"/>
+      </node>
+      <node id="1348">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/precipitation_correction.h</label>
+        <link refid="precipitation__correction_8h"/>
+        <childnode refid="1349" relation="include">
+        </childnode>
+        <childnode refid="1356" relation="include">
+        </childnode>
+        <childnode refid="1363" relation="include">
+        </childnode>
+        <childnode refid="1366" relation="include">
+        </childnode>
+      </node>
+      <node id="1363">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="1350" relation="include">
+        </childnode>
+        <childnode refid="1364" relation="include">
+        </childnode>
+        <childnode refid="1353" relation="include">
+        </childnode>
+        <childnode refid="1365" relation="include">
+        </childnode>
+      </node>
+      <node id="1353">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</label>
+        <link refid="api__state_8h"/>
+        <childnode refid="1354" relation="include">
+        </childnode>
+      </node>
+      <node id="1368">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_hs_k.h</label>
         <link refid="api_2pt__hs__k_8h"/>
       </node>
-      <node id="765">
-        <label>/home/sih/projects/shyft/core/hbv_stack.h</label>
-        <link refid="core_2hbv__stack_8h"/>
-        <childnode refid="766" relation="include">
-        </childnode>
-        <childnode refid="767" relation="include">
+      <node id="1354">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_serialization.cpp</label>
+        <link refid="api__serialization_8cpp"/>
+      </node>
+      <node id="1351">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="1352" relation="include">
         </childnode>
       </node>
-      <node id="769">
-        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
-        <link refid="pt__ss__k__cell__model_8h"/>
-        <childnode refid="758" relation="include">
-        </childnode>
-      </node>
-      <node id="760">
-        <label>/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</label>
-        <link refid="pt__gs__k__cell__model_8h"/>
-        <childnode refid="755" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
-        </childnode>
-      </node>
-      <node id="753">
-        <label>/home/sih/projects/shyft/core/pt_gs_k.h</label>
-        <link refid="core_2pt__gs__k_8h"/>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="760" relation="include">
-        </childnode>
-        <childnode refid="761" relation="include">
-        </childnode>
-      </node>
-      <node id="761">
-        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
-        <link refid="api_2pt__gs__k_8h"/>
-      </node>
-      <node id="762">
-        <label>/home/sih/projects/shyft/core/pt_hs_k.h</label>
-        <link refid="core_2pt__hs__k_8h"/>
-        <childnode refid="754" relation="include">
-        </childnode>
-        <childnode refid="763" relation="include">
-        </childnode>
-        <childnode refid="764" relation="include">
-        </childnode>
-      </node>
-      <node id="756">
-        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
+      <node id="1359">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp</label>
         <link refid="experimental_8cpp"/>
       </node>
-      <node id="754">
-        <label>/home/sih/projects/shyft/core/region_model.h</label>
-        <link refid="region__model_8h"/>
-        <childnode refid="755" relation="include">
-        </childnode>
-        <childnode refid="757" relation="include">
-        </childnode>
-        <childnode refid="758" relation="include">
+      <node id="1362">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_gs_k.h</label>
+        <link refid="api_2pt__gs__k_8h"/>
+      </node>
+      <node id="1352">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+      </node>
+      <node id="1350">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_serialization.cpp</label>
+        <link refid="core__serialization_8cpp"/>
+      </node>
+      <node id="1364">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="1352" relation="include">
         </childnode>
       </node>
-      <node id="766">
-        <label>/home/sih/projects/shyft/core/hbv_stack_cell_model.h</label>
-        <link refid="hbv__stack__cell__model_8h"/>
-        <childnode refid="758" relation="include">
+      <node id="1349">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="1350" relation="include">
         </childnode>
-      </node>
-      <node id="755">
-        <label>/home/sih/projects/shyft/core/experimental.h</label>
-        <link refid="experimental_8h"/>
-        <childnode refid="756" relation="include">
+        <childnode refid="1351" relation="include">
         </childnode>
-      </node>
-      <node id="759">
-        <label>/home/sih/projects/shyft/api/api.cpp</label>
-        <link refid="api_8cpp"/>
-      </node>
-      <node id="768">
-        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
-        <link refid="core_2pt__ss__k_8h"/>
-        <childnode refid="769" relation="include">
+        <childnode refid="1353" relation="include">
         </childnode>
-        <childnode refid="770" relation="include">
+        <childnode refid="1355" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -153,14 +177,14 @@
 <codeline lineno="25" refid="namespaceshyft_1_1core_1_1precipitation__correction" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">precipitation_correction<sp/>{</highlight></codeline>
 <codeline lineno="26" refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
 <codeline lineno="27" refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kindref="member">scale_factor</ref><sp/>=<sp/>1.0;</highlight></codeline>
-<codeline lineno="28" refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a359181e8ede08563e352b41c2fc7e76d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a359181e8ede08563e352b41c2fc7e76d" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scale_factor<sp/>=<sp/>1.0):scale_factor(scale_factor)<sp/>{}</highlight></codeline>
+<codeline lineno="28" refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a359181e8ede08563e352b41c2fc7e76d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a359181e8ede08563e352b41c2fc7e76d" kindref="member">parameter</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scale_factor<sp/>=<sp/>1.0):scale_factor(scale_factor)<sp/>{}</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator" kindref="compound">calculator</ref><sp/>{</highlight></codeline>
 <codeline lineno="33" refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a168286059c6c81f7b6f53089cd928b1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a168286059c6c81f7b6f53089cd928b1a" kindref="member">scale_factor</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1aa7faa1bcd83f7dab3ab04dcbe8f6df8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1aa7faa1bcd83f7dab3ab04dcbe8f6df8a" kindref="member">calculator</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scale_factor<sp/>=<sp/>1.0)<sp/>:<sp/>scale_factor(scale_factor)<sp/>{}</highlight></codeline>
+<codeline lineno="35" refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1aa7faa1bcd83f7dab3ab04dcbe8f6df8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1aa7faa1bcd83f7dab3ab04dcbe8f6df8a" kindref="member">calculator</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scale_factor<sp/>=<sp/>1.0)<sp/>:<sp/>scale_factor(scale_factor)<sp/>{}</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37" refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" kindref="member">calc</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>precipitation)<sp/>{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>precipitation*<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kindref="member">scale_factor</ref>;</highlight></codeline>
@@ -170,6 +194,6 @@
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>core</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/precipitation_correction.h"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/precipitation_correction.h"/>
   </compounddef>
 </doxygen>

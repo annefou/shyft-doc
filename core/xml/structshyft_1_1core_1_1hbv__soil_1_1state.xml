@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1hbv__soil_1_1state" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::hbv_soil::state</compoundname>
     <includes refid="hbv__soil_8h" local="no">hbv_soil.h</includes>
@@ -16,15 +16,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="20" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="20" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1hbv__soil_1_1state_1a3aa7a45e5440340663d191128ca9c9a2" compoundref="hbv__soil_8h" startline="21" endline="24">operator==</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a2291fc996d4596fdae9a09bc006f316f" compoundref="api_2hbv__stack_8h" startline="14" endline="23">shyft::api::hbv_stack_state_io::from_raw_string</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a65fb3bdf10fb9a10ede98f30b0fd93a7" compoundref="api_2hbv__stack_8h" startline="25" endline="32">shyft::api::hbv_stack_state_io::to_string</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector_1abda4d7cbe1e5e5e99dd6c63cb1bbcb68" compoundref="hbv__stack__cell__model_8h" startline="160" endline="168">shyft::core::hbv_stack::state_collector::collect</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="27" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="27" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1hbv__soil_1_1state_1a3aa7a45e5440340663d191128ca9c9a2" compoundref="hbv__soil_8h" startline="28" endline="31">operator==</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a2291fc996d4596fdae9a09bc006f316f" compoundref="api_2hbv__stack_8h" startline="15" endline="24">shyft::api::hbv_stack_state_io::from_raw_string</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1hbv__stack__state__io_1a65fb3bdf10fb9a10ede98f30b0fd93a7" compoundref="api_2hbv__stack_8h" startline="26" endline="33">shyft::api::hbv_stack_state_io::to_string</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1state__collector_1abda4d7cbe1e5e5e99dd6c63cb1bbcb68" compoundref="hbv__stack__cell__model_8h" startline="176" endline="184">shyft::core::hbv_stack::state_collector::collect</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1state_1ac8a2427b31ddf6fe0ad165181d077c9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1state_1ac8a2427b31ddf6fe0ad165181d077c9c" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::hbv_soil::state::state</definition>
         <argsstring>(double sm=0.0)</argsstring>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="19" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="19" bodyend="19"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="26" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1state_1a3aa7a45e5440340663d191128ca9c9a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -57,19 +57,34 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="21" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="21" bodyend="24"/>
-        <references refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" compoundref="hbv__soil_8h" startline="20">sm</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="28" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="28" bodyend="31"/>
+        <references refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" compoundref="hbv__soil_8h" startline="27">sm</references>
+        <references refid="core__pch_8h_1aa47dba87bb7a67f53b8f14867239c4cb" compoundref="core__pch_8h" startline="36">x_serialize_decl</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1state_1aa934b9614e79a24e8b3ad7287259755b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shyft::core::hbv_soil::state::x_serialize_decl</definition>
+        <argsstring>()</argsstring>
+        <name>x_serialize_decl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="32" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="18" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="18" bodyend="25"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="25" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="25" bodyend="33"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1a3aa7a45e5440340663d191128ca9c9a2" prot="public" virt="non-virtual"><scope>shyft::core::hbv_soil::state</scope><name>operator==</name></member>
       <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac7e74f152f8f8a96f8ff2d5aec10013f" prot="public" virt="non-virtual"><scope>shyft::core::hbv_soil::state</scope><name>sm</name></member>
       <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1ac8a2427b31ddf6fe0ad165181d077c9c" prot="public" virt="non-virtual"><scope>shyft::core::hbv_soil::state</scope><name>state</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__soil_1_1state_1aa934b9614e79a24e8b3ad7287259755b" prot="public" virt="non-virtual"><scope>shyft::core::hbv_soil::state</scope><name>x_serialize_decl</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

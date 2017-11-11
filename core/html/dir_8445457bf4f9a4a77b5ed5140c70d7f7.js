@@ -5,36 +5,36 @@ var dir_8445457bf4f9a4a77b5ed5140c70d7f7 =
     [ "cell_model.h", "cell__model_8h.html", "cell__model_8h" ],
     [ "compiler_compatiblity.h", "compiler__compatiblity_8h.html", null ],
     [ "core_pch.cpp", "core__pch_8cpp.html", null ],
-    [ "core_pch.h", "core__pch_8h.html", null ],
+    [ "core_pch.h", "core__pch_8h.html", "core__pch_8h" ],
+    [ "core_serialization.cpp", "core__serialization_8cpp.html", "core__serialization_8cpp" ],
     [ "dream_optimizer.cpp", "dream__optimizer_8cpp.html", null ],
     [ "dream_optimizer.h", "dream__optimizer_8h.html", [
       [ "dream", "classshyft_1_1core_1_1optimizer_1_1dream.html", "classshyft_1_1core_1_1optimizer_1_1dream" ]
     ] ],
+    [ "dtss.h", "dtss_8h.html", "dtss_8h" ],
+    [ "dtss_cache.h", "dtss__cache_8h.html", [
+      [ "lru_cache", "structshyft_1_1dtss_1_1lru__cache.html", "structshyft_1_1dtss_1_1lru__cache" ],
+      [ "mini_frag", "structshyft_1_1dtss_1_1mini__frag.html", "structshyft_1_1dtss_1_1mini__frag" ],
+      [ "apoint_ts_frag", "structshyft_1_1dtss_1_1apoint__ts__frag.html", "structshyft_1_1dtss_1_1apoint__ts__frag" ],
+      [ "cache_stats", "structshyft_1_1dtss_1_1cache__stats.html", "structshyft_1_1dtss_1_1cache__stats" ],
+      [ "cache", "structshyft_1_1dtss_1_1cache.html", "structshyft_1_1dtss_1_1cache" ]
+    ] ],
+    [ "dtss_client.h", "dtss__client_8h.html", "dtss__client_8h" ],
+    [ "dtss_db.h", "dtss__db_8h.html", "dtss__db_8h" ],
+    [ "dtss_msg.h", "dtss__msg_8h.html", "dtss__msg_8h" ],
+    [ "dtss_url.h", "dtss__url_8h.html", "dtss__url_8h" ],
     [ "experimental.cpp", "experimental_8cpp.html", "experimental_8cpp" ],
     [ "experimental.h", "experimental_8h.html", "experimental_8h" ],
     [ "gamma_snow.h", "gamma__snow_8h.html", "gamma__snow_8h" ],
-    [ "gaussian_random_field.h", "gaussian__random__field_8h.html", "gaussian__random__field_8h" ],
     [ "geo_cell_data.h", "geo__cell__data_8h.html", "geo__cell__data_8h" ],
-    [ "geo_point.h", "geo__point_8h.html", [
-      [ "geo_point", "structshyft_1_1core_1_1geo__point.html", "structshyft_1_1core_1_1geo__point" ]
-    ] ],
+    [ "geo_point.h", "geo__point_8h.html", "geo__point_8h" ],
     [ "glacier_melt.h", "glacier__melt_8h.html", "glacier__melt_8h" ],
     [ "hbv_actual_evapotranspiration.h", "hbv__actual__evapotranspiration_8h.html", "hbv__actual__evapotranspiration_8h" ],
     [ "hbv_snow.h", "hbv__snow_8h.html", "hbv__snow_8h" ],
-    [ "hbv_soil.h", "hbv__soil_8h.html", [
-      [ "parameter", "structshyft_1_1core_1_1hbv__soil_1_1parameter.html", "structshyft_1_1core_1_1hbv__soil_1_1parameter" ],
-      [ "state", "structshyft_1_1core_1_1hbv__soil_1_1state.html", "structshyft_1_1core_1_1hbv__soil_1_1state" ],
-      [ "response", "structshyft_1_1core_1_1hbv__soil_1_1response.html", "structshyft_1_1core_1_1hbv__soil_1_1response" ],
-      [ "calculator", "structshyft_1_1core_1_1hbv__soil_1_1calculator.html", "structshyft_1_1core_1_1hbv__soil_1_1calculator" ]
-    ] ],
+    [ "hbv_soil.h", "hbv__soil_8h.html", "hbv__soil_8h" ],
     [ "hbv_stack.h", "core_2hbv__stack_8h.html", "core_2hbv__stack_8h" ],
     [ "hbv_stack_cell_model.h", "hbv__stack__cell__model_8h.html", "hbv__stack__cell__model_8h" ],
-    [ "hbv_tank.h", "hbv__tank_8h.html", [
-      [ "parameter", "structshyft_1_1core_1_1hbv__tank_1_1parameter.html", "structshyft_1_1core_1_1hbv__tank_1_1parameter" ],
-      [ "state", "structshyft_1_1core_1_1hbv__tank_1_1state.html", "structshyft_1_1core_1_1hbv__tank_1_1state" ],
-      [ "response", "structshyft_1_1core_1_1hbv__tank_1_1response.html", "structshyft_1_1core_1_1hbv__tank_1_1response" ],
-      [ "calculator", "structshyft_1_1core_1_1hbv__tank_1_1calculator.html", "structshyft_1_1core_1_1hbv__tank_1_1calculator" ]
-    ] ],
+    [ "hbv_tank.h", "hbv__tank_8h.html", "hbv__tank_8h" ],
     [ "inverse_distance.h", "inverse__distance_8h.html", "inverse__distance_8h" ],
     [ "kalman.h", "kalman_8h.html", [
       [ "state", "structshyft_1_1core_1_1kalman_1_1state.html", "structshyft_1_1core_1_1kalman_1_1state" ],
@@ -43,12 +43,14 @@ var dir_8445457bf4f9a4a77b5ed5140c70d7f7 =
       [ "bias_predictor", "structshyft_1_1core_1_1kalman_1_1bias__predictor.html", "structshyft_1_1core_1_1kalman_1_1bias__predictor" ]
     ] ],
     [ "kirchner.h", "kirchner_8h.html", "kirchner_8h" ],
+    [ "kriging.h", "kriging_8h.html", "kriging_8h" ],
     [ "model_calibration.h", "model__calibration_8h.html", "model__calibration_8h" ],
     [ "optimizer_utils.h", "optimizer__utils_8h.html", "optimizer__utils_8h" ],
     [ "precipitation_correction.h", "precipitation__correction_8h.html", [
       [ "parameter", "structshyft_1_1core_1_1precipitation__correction_1_1parameter.html", "structshyft_1_1core_1_1precipitation__correction_1_1parameter" ],
       [ "calculator", "structshyft_1_1core_1_1precipitation__correction_1_1calculator.html", "structshyft_1_1core_1_1precipitation__correction_1_1calculator" ]
     ] ],
+    [ "predictions.h", "predictions_8h.html", "predictions_8h" ],
     [ "priestley_taylor.h", "priestley__taylor_8h.html", [
       [ "parameter", "structshyft_1_1core_1_1priestley__taylor_1_1parameter.html", "structshyft_1_1core_1_1priestley__taylor_1_1parameter" ],
       [ "response", "structshyft_1_1core_1_1priestley__taylor_1_1response.html", "structshyft_1_1core_1_1priestley__taylor_1_1response" ],
@@ -67,11 +69,16 @@ var dir_8445457bf4f9a4a77b5ed5140c70d7f7 =
       [ "region_environment", "structshyft_1_1core_1_1region__environment.html", "structshyft_1_1core_1_1region__environment" ],
       [ "region_model", "classshyft_1_1core_1_1region__model.html", "classshyft_1_1core_1_1region__model" ]
     ] ],
+    [ "routing.h", "routing_8h.html", "routing_8h" ],
     [ "sceua_optimizer.cpp", "sceua__optimizer_8cpp.html", null ],
     [ "sceua_optimizer.h", "sceua__optimizer_8h.html", "sceua__optimizer_8h" ],
     [ "skaugen.h", "skaugen_8h.html", "skaugen_8h" ],
     [ "time_axis.h", "time__axis_8h.html", "time__axis_8h" ],
-    [ "timeseries.h", "core_2timeseries_8h.html", "core_2timeseries_8h" ],
+    [ "time_series.h", "core_2time__series_8h.html", "core_2time__series_8h" ],
+    [ "time_series_info.h", "time__series__info_8h.html", "time__series__info_8h" ],
+    [ "time_series_merge.h", "time__series__merge_8h.html", "time__series__merge_8h" ],
+    [ "time_series_qm.h", "time__series__qm_8h.html", "time__series__qm_8h" ],
+    [ "time_series_statistics.h", "time__series__statistics_8h.html", "time__series__statistics_8h" ],
     [ "unit_conversion.h", "unit__conversion_8h.html", "unit__conversion_8h" ],
     [ "utctime_utilities.cpp", "utctime__utilities_8cpp.html", "utctime__utilities_8cpp" ],
     [ "utctime_utilities.h", "utctime__utilities_8h.html", "utctime__utilities_8h" ]

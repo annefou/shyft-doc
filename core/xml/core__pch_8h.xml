@@ -1,309 +1,685 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="core__pch_8h" kind="file" language="C++">
     <compoundname>core_pch.h</compoundname>
-    <includes local="no">memory</includes>
-    <includes local="no">limits</includes>
-    <includes local="no">vector</includes>
-    <includes local="no">map</includes>
-    <includes local="no">string</includes>
-    <includes local="no">algorithm</includes>
-    <includes local="no">functional</includes>
-    <includes local="no">iostream</includes>
-    <includes local="no">ostream</includes>
-    <includes local="no">sstream</includes>
-    <includes local="no">thread</includes>
-    <includes local="no">future</includes>
-    <includes local="no">stdexcept</includes>
-    <includes local="no">random</includes>
-    <includes local="no">type_traits</includes>
-    <includes local="no">time.h</includes>
-    <includes local="no">cerrno</includes>
-    <includes local="no">cstring</includes>
-    <includes local="no">cstddef</includes>
-    <includes local="no">math.h</includes>
-    <includes local="no">cmath</includes>
-    <includes local="no">boost/math_fwd.hpp</includes>
-    <includes local="no">boost/numeric/odeint.hpp</includes>
-    <includes local="no">boost/range.hpp</includes>
-    <includes local="no">boost/math/distributions/gamma.hpp</includes>
-    <includes local="no">boost/math/special_functions/gamma.hpp</includes>
-    <includes local="no">boost/math/tools/roots.hpp</includes>
-    <includes local="no">boost/math/tools/minima.hpp</includes>
-    <includes local="no">armadillo</includes>
-    <includedby refid="core__pch_8cpp" local="yes">/home/sih/projects/shyft/core/core_pch.cpp</includedby>
-    <includedby refid="dream__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/dream_optimizer.cpp</includedby>
-    <includedby refid="experimental_8cpp" local="yes">/home/sih/projects/shyft/core/experimental.cpp</includedby>
-    <includedby refid="sceua__optimizer_8cpp" local="yes">/home/sih/projects/shyft/core/sceua_optimizer.cpp</includedby>
-    <includedby refid="utctime__utilities_8cpp" local="yes">/home/sih/projects/shyft/core/utctime_utilities.cpp</includedby>
-    <includedby refid="api_8h" local="yes">/home/sih/projects/shyft/api/api.h</includedby>
-    <includedby refid="api_2timeseries_8h" local="yes">/home/sih/projects/shyft/api/timeseries.h</includedby>
-    <includedby refid="api_2hbv__stack_8h" local="yes">/home/sih/projects/shyft/api/hbv_stack.h</includedby>
-    <includedby refid="api_2pt__gs__k_8h" local="yes">/home/sih/projects/shyft/api/pt_gs_k.h</includedby>
-    <includedby refid="api_2pt__hs__k_8h" local="yes">/home/sih/projects/shyft/api/pt_hs_k.h</includedby>
-    <includedby refid="api_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/api/pt_ss_k.h</includedby>
+    <includes local="no">boost/serialization/access.hpp</includes>
+    <includes local="no">boost/serialization/export.hpp</includes>
+    <includedby refid="utctime__utilities_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.h</includedby>
+    <includedby refid="core_2time__series_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series.h</includedby>
+    <includedby refid="time__axis_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_axis.h</includedby>
+    <includedby refid="cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/cell_model.h</includedby>
+    <includedby refid="geo__cell__data_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/geo_cell_data.h</includedby>
+    <includedby refid="geo__point_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/geo_point.h</includedby>
+    <includedby refid="core__pch_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.cpp</includedby>
+    <includedby refid="core__serialization_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_serialization.cpp</includedby>
+    <includedby refid="hbv__snow_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_snow.h</includedby>
+    <includedby refid="hbv__soil_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h</includedby>
+    <includedby refid="hbv__tank_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_tank.h</includedby>
+    <includedby refid="gamma__snow_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/gamma_snow.h</includedby>
+    <includedby refid="kirchner_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/kirchner.h</includedby>
+    <includedby refid="skaugen_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h</includedby>
+    <includedby refid="core_2hbv__stack_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack.h</includedby>
+    <includedby refid="core_2pt__gs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k.h</includedby>
+    <includedby refid="core_2pt__ss__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h</includedby>
+    <includedby refid="core_2pt__hs__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k.h</includedby>
+    <includedby refid="time__series__info_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series_info.h</includedby>
+    <includedby refid="dream__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dream_optimizer.cpp</includedby>
+    <includedby refid="experimental_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp</includedby>
+    <includedby refid="region__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h</includedby>
+    <includedby refid="pt__gs__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k_cell_model.h</includedby>
+    <includedby refid="hbv__stack__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h</includedby>
+    <includedby refid="model__calibration_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h</includedby>
+    <includedby refid="pt__hs__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h</includedby>
+    <includedby refid="pt__ss__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</includedby>
+    <includedby refid="sceua__optimizer_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/sceua_optimizer.cpp</includedby>
+    <includedby refid="utctime__utilities_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp</includedby>
+    <includedby refid="api_2time__series_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h</includedby>
+    <includedby refid="api__pch_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_pch.h</includedby>
+    <includedby refid="api__state_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</includedby>
     <incdepgraph>
-      <node id="297">
-        <label>functional</label>
+      <node id="388">
+        <label>boost/serialization/access.hpp</label>
       </node>
-      <node id="292">
-        <label>limits</label>
+      <node id="389">
+        <label>boost/serialization/export.hpp</label>
       </node>
-      <node id="317">
-        <label>boost/math/tools/roots.hpp</label>
-      </node>
-      <node id="315">
-        <label>boost/math/distributions/gamma.hpp</label>
-      </node>
-      <node id="311">
-        <label>cmath</label>
-      </node>
-      <node id="303">
-        <label>stdexcept</label>
-      </node>
-      <node id="295">
-        <label>string</label>
-      </node>
-      <node id="294">
-        <label>map</label>
-      </node>
-      <node id="319">
-        <label>armadillo</label>
-      </node>
-      <node id="318">
-        <label>boost/math/tools/minima.hpp</label>
-      </node>
-      <node id="299">
-        <label>ostream</label>
-      </node>
-      <node id="290">
-        <label>/home/sih/projects/shyft/core/core_pch.h</label>
+      <node id="387">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h</label>
         <link refid="core__pch_8h"/>
-        <childnode refid="291" relation="include">
+        <childnode refid="388" relation="include">
         </childnode>
-        <childnode refid="292" relation="include">
+        <childnode refid="389" relation="include">
         </childnode>
-        <childnode refid="293" relation="include">
-        </childnode>
-        <childnode refid="294" relation="include">
-        </childnode>
-        <childnode refid="295" relation="include">
-        </childnode>
-        <childnode refid="296" relation="include">
-        </childnode>
-        <childnode refid="297" relation="include">
-        </childnode>
-        <childnode refid="298" relation="include">
-        </childnode>
-        <childnode refid="299" relation="include">
-        </childnode>
-        <childnode refid="300" relation="include">
-        </childnode>
-        <childnode refid="301" relation="include">
-        </childnode>
-        <childnode refid="302" relation="include">
-        </childnode>
-        <childnode refid="303" relation="include">
-        </childnode>
-        <childnode refid="304" relation="include">
-        </childnode>
-        <childnode refid="305" relation="include">
-        </childnode>
-        <childnode refid="306" relation="include">
-        </childnode>
-        <childnode refid="307" relation="include">
-        </childnode>
-        <childnode refid="308" relation="include">
-        </childnode>
-        <childnode refid="309" relation="include">
-        </childnode>
-        <childnode refid="310" relation="include">
-        </childnode>
-        <childnode refid="311" relation="include">
-        </childnode>
-        <childnode refid="312" relation="include">
-        </childnode>
-        <childnode refid="313" relation="include">
-        </childnode>
-        <childnode refid="314" relation="include">
-        </childnode>
-        <childnode refid="315" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="318" relation="include">
-        </childnode>
-        <childnode refid="319" relation="include">
-        </childnode>
-      </node>
-      <node id="304">
-        <label>random</label>
-      </node>
-      <node id="314">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="302">
-        <label>future</label>
-      </node>
-      <node id="312">
-        <label>boost/math_fwd.hpp</label>
-      </node>
-      <node id="293">
-        <label>vector</label>
-      </node>
-      <node id="300">
-        <label>sstream</label>
-      </node>
-      <node id="313">
-        <label>boost/numeric/odeint.hpp</label>
-      </node>
-      <node id="306">
-        <label>time.h</label>
-      </node>
-      <node id="310">
-        <label>math.h</label>
-      </node>
-      <node id="307">
-        <label>cerrno</label>
-      </node>
-      <node id="298">
-        <label>iostream</label>
-      </node>
-      <node id="309">
-        <label>cstddef</label>
-      </node>
-      <node id="316">
-        <label>boost/math/special_functions/gamma.hpp</label>
-      </node>
-      <node id="301">
-        <label>thread</label>
-      </node>
-      <node id="305">
-        <label>type_traits</label>
-      </node>
-      <node id="296">
-        <label>algorithm</label>
-      </node>
-      <node id="308">
-        <label>cstring</label>
-      </node>
-      <node id="291">
-        <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="333">
-        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
-        <link refid="api_2pt__ss__k_8h"/>
+      <node id="415">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/kirchner.h</label>
+        <link refid="kirchner_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
       </node>
-      <node id="322">
-        <label>/home/sih/projects/shyft/core/dream_optimizer.cpp</label>
+      <node id="441">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dream_optimizer.cpp</label>
         <link refid="dream__optimizer_8cpp"/>
       </node>
-      <node id="324">
-        <label>/home/sih/projects/shyft/core/sceua_optimizer.cpp</label>
-        <link refid="sceua__optimizer_8cpp"/>
+      <node id="417">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/routing.h</label>
+        <link refid="routing_8h"/>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
       </node>
-      <node id="330">
-        <label>/home/sih/projects/shyft/api/hbv_stack.h</label>
+      <node id="419">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/hbv_stack.h</label>
         <link refid="api_2hbv__stack_8h"/>
       </node>
-      <node id="326">
-        <label>/home/sih/projects/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="327" relation="include">
+      <node id="392">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/actual_evapotranspiration.h</label>
+        <link refid="actual__evapotranspiration_8h"/>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
         </childnode>
       </node>
-      <node id="332">
-        <label>/home/sih/projects/shyft/api/pt_hs_k.h</label>
-        <link refid="api_2pt__hs__k_8h"/>
-      </node>
-      <node id="321">
-        <label>/home/sih/projects/shyft/core/core_pch.cpp</label>
-        <link refid="core__pch_8cpp"/>
-      </node>
-      <node id="320">
-        <label>/home/sih/projects/shyft/core/core_pch.h</label>
-        <link refid="core__pch_8h"/>
-        <childnode refid="321" relation="include">
+      <node id="393">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k.h</label>
+        <link refid="core_2pt__gs__k_8h"/>
+        <childnode refid="394" relation="include">
         </childnode>
-        <childnode refid="322" relation="include">
+        <childnode refid="395" relation="include">
         </childnode>
-        <childnode refid="323" relation="include">
+        <childnode refid="400" relation="include">
         </childnode>
-        <childnode refid="324" relation="include">
+        <childnode refid="401" relation="include">
         </childnode>
-        <childnode refid="325" relation="include">
-        </childnode>
-        <childnode refid="326" relation="include">
-        </childnode>
-        <childnode refid="328" relation="include">
-        </childnode>
-        <childnode refid="330" relation="include">
-        </childnode>
-        <childnode refid="331" relation="include">
-        </childnode>
-        <childnode refid="332" relation="include">
-        </childnode>
-        <childnode refid="333" relation="include">
+        <childnode refid="403" relation="include">
         </childnode>
       </node>
-      <node id="331">
-        <label>/home/sih/projects/shyft/api/pt_gs_k.h</label>
-        <link refid="api_2pt__gs__k_8h"/>
+      <node id="408">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h</label>
+        <link refid="pt__hs__k__cell__model_8h"/>
+        <childnode refid="399" relation="include">
+        </childnode>
       </node>
-      <node id="323">
-        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
-        <link refid="experimental_8cpp"/>
-      </node>
-      <node id="327">
-        <label>/home/sih/projects/shyft/api/api.cpp</label>
-        <link refid="api_8cpp"/>
-      </node>
-      <node id="329">
-        <label>/home/sih/projects/shyft/api/timeseries.cpp</label>
-        <link refid="timeseries_8cpp"/>
-      </node>
-      <node id="325">
-        <label>/home/sih/projects/shyft/core/utctime_utilities.cpp</label>
+      <node id="437">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp</label>
         <link refid="utctime__utilities_8cpp"/>
       </node>
-      <node id="328">
-        <label>/home/sih/projects/shyft/api/timeseries.h</label>
-        <link refid="api_2timeseries_8h"/>
-        <childnode refid="326" relation="include">
+      <node id="414">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/gamma_snow.h</label>
+        <link refid="gamma__snow_8h"/>
+        <childnode refid="394" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series_info.h</label>
+        <link refid="time__series__info_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="425" relation="include">
+        </childnode>
+      </node>
+      <node id="429">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_axis.h</label>
+        <link refid="time__axis_8h"/>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="424">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dtss_db.h</label>
+        <link refid="dtss__db_8h"/>
+        <childnode refid="422" relation="include">
+        </childnode>
+      </node>
+      <node id="432">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_tank.h</label>
+        <link refid="hbv__tank_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/bayesian_kriging.h</label>
+        <link refid="bayesian__kriging_8h"/>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series.h</label>
+        <link refid="core_2time__series_8h"/>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k_cell_model.h</label>
+        <link refid="pt__gs__k__cell__model_8h"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="422">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dtss.h</label>
+        <link refid="dtss_8h"/>
+      </node>
+      <node id="430">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_snow.h</label>
+        <link refid="hbv__snow_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+      </node>
+      <node id="442">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/sceua_optimizer.cpp</label>
+        <link refid="sceua__optimizer_8cpp"/>
+      </node>
+      <node id="435">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series_merge.h</label>
+        <link refid="time__series__merge_8h"/>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="426" relation="include">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k.h</label>
+        <link refid="core_2pt__hs__k_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/geo_cell_data.h</label>
+        <link refid="geo__cell__data_8h"/>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series_statistics.h</label>
+        <link refid="time__series__statistics_8h"/>
+        <childnode refid="421" relation="include">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.h</label>
+        <link refid="experimental_8h"/>
+        <childnode refid="397" relation="include">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.cpp</label>
+        <link refid="time__series_8cpp"/>
+      </node>
+      <node id="395">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h</label>
+        <link refid="region__model_8h"/>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="421">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h</label>
+        <link refid="api_2time__series_8h"/>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="426" relation="include">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_ss_k.h</label>
+        <link refid="api_2pt__ss__k_8h"/>
+      </node>
+      <node id="431">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h</label>
+        <link refid="hbv__soil_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+      </node>
+      <node id="427">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/time_series_qm.h</label>
+        <link refid="time__series__qm_8h"/>
+        <childnode refid="426" relation="include">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</label>
+        <link refid="api__state_8h"/>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_hs_k.h</label>
+        <link refid="api_2pt__hs__k_8h"/>
+      </node>
+      <node id="416">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h</label>
+        <link refid="skaugen_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_serialization.cpp</label>
+        <link refid="api__serialization_8cpp"/>
+      </node>
+      <node id="412">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="435" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="436" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="437" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/geo_point.h</label>
+        <link refid="geo__point_8h"/>
+        <childnode refid="438" relation="include">
+        </childnode>
+        <childnode refid="436" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/predictions.h</label>
+        <link refid="predictions_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h</label>
+        <link refid="hbv__actual__evapotranspiration_8h"/>
+        <childnode refid="418" relation="include">
+        </childnode>
+      </node>
+      <node id="443">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_pch.h</label>
+        <link refid="api__pch_8h"/>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="426" relation="include">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h</label>
+        <link refid="inverse__distance_8h"/>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp</label>
+        <link refid="experimental_8cpp"/>
+      </node>
+      <node id="444">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_pch.cpp</label>
+        <link refid="api__pch_8cpp"/>
+      </node>
+      <node id="403">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_gs_k.h</label>
+        <link refid="api_2pt__gs__k_8h"/>
+      </node>
+      <node id="425">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dtss_client.h</label>
+        <link refid="dtss__client_8h"/>
+      </node>
+      <node id="399">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+      </node>
+      <node id="394">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_serialization.cpp</label>
+        <link refid="core__serialization_8cpp"/>
+      </node>
+      <node id="390">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="438" relation="include">
+        </childnode>
+        <childnode refid="439" relation="include">
+        </childnode>
+        <childnode refid="440" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+        <childnode refid="441" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="437" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="399" relation="include">
+        </childnode>
+      </node>
+      <node id="423">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dtss_cache.h</label>
+        <link refid="dtss__cache_8h"/>
+        <childnode refid="422" relation="include">
+        </childnode>
+      </node>
+      <node id="440">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.cpp</label>
+        <link refid="core__pch_8cpp"/>
+      </node>
+      <node id="418">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack.h</label>
+        <link refid="core_2hbv__stack_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">
-      <memberdef kind="define" id="core__pch_8h_1a525335710b53cb064ca56b936120431e" prot="public" static="no">
-        <name>_USE_MATH_DEFINES</name>
+      <memberdef kind="define" id="core__pch_8h_1aa47dba87bb7a67f53b8f14867239c4cb" prot="public" static="no">
+        <name>x_serialize_decl</name>
+        <param></param>
+        <initializer>private:\
+    friend class boost::serialization::access;\
+    template&lt;class Archive&gt;\
+    void serialize(Archive &amp; ar, const unsigned int file_version)\</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Copyright 2012 Statkraft Energi A/S</para><para>This file is part of ENKI.</para><para>ENKI is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para><para>ENKI is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</para><para>You should have received a copy of the GNU Lesser General Public License along with ENKI, usually located under the ENKI root directory in two files named COPYING.txt and COPYING_LESSER.txt. If not, see <ulink url="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</ulink>. </para>        </detaileddescription>
+<para>Copyright 2012 Statkraft Energi A/S</para><para>This file is part of Shyft.</para><para>Shyft is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</para><para>Shyft is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.</para><para>You should have received a copy of the GNU Lesser General Public License along with Shyft, usually located under the Shyft root directory in two files named COPYING.txt and COPYING_LESSER.txt. If not, see <ulink url="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</ulink>.in the header-files: x_serialize_decl to be used as the <emphasis>last</emphasis> line in the class/struct declaration </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/core_pch.h" line="48" column="28" bodyfile="/home/sih/projects/shyft/core/core_pch.h" bodystart="48" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" line="36" column="12" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" bodystart="36" bodyend="-1"/>
       </memberdef>
-      </sectiondef>
-      <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" prot="public" static="no">
-        <type>boost::math::static_gcd_type</type>
-        <definition>typedef boost::math::static_gcd_type static_gcd_type</definition>
-        <argsstring></argsstring>
-        <name>static_gcd_type</name>
+      <memberdef kind="define" id="core__pch_8h_1a7902ad55fe53982b90a6024ca509269e" prot="public" static="no">
+        <name>x_serialize_export_key</name>
+        <param><defname>T</defname></param>
+        <initializer>BOOST_CLASS_EXPORT_KEY(T)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>in the header-files: x_serialize_export_key to be used <emphasis>outside</emphasis> namespace at the <emphasis>end</emphasis> of the header file </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/core_pch.h" line="56" column="1" bodyfile="/home/sih/projects/shyft/core/core_pch.h" bodystart="56" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" line="46" column="12" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__pch_8h_1a4166ae35bae2da7c58347b9da3e66a8e" prot="public" static="no">
+        <name>x_serialize_implement</name>
+        <param><defname>T</defname></param>
+        <initializer>BOOST_CLASS_EXPORT_IMPLEMENT(T)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in the library implementation files: x_serialize_implement to be use in the library implementation file, <emphasis>after</emphasis> template&lt;class Archive&gt; namespace::cls::serialize(Archive&amp;ar,const int v) {} impl </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" line="54" column="12" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__pch_8h_1a7c4a001bf1647c4a7ef2c10d29e1c03e" prot="public" static="no">
+        <name>x_serialize_archive</name>
+        <param><defname>T</defname></param>
+        <param><defname>AO</defname></param>
+        <param><defname>AI</defname></param>
+        <initializer>template void T::serialize( boost::archive::AO &amp;,const unsigned int);\
+    template void T::serialize( boost::archive::AI &amp;,const unsigned int);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>in the library implementation files after x_serialize_implement </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" line="59" column="12" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -311,53 +687,38 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WINDOWS)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4267)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4244)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4503)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_shyft_core_serialize_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_shyft_core_serialize_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WINDOWS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4267)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4244)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>warning<sp/>(disable<sp/>:<sp/>4503)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ostream&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sstream&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;thread&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;future&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;random&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cerrno&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstddef&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="core__pch_8h_1a525335710b53cb064ca56b936120431e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_MATH_DEFINES</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SiH:<sp/>On<sp/>ubuntu<sp/>15.04,<sp/>with<sp/>boost<sp/>1.59,<sp/>gcc<sp/>4.9.2<sp/>this<sp/>was<sp/>needed</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>avoid<sp/>undefined<sp/>static_gcd_type</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math_fwd.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" kindref="member">boost::math::static_gcd_type</ref><sp/><ref refid="core__pch_8h_1a3a2064c7084e5518c641555c9c7af541" kindref="member">static_gcd_type</ref>;</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/numeric/odeint.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/range.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/distributions/gamma.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/special_functions/gamma.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/tools/roots.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/math/tools/minima.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/serialization/access.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/serialization/export.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="core__pch_8h_1aa47dba87bb7a67f53b8f14867239c4cb" refkind="member"><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>x_serialize_decl()<sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>private:\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/>boost::serialization::access;\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>template&lt;class<sp/>Archive&gt;\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>void<sp/>serialize(Archive<sp/>&amp;<sp/>ar,<sp/>const<sp/>unsigned<sp/>int<sp/>file_version)\</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="core__pch_8h_1a7902ad55fe53982b90a6024ca509269e" refkind="member"><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>x_serialize_export_key(T)<sp/>BOOST_CLASS_EXPORT_KEY(T)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="core__pch_8h_1a4166ae35bae2da7c58347b9da3e66a8e" refkind="member"><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>x_serialize_implement(T)<sp/><sp/>BOOST_CLASS_EXPORT_IMPLEMENT(T)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="core__pch_8h_1a7c4a001bf1647c4a7ef2c10d29e1c03e" refkind="member"><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>x_serialize_archive(T,AO,AI)<sp/>\</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>template<sp/>void<sp/>T::serialize(<sp/>boost::archive::AO<sp/>&amp;,const<sp/>unsigned<sp/>int);\</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>template<sp/>void<sp/>T::serialize(<sp/>boost::archive::AI<sp/>&amp;,const<sp/>unsigned<sp/>int);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>_shyft_core_serialize_h</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;armadillo&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/core_pch.h"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.h"/>
   </compounddef>
 </doxygen>

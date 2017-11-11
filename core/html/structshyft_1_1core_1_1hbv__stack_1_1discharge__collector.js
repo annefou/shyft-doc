@@ -7,6 +7,7 @@ var structshyft_1_1core_1_1hbv__stack_1_1discharge__collector =
     [ "initialize", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#ab225a2efb3183ee1252f3aab9c908f42", null ],
     [ "set_end_response", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#ab4aced40e17084fdb5ac1b2019029066", null ],
     [ "avg_discharge", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#a644dc9d23978f8707530ead22eec8e81", null ],
+    [ "charge_m3s", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#a3b220d71cbf498ef1410df844434541d", null ],
     [ "collect_snow", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#a5bff22b69d77762a8b39695e97748df6", null ],
     [ "destination_area", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#a83fafb0ae5a86cc65e56d413a86f7813", null ],
     [ "end_response", "structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html#a90947cb5669c505e93adf63328fc8b6c", null ],

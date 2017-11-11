@@ -1,6 +1,6 @@
 var structshyft_1_1core_1_1kalman_1_1parameter =
 [
-    [ "parameter", "structshyft_1_1core_1_1kalman_1_1parameter.html#ac1a95c5e1fbc176d7b5008fe793f96e5", null ],
+    [ "parameter", "structshyft_1_1core_1_1kalman_1_1parameter.html#a104e73a773325740c84eebafc0ffa876", null ],
     [ "covariance_init", "structshyft_1_1core_1_1kalman_1_1parameter.html#a15eff8a125cbe4e3044fab14869a5d0e", null ],
     [ "hourly_correlation", "structshyft_1_1core_1_1kalman_1_1parameter.html#a8ba7b7fa8216910243f01dd5f51519a2", null ],
     [ "n_daily_observations", "structshyft_1_1core_1_1kalman_1_1parameter.html#a6eb5fd7e0113abe24f72c7d4abc3031b", null ],

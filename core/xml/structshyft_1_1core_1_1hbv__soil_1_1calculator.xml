@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1hbv__soil_1_1calculator" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::hbv_soil::calculator</compoundname>
     <includes refid="hbv__soil_8h" local="no">hbv_soil.h</includes>
@@ -22,11 +22,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="42" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="42" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1calculator_1aa277f72cd1ab56cd8df66c7d6aea5cf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1calculator_1aa277f72cd1ab56cd8df66c7d6aea5cf2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::hbv_soil::calculator&lt; P &gt;::calculator</definition>
         <argsstring>(const P &amp;p)</argsstring>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="43" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="43" bodyend="43"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="51" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="51" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1hbv__soil_1_1calculator_1af7d4079a8de3586825c799a43e0694ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -86,8 +86,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="45" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="45" bodyend="50"/>
-        <referencedby refid="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" compoundref="core_2hbv__stack_8h" startline="238" endline="309">shyft::core::hbv_stack::run_hbv_stack</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="53" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="53" bodyend="58"/>
+        <references refid="namespaceshyft_1_1time__series_1a9d6cbe98c5cc049e83fbce8715b64fa4" compoundref="core_2time__series_8h" startline="1709" endline="1711">shyft::time_series::max</references>
+        <references refid="hbv__soil_8h_1af456a9ca015a75c39ba170eb7279c02a">x_serialize_export_key</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1hbv__stack_1a98bae2a3c968ad1ceeb1227957e1df78" compoundref="core_2hbv__stack_8h" startline="261" endline="338">shyft::core::hbv_stack::run_hbv_stack</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -116,7 +118,7 @@
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/hbv_soil.h" line="41" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_soil.h" bodystart="41" bodyend="51"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" line="49" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_soil.h" bodystart="49" bodyend="59"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1aa277f72cd1ab56cd8df66c7d6aea5cf2" prot="public" virt="non-virtual"><scope>shyft::core::hbv_soil::calculator</scope><name>calculator</name></member>
       <member refid="structshyft_1_1core_1_1hbv__soil_1_1calculator_1a3c0fcbd5b71e6015159dfaf11c4c4fbe" prot="public" virt="non-virtual"><scope>shyft::core::hbv_soil::calculator</scope><name>param</name></member>

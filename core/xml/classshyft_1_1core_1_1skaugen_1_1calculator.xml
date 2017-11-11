@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classshyft_1_1core_1_1skaugen_1_1calculator" kind="class" language="C++" prot="public">
     <compoundname>shyft::core::skaugen::calculator</compoundname>
     <includes refid="skaugen_8h" local="no">skaugen.h</includes>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/skaugen.h" line="136" column="1" bodyfile="/home/sih/projects/shyft/core/skaugen.h" bodystart="136" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" line="147" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" bodystart="147" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -48,15 +48,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/skaugen.h" line="138" column="1" bodyfile="/home/sih/projects/shyft/core/skaugen.h" bodystart="138" bodyend="138"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" line="149" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" bodystart="149" bodyend="149"/>
       </memberdef>
-      <memberdef kind="function" id="classshyft_1_1core_1_1skaugen_1_1calculator_1a81268eabf28aaf815188b7db9a719bfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classshyft_1_1core_1_1skaugen_1_1calculator_1a6aa5fb304a9423800ea9d97f3f791374" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
         <definition>void shyft::core::skaugen::calculator&lt; P, S, R &gt;::step</definition>
-        <argsstring>(shyft::timeseries::utctimespan dt, const P &amp;p, const double T, const double prec, const double rad, const double wind_speed, S &amp;s, R &amp;r) const</argsstring>
+        <argsstring>(shyft::time_series::utctimespan dt, const P &amp;p, const double T, const double prec, const double rad, const double wind_speed, S &amp;s, R &amp;r) const</argsstring>
         <name>step</name>
         <param>
-          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">shyft::timeseries::utctimespan</ref></type>
+          <type><ref refid="namespaceshyft_1_1core_1a560b7b3b8bf6190f749284f5fadd7271" kindref="member">shyft::time_series::utctimespan</ref></type>
           <declname>dt</declname>
         </param>
         <param>
@@ -93,11 +93,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/skaugen.h" line="139" column="1" bodyfile="/home/sih/projects/shyft/core/skaugen.h" bodystart="139" bodyend="332"/>
-        <references refid="namespaceshyft_1_1timeseries_1ac53ac01de119a07afeaf67d32cd151e7" compoundref="core_2timeseries_8h" startline="874" endline="876">shyft::timeseries::max</references>
-        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="884" endline="886">shyft::timeseries::min</references>
-        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1a89f27c9bbefcbc63f49fe381651f3c9d" compoundref="skaugen_8h" startline="45" endline="70">shyft::core::skaugen::statistics::sca_rel_red</references>
-        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="159" endline="225">shyft::core::pt_ss_k::run</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" line="150" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" bodystart="150" bodyend="343"/>
+        <references refid="namespaceshyft_1_1time__series_1a9d6cbe98c5cc049e83fbce8715b64fa4" compoundref="core_2time__series_8h" startline="1709" endline="1711">shyft::time_series::max</references>
+        <references refid="namespaceshyft_1_1time__series_1adba838103548ab86fd91e469830eca9f" compoundref="core_2time__series_8h" startline="1719" endline="1721">shyft::time_series::min</references>
+        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1a89f27c9bbefcbc63f49fe381651f3c9d" compoundref="skaugen_8h" startline="55" endline="80">shyft::core::skaugen::statistics::sca_rel_red</references>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="173" endline="246">shyft::core::pt_ss_k::run</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -144,22 +144,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/skaugen.h" line="334" column="1" bodyfile="/home/sih/projects/shyft/core/skaugen.h" bodystart="334" bodyend="376"/>
-        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1af375f42333d84506cda9c62b08be9859" compoundref="skaugen_8h" startline="34">shyft::core::skaugen::statistics::alpha_0</references>
-        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1aec146111742b213c5265a74edf86a387" compoundref="skaugen_8h" startline="36">shyft::core::skaugen::statistics::unit_size</references>
-        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1a37598699f59698433447db6880d18854" compoundref="skaugen_8h" startline="41" endline="43">shyft::core::skaugen::statistics::c</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" line="345" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" bodystart="345" bodyend="387"/>
+        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1af375f42333d84506cda9c62b08be9859" compoundref="skaugen_8h" startline="44">shyft::core::skaugen::statistics::alpha_0</references>
+        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1aec146111742b213c5265a74edf86a387" compoundref="skaugen_8h" startline="46">shyft::core::skaugen::statistics::unit_size</references>
+        <references refid="structshyft_1_1core_1_1skaugen_1_1statistics_1a37598699f59698433447db6880d18854" compoundref="skaugen_8h" startline="51" endline="53">shyft::core::skaugen::statistics::c</references>
+        <references refid="skaugen_8h_1a8f9579555f7db29f4fa5e73dce5055d2">x_serialize_export_key</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/skaugen.h" line="134" column="1" bodyfile="/home/sih/projects/shyft/core/skaugen.h" bodystart="134" bodyend="377"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" line="145" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/skaugen.h" bodystart="145" bodyend="388"/>
     <listofallmembers>
       <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a2f9fb31533dd7b7b0c44f0953d423e50" prot="public" virt="non-virtual"><scope>shyft::core::skaugen::calculator</scope><name>calculator</name></member>
       <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a0101f9d6b86c6c5baa2c1be951c75552" prot="public" virt="non-virtual"><scope>shyft::core::skaugen::calculator</scope><name>compute_shape_vars</name></member>
       <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a2f6d43394c3bf85e020977cd2f159787" prot="private" virt="non-virtual"><scope>shyft::core::skaugen::calculator</scope><name>snow_tol</name></member>
-      <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a81268eabf28aaf815188b7db9a719bfe" prot="public" virt="non-virtual"><scope>shyft::core::skaugen::calculator</scope><name>step</name></member>
+      <member refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a6aa5fb304a9423800ea9d97f3f791374" prot="public" virt="non-virtual"><scope>shyft::core::skaugen::calculator</scope><name>step</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

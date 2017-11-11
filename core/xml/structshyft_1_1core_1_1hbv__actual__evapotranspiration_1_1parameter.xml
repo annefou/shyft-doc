@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::hbv_actual_evapotranspiration::parameter</compoundname>
     <includes refid="hbv__actual__evapotranspiration_8h" local="no">hbv_actual_evapotranspiration.h</includes>
@@ -9,29 +9,29 @@
         <definition>double shyft::core::hbv_actual_evapotranspiration::parameter::lp</definition>
         <argsstring></argsstring>
         <name>lp</name>
-        <initializer>= 2.0</initializer>
+        <initializer>= 150.0</initializer>
         <briefdescription>
-<para>default value is 2.0 </para>        </briefdescription>
+<para>default value is 150.0 </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_actual_evapotranspiration.h" line="12" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_actual_evapotranspiration.h" bodystart="12" bodyend="-1"/>
-        <referencedby refid="namespaceshyft_1_1core_1_1hbv__actual__evapotranspiration_1aa35011d4c7c4f00edb3eb615d01257b1" compoundref="hbv__actual__evapotranspiration_8h" startline="32" endline="40">shyft::core::hbv_actual_evapotranspiration::calculate_step</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ae32e4a61bb7bb768f90ffa08557819c1" compoundref="core_2hbv__stack_8h" startline="61" endline="60">shyft::core::hbv_stack::parameter::set</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a669fb3a3472cd5a0503cfb83015bf3a2" compoundref="core_2hbv__stack_8h" startline="86" endline="85">shyft::core::hbv_stack::parameter::get</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h" line="10" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1hbv__actual__evapotranspiration_1aa35011d4c7c4f00edb3eb615d01257b1" compoundref="hbv__actual__evapotranspiration_8h" startline="30" endline="38">shyft::core::hbv_actual_evapotranspiration::calculate_step</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1ae32e4a61bb7bb768f90ffa08557819c1" compoundref="core_2hbv__stack_8h" startline="74" endline="73">shyft::core::hbv_stack::parameter::set</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1hbv__stack_1_1parameter_1a669fb3a3472cd5a0503cfb83015bf3a2" compoundref="core_2hbv__stack_8h" startline="101" endline="100">shyft::core::hbv_stack::parameter::get</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a3eaedbd7f530041336045a9fd75e26e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a50d62190b05a9c2b99e7007d436f6c42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::hbv_actual_evapotranspiration::parameter::parameter</definition>
-        <argsstring>(double lp=2.0)</argsstring>
+        <argsstring>(double lp=150.0)</argsstring>
         <name>parameter</name>
         <param>
           <type>double</type>
           <declname>lp</declname>
-          <defval>2.0</defval>
+          <defval>150.0</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -39,17 +39,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_actual_evapotranspiration.h" line="13" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_actual_evapotranspiration.h" bodystart="13" bodyend="13"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h" line="11" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h" bodystart="11" bodyend="11"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>&lt; keeps the parameters (potential calibration/localization) for the AE keeps the formal response of the AE method </para>    </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/hbv_actual_evapotranspiration.h" line="11" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_actual_evapotranspiration.h" bodystart="11" bodyend="14"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h" line="9" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_actual_evapotranspiration.h" bodystart="9" bodyend="12"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a5b3e6482b9e3c7923093eeb7bb933fdf" prot="public" virt="non-virtual"><scope>shyft::core::hbv_actual_evapotranspiration::parameter</scope><name>lp</name></member>
-      <member refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a3eaedbd7f530041336045a9fd75e26e6" prot="public" virt="non-virtual"><scope>shyft::core::hbv_actual_evapotranspiration::parameter</scope><name>parameter</name></member>
+      <member refid="structshyft_1_1core_1_1hbv__actual__evapotranspiration_1_1parameter_1a50d62190b05a9c2b99e7007d436f6c42" prot="public" virt="non-virtual"><scope>shyft::core::hbv_actual_evapotranspiration::parameter</scope><name>parameter</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

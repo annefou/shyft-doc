@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1hbv__tank__cell__state__statistics" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::hbv_tank_cell_state_statistics</compoundname>
     <includes refid="api_8h" local="no">api.h</includes>
@@ -20,17 +20,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="380" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="380" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="405" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="405" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a5f78ac1279dec6c13bb9135fb725055c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a262e007aedded920f2185a15633709e0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::hbv_tank_cell_state_statistics</definition>
-        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <argsstring>(const shared_ptr&lt; vector&lt; cell &gt;&gt; &amp;cells)</argsstring>
         <name>hbv_tank_cell_state_statistics</name>
         <param>
-          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <type>const shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt; &amp;</type>
           <declname>cells</declname>
         </param>
         <briefdescription>
@@ -39,10 +39,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="381" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="381" bodyend="381"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="406" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="406" bodyend="406"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1afeb7dff759a8c928763515e75269e866" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;::discharge</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>discharge</name>
@@ -56,8 +56,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="383" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="383" bodyend="387"/>
-        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="103">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="408" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="408" bodyend="412"/>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="115">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a23871d6cc6f25b2b786b377b9d77c16d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -78,9 +78,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="388" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="388" bodyend="392"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="103">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="413" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="413" bodyend="417"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="115">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a8664d5115207b6829e85d960a59b509d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -101,22 +101,34 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="393" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="393" bodyend="397"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="296" endline="317">shyft::core::cell_statistics::sum_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="103">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="418" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="418" bodyend="422"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="313" endline="334">shyft::core::cell_statistics::sum_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="115">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>cells with gamma_snow state collection gives access to time-series for state </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/api/api.h" line="379" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="379" bodyend="398"/>
+    <collaborationgraph>
+      <node id="473">
+        <label>shared_ptr&lt; vector&lt; shyft::core::cell &gt; &gt;</label>
+      </node>
+      <node id="472">
+        <label>shyft::api::hbv_tank_cell_state_statistics&lt; cell &gt;</label>
+        <link refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics"/>
+        <childnode refid="473" relation="usage">
+          <edgelabel>cells</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="404" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="404" bodyend="423"/>
     <listofallmembers>
       <member refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1ac309a04aea1d4a45f78ee4dd4356e3fa" prot="public" virt="non-virtual"><scope>shyft::api::hbv_tank_cell_state_statistics</scope><name>cells</name></member>
       <member refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1afeb7dff759a8c928763515e75269e866" prot="public" virt="non-virtual"><scope>shyft::api::hbv_tank_cell_state_statistics</scope><name>discharge</name></member>
       <member refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a23871d6cc6f25b2b786b377b9d77c16d" prot="public" virt="non-virtual"><scope>shyft::api::hbv_tank_cell_state_statistics</scope><name>discharge</name></member>
       <member refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a8664d5115207b6829e85d960a59b509d" prot="public" virt="non-virtual"><scope>shyft::api::hbv_tank_cell_state_statistics</scope><name>discharge_value</name></member>
-      <member refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a5f78ac1279dec6c13bb9135fb725055c" prot="public" virt="non-virtual"><scope>shyft::api::hbv_tank_cell_state_statistics</scope><name>hbv_tank_cell_state_statistics</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__tank__cell__state__statistics_1a262e007aedded920f2185a15633709e0" prot="public" virt="non-virtual"><scope>shyft::api::hbv_tank_cell_state_statistics</scope><name>hbv_tank_cell_state_statistics</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

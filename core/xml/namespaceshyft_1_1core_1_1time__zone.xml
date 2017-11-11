@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespaceshyft_1_1core_1_1time__zone" kind="namespace" language="C++">
     <compoundname>shyft::core::time_zone</compoundname>
     <innerclass refid="structshyft_1_1core_1_1time__zone_1_1boost__tz__info" prot="public">shyft::core::time_zone::boost_tz_info</innerclass>
@@ -7,10 +7,10 @@
     <innerclass refid="structshyft_1_1core_1_1time__zone_1_1tz__info_3_01tz__table_01_4" prot="public">shyft::core::time_zone::tz_info&lt; tz_table &gt;</innerclass>
     <innerclass refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database" prot="public">shyft::core::time_zone::tz_info_database</innerclass>
     <innerclass refid="structshyft_1_1core_1_1time__zone_1_1tz__region__def" prot="public">shyft::core::time_zone::tz_region_def</innerclass>
-    <innerclass refid="classshyft_1_1core_1_1time__zone_1_1tz__table" prot="public">shyft::core::time_zone::tz_table</innerclass>
+    <innerclass refid="structshyft_1_1core_1_1time__zone_1_1tz__table" prot="public">shyft::core::time_zone::tz_table</innerclass>
       <sectiondef kind="typedef">
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" prot="public" static="no">
-        <type><ref refid="structshyft_1_1core_1_1time__zone_1_1tz__info" kindref="compound">tz_info</ref>&lt; <ref refid="classshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref> &gt;</type>
+        <type><ref refid="structshyft_1_1core_1_1time__zone_1_1tz__info" kindref="compound">tz_info</ref>&lt; <ref refid="structshyft_1_1core_1_1time__zone_1_1tz__table" kindref="compound">tz_table</ref> &gt;</type>
         <definition>typedef tz_info&lt;tz_table&gt; shyft::core::time_zone::tz_info_t</definition>
         <argsstring></argsstring>
         <name>tz_info_t</name>
@@ -20,7 +20,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="156" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="156" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.h" line="170" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.h" bodystart="170" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespaceshyft_1_1core_1_1time__zone_1a430a51f15a9bc1eb3a0808060b1f234c" prot="public" static="no">
         <type>shared_ptr&lt; <ref refid="namespaceshyft_1_1core_1_1time__zone_1a4a90dbb84fee787fd49ff43be7f985ba" kindref="member">tz_info_t</ref> &gt;</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/utctime_utilities.h" line="157" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.h" bodystart="157" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.h" line="171" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.h" bodystart="171" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="var">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/utctime_utilities.cpp" line="286" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="286" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" line="384" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" bodystart="384" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="namespaceshyft_1_1core_1_1time__zone_1a9fd5ff328714c06112c53ba079d4bb06" prot="public" static="no" mutable="no">
         <type>const size_t</type>
@@ -62,10 +62,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/utctime_utilities.cpp" line="670" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="670" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1adac70d0df85ea9399c33cfa2fd65cff6" compoundref="utctime__utilities_8cpp" startline="671" endline="677">shyft::core::time_zone::tz_info_database::load_from_iso_db</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1calendar_1a97820a2f55c2b1314d1076ac2942a3a6" compoundref="utctime__utilities_8cpp" startline="680" endline="688">shyft::core::calendar::calendar</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1calendar_1af1d3d3149f3421010fe1b254f6fcf047" compoundref="utctime__utilities_8cpp" startline="690" endline="694">shyft::core::calendar::region_id_list</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" line="768" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" bodystart="768" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1time__zone_1_1tz__info__database_1adac70d0df85ea9399c33cfa2fd65cff6" compoundref="utctime__utilities_8cpp" startline="769" endline="775">shyft::core::time_zone::tz_info_database::load_from_iso_db</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1calendar_1a97820a2f55c2b1314d1076ac2942a3a6" compoundref="utctime__utilities_8cpp" startline="778" endline="786">shyft::core::calendar::calendar</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1calendar_1af1d3d3149f3421010fe1b254f6fcf047" compoundref="utctime__utilities_8cpp" startline="788" endline="792">shyft::core::calendar::region_id_list</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -88,13 +88,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/utctime_utilities.cpp" line="260" column="1" bodyfile="/home/sih/projects/shyft/core/utctime_utilities.cpp" bodystart="260" bodyend="264"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" line="358" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" bodystart="358" bodyend="362"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/utctime_utilities.cpp" line="228" column="1"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/utctime_utilities.cpp" line="323" column="1"/>
   </compounddef>
 </doxygen>

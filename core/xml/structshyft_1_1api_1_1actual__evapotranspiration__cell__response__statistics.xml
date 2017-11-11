@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::actual_evapotranspiration_cell_response_statistics</compoundname>
     <includes refid="api_8h" local="no">api.h</includes>
@@ -20,17 +20,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="901" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="901" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="926" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="926" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ab584060007a3d0c8479d03bda23f08b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a6b8b71a6f69a95635dacde5e21351347" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::actual_evapotranspiration_cell_response_statistics</definition>
-        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <argsstring>(const shared_ptr&lt; vector&lt; cell &gt;&gt; &amp;cells)</argsstring>
         <name>actual_evapotranspiration_cell_response_statistics</name>
         <param>
-          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <type>const shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt; &amp;</type>
           <declname>cells</declname>
         </param>
         <briefdescription>
@@ -39,10 +39,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="902" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="902" bodyend="902"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="927" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="927" bodyend="927"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ad456da6977f9d0940ef42a69df19ec3a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;::output</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>output</name>
@@ -56,8 +56,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="904" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="904" bodyend="908"/>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="929" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="929" bodyend="933"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ab59df34fdac7b44fb0f2e89cfde27a10" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -78,9 +78,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="909" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="909" bodyend="913"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="934" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="934" bodyend="938"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a5eed44f87371a4bc028c2db4e430c817" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -101,18 +101,30 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="914" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="914" bodyend="918"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="224" endline="248">shyft::core::cell_statistics::average_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="939" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="939" bodyend="943"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="239" endline="263">shyft::core::cell_statistics::average_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/api/api.h" line="900" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="900" bodyend="919"/>
+    <collaborationgraph>
+      <node id="77">
+        <label>shared_ptr&lt; vector&lt; shyft::core::cell &gt; &gt;</label>
+      </node>
+      <node id="76">
+        <label>shyft::api::actual_evapotranspiration_cell_response_statistics&lt; cell &gt;</label>
+        <link refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics"/>
+        <childnode refid="77" relation="usage">
+          <edgelabel>cells</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="925" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="925" bodyend="944"/>
     <listofallmembers>
-      <member refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ab584060007a3d0c8479d03bda23f08b9" prot="public" virt="non-virtual"><scope>shyft::api::actual_evapotranspiration_cell_response_statistics</scope><name>actual_evapotranspiration_cell_response_statistics</name></member>
+      <member refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a6b8b71a6f69a95635dacde5e21351347" prot="public" virt="non-virtual"><scope>shyft::api::actual_evapotranspiration_cell_response_statistics</scope><name>actual_evapotranspiration_cell_response_statistics</name></member>
       <member refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1a6b77b1c842b93888541a0b28435233b0" prot="public" virt="non-virtual"><scope>shyft::api::actual_evapotranspiration_cell_response_statistics</scope><name>cells</name></member>
       <member refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ad456da6977f9d0940ef42a69df19ec3a" prot="public" virt="non-virtual"><scope>shyft::api::actual_evapotranspiration_cell_response_statistics</scope><name>output</name></member>
       <member refid="structshyft_1_1api_1_1actual__evapotranspiration__cell__response__statistics_1ab59df34fdac7b44fb0f2e89cfde27a10" prot="public" virt="non-virtual"><scope>shyft::api::actual_evapotranspiration_cell_response_statistics</scope><name>output</name></member>

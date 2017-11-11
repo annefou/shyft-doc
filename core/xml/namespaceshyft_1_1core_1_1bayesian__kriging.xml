@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespaceshyft_1_1core_1_1bayesian__kriging" kind="namespace" language="C++">
     <compoundname>shyft::core::bayesian_kriging</compoundname>
     <innerclass refid="classshyft_1_1core_1_1bayesian__kriging_1_1const__parameter" prot="public">shyft::core::bayesian_kriging::const_parameter</innerclass>
@@ -89,7 +89,7 @@
 </parameternamelist>
 <parameterdescription>
 <para>TimeAxis providing:<orderedlist>
-<listitem><para>T.size() const <ndash/>&gt; size_t, number of non-overlapping time intervals</para></listitem><listitem><para>T(const size_t i) const <ndash/>&gt; shyft::timeseries::utctimeperiod period of a with shyft::timeseries::utctime start and shyft::timeseries::utctime end. </para></listitem></orderedlist>
+<listitem><para>T.size() const <ndash/>&gt; size_t, number of non-overlapping time intervals</para></listitem><listitem><para>T(const size_t i) const <ndash/>&gt; shyft::time_series::utctimeperiod period of a with shyft::time_series::utctime start and shyft::time_series::utctime end. </para></listitem></orderedlist>
 </para></parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -108,15 +108,15 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="270" column="1" bodyfile="/home/sih/projects/shyft/core/bayesian_kriging.h" bodystart="270" bodyend="392"/>
-        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad36cfdd01f576a8673821c805762a9c9" compoundref="bayesian__kriging_8h" startline="135" endline="151">shyft::core::bayesian_kriging::utils::build_elevation_matrices</references>
-        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="82" endline="114">shyft::core::bayesian_kriging::utils::build_covariance_matrices</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/bayesian_kriging.h" line="279" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/bayesian_kriging.h" bodystart="279" bodyend="400"/>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad36cfdd01f576a8673821c805762a9c9" compoundref="bayesian__kriging_8h" startline="144" endline="160">shyft::core::bayesian_kriging::utils::build_elevation_matrices</references>
+        <references refid="namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils_1ad8ea5167dac21d8a775cec36605aa581" compoundref="bayesian__kriging_8h" startline="91" endline="123">shyft::core::bayesian_kriging::utils::build_covariance_matrices</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/bayesian_kriging.h" line="12" column="1"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/bayesian_kriging.h" line="21" column="1"/>
   </compounddef>
 </doxygen>

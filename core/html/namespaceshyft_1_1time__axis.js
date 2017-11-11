@@ -9,6 +9,9 @@ var namespaceshyft_1_1time__axis =
     [ "continuous< true >", "structshyft_1_1time__axis_1_1continuous_3_01true_01_4.html", null ],
     [ "fixed_dt", "structshyft_1_1time__axis_1_1fixed__dt.html", "structshyft_1_1time__axis_1_1fixed__dt" ],
     [ "generic_dt", "structshyft_1_1time__axis_1_1generic__dt.html", "structshyft_1_1time__axis_1_1generic__dt" ],
+    [ "merge_info", "structshyft_1_1time__axis_1_1merge__info.html", "structshyft_1_1time__axis_1_1merge__info" ],
     [ "period_list", "structshyft_1_1time__axis_1_1period__list.html", "structshyft_1_1time__axis_1_1period__list" ],
-    [ "point_dt", "structshyft_1_1time__axis_1_1point__dt.html", "structshyft_1_1time__axis_1_1point__dt" ]
+    [ "point_dt", "structshyft_1_1time__axis_1_1point__dt.html", "structshyft_1_1time__axis_1_1point__dt" ],
+    [ "time_axis_map", "structshyft_1_1time__axis_1_1time__axis__map.html", "structshyft_1_1time__axis_1_1time__axis__map" ],
+    [ "time_axis_map< time_axis::fixed_dt, time_axis::fixed_dt >", "structshyft_1_1time__axis_1_1time__axis__map_3_01time__axis_1_1fixed__dt_00_01time__axis_1_1fixed__dt_01_4.html", "structshyft_1_1time__axis_1_1time__axis__map_3_01time__axis_1_1fixed__dt_00_01time__axis_1_1fixed__dt_01_4" ]
 ];

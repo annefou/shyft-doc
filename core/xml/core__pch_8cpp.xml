@@ -1,163 +1,28 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="core__pch_8cpp" kind="file" language="C++">
     <compoundname>core_pch.cpp</compoundname>
     <includes refid="core__pch_8h" local="yes">core_pch.h</includes>
     <incdepgraph>
-      <node id="266">
-        <label>functional</label>
+      <node id="384">
+        <label>boost/serialization/access.hpp</label>
       </node>
-      <node id="261">
-        <label>limits</label>
+      <node id="385">
+        <label>boost/serialization/export.hpp</label>
       </node>
-      <node id="286">
-        <label>boost/math/tools/roots.hpp</label>
-      </node>
-      <node id="284">
-        <label>boost/math/distributions/gamma.hpp</label>
-      </node>
-      <node id="280">
-        <label>cmath</label>
-      </node>
-      <node id="272">
-        <label>stdexcept</label>
-      </node>
-      <node id="264">
-        <label>string</label>
-      </node>
-      <node id="263">
-        <label>map</label>
-      </node>
-      <node id="258">
-        <label>/home/sih/projects/shyft/core/core_pch.cpp</label>
-        <link refid="core__pch_8cpp"/>
-        <childnode refid="259" relation="include">
-        </childnode>
-      </node>
-      <node id="288">
-        <label>armadillo</label>
-      </node>
-      <node id="287">
-        <label>boost/math/tools/minima.hpp</label>
-      </node>
-      <node id="268">
-        <label>ostream</label>
-      </node>
-      <node id="259">
+      <node id="383">
         <label>core_pch.h</label>
         <link refid="core__pch_8h"/>
-        <childnode refid="260" relation="include">
+        <childnode refid="384" relation="include">
         </childnode>
-        <childnode refid="261" relation="include">
-        </childnode>
-        <childnode refid="262" relation="include">
-        </childnode>
-        <childnode refid="263" relation="include">
-        </childnode>
-        <childnode refid="264" relation="include">
-        </childnode>
-        <childnode refid="265" relation="include">
-        </childnode>
-        <childnode refid="266" relation="include">
-        </childnode>
-        <childnode refid="267" relation="include">
-        </childnode>
-        <childnode refid="268" relation="include">
-        </childnode>
-        <childnode refid="269" relation="include">
-        </childnode>
-        <childnode refid="270" relation="include">
-        </childnode>
-        <childnode refid="271" relation="include">
-        </childnode>
-        <childnode refid="272" relation="include">
-        </childnode>
-        <childnode refid="273" relation="include">
-        </childnode>
-        <childnode refid="274" relation="include">
-        </childnode>
-        <childnode refid="275" relation="include">
-        </childnode>
-        <childnode refid="276" relation="include">
-        </childnode>
-        <childnode refid="277" relation="include">
-        </childnode>
-        <childnode refid="278" relation="include">
-        </childnode>
-        <childnode refid="279" relation="include">
-        </childnode>
-        <childnode refid="280" relation="include">
-        </childnode>
-        <childnode refid="281" relation="include">
-        </childnode>
-        <childnode refid="282" relation="include">
-        </childnode>
-        <childnode refid="283" relation="include">
-        </childnode>
-        <childnode refid="284" relation="include">
-        </childnode>
-        <childnode refid="285" relation="include">
-        </childnode>
-        <childnode refid="286" relation="include">
-        </childnode>
-        <childnode refid="287" relation="include">
-        </childnode>
-        <childnode refid="288" relation="include">
+        <childnode refid="385" relation="include">
         </childnode>
       </node>
-      <node id="273">
-        <label>random</label>
-      </node>
-      <node id="283">
-        <label>boost/range.hpp</label>
-      </node>
-      <node id="271">
-        <label>future</label>
-      </node>
-      <node id="281">
-        <label>boost/math_fwd.hpp</label>
-      </node>
-      <node id="262">
-        <label>vector</label>
-      </node>
-      <node id="269">
-        <label>sstream</label>
-      </node>
-      <node id="282">
-        <label>boost/numeric/odeint.hpp</label>
-      </node>
-      <node id="275">
-        <label>time.h</label>
-      </node>
-      <node id="279">
-        <label>math.h</label>
-      </node>
-      <node id="276">
-        <label>cerrno</label>
-      </node>
-      <node id="267">
-        <label>iostream</label>
-      </node>
-      <node id="278">
-        <label>cstddef</label>
-      </node>
-      <node id="285">
-        <label>boost/math/special_functions/gamma.hpp</label>
-      </node>
-      <node id="270">
-        <label>thread</label>
-      </node>
-      <node id="274">
-        <label>type_traits</label>
-      </node>
-      <node id="265">
-        <label>algorithm</label>
-      </node>
-      <node id="277">
-        <label>cstring</label>
-      </node>
-      <node id="260">
-        <label>memory</label>
+      <node id="382">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.cpp</label>
+        <link refid="core__pch_8cpp"/>
+        <childnode refid="383" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -167,6 +32,6 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core__pch_8h" kindref="compound">core_pch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/core_pch.cpp"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_pch.cpp"/>
   </compounddef>
 </doxygen>

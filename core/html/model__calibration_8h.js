@@ -11,14 +11,17 @@ var model__calibration_8h =
     [ "area_ts", "structshyft_1_1core_1_1model__calibration_1_1area__ts.html", "structshyft_1_1core_1_1model__calibration_1_1area__ts" ],
     [ "optimizer", "classshyft_1_1core_1_1model__calibration_1_1optimizer.html", "classshyft_1_1core_1_1model__calibration_1_1optimizer" ],
     [ "enable_if_tx", "model__calibration_8h.html#adcd89ab052593045e6ce5c0fb061cfee", null ],
-    [ "catchment_property_type", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756", [
-      [ "DISCHARGE", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756aa948a33766c00e5ed6144fc0451c303d", null ],
-      [ "SNOW_COVERED_AREA", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756a3b51a4a7d6566b611f89b8e6d6e76412", null ],
-      [ "SNOW_WATER_EQUIVALENT", "model__calibration_8h.html#a5668311af81a0424b26f96379c9ea756a48dacfdcfa0a727aa9f9cb4ff028c7ed", null ]
+    [ "target_property_type", "model__calibration_8h.html#a58f5d5497692aa1b65e50a31cb680ae0", [
+      [ "DISCHARGE", "model__calibration_8h.html#a58f5d5497692aa1b65e50a31cb680ae0aa948a33766c00e5ed6144fc0451c303d", null ],
+      [ "SNOW_COVERED_AREA", "model__calibration_8h.html#a58f5d5497692aa1b65e50a31cb680ae0a3b51a4a7d6566b611f89b8e6d6e76412", null ],
+      [ "SNOW_WATER_EQUIVALENT", "model__calibration_8h.html#a58f5d5497692aa1b65e50a31cb680ae0a48dacfdcfa0a727aa9f9cb4ff028c7ed", null ],
+      [ "ROUTED_DISCHARGE", "model__calibration_8h.html#a58f5d5497692aa1b65e50a31cb680ae0a822e8756e649449b22cbf6e223c7d1fd", null ],
+      [ "CELL_CHARGE", "model__calibration_8h.html#a58f5d5497692aa1b65e50a31cb680ae0a56d55d78a96ddae548efb0541b9b9526", null ]
     ] ],
     [ "target_spec_calc_type", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36e", [
       [ "NASH_SUTCLIFFE", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36eab41aca78a12a708091116416ba16e6a7", null ],
-      [ "KLING_GUPTA", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36ea89b599e43debedc2cdf4ad2184bede20", null ]
+      [ "KLING_GUPTA", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36ea89b599e43debedc2cdf4ad2184bede20", null ],
+      [ "ABS_DIFF", "model__calibration_8h.html#a1d095e2da6d4d8f6e04f7d731a7ba36ea1c8092c3a94339284a50bc32f1be83c2", null ]
     ] ],
     [ "min_bobyqa", "model__calibration_8h.html#a29d1dd6f07e3da2747064b5f2de13eed", null ],
     [ "min_dream", "model__calibration_8h.html#a220dadd8e1f05e89b7a8d866f2af1d05", null ],

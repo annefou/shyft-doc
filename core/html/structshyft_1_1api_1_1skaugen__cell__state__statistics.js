@@ -1,6 +1,6 @@
 var structshyft_1_1api_1_1skaugen__cell__state__statistics =
 [
-    [ "skaugen_cell_state_statistics", "structshyft_1_1api_1_1skaugen__cell__state__statistics.html#aa8884306e5e722f02ea6bd51f45d5d89", null ],
+    [ "skaugen_cell_state_statistics", "structshyft_1_1api_1_1skaugen__cell__state__statistics.html#a8f7a9915f82897f3ea20f21845026ad6", null ],
     [ "alpha", "structshyft_1_1api_1_1skaugen__cell__state__statistics.html#af67d18eda71aee7e1f907757acc414d6", null ],
     [ "alpha", "structshyft_1_1api_1_1skaugen__cell__state__statistics.html#ab3b47c1fab591630c4b3a051dad59348", null ],
     [ "alpha_value", "structshyft_1_1api_1_1skaugen__cell__state__statistics.html#afb27adfe6c9eb0a7612dd4878efa6add", null ],

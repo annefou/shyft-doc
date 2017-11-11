@@ -1,11 +1,11 @@
 var NAVTREE =
 [
-  [ "SHyFT", "index.html", [
+  [ "Shyft", "index.html", [
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
         [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ],
@@ -29,8 +29,8 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", "globals_func" ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -40,15 +40,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "actual__evapotranspiration_8h.html",
-"classshyft_1_1core_1_1region__model.html#a207310ec09ab0741847b136f7f09724a",
-"functions_func_m.html",
-"pt__hs__k__cell__model_8h.html#a6b5b52e2839e81a4a1d51241506527a1",
-"structshyft_1_1api_1_1gamma__snow__cell__response__statistics.html#a971592605ef3f2780466c30ea3062204",
-"structshyft_1_1core_1_1calendar.html#a8fa5dd5adaae655514febc885b98aff5",
-"structshyft_1_1core_1_1hbv__stack_1_1response.html#af1f6fb46485dc62d557a3b213a75392a",
-"structshyft_1_1core_1_1pt__gs__k_1_1all__response__collector.html#a8d47c2252db979be2cb00001aca29a66",
-"structshyft_1_1core_1_1region__environment.html#a49645a30ac63d677850dc2cfabd70901",
-"structshyft_1_1timeseries_1_1bin__op_3_01_a_00_01double_00_01_o_00_01_t_a_01_4.html#ad3573866acc309d07986ecf5aa9fdcf7"
+"classshyft_1_1core_1_1bayesian__kriging_1_1parameter.html#a88021d640956be11c082875258144cbd",
+"classshyft_1_1time__series_1_1rating__curve__function.html#a4c0daed3725aee5f9491e9fac7995dd4",
+"core__serialization_8cpp.html#ac7483fb933a2e2251bc41ef9aab0fa11",
+"model__calibration_8h.html",
+"structshyft_1_1api_1_1_wind_speed_source.html",
+"structshyft_1_1api_1_1aref__ts.html#a98b8c94503e14606c3a801cadc805ff0",
+"structshyft_1_1api_1_1hbv__snow__cell__state__statistics.html",
+"structshyft_1_1core_1_1_y_m_dhms.html#a0468ff9937c649892932c6bddfe22a56",
+"structshyft_1_1core_1_1hbv__stack_1_1discharge__collector.html",
+"structshyft_1_1core_1_1model__calibration_1_1sceua__fx.html",
+"structshyft_1_1core_1_1pt__ss__k_1_1all__response__collector.html#af92d704a1db8734ab969c57a6cd97370",
+"structshyft_1_1core_1_1utcperiod.html#a6cebaec61772629aa138085cd2a0f450",
+"structshyft_1_1time__axis_1_1generic__dt.html#ae4b00360127e927d338b83345775c289",
+"structshyft_1_1time__series_1_1point__ts.html#a207986b0438011e38fcd7d0e83f4d208",
+"time__series__statistics_8h.html#a40c870cafca82537be562a5523279a7e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

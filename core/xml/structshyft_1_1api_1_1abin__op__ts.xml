@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1abin__op__ts" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::abin_op_ts</compoundname>
     <basecompoundref refid="structshyft_1_1api_1_1ipoint__ts" prot="public" virt="non-virtual">shyft::api::ipoint_ts</basecompoundref>
-    <includes refid="api_2timeseries_8h" local="no">timeseries.h</includes>
+    <includes refid="api_2time__series_8h" local="no">time_series.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1a727cf1691ae2ceb57007d4372f07b492" prot="public" static="no" mutable="no">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::abin_op_ts::lhs</definition>
         <argsstring></argsstring>
         <name>lhs</name>
@@ -16,27 +16,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="539" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="539" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" compoundref="timeseries_8cpp" startline="47" endline="51">value_at</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" compoundref="api_2timeseries_8h" startline="560" endline="569">operator=</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1037" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1037" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1ac7be6ad975b78d1779f7d16172b49b23" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1api_1a3f9f8a8b678353c5610620cc14170efc" kindref="member">iop_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1api_1a40e666a367e2fd9c77c216b9abbb2c65" kindref="member">iop_t</ref></type>
         <definition>iop_t shyft::api::abin_op_ts::op</definition>
         <argsstring></argsstring>
         <name>op</name>
+        <initializer>=iop_t::OP_NONE</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="540" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="540" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" compoundref="timeseries_8cpp" startline="47" endline="51">value_at</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" compoundref="api_2timeseries_8h" startline="560" endline="569">operator=</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1038" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1038" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1acc6d8c53f493a31bf37b95d746492912" prot="public" static="no" mutable="no">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::abin_op_ts::rhs</definition>
         <argsstring></argsstring>
         <name>rhs</name>
@@ -46,9 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="541" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="541" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" compoundref="timeseries_8cpp" startline="47" endline="51">value_at</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" compoundref="api_2timeseries_8h" startline="560" endline="569">operator=</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1039" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1039" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref></type>
@@ -61,49 +56,60 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="542" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="542" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" compoundref="timeseries_8cpp" startline="47" endline="51">value_at</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1af7dd031bc99c5ee60a421eec857cefe8" compoundref="timeseries_8cpp" startline="53" endline="59">values</referencedby>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" compoundref="api_2timeseries_8h" startline="560" endline="569">operator=</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1040" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1040" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1af858be8f959ef64f77cfbc5ed6e2d267" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
-        <definition>point_interpretation_policy shyft::api::abin_op_ts::fx_policy</definition>
+      <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1a2a140fa991b01af6e80c1577a4353c9e" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710f" kindref="member">ts_point_fx</ref></type>
+        <definition>ts_point_fx shyft::api::abin_op_ts::fx_policy</definition>
         <argsstring></argsstring>
         <name>fx_policy</name>
+        <initializer>=POINT_AVERAGE_VALUE</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="543" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="543" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" compoundref="api_2timeseries_8h" startline="560" endline="569">operator=</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1041" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1041" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1api_1_1abin__op__ts_1abd11b4656f63daa6a8a8d07e1838b43e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool shyft::api::abin_op_ts::bound</definition>
+        <argsstring></argsstring>
+        <name>bound</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1042" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1042" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ad9c7e3f6081ae527ee23a92f935ef516" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
-        <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
-        <definition>point_interpretation_policy shyft::api::abin_op_ts::point_interpretation</definition>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a64cb79b25f5938e5c8f30abd74baba39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710f" kindref="member">ts_point_fx</ref></type>
+        <definition>ts_point_fx shyft::api::abin_op_ts::point_interpretation</definition>
         <argsstring>() const</argsstring>
         <name>point_interpretation</name>
-        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a1e99c537a6a68f73be9f25255f6a355c">point_interpretation</reimplements>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a48b09d70e7b3a4a6ec94ec4a1ec1a604">point_interpretation</reimplements>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="544" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="544" bodyend="544"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1044" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1044" bodyend="1044"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1af9c5e45832acfeab84c9e35456451601" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ae85b05186e90808a91309f126cc3a456" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void shyft::api::abin_op_ts::set_point_interpretation</definition>
-        <argsstring>(point_interpretation_policy x)</argsstring>
+        <argsstring>(ts_point_fx x)</argsstring>
         <name>set_point_interpretation</name>
-        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a6d49d01ce27a83666e593bcc66adfaee">set_point_interpretation</reimplements>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a94f5aeccd9a97843b7f05c3b21186c52">set_point_interpretation</reimplements>
         <param>
-          <type><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">point_interpretation_policy</ref></type>
+          <type><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710f" kindref="member">ts_point_fx</ref></type>
           <declname>x</declname>
         </param>
         <briefdescription>
@@ -112,7 +118,37 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="545" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="545" bodyend="545"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1045" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1045" bodyend="1045"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a4f77a7048b49f6d6ae6221d57233d2d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::api::abin_op_ts::local_do_bind</definition>
+        <argsstring>()</argsstring>
+        <name>local_do_bind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1047" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1047" bodyend="1053"/>
+        <references refid="namespaceshyft_1_1time__series_1a2365d2d6f4c9af3af8294477b4481af7" compoundref="core_2time__series_8h" startline="68" endline="70">shyft::time_series::result_policy</references>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1ae3212aad30482ca684ed1e1cfd2d03ff" compoundref="api_2time__series_8h" startline="228" endline="228">shyft::api::apoint_ts::point_interpretation</references>
+        <references refid="namespaceshyft_1_1time__axis_1aec71c1b0f362be4c335177d0f6c033f3" compoundref="time__axis_8h" startline="1149" endline="1169">shyft::time_axis::combine</references>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" compoundref="api_2time__series_8h" startline="230" endline="230">shyft::api::apoint_ts::time_axis</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a1c2415aa6fe87fdce1dd5dea3fd954c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::abin_op_ts::abin_op_ts</definition>
+        <argsstring>()=default</argsstring>
+        <name>abin_op_ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1055" column="1"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a47dc16618f9aa1a1421e0862c17e862a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -120,15 +156,15 @@
         <argsstring>(const apoint_ts &amp;lhs, iop_t op, const apoint_ts &amp;rhs)</argsstring>
         <name>abin_op_ts</name>
         <param>
-          <type>const <ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
+          <type>const <ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
           <declname>lhs</declname>
         </param>
         <param>
-          <type><ref refid="namespaceshyft_1_1api_1a3f9f8a8b678353c5610620cc14170efc" kindref="member">iop_t</ref></type>
+          <type><ref refid="namespaceshyft_1_1api_1a40e666a367e2fd9c77c216b9abbb2c65" kindref="member">iop_t</ref></type>
           <declname>op</declname>
         </param>
         <param>
-          <type>const <ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
+          <type>const <ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
           <declname>rhs</declname>
         </param>
         <briefdescription>
@@ -137,84 +173,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="547" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="547" bodyend="551"/>
-        <references refid="namespaceshyft_1_1time__axis_1aec71c1b0f362be4c335177d0f6c033f3" compoundref="time__axis_8h" startline="485" endline="505">shyft::time_axis::combine</references>
-        <references refid="classshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" compoundref="api_2timeseries_8h" startline="174" endline="174">shyft::api::apoint_ts::time_axis</references>
-        <references refid="namespaceshyft_1_1timeseries_1a992bc0f4c6d86ea04a9c7f1a18f8f5e7" compoundref="core_2timeseries_8h" startline="60" endline="62">shyft::timeseries::result_policy</references>
-        <references refid="classshyft_1_1api_1_1apoint__ts_1a6679e02699f441e2ce6bf812c9896a1d" compoundref="api_2timeseries_8h" startline="172" endline="172">shyft::api::apoint_ts::point_interpretation</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1056" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1056" bodyend="1060"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ad46229eec18ad4f4125da9e30e3dcc09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>shyft::api::abin_op_ts::abin_op_ts</definition>
-        <argsstring>(const abin_op_ts &amp;c)</argsstring>
-        <name>abin_op_ts</name>
-        <param>
-          <type>const <ref refid="structshyft_1_1api_1_1abin__op__ts" kindref="compound">abin_op_ts</ref> &amp;</type>
-          <declname>c</declname>
-        </param>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a43f7497e992ef115011fe30b077ea70f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void shyft::api::abin_op_ts::bind_check</definition>
+        <argsstring>() const</argsstring>
+        <name>bind_check</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="552" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="552" bodyend="554"/>
-      </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a03aa43dc7a354d50fe57a7be63d80a8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type></type>
-        <definition>shyft::api::abin_op_ts::abin_op_ts</definition>
-        <argsstring>(abin_op_ts &amp;&amp;c)</argsstring>
-        <name>abin_op_ts</name>
-        <param>
-          <type><ref refid="structshyft_1_1api_1_1abin__op__ts" kindref="compound">abin_op_ts</ref> &amp;&amp;</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="555" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="555" bodyend="558"/>
-      </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structshyft_1_1api_1_1abin__op__ts" kindref="compound">abin_op_ts</ref> &amp;</type>
-        <definition>abin_op_ts&amp; shyft::api::abin_op_ts::operator=</definition>
-        <argsstring>(const abin_op_ts &amp;c)</argsstring>
-        <name>operator=</name>
-        <param>
-          <type>const <ref refid="structshyft_1_1api_1_1abin__op__ts" kindref="compound">abin_op_ts</ref> &amp;</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="560" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="560" bodyend="569"/>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1a727cf1691ae2ceb57007d4372f07b492" compoundref="api_2timeseries_8h" startline="539">lhs</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1ac7be6ad975b78d1779f7d16172b49b23" compoundref="api_2timeseries_8h" startline="540">op</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1acc6d8c53f493a31bf37b95d746492912" compoundref="api_2timeseries_8h" startline="541">rhs</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" compoundref="api_2timeseries_8h" startline="542">ta</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1af858be8f959ef64f77cfbc5ed6e2d267" compoundref="api_2timeseries_8h" startline="543">fx_policy</references>
-      </memberdef>
-      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a07be4e03f3fda546067b6637ee56e9f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="structshyft_1_1api_1_1abin__op__ts" kindref="compound">abin_op_ts</ref> &amp;</type>
-        <definition>abin_op_ts&amp; shyft::api::abin_op_ts::operator=</definition>
-        <argsstring>(abin_op_ts &amp;&amp;c)</argsstring>
-        <name>operator=</name>
-        <param>
-          <type><ref refid="structshyft_1_1api_1_1abin__op__ts" kindref="compound">abin_op_ts</ref> &amp;&amp;</type>
-          <declname>c</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="571" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="571" bodyend="580"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1061" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1061" bodyend="1061"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a63edec99ced5c9bff64394974261b05e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref></type>
@@ -229,8 +201,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="582" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="582" bodyend="582"/>
-        <references refid="structshyft_1_1time__axis_1_1generic__dt_1a1ea9fa2294e8e84d7b15ee357f9cd6a1" compoundref="time__axis_8h" startline="265" endline="265">shyft::time_axis::generic_dt::total_period</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1062" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1062" bodyend="1062"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ade50b050076f4cb443a4ac2ac9745fcb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>const <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> &amp;</type>
@@ -245,7 +216,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="583" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="583" bodyend="583"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1063" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1063" bodyend="1063"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ab6878a52f0329393d0afe1a7cd078d47" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -264,8 +235,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="584" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="584" bodyend="584"/>
-        <references refid="structshyft_1_1time__axis_1_1generic__dt_1acf0137e33285de32abd2ddf791c2b77d" compoundref="time__axis_8h" startline="268" endline="268">shyft::time_axis::generic_dt::index_of</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1064" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1064" bodyend="1064"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ae60aff2bd20140ca54c7e89093a02ef8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>size_t</type>
@@ -280,8 +250,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="585" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="585" bodyend="585"/>
-        <references refid="structshyft_1_1time__axis_1_1generic__dt_1a4cadc695ec50189c8af79bfa59e51959" compoundref="time__axis_8h" startline="264" endline="264">shyft::time_axis::generic_dt::size</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1065" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1065" bodyend="1065"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ae995836c206b1e0e21ca4a3f50335996" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="namespaceshyft_1_1core_1abbf72b8ba32c19e92f5263070c1e9d13" kindref="member">utctime</ref></type>
@@ -300,8 +269,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="586" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="586" bodyend="586"/>
-        <references refid="structshyft_1_1time__axis_1_1generic__dt_1adddff7047229765d6713930000695bf0" compoundref="time__axis_8h" startline="267" endline="267">shyft::time_axis::generic_dt::time</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1066" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1066" bodyend="1066"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>double</type>
@@ -321,14 +289,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="587" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="47" bodyend="51"/>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" compoundref="api_2timeseries_8h" startline="542">ta</references>
-        <references refid="structshyft_1_1time__axis_1_1generic__dt_1a1ea9fa2294e8e84d7b15ee357f9cd6a1" compoundref="time__axis_8h" startline="265" endline="265">shyft::time_axis::generic_dt::total_period</references>
-        <references refid="structshyft_1_1core_1_1utcperiod_1a9389e69f1aa343d037ccafda9a2d11aa" compoundref="utctime__utilities_8h" startline="69" endline="69">shyft::core::utcperiod::contains</references>
-        <references refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" compoundref="core_2timeseries_8h" startline="13">shyft::nan</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1ac7be6ad975b78d1779f7d16172b49b23" compoundref="api_2timeseries_8h" startline="540">op</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1a727cf1691ae2ceb57007d4372f07b492" compoundref="api_2timeseries_8h" startline="539">lhs</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1acc6d8c53f493a31bf37b95d746492912" compoundref="api_2timeseries_8h" startline="541">rhs</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1067" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.cpp" bodystart="115" bodyend="119"/>
+        <references refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" compoundref="core_2time__series_8h" startline="26">shyft::nan</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1af6b407bf0d20fdefdc3bfe37961cf5c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>double</type>
@@ -347,9 +309,11 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="588" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="183" bodyend="201"/>
-        <references refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" compoundref="core_2timeseries_8h" startline="13">shyft::nan</references>
-        <referencedby refid="structshyft_1_1api_1_1abin__op__ts_1af7dd031bc99c5ee60a421eec857cefe8" compoundref="timeseries_8cpp" startline="53" endline="59">values</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1068" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.cpp" bodystart="550" bodyend="554"/>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1a22d4342529bee8bdf0cec14e88c0b4d6" compoundref="api_2time__series_8h" startline="230" endline="230">shyft::api::apoint_ts::time_axis</references>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1ae7569073cd80e9ebf2502e72bc954a4f" compoundref="api_2time__series_8h" startline="236" endline="236">shyft::api::apoint_ts::size</references>
+        <references refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" compoundref="core_2time__series_8h" startline="26">shyft::nan</references>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1a64241fcfe070e705da60c4ea663ce281" compoundref="api_2time__series_8h" startline="237" endline="237">shyft::api::apoint_ts::time</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1af7dd031bc99c5ee60a421eec857cefe8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; double &gt;</type>
@@ -360,107 +324,171 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>the values, one for each of the <ref refid="structshyft_1_1api_1_1abin__op__ts_1ade50b050076f4cb443a4ac2ac9745fcb" kindref="member">time_axis()</ref> intervals as a vector </para></simplesect>
-</para>        </detaileddescription>
+<para>implementation of <ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> op <ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></para><para>Try to optimize the evaluation by considering equal time-axis. Then also check rhs and lhs. If one is a terminal-value (concrete point ts) then just reference the values, otherwise get the computed values.</para><para>If time-axis not aligned, just compute value-by-value. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/timeseries.h" line="589" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.cpp" bodystart="53" bodyend="59"/>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" compoundref="api_2timeseries_8h" startline="542">ta</references>
-        <references refid="structshyft_1_1time__axis_1_1generic__dt_1a4cadc695ec50189c8af79bfa59e51959" compoundref="time__axis_8h" startline="264" endline="264">shyft::time_axis::generic_dt::size</references>
-        <references refid="structshyft_1_1api_1_1abin__op__ts_1af6b407bf0d20fdefdc3bfe37961cf5c3" compoundref="timeseries_8cpp" startline="183" endline="201">value</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1069" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.cpp" bodystart="184" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1a1c9329aace29ee269e9613d6ef30f9c0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool shyft::api::abin_op_ts::needs_bind</definition>
+        <argsstring>() const</argsstring>
+        <name>needs_bind</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a2e28c0637ee32ad5c7f829f26dc838e9">needs_bind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for internal computation and expression trees, we need to know <emphasis>if</emphasis> there are unbound symbolic ts in the chain of this ts We know that a point-ts never do not need a binding, but all others are expressions of ts, and could potentially needs a bind (if it has an unbound symbolic ts in it&apos;s siblings) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1070" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1070" bodyend="1070"/>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1ad52008b0f26d13f9caa793683ca9adb0" compoundref="api_2time__series_8h" startline="202" endline="204">shyft::api::apoint_ts::needs_bind</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1ac9190c1135eb1e73869ea7da89031201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void shyft::api::abin_op_ts::do_bind</definition>
+        <argsstring>()</argsstring>
+        <name>do_bind</name>
+        <reimplements refid="structshyft_1_1api_1_1ipoint__ts_1a2a2bea94267eedc9f6835b60704c0045">do_bind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>propagate do_bind to expression tree siblings(if any) then do any needed binding stuff needed for the specific class impl. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1071" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1071" bodyend="1071"/>
+        <references refid="structshyft_1_1api_1_1apoint__ts_1ad5d2a9943dc40efed1ee63a602aab697" compoundref="api_2time__series_8h" startline="206" endline="208">shyft::api::apoint_ts::do_bind</references>
+        <references refid="core__pch_8h_1aa47dba87bb7a67f53b8f14867239c4cb" compoundref="core__pch_8h" startline="36">x_serialize_decl</references>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1abin__op__ts_1af9184f6444b34c100816944bfce779e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::abin_op_ts::x_serialize_decl</definition>
+        <argsstring>()</argsstring>
+        <name>x_serialize_decl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1072" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>The binary operation for type ts op ts. </para>    </briefdescription>
     <detaileddescription>
-<para>The binary operation is lazy, and only keep the reference to the two operands that are of the <ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> type. The operation is of <ref refid="namespaceshyft_1_1api_1a3f9f8a8b678353c5610620cc14170efc" kindref="member">iop_t</ref>, and details for plus minus divide multiply etc is in the implementation file.</para><para>As per definition a this class implements the <ref refid="structshyft_1_1api_1_1ipoint__ts" kindref="compound">ipoint_ts</ref> interface, and the time-axis of type <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> is currently computed in the constructor. This could take some cpu if the time-axis is of type point_dt, so we could consider working some more on the internal algorithms to avoid this.</para><para>The point_interpretation_policy is computed based on rhs,lhs. But can be overridden by the user. </para>    </detaileddescription>
+<para>do_bind helps to defer the computation cost of the expression bin-op variants until its actually used. this is also needed when having ts_refs| unbound symbolic time-series references that we would like to serialize and pass over to another server for execution.</para><para>By inspecting the time-series in the construction phase (bin_op etc.) we try to take the preparation for computation as early as possible, so, only when there is a symbolic time-series reference, there will be a <ref refid="structshyft_1_1api_1_1abin__op__ts_1ac9190c1135eb1e73869ea7da89031201" kindref="member">do_bind()</ref> that will take action <emphasis>after</emphasis> the symbolic time-series has been prepared with real values (bound).The binary operation is lazy, and only keep the reference to the two operands that are of the <ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> type. The operation is of <ref refid="namespaceshyft_1_1api_1a40e666a367e2fd9c77c216b9abbb2c65" kindref="member">iop_t</ref>, and details for plus minus divide multiply etc is in the implementation file.</para><para>As per definition a this class implements the <ref refid="structshyft_1_1api_1_1ipoint__ts" kindref="compound">ipoint_ts</ref> interface, and the time-axis of type <ref refid="namespaceshyft_1_1api_1af2cdca229e084293035b505a4833cdbd" kindref="member">gta_t</ref> is currently computed in the constructor. This could take some cpu if the time-axis is of type point_dt, so we could consider working some more on the internal algorithms to avoid this.</para><para>The ts_point_fx is computed based on rhs,lhs. But can be overridden by the user. </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="12">
+      <node id="20">
         <label>shyft::api::abin_op_ts</label>
         <link refid="structshyft_1_1api_1_1abin__op__ts"/>
-        <childnode refid="13" relation="public-inheritance">
+        <childnode refid="21" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="13">
+      <node id="21">
         <label>shyft::api::ipoint_ts</label>
         <link refid="structshyft_1_1api_1_1ipoint__ts"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="20">
+      <node id="31">
+        <label>shared_ptr&lt; shyft::core::calendar &gt;</label>
+      </node>
+      <node id="29">
+        <label>size_t</label>
+      </node>
+      <node id="27">
+        <label>vector&lt; utctime &gt;</label>
+      </node>
+      <node id="30">
         <label>shyft::time_axis::calendar_dt</label>
         <link refid="structshyft_1_1time__axis_1_1calendar__dt"/>
-        <childnode refid="17" relation="public-inheritance">
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="31" relation="usage">
+          <edgelabel>cal</edgelabel>
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>n</edgelabel>
         </childnode>
       </node>
-      <node id="18">
+      <node id="26">
         <label>shyft::time_axis::point_dt</label>
         <link refid="structshyft_1_1time__axis_1_1point__dt"/>
-        <childnode refid="17" relation="public-inheritance">
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>t</edgelabel>
         </childnode>
       </node>
-      <node id="17">
+      <node id="25">
         <label>shyft::time_axis::continuous&lt; true &gt;</label>
         <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
       </node>
-      <node id="21">
+      <node id="32">
         <label>shyft::api::apoint_ts</label>
-        <link refid="classshyft_1_1api_1_1apoint__ts"/>
+        <link refid="structshyft_1_1api_1_1apoint__ts"/>
       </node>
-      <node id="14">
+      <node id="22">
         <label>shyft::api::abin_op_ts</label>
         <link refid="structshyft_1_1api_1_1abin__op__ts"/>
-        <childnode refid="15" relation="public-inheritance">
+        <childnode refid="23" relation="public-inheritance">
         </childnode>
-        <childnode refid="16" relation="usage">
+        <childnode refid="24" relation="usage">
           <edgelabel>ta</edgelabel>
         </childnode>
-        <childnode refid="21" relation="usage">
+        <childnode refid="32" relation="usage">
           <edgelabel>lhs</edgelabel>
           <edgelabel>rhs</edgelabel>
         </childnode>
       </node>
-      <node id="19">
+      <node id="28">
         <label>shyft::time_axis::fixed_dt</label>
         <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
-        <childnode refid="17" relation="public-inheritance">
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>n</edgelabel>
         </childnode>
       </node>
-      <node id="16">
+      <node id="24">
         <label>shyft::time_axis::generic_dt</label>
         <link refid="structshyft_1_1time__axis_1_1generic__dt"/>
-        <childnode refid="17" relation="public-inheritance">
+        <childnode refid="25" relation="public-inheritance">
         </childnode>
-        <childnode refid="18" relation="usage">
+        <childnode refid="26" relation="usage">
           <edgelabel>p</edgelabel>
         </childnode>
-        <childnode refid="19" relation="usage">
+        <childnode refid="28" relation="usage">
           <edgelabel>f</edgelabel>
         </childnode>
-        <childnode refid="20" relation="usage">
+        <childnode refid="30" relation="usage">
           <edgelabel>c</edgelabel>
         </childnode>
       </node>
-      <node id="15">
+      <node id="23">
         <label>shyft::api::ipoint_ts</label>
         <link refid="structshyft_1_1api_1_1ipoint__ts"/>
       </node>
     </collaborationgraph>
-    <location file="/home/sih/projects/shyft/api/timeseries.h" line="537" column="1" bodyfile="/home/sih/projects/shyft/api/timeseries.h" bodystart="537" bodyend="591"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" line="1035" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/time_series.h" bodystart="1035" bodyend="1074"/>
     <listofallmembers>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1a1c2415aa6fe87fdce1dd5dea3fd954c8" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>abin_op_ts</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1a47dc16618f9aa1a1421e0862c17e862a" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>abin_op_ts</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1ad46229eec18ad4f4125da9e30e3dcc09" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>abin_op_ts</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1a03aa43dc7a354d50fe57a7be63d80a8e" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>abin_op_ts</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1af858be8f959ef64f77cfbc5ed6e2d267" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>fx_policy</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1a43f7497e992ef115011fe30b077ea70f" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>bind_check</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1abd11b4656f63daa6a8a8d07e1838b43e" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>bound</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1ac9190c1135eb1e73869ea7da89031201" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>do_bind</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1a2a140fa991b01af6e80c1577a4353c9e" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>fx_policy</name></member>
       <member refid="structshyft_1_1api_1_1ipoint__ts_1afdbe4aad3e9a8d149d235c9efd8867e6" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>get</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1ab6878a52f0329393d0afe1a7cd078d47" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>index_of</name></member>
+      <member refid="structshyft_1_1api_1_1ipoint__ts_1a572ae7c330c191858bb73c9dae155dae" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>ipoint_ts</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1a727cf1691ae2ceb57007d4372f07b492" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>lhs</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1a4f77a7048b49f6d6ae6221d57233d2d8" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>local_do_bind</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1a1c9329aace29ee269e9613d6ef30f9c0" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>needs_bind</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1ac7be6ad975b78d1779f7d16172b49b23" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>op</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1a7e99ce91671611d33b2ea35abb8dc918" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>operator=</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1a07be4e03f3fda546067b6637ee56e9f6" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>operator=</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1ad9c7e3f6081ae527ee23a92f935ef516" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>point_interpretation</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1a64cb79b25f5938e5c8f30abd74baba39" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>point_interpretation</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1acc6d8c53f493a31bf37b95d746492912" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>rhs</name></member>
-      <member refid="structshyft_1_1api_1_1abin__op__ts_1af9c5e45832acfeab84c9e35456451601" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>set_point_interpretation</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1ae85b05186e90808a91309f126cc3a456" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>set_point_interpretation</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1ae60aff2bd20140ca54c7e89093a02ef8" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>size</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1aa629242be92f723175ceb1bf4d6742b3" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>ta</name></member>
       <member refid="structshyft_1_1api_1_1ipoint__ts_1aadddb7f801c2a9dc3b819665a5521d9b" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>ta_t</name></member>
@@ -470,6 +498,7 @@
       <member refid="structshyft_1_1api_1_1abin__op__ts_1af6b407bf0d20fdefdc3bfe37961cf5c3" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>value</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1a37b9b83060a1e908eebcc7913334d86f" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>value_at</name></member>
       <member refid="structshyft_1_1api_1_1abin__op__ts_1af7dd031bc99c5ee60a421eec857cefe8" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>values</name></member>
+      <member refid="structshyft_1_1api_1_1abin__op__ts_1af9184f6444b34c100816944bfce779e8" prot="public" virt="non-virtual"><scope>shyft::api::abin_op_ts</scope><name>x_serialize_decl</name></member>
       <member refid="structshyft_1_1api_1_1ipoint__ts_1a223c013c82a80b458e97666f7da03ec7" prot="public" virt="virtual"><scope>shyft::api::abin_op_ts</scope><name>~ipoint_ts</name></member>
     </listofallmembers>
   </compounddef>

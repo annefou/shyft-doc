@@ -8,6 +8,7 @@ var structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector =
     [ "set_end_response", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#a24710e4d419ebb39839d4190748efd2d", null ],
     [ "ae_output", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#a8f78bb7b0abe0ff5d914b9a9490eaeb8", null ],
     [ "avg_discharge", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#ab33edf15ea114dcf284344fdb0226035", null ],
+    [ "charge_m3s", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#ae2f47c351cd19709000ac2f765f6030b", null ],
     [ "destination_area", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#ab5c18d8f3858a53fa40dd9aca52b52ee", null ],
     [ "end_reponse", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#a0b3a213b3eab3c9fffddbf32994b0563", null ],
     [ "glacier_melt", "structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector.html#a15d476186fea926b6ba0c32ec5df39d8", null ],

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1kirchner__cell__state__statistics" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::kirchner_cell_state_statistics</compoundname>
     <includes refid="api_8h" local="no">api.h</includes>
@@ -20,17 +20,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="336" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="336" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="361" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="361" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a9b8a60287722ebc8317ee315abbb154d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a158362211e67220025fef5c85108c581" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::kirchner_cell_state_statistics</definition>
-        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <argsstring>(const shared_ptr&lt; vector&lt; cell &gt;&gt; &amp;cells)</argsstring>
         <name>kirchner_cell_state_statistics</name>
         <param>
-          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <type>const shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt; &amp;</type>
           <declname>cells</declname>
         </param>
         <briefdescription>
@@ -39,10 +39,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="337" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="337" bodyend="337"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="362" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="362" bodyend="362"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1kirchner__cell__state__statistics_1abbc439c0f05718280135df61f2b8d4d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::kirchner_cell_state_statistics&lt; cell &gt;::discharge</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>discharge</name>
@@ -56,8 +56,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="339" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="339" bodyend="343"/>
-        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="103">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="364" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="364" bodyend="368"/>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="115">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1kirchner__cell__state__statistics_1adcdcee7f3d099fd3bdff9f1a5c2faa92" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -78,9 +78,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="344" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="344" bodyend="348"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="103">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="369" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="369" bodyend="373"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="115">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a0a4d16f578e2447678458143e0b951ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -101,22 +101,34 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="349" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="349" bodyend="353"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="296" endline="317">shyft::core::cell_statistics::sum_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="103">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="374" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="374" bodyend="378"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="313" endline="334">shyft::core::cell_statistics::sum_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" compoundref="cell__model_8h" startline="115">shyft::core::cell&lt; P, E, S, SC, RC &gt;::sc</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/api/api.h" line="335" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="335" bodyend="354"/>
+    <collaborationgraph>
+      <node id="559">
+        <label>shared_ptr&lt; vector&lt; shyft::core::cell &gt; &gt;</label>
+      </node>
+      <node id="558">
+        <label>shyft::api::kirchner_cell_state_statistics&lt; cell &gt;</label>
+        <link refid="structshyft_1_1api_1_1kirchner__cell__state__statistics"/>
+        <childnode refid="559" relation="usage">
+          <edgelabel>cells</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="360" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="360" bodyend="379"/>
     <listofallmembers>
       <member refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a962d75be33b4916a0986adbe8546d549" prot="public" virt="non-virtual"><scope>shyft::api::kirchner_cell_state_statistics</scope><name>cells</name></member>
       <member refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1abbc439c0f05718280135df61f2b8d4d2" prot="public" virt="non-virtual"><scope>shyft::api::kirchner_cell_state_statistics</scope><name>discharge</name></member>
       <member refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1adcdcee7f3d099fd3bdff9f1a5c2faa92" prot="public" virt="non-virtual"><scope>shyft::api::kirchner_cell_state_statistics</scope><name>discharge</name></member>
       <member refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a0a4d16f578e2447678458143e0b951ca" prot="public" virt="non-virtual"><scope>shyft::api::kirchner_cell_state_statistics</scope><name>discharge_value</name></member>
-      <member refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a9b8a60287722ebc8317ee315abbb154d" prot="public" virt="non-virtual"><scope>shyft::api::kirchner_cell_state_statistics</scope><name>kirchner_cell_state_statistics</name></member>
+      <member refid="structshyft_1_1api_1_1kirchner__cell__state__statistics_1a158362211e67220025fef5c85108c581" prot="public" virt="non-virtual"><scope>shyft::api::kirchner_cell_state_statistics</scope><name>kirchner_cell_state_statistics</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

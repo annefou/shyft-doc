@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1parameter" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::inverse_distance::parameter</compoundname>
     <derivedcompoundref refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter" prot="public" virt="non-virtual">shyft::core::inverse_distance::precipitation_parameter</derivedcompoundref>
@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="26" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="26" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="38" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a571a974f54f69d0fb74b18dca9378b65" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="27" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="27" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="39" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1inverse__distance_1_1parameter_1ac2c567f9a0aa7890abbee6c95623f0fb" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="28" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="28" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="40" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1inverse__distance_1_1parameter_1aa7d0f88227114fec039687ecb1304729" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="29" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="29" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="30" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="30" bodyend="33"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="42" bodyend="45"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -99,24 +99,36 @@
     <detaileddescription>
 <para>The two most common max_distance and the max_members to use for interpolation. Additionally it keep distance measure-factor, so that the IDW distance is computed as 1 over pow(euclid distance,distance_measure_factor) </para>    </detaileddescription>
     <inheritancegraph>
-      <node id="472">
+      <node id="690">
         <label>shyft::core::inverse_distance::precipitation_parameter</label>
         <link refid="structshyft_1_1core_1_1inverse__distance_1_1precipitation__parameter"/>
-        <childnode refid="471" relation="public-inheritance">
+        <childnode refid="689" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="473">
+      <node id="691">
         <label>shyft::core::inverse_distance::temperature_parameter</label>
         <link refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__parameter"/>
-        <childnode refid="471" relation="public-inheritance">
+        <childnode refid="689" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="471">
+      <node id="689">
         <label>shyft::core::inverse_distance::parameter</label>
         <link refid="structshyft_1_1core_1_1inverse__distance_1_1parameter"/>
       </node>
     </inheritancegraph>
-    <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="25" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="25" bodyend="34"/>
+    <collaborationgraph>
+      <node id="693">
+        <label>size_t</label>
+      </node>
+      <node id="692">
+        <label>shyft::core::inverse_distance::parameter</label>
+        <link refid="structshyft_1_1core_1_1inverse__distance_1_1parameter"/>
+        <childnode refid="693" relation="usage">
+          <edgelabel>max_members</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="37" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="37" bodyend="46"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1ac2c567f9a0aa7890abbee6c95623f0fb" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::parameter</scope><name>distance_measure_factor</name></member>
       <member refid="structshyft_1_1core_1_1inverse__distance_1_1parameter_1a571a974f54f69d0fb74b18dca9378b65" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::parameter</scope><name>max_distance</name></member>

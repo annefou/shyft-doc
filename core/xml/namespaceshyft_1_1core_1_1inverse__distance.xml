@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespaceshyft_1_1core_1_1inverse__distance" kind="namespace" language="C++">
     <compoundname>shyft::core::inverse_distance</compoundname>
     <innerclass refid="classshyft_1_1core_1_1inverse__distance_1_1idw__timeaxis" prot="public">shyft::core::inverse_distance::idw_timeaxis</innerclass>
@@ -70,7 +70,7 @@
         <briefdescription>
 <para>Inverse Distance Weighted Interpolation The Inverse Distance Weighted algorithm. </para>        </briefdescription>
         <detaileddescription>
-<para>Adopted/extracted from Enki method idwtemp by Sjur Kolberg/Sintef.</para><para>Transforms a set of time-series data at given source locations (X,Y,Z) to a new set of time-series data at some target (grid) locations (X,Y,Z) Using a weighted average of max n closest neighbors with available data to each target location.</para><para>The algorithm does not use neighbor locations that exceeds the maximum distance.</para><para>The algorithm can calculate and use the gradient for temperature data (as well as default fallback gradient ) to height adjust source temperatures to target temperature level. Ref. to M, Model template parameter for details.</para><para>notice that the last argument to the function is a setter function that takes D:value_type, size_t ix and value. This implies that currently the Timeaxis should just return size_t for (), - later we can fix this to be the return_type of function-expression of the <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">timeaxis()</ref>. Until then, the IDWTimeAxis template is supplied at the end of this file to ease mapping a TimeAxis that conforms to average_accessor/value standards. Ref to IDWTest file for example</para><para>Preconditions:<orderedlist>
+<para>Adopted/extracted from Enki method idwtemp by Sjur Kolberg/Sintef.</para><para>Transforms a set of time-series data at given source locations (X,Y,Z) to a new set of time-series data at some target (grid) locations (X,Y,Z) Using a weighted average of max n closest neighbors with available data to each target location.</para><para>The algorithm does not use neighbor locations that exceeds the maximum distance.</para><para>The algorithm can calculate and use the gradient for temperature data (as well as default fallback gradient ) to height adjust source temperatures to target temperature level. Ref. to M, Model template parameter for details.</para><para>notice that the last argument to the function is a setter function that takes D:value_type, size_t ix and value. This implies that currently the Timeaxis should just return size_t for (), - later we can fix this to be the return_type of function-expression of the timeaxis(). Until then, the IDWTimeAxis template is supplied at the end of this file to ease mapping a TimeAxis that conforms to average_accessor/value standards. Ref to IDWTest file for example</para><para>Preconditions:<orderedlist>
 <listitem><para>There should be at least one source location with a valid value for all t.</para></listitem><listitem><para>Possible actions if not satisfied: set NaN at the output</para></listitem><listitem><para>Minimum distance unit is 1 { because we optimize using (x² + y² + z²) instead of sqrt(x² + y² + z²) }</para></listitem></orderedlist>
 </para><para><parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
@@ -122,10 +122,10 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="130" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="130" bodyend="237"/>
-        <references refid="namespaceshyft_1_1timeseries_1a4fa091ae89d99e00daff8f0821576893" compoundref="core_2timeseries_8h" startline="884" endline="886">shyft::timeseries::min</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="142" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="142" bodyend="249"/>
+        <references refid="namespaceshyft_1_1time__series_1adba838103548ab86fd91e469830eca9f" compoundref="core_2time__series_8h" startline="1719" endline="1721">shyft::time_series::min</references>
       </memberdef>
-      <memberdef kind="function" id="namespaceshyft_1_1core_1_1inverse__distance_1a0aac49035eca96c47442f3d56005f8b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceshyft_1_1core_1_1inverse__distance_1a964c302f85e9b87483db3a2dd48f765f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename IDWModel</type>
@@ -151,7 +151,7 @@
         </templateparamlist>
         <type>void</type>
         <definition>void shyft::core::inverse_distance::run_interpolation</definition>
-        <argsstring>(const TimeAxis &amp;ta, ApiSource const &amp;api_sources, const P &amp;parameters, D &amp;cells, ResultSetter &amp;&amp;result_setter)</argsstring>
+        <argsstring>(const TimeAxis &amp;ta, ApiSource const &amp;api_sources, const P &amp;parameters, D &amp;cells, ResultSetter &amp;&amp;result_setter, int ncore=-1)</argsstring>
         <name>run_interpolation</name>
         <param>
           <type>const TimeAxis &amp;</type>
@@ -172,6 +172,11 @@
         <param>
           <type>ResultSetter &amp;&amp;</type>
           <declname>result_setter</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ncore</declname>
+          <defval>-1</defval>
         </param>
         <briefdescription>
 <para>run interpolation step, for a given IDW model, sources and parameters. run_idw_interpolation of supplied sources to destination locations/cells, over a range as specified by timeaxis, based on supplied templatized parameters. </para>        </briefdescription>
@@ -223,19 +228,21 @@
 </para>        </detaileddescription>
         <inbodydescription>
 <para><orderedlist>
-<listitem><para>make a vector of ts-accessors for the sources. Notice that this vector needs to be modified, since the accessor &apos;remembers&apos; the last position. It is essential for performance, -but again-, then each thread needs it&apos;s own copy of the sources. Since the accessors just have a const <emphasis>reference</emphasis> to the underlying TS; there is no memory involved, so copy is no problem.</para></listitem><listitem><para>Create a set of futures, for the threads that we want to run</para></listitem></orderedlist>
+<listitem><para>make a vector of ts-accessors for the sources. Notice that this vector needs to be modified, since the accessor &apos;remembers&apos; the last position. It is essential for performance, -but again-, then each thread needs it&apos;s own copy of the sources. Since the accessors just have a const <emphasis>reference</emphasis> to the underlying TS; there is no memory involved, so copy is no problem.</para></listitem></orderedlist>
 <itemizedlist>
 <listitem><para>and figure out a suitable ncore number. Using single cpu 4..8 core shows we can have more threads than cores, and gain speed.</para></listitem></itemizedlist>
-</para><para>4 found to be ok for 1 cpu 4..8 cores(subject to change later)</para><para>spawn a thread to run IDW on this part of the cells, using <emphasis>all</emphasis> sources (later we could speculate in sources needed)</para><para>capture src by value, we <emphasis>want</emphasis> a copy of that..</para><para><orderedlist>
+<orderedlist>
+<listitem><para>Create a set of futures, for the threads that we want to run</para></listitem></orderedlist>
+</para><para>spawn a thread to run IDW on this part of the cells, using <emphasis>all</emphasis> sources (later we could speculate in sources needed)</para><para>capture src by value, we <emphasis>want</emphasis> a copy of that..</para><para><orderedlist>
 <listitem><para>wait for the IDW computation threads to end. </para></listitem></orderedlist>
 </para>        </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="486" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="486" bodyend="517"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="498" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="498" bodyend="538"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="14" column="1"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="26" column="1"/>
   </compounddef>
 </doxygen>

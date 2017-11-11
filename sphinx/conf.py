@@ -18,6 +18,7 @@ import shutil
 
 
 on_rtd = os.environ.get('READTHEDOCS') == 'True'
+rtd_theme = False
 
 if on_rtd:
     if os.path.exists('notebooks/'):
@@ -75,7 +76,7 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.ipynb']
+source_suffix = ['.rst', '.md', '.ipynb']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -85,7 +86,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Shyft'
-copyright = u'2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart'
+copyright = u'2017, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart'
 author = u'Sigbjørn Helset, Ola Skavhaug, John F. Burkhart, and others'
 
 # The version info for the project you're documenting, acts as replacement for

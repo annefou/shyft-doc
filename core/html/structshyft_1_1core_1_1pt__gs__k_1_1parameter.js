@@ -6,11 +6,15 @@ var structshyft_1_1core_1_1pt__gs__k_1_1parameter =
     [ "kirchner_parameter_t", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#aeeae82c6caba7468e3760f47be94c6c1", null ],
     [ "precipitation_correction_parameter_t", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a1b66b3d2da8bb6ad182ee1d42ad91098", null ],
     [ "pt_parameter_t", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#ac9161f99f9c4ee45a2e6878e4f767b25", null ],
-    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a877a5d409120e58b1662a08ec0aa6b19", null ],
-    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a83d1cb5b56281e77b7685d7d06d0b1d9", null ],
-    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a6407b8e09efd6426f629675336fec9f4", null ],
+    [ "routing_parameter_t", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a117fea3b2e6417be0302cc23fab9db1a", null ],
+    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#aeae8f1dc083adc3c38a71f2194cb1969", null ],
+    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#ac24cde27cdeb70301fe45936003d4684", null ],
+    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#abe80308ed7e608646ed0d1cb591c7387", null ],
+    [ "parameter", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a7234d79afe29aa5f137fd3bf811eb304", null ],
     [ "get", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a78326fcd7ce36e07f40b02499de7d9ec", null ],
     [ "get_name", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#ae2638db74f9a278db34e4b4adf02cfd2", null ],
+    [ "operator=", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a301bbe5ba0b473aa18fca9d23b3b32b0", null ],
+    [ "operator=", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a923aeaef7fd4b1050819cb20274ed811", null ],
     [ "set", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a7dd39de8e6f8f3c455aa379b15351c56", null ],
     [ "size", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a7c917f328a99f3233b6e60dba3cd151f", null ],
     [ "ae", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a172fc25ee0b8b72cdd0a531369256b24", null ],
@@ -18,5 +22,6 @@ var structshyft_1_1core_1_1pt__gs__k_1_1parameter =
     [ "gs", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a89f5516bfb446cf90a084079cba7c492", null ],
     [ "kirchner", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a361f758f173ed55cc188e55ab4af126c", null ],
     [ "p_corr", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#a4e4387383246597a185680c980edb8d1", null ],
-    [ "pt", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#afff6e617f895c5fcbfb495384a25dc02", null ]
+    [ "pt", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#afff6e617f895c5fcbfb495384a25dc02", null ],
+    [ "routing", "structshyft_1_1core_1_1pt__gs__k_1_1parameter.html#ada7453bc7c52d4c9cba54d3133c05124", null ]
 ];

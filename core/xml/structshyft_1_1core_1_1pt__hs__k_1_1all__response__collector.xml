@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::pt_hs_k::all_response_collector</compoundname>
     <includes refid="pt__hs__k__cell__model_8h" local="no">pt_hs_k_cell_model.h</includes>
@@ -15,10 +15,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="31" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="31" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="42" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1ab33edf15ea114dcf284344fdb0226035" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::avg_discharge</definition>
         <argsstring></argsstring>
         <name>avg_discharge</name>
@@ -28,10 +28,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="33" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="33" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="44" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1ae2f47c351cd19709000ac2f765f6030b" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
+        <definition>pts_t shyft::core::pt_hs_k::all_response_collector::charge_m3s</definition>
+        <argsstring></argsstring>
+        <name>charge_m3s</name>
+        <briefdescription>
+<para>= precip + glacier - act_evap - avg_discharge [m^3/s] for the timestep </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="45" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1abe0072ce1ba77aa0ec5bd96bc7990978" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::snow_outflow</definition>
         <argsstring></argsstring>
         <name>snow_outflow</name>
@@ -41,10 +54,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="34" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="34" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="46" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a1af419eeb9312f166c1b383de134f1c9" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::snow_sca</definition>
         <argsstring></argsstring>
         <name>snow_sca</name>
@@ -54,10 +67,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="35" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="35" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="47" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a1298e9b95e889f849a0281ecda86dc05" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::snow_swe</definition>
         <argsstring></argsstring>
         <name>snow_swe</name>
@@ -67,10 +80,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="36" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="36" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a15d476186fea926b6ba0c32ec5df39d8" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::glacier_melt</definition>
         <argsstring></argsstring>
         <name>glacier_melt</name>
@@ -80,10 +93,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="37" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="37" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="49" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a8f78bb7b0abe0ff5d914b9a9490eaeb8" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::ae_output</definition>
         <argsstring></argsstring>
         <name>ae_output</name>
@@ -93,10 +106,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="38" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="38" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="50" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a0bec8da7e88c1fd917f99fe6fe43326f" prot="public" static="no" mutable="no">
-        <type><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref></type>
+        <type><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref></type>
         <definition>pts_t shyft::core::pt_hs_k::all_response_collector::pe_output</definition>
         <argsstring></argsstring>
         <name>pe_output</name>
@@ -106,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="39" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="39" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="51" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a0b3a213b3eab3c9fffddbf32994b0563" prot="public" static="no" mutable="no">
         <type><ref refid="namespaceshyft_1_1core_1_1pt__hs__k_1abca21ffed24927b148d14fe66edfd80c" kindref="member">response_t</ref></type>
@@ -119,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="40" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="40" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="52" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -134,9 +147,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="42" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="42" bodyend="42"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="54" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="54" bodyend="54"/>
       </memberdef>
-      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a63cd79a0f76013211fe60e46a5fcd52c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a63cd79a0f76013211fe60e46a5fcd52c" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::pt_hs_k::all_response_collector::all_response_collector</definition>
         <argsstring>(const double destination_area)</argsstring>
@@ -151,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="43" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="43" bodyend="43"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="55" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="55" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a643d9dde2862aae8325af041e27d2b83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -163,7 +176,7 @@
           <declname>destination_area</declname>
         </param>
         <param>
-          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <type>const <ref refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" kindref="member">timeaxis_t</ref> &amp;</type>
           <declname>time_axis</declname>
         </param>
         <briefdescription>
@@ -172,7 +185,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="44" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="44" bodyend="46"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="56" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="56" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a31950e8075f8c0f75b062ee98ba92608" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -180,7 +193,7 @@
         <argsstring>(const timeaxis_t &amp;time_axis, int start_step, int n_steps, double area)</argsstring>
         <name>initialize</name>
         <param>
-          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <type>const <ref refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" kindref="member">timeaxis_t</ref> &amp;</type>
           <declname>time_axis</declname>
         </param>
         <param>
@@ -201,9 +214,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="49" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="49" bodyend="58"/>
-        <references refid="namespaceshyft_1_1core_1a79f174cb1b8a95ba06a8959b412b423a" compoundref="cell__model_8h" startline="141" endline="147">shyft::core::ts_init</references>
-        <references refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" compoundref="core_2timeseries_8h" startline="54">shyft::timeseries::POINT_AVERAGE_VALUE</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="61" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="61" bodyend="71"/>
+        <references refid="namespaceshyft_1_1core_1a1eebe6bc8b7ef45f2da14d0c5bbde022" compoundref="cell__model_8h" startline="153" endline="160">shyft::core::ts_init</references>
+        <references refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710fa6b1c6c9e56366f103913f2fc503270c3" compoundref="core_2time__series_8h" startline="64">shyft::time_series::POINT_AVERAGE_VALUE</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a479fce5a4fc68ac50d8cff794c481043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -224,20 +237,21 @@
 <para>The R in this case is the Response type defined for the pt_g_s_k stack and in principle, we can pick out all needed information from this. The values are put into the plain point time-series at the i&apos;th position corresponding to the i&apos;th simulation step, .. on the time-axis.. that again gives us the concrete period in time that this value applies to. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="69" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="69" bodyend="77"/>
-        <references refid="structshyft_1_1timeseries_1_1point__ts_1a283909daa0f0338cf67cb7d62a98b3fb" compoundref="core_2timeseries_8h" startline="319" endline="319">shyft::timeseries::point_ts&lt; TA &gt;::set</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="82" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="82" bodyend="91"/>
+        <references refid="structshyft_1_1time__series_1_1point__ts_1aef391a9a34b15d00aa431605d585eb96" compoundref="core_2time__series_8h" startline="402" endline="402">shyft::time_series::point_ts&lt; TA &gt;::set</references>
         <references refid="namespaceshyft_1a5e0f4c89b1ede28b7abbca532953b9cc" compoundref="unit__conversion_8h" startline="7" endline="9">shyft::mmh_to_m3s</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a67ad857c525e8ef6975ed925eeae67cb" compoundref="core_2pt__hs__k_8h" startline="144">shyft::core::pt_hs_k::response::total_discharge</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1adba9ece267049a56382aa6d6de055375" compoundref="core_2pt__hs__k_8h" startline="139">shyft::core::pt_hs_k::response::snow</references>
-        <references refid="structshyft_1_1core_1_1hbv__snow_1_1response_1ad3d8b78c1be5e2f40cf73ebc1457e796" compoundref="hbv__snow_8h" startline="107">shyft::core::hbv_snow::response::outflow</references>
-        <references refid="structshyft_1_1core_1_1hbv__snow_1_1response_1a28858aa1a567711209b128710031d568" compoundref="hbv__snow_8h" startline="108">shyft::core::hbv_snow::response::snow_state</references>
-        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" compoundref="hbv__snow_8h" startline="97">shyft::core::hbv_snow::state::sca</references>
-        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" compoundref="hbv__snow_8h" startline="96">shyft::core::hbv_snow::state::swe</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a102bfa22451ba0d619a7722bf28b798a" compoundref="core_2pt__hs__k_8h" startline="142">shyft::core::pt_hs_k::response::gm_melt_m3s</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a41e557e89a8f789511a8ce9da7ca1b96" compoundref="core_2pt__hs__k_8h" startline="140">shyft::core::pt_hs_k::response::ae</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a67ad857c525e8ef6975ed925eeae67cb" compoundref="core_2pt__hs__k_8h" startline="161">shyft::core::pt_hs_k::response::total_discharge</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1abf5b70c6b9fcb79c6010592b00f20d84" compoundref="core_2pt__hs__k_8h" startline="162">shyft::core::pt_hs_k::response::charge_m3s</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1adba9ece267049a56382aa6d6de055375" compoundref="core_2pt__hs__k_8h" startline="156">shyft::core::pt_hs_k::response::snow</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1response_1ad3d8b78c1be5e2f40cf73ebc1457e796" compoundref="hbv__snow_8h" startline="117">shyft::core::hbv_snow::response::outflow</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1response_1a28858aa1a567711209b128710031d568" compoundref="hbv__snow_8h" startline="118">shyft::core::hbv_snow::response::snow_state</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a2aa13e80ee5a4caf36df7e0caf0f2429" compoundref="hbv__snow_8h" startline="106">shyft::core::hbv_snow::state::sca</references>
+        <references refid="structshyft_1_1core_1_1hbv__snow_1_1state_1a702a6ffb5906c73490aea24a245e3dae" compoundref="hbv__snow_8h" startline="105">shyft::core::hbv_snow::state::swe</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a102bfa22451ba0d619a7722bf28b798a" compoundref="core_2pt__hs__k_8h" startline="159">shyft::core::pt_hs_k::response::gm_melt_m3s</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a41e557e89a8f789511a8ce9da7ca1b96" compoundref="core_2pt__hs__k_8h" startline="157">shyft::core::pt_hs_k::response::ae</references>
         <references refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response_1a639ef2bb9b7b61145b799ff3aaacde90" compoundref="actual__evapotranspiration_8h" startline="36">shyft::core::actual_evapotranspiration::response::ae</references>
-        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a6e60f1ca3c3719d205fa6dd61e9f9215" compoundref="core_2pt__hs__k_8h" startline="138">shyft::core::pt_hs_k::response::pt</references>
-        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" compoundref="priestley__taylor_8h" startline="36">shyft::core::priestley_taylor::response::pot_evapotranspiration</references>
+        <references refid="structshyft_1_1core_1_1pt__hs__k_1_1response_1a6e60f1ca3c3719d205fa6dd61e9f9215" compoundref="core_2pt__hs__k_8h" startline="155">shyft::core::pt_hs_k::response::pt</references>
+        <references refid="structshyft_1_1core_1_1priestley__taylor_1_1response_1a47155a9a01872a5085a012598fb0550a" compoundref="priestley__taylor_8h" startline="39">shyft::core::priestley_taylor::response::pot_evapotranspiration</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a24710e4d419ebb39839d4190748efd2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -254,7 +268,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="78" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="78" bodyend="78"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="92" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="92" bodyend="92"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -263,86 +277,100 @@
 <para><simplesect kind="note"><para>could be quite similar between variants of a cell, e.g. <ref refid="namespaceshyft_1_1core_1_1pt__gs__k" kindref="compound">pt_gs_k</ref> <ref refid="namespaceshyft_1_1core_1_1pt__hs__k" kindref="compound">pt_hs_k</ref> <ref refid="namespaceshyft_1_1core_1_1pt__ss__k" kindref="compound">pt_ss_k</ref>, ptss.. TODO: could we use another approach to limit code pr. variant ? TODO: Really make sure that units are correct, precise and useful.. both with respect to measurement unit, and also specifying if this a &apos;state in time&apos; value or a average-value for the time-step. </para></simplesect>
 </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="67">
-        <label>shyft::timeseries::point_ts&lt; timeaxis &gt;</label>
-        <link refid="structshyft_1_1timeseries_1_1point__ts"/>
-        <childnode refid="68" relation="usage">
+      <node id="114">
+        <label>size_t</label>
+      </node>
+      <node id="111">
+        <label>shyft::time_series::point_ts&lt; time_axis::fixed_dt &gt;</label>
+        <link refid="structshyft_1_1time__series_1_1point__ts"/>
+        <childnode refid="112" relation="usage">
           <edgelabel>ta</edgelabel>
         </childnode>
+        <childnode refid="115" relation="usage">
+          <edgelabel>v</edgelabel>
+        </childnode>
       </node>
-      <node id="74">
+      <node id="120">
         <label>shyft::core::hbv_snow::state</label>
         <link refid="structshyft_1_1core_1_1hbv__snow_1_1state"/>
       </node>
-      <node id="71">
+      <node id="115">
+        <label>vector&lt; double &gt;</label>
+      </node>
+      <node id="117">
         <label>shyft::core::priestley_taylor::response</label>
         <link refid="structshyft_1_1core_1_1priestley__taylor_1_1response"/>
       </node>
-      <node id="75">
+      <node id="121">
         <label>shyft::core::actual_evapotranspiration::response</label>
         <link refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response"/>
       </node>
-      <node id="70">
+      <node id="116">
         <label>shyft::core::pt_hs_k::response</label>
         <link refid="structshyft_1_1core_1_1pt__hs__k_1_1response"/>
-        <childnode refid="71" relation="usage">
+        <childnode refid="117" relation="usage">
           <edgelabel>pt</edgelabel>
         </childnode>
-        <childnode refid="72" relation="usage">
+        <childnode refid="118" relation="usage">
           <edgelabel>kirchner</edgelabel>
         </childnode>
-        <childnode refid="73" relation="usage">
+        <childnode refid="119" relation="usage">
           <edgelabel>snow</edgelabel>
         </childnode>
-        <childnode refid="75" relation="usage">
+        <childnode refid="121" relation="usage">
           <edgelabel>ae</edgelabel>
         </childnode>
       </node>
-      <node id="69">
+      <node id="113">
         <label>shyft::time_axis::continuous&lt; true &gt;</label>
         <link refid="structshyft_1_1time__axis_1_1continuous_3_01true_01_4"/>
       </node>
-      <node id="73">
+      <node id="119">
         <label>shyft::core::hbv_snow::response</label>
         <link refid="structshyft_1_1core_1_1hbv__snow_1_1response"/>
-        <childnode refid="74" relation="usage">
+        <childnode refid="120" relation="usage">
           <edgelabel>snow_state</edgelabel>
         </childnode>
       </node>
-      <node id="66">
+      <node id="110">
         <label>shyft::core::pt_hs_k::all_response_collector</label>
         <link refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector"/>
-        <childnode refid="67" relation="usage">
+        <childnode refid="111" relation="usage">
           <edgelabel>snow_swe</edgelabel>
           <edgelabel>avg_discharge</edgelabel>
           <edgelabel>snow_sca</edgelabel>
           <edgelabel>snow_outflow</edgelabel>
+          <edgelabel>charge_m3s</edgelabel>
           <edgelabel>ae_output</edgelabel>
           <edgelabel>pe_output</edgelabel>
           <edgelabel>glacier_melt</edgelabel>
         </childnode>
-        <childnode refid="70" relation="usage">
+        <childnode refid="116" relation="usage">
           <edgelabel>end_reponse</edgelabel>
         </childnode>
       </node>
-      <node id="68">
+      <node id="112">
         <label>shyft::time_axis::fixed_dt</label>
         <link refid="structshyft_1_1time__axis_1_1fixed__dt"/>
-        <childnode refid="69" relation="public-inheritance">
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+        <childnode refid="114" relation="usage">
+          <edgelabel>n</edgelabel>
         </childnode>
       </node>
-      <node id="72">
+      <node id="118">
         <label>shyft::core::kirchner::response</label>
         <link refid="structshyft_1_1core_1_1kirchner_1_1response"/>
       </node>
     </collaborationgraph>
-    <location file="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" line="30" column="1" bodyfile="/home/sih/projects/shyft/core/pt_hs_k_cell_model.h" bodystart="30" bodyend="79"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h" bodystart="41" bodyend="93"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a8f78bb7b0abe0ff5d914b9a9490eaeb8" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>ae_output</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a6e0e8951bbf8e33119b77a52f30ac4bd" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>all_response_collector</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a63cd79a0f76013211fe60e46a5fcd52c" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>all_response_collector</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a643d9dde2862aae8325af041e27d2b83" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>all_response_collector</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1ab33edf15ea114dcf284344fdb0226035" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>avg_discharge</name></member>
+      <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1ae2f47c351cd19709000ac2f765f6030b" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>charge_m3s</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a479fce5a4fc68ac50d8cff794c481043" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>collect</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1ab5c18d8f3858a53fa40dd9aca52b52ee" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>destination_area</name></member>
       <member refid="structshyft_1_1core_1_1pt__hs__k_1_1all__response__collector_1a0b3a213b3eab3c9fffddbf32994b0563" prot="public" virt="non-virtual"><scope>shyft::core::pt_hs_k::all_response_collector</scope><name>end_reponse</name></member>
