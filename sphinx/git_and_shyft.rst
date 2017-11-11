@@ -45,9 +45,12 @@ basic introduction to the version control system.
 
 Getting the code
 ------------------
+One could simply clone the shyft repository to get the code. However, we
+prefer a few steps extra are taken to allow a better and more constructive
+workflow following the standards of Git.
 
-The basics steps to get the Shyft source code repository are as follows
-(basically a Shyft specific rendition of
+The basics steps to get the Shyft source code repository are described in
+following (basically a Shyft specific rendition of
 `fork-a-repo <https://help.github.com/articles/fork-a-repo>`_).
 
 
@@ -197,6 +200,13 @@ version.
 
 where branchname = name of the branch
 
+
+Next Steps
++++++++++++
+At this point you have a complete clone of the shyft repositories in your
+``shyft_workspace`` directory. You are ready to proceed to either build the
+source code and C++ core, or you can download and install a binary of the api
+and point your ``PYTHONPATH`` to it.
 
 
 
