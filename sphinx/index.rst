@@ -36,11 +36,11 @@ Contents:
     getting_started
     orchestration
     config_files
-    Git_and_Shyft
+
 
 
 Indices and tables
------------------
+-------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

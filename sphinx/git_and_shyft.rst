@@ -1,3 +1,5 @@
+.. _git_and_shyft:
+
 ***********************
 Using Git for Shyft
 ***********************
@@ -9,15 +11,26 @@ Git is a version control tool that is becoming a standard in software developmen
 * encourage peer code review and bug tracking, and
 * to distribute official and bleeding edge releases of the model source code.
 
+
+.. contents::
+    :caption: Contents
+    :local:
+    :depth: 1
+
+
+
 The following document is modified with attribute to the
 `VIC developers <http://uw-hydro.github.io/>`_ who provided an original version of this
 `Cookbook <https://github.com/UW-Hydro/VIC/wiki/Cookbook-for-Working-with-Git-and-VIC>`_.
+
+
+
 
 Shyft for Model users (non developers)
 ========================================
 
 In general, if you are only going to be using the model and not working
-directly on the source code, it is best to follow the instructions: :any:`conda-channel`.
+directly on the source code, it is best to follow the instructions: :ref:`user-install`.
 
 Shyft for Developers
 ====================
@@ -124,7 +137,7 @@ as your main shyft development location. Then the commands create
 clones of your fork of the repositories into the ``shyft_workspace``.
 
 You are now ready to start working with the Python code base, but you still need
-a binary of the C++ core if you don't wish to :ref:`build-source`. Before we leave
+a binary of the C++ core if you don't wish to :ref:`dev-install`. Before we leave
 the process of cloning the repositories, let's just take care of a few bookkeeping
 items that will make life easier if you choose to develop and contribute code.
 

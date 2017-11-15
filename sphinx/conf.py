@@ -12,6 +12,10 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+# required conda install modules in order to build documentation:
+# nbsphinx, intersphinx, sphinx_rtd_theme (optional, but nice),
+# breathe, sphinx
+
 import sys
 import os
 import shutil
