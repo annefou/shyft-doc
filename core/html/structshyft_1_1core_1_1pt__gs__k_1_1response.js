@@ -5,6 +5,7 @@ var structshyft_1_1core_1_1pt__gs__k_1_1response =
     [ "kirchner_response_t", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#a6b0a2e7682d4ee502da53c34032ba6b5", null ],
     [ "pt_response_t", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#a2a14b9007c12b8b2f4474efe4dff5ed8", null ],
     [ "ae", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#a3c286a210485761c2fa957e040c8c29a", null ],
+    [ "charge_m3s", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#a90bffab16261cf1e3c8372dd1238363b", null ],
     [ "gm_melt_m3s", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#ab8e822eb578cc273cfdaa7d571c0395e", null ],
     [ "gs", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#aa67ff8d139a73ad82edebee3a18f0202", null ],
     [ "kirchner", "structshyft_1_1core_1_1pt__gs__k_1_1response.html#af95948802a2077ca90f7b35c849ab117", null ],

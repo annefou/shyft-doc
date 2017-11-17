@@ -1,138 +1,295 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="cell__model_8h" kind="file" language="C++">
     <compoundname>cell_model.h</compoundname>
-    <includes refid="core_2timeseries_8h" local="yes">timeseries.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">map</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">limits</includes>
+    <includes local="no">utility</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">stdexcept</includes>
+    <includes refid="core__pch_8h" local="yes">core_pch.h</includes>
+    <includes refid="core_2time__series_8h" local="yes">time_series.h</includes>
     <includes refid="geo__cell__data_8h" local="yes">geo_cell_data.h</includes>
-    <includedby refid="pt__gs__k__cell__model_8h" local="yes">/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</includedby>
-    <includedby refid="hbv__stack__cell__model_8h" local="yes">/home/sih/projects/shyft/core/hbv_stack_cell_model.h</includedby>
-    <includedby refid="model__calibration_8h" local="yes">/home/sih/projects/shyft/core/model_calibration.h</includedby>
-    <includedby refid="pt__hs__k__cell__model_8h" local="yes">/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</includedby>
-    <includedby refid="pt__ss__k__cell__model_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</includedby>
+    <includedby refid="pt__gs__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k_cell_model.h</includedby>
+    <includedby refid="hbv__stack__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h</includedby>
+    <includedby refid="model__calibration_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h</includedby>
+    <includedby refid="pt__hs__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h</includedby>
+    <includedby refid="pt__ss__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</includedby>
+    <includedby refid="api__state_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</includedby>
     <incdepgraph>
-      <node id="219">
-        <label>geo_cell_data.h</label>
-        <link refid="geo__cell__data_8h"/>
-        <childnode refid="220" relation="include">
-        </childnode>
+      <node id="312">
+        <label>limits</label>
       </node>
-      <node id="220">
-        <label>geo_point.h</label>
-        <link refid="geo__point_8h"/>
+      <node id="317">
+        <label>boost/serialization/access.hpp</label>
       </node>
-      <node id="217">
-        <label>glacier_melt.h</label>
-        <link refid="glacier__melt_8h"/>
-        <childnode refid="215" relation="include">
-        </childnode>
+      <node id="320">
+        <label>cstdint</label>
       </node>
-      <node id="215">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
+      <node id="311">
+        <label>cmath</label>
       </node>
-      <node id="218">
-        <label>unit_conversion.h</label>
-        <link refid="unit__conversion_8h"/>
+      <node id="315">
+        <label>stdexcept</label>
       </node>
-      <node id="213">
-        <label>timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="214" relation="include">
-        </childnode>
-        <childnode refid="215" relation="include">
-        </childnode>
-        <childnode refid="216" relation="include">
-        </childnode>
-        <childnode refid="217" relation="include">
-        </childnode>
-        <childnode refid="218" relation="include">
-        </childnode>
-      </node>
-      <node id="216">
+      <node id="327">
         <label>time_axis.h</label>
         <link refid="time__axis_8h"/>
-        <childnode refid="215" relation="include">
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
         </childnode>
       </node>
-      <node id="212">
-        <label>/home/sih/projects/shyft/core/cell_model.h</label>
-        <link refid="cell__model_8h"/>
-        <childnode refid="213" relation="include">
+      <node id="307">
+        <label>string</label>
+      </node>
+      <node id="309">
+        <label>map</label>
+      </node>
+      <node id="318">
+        <label>boost/serialization/export.hpp</label>
+      </node>
+      <node id="319">
+        <label>time_series.h</label>
+        <link refid="core_2time__series_8h"/>
+        <childnode refid="320" relation="include">
         </childnode>
-        <childnode refid="219" relation="include">
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
         </childnode>
       </node>
-      <node id="214">
+      <node id="323">
         <label>compiler_compatiblity.h</label>
         <link refid="compiler__compatiblity_8h"/>
       </node>
+      <node id="330">
+        <label>geo_cell_data.h</label>
+        <link refid="geo__cell__data_8h"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+      </node>
+      <node id="326">
+        <label>ctime</label>
+      </node>
+      <node id="308">
+        <label>vector</label>
+      </node>
+      <node id="313">
+        <label>utility</label>
+      </node>
+      <node id="322">
+        <label>sstream</label>
+      </node>
+      <node id="306">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>iosfwd</label>
+      </node>
+      <node id="331">
+        <label>geo_point.h</label>
+        <link refid="geo__point_8h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>type_traits</label>
+      </node>
+      <node id="316">
+        <label>core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>algorithm</label>
+      </node>
+      <node id="328">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+      </node>
+      <node id="314">
+        <label>memory</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="228">
-        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
-        <link refid="model__calibration_8h"/>
-        <childnode refid="225" relation="include">
-        </childnode>
-      </node>
-      <node id="229">
-        <label>/home/sih/projects/shyft/core/pt_hs_k_cell_model.h</label>
+      <node id="339">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_hs_k_cell_model.h</label>
         <link refid="pt__hs__k__cell__model_8h"/>
-        <childnode refid="225" relation="include">
+        <childnode refid="336" relation="include">
         </childnode>
       </node>
-      <node id="225">
-        <label>/home/sih/projects/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="226" relation="include">
+      <node id="338">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="336" relation="include">
         </childnode>
       </node>
-      <node id="230">
-        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
-        <link refid="pt__ss__k__cell__model_8h"/>
-        <childnode refid="225" relation="include">
-        </childnode>
-      </node>
-      <node id="222">
-        <label>/home/sih/projects/shyft/core/pt_gs_k_cell_model.h</label>
+      <node id="333">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_gs_k_cell_model.h</label>
         <link refid="pt__gs__k__cell__model_8h"/>
-        <childnode refid="223" relation="include">
+        <childnode refid="334" relation="include">
         </childnode>
-        <childnode refid="225" relation="include">
+        <childnode refid="336" relation="include">
         </childnode>
       </node>
-      <node id="224">
-        <label>/home/sih/projects/shyft/core/experimental.cpp</label>
+      <node id="334">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.h</label>
+        <link refid="experimental_8h"/>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="341">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</label>
+        <link refid="api__state_8h"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_serialization.cpp</label>
+        <link refid="api__serialization_8cpp"/>
+      </node>
+      <node id="332">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/cell_model.h</label>
+        <link refid="cell__model_8h"/>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h</label>
+        <link refid="hbv__stack__cell__model_8h"/>
+        <childnode refid="336" relation="include">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp</label>
         <link refid="experimental_8cpp"/>
       </node>
-      <node id="227">
-        <label>/home/sih/projects/shyft/core/hbv_stack_cell_model.h</label>
-        <link refid="hbv__stack__cell__model_8h"/>
-        <childnode refid="225" relation="include">
-        </childnode>
+      <node id="336">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h</label>
+        <link refid="api_8h"/>
       </node>
-      <node id="223">
-        <label>/home/sih/projects/shyft/core/experimental.h</label>
-        <link refid="experimental_8h"/>
-        <childnode refid="224" relation="include">
+      <node id="340">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="336" relation="include">
         </childnode>
-      </node>
-      <node id="221">
-        <label>/home/sih/projects/shyft/core/cell_model.h</label>
-        <link refid="cell__model_8h"/>
-        <childnode refid="222" relation="include">
-        </childnode>
-        <childnode refid="227" relation="include">
-        </childnode>
-        <childnode refid="228" relation="include">
-        </childnode>
-        <childnode refid="229" relation="include">
-        </childnode>
-        <childnode refid="230" relation="include">
-        </childnode>
-      </node>
-      <node id="226">
-        <label>/home/sih/projects/shyft/api/api.cpp</label>
-        <link refid="api_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structshyft_1_1core_1_1environment" prot="public">shyft::core::environment</innerclass>
@@ -148,248 +305,265 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2timeseries_8h" kindref="compound">timeseries.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="geo__cell__data_8h" kindref="compound">geo_cell_data.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft_1_1timeseries" kindref="compound">shyft::timeseries</ref>;</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>typedefs<sp/>for<sp/>commonly<sp/>used<sp/>types<sp/>in<sp/>the<sp/>model</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1timeseries_1_1point__ts" kindref="compound">point_ts&lt;timeaxis&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>;</highlight></codeline>
-<codeline lineno="13" refid="namespaceshyft_1_1core_1a88eb1e67b565cfed8db0467bcf87fb73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1timeseries_1_1constant__timeseries" kindref="compound">constant_timeseries&lt;timeaxis&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1a88eb1e67b565cfed8db0467bcf87fb73" kindref="member">cts_t</ref>;</highlight></codeline>
-<codeline lineno="14" refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">timeaxis</ref><sp/><ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//#include<sp/>&lt;future&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core__pch_8h" kindref="compound">core_pch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>cell-model<sp/>goes<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core_2time__series_8h" kindref="compound">time_series.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="geo__cell__data_8h" kindref="compound">geo_cell_data.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>timeaxis,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>temperature_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>precipitation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>radiation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>relhum_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>windspeed_ts&gt;</highlight></codeline>
-<codeline lineno="34" refid="structshyft_1_1core_1_1environment" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment</ref><sp/>{</highlight></codeline>
-<codeline lineno="35" refid="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">timeaxis</ref><sp/><ref refid="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" kindref="member">timeaxis_t</ref>;</highlight><highlight class="comment">//&lt;<sp/>need<sp/>to<sp/>remember<sp/>and<sp/>expose<sp/>this<sp/>type</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="structshyft_1_1core_1_1environment_1acd8f7a52465854218cd503e11d81c90e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>temperature_ts<sp/><ref refid="structshyft_1_1core_1_1environment_1acd8f7a52465854218cd503e11d81c90e" kindref="member">temperature_ts_t</ref>;</highlight></codeline>
-<codeline lineno="37" refid="structshyft_1_1core_1_1environment_1a10666df117324cc10ccdace3fce197fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature_ts<sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a10666df117324cc10ccdace3fce197fb" kindref="member">temperature</ref>;</highlight></codeline>
-<codeline lineno="38" refid="structshyft_1_1core_1_1environment_1a9233b9b098548e78da937e0144dad429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation_ts<sp/><ref refid="structshyft_1_1core_1_1environment_1a9233b9b098548e78da937e0144dad429" kindref="member">precipitation</ref>;</highlight></codeline>
-<codeline lineno="39" refid="structshyft_1_1core_1_1environment_1a30dbb7a80b6142d118b2b8ac476690aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radiation_ts<sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a30dbb7a80b6142d118b2b8ac476690aa" kindref="member">radiation</ref>;</highlight></codeline>
-<codeline lineno="40" refid="structshyft_1_1core_1_1environment_1a125a81433381a2f622a505ab09f304f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>relhum_ts<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a125a81433381a2f622a505ab09f304f4" kindref="member">rel_hum</ref>;</highlight></codeline>
-<codeline lineno="41" refid="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>windspeed_ts<sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" kindref="member">wind_speed</ref>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;<sp/>reset/initializes<sp/>all<sp/>series<sp/>with<sp/>0.0<sp/>and<sp/>reserves<sp/>size<sp/>to<sp/>ta.<sp/>size.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" kindref="member">init</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">timeaxis</ref>&amp;<sp/>ta)<sp/>{</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ta.<ref refid="structshyft_1_1time__axis_1_1fixed__dt_1a61dc811a635c77b3c06ad262aefb9d52" kindref="member">size</ref>()<sp/>!=<sp/>temperature.size())<sp/>{</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature<sp/>=<sp/>temperature_ts(ta,<sp/>0.0);</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation<sp/>=<sp/>precipitation_ts(ta,<sp/>0.0);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rel_hum<sp/>=<sp/>relhum_ts(ta,<sp/>0.0);</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radiation<sp/>=<sp/>radiation_ts(ta,<sp/>0.0);</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wind_speed<sp/>=<sp/>windspeed_ts(ta,<sp/>0.0);</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature.fill(0.0);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation.fill(0.0);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rel_hum.fill(<sp/>0.0);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radiation.fill(0.0);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wind_speed.fill(0.0);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="namespaceshyft_1_1core_1a184b5652ff20b3237f6dd41c45a291ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis_t, pts_t, pts_t, pts_t, cts_t, cts_t&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1a184b5652ff20b3237f6dd41c45a291ff" kindref="member">environment_const_rhum_and_wind_t</ref>;</highlight></codeline>
-<codeline lineno="64" refid="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis_t, pts_t, pts_t, pts_t, pts_t, pts_t&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" kindref="member">environment_t</ref>;</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>timeaxis,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>temperature_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>precipitation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>radiation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>relhum_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>windspeed_ts&gt;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts&gt;</ref></highlight></codeline>
-<codeline lineno="69" refid="namespaceshyft_1_1core_1aecc33b00aefef93c9e502f31ade69872" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1aecc33b00aefef93c9e502f31ade69872" kindref="member">create_cell_environment</ref>(temperature_ts<sp/>temp,<sp/>precipitation_ts<sp/>prec,<sp/>radiation_ts<sp/>rad,<sp/>relhum_ts<sp/>rhum,<sp/>windspeed_ts<sp/>ws)<sp/>{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts&gt;</ref>{temp,<sp/>prec,<sp/>rad,<sp/>rhum,<sp/>ws};</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft_1_1time__series" kindref="compound">shyft::time_series</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>and<sp/>typedefs<sp/>for<sp/>commonly<sp/>used<sp/>types<sp/>in<sp/>the<sp/>model</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__series_1_1point__ts" kindref="compound">point_ts&lt;time_axis::fixed_dt&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref>;</highlight></codeline>
+<codeline lineno="25" refid="namespaceshyft_1_1core_1a6ebd1cf73005f48cd5f4a35787dfbe27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classshyft_1_1time__series_1_1constant__timeseries" kindref="compound">constant_timeseries&lt;time_axis::fixed_dt&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1a6ebd1cf73005f48cd5f4a35787dfbe27" kindref="member">cts_t</ref>;</highlight></codeline>
+<codeline lineno="26" refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref><sp/><ref refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" kindref="member">timeaxis_t</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>cell-model<sp/>goes<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>timeaxis,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>temperature_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>precipitation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>radiation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>relhum_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>windspeed_ts&gt;</highlight></codeline>
+<codeline lineno="46" refid="structshyft_1_1core_1_1environment" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment</ref><sp/>{</highlight></codeline>
+<codeline lineno="47" refid="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>timeaxis<sp/><ref refid="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" kindref="member">timeaxis_t</ref>;</highlight><highlight class="comment">//&lt;<sp/>need<sp/>to<sp/>remember<sp/>and<sp/>expose<sp/>this<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="structshyft_1_1core_1_1environment_1acd8f7a52465854218cd503e11d81c90e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>temperature_ts<sp/><ref refid="structshyft_1_1core_1_1environment_1acd8f7a52465854218cd503e11d81c90e" kindref="member">temperature_ts_t</ref>;</highlight></codeline>
+<codeline lineno="49" refid="structshyft_1_1core_1_1environment_1a10666df117324cc10ccdace3fce197fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature_ts<sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a10666df117324cc10ccdace3fce197fb" kindref="member">temperature</ref>;</highlight></codeline>
+<codeline lineno="50" refid="structshyft_1_1core_1_1environment_1a9233b9b098548e78da937e0144dad429" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation_ts<sp/><ref refid="structshyft_1_1core_1_1environment_1a9233b9b098548e78da937e0144dad429" kindref="member">precipitation</ref>;</highlight></codeline>
+<codeline lineno="51" refid="structshyft_1_1core_1_1environment_1a30dbb7a80b6142d118b2b8ac476690aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radiation_ts<sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a30dbb7a80b6142d118b2b8ac476690aa" kindref="member">radiation</ref>;</highlight></codeline>
+<codeline lineno="52" refid="structshyft_1_1core_1_1environment_1a125a81433381a2f622a505ab09f304f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>relhum_ts<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a125a81433381a2f622a505ab09f304f4" kindref="member">rel_hum</ref>;</highlight></codeline>
+<codeline lineno="53" refid="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>windspeed_ts<sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1environment_1a1e5111b82b97c17d6cd9b0899dde0a59" kindref="member">wind_speed</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;<sp/>reset/initializes<sp/>all<sp/>series<sp/>with<sp/>nan<sp/>and<sp/>reserves<sp/>size<sp/>to<sp/>ta.<sp/>size.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment_1a5c3af59da98ae2e1f8562a18c1dedbb0" kindref="member">init</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>timeaxis&amp;<sp/><ref refid="namespaceshyft_1_1time__axis" kindref="compound">ta</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ta<sp/>!=<sp/>temperature.ta)<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature<sp/>=<sp/>temperature_ts(ta,<sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation<sp/>=<sp/>precipitation_ts(ta,<sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rel_hum<sp/>=<sp/>relhum_ts(ta,<sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radiation<sp/>=<sp/>radiation_ts(ta,<sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wind_speed<sp/>=<sp/>windspeed_ts(ta,<sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature.fill(<ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation.fill(<ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rel_hum.fill(<sp/><ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>radiation.fill(<ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wind_speed.fill(<ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>P,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>E,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>SC,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>RC&gt;</highlight></codeline>
-<codeline lineno="91" refid="structshyft_1_1core_1_1cell" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref><sp/>{</highlight></codeline>
-<codeline lineno="92" refid="structshyft_1_1core_1_1cell_1a9c578f5a999bfb4f0bb1690bb198ada8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>P<sp/><ref refid="structshyft_1_1core_1_1cell_1a9c578f5a999bfb4f0bb1690bb198ada8" kindref="member">parameter_t</ref>;</highlight></codeline>
-<codeline lineno="93" refid="structshyft_1_1core_1_1cell_1a82a5ddf5dc2fc2f547eed2c1943e2bc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>E<sp/><ref refid="structshyft_1_1core_1_1cell_1a82a5ddf5dc2fc2f547eed2c1943e2bc3" kindref="member">env_ts_t</ref>;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="94" refid="structshyft_1_1core_1_1cell_1a015b779b88e40bb7ce2e0969d9c4360a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>S<sp/><ref refid="structshyft_1_1core_1_1cell_1a015b779b88e40bb7ce2e0969d9c4360a" kindref="member">state_t</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="95" refid="structshyft_1_1core_1_1cell_1af8a217218f54864a508724e0a63189dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>RC<sp/><ref refid="structshyft_1_1core_1_1cell_1af8a217218f54864a508724e0a63189dc" kindref="member">response_collector_t</ref>;</highlight></codeline>
-<codeline lineno="96" refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">E::timeaxis_t</ref><sp/><ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref>;</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>these<sp/>are<sp/>the<sp/>type<sp/>of<sp/>data<sp/>the<sp/>cell<sp/>keeps:</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref><sp/><ref refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" kindref="member">geo</ref>;</highlight></codeline>
-<codeline lineno="99" refid="structshyft_1_1core_1_1cell_1a94fc4feaedff67f7a623228ac97a2fd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;P&gt;<sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a94fc4feaedff67f7a623228ac97a2fd5" kindref="member">parameter</ref>;</highlight></codeline>
-<codeline lineno="100" refid="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>S<sp/><ref refid="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" kindref="member">state</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="101" refid="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>E<sp/><ref refid="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" kindref="member">env_ts</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SC<sp/><ref refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" kindref="member">sc</ref>;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="104" refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RC<sp/><ref refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" kindref="member">rc</ref>;<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>boost<sp/>python<sp/>workaround<sp/>for<sp/>shared<sp/>ptr<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="structshyft_1_1core_1_1cell_1adf975a1035c464950f79426523583335" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;P&gt;<sp/><ref refid="structshyft_1_1core_1_1cell_1adf975a1035c464950f79426523583335" kindref="member">get_parameter</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parameter;}</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="structshyft_1_1core_1_1cell_1a032c08ce619254add09868a143b73771" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a032c08ce619254add09868a143b73771" kindref="member">init_env_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">E::timeaxis_t</ref><sp/>&amp;ta)<sp/>{<sp/>env_ts.init(ta);<sp/>}</highlight></codeline>
-<codeline lineno="113" refid="structshyft_1_1core_1_1cell_1ab871414f04c66be2cb345a229331e17d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1ab871414f04c66be2cb345a229331e17d" kindref="member">begin_run</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>timeaxis_t<sp/>&amp;ta,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_steps)<sp/>{</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc.initialize(ta,start_step,n_steps,<sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1ad70b16d05d4f4f476bacd32d73f08404" kindref="member">area</ref>());</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sc.initialize(<ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref>(ta.start(),ta.delta(),ta.size()+1),start_step,n_steps&gt;0?n_steps+1:0,geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1ad70b16d05d4f4f476bacd32d73f08404" kindref="member">area</ref>());</highlight><highlight class="comment">//state<sp/>collection<sp/>is<sp/>both<sp/>first<sp/>and<sp/>last<sp/>state,<sp/>so,<sp/>time-axis<sp/>+1<sp/>step</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="118" refid="structshyft_1_1core_1_1cell_1a92937f7d391d9cd77120cdb3510537ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a92937f7d391d9cd77120cdb3510537ba" kindref="member">set_temperature</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ix,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temperature_value)<sp/>{<sp/>env_ts.temperature.set(ix,<sp/>temperature_value);<sp/>}</highlight></codeline>
-<codeline lineno="120" refid="structshyft_1_1core_1_1cell_1a9eee42bdedaf1c62af1e323077fd874e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1a9eee42bdedaf1c62af1e323077fd874e" kindref="member">slope_factor</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1a85dfe51bce99b925d1a3c3c3d0368c58" kindref="member">radiation_slope_factor</ref>();<sp/>}</highlight></codeline>
-<codeline lineno="122" refid="structshyft_1_1core_1_1cell_1a8ffa44fb9a9e36ec55bb5201d65a2c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/><ref refid="structshyft_1_1core_1_1cell_1a8ffa44fb9a9e36ec55bb5201d65a2c12" kindref="member">mid_point</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1adc8e3ddd285f974f9c6f372424095cb2" kindref="member">mid_point</ref>();<sp/>}</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="structshyft_1_1core_1_1cell_1a5be6a5e89aa873d1df001155efa38837" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a5be6a5e89aa873d1df001155efa38837" kindref="member">set_parameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;P&gt;&amp;<sp/>p)<sp/>{<sp/>parameter<sp/>=<sp/>p;<sp/>}</highlight></codeline>
-<codeline lineno="127" refid="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" kindref="member">set_state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>S&amp;<sp/>s)<sp/>{<sp/>state<sp/>=<sp/>s;<sp/>}</highlight></codeline>
-<codeline lineno="129" refid="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" kindref="member">set_state_collection</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on)<sp/>{}</highlight></codeline>
-<codeline lineno="131" refid="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" kindref="member">set_snow_sca_swe_collection</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on)<sp/>{</highlight><highlight class="comment">/*default<sp/>simply<sp/>ignore*/</highlight><highlight class="normal">}</highlight></codeline>
-<codeline lineno="133" refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" kindref="member">run</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>timeaxis_t&amp;<sp/>t,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_steps)<sp/>{}</highlight></codeline>
-<codeline lineno="135" refid="structshyft_1_1core_1_1cell_1af5e29856bb513dbcd01b772ecdef2179" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1af5e29856bb513dbcd01b772ecdef2179" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref>&amp;x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1adc8e3ddd285f974f9c6f372424095cb2" kindref="member">mid_point</ref>()==x.<ref refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" kindref="member">geo</ref>.<ref refid="structshyft_1_1core_1_1geo__cell__data_1adc8e3ddd285f974f9c6f372424095cb2" kindref="member">mid_point</ref>()&amp;&amp;<sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1aa56e4e1bdcbb259351f6e334459d4d84" kindref="member">catchment_id</ref>()==x.<ref refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" kindref="member">geo</ref>.<ref refid="structshyft_1_1core_1_1geo__cell__data_1aa56e4e1bdcbb259351f6e334459d4d84" kindref="member">catchment_id</ref>();</highlight></codeline>
-<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="141" refid="namespaceshyft_1_1core_1a79f174cb1b8a95ba06a8959b412b423a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a79f174cb1b8a95ba06a8959b412b423a" kindref="member">ts_init</ref>(pts_t&amp;ts,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">timeaxis</ref>&amp;ta,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_steps,<sp/><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0ea" kindref="member">fx_policy_t</ref><sp/>fx_policy)<sp/>{</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ts.<ref refid="structshyft_1_1timeseries_1_1point__ts_1acb195a3d5a9cb0da2d888b419388831c" kindref="member">size</ref>()<sp/>!=<sp/>ta.<ref refid="structshyft_1_1time__axis_1_1fixed__dt_1a61dc811a635c77b3c06ad262aefb9d52" kindref="member">size</ref>())<sp/>{</highlight></codeline>
-<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ts<sp/>=<sp/><ref refid="namespaceshyft_1_1core_1a78d0ca8964be5db44a5022740019e7fc" kindref="member">pts_t</ref>(ta,<sp/>0.0,<sp/>fx_policy);</highlight></codeline>
-<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ts.<ref refid="structshyft_1_1timeseries_1_1point__ts_1a95cf479521c7e951077cc69fbda02a92" kindref="member">fill_range</ref>(0.0,<sp/>start_step,<sp/>n_steps);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
-<codeline lineno="162" refid="structshyft_1_1core_1_1cell__statistics" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1cell__statistics" kindref="compound">cell_statistics</ref><sp/>{</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell&gt;</highlight></codeline>
-<codeline lineno="166" refid="structshyft_1_1core_1_1cell__statistics_1a8e381103de2dfda6a0f9fe6ab76dba31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a8e381103de2dfda6a0f9fe6ab76dba31" kindref="member">verify_cids_exist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes)<sp/>{</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(catchment_indexes.size()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map&lt;int,<sp/>bool&gt;<sp/>all_cids;</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;c<sp/>:<sp/>cells)<sp/>all_cids[c.geo.catchment_id()]<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid:catchment_indexes)</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(all_cids.count(cid)<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;one<sp/>or<sp/>more<sp/>supplied<sp/>catchment_indexes<sp/>does<sp/>not<sp/>exist:&quot;</highlight><highlight class="normal">)<sp/>+<sp/>to_string(cid));</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
-<codeline lineno="186" refid="structshyft_1_1core_1_1cell__statistics_1aa10fd1160847f815e52bd017d1203215" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>shared_ptr&lt;pts_t&gt;<sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1aa10fd1160847f815e52bd017d1203215" kindref="member">average_catchment_feature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts&amp;&amp;<sp/>cell_ts)<sp/>{</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>make_shared&lt;pts_t&gt;(cell_ts(cells[0]).ta,<sp/>0.0,<ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" kindref="member">point_interpretation_policy::POINT_AVERAGE_VALUE</ref>);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum_area<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add_scale(cell_ts(c),<sp/>c.geo.area());<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>c.geo.catchment_id()<sp/>==<sp/>(size_t)<sp/>cid)<sp/>{<sp/></highlight><highlight class="comment">//<sp/>criteria</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add_scale(cell_ts(c),<sp/>c.geo.area());<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;scale_by(1/sum_area);<sp/></highlight><highlight class="comment">//<sp/>sih:<sp/>if<sp/>no<sp/>match,<sp/>then<sp/>you<sp/>will<sp/>get<sp/>nan<sp/>here,<sp/>and<sp/>I<sp/>think<sp/>thats<sp/>reasonable</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
-<codeline lineno="224" refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" kindref="member">average_catchment_feature_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts&amp;&amp;<sp/>cell_ts,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
-<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum_area<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
-<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
-<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>cell_ts(c).value(i)*c.geo.area();<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//<sp/>criteria</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>cell_ts(c).value(i)*c.geo.area();<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r=<sp/>r/<sp/>sum_area;<sp/></highlight><highlight class="comment">//<sp/>sih:<sp/>if<sp/>no<sp/>match,<sp/>then<sp/>you<sp/>will<sp/>get<sp/>nan<sp/>here,<sp/>and<sp/>I<sp/>think<sp/>thats<sp/>reasonable</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
-<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
-<codeline lineno="262" refid="structshyft_1_1core_1_1cell__statistics_1a7115ce247d298ae434ed6fdce616f90e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>shared_ptr&lt;pts_t&gt;<sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a7115ce247d298ae434ed6fdce616f90e" kindref="member">sum_catchment_feature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
-<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts<sp/>&amp;&amp;<sp/>cell_ts)<sp/>{</highlight></codeline>
-<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>make_shared&lt;pts_t&gt;(cell_ts(cells[0]).ta,<sp/>0.0,<sp/><ref refid="namespaceshyft_1_1timeseries_1a7e2ee9dcee400bdc9fa6a9c6c828d0eaa7a710c91f7e701c216acf4a4610f1815" kindref="member">point_interpretation_policy::POINT_AVERAGE_VALUE</ref>);</highlight></codeline>
-<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
-<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
-<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add(cell_ts(c));</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//criteria</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add(cell_ts(c));<sp/><sp/></highlight><highlight class="comment">//c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
-<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
-<codeline lineno="296" refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" kindref="member">sum_catchment_feature_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
-<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts<sp/>&amp;&amp;<sp/>cell_ts,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
-<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0.0;</highlight></codeline>
-<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
-<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>cell_ts(c).value(i);</highlight></codeline>
-<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//criteria</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r+=cell_ts(c).value(i);<sp/><sp/></highlight><highlight class="comment">//c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
-<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="318"><highlight class="normal"></highlight></codeline>
-<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
-<codeline lineno="331" refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" kindref="member">catchment_feature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
-<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts<sp/>&amp;&amp;<sp/>cell_ts,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
-<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>extract<sp/>from&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
-<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;double&gt;<sp/>r;<sp/>r.reserve(cells.size());</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
-<codeline lineno="338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
-<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
-<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.push_back(cell_ts(c).value(i));</highlight></codeline>
-<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
-<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//criteria</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.push_back(cell_ts(c).value(i));<sp/><sp/></highlight><highlight class="comment">//c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>core</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="356"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="namespaceshyft_1_1core_1a184b5652ff20b3237f6dd41c45a291ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis_t, pts_t, pts_t, pts_t, cts_t, cts_t&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1a184b5652ff20b3237f6dd41c45a291ff" kindref="member">environment_const_rhum_and_wind_t</ref>;</highlight></codeline>
+<codeline lineno="76" refid="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis_t, pts_t, pts_t, pts_t, pts_t, pts_t&gt;</ref><sp/><ref refid="namespaceshyft_1_1core_1af4bf3605823620dd789cf79ca8d24eae" kindref="member">environment_t</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>timeaxis,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>temperature_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>precipitation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>radiation_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>relhum_ts,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>windspeed_ts&gt;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts&gt;</ref></highlight></codeline>
+<codeline lineno="81" refid="namespaceshyft_1_1core_1aecc33b00aefef93c9e502f31ade69872" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1core_1aecc33b00aefef93c9e502f31ade69872" kindref="member">create_cell_environment</ref>(temperature_ts<sp/>temp,<sp/>precipitation_ts<sp/>prec,<sp/>radiation_ts<sp/>rad,<sp/>relhum_ts<sp/>rhum,<sp/>windspeed_ts<sp/>ws)<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1environment" kindref="compound">environment&lt;timeaxis, temperature_ts, precipitation_ts, radiation_ts, relhum_ts, windspeed_ts&gt;</ref>{temp,<sp/>prec,<sp/>rad,<sp/>rhum,<sp/>ws};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>P,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>E,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>S,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>SC,<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>RC&gt;</highlight></codeline>
+<codeline lineno="103" refid="structshyft_1_1core_1_1cell" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref><sp/>{</highlight></codeline>
+<codeline lineno="104" refid="structshyft_1_1core_1_1cell_1a9c578f5a999bfb4f0bb1690bb198ada8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>P<sp/><ref refid="structshyft_1_1core_1_1cell_1a9c578f5a999bfb4f0bb1690bb198ada8" kindref="member">parameter_t</ref>;</highlight></codeline>
+<codeline lineno="105" refid="structshyft_1_1core_1_1cell_1a82a5ddf5dc2fc2f547eed2c1943e2bc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>E<sp/><ref refid="structshyft_1_1core_1_1cell_1a82a5ddf5dc2fc2f547eed2c1943e2bc3" kindref="member">env_ts_t</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106" refid="structshyft_1_1core_1_1cell_1a015b779b88e40bb7ce2e0969d9c4360a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>S<sp/><ref refid="structshyft_1_1core_1_1cell_1a015b779b88e40bb7ce2e0969d9c4360a" kindref="member">state_t</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107" refid="structshyft_1_1core_1_1cell_1af8a217218f54864a508724e0a63189dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>RC<sp/><ref refid="structshyft_1_1core_1_1cell_1af8a217218f54864a508724e0a63189dc" kindref="member">response_collector_t</ref>;</highlight></codeline>
+<codeline lineno="108" refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" kindref="member">E::timeaxis_t</ref><sp/><ref refid="structshyft_1_1core_1_1cell_1a5cdbe6fbd741049bb205fc498aed7a3e" kindref="member">timeaxis_t</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>these<sp/>are<sp/>the<sp/>type<sp/>of<sp/>data<sp/>the<sp/>cell<sp/>keeps:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref><sp/><ref refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" kindref="member">geo</ref>;</highlight></codeline>
+<codeline lineno="111" refid="structshyft_1_1core_1_1cell_1a94fc4feaedff67f7a623228ac97a2fd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;P&gt;<sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a94fc4feaedff67f7a623228ac97a2fd5" kindref="member">parameter</ref>;</highlight></codeline>
+<codeline lineno="112" refid="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>S<sp/><ref refid="structshyft_1_1core_1_1cell_1a5f0b2da8099f8a172e6dbc428ec61a77" kindref="member">state</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113" refid="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>E<sp/><ref refid="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" kindref="member">env_ts</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SC<sp/><ref refid="structshyft_1_1core_1_1cell_1a5b3b23f61f1aef55b5ec0345dc78ce38" kindref="member">sc</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116" refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RC<sp/><ref refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" kindref="member">rc</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>boost<sp/>python<sp/>workaround<sp/>for<sp/>shared<sp/>ptr<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="structshyft_1_1core_1_1cell_1adf975a1035c464950f79426523583335" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;P&gt;<sp/><ref refid="structshyft_1_1core_1_1cell_1adf975a1035c464950f79426523583335" kindref="member">get_parameter</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>parameter;}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="structshyft_1_1core_1_1cell_1a032c08ce619254add09868a143b73771" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a032c08ce619254add09868a143b73771" kindref="member">init_env_ts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" kindref="member">E::timeaxis_t</ref><sp/>&amp;<ref refid="namespaceshyft_1_1time__axis" kindref="compound">ta</ref>)<sp/>{<sp/>env_ts.init(ta);<sp/>}</highlight></codeline>
+<codeline lineno="125" refid="structshyft_1_1core_1_1cell_1ab871414f04c66be2cb345a229331e17d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1ab871414f04c66be2cb345a229331e17d" kindref="member">begin_run</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>timeaxis_t<sp/>&amp;<ref refid="namespaceshyft_1_1time__axis" kindref="compound">ta</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_steps)<sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rc.initialize(ta,start_step,n_steps,<sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1ad70b16d05d4f4f476bacd32d73f08404" kindref="member">area</ref>());</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sc.initialize(<ref refid="structshyft_1_1core_1_1environment_1a8fc0ecf6f4ef42c25fab9c33363801de" kindref="member">timeaxis_t</ref>(ta.start(),ta.delta(),ta.size()+1),start_step,n_steps&gt;0?n_steps+1:0,geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1ad70b16d05d4f4f476bacd32d73f08404" kindref="member">area</ref>());</highlight><highlight class="comment">//state<sp/>collection<sp/>is<sp/>both<sp/>first<sp/>and<sp/>last<sp/>state,<sp/>so,<sp/>time-axis<sp/>+1<sp/>step</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130" refid="structshyft_1_1core_1_1cell_1a92937f7d391d9cd77120cdb3510537ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a92937f7d391d9cd77120cdb3510537ba" kindref="member">set_temperature</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>ix,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temperature_value)<sp/>{<sp/>env_ts.temperature.set(ix,<sp/>temperature_value);<sp/>}</highlight></codeline>
+<codeline lineno="132" refid="structshyft_1_1core_1_1cell_1a9eee42bdedaf1c62af1e323077fd874e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1a9eee42bdedaf1c62af1e323077fd874e" kindref="member">slope_factor</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1a85dfe51bce99b925d1a3c3c3d0368c58" kindref="member">radiation_slope_factor</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="134" refid="structshyft_1_1core_1_1cell_1a8ffa44fb9a9e36ec55bb5201d65a2c12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>&amp;<sp/><ref refid="structshyft_1_1core_1_1cell_1a8ffa44fb9a9e36ec55bb5201d65a2c12" kindref="member">mid_point</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1adc8e3ddd285f974f9c6f372424095cb2" kindref="member">mid_point</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structshyft_1_1core_1_1cell_1a5be6a5e89aa873d1df001155efa38837" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a5be6a5e89aa873d1df001155efa38837" kindref="member">set_parameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;P&gt;&amp;<sp/>p)<sp/>{<sp/>parameter<sp/>=<sp/>p;<sp/>}</highlight></codeline>
+<codeline lineno="139" refid="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1cell_1a2a2cf666df93bc8b098ee7d97b4b657b" kindref="member">set_state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>S&amp;<sp/>s)<sp/>{<sp/>state<sp/>=<sp/>s;<sp/>}</highlight></codeline>
+<codeline lineno="141" refid="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1af107be89dd5730c57bc9394b0d8bdaf2" kindref="member">set_state_collection</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on)<sp/>{}</highlight></codeline>
+<codeline lineno="143" refid="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1aff7ec6497916397336bfd49e8af95472" kindref="member">set_snow_sca_swe_collection</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>on)<sp/>{</highlight><highlight class="comment">/*default<sp/>simply<sp/>ignore*/</highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145" refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1ae82e7854a95817d2d0ca57e4628cb137" kindref="member">run</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>timeaxis_t&amp;<sp/>t,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_steps)<sp/>{}</highlight></codeline>
+<codeline lineno="147" refid="structshyft_1_1core_1_1cell_1af5e29856bb513dbcd01b772ecdef2179" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell_1af5e29856bb513dbcd01b772ecdef2179" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref>&amp;x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1adc8e3ddd285f974f9c6f372424095cb2" kindref="member">mid_point</ref>()==x.<ref refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" kindref="member">geo</ref>.<ref refid="structshyft_1_1core_1_1geo__cell__data_1adc8e3ddd285f974f9c6f372424095cb2" kindref="member">mid_point</ref>()&amp;&amp;<sp/>geo.<ref refid="structshyft_1_1core_1_1geo__cell__data_1aa56e4e1bdcbb259351f6e334459d4d84" kindref="member">catchment_id</ref>()==x.<ref refid="structshyft_1_1core_1_1cell_1aa06edecba334fedb3ff47fda48707827" kindref="member">geo</ref>.<ref refid="structshyft_1_1core_1_1geo__cell__data_1aa56e4e1bdcbb259351f6e334459d4d84" kindref="member">catchment_id</ref>();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="153" refid="namespaceshyft_1_1core_1a1eebe6bc8b7ef45f2da14d0c5bbde022" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1a1eebe6bc8b7ef45f2da14d0c5bbde022" kindref="member">ts_init</ref>(pts_t&amp;<ref refid="namespaceshyft_1_1time__series" kindref="compound">ts</ref>,<sp/><ref refid="structshyft_1_1time__axis_1_1fixed__dt" kindref="compound">time_axis::fixed_dt</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">&amp;<sp/><ref refid="namespaceshyft_1_1time__axis" kindref="compound">ta</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_steps,<sp/><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710f" kindref="member">ts_point_fx</ref><sp/>fx_policy)<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>fill_value=<ref refid="namespaceshyft_1abb17c53f5f6d6eb8901cd2491680cba4" kindref="member">shyft::nan</ref>;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ts.<ref refid="structshyft_1_1time__series_1_1point__ts_1aeb26cfb1570a18155cd39aa50aa73fd8" kindref="member">ta</ref><sp/>!=<sp/>ta<sp/>||<sp/>ta.<ref refid="structshyft_1_1time__axis_1_1fixed__dt_1a61dc811a635c77b3c06ad262aefb9d52" kindref="member">size</ref>()==0<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ts<sp/>=<sp/><ref refid="namespaceshyft_1_1core_1a66ab1c26a208c26ebbb03c3727d4c6de" kindref="member">pts_t</ref>(ta,<sp/>fill_value,<sp/>fx_policy);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ts.<ref refid="structshyft_1_1time__series_1_1point__ts_1a4216914e4f99c2eb0c184cb54132cb31" kindref="member">fill_range</ref>(fill_value,<sp/>start_step,<sp/>n_steps);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="175" refid="structshyft_1_1core_1_1cell__statistics" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1cell__statistics" kindref="compound">cell_statistics</ref><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell&gt;</highlight></codeline>
+<codeline lineno="179" refid="structshyft_1_1core_1_1cell__statistics_1a8e381103de2dfda6a0f9fe6ab76dba31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a8e381103de2dfda6a0f9fe6ab76dba31" kindref="member">verify_cids_exist</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes)<sp/>{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(catchment_indexes.size()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>map&lt;int,<sp/>bool&gt;<sp/>all_cids;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;c<sp/>:<sp/>cells)<sp/>all_cids[c.geo.catchment_id()]<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid:catchment_indexes)</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(all_cids.count(cid)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">(</highlight><highlight class="stringliteral">&quot;one<sp/>or<sp/>more<sp/>supplied<sp/>catchment_indexes<sp/>does<sp/>not<sp/>exist:&quot;</highlight><highlight class="normal">)<sp/>+<sp/>to_string(cid));</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
+<codeline lineno="199" refid="structshyft_1_1core_1_1cell__statistics_1aa10fd1160847f815e52bd017d1203215" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>shared_ptr&lt;pts_t&gt;<sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1aa10fd1160847f815e52bd017d1203215" kindref="member">average_catchment_feature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts&amp;&amp;<sp/>cell_ts)<sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shared_ptr&lt;pts_t&gt;<sp/>r;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum_area<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!r)<sp/>r=<sp/>make_shared&lt;pts_t&gt;(cell_ts(c).ta,<sp/>0.0,<sp/><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710fa6b1c6c9e56366f103913f2fc503270c3" kindref="member">ts_point_fx::POINT_AVERAGE_VALUE</ref>);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add_scale(cell_ts(c),<sp/>c.geo.area());<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>c.geo.catchment_id()<sp/>==<sp/>(size_t)<sp/>cid)<sp/>{<sp/></highlight><highlight class="comment">//<sp/>criteria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!r)<sp/>r<sp/>=<sp/>make_shared&lt;pts_t&gt;(cell_ts(c).ta,<sp/>0.0,<sp/><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710fa6b1c6c9e56366f103913f2fc503270c3" kindref="member">ts_point_fx::POINT_AVERAGE_VALUE</ref>);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add_scale(cell_ts(c),<sp/>c.geo.area());<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;scale_by(1/sum_area);<sp/></highlight><highlight class="comment">//<sp/>sih:<sp/>if<sp/>no<sp/>match,<sp/>then<sp/>you<sp/>will<sp/>get<sp/>nan<sp/>here,<sp/>and<sp/>I<sp/>think<sp/>thats<sp/>reasonable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
+<codeline lineno="239" refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" kindref="member">average_catchment_feature_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts&amp;&amp;<sp/>cell_ts,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sum_area<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>cell_ts(c).value(i)*c.geo.area();<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//<sp/>criteria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>cell_ts(c).value(i)*c.geo.area();<sp/><sp/></highlight><highlight class="comment">//<sp/>c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum_area<sp/>+=<sp/>c.geo.area();</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r=<sp/>r/<sp/>sum_area;<sp/></highlight><highlight class="comment">//<sp/>sih:<sp/>if<sp/>no<sp/>match,<sp/>then<sp/>you<sp/>will<sp/>get<sp/>nan<sp/>here,<sp/>and<sp/>I<sp/>think<sp/>thats<sp/>reasonable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
+<codeline lineno="277" refid="structshyft_1_1core_1_1cell__statistics_1a7115ce247d298ae434ed6fdce616f90e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>shared_ptr&lt;pts_t&gt;<sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a7115ce247d298ae434ed6fdce616f90e" kindref="member">sum_catchment_feature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts<sp/>&amp;&amp;<sp/>cell_ts)<sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shared_ptr&lt;pts_t&gt;<sp/>r;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!r)<sp/>r=<sp/>make_shared&lt;pts_t&gt;(cell_ts(c).ta,<sp/>0.0,<sp/><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710fa6b1c6c9e56366f103913f2fc503270c3" kindref="member">ts_point_fx::POINT_AVERAGE_VALUE</ref>);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add(cell_ts(c));</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//criteria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!r)<sp/>r<sp/>=<sp/>make_shared&lt;pts_t&gt;(cell_ts(c).ta,<sp/>0.0,<sp/><ref refid="namespaceshyft_1_1time__series_1ab66642bfe2651c86498cf53c9217710fa6b1c6c9e56366f103913f2fc503270c3" kindref="member">ts_point_fx::POINT_AVERAGE_VALUE</ref>);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r-&gt;add(cell_ts(c));<sp/><sp/></highlight><highlight class="comment">//c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
+<codeline lineno="313" refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" kindref="member">sum_catchment_feature_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts<sp/>&amp;&amp;<sp/>cell_ts,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>statistics<sp/>on&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>+=<sp/>cell_ts(c).value(i);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//criteria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r+=cell_ts(c).value(i);<sp/><sp/></highlight><highlight class="comment">//c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>cell_feature_ts&gt;</highlight></codeline>
+<codeline lineno="348" refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>vector&lt;double&gt;<sp/><ref refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" kindref="member">catchment_feature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;cell&gt;&amp;<sp/>cells,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;int&gt;&amp;<sp/>catchment_indexes,</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cell_feature_ts<sp/>&amp;&amp;<sp/>cell_ts,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(cells.size()<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;no<sp/>cells<sp/>to<sp/>make<sp/>extract<sp/>from&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>verify_cids_exist(cells,<sp/>catchment_indexes);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;double&gt;<sp/>r;<sp/>r.reserve(cells.size());</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>match_all<sp/>=<sp/>catchment_indexes.size()<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>c<sp/>:<sp/>cells)<sp/>{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(match_all)<sp/>{</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.push_back(cell_ts(c).value(i));</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>cid<sp/>:<sp/>catchment_indexes)<sp/>{</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c.geo.catchment_id()<sp/>==<sp/>(size_t)cid)<sp/>{<sp/></highlight><highlight class="comment">//criteria</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r.push_back(cell_ts(c).value(i));<sp/><sp/></highlight><highlight class="comment">//c.env_ts.temperature,<sp/>could<sp/>be<sp/>a<sp/>feature(c)<sp/>func<sp/>return<sp/>ref<sp/>to<sp/>ts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>core</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/cell_model.h"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/cell_model.h"/>
   </compounddef>
 </doxygen>

@@ -1,7 +1,8 @@
-Configuring SHyFT
-=================
+*****************
+Configuring Shyft
+*****************
 
-SHyFT is configured via `YAML files <http://yaml.org/>`_.  Here it is an example::
+Shyft is configured via `YAML files <http://yaml.org/>`_.  Here it is an example::
 
     ---
     Himalayas:

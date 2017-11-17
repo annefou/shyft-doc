@@ -8,6 +8,7 @@ var structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector =
     [ "set_end_response", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#acf29c0623212f164bdf8cfb3591b2305", null ],
     [ "avg_discharge", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#aca4f0a944d19675b1fdaa899ce618442", null ],
     [ "cell_area", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#ade5ed8004ec566e091bf12c56292bc7e", null ],
+    [ "charge_m3s", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#ada938568cb850787856db540623b3817", null ],
     [ "collect_snow", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#a44bb3f8e7e784478051c08aa97031d5f", null ],
     [ "end_response", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#a58ec176e066e3e62763e3537e5ca213d", null ],
     [ "snow_sca", "structshyft_1_1core_1_1pt__gs__k_1_1discharge__collector.html#a6cbc791ae3e061021522e4b68246b04d", null ],

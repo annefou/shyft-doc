@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1model__calibration_1_1dream__fx" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::model_calibration::dream_fx</compoundname>
     <basecompoundref refid="structshyft_1_1core_1_1optimizer_1_1ifx" prot="public" virt="non-virtual">shyft::core::optimizer::ifx</basecompoundref>
@@ -23,13 +23,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="61" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="61" bodyend="-1"/>
-        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a6a051e53780662d12226aaa3ed83fd2a" compoundref="model__calibration_8h" startline="63" endline="65">shyft::core::model_calibration::dream_fx&lt; M &gt;::evaluate</referencedby>
-        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1sceua__fx_1a0b4f68863ce2c4de4d2cac1c532b825b" compoundref="model__calibration_8h" startline="92" endline="94">shyft::core::model_calibration::sceua_fx&lt; M &gt;::evaluate</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="76" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="76" bodyend="-1"/>
+        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a6a051e53780662d12226aaa3ed83fd2a" compoundref="model__calibration_8h" startline="78" endline="80">shyft::core::model_calibration::dream_fx&lt; M &gt;::evaluate</referencedby>
+        <referencedby refid="structshyft_1_1core_1_1model__calibration_1_1sceua__fx_1a0b4f68863ce2c4de4d2cac1c532b825b" compoundref="model__calibration_8h" startline="107" endline="109">shyft::core::model_calibration::sceua_fx&lt; M &gt;::evaluate</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a3a1008aad99e684fe09ddb25a88bfca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a3a1008aad99e684fe09ddb25a88bfca9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::model_calibration::dream_fx&lt; M &gt;::dream_fx</definition>
         <argsstring>(M &amp;m)</argsstring>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="62" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="62" bodyend="62"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="77" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="77" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a6a051e53780662d12226aaa3ed83fd2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>double</type>
@@ -62,8 +62,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="63" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="63" bodyend="65"/>
-        <references refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a6a21e9d90fe3adf223cea72c20def5fb" compoundref="model__calibration_8h" startline="61">shyft::core::model_calibration::dream_fx&lt; M &gt;::m</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="78" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="78" bodyend="80"/>
+        <references refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a6a21e9d90fe3adf223cea72c20def5fb" compoundref="model__calibration_8h" startline="76">shyft::core::model_calibration::dream_fx&lt; M &gt;::m</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -71,30 +71,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="262">
+      <node id="363">
         <label>shyft::core::optimizer::ifx</label>
         <link refid="structshyft_1_1core_1_1optimizer_1_1ifx"/>
       </node>
-      <node id="261">
+      <node id="362">
         <label>shyft::core::model_calibration::dream_fx&lt; M &gt;</label>
         <link refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx"/>
-        <childnode refid="262" relation="public-inheritance">
+        <childnode refid="363" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="264">
+      <node id="365">
         <label>shyft::core::optimizer::ifx</label>
         <link refid="structshyft_1_1core_1_1optimizer_1_1ifx"/>
       </node>
-      <node id="263">
+      <node id="364">
         <label>shyft::core::model_calibration::dream_fx&lt; M &gt;</label>
         <link refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx"/>
-        <childnode refid="264" relation="public-inheritance">
+        <childnode refid="365" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sih/projects/shyft/core/model_calibration.h" line="60" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="60" bodyend="66"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="75" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="75" bodyend="81"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a3a1008aad99e684fe09ddb25a88bfca9" prot="public" virt="non-virtual"><scope>shyft::core::model_calibration::dream_fx</scope><name>dream_fx</name></member>
       <member refid="structshyft_1_1core_1_1model__calibration_1_1dream__fx_1a6a051e53780662d12226aaa3ed83fd2a" prot="public" virt="virtual"><scope>shyft::core::model_calibration::dream_fx</scope><name>evaluate</name></member>

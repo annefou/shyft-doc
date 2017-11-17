@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['operator_3c_3c',['operator&lt;&lt;',['../structshyft_1_1core_1_1utcperiod.html#a38c14075602e0c3cfc307c9af9bce4cc',1,'shyft::core::utcperiod']]]
+  ['integral_5fts',['integral_ts',['../structshyft_1_1api_1_1apoint__ts.html#ab4d0b76b7522e37f5e20ff07d748cb16',1,'shyft::api::apoint_ts']]]
 ];

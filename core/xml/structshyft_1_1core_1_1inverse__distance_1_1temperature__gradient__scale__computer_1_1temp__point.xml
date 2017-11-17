@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point</compoundname>
     <includes refid="inverse__distance_8h" local="no">inverse_distance.h</includes>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="270" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="270" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="282" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="282" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1a16060fd636b5c95639e0dd85c41fe41e" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -28,17 +28,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="271" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="271" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="283" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="283" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1aa3c18bccbd6a14c75431cf987a207831" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1a057084d67911fbcf5f2cdc5f67ef220a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point::temp_point</definition>
-        <argsstring>(const geo_point p, double t)</argsstring>
+        <argsstring>(const geo_point &amp;p, double t)</argsstring>
         <name>temp_point</name>
         <param>
-          <type>const <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref></type>
+          <type>const <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> &amp;</type>
           <declname>p</declname>
         </param>
         <param>
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="269" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="269" bodyend="269"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="281" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="281" bodyend="281"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -59,22 +59,22 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="711">
+      <node id="980">
         <label>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point</label>
         <link refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point"/>
-        <childnode refid="712" relation="usage">
+        <childnode refid="981" relation="usage">
           <edgelabel>point</edgelabel>
         </childnode>
       </node>
-      <node id="712">
+      <node id="981">
         <label>shyft::core::geo_point</label>
         <link refid="structshyft_1_1core_1_1geo__point"/>
       </node>
     </collaborationgraph>
-    <location file="/home/sih/projects/shyft/core/inverse_distance.h" line="268" column="1" bodyfile="/home/sih/projects/shyft/core/inverse_distance.h" bodystart="268" bodyend="272"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" line="280" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/inverse_distance.h" bodystart="280" bodyend="284"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1a14cfb03b05444f1a1f0ac69bed3b76f2" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point</scope><name>point</name></member>
-      <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1aa3c18bccbd6a14c75431cf987a207831" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point</scope><name>temp_point</name></member>
+      <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1a057084d67911fbcf5f2cdc5f67ef220a" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point</scope><name>temp_point</name></member>
       <member refid="structshyft_1_1core_1_1inverse__distance_1_1temperature__gradient__scale__computer_1_1temp__point_1a16060fd636b5c95639e0dd85c41fe41e" prot="public" virt="non-virtual"><scope>shyft::core::inverse_distance::temperature_gradient_scale_computer::temp_point</scope><name>temperature</name></member>
     </listofallmembers>
   </compounddef>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::gamma_snow_cell_response_statistics</compoundname>
     <includes refid="api_8h" local="no">api.h</includes>
@@ -20,17 +20,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="539" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="539" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="564" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="564" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ab6c2bf76521465c87d19bb979c0005e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1abba1ad5254605444e41e3f55b23f0f47" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::gamma_snow_cell_response_statistics</definition>
-        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <argsstring>(const shared_ptr&lt; vector&lt; cell &gt;&gt; &amp;cells)</argsstring>
         <name>gamma_snow_cell_response_statistics</name>
         <param>
-          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <type>const shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt; &amp;</type>
           <declname>cells</declname>
         </param>
         <briefdescription>
@@ -39,10 +39,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="540" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="540" bodyend="540"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="565" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="565" bodyend="565"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a5c0dc62bb58ceda71d0c8d1e81f00b89" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::sca</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>sca</name>
@@ -56,8 +56,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="542" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="542" bodyend="546"/>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="567" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="567" bodyend="571"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1abdbbfc3e0eae934b8a678b433f19a83a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -78,9 +78,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="547" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="547" bodyend="551"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="572" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="572" bodyend="576"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1aeb9cfc69fca2ba642bc09881e67d317f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -101,12 +101,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="552" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="552" bodyend="556"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="224" endline="248">shyft::core::cell_statistics::average_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="577" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="577" bodyend="581"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="239" endline="263">shyft::core::cell_statistics::average_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a59ead949050949f999c787512bd2a64d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::swe</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>swe</name>
@@ -120,8 +120,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="558" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="558" bodyend="562"/>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="583" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="583" bodyend="587"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a42035b93e7490c295016beafba2c05fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -142,9 +142,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="563" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="563" bodyend="567"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="588" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="588" bodyend="592"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a1215148af0c350906f353a2da13c12b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -165,12 +165,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="568" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="568" bodyend="572"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="224" endline="248">shyft::core::cell_statistics::average_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="593" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="593" bodyend="597"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="239" endline="263">shyft::core::cell_statistics::average_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a42065f5164623adeb7523b4d40667208" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::outflow</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>outflow</name>
@@ -184,8 +184,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="574" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="574" bodyend="578"/>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="599" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="599" bodyend="603"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1aaa1c46dbdb7b5f426efbde68d56a9757" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -206,9 +206,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="579" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="579" bodyend="583"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="604" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="604" bodyend="608"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a598a56291a129a275c530e1428d54d4d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -229,12 +229,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="584" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="584" bodyend="588"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="296" endline="317">shyft::core::cell_statistics::sum_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="609" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="609" bodyend="613"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="313" endline="334">shyft::core::cell_statistics::sum_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ad89df478cf0c5aba751c64bc2edcad9f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;::glacier_melt</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>glacier_melt</name>
@@ -248,8 +248,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="589" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="589" bodyend="597"/>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="614" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="614" bodyend="622"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a971592605ef3f2780466c30ea3062204" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -270,9 +270,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="598" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="598" bodyend="602"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="623" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="623" bodyend="627"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a9b44d94b9a080e0fecb7cf814b859765" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -293,19 +293,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="603" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="603" bodyend="607"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="296" endline="317">shyft::core::cell_statistics::sum_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="628" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="628" bodyend="632"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a0b26d1059ab1c1921a192ad8874670ee" compoundref="cell__model_8h" startline="313" endline="334">shyft::core::cell_statistics::sum_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>access to skaugen&apos;s snow routine&apos;s state statistics </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/api/api.h" line="538" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="538" bodyend="609"/>
+    <collaborationgraph>
+      <node id="394">
+        <label>shyft::api::gamma_snow_cell_response_statistics&lt; cell &gt;</label>
+        <link refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics"/>
+        <childnode refid="395" relation="usage">
+          <edgelabel>cells</edgelabel>
+        </childnode>
+      </node>
+      <node id="395">
+        <label>shared_ptr&lt; vector&lt; shyft::core::cell &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="563" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="563" bodyend="634"/>
     <listofallmembers>
       <member refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a67459f3e641230fc5fd569465fcced2e" prot="public" virt="non-virtual"><scope>shyft::api::gamma_snow_cell_response_statistics</scope><name>cells</name></member>
-      <member refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ab6c2bf76521465c87d19bb979c0005e3" prot="public" virt="non-virtual"><scope>shyft::api::gamma_snow_cell_response_statistics</scope><name>gamma_snow_cell_response_statistics</name></member>
+      <member refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1abba1ad5254605444e41e3f55b23f0f47" prot="public" virt="non-virtual"><scope>shyft::api::gamma_snow_cell_response_statistics</scope><name>gamma_snow_cell_response_statistics</name></member>
       <member refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1ad89df478cf0c5aba751c64bc2edcad9f" prot="public" virt="non-virtual"><scope>shyft::api::gamma_snow_cell_response_statistics</scope><name>glacier_melt</name></member>
       <member refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a971592605ef3f2780466c30ea3062204" prot="public" virt="non-virtual"><scope>shyft::api::gamma_snow_cell_response_statistics</scope><name>glacier_melt</name></member>
       <member refid="structshyft_1_1api_1_1gamma__snow__cell__response__statistics_1a9b44d94b9a080e0fecb7cf814b859765" prot="public" virt="non-virtual"><scope>shyft::api::gamma_snow_cell_response_statistics</scope><name>glacier_melt_value</name></member>

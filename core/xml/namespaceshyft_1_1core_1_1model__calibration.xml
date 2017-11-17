@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespaceshyft_1_1core_1_1model__calibration" kind="namespace" language="C++">
     <compoundname>shyft::core::model_calibration</compoundname>
     <innerclass refid="structshyft_1_1core_1_1model__calibration_1_1area__ts" prot="public">shyft::core::model_calibration::area_ts</innerclass>
@@ -29,32 +29,53 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a1d095e2da6d4d8f6e04f7d731a7ba36ea1c8092c3a94339284a50bc32f1be83c2" prot="public">
+          <name>ABS_DIFF</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
         <briefdescription>
 <para>calc_type to provide simple start of more than NS critera, first extension is diff of sum 2 </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="155" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="155" bodyend="158"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="170" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="170" bodyend="174"/>
       </memberdef>
-      <memberdef kind="enum" id="namespaceshyft_1_1core_1_1model__calibration_1a5668311af81a0424b26f96379c9ea756" prot="public" static="no">
-        <name>catchment_property_type</name>
-        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a5668311af81a0424b26f96379c9ea756aa948a33766c00e5ed6144fc0451c303d" prot="public">
+      <memberdef kind="enum" id="namespaceshyft_1_1core_1_1model__calibration_1a58f5d5497692aa1b65e50a31cb680ae0" prot="public" static="no">
+        <name>target_property_type</name>
+        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a58f5d5497692aa1b65e50a31cb680ae0aa948a33766c00e5ed6144fc0451c303d" prot="public">
           <name>DISCHARGE</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a5668311af81a0424b26f96379c9ea756a3b51a4a7d6566b611f89b8e6d6e76412" prot="public">
+        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a58f5d5497692aa1b65e50a31cb680ae0a3b51a4a7d6566b611f89b8e6d6e76412" prot="public">
           <name>SNOW_COVERED_AREA</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a5668311af81a0424b26f96379c9ea756a48dacfdcfa0a727aa9f9cb4ff028c7ed" prot="public">
+        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a58f5d5497692aa1b65e50a31cb680ae0a48dacfdcfa0a727aa9f9cb4ff028c7ed" prot="public">
           <name>SNOW_WATER_EQUIVALENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a58f5d5497692aa1b65e50a31cb680ae0a822e8756e649449b22cbf6e223c7d1fd" prot="public">
+          <name>ROUTED_DISCHARGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceshyft_1_1core_1_1model__calibration_1a58f5d5497692aa1b65e50a31cb680ae0a56d55d78a96ddae548efb0541b9b9526" prot="public">
+          <name>CELL_CHARGE</name>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -66,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="161" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="161" bodyend="165"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="177" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="177" bodyend="183"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="typedef">
@@ -81,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="249" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="249" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="286" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="286" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -167,8 +188,8 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="31" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="31" bodyend="-1"/>
-        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1adfe129bd152e378a6123493839fcc19c" compoundref="model__calibration_8h" startline="480" endline="489">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="46" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ae1c972c2059cb25bb119808b4e3a7ac8" compoundref="model__calibration_8h" startline="528" endline="536">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1model__calibration_1a220dadd8e1f05e89b7a8d866f2af1d05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -229,7 +250,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="76" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="76" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="91" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="91" bodyend="-1"/>
         <references refid="classshyft_1_1core_1_1optimizer_1_1dream_1a50bc04e18e06cdbdfed4f932e360e832" compoundref="dream__optimizer_8cpp" startline="9" endline="287">shyft::core::optimizer::dream::find_max</references>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1core_1_1model__calibration_1a382ab7d062b7bfa5337fd166f81c83e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -317,24 +338,25 @@
 <parametername>runtime_error</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>with text sceua: max_iterations reached before convergence </para></parameterdescription>
+<para>with text sceua: terminated before convergence or max iterations </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>        </detaileddescription>
         <inbodydescription>
 <para>normalized range is 0..1 so is min..max </para>        </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/model_calibration.h" line="108" column="1" bodyfile="/home/sih/projects/shyft/core/model_calibration.h" bodystart="108" bodyend="129"/>
-        <references refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" compoundref="optimizer__utils_8h" startline="42">__autoalloc__</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="123" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" bodystart="123" bodyend="144"/>
+        <references refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" compoundref="optimizer__utils_8h" startline="45">__autoalloc__</references>
         <references refid="classshyft_1_1core_1_1optimizer_1_1sceua_1a6a357fe2862dd062b65a01180c450bb9" compoundref="sceua__optimizer_8cpp" startline="10" endline="107">shyft::core::optimizer::sceua::find_min</references>
-        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda81d68d9ca3c686ab5b8281c848e4b895" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedFxConvergence</references>
-        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdac7c88fac2a9aa0013d4176be2fea4062" compoundref="sceua__optimizer_8h" startline="47">shyft::core::optimizer::FinishedXconvergence</references>
-        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1aa9ab8e4f1225013de73d7ab2472ef03d" compoundref="model__calibration_8h" startline="532" endline="540">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</referencedby>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cda81d68d9ca3c686ab5b8281c848e4b895" compoundref="sceua__optimizer_8h" startline="53">shyft::core::optimizer::FinishedFxConvergence</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdac7c88fac2a9aa0013d4176be2fea4062" compoundref="sceua__optimizer_8h" startline="53">shyft::core::optimizer::FinishedXconvergence</references>
+        <references refid="namespaceshyft_1_1core_1_1optimizer_1a50d8a7acfa5c722a9b4fa540fb3b58cdaaf3746175bb57d02e1ec7d45c12766f0" compoundref="sceua__optimizer_8h" startline="53">shyft::core::optimizer::FinishedMaxIterations</references>
+        <referencedby refid="classshyft_1_1core_1_1model__calibration_1_1optimizer_1ab6ffadc58e1cc20648df8496a0e2ea7a" compoundref="model__calibration_8h" startline="578" endline="585">shyft::core::model_calibration::optimizer&lt; M, PA, PS &gt;::optimize_sceua</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/model_calibration.h" line="11" column="1"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h" line="26" column="1"/>
   </compounddef>
 </doxygen>

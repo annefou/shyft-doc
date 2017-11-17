@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1hbv__soil__cell__response__statistics" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::hbv_soil_cell_response_statistics</compoundname>
     <includes refid="api_8h" local="no">api.h</includes>
@@ -20,17 +20,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="880" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="880" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="905" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="905" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1ac326006c8c58afb397aebe41e57f7bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a566ceea2fd5693edbeee8caf23277611" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <type></type>
         <definition>shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::hbv_soil_cell_response_statistics</definition>
-        <argsstring>(shared_ptr&lt; vector&lt; cell &gt;&gt; cells)</argsstring>
+        <argsstring>(const shared_ptr&lt; vector&lt; cell &gt;&gt; &amp;cells)</argsstring>
         <name>hbv_soil_cell_response_statistics</name>
         <param>
-          <type>shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt;</type>
+          <type>const shared_ptr&lt; vector&lt; <ref refid="structshyft_1_1core_1_1cell" kindref="compound">cell</ref> &gt;&gt; &amp;</type>
           <declname>cells</declname>
         </param>
         <briefdescription>
@@ -39,10 +39,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="881" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="881" bodyend="881"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="906" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="906" bodyend="906"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a4ee144002bb6ecd0e0d17a910da22eb9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+        <type><ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
         <definition>apoint_ts shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;::output</definition>
         <argsstring>(const vector&lt; int &gt; &amp;catchment_indexes) const</argsstring>
         <name>output</name>
@@ -56,8 +56,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="883" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="883" bodyend="887"/>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="908" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="908" bodyend="912"/>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a5c2b38ebb91ccac1c3cc5ec70fd977d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>vector&lt; double &gt;</type>
@@ -78,9 +78,9 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="888" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="888" bodyend="892"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="331" endline="352">shyft::core::cell_statistics::catchment_feature</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="913" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="913" bodyend="917"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1aaf3bdcacc09e2f20b2e81c96fd827d30" compoundref="cell__model_8h" startline="348" endline="369">shyft::core::cell_statistics::catchment_feature</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1aadaf3d817a4928f95ded6edabdc7a866" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -101,19 +101,31 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="893" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="893" bodyend="897"/>
-        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="224" endline="248">shyft::core::cell_statistics::average_catchment_feature_value</references>
-        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="104">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="918" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="918" bodyend="922"/>
+        <references refid="structshyft_1_1core_1_1cell__statistics_1a73c5bb9ef98437b609c73e772a163d7f" compoundref="cell__model_8h" startline="239" endline="263">shyft::core::cell_statistics::average_catchment_feature_value</references>
+        <references refid="structshyft_1_1core_1_1cell_1acc33fa1d731a758b8b28398415d1169d" compoundref="cell__model_8h" startline="116">shyft::core::cell&lt; P, E, S, SC, RC &gt;::rc</references>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/api/api.h" line="879" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="879" bodyend="898"/>
+    <collaborationgraph>
+      <node id="465">
+        <label>shared_ptr&lt; vector&lt; shyft::core::cell &gt; &gt;</label>
+      </node>
+      <node id="464">
+        <label>shyft::api::hbv_soil_cell_response_statistics&lt; cell &gt;</label>
+        <link refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics"/>
+        <childnode refid="465" relation="usage">
+          <edgelabel>cells</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="904" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="904" bodyend="923"/>
     <listofallmembers>
       <member refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1aafb5059f65de13430c98782a47a4f92f" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_response_statistics</scope><name>cells</name></member>
-      <member refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1ac326006c8c58afb397aebe41e57f7bd0" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_response_statistics</scope><name>hbv_soil_cell_response_statistics</name></member>
+      <member refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a566ceea2fd5693edbeee8caf23277611" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_response_statistics</scope><name>hbv_soil_cell_response_statistics</name></member>
       <member refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a4ee144002bb6ecd0e0d17a910da22eb9" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_response_statistics</scope><name>output</name></member>
       <member refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1a5c2b38ebb91ccac1c3cc5ec70fd977d4" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_response_statistics</scope><name>output</name></member>
       <member refid="structshyft_1_1api_1_1hbv__soil__cell__response__statistics_1aadaf3d817a4928f95ded6edabdc7a866" prot="public" virt="non-virtual"><scope>shyft::api::hbv_soil_cell_response_statistics</scope><name>output_value</name></member>

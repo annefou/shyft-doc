@@ -10,6 +10,7 @@ var structshyft_1_1core_1_1utcperiod =
     [ "timespan", "structshyft_1_1core_1_1utcperiod.html#a657dbfcddcc6ea03d1db9c2248320bdb", null ],
     [ "to_string", "structshyft_1_1core_1_1utcperiod.html#a2583b4934f8cff45f3f351a4a7f896bf", null ],
     [ "valid", "structshyft_1_1core_1_1utcperiod.html#a8be9de6439219bf8f166f5e08279dfb5", null ],
+    [ "x_serialize_decl", "structshyft_1_1core_1_1utcperiod.html#a088dbe289ed1a547891a50a68c709ccc", null ],
     [ "operator<<", "structshyft_1_1core_1_1utcperiod.html#a38c14075602e0c3cfc307c9af9bce4cc", null ],
     [ "end", "structshyft_1_1core_1_1utcperiod.html#a6633ffd83e46f9ef26098ffd4a2d61b7", null ],
     [ "start", "structshyft_1_1core_1_1utcperiod.html#a84dc6f45bb83d9fdbf457bcd89db34e5", null ]

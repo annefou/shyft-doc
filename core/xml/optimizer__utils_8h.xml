@@ -1,57 +1,69 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="optimizer__utils_8h" kind="file" language="C++">
     <compoundname>optimizer_utils.h</compoundname>
-    <includedby refid="dream__optimizer_8h" local="yes">/home/sih/projects/shyft/core/dream_optimizer.h</includedby>
-    <includedby refid="sceua__optimizer_8h" local="yes">/home/sih/projects/shyft/core/sceua_optimizer.h</includedby>
+    <includes local="no">vector</includes>
+    <includes local="no">cstring</includes>
+    <includedby refid="dream__optimizer_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dream_optimizer.h</includedby>
+    <includedby refid="sceua__optimizer_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/sceua_optimizer.h</includedby>
+    <incdepgraph>
+      <node id="1338">
+        <label>vector</label>
+      </node>
+      <node id="1337">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/optimizer_utils.h</label>
+        <link refid="optimizer__utils_8h"/>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+      </node>
+      <node id="1339">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
     <invincdepgraph>
-      <node id="745">
-        <label>/home/sih/projects/shyft/core/dream_optimizer.cpp</label>
+      <node id="1342">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dream_optimizer.cpp</label>
         <link refid="dream__optimizer_8cpp"/>
       </node>
-      <node id="746">
-        <label>/home/sih/projects/shyft/core/model_calibration.h</label>
-        <link refid="model__calibration_8h"/>
-        <childnode refid="747" relation="include">
+      <node id="1341">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/dream_optimizer.h</label>
+        <link refid="dream__optimizer_8h"/>
+        <childnode refid="1342" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
         </childnode>
       </node>
-      <node id="750">
-        <label>/home/sih/projects/shyft/core/sceua_optimizer.cpp</label>
+      <node id="1343">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/model_calibration.h</label>
+        <link refid="model__calibration_8h"/>
+        <childnode refid="1344" relation="include">
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/sceua_optimizer.cpp</label>
         <link refid="sceua__optimizer_8cpp"/>
       </node>
-      <node id="744">
-        <label>/home/sih/projects/shyft/core/dream_optimizer.h</label>
-        <link refid="dream__optimizer_8h"/>
-        <childnode refid="745" relation="include">
-        </childnode>
-        <childnode refid="746" relation="include">
-        </childnode>
-      </node>
-      <node id="747">
-        <label>/home/sih/projects/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="748" relation="include">
-        </childnode>
-      </node>
-      <node id="749">
-        <label>/home/sih/projects/shyft/core/sceua_optimizer.h</label>
+      <node id="1345">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/sceua_optimizer.h</label>
         <link refid="sceua__optimizer_8h"/>
-        <childnode refid="746" relation="include">
+        <childnode refid="1343" relation="include">
         </childnode>
-        <childnode refid="750" relation="include">
+        <childnode refid="1346" relation="include">
         </childnode>
       </node>
-      <node id="743">
-        <label>/home/sih/projects/shyft/core/optimizer_utils.h</label>
+      <node id="1344">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+      </node>
+      <node id="1340">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/optimizer_utils.h</label>
         <link refid="optimizer__utils_8h"/>
-        <childnode refid="744" relation="include">
+        <childnode refid="1341" relation="include">
         </childnode>
-        <childnode refid="749" relation="include">
+        <childnode refid="1345" relation="include">
         </childnode>
-      </node>
-      <node id="748">
-        <label>/home/sih/projects/shyft/api/api.cpp</label>
-        <link refid="api_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structshyft_1_1core_1_1optimizer_1_1ifx" prot="public">shyft::core::optimizer::ifx</innerclass>
@@ -70,7 +82,7 @@
 <para>fastcopy is a template wrapper for memcpy for copying arrays. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/optimizer_utils.h" line="42" column="21" bodyfile="/home/sih/projects/shyft/core/optimizer_utils.h" bodystart="42" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/optimizer_utils.h" line="45" column="21" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/optimizer_utils.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -80,28 +92,31 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">optimizer<sp/>{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
-<codeline lineno="29" refid="structshyft_1_1core_1_1optimizer_1_1ifx" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1optimizer_1_1ifx" kindref="compound">ifx</ref><sp/>{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>evaluate(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;&amp;<sp/>x)=0;</highlight></codeline>
-<codeline lineno="31" refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abdaa6999c063f88364570a6056b33f32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abdaa6999c063f88364570a6056b33f32" kindref="member">evaluate</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x)<sp/>{</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;double&gt;<sp/>xx(x,x+n);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>evaluate(xx);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" refkind="member"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>__autoalloc__(TP,n)((TP*)alloca(n*sizeof(TP)))</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>fastcopy(T*dst,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T*src,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n)<sp/>{</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(dst,src,n*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(T));</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">optimizer<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="32" refid="structshyft_1_1core_1_1optimizer_1_1ifx" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1optimizer_1_1ifx" kindref="compound">ifx</ref><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>evaluate(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;&amp;<sp/>x)=0;</highlight></codeline>
+<codeline lineno="34" refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abdaa6999c063f88364570a6056b33f32" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1optimizer_1_1ifx_1abdaa6999c063f88364570a6056b33f32" kindref="member">evaluate</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*x)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;double&gt;<sp/>xx(x,x+n);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>evaluate(xx);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="optimizer__utils_8h_1a906f73011cf1685b8a9da2f9ee44e540" refkind="member"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>__autoalloc__(TP,n)((TP*)alloca(n*sizeof(TP)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>fastcopy(T*dst,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T*src,</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n)<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(dst,src,n*</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(T));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/optimizer_utils.h"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/optimizer_utils.h"/>
   </compounddef>
 </doxygen>

@@ -1,6 +1,6 @@
 var structshyft_1_1api_1_1gamma__snow__cell__state__statistics =
 [
-    [ "gamma_snow_cell_state_statistics", "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a5619074f69691fa3750b1f7a35d5d17e", null ],
+    [ "gamma_snow_cell_state_statistics", "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a4bdbe0ecee398c9b10ef47132f0b6737", null ],
     [ "acc_melt", "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#ab29df9b39baa3a737b78b4f2bf9b80c9", null ],
     [ "acc_melt", "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a0157af1553414599a9871d94fdf06e2b", null ],
     [ "acc_melt_value", "structshyft_1_1api_1_1gamma__snow__cell__state__statistics.html#a29c5d388ccd387d2ba6ffdf0126013e6", null ],

@@ -1,6 +1,9 @@
 var structshyft_1_1api_1_1basic__cell__statistics =
 [
-    [ "basic_cell_statistics", "structshyft_1_1api_1_1basic__cell__statistics.html#a52a6b3517697539850063c262f2a03ef", null ],
+    [ "basic_cell_statistics", "structshyft_1_1api_1_1basic__cell__statistics.html#a56e329b61cfb80a7c4038a7cb143c74d", null ],
+    [ "charge", "structshyft_1_1api_1_1basic__cell__statistics.html#a8539e71af596bfb7b3255cb233035483", null ],
+    [ "charge", "structshyft_1_1api_1_1basic__cell__statistics.html#aa0f66f4ed79902eaeb592fad70d771ff", null ],
+    [ "charge_value", "structshyft_1_1api_1_1basic__cell__statistics.html#a82778f7dff744f9c0a77fc66a2ede08f", null ],
     [ "discharge", "structshyft_1_1api_1_1basic__cell__statistics.html#a542c9330f3602b8aec47a6d4fdc043cc", null ],
     [ "discharge", "structshyft_1_1api_1_1basic__cell__statistics.html#a470c074cace6796ba0d1971929755b0c", null ],
     [ "discharge_value", "structshyft_1_1api_1_1basic__cell__statistics.html#a199f12198bb0282511b3602fde44c48d", null ],

@@ -1,6 +1,6 @@
 var structshyft_1_1api_1_1skaugen__cell__response__statistics =
 [
-    [ "skaugen_cell_response_statistics", "structshyft_1_1api_1_1skaugen__cell__response__statistics.html#a4ab9331f606a1905407dd7525031733f", null ],
+    [ "skaugen_cell_response_statistics", "structshyft_1_1api_1_1skaugen__cell__response__statistics.html#a9ac651f1d8aa0ba664489a80ed28220b", null ],
     [ "glacier_melt", "structshyft_1_1api_1_1skaugen__cell__response__statistics.html#a8a74183bfc4e578f3fe3b6be3572a366", null ],
     [ "glacier_melt", "structshyft_1_1api_1_1skaugen__cell__response__statistics.html#a17d8fae466441260e3050a4d84c5dd4e", null ],
     [ "glacier_melt_value", "structshyft_1_1api_1_1skaugen__cell__response__statistics.html#a843b3cde542c64f3c7d0bb85c1e1af37", null ],

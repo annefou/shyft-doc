@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1core_1_1hbv__stack_1_1null__collector" kind="struct" language="C++" prot="public">
     <compoundname>shyft::core::hbv_stack::null_collector</compoundname>
     <includes refid="hbv__stack__cell__model_8h" local="no">hbv_stack_cell_model.h</includes>
@@ -10,7 +10,7 @@
         <argsstring>(const timeaxis_t &amp;time_axis, int start_step=0, int n_steps=0, double area=0.0)</argsstring>
         <name>initialize</name>
         <param>
-          <type>const <ref refid="namespaceshyft_1_1core_1a147759d3a865deddd1ddafb19dc7f431" kindref="member">timeaxis_t</ref> &amp;</type>
+          <type>const <ref refid="namespaceshyft_1_1core_1a50dd751544580a16e4a1b33d3b82c266" kindref="member">timeaxis_t</ref> &amp;</type>
           <declname>time_axis</declname>
         </param>
         <param>
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_stack_cell_model.h" line="122" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_stack_cell_model.h" bodystart="122" bodyend="122"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h" line="138" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h" bodystart="138" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a694df32dad37c96fd85a504dc26c85ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -55,14 +55,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/hbv_stack_cell_model.h" line="123" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_stack_cell_model.h" bodystart="123" bodyend="123"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h" line="139" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h" bodystart="139" bodyend="139"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>a state null collector </para>    </briefdescription>
     <detaileddescription>
 <para>Used during calibration/optimization when there is no need for state, and we need all the RAM for useful purposes. </para>    </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/hbv_stack_cell_model.h" line="121" column="1" bodyfile="/home/sih/projects/shyft/core/hbv_stack_cell_model.h" bodystart="121" bodyend="124"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h" line="137" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/hbv_stack_cell_model.h" bodystart="137" bodyend="140"/>
     <listofallmembers>
       <member refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a694df32dad37c96fd85a504dc26c85ea" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::null_collector</scope><name>collect</name></member>
       <member refid="structshyft_1_1core_1_1hbv__stack_1_1null__collector_1a9b901f929e69f6a93695adb71a42520e" prot="public" virt="non-virtual"><scope>shyft::core::hbv_stack::null_collector</scope><name>initialize</name></member>

@@ -1,7 +1,14 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="core_2pt__ss__k_8h" kind="file" language="C++">
     <compoundname>pt_ss_k.h</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">limits</includes>
+    <includes local="no">stdexcept</includes>
+    <includes refid="core__pch_8h" local="yes">core_pch.h</includes>
     <includes refid="priestley__taylor_8h" local="yes">priestley_taylor.h</includes>
     <includes refid="kirchner_8h" local="yes">kirchner.h</includes>
     <includes refid="skaugen_8h" local="yes">skaugen.h</includes>
@@ -9,121 +16,363 @@
     <includes refid="precipitation__correction_8h" local="yes">precipitation_correction.h</includes>
     <includes refid="glacier__melt_8h" local="yes">glacier_melt.h</includes>
     <includes refid="unit__conversion_8h" local="yes">unit_conversion.h</includes>
-    <includedby refid="pt__ss__k__cell__model_8h" local="yes">/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</includedby>
-    <includedby refid="api_2pt__ss__k_8h" local="yes">/home/sih/projects/shyft/api/pt_ss_k.h</includedby>
+    <includes refid="routing_8h" local="yes">routing.h</includes>
+    <includedby refid="core__serialization_8cpp" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_serialization.cpp</includedby>
+    <includedby refid="pt__ss__k__cell__model_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</includedby>
+    <includedby refid="api__state_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</includedby>
+    <includedby refid="api_2pt__ss__k_8h" local="yes">/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_ss_k.h</includedby>
     <incdepgraph>
-      <node id="973">
-        <label>actual_evapotranspiration.h</label>
-        <link refid="actual__evapotranspiration_8h"/>
-        <childnode refid="968" relation="include">
-        </childnode>
-      </node>
-      <node id="974">
-        <label>precipitation_correction.h</label>
-        <link refid="precipitation__correction_8h"/>
-      </node>
-      <node id="965">
+      <node id="1700">
         <label>kirchner.h</label>
         <link refid="kirchner_8h"/>
-        <childnode refid="966" relation="include">
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1701" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+        <childnode refid="1702" relation="include">
         </childnode>
       </node>
-      <node id="970">
-        <label>glacier_melt.h</label>
-        <link refid="glacier__melt_8h"/>
-        <childnode refid="968" relation="include">
+      <node id="1723">
+        <label>routing.h</label>
+        <link refid="routing_8h"/>
+        <childnode refid="1690" relation="include">
+        </childnode>
+        <childnode refid="1691" relation="include">
+        </childnode>
+        <childnode refid="1710" relation="include">
+        </childnode>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1694" relation="include">
+        </childnode>
+        <childnode refid="1724" relation="include">
+        </childnode>
+        <childnode refid="1705" relation="include">
+        </childnode>
+        <childnode refid="1704" relation="include">
+        </childnode>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1725" relation="include">
+        </childnode>
+        <childnode refid="1717" relation="include">
+        </childnode>
+        <childnode refid="1726" relation="include">
+        </childnode>
+        <childnode refid="1713" relation="include">
+        </childnode>
+        <childnode refid="1702" relation="include">
         </childnode>
       </node>
-      <node id="968">
-        <label>utctime_utilities.h</label>
-        <link refid="utctime__utilities_8h"/>
+      <node id="1694">
+        <label>limits</label>
       </node>
-      <node id="971">
-        <label>unit_conversion.h</label>
-        <link refid="unit__conversion_8h"/>
+      <node id="1719">
+        <label>boost/math/tools/roots.hpp</label>
       </node>
-      <node id="972">
-        <label>skaugen.h</label>
-        <link refid="skaugen_8h"/>
-        <childnode refid="968" relation="include">
+      <node id="1721">
+        <label>actual_evapotranspiration.h</label>
+        <link refid="actual__evapotranspiration_8h"/>
+        <childnode refid="1693" relation="include">
         </childnode>
-        <childnode refid="966" relation="include">
+        <childnode refid="1709" relation="include">
         </childnode>
       </node>
-      <node id="966">
-        <label>timeseries.h</label>
-        <link refid="core_2timeseries_8h"/>
-        <childnode refid="967" relation="include">
-        </childnode>
-        <childnode refid="968" relation="include">
-        </childnode>
-        <childnode refid="969" relation="include">
-        </childnode>
-        <childnode refid="970" relation="include">
-        </childnode>
-        <childnode refid="971" relation="include">
+      <node id="1697">
+        <label>boost/serialization/access.hpp</label>
+      </node>
+      <node id="1703">
+        <label>cstdint</label>
+      </node>
+      <node id="1717">
+        <label>boost/math/distributions/gamma.hpp</label>
+      </node>
+      <node id="1699">
+        <label>priestley_taylor.h</label>
+        <link refid="priestley__taylor_8h"/>
+        <childnode refid="1693" relation="include">
         </childnode>
       </node>
-      <node id="969">
+      <node id="1693">
+        <label>cmath</label>
+      </node>
+      <node id="1695">
+        <label>stdexcept</label>
+      </node>
+      <node id="1713">
         <label>time_axis.h</label>
         <link refid="time__axis_8h"/>
-        <childnode refid="968" relation="include">
+        <childnode refid="1690" relation="include">
+        </childnode>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1691" relation="include">
+        </childnode>
+        <childnode refid="1704" relation="include">
+        </childnode>
+        <childnode refid="1705" relation="include">
+        </childnode>
+        <childnode refid="1706" relation="include">
+        </childnode>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+        <childnode refid="1709" relation="include">
         </childnode>
       </node>
-      <node id="963">
-        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
-        <link refid="core_2pt__ss__k_8h"/>
-        <childnode refid="964" relation="include">
+      <node id="1690">
+        <label>string</label>
+      </node>
+      <node id="1710">
+        <label>map</label>
+      </node>
+      <node id="1720">
+        <label>boost/math/tools/minima.hpp</label>
+      </node>
+      <node id="1698">
+        <label>boost/serialization/export.hpp</label>
+      </node>
+      <node id="1702">
+        <label>time_series.h</label>
+        <link refid="core_2time__series_8h"/>
+        <childnode refid="1703" relation="include">
         </childnode>
-        <childnode refid="965" relation="include">
+        <childnode refid="1693" relation="include">
         </childnode>
-        <childnode refid="972" relation="include">
+        <childnode refid="1690" relation="include">
         </childnode>
-        <childnode refid="973" relation="include">
+        <childnode refid="1695" relation="include">
         </childnode>
-        <childnode refid="974" relation="include">
+        <childnode refid="1691" relation="include">
         </childnode>
-        <childnode refid="970" relation="include">
+        <childnode refid="1704" relation="include">
         </childnode>
-        <childnode refid="971" relation="include">
+        <childnode refid="1705" relation="include">
+        </childnode>
+        <childnode refid="1706" relation="include">
+        </childnode>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1707" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+        <childnode refid="1708" relation="include">
+        </childnode>
+        <childnode refid="1709" relation="include">
+        </childnode>
+        <childnode refid="1713" relation="include">
+        </childnode>
+        <childnode refid="1714" relation="include">
+        </childnode>
+        <childnode refid="1715" relation="include">
         </childnode>
       </node>
-      <node id="967">
+      <node id="1708">
         <label>compiler_compatiblity.h</label>
         <link refid="compiler__compatiblity_8h"/>
       </node>
-      <node id="964">
-        <label>priestley_taylor.h</label>
-        <link refid="priestley__taylor_8h"/>
+      <node id="1726">
+        <label>geo_cell_data.h</label>
+        <link refid="geo__cell__data_8h"/>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+        <childnode refid="1727" relation="include">
+        </childnode>
+      </node>
+      <node id="1715">
+        <label>unit_conversion.h</label>
+        <link refid="unit__conversion_8h"/>
+      </node>
+      <node id="1724">
+        <label>future</label>
+      </node>
+      <node id="1712">
+        <label>ctime</label>
+      </node>
+      <node id="1722">
+        <label>precipitation_correction.h</label>
+        <link refid="precipitation__correction_8h"/>
+      </node>
+      <node id="1691">
+        <label>vector</label>
+      </node>
+      <node id="1689">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h</label>
+        <link refid="core_2pt__ss__k_8h"/>
+        <childnode refid="1690" relation="include">
+        </childnode>
+        <childnode refid="1691" relation="include">
+        </childnode>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1694" relation="include">
+        </childnode>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+        <childnode refid="1699" relation="include">
+        </childnode>
+        <childnode refid="1700" relation="include">
+        </childnode>
+        <childnode refid="1716" relation="include">
+        </childnode>
+        <childnode refid="1721" relation="include">
+        </childnode>
+        <childnode refid="1722" relation="include">
+        </childnode>
+        <childnode refid="1714" relation="include">
+        </childnode>
+        <childnode refid="1715" relation="include">
+        </childnode>
+        <childnode refid="1723" relation="include">
+        </childnode>
+      </node>
+      <node id="1705">
+        <label>utility</label>
+      </node>
+      <node id="1716">
+        <label>skaugen.h</label>
+        <link refid="skaugen_8h"/>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1717" relation="include">
+        </childnode>
+        <childnode refid="1718" relation="include">
+        </childnode>
+        <childnode refid="1719" relation="include">
+        </childnode>
+        <childnode refid="1720" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+        <childnode refid="1709" relation="include">
+        </childnode>
+        <childnode refid="1702" relation="include">
+        </childnode>
+      </node>
+      <node id="1707">
+        <label>sstream</label>
+      </node>
+      <node id="1701">
+        <label>boost/numeric/odeint.hpp</label>
+      </node>
+      <node id="1709">
+        <label>utctime_utilities.h</label>
+        <link refid="utctime__utilities_8h"/>
+        <childnode refid="1704" relation="include">
+        </childnode>
+        <childnode refid="1691" relation="include">
+        </childnode>
+        <childnode refid="1690" relation="include">
+        </childnode>
+        <childnode refid="1710" relation="include">
+        </childnode>
+        <childnode refid="1695" relation="include">
+        </childnode>
+        <childnode refid="1711" relation="include">
+        </childnode>
+        <childnode refid="1692" relation="include">
+        </childnode>
+        <childnode refid="1712" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+      </node>
+      <node id="1711">
+        <label>iosfwd</label>
+      </node>
+      <node id="1727">
+        <label>geo_point.h</label>
+        <link refid="geo__point_8h"/>
+        <childnode refid="1693" relation="include">
+        </childnode>
+        <childnode refid="1696" relation="include">
+        </childnode>
+      </node>
+      <node id="1725">
+        <label>mutex</label>
+      </node>
+      <node id="1718">
+        <label>boost/math/special_functions/gamma.hpp</label>
+      </node>
+      <node id="1706">
+        <label>type_traits</label>
+      </node>
+      <node id="1696">
+        <label>core_pch.h</label>
+        <link refid="core__pch_8h"/>
+        <childnode refid="1697" relation="include">
+        </childnode>
+        <childnode refid="1698" relation="include">
+        </childnode>
+      </node>
+      <node id="1692">
+        <label>algorithm</label>
+      </node>
+      <node id="1714">
+        <label>glacier_melt.h</label>
+        <link refid="glacier__melt_8h"/>
+      </node>
+      <node id="1704">
+        <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="979">
-        <label>/home/sih/projects/shyft/api/pt_ss_k.h</label>
+      <node id="1734">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/pt_ss_k.h</label>
         <link refid="api_2pt__ss__k_8h"/>
       </node>
-      <node id="977">
-        <label>/home/sih/projects/shyft/api/api.h</label>
-        <link refid="api_8h"/>
-        <childnode refid="978" relation="include">
-        </childnode>
-      </node>
-      <node id="976">
-        <label>/home/sih/projects/shyft/core/pt_ss_k_cell_model.h</label>
-        <link refid="pt__ss__k__cell__model_8h"/>
-        <childnode refid="977" relation="include">
-        </childnode>
-      </node>
-      <node id="978">
-        <label>/home/sih/projects/shyft/api/api.cpp</label>
-        <link refid="api_8cpp"/>
-      </node>
-      <node id="975">
-        <label>/home/sih/projects/shyft/core/pt_ss_k.h</label>
+      <node id="1728">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h</label>
         <link refid="core_2pt__ss__k_8h"/>
-        <childnode refid="976" relation="include">
+        <childnode refid="1729" relation="include">
         </childnode>
-        <childnode refid="979" relation="include">
+        <childnode refid="1730" relation="include">
+        </childnode>
+        <childnode refid="1732" relation="include">
+        </childnode>
+        <childnode refid="1734" relation="include">
+        </childnode>
+      </node>
+      <node id="1732">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_state.h</label>
+        <link refid="api__state_8h"/>
+        <childnode refid="1733" relation="include">
+        </childnode>
+      </node>
+      <node id="1733">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api_serialization.cpp</label>
+        <link refid="api__serialization_8cpp"/>
+      </node>
+      <node id="1731">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h</label>
+        <link refid="api_8h"/>
+      </node>
+      <node id="1729">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/core_serialization.cpp</label>
+        <link refid="core__serialization_8cpp"/>
+      </node>
+      <node id="1730">
+        <label>/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k_cell_model.h</label>
+        <link refid="pt__ss__k__cell__model_8h"/>
+        <childnode refid="1731" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -133,237 +382,279 @@
     <innernamespace refid="namespaceshyft">shyft</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core">shyft::core</innernamespace>
     <innernamespace refid="namespaceshyft_1_1core_1_1pt__ss__k">shyft::core::pt_ss_k</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="core_2pt__ss__k_8h_1a160ae27b7ee25e5563fe86ba774ecc00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>x_serialize_export_key</definition>
+        <argsstring>(shyft::core::pt_ss_k::state)</argsstring>
+        <name>x_serialize_export_key</name>
+        <param>
+          <type><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">shyft::core::pt_ss_k::state</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h" line="251" column="1"/>
+        <referencedby refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" compoundref="core_2pt__ss__k_8h" startline="173" endline="246">shyft::core::pt_ss_k::run</referencedby>
+      </memberdef>
+      </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="priestley__taylor_8h" kindref="compound">priestley_taylor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="kirchner_8h" kindref="compound">kirchner.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="skaugen_8h" kindref="compound">skaugen.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="actual__evapotranspiration_8h" kindref="compound">actual_evapotranspiration.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="precipitation__correction_8h" kindref="compound">precipitation_correction.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="glacier__melt_8h" kindref="compound">glacier_melt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unit__conversion_8h" kindref="compound">unit_conversion.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cmath&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="core__pch_8h" kindref="compound">core_pch.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
-<codeline lineno="13" refid="namespaceshyft_1_1core_1_1pt__ss__k" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">pt_ss_k<sp/>{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
-<codeline lineno="15" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
-<codeline lineno="16" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8d75cd9b510de1ff4ab8250727c473c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter" kindref="compound">priestley_taylor::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8d75cd9b510de1ff4ab8250727c473c" kindref="member">pt_parameter_t</ref>;</highlight></codeline>
-<codeline lineno="17" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5f6332ad99511a51288624778a973262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1skaugen_1_1parameter" kindref="compound">skaugen::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5f6332ad99511a51288624778a973262" kindref="member">snow_parameter_t</ref>;</highlight></codeline>
-<codeline lineno="18" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a355cce900fa4742506ee37c090c87e8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" kindref="compound">actual_evapotranspiration::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a355cce900fa4742506ee37c090c87e8f" kindref="member">ae_parameter_t</ref>;</highlight></codeline>
-<codeline lineno="19" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a90ae84da398ce2eefc42890c09ce7596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter" kindref="compound">kirchner::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a90ae84da398ce2eefc42890c09ce7596" kindref="member">kirchner_parameter_t</ref>;</highlight></codeline>
-<codeline lineno="20" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a818a87957779708a331d993b7d52eaac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" kindref="compound">precipitation_correction::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a818a87957779708a331d993b7d52eaac" kindref="member">precipitation_correction_parameter_t</ref>;</highlight></codeline>
-<codeline lineno="21" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a9ab3cc839f017dc725d65a185505ebb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" kindref="compound">glacier_melt::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a9ab3cc839f017dc725d65a185505ebb9" kindref="member">glacier_melt_parameter_t</ref>;</highlight></codeline>
-<codeline lineno="22" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a8bf09fe2d250d2e4e51624fa842e30be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a8bf09fe2d250d2e4e51624fa842e30be" kindref="member">pt</ref>;</highlight></codeline>
-<codeline lineno="23" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5209ac1e6d34ce82da700a988c9e5012" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5209ac1e6d34ce82da700a988c9e5012" kindref="member">ss</ref>;</highlight></codeline>
-<codeline lineno="24" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a4f2cbc2f0f91f8e03e9dff494f99a072" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a4f2cbc2f0f91f8e03e9dff494f99a072" kindref="member">ae</ref>;</highlight></codeline>
-<codeline lineno="25" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae9e4199fc635b28da049ec641f17faf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_parameter_t<sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae9e4199fc635b28da049ec641f17faf1" kindref="member">kirchner</ref>;</highlight></codeline>
-<codeline lineno="26" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a3e29d001401ac90851bf54ac9c3021e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation_correction_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a3e29d001401ac90851bf54ac9c3021e3" kindref="member">p_corr</ref>;</highlight></codeline>
-<codeline lineno="27" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a765407b8e4c5b2483350651b8f18ba27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glacier_melt_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a765407b8e4c5b2483350651b8f18ba27" kindref="member">gm</ref>;</highlight></codeline>
-<codeline lineno="28" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a98d21cefc2e915763ef9cc0a1b575e3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a98d21cefc2e915763ef9cc0a1b575e3a" kindref="member">parameter</ref>(pt_parameter_t<sp/>pt,</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_parameter_t<sp/>snow,</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae_parameter_t<sp/>ae,</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_parameter_t<sp/>kirchner,</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation_correction_parameter_t<sp/>p_corr,</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glacier_melt_parameter_t<sp/>gm=glacier_melt_parameter_t())</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>pt(pt),<sp/>ss(snow),<sp/>ae(ae),<sp/>kirchner(kirchner),<sp/>p_corr(p_corr),gm(gm)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Do<sp/>nothing<sp/>*/</highlight><highlight class="normal"><sp/>}</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a23671b20921f1f4b295acadcc6ea5c4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a23671b20921f1f4b295acadcc6ea5c4e" kindref="member">parameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref><sp/>&amp;c)<sp/>:<sp/>pt(c.pt),<sp/>ss(c.ss),<sp/>ae(c.ae),<sp/>kirchner(c.kirchner),<sp/>p_corr(c.p_corr),gm(c.gm)<sp/>{}</highlight></codeline>
-<codeline lineno="37" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ac9f3c28109a02f165917c1239d8a9def" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ac9f3c28109a02f165917c1239d8a9def" kindref="member">parameter</ref>(){}</highlight></codeline>
-<codeline lineno="38" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1aec7f3dc005e1fdc7d5df791be0b62edb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1aec7f3dc005e1fdc7d5df791be0b62edb" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref><sp/>&amp;c)<sp/>{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(&amp;c<sp/>!=<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt<sp/>=<sp/>c.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a8bf09fe2d250d2e4e51624fa842e30be" kindref="member">pt</ref>;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss<sp/>=<sp/>c.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5209ac1e6d34ce82da700a988c9e5012" kindref="member">ss</ref>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae<sp/>=<sp/>c.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a4f2cbc2f0f91f8e03e9dff494f99a072" kindref="member">ae</ref>;</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner<sp/>=<sp/>c.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae9e4199fc635b28da049ec641f17faf1" kindref="member">kirchner</ref>;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p_corr<sp/>=<sp/>c.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a3e29d001401ac90851bf54ac9c3021e3" kindref="member">p_corr</ref>;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gm=c.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a765407b8e4c5b2483350651b8f18ba27" kindref="member">gm</ref>;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="50" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a31f780c15890c8b0a96a784436cb79f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a31f780c15890c8b0a96a784436cb79f6" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>16;<sp/>}</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8724db112f7a2cb88c86d566a67aa1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;&amp;<sp/>p)<sp/>{</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(p.size()<sp/>!=<sp/>size())</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;pt_ss_k<sp/>parameter<sp/>accessor:<sp/>.set<sp/>size<sp/>mismatch&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" kindref="member">c1</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" kindref="member">c2</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" kindref="member">c3</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae.<ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" kindref="member">ae_scale_factor</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1acc01378a6bf2a8aa5684fd2f386e6049" kindref="member">alpha_0</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a29343dbca4ce8a1682190c10a22bdbc4" kindref="member">d_range</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ab80fd56afb995b625b987c5b82abbb07" kindref="member">unit_size</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0b4ee58f60d5c9c2ab04fd48d30f1da2" kindref="member">max_water_fraction</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a5075be939253ab989bf9757a48077d27" kindref="member">tx</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a8d7f2bb35da2331a2f0ba7059458e84e" kindref="member">cx</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a88b177977c1c5d2e65c87e3a566bb25e" kindref="member">ts</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a46ae54bb16f402890a8041938455b32a" kindref="member">cfr</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p_corr.<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kindref="member">scale_factor</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gm.<ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kindref="member">dtf</ref><sp/>=<sp/>p[i++];</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight></codeline>
-<codeline lineno="75" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1aff3329c230b794063a9bb717a4c1f8f1" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(i)<sp/>{</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>0:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" kindref="member">c1</ref>;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>1:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" kindref="member">c2</ref>;</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>2:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" kindref="member">c3</ref>;</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>3:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ae.<ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" kindref="member">ae_scale_factor</ref>;</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>4:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1acc01378a6bf2a8aa5684fd2f386e6049" kindref="member">alpha_0</ref>;</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>5:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a29343dbca4ce8a1682190c10a22bdbc4" kindref="member">d_range</ref>;</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>6:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ab80fd56afb995b625b987c5b82abbb07" kindref="member">unit_size</ref>;</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>7:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0b4ee58f60d5c9c2ab04fd48d30f1da2" kindref="member">max_water_fraction</ref>;</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>8:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a5075be939253ab989bf9757a48077d27" kindref="member">tx</ref>;</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>9:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a8d7f2bb35da2331a2f0ba7059458e84e" kindref="member">cx</ref>;</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a88b177977c1c5d2e65c87e3a566bb25e" kindref="member">ts</ref>;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a46ae54bb16f402890a8041938455b32a" kindref="member">cfr</ref>;</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>12:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p_corr.<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kindref="member">scale_factor</ref>;</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>13:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref>;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>14:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>;</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>15:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kindref="member">dtf</ref>;</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;pt_ss_k<sp/>parameter<sp/>accessor:.get(i)<sp/>Out<sp/>of<sp/>range.&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae3a2b1f0f8913afcd082f9ad967e5795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae3a2b1f0f8913afcd082f9ad967e5795" kindref="member">get_name</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*names[]<sp/>=<sp/>{</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;kirchner.c1&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;kirchner.c2&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;kirchner.c3&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ae.ae_scale_factor&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.alpha_0&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.d_range&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.unit_size&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.max_water_fraction&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.tx&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.cx&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.ts&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.cfr&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;p_corr.scale_factor&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;pt.albedo&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;pt.alpha&quot;</highlight><highlight class="normal">,</highlight></codeline>
-<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;gm.dtf&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;=<sp/>size())</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;pt_ss_k<sp/>parameter<sp/>accessor:.get_name(i)<sp/>Out<sp/>of<sp/>range.&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>names[i];</highlight></codeline>
-<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="structshyft_1_1core_1_1pt__ss__k_1_1state" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref><sp/>{</highlight></codeline>
-<codeline lineno="128" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1skaugen_1_1state" kindref="compound">skaugen::state</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" kindref="member">snow_state_t</ref>;</highlight></codeline>
-<codeline lineno="129" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">kirchner::state</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" kindref="member">kirchner_state_t</ref>;</highlight></codeline>
-<codeline lineno="130" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_state_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" kindref="member">snow</ref>;</highlight></codeline>
-<codeline lineno="131" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_state_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" kindref="member">kirchner</ref>;</highlight></codeline>
-<codeline lineno="132" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab13d785e6fefb65b24b617c46e1b4543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab13d785e6fefb65b24b617c46e1b4543" kindref="member">state</ref>()<sp/>{}</highlight></codeline>
-<codeline lineno="133" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1aa8fe8594f453b265f9fba816fdc9914e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1aa8fe8594f453b265f9fba816fdc9914e" kindref="member">state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>snow_state_t&amp;<sp/>snow,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>kirchner_state_t&amp;<sp/>kirchner)</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>snow(snow),<sp/>kirchner(kirchner)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Do<sp/>nothing<sp/>*/</highlight><highlight class="normal"><sp/>}</highlight></codeline>
-<codeline lineno="135" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a1f6c77bc2ad7fa7d1d76c2a977bbcba3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a1f6c77bc2ad7fa7d1d76c2a977bbcba3" kindref="member">state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref>&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref>)<sp/>:<sp/>snow(state.snow),<sp/>kirchner(state.kirchner)<sp/>{}</highlight></codeline>
-<codeline lineno="136" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1af0796fd20588e275582a324687bc31f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1af0796fd20588e275582a324687bc31f2" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref>&amp;<sp/>x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner==x.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" kindref="member">kirchner</ref><sp/>&amp;&amp;<sp/>snow==x.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" kindref="member">snow</ref>;}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="priestley__taylor_8h" kindref="compound">priestley_taylor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="kirchner_8h" kindref="compound">kirchner.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="skaugen_8h" kindref="compound">skaugen.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="actual__evapotranspiration_8h" kindref="compound">actual_evapotranspiration.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="precipitation__correction_8h" kindref="compound">precipitation_correction.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="glacier__melt_8h" kindref="compound">glacier_melt.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="unit__conversion_8h" kindref="compound">unit_conversion.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="routing_8h" kindref="compound">routing.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceshyft" kindref="compound">shyft</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">core<sp/>{</highlight></codeline>
+<codeline lineno="21" refid="namespaceshyft_1_1core_1_1pt__ss__k" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">pt_ss_k<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8d75cd9b510de1ff4ab8250727c473c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter" kindref="compound">priestley_taylor::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8d75cd9b510de1ff4ab8250727c473c" kindref="member">pt_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="25" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5f6332ad99511a51288624778a973262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1skaugen_1_1parameter" kindref="compound">skaugen::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5f6332ad99511a51288624778a973262" kindref="member">snow_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="26" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a355cce900fa4742506ee37c090c87e8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter" kindref="compound">actual_evapotranspiration::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a355cce900fa4742506ee37c090c87e8f" kindref="member">ae_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="27" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a90ae84da398ce2eefc42890c09ce7596" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1parameter" kindref="compound">kirchner::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a90ae84da398ce2eefc42890c09ce7596" kindref="member">kirchner_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a818a87957779708a331d993b7d52eaac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter" kindref="compound">precipitation_correction::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a818a87957779708a331d993b7d52eaac" kindref="member">precipitation_correction_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="29" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a9ab3cc839f017dc725d65a185505ebb9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter" kindref="compound">glacier_melt::parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a9ab3cc839f017dc725d65a185505ebb9" kindref="member">glacier_melt_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="30" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a0cffe3ebf72f5cbb6aeda86109ff2583" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter" kindref="compound">routing::uhg_parameter</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a0cffe3ebf72f5cbb6aeda86109ff2583" kindref="member">routing_parameter_t</ref>;</highlight></codeline>
+<codeline lineno="31" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a8bf09fe2d250d2e4e51624fa842e30be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a8bf09fe2d250d2e4e51624fa842e30be" kindref="member">pt</ref>;</highlight></codeline>
+<codeline lineno="32" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5209ac1e6d34ce82da700a988c9e5012" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a5209ac1e6d34ce82da700a988c9e5012" kindref="member">ss</ref>;</highlight></codeline>
+<codeline lineno="33" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a4f2cbc2f0f91f8e03e9dff494f99a072" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a4f2cbc2f0f91f8e03e9dff494f99a072" kindref="member">ae</ref>;</highlight></codeline>
+<codeline lineno="34" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae9e4199fc635b28da049ec641f17faf1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_parameter_t<sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae9e4199fc635b28da049ec641f17faf1" kindref="member">kirchner</ref>;</highlight></codeline>
+<codeline lineno="35" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a3e29d001401ac90851bf54ac9c3021e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>precipitation_correction_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a3e29d001401ac90851bf54ac9c3021e3" kindref="member">p_corr</ref>;</highlight></codeline>
+<codeline lineno="36" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a765407b8e4c5b2483350651b8f18ba27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glacier_melt_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a765407b8e4c5b2483350651b8f18ba27" kindref="member">gm</ref>;</highlight></codeline>
+<codeline lineno="37" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a88337e2cb21bb6368f294a557ce4b467" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>routing_parameter_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a88337e2cb21bb6368f294a557ce4b467" kindref="member">routing</ref>;</highlight></codeline>
+<codeline lineno="38" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a9905af9ea0fd7cfa823338b8825ea7f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a9905af9ea0fd7cfa823338b8825ea7f9" kindref="member">parameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>pt_parameter_t&amp;<sp/>pt,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>snow_parameter_t&amp;<sp/>snow,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ae_parameter_t&amp;<sp/>ae,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>kirchner_parameter_t&amp;<sp/>kirchner,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>precipitation_correction_parameter_t&amp;<sp/>p_corr,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>glacier_melt_parameter_t<sp/>gm=glacier_melt_parameter_t(),</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>routing_parameter_t<sp/>routing=routing_parameter_t())</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>pt(pt),<sp/>ss(snow),<sp/>ae(ae),<sp/>kirchner(kirchner),<sp/>p_corr(p_corr),gm(gm),routing(routing)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Do<sp/>nothing<sp/>*/</highlight><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>()=</highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>&amp;)=</highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>(<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>&amp;&amp;)=</highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>&amp;<sp/>operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref><sp/>&amp;c)=</highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>&amp;<sp/>operator=(<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>&amp;&amp;c)=</highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a31f780c15890c8b0a96a784436cb79f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1a31f780c15890c8b0a96a784436cb79f6" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>19;<sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ab8724db112f7a2cb88c86d566a67aa1d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>vector&lt;double&gt;&amp;<sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(p.size()<sp/>!=<sp/>size())</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;pt_ss_k<sp/>parameter<sp/>accessor:<sp/>.set<sp/>size<sp/>mismatch&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" kindref="member">c1</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" kindref="member">c2</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" kindref="member">c3</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae.<ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" kindref="member">ae_scale_factor</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1acc01378a6bf2a8aa5684fd2f386e6049" kindref="member">alpha_0</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a29343dbca4ce8a1682190c10a22bdbc4" kindref="member">d_range</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ab80fd56afb995b625b987c5b82abbb07" kindref="member">unit_size</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0b4ee58f60d5c9c2ab04fd48d30f1da2" kindref="member">max_water_fraction</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a5075be939253ab989bf9757a48077d27" kindref="member">tx</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a8d7f2bb35da2331a2f0ba7059458e84e" kindref="member">cx</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a88b177977c1c5d2e65c87e3a566bb25e" kindref="member">ts</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a46ae54bb16f402890a8041938455b32a" kindref="member">cfr</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p_corr.<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kindref="member">scale_factor</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gm.<ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kindref="member">dtf</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>routing.<ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter_1a3e940b911796b5c52ae56e57d40c314e" kindref="member">velocity</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>routing.<ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter_1a5ca3b485a2a3db8c2d82038dbde74780" kindref="member">alpha</ref><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>routing.<ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter_1ac778b561336e64e449e8824a62a3a1a0" kindref="member">beta</ref><sp/><sp/>=<sp/>p[i++];</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="81" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1aff3329c230b794063a9bb717a4c1f8f1" refkind="member"><highlight class="comment"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(i)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>0:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1abc2369e4cb16f19cb72ca291b8730a9e" kindref="member">c1</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>1:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aeeb870690f99292f803666806550f59d" kindref="member">c2</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>2:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner.<ref refid="structshyft_1_1core_1_1kirchner_1_1parameter_1aac692b11df207a423a74d7e34343746a" kindref="member">c3</ref>;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>3:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ae.<ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1parameter_1ab2c7f9b02aa5ee9125282117aa87dc32" kindref="member">ae_scale_factor</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>4:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1acc01378a6bf2a8aa5684fd2f386e6049" kindref="member">alpha_0</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>5:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a29343dbca4ce8a1682190c10a22bdbc4" kindref="member">d_range</ref>;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>6:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1ab80fd56afb995b625b987c5b82abbb07" kindref="member">unit_size</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>7:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a0b4ee58f60d5c9c2ab04fd48d30f1da2" kindref="member">max_water_fraction</ref>;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>8:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a5075be939253ab989bf9757a48077d27" kindref="member">tx</ref>;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><sp/>9:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a8d7f2bb35da2331a2f0ba7059458e84e" kindref="member">cx</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a88b177977c1c5d2e65c87e3a566bb25e" kindref="member">ts</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ss.<ref refid="structshyft_1_1core_1_1skaugen_1_1parameter_1a46ae54bb16f402890a8041938455b32a" kindref="member">cfr</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>12:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p_corr.<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1parameter_1a8ca9e329ef62dea0723f2fe8c85c4135" kindref="member">scale_factor</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>13:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1abdadf6089321c95a9d44dc9d59d985cf" kindref="member">albedo</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>14:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1parameter_1a7cc2e0c25d89ecf65985547192d46069" kindref="member">alpha</ref>;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>15:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gm.<ref refid="structshyft_1_1core_1_1glacier__melt_1_1parameter_1a007481840d9fe5803fa6c5fcf3e31e52" kindref="member">dtf</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>16:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>routing.<ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter_1a3e940b911796b5c52ae56e57d40c314e" kindref="member">velocity</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>17:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>routing.<ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter_1a5ca3b485a2a3db8c2d82038dbde74780" kindref="member">alpha</ref>;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>18:</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>routing.<ref refid="structshyft_1_1core_1_1routing_1_1uhg__parameter_1ac778b561336e64e449e8824a62a3a1a0" kindref="member">beta</ref>;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;pt_ss_k<sp/>parameter<sp/>accessor:.get(i)<sp/>Out<sp/>of<sp/>range.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0.0;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae3a2b1f0f8913afcd082f9ad967e5795" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter_1ae3a2b1f0f8913afcd082f9ad967e5795" kindref="member">get_name</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*names[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;kirchner.c1&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;kirchner.c2&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;kirchner.c3&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ae.ae_scale_factor&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.alpha_0&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.d_range&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.unit_size&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.max_water_fraction&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.tx&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.cx&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.ts&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ss.cfr&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;p_corr.scale_factor&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;pt.albedo&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;pt.alpha&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;gm.dtf&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;routing.velocity&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;routing.alpha&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;routing.beta&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&gt;=<sp/>size())</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>runtime_error(</highlight><highlight class="stringliteral">&quot;pt_ss_k<sp/>parameter<sp/>accessor:.get_name(i)<sp/>Out<sp/>of<sp/>range.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>names[i];</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="structshyft_1_1core_1_1pt__ss__k_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
-<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Model<sp/>responses</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1ab6fc8ab5d4b2d7509051b372632563e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1response" kindref="compound">priestley_taylor::response</ref><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1ab6fc8ab5d4b2d7509051b372632563e0" kindref="member">pt_response_t</ref>;</highlight></codeline>
-<codeline lineno="143" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a0140549119c74edd834eb264ac6851e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1skaugen_1_1response" kindref="compound">skaugen::response</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a0140549119c74edd834eb264ac6851e6" kindref="member">snow_response_t</ref>;</highlight></codeline>
-<codeline lineno="144" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a510c74695063a2b79a53746be9e94e38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response" kindref="compound">actual_evapotranspiration::response</ref><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a510c74695063a2b79a53746be9e94e38" kindref="member">ae_response_t</ref>;</highlight></codeline>
-<codeline lineno="145" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a728840bcd1216219e6a9559035e4dda0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1response" kindref="compound">kirchner::response</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a728840bcd1216219e6a9559035e4dda0" kindref="member">kirchner_response_t</ref>;</highlight></codeline>
-<codeline lineno="146" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a949e30193dc202b7ddb65878137fecf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a949e30193dc202b7ddb65878137fecf4" kindref="member">pt</ref>;</highlight></codeline>
-<codeline lineno="147" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1aa507dd7b775c01ddf2af54b254c52f58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1aa507dd7b775c01ddf2af54b254c52f58" kindref="member">snow</ref>;</highlight></codeline>
-<codeline lineno="148" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1abb52809846243f9d49e63840e6f7b61b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1abb52809846243f9d49e63840e6f7b61b" kindref="member">ae</ref>;</highlight></codeline>
-<codeline lineno="149" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1af75014c6a72da8a98e9e510826068d7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1af75014c6a72da8a98e9e510826068d7e" kindref="member">kirchner</ref>;</highlight></codeline>
-<codeline lineno="150" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a69536d2f35f24018e3a27e7a867960d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a69536d2f35f24018e3a27e7a867960d1" kindref="member">gm_melt_m3s</ref>;</highlight></codeline>
-<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>PTSSK<sp/>response</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a5c0fb029b62b899739791a6c3fdae558" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a5c0fb029b62b899739791a6c3fdae558" kindref="member">total_discharge</ref>;</highlight></codeline>
-<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">&gt;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">A,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">R,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">T_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">P_TS,</highlight></codeline>
-<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">WS_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RH_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RAD_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">T,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">S,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">GCD,</highlight></codeline>
-<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">P,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SC,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RC&gt;</highlight></codeline>
-<codeline lineno="159" refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" kindref="member">run</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GCD&amp;<sp/><ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref>,</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>,</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>time_axis,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>n_steps,</highlight></codeline>
-<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T_TS&amp;<sp/>temp,</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P_TS&amp;<sp/>prec,</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>WS_TS&amp;<sp/>wind_speed,</highlight></codeline>
-<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RH_TS&amp;<sp/>rel_hum,</highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RAD_TS&amp;<sp/>rad,</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>S&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref>,</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SC&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector" kindref="compound">state_collector</ref>,</highlight></codeline>
-<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RC&amp;<sp/>response_collector</highlight></codeline>
-<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>{</highlight></codeline>
-<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Access<sp/>time<sp/>series<sp/>input<sp/>data<sp/>through<sp/>accessors<sp/>of<sp/>template<sp/>A<sp/>(typically<sp/>a<sp/>direct<sp/>accessor).</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>temp_accessor_t<sp/>=<sp/>A&lt;T_TS,<sp/>T&gt;;</highlight></codeline>
-<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>prec_accessor_t<sp/>=<sp/>A&lt;P_TS,<sp/>T&gt;;</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>rel_hum_accessor_t<sp/>=<sp/>A&lt;RH_TS,<sp/>T&gt;;</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>rad_accessor_t<sp/>=<sp/>A&lt;RAD_TS,<sp/>T&gt;;</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ws_accessor_t<sp/>=<sp/>A&lt;WS_TS,<sp/>T&gt;;</highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>temp_accessor<sp/>=<sp/>temp_accessor_t(temp,<sp/>time_axis);</highlight></codeline>
-<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>prec_accessor<sp/>=<sp/>prec_accessor_t(prec,<sp/>time_axis);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rel_hum_accessor<sp/>=<sp/>rel_hum_accessor_t(rel_hum,<sp/>time_axis);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rad_accessor<sp/>=<sp/>rad_accessor_t(rad,<sp/>time_axis);</highlight></codeline>
-<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>wind_speed_accessor<sp/>=<sp/>ws_accessor_t(wind_speed,<sp/>time_axis);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>R<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response" kindref="compound">response</ref>;</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>total_lake_fraction<sp/>=<sp/>geo_cell_data.land_type_fractions_info().lake()<sp/>+<sp/>geo_cell_data.land_type_fractions_info().reservoir();</highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_fraction<sp/>=<sp/>geo_cell_data.land_type_fractions_info().glacier();</highlight></codeline>
-<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>kirchner_fraction<sp/>=<sp/>1<sp/>-<sp/>total_lake_fraction<sp/>-<sp/>glacier_fraction;</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_area_m2<sp/>=<sp/>geo_cell_data.area()*glacier_fraction;</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>the<sp/>method<sp/>stack</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator" kindref="compound">precipitation_correction::calculator</ref><sp/>p_corr(parameter.p_corr.scale_factor);</highlight></codeline>
-<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator" kindref="compound">priestley_taylor::calculator</ref><sp/>pt(parameter.pt.albedo,<sp/>parameter.pt.alpha);</highlight></codeline>
-<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1skaugen_1_1calculator" kindref="compound">skaugen::calculator&lt;typename P::snow_parameter_t, typename S::snow_state_t, typename R::snow_response_t&gt;</ref><sp/>skaugen_snow;</highlight></codeline>
-<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator" kindref="compound">kirchner::calculator&lt;kirchner::trapezoidal_average, typename P::kirchner_parameter_t&gt;</ref><sp/>kirchner(parameter.kirchner);</highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i_begin<sp/>=<sp/>n_steps<sp/>&gt;<sp/>0<sp/>?<sp/>start_step<sp/>:<sp/>0;</highlight></codeline>
-<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i_end<sp/>=<sp/>n_steps<sp/>&gt;<sp/>0<sp/>?<sp/>start_step<sp/>+<sp/>n_steps<sp/>:<sp/>time_axis.size();</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>i_begin;<sp/>i<sp/>&lt;<sp/>i_end;<sp/>++i)<sp/>{</highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref><sp/>period<sp/>=<sp/>time_axis.period(i);</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>temp_accessor.value(i);</highlight></codeline>
-<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rad<sp/>=<sp/>rad_accessor.value(i);</highlight></codeline>
-<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rel_hum<sp/>=<sp/>rel_hum_accessor.value(i);</highlight></codeline>
-<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>prec<sp/>=<sp/>p_corr.<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" kindref="member">calc</ref>(prec_accessor.value(i));</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>wind_speed<sp/>=<sp/>wind_speed_accessor.value(i);</highlight></codeline>
-<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state_collector.collect(i,<sp/>state);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skaugen_snow.<ref refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a81268eabf28aaf815188b7db9a719bfe" kindref="member">step</ref>(period.<ref refid="structshyft_1_1core_1_1utcperiod_1a657dbfcddcc6ea03d1db9c2248320bdb" kindref="member">timespan</ref>(),<sp/>parameter.ss,<sp/>temp,<sp/>prec,<sp/>rad,<sp/>wind_speed,<sp/>state.snow,<sp/>response.snow);</highlight></codeline>
-<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.gm_melt_m3s<sp/>=<sp/><ref refid="namespaceshyft_1_1core_1_1glacier__melt_1a0d7b142be8b5384cd33b3bce4d059bef" kindref="member">glacier_melt::step</ref>(parameter.gm.dtf,<sp/>temp,<sp/>geo_cell_data.area()*state.snow.sca,<sp/>glacier_area_m2);</highlight><highlight class="comment">//<sp/>m3/s,<sp/>that<sp/>is,<sp/>how<sp/>much<sp/>flow<sp/>from<sp/>the<sp/>snow<sp/>free<sp/>glacier<sp/>parts</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.pt.pot_evapotranspiration<sp/>=<sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a7c5b732192e15e33f2471a405d144b2f" kindref="member">potential_evapotranspiration</ref>(temp,<sp/>rad,<sp/>rel_hum)*<ref refid="structshyft_1_1core_1_1calendar_1a0ae2bdc312a85aa2f0bb6c7b8443d440" kindref="member">calendar::HOUR</ref>;</highlight><highlight class="comment">//<sp/>mm/s<sp/>-&gt;<sp/>mm/h,<sp/>interpreted<sp/>as<sp/>over<sp/>the<sp/>entire<sp/>area(!)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.ae.ae<sp/>=<sp/><ref refid="namespaceshyft_1_1core_1_1actual__evapotranspiration_1a3395072b5006785f07a0e371c84a1650" kindref="member">actual_evapotranspiration::calculate_step</ref>(state.kirchner.q,<sp/>response.pt.pot_evapotranspiration,</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parameter.ae.ae_scale_factor,<sp/><ref refid="namespaceshyft_1_1timeseries_1ac53ac01de119a07afeaf67d32cd151e7" kindref="member">std::max</ref>(state.snow.sca,<sp/>glacier_fraction),<sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>evap<sp/>only<sp/>on<sp/>non-snow/non-glac<sp/>area</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>period.<ref refid="structshyft_1_1core_1_1utcperiod_1a657dbfcddcc6ea03d1db9c2248320bdb" kindref="member">timespan</ref>());</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a60db6f04ed9e65215d9d4913cd5cd87e" kindref="member">step</ref>(period.<ref refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" kindref="member">start</ref>,<sp/>period.<ref refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" kindref="member">end</ref>,<sp/>state.kirchner.q,<sp/>response.kirchner.q_avg,<sp/>response.snow.outflow,<sp/>response.ae.ae);<sp/></highlight><highlight class="comment">//all<sp/>units<sp/>mm/h<sp/>over<sp/>&apos;same&apos;<sp/>area</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.total_discharge<sp/>=<sp/>prec*total_lake_fraction</highlight></codeline>
-<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/><ref refid="namespaceshyft_1ad4b12d928f2188e37168689e720fce61" kindref="member">m3s_to_mmh</ref>(response.gm_melt_m3s,<sp/>geo_cell_data.area())</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>response.kirchner.q_avg<sp/>*<sp/>kirchner_fraction;</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Possibly<sp/>save<sp/>the<sp/>calculated<sp/>values<sp/>using<sp/>the<sp/>collector<sp/>callbacks.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response_collector.collect(i,<sp/>response);</highlight></codeline>
+<codeline lineno="139" refid="structshyft_1_1core_1_1pt__ss__k_1_1state" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref><sp/>{</highlight></codeline>
+<codeline lineno="140" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1skaugen_1_1state" kindref="compound">skaugen::state</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1abf4d6094f46158a8668f1e11eee5552e" kindref="member">snow_state_t</ref>;</highlight></codeline>
+<codeline lineno="141" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1state" kindref="compound">kirchner::state</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a73ad62466f166757ff901cf46c0c4d03" kindref="member">kirchner_state_t</ref>;</highlight></codeline>
+<codeline lineno="142" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_state_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" kindref="member">snow</ref>;</highlight></codeline>
+<codeline lineno="143" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_state_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" kindref="member">kirchner</ref>;</highlight></codeline>
+<codeline lineno="144" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab13d785e6fefb65b24b617c46e1b4543" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1ab13d785e6fefb65b24b617c46e1b4543" kindref="member">state</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="145" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1aa8fe8594f453b265f9fba816fdc9914e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1aa8fe8594f453b265f9fba816fdc9914e" kindref="member">state</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>snow_state_t&amp;<sp/>snow,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>kirchner_state_t&amp;<sp/>kirchner)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>snow(snow),<sp/>kirchner(kirchner)<sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Do<sp/>nothing<sp/>*/</highlight><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//xx<sp/>state(const<sp/>state&amp;<sp/>state)<sp/>:<sp/>snow(state.snow),<sp/>kirchner(state.kirchner)<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1af0796fd20588e275582a324687bc31f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1af0796fd20588e275582a324687bc31f2" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref>&amp;<sp/>x)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>kirchner==x.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a3a8960758f3942c7bb34364e4b7a31a6" kindref="member">kirchner</ref><sp/>&amp;&amp;<sp/>snow==x.<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state_1a0f105fb8201fd090532b969352e34ae6" kindref="member">snow</ref>;}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="core__pch_8h_1aa47dba87bb7a67f53b8f14867239c4cb" kindref="member">x_serialize_decl</ref>();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="structshyft_1_1core_1_1pt__ss__k_1_1response" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response" kindref="compound">response</ref><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Model<sp/>responses</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1ab6fc8ab5d4b2d7509051b372632563e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1response" kindref="compound">priestley_taylor::response</ref><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1ab6fc8ab5d4b2d7509051b372632563e0" kindref="member">pt_response_t</ref>;</highlight></codeline>
+<codeline lineno="156" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a0140549119c74edd834eb264ac6851e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1skaugen_1_1response" kindref="compound">skaugen::response</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a0140549119c74edd834eb264ac6851e6" kindref="member">snow_response_t</ref>;</highlight></codeline>
+<codeline lineno="157" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a510c74695063a2b79a53746be9e94e38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1actual__evapotranspiration_1_1response" kindref="compound">actual_evapotranspiration::response</ref><sp/><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a510c74695063a2b79a53746be9e94e38" kindref="member">ae_response_t</ref>;</highlight></codeline>
+<codeline lineno="158" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a728840bcd1216219e6a9559035e4dda0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1kirchner_1_1response" kindref="compound">kirchner::response</ref><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a728840bcd1216219e6a9559035e4dda0" kindref="member">kirchner_response_t</ref>;</highlight></codeline>
+<codeline lineno="159" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a949e30193dc202b7ddb65878137fecf4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pt_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a949e30193dc202b7ddb65878137fecf4" kindref="member">pt</ref>;</highlight></codeline>
+<codeline lineno="160" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1aa507dd7b775c01ddf2af54b254c52f58" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snow_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1aa507dd7b775c01ddf2af54b254c52f58" kindref="member">snow</ref>;</highlight></codeline>
+<codeline lineno="161" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1abb52809846243f9d49e63840e6f7b61b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ae_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1abb52809846243f9d49e63840e6f7b61b" kindref="member">ae</ref>;</highlight></codeline>
+<codeline lineno="162" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1af75014c6a72da8a98e9e510826068d7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner_response_t<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1af75014c6a72da8a98e9e510826068d7e" kindref="member">kirchner</ref>;</highlight></codeline>
+<codeline lineno="163" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a69536d2f35f24018e3a27e7a867960d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a69536d2f35f24018e3a27e7a867960d1" kindref="member">gm_melt_m3s</ref>;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>PTSSK<sp/>response</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a5c0fb029b62b899739791a6c3fdae558" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a5c0fb029b62b899739791a6c3fdae558" kindref="member">total_discharge</ref>;</highlight></codeline>
+<codeline lineno="166" refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a23e2391d41b958799b867c98964bff15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response_1a23e2391d41b958799b867c98964bff15" kindref="member">charge_m3s</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal">&gt;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">A,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">R,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">T_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">P_TS,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">WS_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RH_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RAD_TS,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">T,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">S,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">GCD,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">P,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">SC,<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">RC&gt;</highlight></codeline>
+<codeline lineno="173" refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceshyft_1_1core_1_1pt__ss__k_1abd9fb9e68f8f46ba62aefb9b323e9abb" kindref="member">run</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>GCD&amp;<sp/><ref refid="structshyft_1_1core_1_1geo__cell__data" kindref="compound">geo_cell_data</ref>,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1parameter" kindref="compound">parameter</ref>,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T&amp;<sp/>time_axis,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_step,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>n_steps,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>T_TS&amp;<sp/>temp,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>P_TS&amp;<sp/>prec,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>WS_TS&amp;<sp/>wind_speed,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RH_TS&amp;<sp/>rel_hum,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>RAD_TS&amp;<sp/>rad,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>S&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">state</ref>,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SC&amp;<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state__collector" kindref="compound">state_collector</ref>,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RC&amp;<sp/>response_collector</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Access<sp/>time<sp/>series<sp/>input<sp/>data<sp/>through<sp/>accessors<sp/>of<sp/>template<sp/>A<sp/>(typically<sp/>a<sp/>direct<sp/>accessor).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>temp_accessor_t<sp/>=<sp/>A&lt;T_TS,<sp/>T&gt;;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>prec_accessor_t<sp/>=<sp/>A&lt;P_TS,<sp/>T&gt;;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>rel_hum_accessor_t<sp/>=<sp/>A&lt;RH_TS,<sp/>T&gt;;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>rad_accessor_t<sp/>=<sp/>A&lt;RAD_TS,<sp/>T&gt;;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ws_accessor_t<sp/>=<sp/>A&lt;WS_TS,<sp/>T&gt;;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>temp_accessor<sp/>=<sp/>temp_accessor_t(temp,<sp/>time_axis);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>prec_accessor<sp/>=<sp/>prec_accessor_t(prec,<sp/>time_axis);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rel_hum_accessor<sp/>=<sp/>rel_hum_accessor_t(rel_hum,<sp/>time_axis);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>rad_accessor<sp/>=<sp/>rad_accessor_t(rad,<sp/>time_axis);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>wind_speed_accessor<sp/>=<sp/>ws_accessor_t(wind_speed,<sp/>time_axis);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>R<sp/><ref refid="structshyft_1_1core_1_1pt__ss__k_1_1response" kindref="compound">response</ref>;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>total_lake_fraction<sp/>=<sp/>geo_cell_data.land_type_fractions_info().lake()<sp/>+<sp/>geo_cell_data.land_type_fractions_info().reservoir();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_fraction<sp/>=<sp/>geo_cell_data.land_type_fractions_info().glacier();</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>kirchner_fraction<sp/>=<sp/>1<sp/>-<sp/>glacier_fraction;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cell_area_m2<sp/>=<sp/>geo_cell_data.area();</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>glacier_area_m2<sp/>=<sp/>geo_cell_data.area()*glacier_fraction;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>the<sp/>method<sp/>stack</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator" kindref="compound">precipitation_correction::calculator</ref><sp/>p_corr(parameter.p_corr.scale_factor);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator" kindref="compound">priestley_taylor::calculator</ref><sp/>pt(parameter.pt.albedo,<sp/>parameter.pt.alpha);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1skaugen_1_1calculator" kindref="compound">skaugen::calculator&lt;typename P::snow_parameter_t, typename S::snow_state_t, typename R::snow_response_t&gt;</ref><sp/>skaugen_snow;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classshyft_1_1core_1_1kirchner_1_1calculator" kindref="compound">kirchner::calculator&lt;kirchner::trapezoidal_average, typename P::kirchner_parameter_t&gt;</ref><sp/>kirchner(parameter.kirchner);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i_begin<sp/>=<sp/>n_steps<sp/>&gt;<sp/>0<sp/>?<sp/>start_step<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i_end<sp/>=<sp/>n_steps<sp/>&gt;<sp/>0<sp/>?<sp/>start_step<sp/>+<sp/>n_steps<sp/>:<sp/>time_axis.size();</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>i_begin;<sp/>i<sp/>&lt;<sp/>i_end;<sp/>++i)<sp/>{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structshyft_1_1core_1_1utcperiod" kindref="compound">utcperiod</ref><sp/>period<sp/>=<sp/>time_axis.period(i);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>temp_accessor.value(i);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rad<sp/>=<sp/>rad_accessor.value(i);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rel_hum<sp/>=<sp/>rel_hum_accessor.value(i);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>prec<sp/>=<sp/>p_corr.<ref refid="structshyft_1_1core_1_1precipitation__correction_1_1calculator_1a7cf0c62710cb820648948d429cd0ba9a" kindref="member">calc</ref>(prec_accessor.value(i));</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>wind_speed<sp/>=<sp/>wind_speed_accessor.value(i);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state_collector.collect(i,<sp/>state);</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i+1==i_end)</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state_collector.collect(i+1,<sp/>state);</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response_collector.set_end_response(response);</highlight></codeline>
-<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="227"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
-<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>skaugen_snow.<ref refid="classshyft_1_1core_1_1skaugen_1_1calculator_1a6aa5fb304a9423800ea9d97f3f791374" kindref="member">step</ref>(period.<ref refid="structshyft_1_1core_1_1utcperiod_1a657dbfcddcc6ea03d1db9c2248320bdb" kindref="member">timespan</ref>(),<sp/>parameter.ss,<sp/>temp,<sp/>prec,<sp/>rad,<sp/>wind_speed,<sp/>state.snow,<sp/>response.snow);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.gm_melt_m3s<sp/>=<sp/><ref refid="namespaceshyft_1_1core_1_1glacier__melt_1a0d7b142be8b5384cd33b3bce4d059bef" kindref="member">glacier_melt::step</ref>(parameter.gm.dtf,<sp/>temp,<sp/>geo_cell_data.area()*state.snow.sca,<sp/>glacier_area_m2);</highlight><highlight class="comment">//<sp/>m3/s,<sp/>that<sp/>is,<sp/>how<sp/>much<sp/>flow<sp/>from<sp/>the<sp/>snow<sp/>free<sp/>glacier<sp/>parts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.pt.pot_evapotranspiration<sp/>=<sp/>pt.<ref refid="structshyft_1_1core_1_1priestley__taylor_1_1calculator_1a7c5b732192e15e33f2471a405d144b2f" kindref="member">potential_evapotranspiration</ref>(temp,<sp/>rad,<sp/>rel_hum)*<ref refid="structshyft_1_1core_1_1calendar_1a0ae2bdc312a85aa2f0bb6c7b8443d440" kindref="member">calendar::HOUR</ref>;</highlight><highlight class="comment">//<sp/>mm/s<sp/>-&gt;<sp/>mm/h,<sp/>interpreted<sp/>as<sp/>over<sp/>the<sp/>entire<sp/>area(!)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.ae.ae<sp/>=<sp/><ref refid="namespaceshyft_1_1core_1_1actual__evapotranspiration_1a3395072b5006785f07a0e371c84a1650" kindref="member">actual_evapotranspiration::calculate_step</ref>(state.kirchner.q,<sp/>response.pt.pot_evapotranspiration,</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parameter.ae.ae_scale_factor,<sp/><ref refid="namespaceshyft_1_1time__series_1a9d6cbe98c5cc049e83fbce8715b64fa4" kindref="member">std::max</ref>(state.snow.sca,<sp/>glacier_fraction),<sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>evap<sp/>only<sp/>on<sp/>non-snow/non-glac<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>period.<ref refid="structshyft_1_1core_1_1utcperiod_1a657dbfcddcc6ea03d1db9c2248320bdb" kindref="member">timespan</ref>());</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>kirchner.<ref refid="classshyft_1_1core_1_1kirchner_1_1calculator_1a5398e30f7e845d7e4881a8d7051934c1" kindref="member">step</ref>(period.<ref refid="structshyft_1_1core_1_1utcperiod_1a84dc6f45bb83d9fdbf457bcd89db34e5" kindref="member">start</ref>,<sp/>period.<ref refid="structshyft_1_1core_1_1utcperiod_1a6633ffd83e46f9ef26098ffd4a2d61b7" kindref="member">end</ref>,<sp/>state.kirchner.q,<sp/>response.kirchner.q_avg,<sp/>response.snow.outflow,<sp/>response.ae.ae);<sp/></highlight><highlight class="comment">//all<sp/>units<sp/>mm/h<sp/>over<sp/>&apos;same&apos;<sp/>area</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>bare_lake_fraction<sp/>=<sp/>total_lake_fraction*(1.0<sp/>-<sp/>state.snow.sca);</highlight><highlight class="comment">//<sp/>only<sp/>direct<sp/>response<sp/>on<sp/>bare<sp/>(no<sp/>snow-cover)<sp/>lakes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.total_discharge<sp/>=</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceshyft_1_1time__series_1a9d6cbe98c5cc049e83fbce8715b64fa4" kindref="member">std::max</ref>(0.0,<sp/>prec<sp/>-<sp/>response.ae.ae)*bare_lake_fraction<sp/></highlight><highlight class="comment">//<sp/>when<sp/>it<sp/>rains,<sp/>remove<sp/>ae.<sp/>from<sp/>direct<sp/>response</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/><ref refid="namespaceshyft_1ad4b12d928f2188e37168689e720fce61" kindref="member">m3s_to_mmh</ref>(response.gm_melt_m3s,<sp/>cell_area_m2)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>response.kirchner.q_avg<sp/>*<sp/>(kirchner_fraction-bare_lake_fraction);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response.charge_m3s<sp/>=</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/><ref refid="namespaceshyft_1a5e0f4c89b1ede28b7abbca532953b9cc" kindref="member">shyft::mmh_to_m3s</ref>(prec,<sp/>cell_area_m2)</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/><ref refid="namespaceshyft_1a5e0f4c89b1ede28b7abbca532953b9cc" kindref="member">shyft::mmh_to_m3s</ref>(response.ae.ae,<sp/>cell_area_m2)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>response.gm_melt_m3s</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/><ref refid="namespaceshyft_1a5e0f4c89b1ede28b7abbca532953b9cc" kindref="member">shyft::mmh_to_m3s</ref>(response.total_discharge,<sp/>cell_area_m2);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Possibly<sp/>save<sp/>the<sp/>calculated<sp/>values<sp/>using<sp/>the<sp/>collector<sp/>callbacks.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response_collector.collect(i,<sp/>response);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i+1==i_end)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state_collector.collect(i+1,<sp/>state);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response_collector.set_end_response(response);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment">//--<sp/>serialization<sp/>support<sp/>shyft</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><ref refid="core_2pt__ss__k_8h_1a160ae27b7ee25e5563fe86ba774ecc00" kindref="member">x_serialize_export_key</ref>(<ref refid="structshyft_1_1core_1_1pt__ss__k_1_1state" kindref="compound">shyft::core::pt_ss_k::state</ref>);</highlight></codeline>
     </programlisting>
-    <location file="/home/sih/projects/shyft/core/pt_ss_k.h"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/pt_ss_k.h"/>
   </compounddef>
 </doxygen>

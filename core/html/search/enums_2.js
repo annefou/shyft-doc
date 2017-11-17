@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['optimizerstate',['OptimizerState',['../namespaceshyft_1_1core_1_1optimizer.html#a50d8a7acfa5c722a9b4fa540fb3b58cd',1,'shyft::core::optimizer']]]
+  ['generic_5ftype',['generic_type',['../structshyft_1_1time__axis_1_1generic__dt.html#a3251a243c6e09621bc1fd0102cd2ec0e',1,'shyft::time_axis::generic_dt']]]
 ];

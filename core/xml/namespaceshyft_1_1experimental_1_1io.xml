@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespaceshyft_1_1experimental_1_1io" kind="namespace" language="C++">
     <compoundname>shyft::experimental::io</compoundname>
       <sectiondef kind="func">
-      <memberdef kind="function" id="namespaceshyft_1_1experimental_1_1io_1a9a6917c94742b9448f3a01f56eedb6d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>boost::filesystem::path</type>
-        <definition>static boost::filesystem::path shyft::experimental::io::test_root_dir</definition>
+      <memberdef kind="function" id="namespaceshyft_1_1experimental_1_1io_1af1dd0ef5230833d33bd53f144a29f8d3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>fs::path</type>
+        <definition>static fs::path shyft::experimental::io::test_root_dir</definition>
         <argsstring>()</argsstring>
         <name>test_root_dir</name>
         <briefdescription>
@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/experimental.cpp" line="11" column="1" bodyfile="/home/sih/projects/shyft/core/experimental.cpp" bodystart="11" bodyend="18"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" line="21" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" bodystart="21" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1experimental_1_1io_1a632eb309b4e9b65f058437e506eb0936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>string</type>
@@ -35,10 +35,10 @@
 <para>&apos;slurp&apos; a file into a memory string string </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/experimental.cpp" line="20" column="1" bodyfile="/home/sih/projects/shyft/core/experimental.cpp" bodystart="20" bodyend="-1"/>
-        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="58" endline="74">load_from_directory</referencedby>
-        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="546" endline="627">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
-        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="678" endline="688">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" line="30" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" bodystart="30" bodyend="-1"/>
+        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="68" endline="84">load_from_directory</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="542" endline="623">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="674" endline="684">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1experimental_1_1io_1a573391d66e7e416b83dab1aa4bc52172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -55,10 +55,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/experimental.cpp" line="31" column="1" bodyfile="/home/sih/projects/shyft/core/experimental.cpp" bodystart="31" bodyend="36"/>
-        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="58" endline="74">load_from_directory</referencedby>
-        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="546" endline="627">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
-        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="678" endline="688">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" line="41" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" bodystart="41" bodyend="46"/>
+        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="68" endline="84">load_from_directory</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1cell__file__repository_1a4937b6b60ca938197681fe1455a56f91" compoundref="experimental_8h" startline="542" endline="623">shyft::experimental::repository::cell_file_repository&lt; C &gt;::read</referencedby>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="674" endline="684">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1experimental_1_1io_1a93692cd20b6eabf36411f3ba1745c1d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>vector&lt; string &gt;</type>
@@ -79,9 +79,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/experimental.cpp" line="38" column="1" bodyfile="/home/sih/projects/shyft/core/experimental.cpp" bodystart="38" bodyend="54"/>
-        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="58" endline="74">load_from_directory</referencedby>
-        <referencedby refid="namespaceshyft_1_1core_1_1grf_1a83d37d33358cc4cb786269e576b57d91" compoundref="gaussian__random__field_8h" startline="643" endline="795">shyft::core::grf::run_interpolation</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" line="48" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" bodystart="48" bodyend="64"/>
+        <referencedby refid="structshyft_1_1api_1_1state__io__handler_1a975ad9db2cde2a30bc478cc4bb08f106" compoundref="api__state_8h" startline="105" endline="114">shyft::api::state_io_handler&lt; C &gt;::extract_state</referencedby>
+        <referencedby refid="structshyft_1_1api_1_1state__io__handler_1acd6209e5ad72275303473113151f17fc" compoundref="api__state_8h" startline="119" endline="138">shyft::api::state_io_handler&lt; C &gt;::apply_state</referencedby>
+        <referencedby refid="structshyft_1_1dtss_1_1server_1a5f5d822401fd5698c561ab6cec411c58" compoundref="dtss_8h" startline="139" endline="149">shyft::dtss::server::do_find_ts</referencedby>
+        <referencedby refid="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" compoundref="experimental_8cpp" startline="68" endline="84">load_from_directory</referencedby>
+        <referencedby refid="classshyft_1_1core_1_1region__model_1ade458ad694b940b037cc8e95a1bf53fe" compoundref="region__model_8h" startline="690" endline="701">shyft::core::region_model&lt; C, RE &gt;::get_catchment_feeding_to_river</referencedby>
       </memberdef>
       <memberdef kind="function" id="namespaceshyft_1_1experimental_1_1io_1a6c4b93ba693c34d028eb587f31a76e46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>shared_ptr&lt; vector&lt; <ref refid="namespaceshyft_1_1experimental_1a2c3daf4b0c50a23f73b0caf6f88f81ac" kindref="member">geo_xts_t</ref> &gt; &gt;</type>
@@ -110,18 +113,18 @@
 <para>given a <ref refid="classshyft_1_1experimental_1_1wkt__reader" kindref="compound">wkt_reader</ref> (to help convert fro string to geo_xts_t), a lambda to convert from geo_id to geo_point, a subdir and a suffix, read all files matching and provide them back as a shared pointer to a vector of <ref refid="namespaceshyft_1_1experimental_1a2c3daf4b0c50a23f73b0caf6f88f81ac" kindref="member">geo_xts_t</ref> </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/experimental.cpp" line="58" column="1" bodyfile="/home/sih/projects/shyft/core/experimental.cpp" bodystart="58" bodyend="74"/>
-        <references refid="namespaceshyft_1_1experimental_1_1io_1a93692cd20b6eabf36411f3ba1745c1d2" compoundref="experimental_8cpp" startline="38" endline="54">find</references>
-        <references refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="228" endline="278">shyft::experimental::wkt_reader::read_geo_xts_t</references>
-        <references refid="namespaceshyft_1_1experimental_1_1io_1a573391d66e7e416b83dab1aa4bc52172" compoundref="experimental_8cpp" startline="31" endline="36">slurp</references>
-        <references refid="namespaceshyft_1_1experimental_1_1io_1a632eb309b4e9b65f058437e506eb0936" compoundref="experimental_8cpp" startline="20">test_path</references>
-        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="678" endline="688">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" line="68" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" bodystart="68" bodyend="84"/>
+        <references refid="namespaceshyft_1_1experimental_1_1io_1a93692cd20b6eabf36411f3ba1745c1d2" compoundref="experimental_8cpp" startline="48" endline="64">find</references>
+        <references refid="classshyft_1_1experimental_1_1wkt__reader_1a53424c74b086ba6b8f0ebc52c371a39b" compoundref="experimental_8h" startline="224" endline="274">shyft::experimental::wkt_reader::read_geo_xts_t</references>
+        <references refid="namespaceshyft_1_1experimental_1_1io_1a573391d66e7e416b83dab1aa4bc52172" compoundref="experimental_8cpp" startline="41" endline="46">slurp</references>
+        <references refid="namespaceshyft_1_1experimental_1_1io_1a632eb309b4e9b65f058437e506eb0936" compoundref="experimental_8cpp" startline="30">test_path</references>
+        <referencedby refid="classshyft_1_1experimental_1_1repository_1_1geo__located__ts__file__repository_1a749b76e8ad5e4856c8b90d070afda715" compoundref="experimental_8h" startline="674" endline="684">shyft::experimental::repository::geo_located_ts_file_repository::read</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>io utilities for the experimental stuff to support testing and experiments in c++ mode of work </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/experimental.cpp" line="9" column="1"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/experimental.cpp" line="19" column="1"/>
   </compounddef>
 </doxygen>

@@ -1,24 +1,35 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="structshyft_1_1api_1_1_radiation_source" kind="struct" language="C++" prot="public">
     <compoundname>shyft::api::RadiationSource</compoundname>
-    <basecompoundref refid="classshyft_1_1api_1_1_geo_point_source" prot="public" virt="non-virtual">shyft::api::GeoPointSource</basecompoundref>
+    <basecompoundref refid="structshyft_1_1api_1_1_geo_point_source" prot="public" virt="non-virtual">shyft::api::GeoPointSource</basecompoundref>
     <includes refid="api_8h" local="no">api.h</includes>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="structshyft_1_1api_1_1_radiation_source_1ab39951012b0695eb6b8e6f122dc10887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="structshyft_1_1api_1_1_radiation_source_1aeedcce1f9569ef5892ff6833eed524d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>shyft::api::RadiationSource::RadiationSource</definition>
-        <argsstring>(geo_point p=geo_point(), apoint_ts ts=apoint_ts())</argsstring>
+        <argsstring>()=default</argsstring>
+        <name>RadiationSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structshyft_1_1api_1_1_radiation_source_1a7ff2735f3584d17647978547642c5ebb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>shyft::api::RadiationSource::RadiationSource</definition>
+        <argsstring>(const geo_point &amp;p, const apoint_ts &amp;ts)</argsstring>
         <name>RadiationSource</name>
         <param>
-          <type><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref></type>
+          <type>const <ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref> &amp;</type>
           <declname>p</declname>
-          <defval><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref>()</defval>
         </param>
         <param>
-          <type><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref></type>
+          <type>const <ref refid="structshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref> &amp;</type>
           <declname>ts</declname>
-          <defval><ref refid="classshyft_1_1api_1_1apoint__ts" kindref="compound">apoint_ts</ref>()</defval>
         </param>
         <briefdescription>
         </briefdescription>
@@ -26,7 +37,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="121" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="121" bodyend="122"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="131" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="131" bodyend="132"/>
       </memberdef>
       <memberdef kind="function" id="structshyft_1_1api_1_1_radiation_source_1a6dae8c3e1264ae7bf31662455cfc2fcb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -43,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/api/api.h" line="123" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="123" bodyend="123"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="133" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="133" bodyend="133"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -51,58 +62,67 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="548">
+      <node id="768">
         <label>shyft::api::RadiationSource</label>
         <link refid="structshyft_1_1api_1_1_radiation_source"/>
-        <childnode refid="549" relation="public-inheritance">
+        <childnode refid="769" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="549">
+      <node id="769">
         <label>shyft::api::GeoPointSource</label>
-        <link refid="classshyft_1_1api_1_1_geo_point_source"/>
+        <link refid="structshyft_1_1api_1_1_geo_point_source"/>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="552">
+      <node id="774">
+        <label>string</label>
+      </node>
+      <node id="772">
         <label>shyft::core::geo_point</label>
         <link refid="structshyft_1_1core_1_1geo__point"/>
       </node>
-      <node id="553">
+      <node id="773">
         <label>shyft::api::apoint_ts</label>
-        <link refid="classshyft_1_1api_1_1apoint__ts"/>
+        <link refid="structshyft_1_1api_1_1apoint__ts"/>
       </node>
-      <node id="550">
+      <node id="770">
         <label>shyft::api::RadiationSource</label>
         <link refid="structshyft_1_1api_1_1_radiation_source"/>
-        <childnode refid="551" relation="public-inheritance">
+        <childnode refid="771" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="551">
+      <node id="771">
         <label>shyft::api::GeoPointSource</label>
-        <link refid="classshyft_1_1api_1_1_geo_point_source"/>
-        <childnode refid="552" relation="usage">
+        <link refid="structshyft_1_1api_1_1_geo_point_source"/>
+        <childnode refid="772" relation="usage">
           <edgelabel>mid_point_</edgelabel>
         </childnode>
-        <childnode refid="553" relation="usage">
+        <childnode refid="773" relation="usage">
           <edgelabel>ts</edgelabel>
+        </childnode>
+        <childnode refid="774" relation="usage">
+          <edgelabel>uid</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/sih/projects/shyft/api/api.h" line="120" column="1" bodyfile="/home/sih/projects/shyft/api/api.h" bodystart="120" bodyend="124"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" line="129" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/api/api.h" bodystart="129" bodyend="134"/>
     <listofallmembers>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a57566f194259ecf85bdd7534b23c5ddf" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>geo_point_t</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a7b99424e6cd1257452fe97b67974de18" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>GeoPointSource</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1ad570a067361e065219c30b38b011701f" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>get_ts</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a0523f6e990425466cd88db43264914d0" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>is_equal</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a523b1f737a6ab6eddfafe124569384ab" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>mid_point</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a2d0f3e31ea4f1bb8290b04db3c54887d" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>mid_point_</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a57566f194259ecf85bdd7534b23c5ddf" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>geo_point_t</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a5f6a334f9cac1b8b5760ace8af9878cb" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>GeoPointSource</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a5baa700769a6f4c79272181449f943c1" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>GeoPointSource</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1ad570a067361e065219c30b38b011701f" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>get_ts</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a0523f6e990425466cd88db43264914d0" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>is_equal</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a523b1f737a6ab6eddfafe124569384ab" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>mid_point</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a2d0f3e31ea4f1bb8290b04db3c54887d" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>mid_point_</name></member>
       <member refid="structshyft_1_1api_1_1_radiation_source_1a6dae8c3e1264ae7bf31662455cfc2fcb" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>operator==</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a1bdb1ba3b8bf600e74074fb74c1a5a06" prot="public" virt="non-virtual" ambiguityscope="shyft::api::GeoPointSource::"><scope>shyft::api::RadiationSource</scope><name>operator==</name></member>
-      <member refid="structshyft_1_1api_1_1_radiation_source_1ab39951012b0695eb6b8e6f122dc10887" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>RadiationSource</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a785d8fbaef811ec7b3acb03c339b985e" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>set_ts</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a2acb6776ea986113e2a44b6f80f80248" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>ts</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a8fdd86da565fa7f9a77518be97062920" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>ts_t</name></member>
-      <member refid="classshyft_1_1api_1_1_geo_point_source_1a32dd677daa3a6e8f3fad7857bb0e12fc" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>uid</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a1bdb1ba3b8bf600e74074fb74c1a5a06" prot="public" virt="non-virtual" ambiguityscope="shyft::api::GeoPointSource::"><scope>shyft::api::RadiationSource</scope><name>operator==</name></member>
+      <member refid="structshyft_1_1api_1_1_radiation_source_1aeedcce1f9569ef5892ff6833eed524d8" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>RadiationSource</name></member>
+      <member refid="structshyft_1_1api_1_1_radiation_source_1a7ff2735f3584d17647978547642c5ebb" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>RadiationSource</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a785d8fbaef811ec7b3acb03c339b985e" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>set_ts</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a2acb6776ea986113e2a44b6f80f80248" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>ts</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a8fdd86da565fa7f9a77518be97062920" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>ts_t</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a32dd677daa3a6e8f3fad7857bb0e12fc" prot="public" virt="non-virtual"><scope>shyft::api::RadiationSource</scope><name>uid</name></member>
+      <member refid="structshyft_1_1api_1_1_geo_point_source_1a5ca58a3e8c20fdfa7e00267db7d2703f" prot="public" virt="virtual"><scope>shyft::api::RadiationSource</scope><name>~GeoPointSource</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

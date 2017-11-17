@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['z_5fdistance2',['z_distance2',['../structshyft_1_1core_1_1geo__point.html#af3a9dc4ebc529b919164e18840e5abf3',1,'shyft::core::geo_point']]],
-  ['zero_5fdist_5fcov',['zero_dist_cov',['../namespaceshyft_1_1core_1_1bayesian__kriging_1_1utils.html#a703cd1346c203a00dbbcf46412716339',1,'shyft::core::bayesian_kriging::utils']]],
-  ['zscale',['zscale',['../classshyft_1_1core_1_1bayesian__kriging_1_1const__parameter.html#a9c67127099d6177ae95fec10ea5a7af8',1,'shyft::core::bayesian_kriging::const_parameter::zscale()'],['../classshyft_1_1core_1_1bayesian__kriging_1_1parameter.html#a3667ccd9658e3e29d608430d73b802b3',1,'shyft::core::bayesian_kriging::parameter::zscale()']]],
-  ['zscaled_5fdistance',['zscaled_distance',['../structshyft_1_1core_1_1geo__point.html#ac2220e94a129c55308fc2aa6cd463fb5',1,'shyft::core::geo_point']]],
-  ['zscaled_5fdistance2',['zscaled_distance2',['../structshyft_1_1core_1_1geo__point.html#a69f305c9ff9379bb876c0c1cac44d755',1,'shyft::core::geo_point']]]
+  ['ymdhms',['YMDhms',['../structshyft_1_1core_1_1_y_m_dhms.html#a2a47722a279cfa7a1fc5711c32cd1821',1,'shyft::core::YMDhms::YMDhms()'],['../structshyft_1_1core_1_1_y_m_dhms.html#a24dbd40c200418b92d4b0ba7d16ff509',1,'shyft::core::YMDhms::YMDhms(int Y, int M=1, int D=1, int h=0, int m=0, int s=0)']]],
+  ['ywdhms',['YWdhms',['../structshyft_1_1core_1_1_y_wdhms.html#abf8d7100c25ad4d2b603704c06145368',1,'shyft::core::YWdhms::YWdhms()'],['../structshyft_1_1core_1_1_y_wdhms.html#af6f3afe4eb5947f4ca503c782bc823c0',1,'shyft::core::YWdhms::YWdhms(int iso_year, int iso_week=1, int week_day=1, int hour=0, int minute=0, int second=0)']]]
 ];

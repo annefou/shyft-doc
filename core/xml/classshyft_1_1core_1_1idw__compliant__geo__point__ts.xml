@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="classshyft_1_1core_1_1idw__compliant__geo__point__ts" kind="class" language="C++" prot="public">
     <compoundname>shyft::core::idw_compliant_geo_point_ts</compoundname>
     <includes refid="region__model_8h" local="no">region_model.h</includes>
@@ -26,7 +26,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/region_model.h" line="121" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="121" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="140" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="140" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/region_model.h" line="118" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="118" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="137" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="137" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classshyft_1_1core_1_1idw__compliant__geo__point__ts_1a4cf4fd0edb17e1a3928e6906efddcbb0" prot="private" static="no" mutable="yes">
         <type>TSA</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/region_model.h" line="119" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="119" bodyend="-1"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="138" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="138" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/region_model.h" line="123" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="123" bodyend="123"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="142" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="142" bodyend="142"/>
       </memberdef>
       <memberdef kind="function" id="classshyft_1_1core_1_1idw__compliant__geo__point__ts_1a7525fe5243ba79ebdea048af425f3910" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="structshyft_1_1core_1_1geo__point" kindref="compound">geo_point</ref></type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/region_model.h" line="124" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="124" bodyend="124"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="143" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="143" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="classshyft_1_1core_1_1idw__compliant__geo__point__ts_1a68ec21f9526ccc2042015f2a5eb62c36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>double</type>
@@ -107,13 +107,13 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/sih/projects/shyft/core/region_model.h" line="125" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="125" bodyend="125"/>
+        <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="144" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="144" bodyend="144"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
 <para>the idw_compliant <ref refid="structshyft_1_1core_1_1geo__point__ts" kindref="compound">geo_point_ts</ref> is a special variant,(or you could call it a fix), so that we can feed &apos;data&apos; sources to the IDW routines, and ensure that they execute at maximum speed using time-series accessor suitable (with caching) so that true-average is only computed once for each time-step. This allows the input time-series to have any resolution/timestep, and ensures that the resulting series at the <ref refid="structshyft_1_1core_1_1cell_1a8f54166d30c6eddf077fd3970890d177" kindref="member">cell.env_ts</ref> level are all aligned to the common execution time-axis. </para>    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="note"><para>this class is for local use inside the <ref refid="classshyft_1_1core_1_1region__model_1a68efa98a56f827204d35a81153df7c85" kindref="member">region_model::run_interpolation</ref> step. do not use elsewhere.</para></simplesect>
+<para><simplesect kind="note"><para>this class is for local use inside the <ref refid="classshyft_1_1core_1_1region__model_1aebd851535d5f243857dbd53f6ab5b045" kindref="member">region_model::run_interpolation</ref> step. do not use elsewhere.</para></simplesect>
 This allows us to use direct_accessor in the run_cell processing step <parameterlist kind="templateparam"><parameteritem>
 <parameternamelist>
 <parametername>GPTS</parametername>
@@ -133,11 +133,11 @@ This allows us to use direct_accessor in the run_cell processing step <parameter
 <parametername>TA</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>time-axis <ref refid="namespaceshyft_1_1timeseries_1a96bc98da0406c6f31e004a7c19bc9ae9" kindref="member">shyft::timeseries::timeaxis</ref> that goes into the constructor of TSA object </para></parameterdescription>
+<para>time-axis shyft::time_series::timeaxis that goes into the constructor of TSA object </para></parameterdescription>
 </parameteritem>
 </parameterlist>
 </para>    </detaileddescription>
-    <location file="/home/sih/projects/shyft/core/region_model.h" line="117" column="1" bodyfile="/home/sih/projects/shyft/core/region_model.h" bodystart="117" bodyend="126"/>
+    <location file="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" line="136" column="1" bodyfile="/Data/johnbur/Dropbox/home/Programming/workspace/shyft_workspace/shyft/core/region_model.h" bodystart="136" bodyend="145"/>
     <listofallmembers>
       <member refid="classshyft_1_1core_1_1idw__compliant__geo__point__ts_1a4445cd32a53e0d147488c2235726be5b" prot="public" virt="non-virtual"><scope>shyft::core::idw_compliant_geo_point_ts</scope><name>geo_point_t</name></member>
       <member refid="classshyft_1_1core_1_1idw__compliant__geo__point__ts_1ae49421d6c094ff081d93005f65382ad9" prot="public" virt="non-virtual"><scope>shyft::core::idw_compliant_geo_point_ts</scope><name>idw_compliant_geo_point_ts</name></member>

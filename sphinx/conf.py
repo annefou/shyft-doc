@@ -12,19 +12,29 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
+# required conda install modules in order to build documentation:
+# nbsphinx, intersphinx, sphinx_rtd_theme (optional, but nice),
+# breathe, sphinx
+
 import sys
 import os
 import shutil
 
 
 on_rtd = os.environ.get('READTHEDOCS') == 'True'
+rtd_theme = False
 
 if on_rtd:
     if os.path.exists('notebooks/'):
         shutil.rmtree('notebooks', ignore_errors=True)
     shutil.copytree('../notebooks', 'notebooks')
 else:
-    import sphinx_rtd_theme
+    try:
+        import sphinx_rtd_theme
+        rtd_theme = True
+    except:
+        rtd_theme = False
+        pass
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -70,7 +80,7 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.ipynb']
+source_suffix = ['.rst', '.md', '.ipynb']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -80,7 +90,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Shyft'
-copyright = u'2016, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart'
+copyright = u'2017, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart'
 author = u'Sigbjørn Helset, Ola Skavhaug, John F. Burkhart, and others'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -144,8 +154,10 @@ todo_include_todos = False
 if on_rtd:
     html_theme = 'default'
 else:
-    html_theme = "sphinx_rtd_theme"
-
+    if rtd_theme:
+        html_theme = "sphinx_rtd_theme"
+    else:
+        html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -158,7 +170,7 @@ else:
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
-if not on_rtd:
+if rtd_theme:
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to

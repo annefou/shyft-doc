@@ -6,6 +6,7 @@ var structshyft_1_1core_1_1hbv__stack_1_1response =
     [ "soil_response_t", "structshyft_1_1core_1_1hbv__stack_1_1response.html#af1f6fb46485dc62d557a3b213a75392a", null ],
     [ "tank_response_t", "structshyft_1_1core_1_1hbv__stack_1_1response.html#a436dedbb008c9fd3a30002ad7b237729", null ],
     [ "ae", "structshyft_1_1core_1_1hbv__stack_1_1response.html#aedb3948f99f2e46779c3cf9711eaa2e0", null ],
+    [ "charge_m3s", "structshyft_1_1core_1_1hbv__stack_1_1response.html#a1f2d5b216cf9dc0bfb8bd7b679f21bd4", null ],
     [ "gm_melt_m3s", "structshyft_1_1core_1_1hbv__stack_1_1response.html#a894a472d94d9d9e778645f0e7caf0f3d", null ],
     [ "pt", "structshyft_1_1core_1_1hbv__stack_1_1response.html#aa79ccba92e832afcdd429deff21bee8a", null ],
     [ "snow", "structshyft_1_1core_1_1hbv__stack_1_1response.html#aeb6e831e33f7b4f0ace0f366d6c7d8b3", null ],

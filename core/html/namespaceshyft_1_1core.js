@@ -4,7 +4,6 @@ var namespaceshyft_1_1core =
     [ "bayesian_kriging", "namespaceshyft_1_1core_1_1bayesian__kriging.html", "namespaceshyft_1_1core_1_1bayesian__kriging" ],
     [ "gamma_snow", "namespaceshyft_1_1core_1_1gamma__snow.html", "namespaceshyft_1_1core_1_1gamma__snow" ],
     [ "glacier_melt", "namespaceshyft_1_1core_1_1glacier__melt.html", "namespaceshyft_1_1core_1_1glacier__melt" ],
-    [ "grf", "namespaceshyft_1_1core_1_1grf.html", "namespaceshyft_1_1core_1_1grf" ],
     [ "hbv_actual_evapotranspiration", "namespaceshyft_1_1core_1_1hbv__actual__evapotranspiration.html", "namespaceshyft_1_1core_1_1hbv__actual__evapotranspiration" ],
     [ "hbv_snow", "namespaceshyft_1_1core_1_1hbv__snow.html", "namespaceshyft_1_1core_1_1hbv__snow" ],
     [ "hbv_soil", "namespaceshyft_1_1core_1_1hbv__soil.html", "namespaceshyft_1_1core_1_1hbv__soil" ],
@@ -21,6 +20,7 @@ var namespaceshyft_1_1core =
     [ "pt_gs_k", "namespaceshyft_1_1core_1_1pt__gs__k.html", "namespaceshyft_1_1core_1_1pt__gs__k" ],
     [ "pt_hs_k", "namespaceshyft_1_1core_1_1pt__hs__k.html", "namespaceshyft_1_1core_1_1pt__hs__k" ],
     [ "pt_ss_k", "namespaceshyft_1_1core_1_1pt__ss__k.html", "namespaceshyft_1_1core_1_1pt__ss__k" ],
+    [ "routing", "namespaceshyft_1_1core_1_1routing.html", "namespaceshyft_1_1core_1_1routing" ],
     [ "skaugen", "namespaceshyft_1_1core_1_1skaugen.html", "namespaceshyft_1_1core_1_1skaugen" ],
     [ "time_zone", "namespaceshyft_1_1core_1_1time__zone.html", "namespaceshyft_1_1core_1_1time__zone" ],
     [ "calendar", "structshyft_1_1core_1_1calendar.html", "structshyft_1_1core_1_1calendar" ],
@@ -35,6 +35,8 @@ var namespaceshyft_1_1core =
     [ "land_type_fractions", "structshyft_1_1core_1_1land__type__fractions.html", "structshyft_1_1core_1_1land__type__fractions" ],
     [ "region_environment", "structshyft_1_1core_1_1region__environment.html", "structshyft_1_1core_1_1region__environment" ],
     [ "region_model", "classshyft_1_1core_1_1region__model.html", "classshyft_1_1core_1_1region__model" ],
+    [ "routing_info", "structshyft_1_1core_1_1routing__info.html", "structshyft_1_1core_1_1routing__info" ],
     [ "utcperiod", "structshyft_1_1core_1_1utcperiod.html", "structshyft_1_1core_1_1utcperiod" ],
-    [ "YMDhms", "structshyft_1_1core_1_1_y_m_dhms.html", "structshyft_1_1core_1_1_y_m_dhms" ]
+    [ "YMDhms", "structshyft_1_1core_1_1_y_m_dhms.html", "structshyft_1_1core_1_1_y_m_dhms" ],
+    [ "YWdhms", "structshyft_1_1core_1_1_y_wdhms.html", "structshyft_1_1core_1_1_y_wdhms" ]
 ];
