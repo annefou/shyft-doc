@@ -24,7 +24,7 @@ Documentation
 
 Documentation of Shyft is available at `shyft.readthedocs.io <https://shyft.readthedocs.io>`_ and is under continuous development.
 
-Our primary source of documentation is through this website, though a few recipes remain on the `shyft wiki <https://github.com/statkraft/shyft/wiki>`_.
+Our primary source of documentation is through this website.
 
 
 Contents:

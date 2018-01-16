@@ -19,8 +19,10 @@ a `conda environment <http://conda.pydata.org/docs/using/envs.html#create-an-env
 
 .. code-block:: bash
 
-    conda create --name shyft python=3.6 anaconda
+    conda create --name shyft_env python=3.6 anaconda
 
+Environment Variables
+======================
 
 A few other customizations to the environment will help with your workflow. First, define
 a few ``env_vars`` for the new environment. The easiest way to do this is to find the directory where
@@ -41,9 +43,10 @@ Then edit the ``$HOME/.conda/envs/shyft/etc/conda/activate.d/env_vars.sh`` file 
 .. code-block:: bash
 
     #!/bin/bash
-    SHYFT_WORKSPACE=/path/to_directory_into_which_you_cloned/shyft-repositories
-
-    #SHYFT
+    # point the following to the shyft repositories
+    export SHYFT_WORKSPACE=/path/to_directory_into_which_you_cloned/shyft-repositories
+    # this should point to the shyft-data repository
+    export SHYFT_DATA=$SHYFT_WORKSPACE/shyft-data
     export SHYFT_DEPENDENCIES_DIR=$SHYFT_WORKSPACE/shyft-dependencies
     export LD_LIBRARY_PATH=$SHYFT_DEPENDENCIES_DIR/local/lib
     export PYTHONPATH=$SHYFT_WORKSPACE/shyft
@@ -58,12 +61,14 @@ Next edit the ``$HOME/.conda/envs/shyft/etc/conda/deactivate.d/env_vars.sh`` fil
     unset SHYFT_DEPENDENCIES_DIR
     unset PYTHONPATH
 
+Activate the shyft_env
+=======================
 Now, to build activate the shyft environment and cd to your ``$SHYFT_WORKSPACE`` directory:
 
 .. code-block:: bash
 
     bash
-    source activate shyft
+    source activate shyft_env
     cd $SHYFT_WORKSPACE/shyft
 
 And you should be ready to start :ref:`user-install` or :ref:`contrib-install` of Shyft!

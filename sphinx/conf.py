@@ -90,8 +90,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Shyft'
-copyright = u'2017, Sigbjørn Helset, Ola Skavhaug, John F. Burkhart'
-author = u'Sigbjørn Helset, Ola Skavhaug, John F. Burkhart, and others'
+copyright = u'2017, Sigbjørn Helset, John F. Burkhart, Ola Skavhaug'
+author = u'John F. Burkhart, Sigbjørn Helset, Ola Skavhaug and others'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

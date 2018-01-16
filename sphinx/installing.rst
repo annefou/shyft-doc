@@ -90,7 +90,7 @@ If you are not planning on building Shyft, then the requirements are:
 NOTE: You do not need administrative or root permissions to install Shyft if you select a
 user-writable install location.
 
-.. _build-dependencies:
+.. _build-requirements:
 
 Build Requirements
 --------------------
@@ -119,7 +119,7 @@ or, if you are using conda (see below)::
 
 This should provide you with everything required from Python.
 
-.. build-dependencies:
+.. _build-dependencies:
 
 External Libraries
 -------------------
@@ -134,7 +134,7 @@ Instructions on building these are provided in :ref:`dev-install`.
 
 .. _user-install:
 
-Using a Conda channel to install a pre-built binary
+Binary installation with the sigbjorn conda channel
 =====================================================
 
 If are not yet familiar with Python, we recommend seeing the :ref:`python-install` documentation.
@@ -142,10 +142,13 @@ The simplest way to get started, if you are familiar with conda is to use Sigbjo
 
     conda  create -c sigbjorn -c conda-forge -n shyft python=3.6 pyyaml numpy netcdf4 gdal matplotlib requests nose coverage pip shapely pyproj jupyter pandas shyft
 
-If you have some problems with dependencies you may try to install the
-`latest release <https://github.com/statkraft/shyft/releases>`_ or to follow
-one of the more detailed `Installation Recipes`_.
+.. _releases:
 
+Accessing pre-built binary releases
+-------------------------------------
+
+We maintain a pre-built binary of the `latest release <https://github.com/statkraft/shyft/releases>`_ but
+only for a limited number of platforms. It is recommended to use the conda channel approach.
 
 
 .. _contrib-install:
@@ -168,7 +171,8 @@ following documents:
     git_and_shyft
     install_python
 
-Once you are comfortable with your git configuration, the next steps are to follow the :ref:`dev-install`.
+Once you are comfortable with your git configuration and python installation, the next steps
+        are to follow the :ref:`dev-install`.
 
 .. seealso::
     For **Contributers** it is important to note in the :ref:`dev-install` that we have
@@ -187,8 +191,8 @@ Build Instructions
     these pages.
 
 Developers will also do a :ref:`contrib-install`. However, once you have cloned the repositories, you'll have extra steps
-to build and compile both the Shyft :ref:`build-dependencies` and the C++ core itself.
-Documentation for this is currently available at the Shyft repository. Follow the
+to be sure you have all the :ref:`build-requirements` in place and are able to build the :ref:`build-dependencies`
+before building the C++ core itself. Documentation for this is currently available at the Shyft repository. Follow the
 `Developer Documentation <https://github.com/statkraft/shyft#developer-documentation>`_.
 
 .. contrib-trick:
@@ -198,7 +202,8 @@ A hack for contributers
 
 We are currently working on a more elegant solution, but for the moment, for those who wish to work with the
 Python source code, but do not wish to `build` Shyft, we recommend simply installing the binaries, and then copying
-the appropriate binary files (e.g. ``.so`` or ``.pyd`` files) into the Shyft path.
+the appropriate binary files (e.g. ``.so`` or ``.pyd`` files) into the appropriate shyft path within the repository.
+Make sure you `PYTHONPATH` is pointing to the repository.
 
 
 
@@ -207,12 +212,15 @@ the appropriate binary files (e.g. ``.so`` or ``.pyd`` files) into the Shyft pat
 Installation Recipes
 =====================
 
-If you are completely new to working with git repositories and building code, you do not
-need to compile the Shyft source, and we recommend one of the following recipes:
+.. warning::
 
+    The following may not be up to date
+
+A few installation recipes for specific platforms exist:
 
 * :doc:`Conda Complete Recipe <recipe_conda-complete>`.
 
+* `Build C++ page on the wiki <https://github.com/statkraft/shyft/wiki/BuildCplusplus>`_.
 
 
 
