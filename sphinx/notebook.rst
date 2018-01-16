@@ -5,6 +5,7 @@ Notebooks
     :maxdepth: 1
 
     notebooks/nea-example/run_nea_nidelva
+    notebooks/nea-example/simulation-api
     notebooks/nea-example/advanced_simulation
     notebooks/nea-example/calibrate_nea_nidelva
     notebooks/grid-pp/gridpp_geopoints
