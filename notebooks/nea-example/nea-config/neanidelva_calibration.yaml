@@ -12,7 +12,7 @@ neanidelva:
   target:
   - repository: !!python/name:shyft.repository.netcdf.cf_ts_repository.CFTsRepository
     params:
-      file: ../shyft-data/netcdf/orchestration-testdata/discharge.nc 
+      file: ../shyft-data/netcdf/orchestration-testdata/discharge.nc
       var_type: discharge
     1D_timeseries:
     - catch_id: [1228, 1443, 1726, 2041, 2129, 2195, 2277, 2465, 2718, 3002, 3630, 100010, 100011]
@@ -53,7 +53,7 @@ neanidelva:
 #          s_corr: 1.0
 #          s_var: 1.0
 #          s_bias: 1.0
-    
+
   overrides:
     model:
       model_t: !!python/name:shyft.api.pt_gs_k.PTGSKOptModel
@@ -112,7 +112,7 @@ neanidelva:
     gs.glacier_albedo:
       min: 0.4
       max: 0.4
-    gs.initial_bare_ground_fraction: 
+    gs.initial_bare_ground_fraction:
       min: 0.04
       max: 0.04
     gs.winter_end_day_of_year:
@@ -136,6 +136,9 @@ neanidelva:
     gm.dtf:
        min: 6.0
        max: 6.0
+    gm.direct_response:
+       min: 0
+       max: 1
     routing.velocity:
        min: 0.0
        max: 0.0
