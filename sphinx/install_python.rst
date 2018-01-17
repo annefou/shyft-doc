@@ -22,23 +22,23 @@ a `conda environment <http://conda.pydata.org/docs/using/envs.html#create-an-env
     conda create --name shyft_env python=3.6 anaconda
 
 Environment Variables
-======================
+========================
 
 A few other customizations to the environment will help with your workflow. First, define
 a few ``env_vars`` for the new environment. The easiest way to do this is to find the directory where
-you've created your environment (if you followed above: ``$HOME/.conda/envs/shyft``). Inside that directory
+you've created your environment (if you followed above: ``$HOME/.conda/envs/shyft_env``). Inside that directory
 create the following files:
 
 .. code-block:: bash
 
-    cd $HOME/.conda/envs/shyft
+    cd $HOME/.conda/envs/shyft_env
     mkdir -p ./etc/conda/activate.d
     mkdir -p ./etc/conda/deactivate.d
     touch ./etc/conda/activate.d/env_vars.sh
     touch ./etc/conda/deactivate.d/env_vars.sh
 
 
-Then edit the ``$HOME/.conda/envs/shyft/etc/conda/activate.d/env_vars.sh`` file to include the following environment variables:
+Then edit the ``$HOME/.conda/envs/shyft_env/etc/conda/activate.d/env_vars.sh`` file to include the following environment variables:
 
 .. code-block:: bash
 
@@ -51,7 +51,7 @@ Then edit the ``$HOME/.conda/envs/shyft/etc/conda/activate.d/env_vars.sh`` file 
     export LD_LIBRARY_PATH=$SHYFT_DEPENDENCIES_DIR/local/lib
     export PYTHONPATH=$SHYFT_WORKSPACE/shyft
 
-Next edit the ``$HOME/.conda/envs/shyft/etc/conda/deactivate.d/env_vars.sh`` file to unset the environment variables:
+Next edit the ``$HOME/.conda/envs/shyft_env/etc/conda/deactivate.d/env_vars.sh`` file to unset the environment variables:
 
 .. code-block:: bash
 
@@ -62,7 +62,7 @@ Next edit the ``$HOME/.conda/envs/shyft/etc/conda/deactivate.d/env_vars.sh`` fil
     unset PYTHONPATH
 
 Activate the shyft_env
-=======================
+==========================
 Now, to build activate the shyft environment and cd to your ``$SHYFT_WORKSPACE`` directory:
 
 .. code-block:: bash
