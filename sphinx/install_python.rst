@@ -47,9 +47,13 @@ Then edit the ``$HOME/.conda/envs/shyft_env/etc/conda/activate.d/env_vars.sh`` f
     export SHYFT_WORKSPACE=/path/to_directory_into_which_you_cloned/shyft-repositories
     # this should point to the shyft-data repository
     export SHYFT_DATA=$SHYFT_WORKSPACE/shyft-data
-    export SHYFT_DEPENDENCIES_DIR=$SHYFT_WORKSPACE/shyft-dependencies
     export LD_LIBRARY_PATH=$SHYFT_DEPENDENCIES_DIR/local/lib
     export PYTHONPATH=$SHYFT_WORKSPACE/shyft
+
+    # required when building dependencies
+    export SHYFT_DEPENDENCIES_DIR=$SHYFT_WORKSPACE/shyft-dependencies
+    export CXX="g++-7"
+    export CC="gcc-7"
 
 Next edit the ``$HOME/.conda/envs/shyft_env/etc/conda/deactivate.d/env_vars.sh`` file to unset the environment variables:
 
