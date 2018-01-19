@@ -10,7 +10,7 @@ to create an Anaconda environment. Along with running Shyft, there are several o
 will provide for plotting and visualization of results -- including jupyter for running the tutorial notebooks.
 
 .. note::
-
+ter
     If you prefer a leaner solution, simply use the requirements.txt file included with the repository and a miniconda environment.
 
 Unless you are building from scratch using one of the provided build scripts or would prefer to use an
@@ -64,7 +64,7 @@ Next edit the ``$HOME/.conda/envs/shyft_env/etc/conda/deactivate.d/env_vars.sh``
     #SHYFT
     unset SHYFT_DEPENDENCIES_DIR
     unset PYTHONPATH
-
+1
 Activate the shyft_env
 ==========================
 Now, to build activate the shyft environment and cd to your ``$SHYFT_WORKSPACE`` directory:
