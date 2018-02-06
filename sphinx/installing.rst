@@ -53,13 +53,15 @@ liking, but this is our recommendation:
     You should use this as your main build directory.
 
 ``SHYFT_DEPENDENCIES_DIR``
-    If you plan to follow the :ref:`dev-install` for Shyft, you'll need to build several other
-    libraries (see :ref:`build-dependencies`) we usually keep these all in one place and point
-    to the the ``SHYFT_DEPENDENCIES_DIR`` variable.
+    Optional, only if you know what you are doing, and would have a different working tree strucutre than the
+    recommented relative-path oriented standard approach. :ref:`dev-install` for Shyft.
 
-``SHYFT_DATA``
-    This is a convenience variable. It should point to the `shyft-data <https://github.com/statraft/shyft-data>`_
-    repository in order to run the tests.
+``SHYFTDATA_override``
+    If you install prebuilt shyft, conda install -c sigbjorn shyft, -then you
+    need to set this variable to run the demo-notebooks that resides in the shyft-doc/notebooks directory.
+    It should point to the `shyft-data <https://github.com/statraft/shyft-data>`_
+    repository in order to run the tests. Default values  in the shyft code uses the shyft-data directory parallel 
+    to the shyft source code directory. 
 
 .. _run-dependencies:
 
@@ -74,7 +76,7 @@ If you are not planning on building Shyft, then the requirements are:
 - Python >= 3.6
 - Python libraries:
     - pyyaml
-    - numpy
+    - numpy=1.13
     - netcdf4
     - gdal
     - matplotlib
@@ -101,10 +103,10 @@ leave to the user to be sure are met, as these are quite typical:
 
 * A C++11 compiler (gcc-6 or higher)
 * The BLAS and LAPACK libraries (development packages)
-* A Python 3 (3.5 or higher) interpreter
+* A Python 3 (3.6 or higher) interpreter
 * The NumPy package (>= 1.8.0)
 * The netCDF4 package (>= 1.2.1)
-* The CMake building tool (2.8.7 or higher)
+* The CMake building tool (3.4 or higher)
 
 In addition, a series of Python packages are needed mainly for running the tests. These
 can be easily installed via::
@@ -130,6 +132,9 @@ you need to be sure you have installed the ``python-dev`` package and ``locate P
 returns the header file. If not, you'll need to be sure to point the ``LD_LIBRARY_PATH``
 set correctly.
 
+Notice that the shyft/build_support/build_dependencies.sh provides a one-liner complete setup,
+including miniconda/python, dependencies build etc.
+
 Instructions on building these are provided in :ref:`dev-install`.
 
 .. _user-install:
@@ -140,16 +145,14 @@ Binary installation with the sigbjorn conda channel
 If are not yet familiar with Python, we recommend seeing the :ref:`python-install` documentation.
 The simplest way to get started, if you are familiar with conda is to use Sigbjorn's channel::
 
-    conda  create -c sigbjorn -c conda-forge -n shyft python=3.6 pyyaml numpy netcdf4 gdal matplotlib requests nose coverage pip shapely pyproj jupyter pandas shyft
+    conda  create -c sigbjorn -c conda-forge -n shyft python=3.6 pyyaml numpy=1.13 netcdf4 gdal matplotlib requests nose coverage pip shapely pyproj jupyter pandas shyft scipy
 
 .. _releases:
 
 Accessing pre-built binary releases
 -------------------------------------
 
-We maintain a pre-built binary of the `latest release <https://github.com/statkraft/shyft/releases>`_ but
-only for a limited number of platforms. It is recommended to use the conda channel approach.
-
+Ref to the anaconda.org/sigbjorn channel for prebuilt windows and linxu packages.
 
 .. _contrib-install:
 
