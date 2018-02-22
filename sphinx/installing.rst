@@ -56,7 +56,7 @@ liking, but this is our recommendation:
     Optional, only if you know what you are doing, and would have a different working tree strucutre than the
     recommented relative-path oriented standard approach. :ref:`dev-install` for Shyft.
 
-``SHYFTDATA_override``
+``SHYFT_DATA``
     If you install prebuilt shyft, conda install -c sigbjorn shyft, -then you
     need to set this variable to run the demo-notebooks that resides in the shyft-doc/notebooks directory.
     It should point to the `shyft-data <https://github.com/statraft/shyft-data>`_
