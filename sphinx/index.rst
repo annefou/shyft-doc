@@ -38,7 +38,6 @@ Contents:
     config_files
 
 
-
 Indices and tables
 -------------------
 
