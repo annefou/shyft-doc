@@ -20,9 +20,7 @@ Shyft is developed for both Unix-like and Windows operating systems, though we
 have a strong preference for linux.
 
 
-.. contents::
-
-    :caption: Contents
+.. contents:: Contents
     :local:
     :depth: 1
 
@@ -60,8 +58,8 @@ liking, but this is our recommendation:
     If you install prebuilt shyft, conda install -c sigbjorn shyft, -then you
     need to set this variable to run the demo-notebooks that resides in the shyft-doc/notebooks directory.
     It should point to the `shyft-data <https://github.com/statraft/shyft-data>`_
-    repository in order to run the tests. Default values  in the shyft code uses the shyft-data directory parallel 
-    to the shyft source code directory. 
+    repository in order to run the tests. Default values  in the shyft code uses the shyft-data directory parallel
+    to the shyft source code directory.
 
 .. _run-dependencies:
 

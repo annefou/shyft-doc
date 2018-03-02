@@ -17,13 +17,5 @@ Module contents
 
 .. automodule:: shyft.api
     :members:
-    :inherited-members:
-    :undoc-members:
-    :show-inheritance:
-
-
-.. automodule:: shyft.api._api
-    :members:
-    :inherited-members:
     :undoc-members:
     :show-inheritance:

@@ -9,7 +9,7 @@ In the platform specific subsections you find how to install the standard Python
 A pre-built shyft-distro is available on anaconda channel sigbjorn, https://anaconda.org/sigbjorn, and the steps below describes how to get up and running.
 
 Windows 7, 8, 10 (x64)
-=====================
+=======================
 
 This recipe takes about 15-30 minutes to complete if everything flows ok.
 
@@ -20,60 +20,69 @@ This recipe takes about 15-30 minutes to complete if everything flows ok.
    source: https://git-scm.com/download
 
    Optional info and more readings (not needed initially for install of
-   shyft doc&demo)
+   shyft doc & demos)
 
    -  https://git-scm.com/book/en/v2/Getting-Started-Git-Basics
    -  https://www.youtube.com/watch?v=HVsySz-h9r4
 
 2. Copy/clone the needed shyft-doc and shyft-data for demo and learning
 
-We do this in git-bash, you will find this on the command menu after
-install git.
+    We do this in git-bash, you will find this on the command menu after
+    install git.
 
-Usually it is installe into
-"C::raw-latex:`\Program `Files:raw-latex:`\Git`:raw-latex:`\git`-bash.exe"
+    Usually it is installed into::
 
-(Win-R:"C::raw-latex:`\Program `Files:raw-latex:`\Git`:raw-latex:`\git`-bash.exe")
+        "C:\Program Files\Git\git-bash.exe"
 
-create C::raw-latex:`\workspace`:raw-latex:`\shyft `or similar as
-workspace, in git bash shell
-``bash    mkdir /c/workspace/shyft    cd /c/workspace/shyft    git clone https://github.com/statkraft/shyft-data    git clone https://github.com/statkraft/shyft-doc``
+
+    create `"C:\\workspace\\shyft"` or similar as workspace, in git bash shell::
+
+        bash
+        mkdir /c/workspace/shyft
+        cd /c/workspace/shyft
+        git clone https://github.com/statkraft/shyft-data
+        git clone https://github.com/statkraft/shyft-doc
 
 3. Install ms c++ vs 2017 redist runtime needed for shyft
 
-source: https://go.microsoft.com/fwlink/?LinkId=746572
+    source: https://go.microsoft.com/fwlink/?LinkId=746572
 
 4. Install miniconda
 
-source: https://conda.io/miniconda.html
+    source: https://conda.io/miniconda.html
 
-select 64 bit installer (windows), download and execute.
+    select 64 bit installer (windows), download and execute.
 
-install to standard location (e.g.: C::raw-latex:`\Miniconda`3)
+    install to standard location (e.g.: C::raw-latex:`\Miniconda`3)
 
-more info on conda:
+    more info on conda:
 
--  short: https://conda.io/docs/commands.html#conda-environment-commands
--  complete: https://conda.io/docs/user-guide/index.html
+    -  short: https://conda.io/docs/commands.html#conda-environment-commands
+    -  complete: https://conda.io/docs/user-guide/index.html
 
 5. Create and install shyft environment
 
-start cmd-window (Win-R:cmd )
+    start cmd-window (Win-R:cmd )::
 
-``cmd    C:\Miniconda3\Scripts\activate    conda  create -c sigbjorn -c conda-forge -n shyft python=3.6 pyyaml numpy netcdf4 gdal matplotlib requests nose coverage pip shapely pyproj jupyter pandas shyft``
+        cmd C:\Miniconda3\Scripts\activate
+        conda create -c sigbjorn -c conda-forge -n shyft python=3.6 pyyaml numpy netcdf4 gdal matplotlib requests nose coverage pip shapely pyproj jupyter pandas shyft
 
 6. Use the newly created shyft -environment
 
-start cmd-window (Win-R:cmd)
-``cmd    C:\Miniconda3\Scripts\activate shyft    set SHYFTDATA=C:\workspace\shyft    cd C:\workspace\shyft\shyft-doc    jupyter notebook``
+    start cmd-window (Win-R:cmd)::
+
+        cmd C:\Miniconda3\Scripts\activate shyft
+        set SHYFTDATA=C:\workspace\shyft
+        cd C:\workspace\shyft\shyft-doc
+        jupyter notebook
 
 7. Developing and Scripting with shyft We strongly recommend using
    pycharm for this.
 
-source:
-https://www.jetbrains.com/pycharm/download/?fromIDE=#section=windows
+    source: https://www.jetbrains.com/pycharm/download/?fromIDE=#section=windows
 
-The open-source free community version is Ok.
+    The open-source free community version is Ok.
+
 
 Ubuntu 15.10 (x64)
 =====================
@@ -87,7 +96,7 @@ privilegies, so you should be able to run the software on your local
 user account.
 
 shyft\_ws.sh: Script to establish a complete pre-built **s**\ hyft **w**\ ork\ **s**\ pace ~/sws
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------------------------------------------------
 
 ::
 
@@ -144,7 +153,7 @@ shyft\_ws.sh: Script to establish a complete pre-built **s**\ hyft **w**\ ork\ *
     echo Done!
 
 shyft\_env.sh: Script to enable the shyft workspace
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------
 
 The script below should be executed to enable the above established
 workspace. You can source the script (source ./shyft\_env.sh)
@@ -167,7 +176,7 @@ The following sections describes problems and solutions that we
 currently know.
 
 Ubuntu/Anaconda libgfortran GFORTAN\_4 not found
-------------------------------------------------
+--------------------------------------------------
 
 As of 2016.03.08, the latest Anaconda distro seems to have it's own
 libgfortran, one step ahead of system libs.

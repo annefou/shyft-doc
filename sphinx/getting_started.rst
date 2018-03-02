@@ -8,16 +8,23 @@ As much of the core functionality is written in C++, there may be some caveats a
 
 Tutorials and notebooks are provided as the main tool for introducing the different elements of the Shyft framework. These are under continuous development, and we seek user input. If you are interested to `contribute <https://github.com/statkraft/shyft-doc#contributing>`_ a notebook, please see the main `shyft-doc <https://github.com/statkraft/shyft-doc>`_ repository for instructions.
 
+**IMPORTANT**: read and understand the following guidelines before working with the tutorials.
+
 .. toctree::
    :glob:
    :maxdepth: 1
 
    help
+   shyft_env
 
-Running a small example
-=====================
+Notebook tutorials
+========================
 
 The best way to get started with Shyft is to work on some of the notebooks that we have developed.
+To accomplish this it is recommended to checkout the `shyft-doc <https://github.com/statkraft/shyft-doc>`_ repository
+and work using the `Jupyter <https://jupyter.org>`_ notebooks contained within the `notebooks` folder.
+
+They are available here in static form:
 
 .. toctree::
    :maxdepth: 2

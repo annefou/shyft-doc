@@ -12,8 +12,7 @@ Git is a version control tool that is becoming a standard in software developmen
 * to distribute official and bleeding edge releases of the model source code.
 
 
-.. contents::
-    :caption: Contents
+.. contents:: Contents
     :local:
     :depth: 1
 
@@ -199,8 +198,7 @@ the Shyft administrator has likely given you the name of the appropriate
 branch to use. Alternatively, you may want to create a new branch (e.g.,
 if you are the first person to work on a new feature or bug fix).
 
-.. For
-more information about the branches in the Shyft archive, see the `Shyft Git
+For more information about the branches in the Shyft archive, see the `Shyft Git
 Workflow Wiki <https://github.com/UW-Hydro/Shyft/wiki/Git-Workflow>`__.
 
 For each branch, merge any changes from the truth repo into your local
