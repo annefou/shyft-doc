@@ -25,8 +25,6 @@ The best way to get started with Shyft is to work on some of the notebooks that 
 To accomplish this it is recommended to checkout the `shyft-doc <https://github.com/statkraft/shyft-doc>`_ repository
 and work using the `Jupyter <https://jupyter.org>`_ notebooks contained within the `notebooks` folder.
 
-They are available here in static form:
-
 .. toctree::
    :maxdepth: 2
 

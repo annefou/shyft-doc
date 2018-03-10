@@ -3,7 +3,7 @@ Shyft is designed to make use of standard help functionality in Python. You are 
 
 
 ### Is the help text unfamiliar?
-Look at the following examples. Note that in some cases, the doc strings are generated directly from the C++ underlying code, so you will see full C++ call signatures. If you use `help(shyft_object)` and get something that is looks a bit overwhelming or unfamiliar, just realize that the methods are generally showing how to call a method and what it returns. If you see `(object)arg1` or `(object)self` as a first argument to a method, that simply means `the class itself is the first argument <https://www.programiz.com/article/python-self-why>`_.
+Look at the following examples. Note that in some cases, the doc strings are generated directly from the C++ underlying code, so you will see full C++ call signatures. If you use `help(shyft_object)` and get something that is looks a bit overwhelming or unfamiliar, just realize that the methods are generally showing how to call a method and what it returns. If you see `(object)arg1` or `(object)self` as a first argument to a method, that simply means [the class itself is the first argument](https://www.programiz.com/article/python-self-why).
 
 If you are not familiar with C++ one aspect to be aware of is [Overloading](https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm). Due to this, when you print `help()` for a `shyft.api` function you may see multiple `_init_` definitions (e.g. call structures). You'll have to use logic to reason which is applicable to your case.
 
