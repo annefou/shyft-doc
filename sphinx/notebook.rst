@@ -22,8 +22,7 @@ own data.
     :maxdepth: 1
 
     notebooks/nea-example/simulation-configured
-    notebooks/nea-example/calibrate_nea_nidelva
-
+    notebooks/nea-example/calibration-configured
 
 Some more advanced tools within Shyft
 --------------------------------------------
