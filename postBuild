@@ -3,5 +3,7 @@
 
 export PREFIX="$(python -c 'import sys; print(sys.prefix)')"
 
-git clone https://github.com/statkraft/shyft-doc.git
+mkdir shyft-doc
+
+mv notebooks shyft-doc/.
 git clone https://github.com/statkraft/shyft-data.git
