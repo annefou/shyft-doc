@@ -15,6 +15,10 @@ If you are reading this page, it assumes you are interested in contributing to t
 
 [Shyft Documentation](http://shyft.readthedocs.io/)
 
+Click the badge below to try out our Shyft jupyter dashboards:
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/annefou/shyft-doc/master)
+
 
 CONTRIBUTING
 ============
