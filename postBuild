@@ -3,7 +3,5 @@
 
 export PREFIX="$(python -c 'import sys; print(sys.prefix)')"
 
-work="$PWD"
-cd ..
+git clone https://github.com/statkraft/shyft-doc.git
 git clone https://github.com/statkraft/shyft-data.git
-cd $work
